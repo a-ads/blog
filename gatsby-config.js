@@ -7,6 +7,7 @@ module.exports = {
         path: `${__dirname}/blog`,
         name: "blog",
       },
-    }
+    },
+    'gatsby-plugin-sass'
   ]
 }

@@ -1,0 +1,17 @@
+a.c-tag {
+  display: inline-block;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: 600;
+  color: $color-gray-1;
+  line-height: 22px;
+  padding: 10px 24px;
+  background-color: $color-gray-5;
+  border-radius: 21px;
+  font-family: $font-1;
+}
+
+a.c-tag:hover {
+  text-decoration: none;
+  background-color: $color-gray-6;
+}

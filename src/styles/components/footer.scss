@@ -1,0 +1,105 @@
+.c-footer {
+  background-color: $color-gray-3;
+  
+  .c-footer__container {
+    height: 82px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    @include breakpoint(tablet) {
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    @include breakpoint(phone) {
+      height: auto;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      align-items: flex-start;
+    }
+  }
+
+  .c-footer__copyright {
+    color: $color-gray-1;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    flex-grow: 2;
+    flex-basis: 0;
+    @include breakpoint(phone) {
+      order: 1;
+      font-size: 14px;
+      line-height: 19px;
+      white-space: nowrap;
+      margin-bottom: 10px;
+    }
+  }
+
+  .c-footer__links {
+    font-size: 0;
+    flex-grow: 2;
+    flex-basis: 0;
+    text-align: right;
+    @include breakpoint(phone) {
+      order: 2;
+      white-space: nowrap;
+    }
+  }
+
+  .c-footer__links a {
+    color: $color-white-1;
+    text-decoration: none;
+    font-size: 16px;
+    @include breakpoint(phone) {
+      font-size: 14px;
+      line-height: 19px;
+    }
+  }
+
+  .c-footer__links a:hover {
+    text-decoration: underline;
+  }
+
+  .c-footer__links a + a {
+    margin-left: 40px;
+    @include breakpoint(tablet) {
+      margin-left: 20px;
+    }
+    @include breakpoint(phone) {
+      margin-left: 11px;
+    }
+  }
+
+  .c-footer__social-buttons {
+    font-size: 0;
+    @include breakpoint(phone) {
+      order: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+  }
+
+  .c-footer__social-buttons a {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    font-size: 0;
+  }
+
+  .c-footer__social-buttons a + a {
+    margin-left: 30px;
+    @include breakpoint(tablet) {
+      margin-left: 20px;
+    }
+  }
+
+  .c-footer__social-buttons img {
+    width: 100%;
+    height: 100%;
+  }
+}

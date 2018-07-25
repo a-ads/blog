@@ -1,0 +1,49 @@
+.c-404 {
+  padding-top: 60px;
+  @include breakpoint(phone) {
+    padding-top: 26px;
+  }
+
+  .c-404__pic {
+    margin-bottom: 20px;
+    @include breakpoint(phone) {
+      max-width: 336px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+    }
+  }
+
+  .c-404__pic img {
+    width: 255px;
+    @include breakpoint(phone) {
+      width: 159px;
+    }
+  }
+
+  .c-404__title {
+    margin-bottom: 20px;
+    @include breakpoint(phone) {
+      max-width: 336px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+    }
+  }
+
+  .c-404__meanwhile {
+    margin-bottom: -6px;
+    @include breakpoint(phone) {
+      max-width: 336px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 18px;
+      line-height: 1.89;
+      margin-bottom: 0;
+    }
+  }
+
+  .l-card-group .l-card-group__card-container {
+    padding-bottom: 60px;
+  }
+}

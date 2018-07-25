@@ -1,0 +1,54 @@
+.l-card-group {
+  .l-card-group__card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 36px;
+    border-bottom: 1px solid rgba(38, 51, 56, 0.2);
+    @include breakpoint(tablet) {
+      border-bottom: none;
+      padding-bottom: 32px;
+    }
+    @include breakpoint(phone) {
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 20px;
+    }
+  }
+
+  .l-card-group__pagination-container {
+    font-size: 0;
+    padding: 37px 0 36px 0;
+    @include breakpoint(tablet) {
+      padding-top: 0;
+      padding-bottom: 20px;
+    }
+    @include breakpoint(phone) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  .c-card {
+    margin-top: 36px;
+    @include breakpoint(phone) {
+      margin-top: 20px;
+    }
+
+  }
+
+}
+
+.l-card-group.l-card-group--desktop {
+  @include breakpoint(tablet) {
+    display: none;
+  }
+}
+
+.l-card-group.l-card-group--mobile {
+  display: none;
+  @include breakpoint(tablet) {
+    display: block;
+  }
+}

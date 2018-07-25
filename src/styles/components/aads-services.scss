@@ -1,0 +1,95 @@
+.c-aads-services {
+  background-color: $color-gray-5;
+  padding: 60px 0;
+  @include breakpoint(phone) {
+    background-color: $color-white-1;
+    padding: 0;
+  }
+
+  .c-aads-services__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @include breakpoint(phone) {
+      flex-direction: column;
+      align-items: center;
+    } 
+  }
+
+  .c-aads-services__item {
+    width: 552px;
+    background-color: $color-white-1;
+    text-align: center;
+    padding: 40px 82px 50px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    @include breakpoint(tablet) {
+      width: 356px;
+      padding: 20px 20px 22px;
+    }
+    @include breakpoint(phone) {
+      width: 100%;
+      max-width: 336px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .c-aads-services__item-pic {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 0;
+    width: 128px;
+    @include breakpoint(tablet) {
+      margin-bottom: 0;
+    }
+    
+    img {
+      width: 100%;
+    }
+  }
+
+  .c-aads-services__item-title {
+    font-family: $font-2;
+    margin-bottom: 10px;
+  }
+
+  .c-aads-services__item-descr {
+    margin-bottom: 30px;
+    @include breakpoint(tablet) {
+      font-size: 16px;
+      line-height: 1.88;
+    }
+    @include breakpoint(phone) {
+      margin-bottom: 20px;
+    }
+  }
+
+  .c-aads-services__item-btn {
+    min-width: 310px;
+    background-color: $color-blue-1;
+    font-family: $font-2;
+    color: $color-white-1;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 23px 0 19px 0;
+    border-radius: 5px;
+    @include breakpoint(tablet) {
+      min-width: auto;
+      width: 100%;
+    }
+    @include breakpoint(phone) {
+      font-size: 20px;
+      line-height: 20px;
+      padding: 17px 0 17px 0;
+    }
+  }
+
+  .c-aads-services__item-btn:hover {
+    text-decoration: none;
+  }
+
+}

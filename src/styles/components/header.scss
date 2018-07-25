@@ -1,0 +1,236 @@
+.c-header {
+  background-color: $color-white-1;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.13);
+  position: relative;
+  z-index: 20;
+  height: 210px;
+  overflow: auto;
+  @include breakpoint(tablet) {
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  &.--is-dropdown-menu-open {
+    height: 100%;
+  }
+  
+
+  .c-header__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: $color-white-1;
+    @include breakpoint(tablet) {
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+      height: 90px;
+    }
+    @include breakpoint(phone) {
+      height: 78px;
+    }
+  }
+
+  .c-header__container.c-header__container--desktop {
+    @include breakpoint(tablet) {
+      display: none;
+    }
+  }
+
+  .c-header__container.c-header__container--mobile {
+    display: none;
+    @include breakpoint(tablet) {
+      display: flex;
+    }
+  }
+
+  .c-header__logo {
+    margin-top: 46px;
+    @include breakpoint(tablet) {
+      margin-top: 24px;
+    }
+    @include breakpoint(phone) {
+      margin-top: 23px;
+    }
+  }
+
+  .c-header__logo img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .c-header__logo__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .c-header__logo__part-1 {
+    font-size: 0;
+    width: 73px;
+    height: 56px;
+    @include breakpoint(tablet) {
+      width: 55px;
+      height: 42px;
+    }
+    @include breakpoint(phone) {
+      width: 42px;
+      height: 32px;
+    }
+  }
+
+  .c-header__logo__part-2 {
+    font-size: 0;
+    margin-left: 16px;
+    width: 222px;
+    height: 23px;
+  }
+
+  .c-subscribe {
+    margin-top: 46px;
+    @include breakpoint(tablet) {
+      margin-top: 0;
+    }
+  }
+  
+  .c-search {
+    display: none;
+    margin-top: 42px;
+    @include breakpoint(tablet) {
+      display: block;
+      margin-top: 0;
+    }
+
+    // .c-search__close {
+    //   @include breakpoint(tablet) {
+    //     display: none;
+    //   }
+    // }
+  }
+
+  .c-header__burger {
+    display: none;
+    width: 37px;
+    height: 29px;
+    background-image: url('/images/burger-icon.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    margin-top: 31px;
+    @include breakpoint(tablet) {
+      display: block;
+    }
+    @include breakpoint(phone) {
+      width: 32px;
+      height: 28px;
+      margin-top: 25px;
+    }
+  }
+
+  .c-header__menu {
+    width: 100%;
+    margin-top: 55px;
+    @include breakpoint(tablet) {
+      margin-top: 40px;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      @include breakpoint(tablet) {
+        display: block;
+      }
+    }
+
+    ul li {
+      font-size: 0;
+      line-height: 0;
+      @include breakpoint(tablet) {
+        margin-bottom: 40px;
+      }
+      @include breakpoint(tablet) {
+        margin-bottom: 30px;
+      }
+    }
+
+    ul li a {
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.28;
+      color: $color-black-2;
+      @include breakpoint(tablet) {
+        font-size: 28px;
+        line-height: normal;
+      }
+      @include breakpoint(phone) {
+        font-size: 20px;
+        line-height: 27px;
+      }
+    }
+
+    ul li a:hover {
+      text-decoration: underline;
+    }
+
+
+    ul li.--search-icon a {
+      font-size: 0;
+    }
+
+    ul li.--search-icon img{
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .c-header__dropdown-menu {
+    width: 100%;
+    background-color: $color-white-1;
+    display: none;
+  }
+
+  .c-header__dropdown-menu.--is-active {
+    @include breakpoint(tablet) {
+      display: block;
+    }
+  }
+
+  .c-header__dropdown-menu .c-subscribe.c-subscribe--mobile {
+    margin: 0 -20px;
+    
+    .c-subscribe__title {
+      font-size: 20px;
+      font-family: $font-1;
+      line-height: 1.85;
+      color: $color-black-2;
+      margin-bottom: 10px;
+      line-height: 1.85;
+    }
+    
+    .c-subscribe__wrapper {
+      padding: 30px 20px;
+      background-color: $color-gray-5;
+      border-radius: 0;
+      box-shadow: none;
+      @include breakpoint(phone) {
+        padding: 20px 20px;
+        margin-left: 0;
+        margin-right: 0;
+        max-width: none;
+      }
+    }
+  }
+
+  .c-header__dropdown-menu-container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

@@ -1,0 +1,40 @@
+.c-pagination {
+  display: inline-block;
+  font-family: $font-1;
+  font-size: 0;
+
+  a {
+    float: left;
+    font-size: 16px;
+    color: $color-gray-1;
+    border: 1px solid $color-gray-2;
+    border-radius: 4px;
+    line-height: 31px;
+    max-height: 31px;
+    min-width: 31px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  a:first-child {
+    color: $color-blue-1;
+  }
+
+  a:last-child {
+    color: $color-blue-1;
+  }
+
+  a + a {
+    margin-left: 8px;
+  }
+
+  a.--active {
+    background-color: $color-blue-1;
+    border-color: $color-blue-1;
+    color: $color-white-1;
+  }
+
+  a.--elipsis {
+    border-color: transparent;
+  }
+}

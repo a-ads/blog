@@ -1,0 +1,45 @@
+.c-search-result {
+  padding-top: 60px;
+  min-height: 730px;
+  @include breakpoint(phone) {
+    padding-top: 16px;
+  }
+
+  .c-search-result__title {
+    font-weight: 400;
+    margin-bottom: 10px;
+    //font-family: $font-1;
+    @include breakpoint(phone) {
+      line-height: 1.7;
+      max-width: 336px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+  }
+
+  .c-search-result__query {
+    margin-bottom: 24px;
+    //font-family: $font-1;
+    @include breakpoint(phone) {
+      margin-bottom: 0;
+      line-height: 1.7;
+      max-width: 336px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 20px;
+    }
+  }
+
+  .c-search-result__sorry {
+    margin-top: -4px;
+    @include breakpoint(phone) {
+      line-height: 1.75;
+      margin-top: 3px;
+      max-width: 336px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}

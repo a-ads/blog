@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: $color-black-1;
+  font-family: $font-1;
+  font-size: 20px;
+}
+
+h1, .h1-like {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: normal;
+  font-family: $font-2;
+  margin: 0;
+  padding: 0;
+  @include breakpoint(phone) {
+    font-size: 28px;
+    line-height: 1.39;
+  }
+}
+
+h2, .h2-like {
+  font-size: 32px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: $color-black-2;
+  font-family: $font-1;
+  @include breakpoint(phone) {
+    font-size: 20px;
+    line-height: 1.7;
+  }
+}
+
+h3, .h3-like {
+  font-size: 28px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: $color-black-2;
+  font-family: $font-1;
+  @include breakpoint(phone) {
+    font-size: 18px;
+    line-height: 1.78;
+    font-weight: bold;
+  }
+}
+
+h4, h5, h6 {
+  font-size: 20px;
+  line-height: 38px;
+  font-family: $font-1;
+  color: $color-black-2;
+  font-weight: bold;
+  @include breakpoint(phone) {
+    font-size: 16px;
+    line-height: 2.13;
+  }
+}
+
+p {
+  font-size: 20px;
+  line-height: 38px;
+  font-family: $font-1;
+  color: $color-black-2;
+  @include breakpoint(phone) {
+    font-size: 16px;
+    line-height: 2.13;
+  }
+}
+
+li {
+  font-size: 20px;
+  line-height: 38px;
+  font-family: $font-1;
+  color: $color-black-2;
+  @include breakpoint(phone) {
+    font-size: 16px;
+    line-height: 2.13;
+  }
+}
+
+ol {
+  counter-reset: item;
+
+  li { 
+    display: block; 
+    padding-left: 58px;
+    position: relative;
+    @include breakpoint(phone) {
+      padding-left: 24px;
+    }
+  }
+
+  li:before {
+    content: counter(item) ". ";
+    counter-increment: item;
+    color: $color-blue-1;
+    position: absolute;
+    text-align: right;
+    width: 36px;
+    left: 4px;
+    @include breakpoint(phone) {
+      width: 30px;
+      left: -16px;
+      //margin-left: -24px;
+    }
+  }
+}
+
+a {
+  color: $color-blue-1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.is-hidden {
+  display: none;
+}
+
+input[type="text"] {
+  border-radius: 0;
+}
