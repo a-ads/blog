@@ -28,7 +28,7 @@ export default class extends React.Component {
         <div className='l-card-group__card-container l-container'>
           {articlesPreview}
         </div>
-        <div class="l-card-group__pagination-container l-container">
+        <div className='l-card-group__pagination-container l-container'>
           <Pagination />
         </div>
       </div>

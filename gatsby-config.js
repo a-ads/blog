@@ -1,4 +1,7 @@
 module.exports = {
+  siteMetadata: {
+    baseTitle: 'Test title'
+  },
   plugins: [
     'gatsby-plugin-netlify-cms',
     {
@@ -8,6 +11,7 @@ module.exports = {
         name: "blog",
       },
     },
-    'gatsby-plugin-sass'
+    'gatsby-plugin-sass',
+    'gatsby-plugin-react-helmet'
   ]
 }

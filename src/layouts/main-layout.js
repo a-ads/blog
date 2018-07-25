@@ -1,15 +1,30 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 
 import Header from '../components/header.js'
 import Footer from '../components/footer.js'
 import '../styles/main.scss'
 
-export default (props) => (
+export default ({ children, data }) => (
   <div>
+    {console.log(data)}
+    <Helmet>
+      <title></title>
+    </Helmet>
     <Header />
     <div className='l-body'>
-      {props.children}
+      {children}
     </div>
     <Footer />
   </div>
 )
+
+export const query = graphql`
+  query LayoutQuery {
+    site {
+      siteMetadata {
+        baseTitle
+      }
+    }
+  }
+`
