@@ -13,14 +13,8 @@ module.exports = {
         name: "blog",
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/`,
-        name: "src",
-      },
-    },
     'gatsby-plugin-sass',
-    'gatsby-plugin-react-helmet'
+    'gatsby-plugin-react-helmet',
+    'gatsby-transformer-remark',
   ]
 }
