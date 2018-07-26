@@ -1,6 +1,6 @@
 import React from 'react'
 
-import MainLayout from '../layouts/main-layout'
+import MainLayout from '../layouts/index'
 import Jumbotron from '../components/jumbotron'
 import Card from '../components/card'
 import AadsServices from '../components/aads-services'
@@ -60,7 +60,7 @@ export default class extends React.Component {
     const { title } = this.props.data.site.siteMetadata
 
     return (
-      <MainLayout>
+      <div>
         <Helmet>
           <title>{title}</title>
         </Helmet>
@@ -71,7 +71,7 @@ export default class extends React.Component {
           <Subscribe mobile />
         </div>
         <AadsServices />
-      </MainLayout>
+      </div>
     )
   }
 }

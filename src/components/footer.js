@@ -9,7 +9,7 @@ export default () => (
         <a href='#'><img src='/images/twitter.svg' alt=''/></a>
         <a href='#'><img src='/images/medium.svg' alt=''/></a>
         <a href='#'><img src='/images/reddit.svg' alt=''/></a>
-        <a href='#'><img src='images/btc.svg' alt=''/></a>
+        <a href='#'><img src='/images/btc.svg' alt=''/></a>
       </div>
       <div className='c-footer__links'><a href='#'>About A-ADS</a><a href='#'>Contacts</a></div>
     </div>
