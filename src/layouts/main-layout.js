@@ -1,5 +1,4 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 
 import Header from '../components/header.js'
 import Footer from '../components/footer.js'
@@ -7,10 +6,6 @@ import '../styles/main.scss'
 
 export default ({ children, data }) => (
   <div>
-    {console.log(data)}
-    <Helmet>
-      <title></title>
-    </Helmet>
     <Header />
     <div className='l-body'>
       {children}
@@ -20,10 +15,10 @@ export default ({ children, data }) => (
 )
 
 export const query = graphql`
-  query LayoutQuery {
+  query IndexQuery {
     site {
       siteMetadata {
-        baseTitle
+        title
       }
     }
   }

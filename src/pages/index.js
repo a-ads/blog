@@ -6,6 +6,7 @@ import Card from '../components/card'
 import AadsServices from '../components/aads-services'
 import Pagination from '../components/pagination'
 import Subscribe from '../components/subscribe'
+import Helmet from 'react-helmet'
 
 export default class extends React.Component {
   constructor(props) {
@@ -56,8 +57,13 @@ export default class extends React.Component {
   }
 
   render() {
+    const { title } = this.props.data.site.siteMetadata
+
     return (
       <MainLayout>
+        <Helmet>
+          <title>{title}</title>
+        </Helmet>
         <Jumbotron />
         {this.createArticlesPreview()}
         {this.createArticlesPreviewMobile()}
@@ -69,3 +75,13 @@ export default class extends React.Component {
     )
   }
 }
+
+export const query = graphql`
+  query LayoutQuery {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`
