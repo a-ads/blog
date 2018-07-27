@@ -20,6 +20,7 @@ export default class extends React.Component {
       totalCount,
       edges  
     } = this.props.data.allMarkdownRemark
+
     const articlesPreview = []
 
     edges.forEach(edge => {
