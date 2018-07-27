@@ -3,8 +3,6 @@ import React from 'react'
 export default ({ data }) => {
   const post = data.markdownRemark
 
-  console.log(post)
-
   return (
     <article className='c-blog-article'>
       <section className='c-blog-article__header'>
@@ -28,10 +26,6 @@ export default ({ data }) => {
         />
       </section>
     </article>
-    // <div>
-    //   <h1>{post.frontmatter.title}</h1>
-    //   <div dangerouslySetInnerHTML={{ __html: post.html }} />
-    // </div>
   )
 }
 

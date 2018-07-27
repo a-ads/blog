@@ -15,6 +15,19 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
-    'gatsby-transformer-remark',
-  ]
-}
+    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 1140
+            },
+          },
+        ],
+      },
+    },
+  ],
+};
