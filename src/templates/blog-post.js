@@ -6,7 +6,7 @@ export default ({ data, pathContext }) => {
   const post = data.markdownRemark
   const { previous, next } = pathContext
 
-  console.log(pathContext)
+  console.log(post)
 
   return (
     <div>
@@ -88,6 +88,7 @@ export const query = graphql`
       frontmatter {
         title
         thumbnail
+        tags
       }
     }
   }
