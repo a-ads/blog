@@ -95,6 +95,7 @@
     padding: 31px 40px 0px 40px;
     border-radius: 4px 4px 0 0;
     background-color: $color-white-1;
+    min-height: 300px;
     @include breakpoint(tablet) {
       padding: 22px 20px 0px 20px;
     }
