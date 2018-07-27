@@ -25,7 +25,7 @@ export default class extends React.Component {
     edges.forEach(edge => {
       articlesPreview.push(
         <Card 
-          link={edge.node.frontmatter.path}
+          link={edge.node.fields.slug}
           thumbnail={edge.node.frontmatter.thumbnail}
           title={edge.node.frontmatter.title}
         />
@@ -65,9 +65,6 @@ export default class extends React.Component {
   }
 
   render() {
-    //const { title } = this.props.data.site.siteMetadata
-    // console.log(this.props);
-
     return (
       <div>
         <Jumbotron />
@@ -92,6 +89,9 @@ export const query = graphql`
             title
             path
             thumbnail
+          }
+          fields {
+            slug
           }
         }
       }
