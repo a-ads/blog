@@ -5,13 +5,15 @@ import Subscribe from './subscribe'
 export default () => (
   <div className='c-header'>
     <div className='c-header__container l-container c-header__container--desktop'>
-      <div className='c-header__logo'><a className='c-header__logo__container' href='#'>
-        <div className='c-header__logo__part-1'><img src='/images/glyph.svg' alt='logo'/></div>
-        <div className='c-header__logo__part-2'><img src='/images/logo.svg' alt='logo'/></div></a>
+      <div className='c-header__logo'>
+        <a className='c-header__logo__container' href='/'>
+          <div className='c-header__logo__part-1'><img src='/images/glyph.svg' alt='logo'/></div>
+          <div className='c-header__logo__part-2'><img src='/images/logo.svg' alt='logo'/></div>
+        </a>
       </div>
 
       <Subscribe />
-      
+
       <div className='c-search'>
         <form>
           <div className='c-search__query-wrapper'>

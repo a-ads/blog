@@ -6,7 +6,6 @@ import Card from '../components/card'
 import AadsServices from '../components/aads-services'
 import Pagination from '../components/pagination'
 import Subscribe from '../components/subscribe'
-import Helmet from 'react-helmet'
 
 export default class extends React.Component {
   constructor(props) {
@@ -17,11 +16,20 @@ export default class extends React.Component {
   }
 
   createArticlesPreview() {
+    const {
+      totalCount,
+      edges  
+    } = this.props.data.allMarkdownRemark
     const articlesPreview = []
-    const articlesPreviewData = [{}, {}, {}, {}, {}, {}, {}, {}, {}]
 
-    articlesPreviewData.forEach(() => {
-      articlesPreview.push(<Card />)
+    edges.forEach(edge => {
+      articlesPreview.push(
+        <Card 
+          link={edge.node.frontmatter.path}
+          thumbnail={edge.node.frontmatter.thumbnail}
+          title={edge.node.frontmatter.title}
+        />
+      )
     })
 
     return (
@@ -30,7 +38,7 @@ export default class extends React.Component {
           {articlesPreview}
         </div>
         <div className='l-card-group__pagination-container l-container'>
-          <Pagination />
+          {/* <Pagination /> */}
         </div>
       </div>
     )
@@ -57,13 +65,11 @@ export default class extends React.Component {
   }
 
   render() {
-    const { title } = this.props.data.site.siteMetadata
+    //const { title } = this.props.data.site.siteMetadata
+    // console.log(this.props);
 
     return (
       <div>
-        <Helmet>
-          <title>{title}</title>
-        </Helmet>
         <Jumbotron />
         {this.createArticlesPreview()}
         {this.createArticlesPreviewMobile()}
@@ -77,10 +83,17 @@ export default class extends React.Component {
 }
 
 export const query = graphql`
-  query LayoutQuery {
-    site {
-      siteMetadata {
-        title
+  query IndexPageQuery {
+    allMarkdownRemark {
+      totalCount
+      edges {
+        node {
+          frontmatter {
+            title
+            path
+            thumbnail
+          }
+        }
       }
     }
   }
