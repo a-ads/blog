@@ -35,25 +35,22 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       }
     `)
     .then(result => {
-      if (result.data) {
-        const posts = result.data.allMarkdownRemark.edges;
+      const posts = result.data.allMarkdownRemark.edges;
 
-        _.each(posts, (post, index) => {
-          const previous = index === posts.length - 1 ? null : posts[index + 1].node;
-          const next = index === 0 ? null : posts[index - 1].node;
+      _.each(posts, (post, index) => {
+        const previous = index === posts.length - 1 ? null : posts[index + 1].node;
+        const next = index === 0 ? null : posts[index - 1].node;
 
-          createPage({
-            path: post.node.fields.slug,
-            component: path.resolve('./src/templates/blog-post.js'),
-            context: {
-              slug: post.node.fields.slug,
-              previous,
-              next,
-            }
-          })
-        });
-      }
-
+        createPage({
+          path: post.node.fields.slug,
+          component: path.resolve('./src/templates/blog-post.js'),
+          context: {
+            slug: post.node.fields.slug,
+            previous,
+            next,
+          }
+        })
+      });
       resolve();
     })
     .catch(error => {

@@ -6,6 +6,8 @@ export default ({ data, pathContext }) => {
   const post = data.markdownRemark
   const { previous, next } = pathContext
 
+  console.log(pathContext)
+
   return (
     <div>
       <article className='c-blog-article'>
