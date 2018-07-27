@@ -2,11 +2,23 @@ import React from 'react'
 
 import AadsServices from '../components/aads-services'
 
+const createTags = (tags) => {
+  const tagsArray = []
+
+  tags.forEach((tag) => {
+    tagsArray.push(<a className='c-tag' href='#'>{tag}</a>)
+  })
+
+  return (
+    <div className='c-blog-article__tags__container l-container'>
+      {tagsArray}
+    </div>
+  )
+}
+
 export default ({ data, pathContext }) => {
   const post = data.markdownRemark
   const { previous, next } = pathContext
-
-  console.log(post)
 
   return (
     <div>
@@ -33,9 +45,13 @@ export default ({ data, pathContext }) => {
               dangerouslySetInnerHTML={{ __html: post.html }}
           />
         </section>
-        <section className='c-blog-article__tags'>
-          <div className='c-blog-article__tags__container l-container'><a className='c-tag' href='#'>Scrum</a><a className='c-tag' href='#'>Scrum</a><a className='c-tag' href='#'>Scrum</a><a className='c-tag' href='#'>Scrum</a></div>
-        </section>
+        
+        {post.frontmatter.tags && 
+          <section className='c-blog-article__tags'>
+            {createTags(post.frontmatter.tags)}
+          </section>
+        }
+
         <section className='c-blog-article__nearby-articles'>
           <div className='c-blog-article__nearby-articles__container l-container'>
             {previous &&
