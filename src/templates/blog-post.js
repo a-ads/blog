@@ -1,31 +1,67 @@
 import React from 'react'
 
+import AadsServices from '../components/aads-services'
+
 export default ({ data }) => {
   const post = data.markdownRemark
 
   return (
-    <article className='c-blog-article'>
-      <section className='c-blog-article__header'>
-        <div className='l-container'>
-          <div className='c-blog-article__category'>
-            <span>Customer Support</span>
+    <div>
+      <article className='c-blog-article'>
+        <section className='c-blog-article__header'>
+          <div className='l-container'>
+            <div className='c-blog-article__category'>
+              <span>Customer Support</span>
+            </div>
+            <h1 className='c-blog-article__title'>
+              {post.frontmatter.title}
+            </h1>
           </div>
-          <h1 className='c-blog-article__title'>
-            {post.frontmatter.title}
-          </h1>
-        </div>
-      </section>
+        </section>
 
-      <section className='c-blog-article__big-picture'>
-        <img src={post.frontmatter.thumbnail} alt='pic'/>
-      </section>
+        <section className='c-blog-article__big-picture'>
+          <img src={post.frontmatter.thumbnail} alt='pic'/>
+        </section>
 
-      <section className='c-blog-article__body'>
-        <div className='c-blog-article__body__container l-container'  
-             dangerouslySetInnerHTML={{ __html: post.html }}
-        />
-      </section>
-    </article>
+        <section className='c-blog-article__body'>
+          <div className='c-blog-article__body__container l-container'  
+              dangerouslySetInnerHTML={{ __html: post.html }}
+          />
+        </section>
+        <section className='c-blog-article__tags'>
+          <div className='c-blog-article__tags__container l-container'><a className='c-tag' href='#'>Scrum</a><a className='c-tag' href='#'>Scrum</a><a className='c-tag' href='#'>Scrum</a><a className='c-tag' href='#'>Scrum</a></div>
+        </section>
+        <section className='c-blog-article__nearby-articles'>
+          <div className='c-blog-article__nearby-articles__container l-container'>
+            <div className='c-card c-card--prev-article'>
+              <a href='#'>
+                <div className='c-card__image'><img src='/images/card-sample.png' alt='card sample'/></div>
+                <div className='c-card__text'>
+                  <div className='c-card__text__category'>Customer Support</div>
+                  <div className='c-card__text__title'>
+                    Stripe’s Will Larson 
+                    on engineering and infrastructure management
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className='c-card c-card--next-article'>
+              <a href='#'>
+                <div className='c-card__image'><img src='/images/card-sample.png' alt='card sample'/></div>
+                <div className='c-card__text'>
+                  <div className='c-card__text__category'>Customer Support</div>
+                  <div className='c-card__text__title'>
+                    Stripe’s Will Larson 
+                    on engineering and infrastructure management
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+      </article>
+      <AadsServices />
+    </div>
   )
 }
 
@@ -41,16 +77,16 @@ export const query = graphql`
   }
 `
 
-{/* <article class="c-blog-article">
-  <section class="c-blog-article__header">
-    <div class="l-container">
-      <div class="c-blog-article__category"><span>Customer Support</span></div>
-      <h1 class="c-blog-article__title">Putting $125M to work for you, our customers</h1>
+{/* <article className='c-blog-article'>
+  <section className='c-blog-article__header'>
+    <div className='l-container'>
+      <div className='c-blog-article__category'><span>Customer Support</span></div>
+      <h1 className='c-blog-article__title'>Putting $125M to work for you, our customers</h1>
     </div>
   </section>
-  <section class="c-blog-article__big-picture"><img src="images/img-main.png" alt="pic"/></section>
-  <section class="c-blog-article__body">
-    <div class="c-blog-article__body__container l-container">
+  <section className='c-blog-article__big-picture'><img src='images/img-main.png' alt='pic'/></section>
+  <section className='c-blog-article__body'>
+    <div className='c-blog-article__body__container l-container'>
       <h2>
           We just raised $125M in a round led by Mary Meeker at Kleiner 
         Perkins. Here’s what we’re going to do with it.
@@ -73,8 +109,8 @@ export const query = graphql`
         sophistication that ever larger customers need as they scale. Salesforce is a great example of this – when
         they started, they focused on sales teams with only 5 reps.
       </p>
-      <figure class="--full-width"><img src="images/img7.png" alt="pic"/></figure>
-      <figure class="--float-right"><img src="images/img3.png" height="290px" width="490px" alt="pic"/></figure>
+      <figure className='--full-width'><img src='images/img7.png' alt='pic'/></figure>
+      <figure className='--float-right'><img src='images/img3.png' height='290px' width='490px' alt='pic'/></figure>
       <p>
           Intercom is yet another example, where at the start, 
         we sold to tiny businesses. That segment is 
@@ -86,14 +122,14 @@ export const query = graphql`
         two further along than them.
       </p>
       <blockquote>
-        <p class="__text"><strong>
+        <p className='__text'><strong>
             Our team uses RealtimeBoard as a virtual whiteboard 
             for Scrum. It makes doing Scrum with remote teams 
             much easier. We have moved all of our Scrum processes 
             (planning, Backlog grooming, Scrum status, etc.) 
             to RealtimeBoard, so we can do all of our collaboration 
             there.</strong></p>
-        <p class="__source"><strong>PATRICK TREESE, </strong>Software Engineer at <a href="#">Trimble</a></p>
+        <p className='__source'><strong>PATRICK TREESE, </strong>Software Engineer at <a href='#'>Trimble</a></p>
       </blockquote>
       <h4>Intercom has three cool things going for it in these respects:</h4>
       <ol>
@@ -121,57 +157,57 @@ export const query = graphql`
       </ol>
     </div>
   </section>
-  <div class="c-soc-share --mobile">
-    <div class="c-soc-share__container"><a class="c-soc-share__item --facebook" href="#">
-        <div class="c-soc-share__item-pic"><img src="images/fb-share.svg" alt="fb"/></div>
-        <div class="c-soc-share__item-counter">10</div></a><a class="c-soc-share__item --twitter" href="#">
-        <div class="c-soc-share__item-pic"><img src="images/twitter-share.svg" alt="twitter"/></div>
-        <div class="c-soc-share__item-counter">8</div></a><a class="c-soc-share__item --slack" href="#">
-        <div class="c-soc-share__item-pic"><img src="images/slack-share.svg" alt="slack"/></div>
-        <div class="c-soc-share__item-counter">8</div></a><a class="c-soc-share__item --fb-messenger" href="#">
-        <div class="c-soc-share__item-pic"><img src="images/fb-messenger-share.svg" alt="fb-messenger"/></div>
-        <div class="c-soc-share__item-counter">8</div></a><a class="c-soc-share__item --linkedin" href="#">
-        <div class="c-soc-share__item-pic"><img src="images/linkedin-share.svg" alt="linkedin"/></div>
-        <div class="c-soc-share__item-counter">8</div></a><a class="c-soc-share__item --email" href="#">
-        <div class="c-soc-share__item-pic"><img src="images/email-share.svg" alt="email"/></div>
-        <div class="c-soc-share__item-counter">8</div></a></div>
+  <div className='c-soc-share --mobile'>
+    <div className='c-soc-share__container'><a className='c-soc-share__item --facebook' href='#'>
+        <div className='c-soc-share__item-pic'><img src='images/fb-share.svg' alt='fb'/></div>
+        <div className='c-soc-share__item-counter'>10</div></a><a className='c-soc-share__item --twitter' href='#'>
+        <div className='c-soc-share__item-pic'><img src='images/twitter-share.svg' alt='twitter'/></div>
+        <div className='c-soc-share__item-counter'>8</div></a><a className='c-soc-share__item --slack' href='#'>
+        <div className='c-soc-share__item-pic'><img src='images/slack-share.svg' alt='slack'/></div>
+        <div className='c-soc-share__item-counter'>8</div></a><a className='c-soc-share__item --fb-messenger' href='#'>
+        <div className='c-soc-share__item-pic'><img src='images/fb-messenger-share.svg' alt='fb-messenger'/></div>
+        <div className='c-soc-share__item-counter'>8</div></a><a className='c-soc-share__item --linkedin' href='#'>
+        <div className='c-soc-share__item-pic'><img src='images/linkedin-share.svg' alt='linkedin'/></div>
+        <div className='c-soc-share__item-counter'>8</div></a><a className='c-soc-share__item --email' href='#'>
+        <div className='c-soc-share__item-pic'><img src='images/email-share.svg' alt='email'/></div>
+        <div className='c-soc-share__item-counter'>8</div></a></div>
   </div>
-  <div class="c-soc-share-wrapper --desktop">
-    <div class="c-soc-share --desktop">
-      <div class="c-soc-share__container"><a class="c-soc-share__item --facebook" href="#">
-          <div class="c-soc-share__item-pic"><img src="images/fb-share.svg" alt="fb"/></div>
-          <div class="c-soc-share__item-counter">10</div></a><a class="c-soc-share__item --twitter" href="#">
-          <div class="c-soc-share__item-pic"><img src="images/twitter-share.svg" alt="twitter"/></div>
-          <div class="c-soc-share__item-counter">8</div></a><a class="c-soc-share__item --slack" href="#">
-          <div class="c-soc-share__item-pic"><img src="images/slack-share.svg" alt="slack"/></div>
-          <div class="c-soc-share__item-counter">8</div></a><a class="c-soc-share__item --fb-messenger" href="#">
-          <div class="c-soc-share__item-pic"><img src="images/fb-messenger-share.svg" alt="fb-messenger"/></div>
-          <div class="c-soc-share__item-counter">8</div></a><a class="c-soc-share__item --linkedin" href="#">
-          <div class="c-soc-share__item-pic"><img src="images/linkedin-share.svg" alt="linkedin"/></div>
-          <div class="c-soc-share__item-counter">8</div></a><a class="c-soc-share__item --email" href="#">
-          <div class="c-soc-share__item-pic"><img src="images/email-share.svg" alt="email"/></div>
-          <div class="c-soc-share__item-counter">8</div></a></div>
+  <div className='c-soc-share-wrapper --desktop'>
+    <div className='c-soc-share --desktop'>
+      <div className='c-soc-share__container'><a className='c-soc-share__item --facebook' href='#'>
+          <div className='c-soc-share__item-pic'><img src='images/fb-share.svg' alt='fb'/></div>
+          <div className='c-soc-share__item-counter'>10</div></a><a className='c-soc-share__item --twitter' href='#'>
+          <div className='c-soc-share__item-pic'><img src='images/twitter-share.svg' alt='twitter'/></div>
+          <div className='c-soc-share__item-counter'>8</div></a><a className='c-soc-share__item --slack' href='#'>
+          <div className='c-soc-share__item-pic'><img src='images/slack-share.svg' alt='slack'/></div>
+          <div className='c-soc-share__item-counter'>8</div></a><a className='c-soc-share__item --fb-messenger' href='#'>
+          <div className='c-soc-share__item-pic'><img src='images/fb-messenger-share.svg' alt='fb-messenger'/></div>
+          <div className='c-soc-share__item-counter'>8</div></a><a className='c-soc-share__item --linkedin' href='#'>
+          <div className='c-soc-share__item-pic'><img src='images/linkedin-share.svg' alt='linkedin'/></div>
+          <div className='c-soc-share__item-counter'>8</div></a><a className='c-soc-share__item --email' href='#'>
+          <div className='c-soc-share__item-pic'><img src='images/email-share.svg' alt='email'/></div>
+          <div className='c-soc-share__item-counter'>8</div></a></div>
     </div>
   </div>
-  <section class="c-blog-article__tags">
-    <div class="c-blog-article__tags__container l-container"><a class="c-tag" href="#">Scrum</a><a class="c-tag" href="#">Scrum</a><a class="c-tag" href="#">Scrum</a><a class="c-tag" href="#">Scrum</a></div>
+  <section className='c-blog-article__tags'>
+    <div className='c-blog-article__tags__container l-container'><a className='c-tag' href='#'>Scrum</a><a className='c-tag' href='#'>Scrum</a><a className='c-tag' href='#'>Scrum</a><a className='c-tag' href='#'>Scrum</a></div>
   </section>
-  <section class="c-blog-article__nearby-articles">
-    <div class="c-blog-article__nearby-articles__container l-container">
-      <div class="c-card c-card--prev-article"><a href="#">
-          <div class="c-card__image"><img src="images/card-sample.png" alt="card sample"/></div>
-          <div class="c-card__text">
-            <div class="c-card__text__category">Customer Support</div>
-            <div class="c-card__text__title">
+  <section className='c-blog-article__nearby-articles'>
+    <div className='c-blog-article__nearby-articles__container l-container'>
+      <div className='c-card c-card--prev-article'><a href='#'>
+          <div className='c-card__image'><img src='images/card-sample.png' alt='card sample'/></div>
+          <div className='c-card__text'>
+            <div className='c-card__text__category'>Customer Support</div>
+            <div className='c-card__text__title'>
               Stripe’s Will Larson 
               on engineering and infrastructure management
             </div>
           </div></a></div>
-      <div class="c-card c-card--next-article"><a href="#">
-          <div class="c-card__image"><img src="images/card-sample.png" alt="card sample"/></div>
-          <div class="c-card__text">
-            <div class="c-card__text__category">Customer Support</div>
-            <div class="c-card__text__title">
+      <div className='c-card c-card--next-article'><a href='#'>
+          <div className='c-card__image'><img src='images/card-sample.png' alt='card sample'/></div>
+          <div className='c-card__text'>
+            <div className='c-card__text__category'>Customer Support</div>
+            <div className='c-card__text__title'>
               Stripe’s Will Larson 
               on engineering and infrastructure management
             </div>

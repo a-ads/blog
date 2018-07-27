@@ -4,7 +4,7 @@ export default () => (
   <div className='c-aads-services'>
     <div className='c-aads-services__container l-container'>
       <div className='c-aads-services__item'>
-        <div className='c-aads-services__item-pic'><img src='images/megaphone.svg' alt='megaphone'/></div>
+        <div className='c-aads-services__item-pic'><img src='/images/megaphone.svg' alt='megaphone'/></div>
         <div className='c-aads-services__item-title h2-like'>For advertisers</div>
         <p className='c-aads-services__item-descr'>
           You don't need to pay for fake clicks 
