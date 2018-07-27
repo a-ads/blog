@@ -19,9 +19,11 @@ export default ({ data }) => {
           </div>
         </section>
 
-        <section className='c-blog-article__big-picture'>
-          <img src={post.frontmatter.thumbnail} alt='pic'/>
-        </section>
+        {post.frontmatter.thumbnail &&
+          <section className='c-blog-article__big-picture'>
+            <img src={post.frontmatter.thumbnail} alt='pic'/>
+          </section>
+        }
 
         <section className='c-blog-article__body'>
           <div className='c-blog-article__body__container l-container'  

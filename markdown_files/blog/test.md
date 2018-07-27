@@ -1,7 +1,7 @@
 ---
 path: test
 date: '2018-07-26'
-title: 'Test '
+title: 'Putting $125M to work for you, our customers'
 thumbnail: /assets/hot_streets.jpg
 ---
 ## We just raised $125M in a round led by Mary Meeker at Kleiner Perkins. Here’s what we’re going to do with it.
