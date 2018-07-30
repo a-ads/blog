@@ -4,13 +4,16 @@ const _ = require('lodash');
 
 exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   const { createNodeField } = boundActionCreators;
+  
   if (node.internal.type === 'MarkdownRemark') {
-    const slug = createFilePath({ node, getNode, basePath: 'pages'});
+    const slug = createFilePath({ node, getNode, basePath: 'blog'});
+
     createNodeField({
       node,
-      name: `slug`,
+      name: 'slug',
       value: slug
     });
+
   }
 };
 
@@ -19,7 +22,10 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   return new Promise((resolve, reject) => {
     graphql(`
       {
-        allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {
+        allMarkdownRemark(
+          sort: {fields: [frontmatter___date], order: DESC},
+          filter: {fileAbsolutePath: {regex: "/^\/.*\/(blog)\/.*\.md$/"}}
+        ) {
           edges {
             node {
               fields {

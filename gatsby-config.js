@@ -13,6 +13,13 @@ module.exports = {
         name: "blog",
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${markdownFilesPath}/blog_categories/`,
+        name: "blog_categories",
+      },
+    },
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',

@@ -82,7 +82,10 @@ export default class extends React.Component {
 
 export const query = graphql`
   query IndexPageQuery {
-    allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {
+    allMarkdownRemark(
+      sort: {fields: [frontmatter___date], order: DESC},
+      filter: {fileAbsolutePath: {regex: "/^\\/.*\\/(blog)\\/.*\\.md$/"}}
+    ) {
       totalCount
       edges {
         node {

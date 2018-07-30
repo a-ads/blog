@@ -1,5 +1,5 @@
 ---
 title: Updates
-order: '100'
+order: 100
 ---
 
