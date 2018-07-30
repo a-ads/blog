@@ -14,15 +14,22 @@ collections:
     fields:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
+      - { name: tags, label: Tags, widget: list, default: ["news"], required: false }
+      - { name: category,
+          label: Category,
+          widget: relation,
+          collection: blog_categories,
+          valueField: title,
+          searchFields: [title],
+          displayFields: [title]
+        }
       - { name: thumbnail, label: Featured Image, widget: image, required: false, default: '' }
       - { name: body, label: Body, widget: markdown }
-      - { name: tags, label: Tags, widget: list, default: ["news"] }
-      - { name: category, label: Category, widget: relation, collection: blog_categories, valueField: title }
-      
+
   - name: blog_categories
     label: Blog categories
     folder: content/blog_categories
     create: true
-    fields: 
+    fields:
       - { name: title, label: Title }
       - { name: order, label: Order, default: 0 }
