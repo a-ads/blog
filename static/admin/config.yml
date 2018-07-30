@@ -8,13 +8,21 @@ public_folder: assets
 collections:
   - name: blog
     label: Blog
-    folder: markdown_files/blog
+    folder: content/blog
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: thumbnail, label: Featured Image, widget: image, required: false, default: '' }
       - { name: body, label: Body, widget: markdown }
       - { name: tags, label: Tags, widget: list, default: ["news"] }
+      - { name: category, label: Category, widget: relation, collection: blog_categories, valueField: title }
+      
+  - name: blog_categories
+    label: Blog categories
+    folder: content/blog_categories
+    create: true
+    fields: 
+      - { name: title, label: Title }
+      - { name: order, label: Order, default: 0 }
