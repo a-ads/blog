@@ -1,4 +1,4 @@
-const markdownFilesPath = `${__dirname}/markdown_files`
+const markdownFilesPath = `${__dirname}/content`
 
 module.exports = {
   siteMetadata: {

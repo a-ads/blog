@@ -88,7 +88,6 @@ export const query = graphql`
         node {
           frontmatter {
             title
-            path
             thumbnail
           }
           fields {
