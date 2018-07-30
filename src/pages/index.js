@@ -29,6 +29,7 @@ export default class extends React.Component {
           link={edge.node.fields.slug}
           thumbnail={edge.node.frontmatter.thumbnail}
           title={edge.node.frontmatter.title}
+          category={edge.node.frontmatter.category}
         />
       )
     })
@@ -92,6 +93,7 @@ export const query = graphql`
           frontmatter {
             title
             thumbnail
+            category
           }
           fields {
             slug

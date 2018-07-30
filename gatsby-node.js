@@ -33,7 +33,8 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               }
               frontmatter {
                 title,
-                thumbnail
+                thumbnail,
+                category
               }
             }
           }

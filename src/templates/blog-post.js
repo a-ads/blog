@@ -26,7 +26,7 @@ export default ({ data, pathContext }) => {
         <section className='c-blog-article__header'>
           <div className='l-container'>
             <div className='c-blog-article__category'>
-              <span>Customer Support</span>
+              <span>{post.frontmatter.category}</span>
             </div>
             <h1 className='c-blog-article__title'>
               {post.frontmatter.title}
@@ -63,7 +63,7 @@ export default ({ data, pathContext }) => {
                     }
                   </div>
                   <div className='c-card__text'>
-                    <div className='c-card__text__category'>Customer Support</div>
+                    <div className='c-card__text__category'>{previous.frontmatter.category}</div>
                     <div className='c-card__text__title'>
                       {previous.frontmatter.title}
                     </div>
@@ -80,7 +80,7 @@ export default ({ data, pathContext }) => {
                     }
                   </div>
                   <div className='c-card__text'>
-                    <div className='c-card__text__category'>Customer Support</div>
+                    <div className='c-card__text__category'>{next.frontmatter.category}</div>
                     <div className='c-card__text__title'>
                       {next.frontmatter.title}
                     </div>
@@ -105,6 +105,7 @@ export const query = graphql`
         title
         thumbnail
         tags
+        category
       }
     }
   }

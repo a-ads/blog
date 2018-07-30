@@ -4,7 +4,8 @@ export default (props) => {
   const {
     title,
     thumbnail,
-    link = '#'
+    link = '#',
+    category = ''
   } = props
 
   return (
@@ -16,7 +17,7 @@ export default (props) => {
           }
         </div>
         <div className='c-card__text'>
-          <div className='c-card__text__category'>Customer Support</div>
+          <div className='c-card__text__category'>{category}</div>
           <div className='c-card__text__title'>
             {title}
           </div>
