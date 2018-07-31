@@ -38,12 +38,14 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               }
             }
           }
+        },
+        miscYaml(id: {regex: "/^.*\/misc\/main_jumbotron\.yml.*$/"}) {
+          path
         }
       }
     `)
     .then(result => {
       const posts = result.data.allMarkdownRemark.edges;
-
       _.each(posts, (post, index) => {
         const previous = index === posts.length - 1 ? null : posts[index + 1].node;
         const next = index === 0 ? null : posts[index - 1].node;
@@ -58,6 +60,16 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           }
         })
       });
+
+      const mainJumbotronSlug = result.data.miscYaml.path;
+      createPage({
+        path: '/',
+        component: path.resolve('./src/templates/index.js'),
+        context: {
+          mainJumbotronSlug: mainJumbotronSlug
+        }
+      });
+
       resolve();
     })
     .catch(error => {

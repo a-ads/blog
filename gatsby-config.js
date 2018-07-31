@@ -1,5 +1,3 @@
-const markdownFilesPath = `${__dirname}/content`
-
 module.exports = {
   siteMetadata: {
     title: 'A-ADS Blog'
@@ -9,20 +7,14 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${markdownFilesPath}/blog/`,
-        name: "blog",
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${markdownFilesPath}/blog_categories/`,
-        name: "blog_categories",
+        path: `${__dirname}/content`,
+        name: "content",
       },
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
+    'gatsby-transformer-yaml',
     {
       resolve: 'gatsby-transformer-remark',
       options: {

@@ -1,11 +1,11 @@
 import React from 'react'
 
-import MainLayout from '../layouts/index'
 import Jumbotron from '../components/jumbotron'
 import Card from '../components/card'
 import AadsServices from '../components/aads-services'
 import Pagination from '../components/pagination'
 import Subscribe from '../components/subscribe'
+import jumbotron from '../components/jumbotron';
 
 export default class extends React.Component {
   constructor(props) {
@@ -13,23 +13,24 @@ export default class extends React.Component {
 
     this.createArticlesPreview = this.createArticlesPreview.bind(this)
     this.createArticlesPreviewMobile = this.createArticlesPreviewMobile.bind(this)
+    this.createJumbotron = this.createJumbotron.bind(this)
   }
 
   createArticlesPreview() {
     const {
       totalCount,
-      edges  
     } = this.props.data.allMarkdownRemark
+    const posts = this.props.data.allMarkdownRemark.edges
 
     const articlesPreview = []
 
-    edges.forEach(edge => {
+    posts.forEach(post => {
       articlesPreview.push(
         <Card 
-          link={edge.node.fields.slug}
-          thumbnail={edge.node.frontmatter.thumbnail}
-          title={edge.node.frontmatter.title}
-          category={edge.node.frontmatter.category}
+          link={post.node.fields.slug}
+          thumbnail={post.node.frontmatter.thumbnail}
+          title={post.node.frontmatter.title}
+          category={post.node.frontmatter.category}
         />
       )
     })
@@ -66,10 +67,32 @@ export default class extends React.Component {
     )
   }
 
+  createJumbotron() {
+    const { mainJumbotronSlug } = this.props.pathContext
+    const posts = this.props.data.allMarkdownRemark.edges
+
+    const jumbotronPost = posts[posts.findIndex((post) => {
+      return post.node.fields.slug === mainJumbotronSlug
+    })]
+
+    if (!jumbotronPost) {
+      return
+    }
+
+    return (
+      <Jumbotron 
+        title={jumbotronPost.node.frontmatter.title}
+        category={jumbotronPost.node.frontmatter.category}
+        link={jumbotronPost.node.fields.slug}
+        thumbnail={jumbotronPost.node.frontmatter.thumbnail}
+      />
+    )
+  }
+
   render() {
     return (
       <div>
-        <Jumbotron />
+        {this.createJumbotron()}
         {this.createArticlesPreview()}
         {this.createArticlesPreviewMobile()}
         <div className='l-container'>
