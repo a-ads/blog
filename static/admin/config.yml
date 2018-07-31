@@ -33,3 +33,14 @@ collections:
     fields:
       - { name: title, label: Title }
       - { name: order, label: Order, default: 0 }
+
+  - name: misc
+    label: Misc
+    files:
+      - label: "Main jumbotron"
+        name: main_jumbotron
+        file: content/misc/main_jumbotron.yml
+        create: true
+        fields:
+          - { label: Path to markdown, name: path, widget: string }
+          - { label: Title, name: title, widget: string }
