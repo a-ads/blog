@@ -2,7 +2,9 @@ import React from 'react'
 
 import Subscribe from './subscribe'
 
-export default () => (
+export default ({
+  categories
+}) => (
   <div className='c-header'>
     <div className='c-header__container l-container c-header__container--desktop'>
       <div className='c-header__logo'>
@@ -27,11 +29,9 @@ export default () => (
       </div>
       <div className='c-header__menu'>
         <ul>
-          <li><a href='#'>Customer Support</a></li>
-          <li><a href='#'>Sales & Marketing</a></li>
-          <li><a href='#'>Product Managment</a></li>
-          <li><a href='#'>Agile management</a></li>
-          <li><a href='#'>Updates</a></li>
+          {categories.map(category => {
+            return <li><a href="#">{category.node.frontmatter.title}</a></li>
+          })}
           <li className='--search-icon'><a href='#'><img src='/images/search-icon.svg' alt='search icon'/></a></li>
         </ul>
       </div>
@@ -56,11 +56,9 @@ export default () => (
         </div>
         <div className='c-header__menu'>
           <ul>
-            <li><a href='#'>Customer Support</a></li>
-            <li><a href='#'>Sales & Marketing</a></li>
-            <li><a href='#'>Product Managment</a></li>
-            <li><a href='#'>Agile management</a></li>
-            <li><a href='#'>Updates</a></li>
+            {categories.map(category => {
+              return <li><a href="#">{category.node.frontmatter.title}</a></li>
+            })}
           </ul>
         </div>
         <div className='c-subscribe c-subscribe--mobile'> 

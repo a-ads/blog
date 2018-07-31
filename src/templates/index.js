@@ -19,8 +19,8 @@ export default class extends React.Component {
   createArticlesPreview() {
     const {
       totalCount,
-    } = this.props.data.allMarkdownRemark
-    const posts = this.props.data.allMarkdownRemark.edges
+    } = this.props.data.blogPosts
+    const posts = this.props.data.blogPosts.edges
     const articlesPreview = []
     posts.forEach(post => {
       articlesPreview.push(
@@ -66,7 +66,7 @@ export default class extends React.Component {
 
   createJumbotron() {
     const { mainJumbotronSlug } = this.props.pathContext
-    const posts = this.props.data.allMarkdownRemark.edges
+    const posts = this.props.data.blogPosts.edges
     const jumbotronPost = posts[posts.findIndex((post) => {
       return post.node.fields.slug === mainJumbotronSlug
     })]
@@ -103,7 +103,7 @@ export default class extends React.Component {
 
 export const query = graphql`
   query IndexPageQuery {
-    allMarkdownRemark(
+    blogPosts: allMarkdownRemark(
       sort: {fields: [frontmatter___date], order: DESC},
       filter: {fileAbsolutePath: {regex: "/^\\/.*\\/(blog)\\/.*\\.md$/"}}
     ) {
@@ -121,6 +121,6 @@ export const query = graphql`
           excerpt
         }
       }
-    }
+    } 
   }
 `
