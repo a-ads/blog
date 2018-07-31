@@ -5,35 +5,52 @@ import Header from '../components/header.js'
 import Footer from '../components/footer.js'
 import '../styles/main.scss'
 
-export default ({ children, data }) => {
-  const title = data.site.siteMetadata.title;
-  
-  const { allBlogCategories, blogPostsGroupedByCategory } = data
-  const blogCategories = []
-  allBlogCategories.edges.forEach(category => {
-    const categoryIndex = blogPostsGroupedByCategory.group.map(el => {
-      return el.fieldValue
+export default class extends React.Component {
+  constructor(props) {
+    super(props)
+
+    this.getBlogCategories = this.getBlogCategories.bind(this)
+  }
+
+  getBlogCategories() {
+    const {
+      allBlogCategories,
+      blogPostsGroupedByCategory
+    } = this.props.data
+    const blogCategories = []
+    allBlogCategories.edges.forEach(category => {
+      const categoryIndex = blogPostsGroupedByCategory.group.map(post => {
+        return post.fieldValue
+      })
+      .indexOf(category.node.frontmatter.title)
+      if (categoryIndex !== -1) {
+        blogCategories.push(category)
+      }
     })
-    .indexOf(category.node.frontmatter.title)
-    if (categoryIndex !== -1) {
-      blogCategories.push(category)
-    }
-  })
 
-  return (
-    <div>
-      <Helmet>
-        <title>{title}</title>
-      </Helmet>
-      <Header categories={blogCategories} />
-      <div className='l-body'>
-        {children()}
+    return blogCategories
+  }
+
+  render() {
+    const { 
+      title,
+      children
+    } = this.props
+    
+    return (
+      <div>
+        <Helmet>
+          <title>{title}</title>
+        </Helmet>
+        <Header categories={this.getBlogCategories()} />
+        <div className='l-body'>
+          {children()}
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
-  )
+    )
+  }
 }
-
 
 export const query = graphql`
   query LayoutQuery {
@@ -45,7 +62,7 @@ export const query = graphql`
 
     allBlogCategories: allMarkdownRemark(
       sort: {fields: [frontmatter___date], order: DESC},
-      filter: {fileAbsolutePath: {regex: "/^\\/.*\\/(blog_categories)\\/.*\\.md$/"}}
+      filter: {fileAbsolutePath: {regex: "/.*\\/(blog_categories)\\//"}}
     ) {
       edges {
         node {
@@ -58,7 +75,7 @@ export const query = graphql`
     }
 
     blogPostsGroupedByCategory: allMarkdownRemark(
-      filter: {fileAbsolutePath: {regex: "/^\\/.*\\/(blog)\\/.*\\.md$/"}}
+      filter: {fileAbsolutePath: {regex: "/.*\\/(blog)\\//"}}
     ) {
       group(field: frontmatter___category) {
         fieldValue
