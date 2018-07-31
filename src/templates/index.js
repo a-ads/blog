@@ -21,9 +21,7 @@ export default class extends React.Component {
       totalCount,
     } = this.props.data.allMarkdownRemark
     const posts = this.props.data.allMarkdownRemark.edges
-
     const articlesPreview = []
-
     posts.forEach(post => {
       articlesPreview.push(
         <Card 
@@ -50,7 +48,6 @@ export default class extends React.Component {
   createArticlesPreviewMobile() {
     const articlesPreviewMobile = []
     const articlesPreviewData = [{}, {}, {}, {}, {}, {}]
-
     articlesPreviewData.forEach(() => {
       articlesPreviewMobile.push(<Card />)
     })
@@ -70,7 +67,6 @@ export default class extends React.Component {
   createJumbotron() {
     const { mainJumbotronSlug } = this.props.pathContext
     const posts = this.props.data.allMarkdownRemark.edges
-
     const jumbotronPost = posts[posts.findIndex((post) => {
       return post.node.fields.slug === mainJumbotronSlug
     })]
@@ -85,6 +81,7 @@ export default class extends React.Component {
         category={jumbotronPost.node.frontmatter.category}
         link={jumbotronPost.node.fields.slug}
         thumbnail={jumbotronPost.node.frontmatter.thumbnail}
+        description={jumbotronPost.node.excerpt}
       />
     )
   }
@@ -121,6 +118,7 @@ export const query = graphql`
           fields {
             slug
           }
+          excerpt
         }
       }
     }

@@ -49,7 +49,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       _.each(posts, (post, index) => {
         const previous = index === posts.length - 1 ? null : posts[index + 1].node;
         const next = index === 0 ? null : posts[index - 1].node;
-
         createPage({
           path: post.node.fields.slug,
           component: path.resolve('./src/templates/blog-post.js'),
@@ -66,7 +65,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         path: '/',
         component: path.resolve('./src/templates/index.js'),
         context: {
-          mainJumbotronSlug: mainJumbotronSlug
+          mainJumbotronSlug
         }
       });
 
