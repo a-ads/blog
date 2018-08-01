@@ -9,26 +9,27 @@ export default class extends React.Component {
   constructor(props) {
     super(props)
 
-    this.getBlogCategories = this.getBlogCategories.bind(this)
+    this.getActualBlogCategories = this.getActualBlogCategories.bind(this)
   }
 
-  getBlogCategories() {
+  getActualBlogCategories() {
     const {
       allBlogCategories,
       blogPostsGroupedByCategory
     } = this.props.data
-    const blogCategories = []
+    const actualBlogCategories = []
     allBlogCategories.edges.forEach(category => {
-      const categoryIndex = blogPostsGroupedByCategory.group.map(post => {
-        return post.fieldValue
-      })
-      .indexOf(category.node.frontmatter.title)
-      if (categoryIndex !== -1) {
-        blogCategories.push(category)
+      const blogPostIndex = blogPostsGroupedByCategory.group
+                            .map(post => {
+                              return post.fieldValue
+                            })
+                            .indexOf(category.node.frontmatter.title)
+      if (blogPostIndex !== -1) {
+        actualBlogCategories.push(category)
       }
     })
 
-    return blogCategories
+    return actualBlogCategories
   }
 
   render() {
@@ -36,13 +37,13 @@ export default class extends React.Component {
       title,
       children
     } = this.props
-    
+
     return (
       <div>
         <Helmet>
           <title>{title}</title>
         </Helmet>
-        <Header categories={this.getBlogCategories()} />
+        <Header categories={this.getActualBlogCategories()} />
         <div className='l-body'>
           {children()}
         </div>
@@ -62,7 +63,7 @@ export const query = graphql`
 
     allBlogCategories: allMarkdownRemark(
       sort: {fields: [frontmatter___date], order: DESC},
-      filter: {fileAbsolutePath: {regex: "/.*\\/(blog_categories)\\//"}}
+      filter: {fileAbsolutePath: {regex: "/\\/(blog_categories)\\//"}}
     ) {
       edges {
         node {
@@ -75,7 +76,7 @@ export const query = graphql`
     }
 
     blogPostsGroupedByCategory: allMarkdownRemark(
-      filter: {fileAbsolutePath: {regex: "/.*\\/(blog)\\//"}}
+      filter: {fileAbsolutePath: {regex: "/\\/(blog)\\//"}}
     ) {
       group(field: frontmatter___category) {
         fieldValue

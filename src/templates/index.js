@@ -5,25 +5,25 @@ import Card from '../components/card'
 import AadsServices from '../components/aads-services'
 import Pagination from '../components/pagination'
 import Subscribe from '../components/subscribe'
-import jumbotron from '../components/jumbotron';
 
 export default class extends React.Component {
   constructor(props) {
     super(props)
 
-    this.createArticlesPreview = this.createArticlesPreview.bind(this)
-    this.createArticlesPreviewMobile = this.createArticlesPreviewMobile.bind(this)
+    this.createBlogPostsPreview = this.createBlogPostsPreview.bind(this)
+    this.createBlogPostsPreviewMobile = this.createBlogPostsPreviewMobile
+                                        .bind(this)
     this.createJumbotron = this.createJumbotron.bind(this)
   }
 
-  createArticlesPreview() {
+  createBlogPostsPreview() {
     const {
       totalCount,
     } = this.props.data.blogPosts
     const posts = this.props.data.blogPosts.edges
-    const articlesPreview = []
+    const blogPostsPreview = []
     posts.forEach(post => {
-      articlesPreview.push(
+      blogPostsPreview.push(
         <Card 
           link={post.node.fields.slug}
           thumbnail={post.node.frontmatter.thumbnail}
@@ -36,7 +36,7 @@ export default class extends React.Component {
     return (
       <div className='l-card-group l-card-group--desktop'>
         <div className='l-card-group__card-container l-container'>
-          {articlesPreview}
+          {blogPostsPreview}
         </div>
         <div className='l-card-group__pagination-container l-container'>
           {/* <Pagination /> */}
@@ -45,17 +45,17 @@ export default class extends React.Component {
     )
   }
 
-  createArticlesPreviewMobile() {
-    const articlesPreviewMobile = []
-    const articlesPreviewData = [{}, {}, {}, {}, {}, {}]
-    articlesPreviewData.forEach(() => {
-      articlesPreviewMobile.push(<Card />)
+  createBlogPostsPreviewMobile() {
+    const blogPostsPreviewMobile = []
+    const blogPostsPreviewData = [{}, {}, {}, {}, {}, {}]
+    blogPostsPreviewData.forEach(() => {
+      blogPostsPreviewMobile.push(<Card />)
     })
 
     return (
       <div className='l-card-group l-card-group--mobile'>
         <div className='l-card-group__card-container l-container'>
-          {articlesPreviewMobile}
+          {blogPostsPreviewMobile}
         </div>
         <div className='l-card-group__pagination-container l-container'>
           <div className='c-load-more-btn'>Load more</div>
@@ -90,8 +90,8 @@ export default class extends React.Component {
     return (
       <div>
         {this.createJumbotron()}
-        {this.createArticlesPreview()}
-        {this.createArticlesPreviewMobile()}
+        {this.createBlogPostsPreview()}
+        {this.createBlogPostsPreviewMobile()}
         <div className='l-container'>
           <Subscribe mobile />
         </div>
@@ -105,7 +105,7 @@ export const query = graphql`
   query IndexPageQuery {
     blogPosts: allMarkdownRemark(
       sort: {fields: [frontmatter___date], order: DESC},
-      filter: {fileAbsolutePath: {regex: "/^\\/.*\\/(blog)\\/.*\\.md$/"}}
+      filter: {fileAbsolutePath: {regex: "/\\/(blog)\\//"}}
     ) {
       totalCount
       edges {
