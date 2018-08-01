@@ -28,5 +28,22 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: '@andrew-codes/gatsby-plugin-elasticlunr-search',
+      options: {
+        fields: [
+          'title',
+          'tags',
+        ],
+        resolvers: {
+          MarkdownRemark: {
+            title: node => node.frontmatter.title,
+            tags: node => node.frontmatter.tags,
+            thumbnail: node => node.frontmatter.thumbnail,
+            slug: node => node.fields.slug,
+          },
+        },
+      },
+    },
   ],
 };
