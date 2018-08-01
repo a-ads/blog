@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Subscribe from './subscribe'
+import Search from './search'
 
 export default ({
   categories
@@ -13,21 +14,9 @@ export default ({
           <div className='c-header__logo__part-2'><img src='/images/logo.svg' alt='logo'/></div>
         </a>
       </div>
-
       <Subscribe />
-
-      <div className='c-search'>
-        <form>
-          <div className='c-search__query-wrapper'>
-            <input type='text' placeholder='Search' name='query'/>
-          </div>
-          <div className='c-search__submit-btn-wrapper'>
-            <button className='c-search__submit-btn' onClick='this.submit();'><img src='/images/search-icon.svg' alt='search icon'/><img src='images/search-icon-active.svg' alt='search icon'/></button>
-          </div>
-          <div className='c-search__close'></div>
-        </form>
-      </div>
-      <div className='c-header__menu'>
+      <Search />
+      <div className='c-header__menu' style={{display: 'none'}}>
         <ul>
           {categories.map(category => {
             return <li><a href="#">{category.node.frontmatter.title}</a></li>
@@ -46,17 +35,7 @@ export default ({
     </div>
     <div className='c-header__dropdown-menu'>
       <div className='c-header__dropdown-menu-container'>
-        <div className='c-search'>
-          <form>
-            <div className='c-search__query-wrapper'>
-              <input type='text' placeholder='Search' name='query'/>
-            </div>
-            <div className='c-search__submit-btn-wrapper'>
-              <button className='c-search__submit-btn' onClick='this.submit();'><img src='/images/search-icon.svg' alt='search icon'/><img src='images/search-icon-active.svg' alt='search icon'/></button>
-            </div>
-            <div className='c-search__close'></div>
-          </form>
-        </div>
+        <Search />
         <div className='c-header__menu'>
           <ul>
             {categories.map(category => {

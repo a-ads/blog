@@ -20,6 +20,7 @@
     "gatsby-transformer-remark": "^1.7.44",
     "gatsby-transformer-yaml": "^1.5.18",
     "netlify-cms": "^1.9.3",
+    "publish-subscribe-js": "^1.1.3",
     "react-helmet": "^5.2.0"
   }
 }

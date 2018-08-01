@@ -2,6 +2,10 @@ import React from 'react'
 import { Index } from 'elasticlunr'
 
 import Card from '../components/card'
+import PublishSubscribe from 'publish-subscribe-js'
+import {
+  SEARCH_COMPONENT_QUERY_CHANGE
+} from '../constants'
 
 export default class extends React.Component {
   constructor(props) {
@@ -15,7 +19,9 @@ export default class extends React.Component {
   }
 
   componentDidMount() {
-    this.search('hot_streets')
+    PublishSubscribe.subscribe(SEARCH_COMPONENT_QUERY_CHANGE, event => {
+      this.search(event.target.value)
+    })
   }
 
   getOrCreateIndex = () =>  this.Index
@@ -43,7 +49,7 @@ export default class extends React.Component {
         <div className='l-card-group l-card-group--desktop'>
           <div className='l-card-group__card-container l-container'>
             {this.state.searchResults.map(result => {
-              return <Card 
+              return  <Card 
                         link={result.slug}
                         thumbnail={result.thumbnail}
                         title={result.title}
