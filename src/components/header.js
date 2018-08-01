@@ -37,8 +37,11 @@ export default ({
       </div>
     </div>
     <div className='c-header__container l-container c-header__container--mobile'>
-      <div className='c-header__logo'><a className='c-header__logo__container' href='#'>
-          <div className='c-header__logo__part-1'><img src='/images/glyph.svg' alt='logo'/></div></a></div>
+      <div className='c-header__logo'>
+        <a className='c-header__logo__container' href='/'>
+          <div className='c-header__logo__part-1'><img src='/images/glyph.svg' alt='logo'/></div>
+        </a>
+      </div>
       <div className='c-header__burger'></div>
     </div>
     <div className='c-header__dropdown-menu'>
@@ -61,21 +64,7 @@ export default ({
             })}
           </ul>
         </div>
-        <div className='c-subscribe c-subscribe--mobile'> 
-          <div className='c-subscribe__wrapper'>
-            <div className='c-subscribe__title h2-like'>Subscribe to our newsletter</div>
-            <div className='c-subscribe__container'>
-              <form>
-                <div className='c-subscribe__input-wrapper'>
-                  <input type='text' placeholder='Enter your email'/>
-                </div>
-                <div className='c-subscribe__submit-wrapper'>
-                  <input type='submit' value=''/>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
+        <Subscribe mobile />
       </div>
     </div>
   </div>

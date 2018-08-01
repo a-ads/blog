@@ -41,6 +41,7 @@ module.exports = {
             tags: node => node.frontmatter.tags,
             thumbnail: node => node.frontmatter.thumbnail,
             slug: node => node.fields.slug,
+            category: node => node.frontmatter.category,
           },
         },
       },

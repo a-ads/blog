@@ -8,7 +8,7 @@ export default class extends React.Component {
     super(props)
 
     this.state = {
-      searchQuery: 'test',
+      searchQuery: '',
       searchResults: []
     };
     this.index = {}
@@ -47,6 +47,7 @@ export default class extends React.Component {
                         link={result.slug}
                         thumbnail={result.thumbnail}
                         title={result.title}
+                        category={result.category}
                       />
             })}
           </div>
