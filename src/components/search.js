@@ -1,8 +1,9 @@
 import React from 'react'
-
 import PublishSubscribe from 'publish-subscribe-js'
+
 import {
-  SEARCH_COMPONENT_QUERY_CHANGE
+  SEARCH_COMPONENT_QUERY_CHANGE,
+  SEARCH_PAGE_GET_SEARCH_QUERY
 } from '../constants'
 
 export default class extends React.Component {
@@ -15,7 +16,7 @@ export default class extends React.Component {
   }
 
   componentDidMount() {
-    PublishSubscribe.subscribe('SEARCH_PAGE_GET_SEARCH_QUERY', (searchQuery) => {
+    PublishSubscribe.subscribe(SEARCH_PAGE_GET_SEARCH_QUERY, (searchQuery) => {
       this.setState({
         searchQuery
       })
