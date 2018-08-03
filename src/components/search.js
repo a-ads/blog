@@ -36,10 +36,11 @@ export default class extends React.Component {
         <form action='/search/' method='get'>
           <div className='c-search__query-wrapper'>
             <input  onChange={this.onSearchInputChange} 
-                    value={this.state.searchQuery} 
-                    type='text' 
-                    placeholder='Search' 
-                    name='search-query' />
+              value={this.state.searchQuery} 
+              type='text' 
+              placeholder='Search' 
+              name='search-query' 
+            />
           </div>
           <div className='c-search__submit-btn-wrapper'>
             <button className='c-search__submit-btn' onClick='this.submit();'>

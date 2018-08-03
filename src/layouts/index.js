@@ -1,57 +1,10 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import _ from 'lodash'
 
 import Header from '../components/header.js'
 import Footer from '../components/footer.js'
 import '../styles/main.scss'
-
-export default class extends React.Component {
-  constructor(props) {
-    super(props)
-
-    this.getActualBlogCategories = this.getActualBlogCategories.bind(this)
-  }
-
-  getActualBlogCategories() {
-    const {
-      allBlogCategories,
-      blogPostsGroupedByCategory
-    } = this.props.data
-    const actualBlogCategories = []
-    allBlogCategories.edges.forEach(category => {
-      const blogPostIndex = blogPostsGroupedByCategory.group
-                            .map(post => {
-                              return post.fieldValue
-                            })
-                            .indexOf(category.node.frontmatter.title)
-      if (blogPostIndex !== -1) {
-        actualBlogCategories.push(category)
-      }
-    })
-
-    return actualBlogCategories
-  }
-
-  render() {
-    const { 
-      title,
-      children
-    } = this.props
-
-    return (
-      <div>
-        <Helmet>
-          <title>{title}</title>
-        </Helmet>
-        <Header categories={this.getActualBlogCategories()} />
-        <div className='l-body'>
-          {children()}
-        </div>
-        <Footer />
-      </div>
-    )
-  }
-}
 
 export const query = graphql`
   query LayoutQuery {
@@ -84,3 +37,45 @@ export const query = graphql`
     }
   }
 `
+
+export default class extends React.Component {
+  render() {
+    const { title } = this.props.data.site.siteMetadata
+    const { children } = this.props
+    return (
+      <div>
+        <Helmet>
+          <title>{title}</title>
+        </Helmet>
+        <Header 
+          categories={this.getActualBlogCategories()} 
+        />
+        <div className='l-body'>
+          {children()}
+        </div>
+        <Footer />
+      </div>
+    )
+  }
+
+  getActualBlogCategories() {
+    const {
+      allBlogCategories
+    } = this.props.data
+    return _.filter(
+      allBlogCategories.edges, 
+      category => this.isBlogCategoryActual(category)
+    )
+  }
+
+  isBlogCategoryActual(category) {
+    const blogPostsGroupedByCategory = 
+      this.props.data.blogPostsGroupedByCategory
+    const blogPostIndex = blogPostsGroupedByCategory.group
+      .map(post => post.fieldValue)
+      .indexOf(category.node.frontmatter.title)
+    if (blogPostIndex !== -1)
+      return true
+  }
+
+}

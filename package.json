@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@andrew-codes/gatsby-plugin-elasticlunr-search": "^1.0.4",
+    "axios": "^0.18.0",
     "gatsby": "^1.9.277",
     "gatsby-link": "^1.6.46",
     "gatsby-plugin-netlify-cms": "^2.0.1",

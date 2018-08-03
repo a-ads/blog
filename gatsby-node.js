@@ -2,6 +2,7 @@ const path = require('path');
 const { createFilePath } = require('gatsby-source-filesystem');
 const _ = require('lodash');
 const config = require('./src/config.js');
+const fs = require('fs');
 
 exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   const { createNodeField } = boundActionCreators;
@@ -16,15 +17,8 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   }
 };
 
-exports.createLayouts = (({ boundActionCreators }) => {
-  console.log('check')
-  boundActionCreators.createLayout({
-    component: path.resolve('./src/layouts/empty.js'),
-    id: 'check'
-  })
-})
 
-exports.createPages = ({ graphql, boundActionCreators }) => {
+exports.createPages= ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators;
   return new Promise((resolve, reject) => {
     graphql(`
@@ -62,7 +56,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           mainJumbotronSlug
         }
       });
-      
+
       /*Blog posts pages*/
       const blogPosts = result.data.allBlogPosts.edges;
       _.each(blogPosts, (blogPost, index) => {
@@ -78,19 +72,20 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           }
         })
       });
-      /*Pages for blog posts pagination*/
-      const blogPostsPreviewsPerPage =  config.blogPostsPagination.postsPreviewsPerPage;
+
+      const blogPostsPreviewsPerPage =  config.blogPagination.postsPreviewsPerPage;
       const blogPostsCount = result.data.allBlogPosts.totalCount;
+      const dir = `./public/${config.blogPagination.paginationFilesDir}`;
       if (blogPostsCount > blogPostsPreviewsPerPage) {
+        if (!fs.existsSync(dir)){
+          fs.mkdirSync(dir);
+        }
         _.chunk(blogPosts, blogPostsPreviewsPerPage).forEach((blogPostsChunk, pageIndex) => {
-          createPage({
-            path: `/blog-posts-previews/${pageIndex}`,
-            component: path.resolve('./src/templates/blog-posts-preview-group.js'),
-            context: {
-              blogPosts: blogPostsChunk
-            },
-            layout: 'check'
-          });
+          const jsonFileContent = JSON.stringify(blogPostsChunk)
+          fs.writeFile(path.resolve(`${dir}/${config.blogPagination.paginationFilesPrefix}${pageIndex}.json`), jsonFileContent, err => {
+            if (err) throw err;
+            console.log('saved')
+          })
         });
       }
 
@@ -102,21 +97,5 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   });
 };
 
-// exports.onCreatePage = ({ page, boundActionCreators }) => {
-//   const { createPage } = boundActionCreators;
-
-//   console.log(page)
-
-//   return new Promise((resolve, reject) => {
-//     if (page.path.match(/^\/blog-posts-previews/)) {
-//       console.log('check');
-//       // It's assumed that `landingPage.js` exists in the `/layouts/` directory
-//       page.layout = "landingPage";
-
-//       // Update the page.
-//       createPage(page);
-//     }
-
-//     resolve();
-//   });
-// };
+// Implement the Gatsby API “onCreatePage”. This is
+// called after every page is created.
