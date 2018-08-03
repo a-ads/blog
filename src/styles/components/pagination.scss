@@ -3,6 +3,10 @@
   font-family: $font-1;
   font-size: 0;
 
+  li {
+    display: inline;
+  }
+
   a {
     float: left;
     font-size: 16px;
@@ -14,6 +18,8 @@
     min-width: 31px;
     text-align: center;
     text-decoration: none;
+    cursor: pointer;
+    outline: none;
   }
 
   a:first-child {
@@ -24,11 +30,16 @@
     color: $color-blue-1;
   }
 
-  a + a {
+  li + li a {
     margin-left: 8px;
   }
 
-  a.--active {
+  li.--disabled a {
+    color: $color-gray-2;
+    cursor: default;
+  }
+
+  li.--active a {
     background-color: $color-blue-1;
     border-color: $color-blue-1;
     color: $color-white-1;

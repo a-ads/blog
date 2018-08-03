@@ -3,8 +3,9 @@ import React from 'react'
 import Jumbotron from '../components/jumbotron'
 import Card from '../components/card'
 import AadsServices from '../components/aads-services'
-import Pagination from '../components/pagination'
+import PostPreviews from '../components/post-previews'
 import Subscribe from '../components/subscribe'
+import config from '../config';
 
 export const query = graphql`
   query IndexPageQuery {
@@ -35,7 +36,7 @@ export default class extends React.Component {
     return (
       <div>
         {this.createJumbotron()}
-        {this.createBlogPostCards()}
+        {this.createPostPreviews()}
         {this.createBlogPostCardsMobile()}
         <div className='l-container'>
           <Subscribe mobile />
@@ -65,18 +66,16 @@ export default class extends React.Component {
     ))]
   }
 
-  createBlogPostCards() {
-    const blogPostCards = this.getBlogPostCards()
-    return (
-      <div className='l-card-group l-card-group--desktop'>
-        <div className='l-card-group__card-container l-container'>
-          {blogPostCards}
-        </div>
-        <div className='l-card-group__pagination-container l-container'>
-          {/* <Pagination /> */}
-        </div>
-      </div>
+  createPostPreviews() {
+    const { blogPosts } = this.props.data
+    const { postPreviewsPerPage } = config.blogPagination
+    const defaultPosts = _.take(
+      blogPosts.edges,
+      postPreviewsPerPage
     )
+    return <PostPreviews 
+      defaultPosts={defaultPosts}
+    />
   }
 
   createBlogPostCardsMobile() {
@@ -97,16 +96,4 @@ export default class extends React.Component {
       </div>
     )
   }
-
-  getBlogPostCards() {
-    const blogPosts = this.props.data.blogPosts
-    return blogPosts.edges.map(post => (
-      <Card 
-        link={post.node.fields.slug}
-        thumbnail={post.node.frontmatter.thumbnail}
-        title={post.node.frontmatter.title}
-        category={post.node.frontmatter.category}
-      />
-    ))
-  }  
 }
