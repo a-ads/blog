@@ -1,6 +1,8 @@
 backend:
   name: gitlab
   repo: Leoplod/aads-blog-gatsby-netlifycms
+  auth_type: implicit
+  app_id: 7626374
 
 media_folder: static/assets
 public_folder: assets
