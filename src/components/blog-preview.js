@@ -18,17 +18,6 @@ export default class extends React.Component {
     this.renderPreviews()
   }
 
-  getPreviews() {
-    return this.posts.map(post => (
-      <Card 
-        link={post.node.fields.slug}
-        thumbnail={post.node.frontmatter.thumbnail}
-        title={post.node.frontmatter.title}
-        category={post.node.frontmatter.category}
-      />
-    ))
-  }
-
   render() {
     return (
       <div className='l-card-group l-card-group--desktop'>
@@ -53,7 +42,7 @@ export default class extends React.Component {
   }
 
   onPageChange({ selected }) {
-    axios.get(`/blog-pagination-parts/part-${selected}.json`)
+    axios.get(`/blog-preview-parts/part-${selected}.json`)
     .then(({ data }) => {
       this.setPosts(data)
       this.renderPreviews()
@@ -71,5 +60,16 @@ export default class extends React.Component {
     this.setState({
       previews: this.getPreviews()
     })
+  }
+
+  getPreviews() {
+    return this.posts.map(post => (
+      <Card 
+        link={post.node.fields.slug}
+        thumbnail={post.node.frontmatter.thumbnail}
+        title={post.node.frontmatter.title}
+        category={post.node.frontmatter.category}
+      />
+    ))
   }
 }

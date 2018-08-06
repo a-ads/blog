@@ -1,8 +1,8 @@
 module.exports = {
-  blogPagination: {
-    postPreviewsPerPage: 9,
-    postPreviewsPerPageMobile: 6,
-    paginationFilesDir: 'blog-pagination-parts',
-    paginationFilesPrefix: 'part-'
+  blogPreview: {
+    previewsPerPage: 9,
+    previewsPerPageMobile: 6,
+    previewFilesDir: 'blog-preview-parts',
+    previewFilesPrefix: 'part-'
   }
 }

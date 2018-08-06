@@ -73,16 +73,16 @@ exports.createPages= ({ graphql, boundActionCreators }) => {
         })
       });
 
-      const blogPostPreviewsPerPage =  config.blogPagination.postPreviewsPerPage;
+      const blogPostPreviewsPerPage =  config.blogPreview.previewsPerPage;
       const blogPostCount = result.data.allBlogPosts.totalCount;
-      const dir = `./public/${config.blogPagination.paginationFilesDir}`;
+      const dir = `./public/${config.blogPreview.previewFilesDir}`;
       if (blogPostCount > blogPostPreviewsPerPage) {
         if (!fs.existsSync(dir)){
           fs.mkdirSync(dir);
         }
         _.chunk(blogPosts, blogPostPreviewsPerPage).forEach((blogPostsChunk, pageIndex) => {
           const jsonFileContent = JSON.stringify(blogPostsChunk)
-          fs.writeFile(path.resolve(`${dir}/${config.blogPagination.paginationFilesPrefix}${pageIndex}.json`), jsonFileContent, err => {
+          fs.writeFile(path.resolve(`${dir}/${config.blogPreview.previewFilesPrefix}${pageIndex}.json`), jsonFileContent, err => {
             if (err) throw err;
             console.log('saved')
           })

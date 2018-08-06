@@ -3,7 +3,7 @@ import React from 'react'
 import Jumbotron from '../components/jumbotron'
 import Card from '../components/card'
 import AadsServices from '../components/aads-services'
-import PostPreviews from '../components/post-previews'
+import BlogPreview from '../components/blog-preview'
 import Subscribe from '../components/subscribe'
 import config from '../config';
 
@@ -36,7 +36,7 @@ export default class extends React.Component {
     return (
       <div>
         {this.createJumbotron()}
-        {this.createPostPreviews()}
+        {this.createBlogPreview()}
         {this.createBlogPostCardsMobile()}
         <div className='l-container'>
           <Subscribe mobile />
@@ -66,14 +66,14 @@ export default class extends React.Component {
     ))]
   }
 
-  createPostPreviews() {
+  createBlogPreview() {
     const { blogPosts } = this.props.data
-    const { postPreviewsPerPage } = config.blogPagination
+    const { previewsPerPage } = config.blogPreview
     const defaultPosts = _.take(
       blogPosts.edges,
-      postPreviewsPerPage
+      previewsPerPage
     )
-    return <PostPreviews 
+    return <BlogPreview 
       defaultPosts={defaultPosts}
     />
   }
