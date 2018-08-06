@@ -9,10 +9,46 @@ import {
 export default class extends React.Component {
   constructor(props) {
     super(props)
-    this.onSearchInputChange = this.onSearchInputChange.bind(this)
     this.state = {
       searchQuery: ''
     }
+    this.searchQueryInputRef = React.createRef()
+    this.searchFormSubmitId = 'search-form-submit' //TODO сделать уникальным
+    this.onSearchQueryInputChange = this.onSearchQueryInputChange.bind(this)
+    this.onCrossClick = this.onCrossClick.bind(this)
+  }
+
+  render() {
+    return (
+      <div className='c-search' style={{}}>
+        <form action='/search/' method='get'>
+          <div className='c-search__query-wrapper'>
+            <input type='text' 
+              name='search-query' 
+              value={this.state.searchQuery} 
+              placeholder='Search' 
+              ref={this.searchQueryInputRef}
+              onChange={this.onSearchQueryInputChange} 
+            />
+          </div>
+          <div className='c-search__submit-btn-wrapper'>
+            <label htmlFor={this.searchFormSubmitId} className='c-search__submit-btn'>
+              <img src='/images/search-icon.svg' alt='search icon'/>
+              <img src='/images/search-icon-active.svg' alt='search icon'/>
+            </label>
+            <input type='submit' 
+               id={this.searchFormSubmitId}
+              style={{display: 'none'}} 
+            />
+          </div>
+          {!this.isSearchQueryEmpty() &&
+            <div className='c-search__cross' 
+              onClick={this.onCrossClick}
+            />
+          }
+        </form>
+      </div>
+    )
   }
 
   componentDidMount() {
@@ -21,36 +57,32 @@ export default class extends React.Component {
         searchQuery
       })
     })
+    this.focusOnSearchQueryInput()
   }
 
-  onSearchInputChange(event) {
+  onSearchQueryInputChange(event) {
     this.setState({
       searchQuery: event.target.value
     })
     PublishSubscribe.publish(SEARCH_COMPONENT_QUERY_CHANGE, event);
   }
 
-  render() {
-    return (
-      <div className='c-search' style={{display: 'block'}}>
-        <form action='/search/' method='get'>
-          <div className='c-search__query-wrapper'>
-            <input  onChange={this.onSearchInputChange} 
-              value={this.state.searchQuery} 
-              type='text' 
-              placeholder='Search' 
-              name='search-query' 
-            />
-          </div>
-          <div className='c-search__submit-btn-wrapper'>
-            <button className='c-search__submit-btn' onClick='this.submit();'>
-              <img src='/images/search-icon.svg' alt='search icon'/>
-              <img src='/images/search-icon-active.svg' alt='search icon'/>
-            </button>
-          </div>
-          <div className='c-search__close'></div>
-        </form>
-      </div>
-    )
+  isSearchQueryEmpty() {
+    return !this.state.searchQuery
+  }
+
+  focusOnSearchQueryInput() {
+    this.searchQueryInputRef.current.focus()
+  }
+
+  onCrossClick() {
+    this.clearSearchQuery()
+    this.focusOnSearchQueryInput()
+  }
+
+  clearSearchQuery() {
+    this.setState({
+      searchQuery: ''
+    })
   }
 }

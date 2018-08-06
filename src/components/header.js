@@ -3,48 +3,98 @@ import React from 'react'
 import Subscribe from './subscribe'
 import Search from './search'
 
-export default ({
-  categories
-}) => (
-  <div className='c-header'>
-    <div className='c-header__container l-container c-header__container--desktop'>
-      <div className='c-header__logo'>
-        <a className='c-header__logo__container' href='/'>
-          <div className='c-header__logo__part-1'><img src='/images/glyph.svg' alt='logo'/></div>
-          <div className='c-header__logo__part-2'><img src='/images/logo.svg' alt='logo'/></div>
-        </a>
+export default class extends React.Component {
+  constructor(props) {
+    super(props)
+    this.onSearchIconClick = this.onSearchIconClick.bind(this)
+    this.state = {
+      isSearchComponentVisible: false,
+      searchQueryFromSearchPage: ''
+    }
+  }
+
+  render() {
+    const categories = this.props.categories
+
+    return (
+      <div className='c-header'>
+        <div className='c-header__container l-container c-header__container--desktop'>
+          <div className='c-header__logo'>
+            <a className='c-header__logo__container' href='/'>
+              <div className='c-header__logo__part-1'><img src='/images/glyph.svg' alt='logo'/></div>
+              <div className='c-header__logo__part-2'><img src='/images/logo.svg' alt='logo'/></div>
+            </a>
+          </div>
+          <Subscribe />
+          <Search isVisible={this.isSearchComponentVisible} />
+          {this.createHeaderMenu()}
+        </div>
+        <div className='c-header__container l-container c-header__container--mobile'>
+          <div className='c-header__logo'>
+            <a className='c-header__logo__container' href='/'>
+              <div className='c-header__logo__part-1'><img src='/images/glyph.svg' alt='logo'/></div>
+            </a>
+          </div>
+          <div className='c-header__burger'></div>
+        </div>
+        <div className='c-header__dropdown-menu'>
+          <div className='c-header__dropdown-menu-container'>
+            <Search />
+            <div className='c-header__menu'>
+              <ul>
+                {categories.map(category => {
+                  return <li><a href="#">{category.node.frontmatter.title}</a></li>
+                })}
+              </ul>
+            </div>
+            <Subscribe mobile />
+          </div>
+        </div>
       </div>
-      <Subscribe />
-      <Search />
-      <div className='c-header__menu' style={{display: 'none'}}>
+    )
+  }
+
+  createHeaderMenu() {
+    const categories = this.props.categories
+
+    return (
+      <div className='c-header__menu' style={{}}>
         <ul>
-          {categories.map(category => {
-            return <li><a href="#">{category.node.frontmatter.title}</a></li>
+          {categories.map((category, key) => {
+            return <li key={key}><a href="#">{category.node.frontmatter.title}</a></li>
           })}
-          <li className='--search-icon'><a href='#'><img src='/images/search-icon.svg' alt='search icon'/></a></li>
+          <li className='--search-icon'>
+            <a href='#' onClick={this.onSearchIconClick}>
+              <img src='/images/search-icon.svg' alt='search icon'/>
+            </a>
+          </li>
         </ul>
       </div>
-    </div>
-    <div className='c-header__container l-container c-header__container--mobile'>
-      <div className='c-header__logo'>
-        <a className='c-header__logo__container' href='/'>
-          <div className='c-header__logo__part-1'><img src='/images/glyph.svg' alt='logo'/></div>
-        </a>
-      </div>
-      <div className='c-header__burger'></div>
-    </div>
-    <div className='c-header__dropdown-menu'>
-      <div className='c-header__dropdown-menu-container'>
-        <Search />
-        <div className='c-header__menu'>
-          <ul>
-            {categories.map(category => {
-              return <li><a href="#">{category.node.frontmatter.title}</a></li>
-            })}
-          </ul>
-        </div>
-        <Subscribe mobile />
-      </div>
-    </div>
-  </div>
-)
+    )
+  }
+
+  onSearchIconClick() {
+    this.showSearchComponent()
+  }
+
+  showSearchComponent() {
+    this.setState({
+      isSearchComponentVisible: true
+    })
+  }
+
+  hideSearchComponent() {
+    this.setState({
+      isSearchComponentVisible: false
+    })
+  }
+
+  componentWillMount() {
+    if (this.isLocationOnSearchPage())
+      this.showSearchComponent()
+  }
+
+  isLocationOnSearchPage() {
+    return true
+  }
+}

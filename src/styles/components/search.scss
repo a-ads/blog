@@ -45,7 +45,7 @@
     }
   }
 
-  .c-search__close {
+  .c-search__cross {
     width: 20px;
     height: 20px;
     position: absolute;
@@ -57,7 +57,6 @@
     right: 0;
     font-size: 0;
     cursor: pointer;
-    display: none;
   }
 
   &.--is-focused {
