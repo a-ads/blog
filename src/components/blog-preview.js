@@ -35,6 +35,7 @@ export default class extends React.Component {
             previousLabel={'<'}
             nextLabel={'>'}
             disabledClassName={'--disabled'}
+            disableInitialCallback={true}
           />
         </div>
       </div>
