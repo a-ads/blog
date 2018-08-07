@@ -1,14 +1,15 @@
 import React from 'react'
+import { connect } from 'react-redux'
 
-import Subscribe from './subscribe'
-import Search from './search'
+import Subscribe from '../components/subscribe'
+import Search from '../components/search'
 
-export default class extends React.Component {
+class Header extends React.Component {
   constructor(props) {
     super(props)
     this.onSearchIconClick = this.onSearchIconClick.bind(this)
     this.state = {
-      isSearchComponentVisible: false,
+      isSearchComponentActive: false,
       searchQueryFromSearchPage: ''
     }
   }
@@ -26,8 +27,15 @@ export default class extends React.Component {
             </a>
           </div>
           <Subscribe />
-          <Search isVisible={this.isSearchComponentVisible} />
-          {this.createHeaderMenu()}
+
+          {this.state.isSearchComponentActive ?
+            <Search 
+              search={this.props.search}
+              changeSearchQuery={this.props.changeSearchQuery}
+            />
+            :
+            this.createHeaderMenu()
+          }
         </div>
         <div className='c-header__container l-container c-header__container--mobile'>
           <div className='c-header__logo'>
@@ -39,11 +47,15 @@ export default class extends React.Component {
         </div>
         <div className='c-header__dropdown-menu'>
           <div className='c-header__dropdown-menu-container'>
-            <Search />
+            {/* <Search /> */}
             <div className='c-header__menu'>
               <ul>
-                {categories.map(category => {
-                  return <li><a href="#">{category.node.frontmatter.title}</a></li>
+                {categories.map((category, key) => {
+                  return (
+                    <li key={key}>
+                      <a href="#">{category.node.frontmatter.title}</a>
+                    </li>
+                  )
                 })}
               </ul>
             </div>
@@ -56,7 +68,6 @@ export default class extends React.Component {
 
   createHeaderMenu() {
     const categories = this.props.categories
-
     return (
       <div className='c-header__menu' style={{}}>
         <ul>
@@ -79,22 +90,30 @@ export default class extends React.Component {
 
   showSearchComponent() {
     this.setState({
-      isSearchComponentVisible: true
+      isSearchComponentActive: true
     })
   }
 
   hideSearchComponent() {
     this.setState({
-      isSearchComponentVisible: false
+      isSearchComponentActive: false
     })
   }
+}
 
-  componentWillMount() {
-    if (this.isLocationOnSearchPage())
-      this.showSearchComponent()
-  }
-
-  isLocationOnSearchPage() {
-    return true
+const mapStateToProps = (state) => {
+  return { 
+    search: state.search
   }
 }
+
+const mapDispatchToProps = dispatch => {
+  return {
+    changeSearchQuery: (searchQuery) => dispatch({ //TODO сделать отдельный файл в actions
+      type: 'SEARCH_QUERY_CHANGE',
+      payload: searchQuery
+    })
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Header)

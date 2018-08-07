@@ -1,15 +1,22 @@
 import { createStore as reduxCreateStore } from "redux"
 
 const reducer = (state, action) => {
-  if (action.type === `INCREMENT`) {
+  if (action.type === `SEARCH_QUERY_CHANGE`) {
     return Object.assign({}, state, {
-      count: state.count + 1,
+      search: {
+        ...state.search,
+        query: action.payload
+      }
     })
   }
   return state
 }
 
-const initialState = { count: 0 }
+const initialState = {
+  search: {
+    query: ''
+  } 
+}
 
 const createStore = () => reduxCreateStore(reducer, initialState)
 export default createStore
