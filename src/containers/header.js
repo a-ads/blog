@@ -7,11 +7,11 @@ import Search from '../components/search'
 class Header extends React.Component {
   constructor(props) {
     super(props)
-    this.onSearchIconClick = this.onSearchIconClick.bind(this)
     this.state = {
-      isSearchComponentActive: false,
-      searchQueryFromSearchPage: ''
+      isSearchComponentDesktopActive: false
     }
+    this.onSearchIconClick = this.onSearchIconClick.bind(this)
+    this.hideSearchComponentDesktop = this.hideSearchComponentDesktop.bind(this)
   }
 
   render() {
@@ -28,15 +28,18 @@ class Header extends React.Component {
           </div>
           <Subscribe />
 
-          {this.state.isSearchComponentActive ?
+          {this.state.isSearchComponentDesktopActive ?
             <Search 
+              ref={this.searchComponentDesktopRef}
               search={this.props.search}
               changeSearchQuery={this.props.changeSearchQuery}
+              onOutsideClick={this.hideSearchComponentDesktop}
             />
             :
             this.createHeaderMenu()
           }
         </div>
+
         <div className='c-header__container l-container c-header__container--mobile'>
           <div className='c-header__logo'>
             <a className='c-header__logo__container' href='/'>
@@ -85,18 +88,18 @@ class Header extends React.Component {
   }
 
   onSearchIconClick() {
-    this.showSearchComponent()
+    this.showSearchComponentDesktop()
   }
 
-  showSearchComponent() {
+  showSearchComponentDesktop() {
     this.setState({
-      isSearchComponentActive: true
+      isSearchComponentDesktopActive: true
     })
   }
 
-  hideSearchComponent() {
+  hideSearchComponentDesktop() {
     this.setState({
-      isSearchComponentActive: false
+      isSearchComponentDesktopActive: false
     })
   }
 }

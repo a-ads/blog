@@ -7,11 +7,13 @@ export default class extends React.Component {
     this.searchFormSubmitId = 'search-form-submit' //TODO сделать уникальным
     this.onSearchQueryInputChange = this.onSearchQueryInputChange.bind(this)
     this.onCrossClick = this.onCrossClick.bind(this)
+    this.setSearchComponentRef = this.setSearchComponentRef.bind(this)
+    this.handleClickOutside = this.handleClickOutside.bind(this)
   }
 
   render() {
     return (
-      <div className='c-search' style={{}}>
+      <div className='c-search' ref={this.setSearchComponentRef}>
         <form action='/search/' method='get'>
           <div className='c-search__query-wrapper'>
             <input type='text' 
@@ -44,6 +46,25 @@ export default class extends React.Component {
 
   componentDidMount() {
     this.focusOnSearchQueryInput()
+    document.addEventListener('mousedown', this.handleClickOutside)
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener('mousedown', this.handleClickOutside)
+  }
+
+  setSearchComponentRef(node) {
+    this.searchComponentRef = node
+  }
+
+  handleClickOutside() {
+    if (this.isClickOutside(event) && this.props.onOutsideClick) {
+      this.props.onOutsideClick()
+    }
+  }
+
+  isClickOutside(event) {
+    return this.searchComponentRef && !this.searchComponentRef.contains(event.target)
   }
 
   onSearchQueryInputChange(event) {
