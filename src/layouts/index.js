@@ -1,7 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import _ from 'lodash'
-import { connect } from 'react-redux'
 
 import Header from '../containers/header'
 import Footer from '../components/footer.js'
@@ -18,8 +17,7 @@ export const query = graphql`
     allBlogCategories: allBlogCategoriesYaml {
       edges {
         node {
-          title,
-          order
+          title
         }
       }
     }

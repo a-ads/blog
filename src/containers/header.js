@@ -73,9 +73,13 @@ class Header extends React.Component {
     return (
       <div className='c-header__menu' style={{}}>
         <ul>
-          {categories.map((category, key) => {
-            return <li key={key}><a href="#">{category.node.title}</a></li>
-          })}
+          {categories.map((category, key) => (
+            <li key={key}>
+              <a href={`/search/?search-query=${encodeURIComponent(category.node.title)}`}>
+                {category.node.title}
+              </a>
+            </li>
+          ))}
           <li className='--search-icon'>
             <a href='#' onClick={this.onSearchIconClick}>
               <img src='/images/search-icon.svg' alt='search icon'/>

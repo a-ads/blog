@@ -1,8 +1,8 @@
 backend:
   name: gitlab
   repo: Leoplod/aads-blog-gatsby-netlifycms
-  auth_type: implicit
-  app_id: 55aa5600385313996d0ccd2a8af267b51317fa5340339796e5b53e8fb3a096e2
+  # auth_type: implicit
+  # app_id: 55aa5600385313996d0ccd2a8af267b51317fa5340339796e5b53e8fb3a096e2
 
 media_folder: static/assets
 public_folder: assets
@@ -35,7 +35,7 @@ collections:
     extension: yml
     fields:
       - { name: title, label: Title }
-      - { name: order, label: Order, default: 0 }
+      - { name: order, label: Order, default: '0' }
 
   - name: misc
     label: Misc
