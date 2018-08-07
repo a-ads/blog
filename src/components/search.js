@@ -70,8 +70,6 @@ export default class extends React.Component {
   }
 
   clearSearchQuery() {
-    this.setState({
-      searchQuery: ''
-    })
+    this.props.changeSearchQuery('')
   }
 }

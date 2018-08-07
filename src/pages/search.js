@@ -20,11 +20,6 @@ class SearchPage extends React.Component {
     this.searchResults = []
   }
 
-  componentDidMount() {
-    const searchQuery = getURLParamValue('search-query', location.href)
-    this.props.changeSearchQuery(searchQuery)
-  }
-
   render() {
     this.setSearchResults()
 
@@ -53,6 +48,15 @@ class SearchPage extends React.Component {
         </div>
       </div>
     )
+  }
+
+  componentDidMount() {
+    this.changeSearchQueryFromURLParam()
+  }
+
+  changeSearchQueryFromURLParam() {
+    const searchQuery = getURLParamValue('search-query', location.href)
+    this.props.changeSearchQuery(searchQuery)
   }
 
   setSearchResults = () => {
