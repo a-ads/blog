@@ -15,16 +15,11 @@ export const query = graphql`
       }
     }
 
-    allBlogCategories: allMarkdownRemark(
-      sort: {fields: [frontmatter___date], order: DESC},
-      filter: {fileAbsolutePath: {regex: "/\\/(blog_categories)\\//"}}
-    ) {
+    allBlogCategories: allBlogCategoriesYaml {
       edges {
         node {
-          frontmatter {
-            title,
-            order
-          }
+          title,
+          order
         }
       }
     }
@@ -74,7 +69,7 @@ export default class extends React.Component {
       this.props.data.blogPostsGroupedByCategory
     const blogPostIndex = blogPostsGroupedByCategory.group
       .map(post => post.fieldValue)
-      .indexOf(category.node.frontmatter.title)
+      .indexOf(category.node.title)
     if (blogPostIndex !== -1)
       return true
   }

@@ -34,6 +34,7 @@ module.exports = {
         fields: [
           'title',
           'tags',
+          'category'
         ],
         resolvers: {
           MarkdownRemark: {

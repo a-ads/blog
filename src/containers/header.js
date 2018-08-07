@@ -55,7 +55,7 @@ class Header extends React.Component {
                 {categories.map((category, key) => {
                   return (
                     <li key={key}>
-                      <a href="#">{category.node.frontmatter.title}</a>
+                      <a href="#">{category.node.title}</a>
                     </li>
                   )
                 })}
@@ -74,7 +74,7 @@ class Header extends React.Component {
       <div className='c-header__menu' style={{}}>
         <ul>
           {categories.map((category, key) => {
-            return <li key={key}><a href="#">{category.node.frontmatter.title}</a></li>
+            return <li key={key}><a href="#">{category.node.title}</a></li>
           })}
           <li className='--search-icon'>
             <a href='#' onClick={this.onSearchIconClick}>
