@@ -30,7 +30,6 @@ class Header extends React.Component {
 
           {this.state.isSearchComponentDesktopActive ?
             <Search 
-              ref={this.searchComponentDesktopRef}
               search={this.props.search}
               changeSearchQuery={this.props.changeSearchQuery}
               onOutsideClick={this.hideSearchComponentDesktop}
