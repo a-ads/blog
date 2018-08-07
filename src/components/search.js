@@ -1,10 +1,4 @@
 import React from 'react'
-import PublishSubscribe from 'publish-subscribe-js'
-
-import {
-  SEARCH_COMPONENT_QUERY_CHANGE,
-  SEARCH_PAGE_GET_SEARCH_QUERY
-} from '../constants'
 
 export default class extends React.Component {
   constructor(props) {
