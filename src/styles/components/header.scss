@@ -4,8 +4,8 @@
   position: relative;
   z-index: 20;
   height: 210px;
-  overflow: auto;
   @include breakpoint(tablet) {
+    overflow: visible;
     height: auto;
     position: fixed;
     top: 0;
