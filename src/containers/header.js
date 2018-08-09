@@ -11,7 +11,7 @@ class Header extends React.Component {
     super(props)
     this.state = {
       isSearchComponentDesktopActive: false,
-      isMobileMenuOpen: true
+      isMobileMenuOpen: false
     }
     this.onSearchIconClick = this.onSearchIconClick.bind(this)
     this.hideSearchComponentDesktop = this.hideSearchComponentDesktop.bind(this)
@@ -59,7 +59,10 @@ class Header extends React.Component {
         >
           <div className='c-header__dropdown-menu'>
             <div className='c-header__dropdown-menu-container'>
-              {/* <Search /> */}
+              <Search 
+                search={this.props.search}
+                changeSearchQuery={this.props.changeSearchQuery}
+              />
               <div className='c-header__menu'>
                 <ul>
                   {categories.map((category, key) => {
