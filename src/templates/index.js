@@ -1,11 +1,11 @@
 import React from 'react'
 
 import Jumbotron from '../components/jumbotron'
-import Card from '../components/card'
 import AadsServices from '../components/aads-services'
-import BlogPreview from '../components/blog-preview'
+import BlogPreviewDesktop from '../components/blog-preview-desktop'
+import BlogPreviewMobile from '../components/blog-preview-mobile'
 import Subscribe from '../components/subscribe'
-import config from '../config';
+import CONFIG from '../config';
 
 export const query = graphql`
   query IndexPageQuery {
@@ -36,8 +36,8 @@ export default class extends React.Component {
     return (
       <div>
         {this.createJumbotron()}
-        {this.createBlogPreview()}
-        {this.createBlogPostCardsMobile()}
+        {this.createBlogPreviewDesktop()}
+        {this.createBlogPreviewMobile()}
         <div className='l-container'>
           <Subscribe mobile />
         </div>
@@ -66,34 +66,31 @@ export default class extends React.Component {
     ))]
   }
 
-  createBlogPreview() {
+  createBlogPreviewDesktop() {
     const { blogPosts } = this.props.data
-    const { previewsPerPage } = config.blogPreview
+    const { previewsPerPage } = CONFIG.blogPreviewDesktop
     const defaultPosts = _.take(
       blogPosts.edges,
       previewsPerPage
     )
-    return <BlogPreview 
+    return <BlogPreviewDesktop
       defaultPosts={defaultPosts}
+      postCount={blogPosts.totalCount}
+      previewsPerPage={CONFIG.blogPreviewDesktop.previewsPerPage}
     />
   }
 
-  createBlogPostCardsMobile() {
-    const blogPostCardsMobile = []
-    const blogPostCardsData = [{}, {}, {}, {}, {}, {}]
-    blogPostCardsData.forEach(() => {
-      blogPostCardsMobile.push(<Card />)
-    })
-
-    return (
-      <div className='l-card-group l-card-group--mobile'>
-        <div className='l-card-group__card-container l-container'>
-          {blogPostCardsMobile}
-        </div>
-        <div className='l-card-group__pagination-container l-container'>
-          <div className='c-load-more-btn'>Load more</div>
-        </div>
-      </div>
+  createBlogPreviewMobile() {
+    const { blogPosts } = this.props.data
+    const { previewsPerPage } = CONFIG.blogPreviewMobile
+    const defaultPosts = _.take(
+      blogPosts.edges,
+      previewsPerPage
     )
+    return <BlogPreviewMobile
+      defaultPosts={defaultPosts}
+      postCount={blogPosts.totalCount}
+      previewsPerPage={CONFIG.blogPreviewMobile.previewsPerPage}
+    />
   }
 }

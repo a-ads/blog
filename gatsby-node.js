@@ -1,7 +1,7 @@
 const path = require('path');
 const { createFilePath } = require('gatsby-source-filesystem');
 const _ = require('lodash');
-const config = require('./src/config.js');
+const CONFIG = require('./src/config.js');
 const fs = require('fs');
 
 exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
@@ -16,7 +16,6 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
     });
   }
 };
-
 
 exports.createPages= ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators;
@@ -57,7 +56,7 @@ exports.createPages= ({ graphql, boundActionCreators }) => {
         }
       });
 
-      /*Blog posts pages*/
+      /*Blog post pages*/
       const blogPosts = result.data.allBlogPosts.edges;
       _.each(blogPosts, (blogPost, index) => {
         const previousBlogPost = index === blogPosts.length - 1 ? null : blogPosts[index + 1].node;
@@ -72,21 +71,49 @@ exports.createPages= ({ graphql, boundActionCreators }) => {
           }
         })
       });
-
-      const blogPostPreviewsPerPage =  config.blogPreview.previewsPerPage;
-      const blogPostCount = result.data.allBlogPosts.totalCount;
-      const dir = `./public/${config.blogPreview.previewFilesDir}`;
-      if (blogPostCount > blogPostPreviewsPerPage) {
-        if (!fs.existsSync(dir)){
-          fs.mkdirSync(dir);
+      
+      createBlogPreviewDesktopParts();
+      function createBlogPreviewDesktopParts() {
+        const blogPostPreviewsPerPage =  CONFIG.blogPreviewDesktop.previewsPerPage;
+        const blogPostCount = result.data.allBlogPosts.totalCount;
+        const dir = `./public/${CONFIG.blogPreviewDesktop.previewFilesDir}`;
+        if (blogPostCount > blogPostPreviewsPerPage) {
+          if (!fs.existsSync(dir)){
+            fs.mkdirSync(dir);
+          }
+          _.chunk(blogPosts, blogPostPreviewsPerPage).forEach((blogPostsChunk, pageIndex) => {
+            const jsonFileContent = JSON.stringify(blogPostsChunk)
+            fs.writeFile(
+              path.resolve(`${dir}/${CONFIG.blogPreviewDesktop.previewFilesPrefix}${pageIndex}.json`),
+              jsonFileContent, err => {
+                if (err) throw err;
+                console.log('saved')
+              }
+            )
+          });
         }
-        _.chunk(blogPosts, blogPostPreviewsPerPage).forEach((blogPostsChunk, pageIndex) => {
-          const jsonFileContent = JSON.stringify(blogPostsChunk)
-          fs.writeFile(path.resolve(`${dir}/${config.blogPreview.previewFilesPrefix}${pageIndex}.json`), jsonFileContent, err => {
-            if (err) throw err;
-            console.log('saved')
-          })
-        });
+      }
+
+      createBlogPreviewMobileParts();
+      function createBlogPreviewMobileParts() {
+        const blogPostPreviewsPerPage =  CONFIG.blogPreviewMobile.previewsPerPage;
+        const blogPostCount = result.data.allBlogPosts.totalCount;
+        const dir = `./public/${CONFIG.blogPreviewMobile.previewFilesDir}`;
+        if (blogPostCount > blogPostPreviewsPerPage) {
+          if (!fs.existsSync(dir)){
+            fs.mkdirSync(dir);
+          }
+          _.chunk(blogPosts, blogPostPreviewsPerPage).forEach((blogPostsChunk, pageIndex) => {
+            const jsonFileContent = JSON.stringify(blogPostsChunk)
+            fs.writeFile(
+              path.resolve(`${dir}/${CONFIG.blogPreviewMobile.previewFilesPrefix}${pageIndex}.json`),
+              jsonFileContent, err => {
+                if (err) throw err;
+                console.log('saved')
+              }
+            )
+          });
+        }
       }
 
       resolve();

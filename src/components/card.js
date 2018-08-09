@@ -2,8 +2,8 @@ import React from 'react'
 
 export default (props) => {
   const {
-    title,
-    thumbnail,
+    title = '',
+    thumbnail = '',
     link = '#',
     category = ''
   } = props

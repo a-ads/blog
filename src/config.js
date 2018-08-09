@@ -1,8 +1,13 @@
 module.exports = {
-  blogPreview: {
+  blogPreviewDesktop: {
     previewsPerPage: 9,
-    previewsPerPageMobile: 6,
     previewFilesDir: 'blog-preview-parts',
+    previewFilesPrefix: 'part-'
+  },
+
+  blogPreviewMobile: {
+    previewsPerPage: 6,
+    previewFilesDir: 'blog-preview-mobile-parts',
     previewFilesPrefix: 'part-'
   }
 }
