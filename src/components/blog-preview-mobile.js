@@ -20,7 +20,7 @@ export default class BlogPreviewMobile extends BlogPreviewDesktop {
   }
 
   onLoadMoreButtonClick() {
-    axios.get(`/blog-preview-mobile-parts/part-${this.currentPage + 1}.json`)
+    axios.get(`/blog-preview-mobile-parts/part-${this.currentPage+1}.json`)
     .then(({ data }) => {
       this.setPosts(data)
       this.renderPreviews()
@@ -28,7 +28,7 @@ export default class BlogPreviewMobile extends BlogPreviewDesktop {
     .catch(error => {
       console.log(error)
     })
-    this.setCurrentPage(this.currentPage + 1)
+    this.setCurrentPage(this.currentPage+1)
   }
 
   setPosts(posts) {
@@ -40,6 +40,6 @@ export default class BlogPreviewMobile extends BlogPreviewDesktop {
   }
 
   isCurrentPageLast() {
-    return !(this.pageCount > this.currentPage + 1) 
+    return !(this.pageCount > this.currentPage+1) 
   }
 }

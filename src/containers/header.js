@@ -1,17 +1,21 @@
 import React from 'react'
 import { connect } from 'react-redux'
+import { fallDown as MobileMenu } from 'react-burger-menu'
 
 import Subscribe from '../components/subscribe'
 import Search from '../components/search'
+
 
 class Header extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      isSearchComponentDesktopActive: false
+      isSearchComponentDesktopActive: false,
+      isMobileMenuOpen: true
     }
     this.onSearchIconClick = this.onSearchIconClick.bind(this)
     this.hideSearchComponentDesktop = this.hideSearchComponentDesktop.bind(this)
+    this.onBurgerClick = this.onBurgerClick.bind(this)
   }
 
   render() {
@@ -27,7 +31,6 @@ class Header extends React.Component {
             </a>
           </div>
           <Subscribe />
-
           {this.state.isSearchComponentDesktopActive ?
             <Search 
               search={this.props.search}
@@ -45,25 +48,34 @@ class Header extends React.Component {
               <div className='c-header__logo__part-1'><img src='/images/glyph.svg' alt='logo'/></div>
             </a>
           </div>
-          <div className='c-header__burger'></div>
+          <div className='c-header__burger' onClick={this.onBurgerClick}></div>
         </div>
-        <div className='c-header__dropdown-menu'>
-          <div className='c-header__dropdown-menu-container'>
-            {/* <Search /> */}
-            <div className='c-header__menu'>
-              <ul>
-                {categories.map((category, key) => {
-                  return (
-                    <li key={key}>
-                      <a href="#">{category.node.title}</a>
-                    </li>
-                  )
-                })}
-              </ul>
+
+        <MobileMenu 
+          isOpen={this.state.isMobileMenuOpen}
+          width='100%'
+          height='auto'
+          onStateChange={(state) => this.handleMobileMenuStateChange(state)}
+        >
+          <div className='c-header__dropdown-menu'>
+            <div className='c-header__dropdown-menu-container'>
+              {/* <Search /> */}
+              <div className='c-header__menu'>
+                <ul>
+                  {categories.map((category, key) => {
+                    return (
+                      <li key={key}>
+                        <a href="#">{category.node.title}</a>
+                      </li>
+                    )
+                  })}
+                </ul>
+              </div>
+              <Subscribe mobile />
             </div>
-            <Subscribe mobile />
           </div>
-        </div>
+        </MobileMenu>
+
       </div>
     )
   }
@@ -103,6 +115,22 @@ class Header extends React.Component {
   hideSearchComponentDesktop() {
     this.setState({
       isSearchComponentDesktopActive: false
+    })
+  }
+
+  handleMobileMenuStateChange(state) {
+    this.setState({
+      isMobileMenuOpen: state.isOpen
+    })
+  }
+
+  onBurgerClick() {
+    this.toggleMobileMenu()
+  }
+
+  toggleMobileMenu() {
+    this.setState({
+      isMobileMenuOpen: !this.state.isMobileMenuOpen
     })
   }
 }

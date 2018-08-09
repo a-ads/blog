@@ -43,6 +43,8 @@
 
   .c-header__container.c-header__container--mobile {
     display: none;
+    z-index: 1200;
+    position: relative;
     @include breakpoint(tablet) {
       display: flex;
     }
@@ -132,10 +134,13 @@
 
   .c-header__menu {
     width: 100%;
-    margin-top: 55px;
+    padding-top: 55px;
     @include breakpoint(tablet) {
-      margin-top: 40px;
+      padding-top: 40px;
     }
+    // @include breakpoint(phone) {
+
+    // }
 
     ul {
       list-style: none;
@@ -187,6 +192,10 @@
       width: 20px;
       height: 20px;
     }
+  }
+
+  .bm-burger-button {
+    display: none;
   }
 
   .c-header__dropdown-menu {
