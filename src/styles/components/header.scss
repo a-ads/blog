@@ -194,6 +194,13 @@
     }
   }
 
+  .bm-menu-wrap {
+    display: none;
+    @include breakpoint(tablet) {
+      display: block;
+    }
+  }
+
   .bm-burger-button {
     display: none;
   }
