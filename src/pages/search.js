@@ -7,7 +7,7 @@ import { getURLParamValue } from '../helpers'
 
 export const query = graphql`
   query SearchPageQuery {
-    siteSearchIndex {
+    siteSearchIndex(pages: {regex: "//blog//"}) {
       index
     }
   }

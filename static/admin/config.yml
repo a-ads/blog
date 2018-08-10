@@ -42,14 +42,14 @@ collections:
     files:
       - label: "About"
         name: about_page
-        file: content/pages/about.md
+        file: content/pages/about.yml
         fields: 
           - { name: title, label: Title }
           - { name: body, label: Body, widget: markdown }
       
       - label: "Contacts"
         name: contacts_page
-        file: content/pages/contacts.md
+        file: content/pages/contacts.yml
         fields: 
           - { name: title, label: Title }
           - { name: body, label: Body, widget: markdown }
