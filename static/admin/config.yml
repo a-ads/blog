@@ -44,12 +44,14 @@ collections:
         name: about_page
         file: content/pages/about.md
         fields: 
+          - { name: title, label: Title }
           - { name: body, label: Body, widget: markdown }
       
       - label: "Contacts"
         name: contacts_page
         file: content/pages/contacts.md
         fields: 
+          - { name: title, label: Title }
           - { name: body, label: Body, widget: markdown }
 
   - name: misc
