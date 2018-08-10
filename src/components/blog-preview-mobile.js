@@ -7,7 +7,7 @@ export default class BlogPreviewMobile extends BlogPreviewDesktop {
     super(props)
     this.className = 'l-card-group l-card-group--mobile'
     this.onLoadMoreButtonClick = this.onLoadMoreButtonClick.bind(this)
-    this.currentPage = 0
+    this.currentPageNumber = 0
   }
 
   createPagination() {
@@ -20,8 +20,8 @@ export default class BlogPreviewMobile extends BlogPreviewDesktop {
   }
 
   onLoadMoreButtonClick() {
-    const nextPage = this.currentPage + 1
-    axios.get(`/blog-preview-mobile-parts/part-${nextPage}.json`)
+    const nextPageNumber = this.currentPageNumber + 1
+    axios.get(`/blog-preview-mobile-parts/part-${nextPageNumber}.json`)
     .then(({ data }) => {
       this.setPosts(data)
       this.renderPreviews()
@@ -29,7 +29,7 @@ export default class BlogPreviewMobile extends BlogPreviewDesktop {
     .catch(error => {
       console.log(error)
     })
-    this.setCurrentPage(nextPage)
+    this.setCurrentPage(nextPageNumber)
   }
 
   renderPreviews() {
@@ -39,10 +39,10 @@ export default class BlogPreviewMobile extends BlogPreviewDesktop {
   }
 
   setCurrentPage(value) {
-    this.currentPage = value
+    this.currentPageNumber = value
   }
 
   isCurrentPageLast() {
-    return !(this.pageCount > this.currentPage + 1) 
+    return this.pageCount <= this.currentPageNumber + 1 
   }
 }

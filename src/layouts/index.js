@@ -40,6 +40,7 @@ export default class extends React.Component {
       <div>
         <Helmet>
           <title>{title}</title>
+          <link rel='icon' type='image/png' href='/images/favicon.png' />
         </Helmet>
         <Header 
           categories={this.getActualBlogCategories()}
