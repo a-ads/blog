@@ -69,7 +69,7 @@ export default class extends React.Component {
     const blogPostIndex = blogPostsGroupedByCategory.group
       .map(post => post.fieldValue)
       .indexOf(category.node.title)
-    if (blogPostIndex !== -1)
+    if (blogPostIndex !== -1) 
       return true
   }
 }

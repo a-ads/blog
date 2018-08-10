@@ -41,7 +41,7 @@ class SearchPage extends React.Component {
             </div>
           }
         </div>
-        <div className='l-card-group l-card-group--desktop'>
+        <div className='l-card-group'>
           <div className='l-card-group__card-container l-container'>
             {this.createSearchResults()}
           </div>
