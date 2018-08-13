@@ -37,23 +37,6 @@ collections:
       - { name: title, label: Title }
       - { name: order, label: Order, default: '0' }
 
-  - name: pages
-    label: Pages
-    files:
-      - label: "About"
-        name: about_page
-        file: content/pages/about.yml
-        fields: 
-          - { name: title, label: Title }
-          - { name: body, label: Body, widget: markdown }
-      
-      - label: "Contacts"
-        name: contacts_page
-        file: content/pages/contacts.yml
-        fields: 
-          - { name: title, label: Title }
-          - { name: body, label: Body, widget: markdown }
-
   - name: misc
     label: Misc
     files:
