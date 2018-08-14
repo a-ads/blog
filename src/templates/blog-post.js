@@ -1,6 +1,8 @@
 import React from 'react'
 
 import AadsServices from '../components/aads-services'
+import SocialButtonsDesktop from '../components/social-buttons-desktop';
+import SocialButtonsMobile from '../components/social-buttons-mobile';
 
 const createTags = (tags) => {
   const tagsArray = []
@@ -45,7 +47,11 @@ export default ({ data, pathContext }) => {
               dangerouslySetInnerHTML={{ __html: post.html }}
           />
         </section>
-        
+
+        <SocialButtonsDesktop />
+
+        <SocialButtonsMobile />
+
         {post.frontmatter.tags && 
           <section className='c-blog-article__tags'>
             {createTags(post.frontmatter.tags)}
