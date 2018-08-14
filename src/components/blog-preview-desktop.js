@@ -71,7 +71,11 @@ export default class extends React.Component {
     .then(({ data }) => {
       this.setPosts(data)
       this.renderPreviews()
-      window.scrollTo(0, this.wrapRef.current.offsetTop)
+      window.scroll({
+        top: this.wrapRef.current.offsetTop, 
+        left: 0,
+        behavior: 'smooth' 
+      });
     })
     .catch(error => {
       console.log(error)
