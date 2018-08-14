@@ -14,11 +14,12 @@ export default class extends React.Component {
     }
     this.onPageChange = this.onPageChange.bind(this)
     this.className = 'l-card-group l-card-group--desktop'
+    this.wrapRef = React.createRef()
   }
 
   render() {
     return (
-      <div className={this.className}>
+      <div ref={this.wrapRef} className={this.className}>
         <div className='l-card-group__card-container l-container'>
           {this.state.previews}
         </div>
@@ -70,6 +71,7 @@ export default class extends React.Component {
     .then(({ data }) => {
       this.setPosts(data)
       this.renderPreviews()
+      window.scrollTo(0, this.wrapRef.current.offsetTop)
     })
     .catch(error => {
       console.log(error)
