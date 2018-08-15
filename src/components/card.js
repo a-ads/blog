@@ -21,6 +21,9 @@ export default (props) => {
           <div className='c-card__text__title'>
             {title}
           </div>
+          <div className='c-card__text__date'>
+            10 june 2018
+          </div>
         </div>
       </a>
     </div>
