@@ -61,7 +61,7 @@ export default ({ data, pathContext }) => {
         <section className='c-blog-article__nearby-articles'>
           <div className='c-blog-article__nearby-articles__container l-container'>
             {previous &&
-              <div className='c-card c-card--prev-article'>
+              <div className='c-card'>
                 <a href={previous.fields.slug}>
                   <div className='c-card__image'>
                     {previous.frontmatter.thumbnail &&
@@ -78,7 +78,7 @@ export default ({ data, pathContext }) => {
               </div>
             }
             {next &&
-              <div className='c-card c-card--next-article'>
+              <div className='c-card'>
                 <a href={next.fields.slug}>
                   <div className='c-card__image'>
                     {next.frontmatter.thumbnail &&
