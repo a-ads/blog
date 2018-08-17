@@ -5,7 +5,8 @@ export default (props) => {
     title = '',
     thumbnail = '',
     link = '#',
-    category = ''
+    category = '',
+    date=''
   } = props
 
   return (
@@ -22,7 +23,7 @@ export default (props) => {
             {title}
           </div>
           <div className='c-card__text__date'>
-            10 june 2018
+            {date}
           </div>
         </div>
       </a>

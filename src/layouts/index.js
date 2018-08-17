@@ -41,6 +41,7 @@ export default class extends React.Component {
         <Helmet>
           <title>{title}</title>
           <link rel='icon' type='image/png' href='/images/favicon.png' />
+          <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,600,700|Open+Sans:400,600,700' rel='stylesheet' />
         </Helmet>
         <Header 
           categories={this.getActualBlogCategories()}

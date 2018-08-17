@@ -87,10 +87,12 @@
   }
 
   .c-card__text__date {
+    font-family: $font-1;
     font-family: $font-2;
     line-height: 24px;
-    color: $color-gray-1;
+    color: $color-gray-8;
     font-size: 18px;
+    text-transform: lowercase;
   }
 }
 

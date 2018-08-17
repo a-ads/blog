@@ -47,6 +47,7 @@ export default class extends React.Component {
         thumbnail={post.node.frontmatter.thumbnail}
         title={post.node.frontmatter.title}
         category={post.node.frontmatter.category}
+        date={post.node.frontmatter.date}
       />
     ))
   }

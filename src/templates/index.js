@@ -20,6 +20,7 @@ export const query = graphql`
             title
             thumbnail
             category
+            date(formatString: "DD MMMM YYYY")
           }
           fields {
             slug
