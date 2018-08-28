@@ -44,7 +44,8 @@
   .c-header__container.c-header__container--mobile {
     display: none;
     z-index: 1200;
-    position: relative;
+    // position: relative;
+    position: absolute;
     @include breakpoint(tablet) {
       display: flex;
     }
@@ -210,7 +211,8 @@
   }
 
   .bm-menu-wrap {
-    height: auto!important;
+    // height: auto!important;
+    padding-top: 78px;
   }
 
   .c-header__dropdown-menu {

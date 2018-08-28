@@ -41,8 +41,9 @@ export default class extends React.Component {
   }
 
   getPreviews() {
-    return this.posts.map(post => (
+    return this.posts.map((post, index) => (
       <Card 
+        key={index}
         link={post.node.fields.slug}
         thumbnail={post.node.frontmatter.thumbnail}
         title={post.node.frontmatter.title}

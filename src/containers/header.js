@@ -18,6 +18,10 @@ class Header extends React.Component {
     this.onBurgerClick = this.onBurgerClick.bind(this)
   }
 
+  componentDidUpdate() {
+    document.body.style.overflow = this.state.isMobileMenuOpen ? 'hidden' : 'auto'
+  }
+
   render() {
     const categories = this.props.categories
 
