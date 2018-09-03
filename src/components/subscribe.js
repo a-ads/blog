@@ -3,7 +3,7 @@ import React from 'react'
 export default class extends React.Component {
   constructor (props) {
     super(props)
-    
+
     this.state = {
       email: '',
       emailSent: false
@@ -48,17 +48,25 @@ export default class extends React.Component {
     return(
       <div className='c-subscribe c-subscribe--mobile'> 
         <div className='c-subscribe__wrapper'>
-          <div className='c-subscribe__title'>Subscribe to our newsletter</div>
-          <div className='c-subscribe__container'>
-            <form>
-              <div className='c-subscribe__input-wrapper'>
-                {this.renderEmailInput()}
+          {!this.isEmailSent() ?
+            <div>
+              <div className='c-subscribe__title'>Subscribe to our newsletter</div>
+              <div className='c-subscribe__container'>
+                <form>
+                  <div className='c-subscribe__input-wrapper'>
+                    {this.renderEmailInput()}
+                  </div>
+                  <div className='c-subscribe__submit-wrapper'>
+                    {this.renderSubmit()}
+                  </div>
+                </form>
               </div>
-              <div className='c-subscribe__submit-wrapper'>
-                {this.renderSubmit()}
-              </div>
-            </form>
-          </div>
+            </div>
+          :
+            <div className='c-subscribe__message-is-sent'>
+              <p>Thanks! Please, check out your<br />email to confirm subscription.</p>
+            </div>
+          }
         </div>
       </div>
     )
@@ -104,7 +112,4 @@ export default class extends React.Component {
       emailSent: true
     })
   }
-
-  
-
 }

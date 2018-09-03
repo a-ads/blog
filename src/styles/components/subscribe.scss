@@ -59,7 +59,7 @@
 
   .c-subscribe__message-is-sent {
     position: relative;
-    padding-left: 55px;
+    padding-left: 60px;
     padding-top: 16px;
 
     &::before {
@@ -71,7 +71,7 @@
       background-image: url('/images/mailsent.svg');
       background-size: cover;
       left: 0;
-      top: 14px;
+      top: 16px;
     }
 
     p {
@@ -85,6 +85,7 @@
 .c-subscribe.c-subscribe--mobile {
   margin-bottom: 20px;
   display: none;
+  overflow: hidden;
   @include breakpoint(tablet) {
     display: block;
   }
@@ -154,6 +155,30 @@
       border: none;
       background-position: center center;
       outline: none;
+    }
+  }
+
+  .c-subscribe__message-is-sent {
+    padding-top: 63px;
+    padding-bottom: 1px;
+    padding-left: 0;
+    padding-right: 0;
+
+    &::before {
+      top: 8px;
+      height: 41px;
+      left: -20px;
+      width: 100%;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    p {
+      margin: 0 auto;
+      line-height: 30px;
+      font-size: 20px;
+      width: 296px;
     }
   }
 }
