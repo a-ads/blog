@@ -56,6 +56,30 @@
       background-color: $color-white-2;
     }
   }
+
+  .c-subscribe__message-is-sent {
+    position: relative;
+    padding-left: 55px;
+    padding-top: 16px;
+
+    &::before {
+      content: '';
+      width: 49px;
+      height: 24px;
+      display: block;
+      position: absolute;
+      background-image: url('/images/mailsent.svg');
+      background-size: cover;
+      left: 0;
+      top: 14px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 22px;
+      color: $color-black-2;
+    }
+  }
 }
 
 .c-subscribe.c-subscribe--mobile {
