@@ -8,7 +8,7 @@ const createTags = (tags) => {
   const tagsArray = []
 
   tags.forEach((tag) => {
-    tagsArray.push(<a className='c-tag' href='#'>{tag}</a>)
+    tagsArray.push(<a className='c-tag' href={`/search/?search-query=${encodeURIComponent(tag)}`}>{tag}</a>)
   })
 
   return (

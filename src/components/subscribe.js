@@ -28,7 +28,9 @@ export default class extends React.Component {
           <div className='c-subscribe__container'> 
             <form>
               <div className='c-subscribe__input-wrapper'>
-                {this.renderEmailInput()}
+                {this.renderEmailInput({
+                  placeholder: 'Enter email to get weekly newsletter...'
+                })}
               </div>
               <div className='c-subscribe__submit-wrapper'>
                 {this.renderSubmit({value: 'Subscribe'})}
@@ -54,7 +56,9 @@ export default class extends React.Component {
               <div className='c-subscribe__container'>
                 <form>
                   <div className='c-subscribe__input-wrapper'>
-                    {this.renderEmailInput()}
+                    {this.renderEmailInput({
+                      placeholder: 'Enter yout email'
+                    })}
                   </div>
                   <div className='c-subscribe__submit-wrapper'>
                     {this.renderSubmit()}
@@ -76,13 +80,21 @@ export default class extends React.Component {
     return this.state.emailSent
   }
 
-  renderEmailInput() {
+  renderEmailInput(attrs = {
+    placeholder: ''
+  }) {
+    const {
+      placeholder,
+      ...rest
+    } = attrs
+
     return(
       <input 
         type='text' 
-        placeholder='Enter email to get weekly newsletter...'
+        placeholder={placeholder}
         onChange={this.onEmailInputChange}
         value={this.state.email}
+        {...rest}
       />
     )
   }
