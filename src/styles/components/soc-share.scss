@@ -47,6 +47,8 @@
     text-decoration: none;
     text-align: center;
     font-size: 0;
+    border: none;
+    cursor: pointer;
     @include breakpoint(tablet) {
       flex-grow: 1;
     }

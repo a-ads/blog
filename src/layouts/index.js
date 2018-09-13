@@ -36,6 +36,9 @@ export default class extends React.Component {
   render() {
     const { title } = this.props.data.site.siteMetadata
     const { children } = this.props
+    const usedBlogCategories = this.getUsedBlogCategories()
+    console.log(this.props.location)
+
     return (
       <div>
         <Helmet>
@@ -44,7 +47,7 @@ export default class extends React.Component {
           <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,600,700|Open+Sans:400,600,700' rel='stylesheet' />
         </Helmet>
         <Header 
-          categories={this.getActualBlogCategories()}
+          categories={usedBlogCategories}
         />
         <div className='l-body'>
           {children()}
@@ -54,22 +57,21 @@ export default class extends React.Component {
     )
   }
 
-  getActualBlogCategories() {
+  getUsedBlogCategories() {
     const {
       allBlogCategories
     } = this.props.data
     return _.filter(
       allBlogCategories.edges, 
-      category => this.isBlogCategoryActual(category)
+      categoryEdge => this.isBlogCategoryUsed(categoryEdge.node.title)
     )
   }
 
-  isBlogCategoryActual(category) {
-    const blogPostsGroupedByCategory = 
-      this.props.data.blogPostsGroupedByCategory
+  isBlogCategoryUsed(categoryTitle) {
+    const blogPostsGroupedByCategory = this.props.data.blogPostsGroupedByCategory
     const blogPostIndex = blogPostsGroupedByCategory.group
       .map(post => post.fieldValue)
-      .indexOf(category.node.title)
+      .indexOf(categoryTitle)
     if (blogPostIndex !== -1) 
       return true
   }
