@@ -4,7 +4,6 @@ import { getCurrentURL } from '../helpers'
 export default class extends React.Component {
   constructor(props) {
     super(props)
-
     this.onFacebookButtonClick = this.onFacebookButtonClick.bind(this)
   }
 
@@ -25,27 +24,22 @@ export default class extends React.Component {
 
             <a className='c-soc-share__item --twitter' href='#'>
               <div className='c-soc-share__item-pic'><img src='/images/twitter-share.svg' alt='twitter'/></div>
-              <div className='c-soc-share__item-counter'>8</div>
             </a>
 
             <a className='c-soc-share__item --slack' href='#'>
               <div className='c-soc-share__item-pic'><img src='/images/slack-share.svg' alt='slack'/></div>
-              <div className='c-soc-share__item-counter'>8</div>
             </a>
 
             <a className='c-soc-share__item --fb-messenger' href='#'>
               <div className='c-soc-share__item-pic'><img src='/images/fb-messenger-share.svg' alt='fb-messenger'/></div>
-              <div className='c-soc-share__item-counter'>8</div>
             </a>
 
             <a className='c-soc-share__item --linkedin' href='#'>
               <div className='c-soc-share__item-pic'><img src='/images/linkedin-share.svg' alt='linkedin'/></div>
-              <div className='c-soc-share__item-counter'>8</div>
             </a>
 
             <a className='c-soc-share__item --email' href='#'>
               <div className='c-soc-share__item-pic'><img src='/images/email-share.svg' alt='email'/></div>
-              <div className='c-soc-share__item-counter'>8</div>
             </a>
           </div>
         </div>

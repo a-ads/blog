@@ -23,8 +23,6 @@ class Header extends React.Component {
   }
 
   render() {
-    const categories = this.props.categories
-
     return (
       <div className='c-header'>
         <div className='c-header__container l-container c-header__container--desktop'>
@@ -69,7 +67,7 @@ class Header extends React.Component {
               />
               <div className='c-header__menu'>
                 <ul>
-                  {this.createCategoriesList()}
+                  {this.renderCategoriesList()}
                 </ul>
               </div>
               <Subscribe mobile />
@@ -85,7 +83,7 @@ class Header extends React.Component {
     return (
       <div className='c-header__menu' style={{}}>
         <ul>
-          {this.createCategoriesList()}
+          {this.renderCategoriesList()}
           <li className='--search-icon'>
             <a href='#' onClick={this.onSearchIconClick}>
               <img src='/images/search-icon.svg' alt='search icon'/>
@@ -96,7 +94,7 @@ class Header extends React.Component {
     )
   }
 
-  createCategoriesList() {
+  renderCategoriesList() {
     const categories = this.props.categories
     return categories.map((category, key) => (
       <li key={key}>
