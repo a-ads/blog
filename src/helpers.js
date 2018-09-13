@@ -3,5 +3,5 @@ export const getURLParamValue = (param, url) => {
 }
 
 export const getCurrentURL = () => {
-  return location.href
+  return new URL(location.href)
 }

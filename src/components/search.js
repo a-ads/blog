@@ -53,6 +53,10 @@ export default class extends React.Component {
     document.removeEventListener('mousedown', this.handleClickOutside)
   }
 
+  focusOnSearchQueryInput() {
+    this.searchQueryInputRef.current.focus()
+  }
+
   setSearchComponentRef(node) {
     this.searchComponentRef = node
   }
@@ -73,10 +77,6 @@ export default class extends React.Component {
 
   isSearchQueryEmpty() {
     return !this.props.search.query
-  }
-
-  focusOnSearchQueryInput() {
-    this.searchQueryInputRef.current.focus()
   }
 
   onCrossClick() {

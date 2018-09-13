@@ -37,7 +37,6 @@ export default class extends React.Component {
     const { title } = this.props.data.site.siteMetadata
     const { children } = this.props
     const usedBlogCategories = this.getUsedBlogCategories()
-    console.log(this.props.location)
 
     return (
       <div>

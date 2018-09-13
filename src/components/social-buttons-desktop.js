@@ -1,4 +1,5 @@
 import React from 'react'
+import { getCurrentURL } from '../helpers'
 
 export default class extends React.Component {
   constructor(props) {
@@ -8,7 +9,8 @@ export default class extends React.Component {
   }
 
   onFacebookButtonClick() {
-    window.open("https://www.facebook.com/sharer/sharer.php?u=#url", "_blank")
+    const currentUrl = getCurrentURL()
+    window.open(`https://www.facebook.com/sharer/sharer.php?u=${currentUrl}`, "_blank")
   }
 
   render() {
