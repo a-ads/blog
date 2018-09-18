@@ -1,4 +1,6 @@
 import React from 'react'
+import _ from 'lodash'
+console.log(_)
 
 import AadsServices from '../components/aads-services'
 import SocialButtonsDesktop from '../components/social-buttons-desktop';
@@ -8,7 +10,7 @@ const createTags = (tags) => {
   const tagsArray = []
 
   tags.forEach((tag) => {
-    tagsArray.push(<a className='c-tag' href={`/search/?search-query=${encodeURIComponent(tag)}`}>{tag}</a>)
+    tagsArray.push(<a className='c-tag' href={`/tags/${_.kebabCase(tag)}`}>{tag}</a>)
   })
 
   return (

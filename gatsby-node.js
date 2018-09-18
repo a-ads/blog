@@ -36,7 +36,8 @@ exports.createPages= ({ graphql, boundActionCreators }) => {
                 title,
                 thumbnail,
                 category,
-                date(formatString: "DD MMMM YYYY")
+                date(formatString: "DD MMMM YYYY"),
+                tags
               }
             }
           }
@@ -69,10 +70,28 @@ exports.createPages= ({ graphql, boundActionCreators }) => {
             slug: blogPost.node.fields.slug,
             previous: previousBlogPost,
             next: nextBlogPost,
-          }
-        })
+          },
+        });
       });
-      
+
+      /*Tag pages*/
+      let tags = [];
+      _.each(blogPosts, edge => {
+        if (_.get(edge, "node.frontmatter.tags")) {
+          tags = tags.concat(edge.node.frontmatter.tags);
+        }
+      });
+      tags = _.uniq(tags)
+      tags.forEach(tag => {
+        createPage({
+          path: `/tags/${_.kebabCase(tag)}/`,
+          component: path.resolve('./src/templates/tag-page.js'),
+          context: {
+            tag,
+          },
+        });
+      });
+
       createBlogPreviewDesktopParts();
       function createBlogPreviewDesktopParts() {
         const blogPostPreviewsPerPage =  CONFIG.blogPreviewDesktop.previewsPerPage;
