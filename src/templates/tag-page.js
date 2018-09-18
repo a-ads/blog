@@ -18,6 +18,7 @@ const TagPage = ({ pathContext, data }) => {
                   thumbnail={node.frontmatter.thumbnail}
                   title={node.frontmatter.title}
                   category={node.frontmatter.category}
+                  date={node.frontmatter.date}
                 />
               )
             })}
@@ -43,7 +44,8 @@ export const pageQuery = graphql`
           frontmatter {
             title,
             thumbnail,
-            category
+            category,
+            date(formatString: "DD MMMM YYYY")
           },
           fields {
             slug
