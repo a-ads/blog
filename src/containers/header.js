@@ -98,9 +98,12 @@ class Header extends React.Component {
     const categories = this.props.categories
     return categories.map((category, key) => (
       <li key={key}>
-        <a href={`/search/?search-query=${encodeURIComponent(category.node.title)}`}>
+        <a href={`/categories/${_.kebabCase(category.node.title)}`}>
           {category.node.title}
         </a>
+        {/* <a href={`/search/?search-query=${encodeURIComponent(category.node.title)}`}>
+          {category.node.title}
+        </a> */}
       </li>
     ))
   }

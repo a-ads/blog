@@ -92,6 +92,24 @@ exports.createPages= ({ graphql, boundActionCreators }) => {
         });
       });
 
+      /*Category pages*/
+      let categories = [];
+      _.each(blogPosts, edge => {
+        if (_.get(edge, "node.frontmatter.category")) {
+          categories = categories.concat(edge.node.frontmatter.category);
+        }
+      });
+      categories = _.uniq(categories)
+      categories.forEach(category => {
+        createPage({
+          path: `/categories/${_.kebabCase(category)}/`,
+          component: path.resolve('./src/templates/category-page.js'),
+          context: {
+            category,
+          },
+        });
+      });
+
       createBlogPreviewDesktopParts();
       function createBlogPreviewDesktopParts() {
         const blogPostPreviewsPerPage =  CONFIG.blogPreviewDesktop.previewsPerPage;
