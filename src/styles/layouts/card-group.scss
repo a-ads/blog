@@ -31,24 +31,24 @@
   }
 
   .c-card {
-    margin-top: 36px;
+    margin-bottom: 40px;
     @include breakpoint(phone) {
-      margin-top: 20px;
+      margin-bottom: 40px;
     }
 
   }
 
 }
 
-.l-card-group.l-card-group--desktop {
-  @include breakpoint(tablet) {
-    display: none;
-  }
-}
+// .l-card-group.l-card-group--desktop {
+//   @include breakpoint(tablet) {
+//     display: none;
+//   }
+// }
 
-.l-card-group.l-card-group--mobile {
-  display: none;
-  @include breakpoint(tablet) {
-    display: block;
-  }
-}
+// .l-card-group.l-card-group--mobile {
+//   display: none;
+//   @include breakpoint(tablet) {
+//     display: block;
+//   }
+// }

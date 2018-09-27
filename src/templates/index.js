@@ -5,7 +5,7 @@ import AadsServices from '../components/aads-services'
 import BlogPreviewDesktop from '../components/blog-preview-desktop'
 import BlogPreviewMobile from '../components/blog-preview-mobile'
 import Subscribe from '../components/subscribe'
-import CONFIG from '../config';
+import CONFIG from '../config'
 
 export const query = graphql`
   query IndexPageQuery {
@@ -41,7 +41,6 @@ export default class extends React.Component {
         <div className='l-container'>
           <Subscribe mobile />
         </div>
-        <AadsServices />
       </div>
     )
   }

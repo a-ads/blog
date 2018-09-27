@@ -1,0 +1,17 @@
+.c-blog-preview {
+
+}
+
+.c-blog-preview.c-blog-preview--desktop {
+  padding-top: 72px;
+  @include breakpoint(phone) {
+    display: none;
+  }
+}
+
+.c-blog-preview.c-blog-preview--mobile {
+  display: none;
+  @include breakpoint(phone) {
+    display: block;
+  }
+}

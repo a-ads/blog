@@ -5,7 +5,7 @@ import axios from 'axios'
 export default class BlogPreviewMobile extends BlogPreviewDesktop {
   constructor(props) {
     super(props)
-    this.className = 'l-card-group l-card-group--mobile'
+    this.className = 'c-blog-preview c-blog-preview--mobile'
     this.onLoadMoreButtonClick = this.onLoadMoreButtonClick.bind(this)
     this.currentPageNumber = 0
   }

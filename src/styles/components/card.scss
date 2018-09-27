@@ -57,7 +57,7 @@
     right: 10px;
     bottom: 0;
     background-color: $color-white-1;
-    padding: 26px 30px 0 26px;
+    padding: 24px 21px 0 24px;
     border-bottom: 5px solid transparent;
     @include breakpoint(phone) {
       left: 0px;
@@ -67,12 +67,18 @@
 
   .c-card__text__category {
     font-family: $font-1;
-    font-size: 16px;
-    margin-bottom: 8px;
-    color: $color-gray-1;
+    font-size: 14px;
+    color: $color-blue-3;
     font-weight: 600;
     line-height: normal;
     text-decoration: none;
+    position: absolute;
+    text-transform: uppercase;
+    bottom: 24px;
+  }
+
+  .c-card__text__excerpt {
+    display: none;
   }
 
   .c-card__text__title {
@@ -81,8 +87,7 @@
     line-height: 32px;
     color: $color-black-2;
     font-size: 24px;
-    height: 64px;
-    margin-bottom: 18px;
+    max-height: 96px;
     overflow: hidden;
   }
 
@@ -93,6 +98,61 @@
     color: $color-gray-8;
     font-size: 18px;
     text-transform: lowercase;
+  }
+}
+
+.c-card.c-card--large {
+  width: 100%;
+
+  .c-card__image {
+    width: 360px;
+    height: 100%;
+    float: left;
+    border-radius: 0 6px 6px 0;
+  }
+
+  .c-card__text {
+    float: left;
+    width: calc(100% - 360px);
+    padding: 40px 70px 0 55px;
+  }
+
+  .c-card__text__title {
+    height: auto;
+    font-size: 32px;
+    line-height: 44px;
+    max-height: 88px;
+    margin-bottom: 17px;
+  }
+
+  .c-card__text__excerpt {
+    display: block;
+    font-size: 18px;
+    color: $color-gray-8;
+    line-height: 30px;
+    max-height: 120px;
+    overflow: hidden;
+  }
+
+  .c-card__text__category {
+    bottom: 45px;
+  }
+}
+
+.c-card.c-card--double {
+  width: 750px;
+
+  .c-card__image {
+    width: 360px;
+    height: 100%;
+    float: left;
+    border-radius: 0 6px 6px 0;
+  }
+
+  .c-card__text {
+    float: left;
+    width: calc(100% - 360px);
+    padding: 34px 38px 0 54px;
   }
 }
 

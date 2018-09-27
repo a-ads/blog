@@ -13,18 +13,20 @@ export default class extends React.Component {
       previews: []
     }
     this.onPageChange = this.onPageChange.bind(this)
-    this.className = 'l-card-group l-card-group--desktop'
+    this.className = 'c-blog-preview c-blog-preview--desktop'
     this.wrapRef = React.createRef()
   }
 
   render() {
     return (
       <div ref={this.wrapRef} className={this.className}>
-        <div className='l-card-group__card-container l-container'>
-          {this.state.previews}
-        </div>
-        <div className='l-card-group__pagination-container l-container'>
-          {this.createPagination()}
+        <div className='l-card-group l-card-group--desktop'>
+          <div className='l-card-group__card-container l-container'>
+            {this.state.previews}
+          </div>
+          <div className='l-card-group__pagination-container l-container'>
+            {this.createPagination()}
+          </div>
         </div>
       </div>
     )
@@ -41,16 +43,28 @@ export default class extends React.Component {
   }
 
   getPreviews() {
-    return this.posts.map((post, index) => (
-      <Card 
+    return this.posts.map((post, index) => {
+      let additionalClassName = '';
+      switch (index) {
+      case 0:
+        additionalClassName = 'c-card--large'
+      break;
+      case 7:
+        additionalClassName = 'c-card--double'
+      break;
+      }
+      console.log(post);
+      return <Card 
         key={index}
         link={post.node.fields.slug}
         thumbnail={post.node.frontmatter.thumbnail}
         title={post.node.frontmatter.title}
         category={post.node.frontmatter.category}
         date={post.node.frontmatter.date}
+        additionalClassName={additionalClassName}
+        excerpt={post.node.excerpt}
       />
-    ))
+    })
   }
 
   createPagination() {
