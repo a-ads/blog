@@ -28,8 +28,7 @@ class Header extends React.Component {
         <div className='c-header__container l-container c-header__container--desktop'>
           <div className='c-header__logo'>
             <a className='c-header__logo__container' href='/'>
-              <div className='c-header__logo__part-1'><img src='/images/glyph.svg' alt='logo'/></div>
-              <div className='c-header__logo__part-2'><img src='/images/logo.svg' alt='logo'/></div>
+              <img src='/images/logo.svg' alt='logo'/>
             </a>
           </div>
           <Subscribe />
@@ -47,7 +46,7 @@ class Header extends React.Component {
         <div className='c-header__container l-container c-header__container--mobile'>
           <div className='c-header__logo'>
             <a className='c-header__logo__container' href='/'>
-              <div className='c-header__logo__part-1'><img src='/images/glyph.svg' alt='logo'/></div>
+              <img src='/images/logo.svg' alt='logo'/>
             </a>
           </div>
           <div className='c-header__burger' onClick={this.onBurgerClick}></div>

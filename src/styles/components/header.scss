@@ -3,7 +3,7 @@
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.13);
   position: relative;
   z-index: 20;
-  height: 210px;
+  height: 112px;
   @include breakpoint(tablet) {
     overflow: visible;
     height: auto;
