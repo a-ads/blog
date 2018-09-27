@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactPaginate from 'react-paginate'
 import Card from './card'
+import Subscribe from './subscribe'
 import axios from 'axios'
 
 export default class extends React.Component {
@@ -23,6 +24,9 @@ export default class extends React.Component {
         <div className='l-card-group l-card-group--desktop'>
           <div className='l-card-group__card-container l-container'>
             {this.state.previews}
+          </div>
+          <div className='l-container'>
+            <Subscribe />
           </div>
           <div className='l-card-group__pagination-container l-container'>
             {this.createPagination()}
@@ -53,7 +57,6 @@ export default class extends React.Component {
         additionalClassName = 'c-card--double'
       break;
       }
-      console.log(post);
       return <Card 
         key={index}
         link={post.node.fields.slug}

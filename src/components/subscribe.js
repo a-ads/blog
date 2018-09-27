@@ -26,6 +26,12 @@ export default class extends React.Component {
       <div className='c-subscribe'>
         {!this.isEmailSent() ? 
           <div className='c-subscribe__container'> 
+            <div className='c-subscribe__title'>
+              Subscribe to our newsletter<br />Be ready for useful content.
+            </div>
+            <div className='c-subscribe__small-text'>
+              3 articles a week for earch heading. Minimum.
+            </div>
             <form>
               <div className='c-subscribe__input-wrapper'>
                 {this.renderEmailInput({
@@ -34,6 +40,9 @@ export default class extends React.Component {
               </div>
               <div className='c-subscribe__submit-wrapper'>
                 {this.renderSubmit({value: 'Subscribe'})}
+              </div>
+              <div className='c-subscribe__privacy-policy'>
+                By clicking the button you agree with our <a href='#'>privacy policy</a>
               </div>
             </form>  
           </div>
