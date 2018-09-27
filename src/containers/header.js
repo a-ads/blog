@@ -31,7 +31,6 @@ class Header extends React.Component {
               <img src='/images/logo.svg' alt='logo'/>
             </a>
           </div>
-          <Subscribe />
           {this.state.isSearchComponentDesktopActive ?
             <Search 
               search={this.props.search}
