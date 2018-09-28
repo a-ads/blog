@@ -4,7 +4,7 @@
   width: 356px;
   border-radius: 6px;
   overflow: hidden;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+  background-color: $color-white-1;
   @include breakpoint(phone) {
     width: 100%;
     max-width: 336px;

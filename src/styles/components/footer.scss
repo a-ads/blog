@@ -1,8 +1,9 @@
 .c-footer {
-  background-color: $color-gray-3;
+  background-color: $color-white-1;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
   
   .c-footer__container {
-    height: 82px;
+    height: 127px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -22,10 +23,11 @@
   }
 
   .c-footer__copyright {
-    color: $color-gray-1;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 22px;
+    text-align: right;
+    font-family: $font-2;
+    color: $color-gray-8;
+    font-size: 18px;
+    line-height: 24px;
     flex-grow: 2;
     flex-basis: 0;
     @include breakpoint(phone) {
@@ -41,7 +43,6 @@
     font-size: 0;
     flex-grow: 2;
     flex-basis: 0;
-    text-align: right;
     @include breakpoint(phone) {
       order: 2;
       white-space: nowrap;
@@ -49,9 +50,11 @@
   }
 
   .c-footer__links a {
-    color: $color-white-1;
+    color: $color-blue-4;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: $font-2;
+    font-weight: 700;
     @include breakpoint(phone) {
       font-size: 14px;
       line-height: 19px;

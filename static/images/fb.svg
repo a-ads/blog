@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
     <title>fb</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Blog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Tablet_01_Blog_MainPage_01a" transform="translate(-257.000000, -2650.000000)" fill-rule="nonzero">
-            <g id="FOOTER" transform="translate(0.000000, 2626.000000)">
-                <g id="Socials" transform="translate(257.000000, 24.000000)">
+        <g id="Blog-Main-1440" transform="translate(-603.000000, -2354.000000)" fill-rule="nonzero">
+            <g id="Footer" transform="translate(0.000000, 2308.000000)">
+                <g id="Group" transform="translate(603.000000, 46.000000)">
                     <g id="fb">
-                        <path d="M17.5,0 C7.83453125,0 0,7.83453125 0,17.5 C0,27.164375 7.83453125,35 17.5,35 C27.1654687,35 35,27.164375 35,17.5 C35,7.83453125 27.1654687,0 17.5,0 Z" id="Shape" fill="#3B5A98"></path>
-                        <path d="M14.9734375,27.2376562 L18.9973438,27.2376562 L18.9973438,17.4989062 L21.6814063,17.4989062 L22.036875,14.1432812 L18.9973438,14.1432812 L19.0017188,12.4632812 C19.0017188,11.5882812 19.0848438,11.1190625 20.3404688,11.1190625 L22.0182813,11.1190625 L22.0182813,7.76234375 L19.333125,7.76234375 C16.1076563,7.76234375 14.9734375,9.3909375 14.9734375,12.1285937 L14.9734375,14.1432812 L12.963125,14.1432812 L12.963125,17.5 L14.9734375,17.5 L14.9734375,27.2376562 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M17.7904564,0 C7.96456496,0 0,8.058375 0,18 C0,27.9405 7.96456496,36 17.7904564,36 C27.6163479,36 35.5809129,27.9405 35.5809129,18 C35.5809129,8.058375 27.6163479,0 17.7904564,0 Z" id="Shape" fill="#D8DFE3"></path>
+                        <path d="M15.2219593,28.015875 L19.3126524,28.015875 L19.3126524,17.998875 L22.0412636,17.998875 L22.4026323,14.547375 L19.3126524,14.547375 L19.3171,12.819375 C19.3171,11.919375 19.4016046,11.43675 20.6780699,11.43675 L22.3837299,11.43675 L22.3837299,7.984125 L19.6540067,7.984125 C16.3750032,7.984125 15.2219593,9.65925 15.2219593,12.475125 L15.2219593,14.547375 L13.1782806,14.547375 L13.1782806,18 L15.2219593,18 L15.2219593,28.015875 Z" id="Shape" fill="#FFFFFF"></path>
                     </g>
                 </g>
             </g>
