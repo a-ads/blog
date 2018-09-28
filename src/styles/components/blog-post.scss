@@ -1,7 +1,6 @@
 .c-blog-post {
-  padding-top: 60px;
+  padding-top: 55px;
   position: relative;
-  width: 750px;
   margin: 0 auto;
   @include breakpoint(tablet) {
     padding-top: 30px;
@@ -11,33 +10,17 @@
   }
 
   .c-blog-post__category {
-    background-color: $color-gray-5;
-    border-radius: 5px 0 0 5px;
-    display: inline-block;
-    font-size: 0;
-    padding: 14px 50px 14px 20px; 
-    margin-bottom: 20px;
-    position: relative;
+    margin-bottom: 50px;
+    font-family: $font-1;
+    font-size: 18px;
+    color: $color-blue-5;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: uppercase;
     @include breakpoint(tablet) {
       margin-bottom: 10px;
     }
-
-    &::after {
-      content: '';
-      display: block;
-      position: absolute;
-      width: 0px;
-      height: 100%;
-      background-color: transparent;
-      top: 0;
-      box-sizing: border-box;
-      border: solid 25px white;
-      right: 0;
-      border-left-color: transparent;
-      border-top-color: transparent;
-      border-bottom-color: transparent;
-    }
-    
     span {
       font-size: 16px;
       font-weight: 600;
@@ -47,7 +30,7 @@
 
 
   .c-blog-post__title {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     font-family: $font-1;
     @include breakpoint(tablet) {
       margin-bottom: 30px;
@@ -61,12 +44,13 @@
 
   .c-blog-post__big-picture {
     position: relative;
-    height: 460px;
+    height: 400px;
     z-index: 0;
     font-size: 0;
     overflow: hidden;
     display: flex;
     flex-flow: row wrap;
+    margin-bottom: 50px;
     @include breakpoint(tablet) {
       height: 380px;
     }
@@ -83,20 +67,18 @@
     }
   }
 
-  .c-blog-post__big-picture + .c-blog-post__body {
-    margin-top: -150px;
-    @include breakpoint(tablet) {
-      margin-top: -180px;
-    }
-    @include breakpoint(phone) {
-      margin-top: -50px;
-    }
-  }
+  // .c-blog-post__big-picture + .c-blog-post__body {
+  //   margin-top: -150px;
+  //   @include breakpoint(tablet) {
+  //     margin-top: -180px;
+  //   }
+  //   @include breakpoint(phone) {
+  //     margin-top: -50px;
+  //   }
+  // }
 
   
   .c-blog-post__body__container {
-    padding: 31px 40px 0px 40px;
-    border-radius: 4px 4px 0 0;
     background-color: $color-white-1;
     min-height: 300px;
     @include breakpoint(tablet) {
@@ -119,8 +101,8 @@
     }
     
     h2, h3, h4, h5, h6 {
-      margin-bottom: 20px;
-      margin-top: 44px;
+      margin-bottom: 30px;
+      margin-top: 50px;
       padding-right: 45px;
       @include breakpoint(phone) {
         margin-top: 20px;
@@ -129,8 +111,7 @@
     }
 
     p {
-      margin: 20px 0;
-      padding-right: 45px;
+      margin-bottom: 40px;
       @include breakpoint(tablet) {
         padding-right: 0;
       }
@@ -243,14 +224,13 @@
   }
 
   .c-blog-post__tags {
-    margin: 40px 0 20px 0;
+    margin: 50px 0 80px 0;
     @include breakpoint(tablet) {
       margin: 30px 0 10px 0;
     }
   }
 
   .c-blog-post__tags__container {
-    padding: 0 40px 0px 40px;
     @include breakpoint(tablet) {
       padding: 0 20px;
     }
@@ -260,7 +240,7 @@
   }
 
   .c-blog-post__tags .c-tag {
-    margin-right: 20px;
+    margin-right: 40px;
     margin-bottom: 20px;
   }
 
@@ -273,7 +253,6 @@
   }
 
   .c-blog-post__related-articles-container {
-    padding: 0px 40px 0 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

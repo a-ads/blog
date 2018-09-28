@@ -1,7 +1,6 @@
 import React from 'react'
 import _ from 'lodash'
 
-import AadsServices from '../components/aads-services'
 import SocialButtonsDesktop from '../components/social-buttons-desktop';
 import SocialButtonsMobile from '../components/social-buttons-mobile';
 
@@ -24,45 +23,44 @@ export default ({ data, pathContext }) => {
   const { previous, next } = pathContext
 
   return (
-    <div className='l-container'>
-      <div className='c-blog-post'>
-        <article>
-          <section className='c-blog-post__header'>
-            <h1 className='c-blog-post__title'>
-              {post.frontmatter.title}
-            </h1>
-            <div className='c-blog-post__category'>
-              <span>{post.frontmatter.category}</span>
-            </div>
-          </section>
-
-          {post.frontmatter.thumbnail &&
-            <section className='c-blog-post__big-picture'>
-              <img src={post.frontmatter.thumbnail} alt='pic'/>
-            </section>
-          }
-
-          <section className='c-blog-post__body'>
-            <div className='c-blog-post__body__container l-container'  
-              dangerouslySetInnerHTML={{ __html: post.html }}
-            />
-          </section>        
-          <SocialButtonsMobile />
-          <SocialButtonsDesktop />
-          {post.frontmatter.tags && 
-            <section className='c-blog-post__tags'>
-              {createTags(post.frontmatter.tags)}
-            </section>
-          }
-        </article>
-
-        <div className='c-blog-post__related-articles'>
-          <div className='l-container'>
-            <div className='c-blog-post__related-articles-title h2-like'>
-              Also read related articles
-            </div>
+    <div className='c-blog-post'>
+      <article className='l-blog-post-container'>
+        <section className='c-blog-post__header'>
+          <h1 className='c-blog-post__title'>
+            {post.frontmatter.title}
+          </h1>
+          <div className='c-blog-post__category'>
+            {post.frontmatter.category}
           </div>
-          <div className='c-blog-post__related-articles-container l-container'>
+        </section>
+
+        {post.frontmatter.thumbnail &&
+          <section className='c-blog-post__big-picture'>
+            <img src={post.frontmatter.thumbnail} alt='pic'/>
+          </section>
+        }
+
+        <section className='c-blog-post__body'>
+          <div className='c-blog-post__body__container'  
+            dangerouslySetInnerHTML={{ __html: post.html }}
+          />
+        </section>        
+        <SocialButtonsMobile />
+        <SocialButtonsDesktop />
+        {post.frontmatter.tags && 
+          <section className='c-blog-post__tags'>
+            {createTags(post.frontmatter.tags)}
+          </section>
+        }
+      </article>
+
+      <div className='c-blog-post__related-articles'>
+        <div className='l-blog-post-container'>
+          <div className='c-blog-post__related-articles-title h2-like'>
+            Also read related articles
+          </div>
+          
+          <div className='c-blog-post__related-articles-container'>
             {previous &&
               <div className='c-card'>
                 <a href={previous.fields.slug}>
