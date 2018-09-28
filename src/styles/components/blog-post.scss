@@ -1,6 +1,8 @@
-.c-blog-article {
+.c-blog-post {
   padding-top: 60px;
   position: relative;
+  width: 750px;
+  margin: 0 auto;
   @include breakpoint(tablet) {
     padding-top: 30px;
   }
@@ -8,7 +10,7 @@
     padding-top: 20px;
   }
 
-  .c-blog-article__category {
+  .c-blog-post__category {
     background-color: $color-gray-5;
     border-radius: 5px 0 0 5px;
     display: inline-block;
@@ -44,8 +46,9 @@
   }
 
 
-  .c-blog-article__title {
+  .c-blog-post__title {
     margin-bottom: 60px;
+    font-family: $font-1;
     @include breakpoint(tablet) {
       margin-bottom: 30px;
       padding-right: 120px;
@@ -56,7 +59,7 @@
     }
   }
 
-  .c-blog-article__big-picture {
+  .c-blog-post__big-picture {
     position: relative;
     height: 460px;
     z-index: 0;
@@ -80,7 +83,7 @@
     }
   }
 
-  .c-blog-article__big-picture + .c-blog-article__body {
+  .c-blog-post__big-picture + .c-blog-post__body {
     margin-top: -150px;
     @include breakpoint(tablet) {
       margin-top: -180px;
@@ -91,7 +94,7 @@
   }
 
   
-  .c-blog-article__body__container {
+  .c-blog-post__body__container {
     padding: 31px 40px 0px 40px;
     border-radius: 4px 4px 0 0;
     background-color: $color-white-1;
@@ -107,7 +110,7 @@
     }
   }
 
-  .c-blog-article__body {
+  .c-blog-post__body {
     position: relative;
     z-index: 10;
     @include breakpoint(phone) {
@@ -235,18 +238,18 @@
 
   }
 
-  .c-blog-article__body__container > *:first-child {
+  .c-blog-post__body__container > *:first-child {
     margin-top: 0;
   }
 
-  .c-blog-article__tags {
+  .c-blog-post__tags {
     margin: 40px 0 20px 0;
     @include breakpoint(tablet) {
       margin: 30px 0 10px 0;
     }
   }
 
-  .c-blog-article__tags__container {
+  .c-blog-post__tags__container {
     padding: 0 40px 0px 40px;
     @include breakpoint(tablet) {
       padding: 0 20px;
@@ -256,19 +259,20 @@
     }
   }
 
-  .c-blog-article__tags .c-tag {
+  .c-blog-post__tags .c-tag {
     margin-right: 20px;
     margin-bottom: 20px;
   }
 
-  .c-blog-article__nearby-articles {
-    margin: 60px 0 100px 0;
+  .c-blog-post__related-articles {
+    padding: 60px 0 40px 0;
+    background-color: $color-gray-11;
     @include breakpoint(tablet) {
       margin: 20px 0 40px 0;
     }
   }
 
-  .c-blog-article__nearby-articles__container {
+  .c-blog-post__related-articles-container {
     padding: 0px 40px 0 40px;
     display: flex;
     flex-direction: row;

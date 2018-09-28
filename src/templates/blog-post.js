@@ -1,6 +1,5 @@
 import React from 'react'
 import _ from 'lodash'
-console.log(_)
 
 import AadsServices from '../components/aads-services'
 import SocialButtonsDesktop from '../components/social-buttons-desktop';
@@ -14,7 +13,7 @@ const createTags = (tags) => {
   })
 
   return (
-    <div className='c-blog-article__tags__container l-container'>
+    <div className='c-blog-post__tags__container'>
       {tagsArray}
     </div>
   )
@@ -25,43 +24,45 @@ export default ({ data, pathContext }) => {
   const { previous, next } = pathContext
 
   return (
-    <div>
-      <article className='c-blog-article'>
-        <section className='c-blog-article__header'>
-          <div className='l-container'>
-            <div className='c-blog-article__category'>
-              <span>{post.frontmatter.category}</span>
-            </div>
-            <h1 className='c-blog-article__title'>
+    <div className='l-container'>
+      <div className='c-blog-post'>
+        <article>
+          <section className='c-blog-post__header'>
+            <h1 className='c-blog-post__title'>
               {post.frontmatter.title}
             </h1>
-          </div>
-        </section>
-
-        {post.frontmatter.thumbnail &&
-          <section className='c-blog-article__big-picture'>
-            <img src={post.frontmatter.thumbnail} alt='pic'/>
+            <div className='c-blog-post__category'>
+              <span>{post.frontmatter.category}</span>
+            </div>
           </section>
-        }
 
-        <section className='c-blog-article__body'>
-          <div className='c-blog-article__body__container l-container'  
+          {post.frontmatter.thumbnail &&
+            <section className='c-blog-post__big-picture'>
+              <img src={post.frontmatter.thumbnail} alt='pic'/>
+            </section>
+          }
+
+          <section className='c-blog-post__body'>
+            <div className='c-blog-post__body__container l-container'  
               dangerouslySetInnerHTML={{ __html: post.html }}
-          />
-        </section>
+            />
+          </section>        
+          <SocialButtonsMobile />
+          <SocialButtonsDesktop />
+          {post.frontmatter.tags && 
+            <section className='c-blog-post__tags'>
+              {createTags(post.frontmatter.tags)}
+            </section>
+          }
+        </article>
 
-        <SocialButtonsDesktop />
-
-        <SocialButtonsMobile />
-
-        {post.frontmatter.tags && 
-          <section className='c-blog-article__tags'>
-            {createTags(post.frontmatter.tags)}
-          </section>
-        }
-
-        <section className='c-blog-article__nearby-articles'>
-          <div className='c-blog-article__nearby-articles__container l-container'>
+        <div className='c-blog-post__related-articles'>
+          <div className='l-container'>
+            <div className='c-blog-post__related-articles-title h2-like'>
+              Also read related articles
+            </div>
+          </div>
+          <div className='c-blog-post__related-articles-container l-container'>
             {previous &&
               <div className='c-card'>
                 <a href={previous.fields.slug}>
@@ -97,10 +98,8 @@ export default ({ data, pathContext }) => {
               </div>
             }
           </div>
-        </section>
-      </article>
-
-      <AadsServices />
+        </div>
+      </div>
     </div>
   )
 }
