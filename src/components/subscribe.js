@@ -35,11 +35,11 @@ export default class extends React.Component {
             <form>
               <div className='c-subscribe__input-wrapper'>
                 {this.renderEmailInput({
-                  placeholder: 'Enter email to get weekly newsletter...'
+                  placeholder: 'Your email'
                 })}
               </div>
               <div className='c-subscribe__submit-wrapper'>
-                {this.renderSubmit({value: 'Subscribe'})}
+                {this.renderSubmit({value: 'Submit'})}
               </div>
               <div className='c-subscribe__privacy-policy'>
                 By clicking the button you agree with our <a href='#'>privacy policy</a>
