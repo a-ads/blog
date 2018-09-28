@@ -1,37 +1,35 @@
 .c-pagination {
-  display: inline-block;
-  font-family: $font-1;
+  display: block;
+  font-family: $font-2;
   font-size: 0;
 
+  &::after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+
   li {
-    display: inline;
+    display: block;
+    float: left;
+    font-size: 0;
+    line-height: 0;
+    min-width: 28px;
   }
 
   a {
-    float: left;
-    font-size: 16px;
-    color: $color-gray-1;
-    border: 1px solid $color-gray-2;
-    border-radius: 4px;
-    line-height: 31px;
-    max-height: 31px;
-    min-width: 31px;
+    display: block;
+    font-size: 18px;
+    color: $color-gray-8;
+    font-weight: bold;
+    line-height: 24px;
+    padding-bottom: 6px;
+    max-height: 30px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
     outline: none;
-  }
-
-  a:first-child {
-    color: $color-blue-1;
-  }
-
-  a:last-child {
-    color: $color-blue-1;
-  }
-
-  li + li a {
-    margin-left: 8px;
+    width: 100%;
   }
 
   li.--disabled a {
@@ -40,9 +38,50 @@
   }
 
   li.--active a {
-    background-color: $color-blue-1;
-    border-color: $color-blue-1;
-    color: $color-white-1;
+    color: $color-blue-1;
+    border-bottom: 2px solid $color-blue-1;
+  }
+
+  li.previous a, li.next a {
+    position: relative;
+    top: 3px;
+    min-width: auto;
+    width: 10px;
+    height: 19px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0;
+  }
+
+  li + li {
+    margin-left: 6px;
+  }
+
+  li.previous {
+    min-width: auto;
+    margin-right: 18px;
+  }
+
+  li.previous a {
+    background-image: url('/images/pagination_left_arrow.svg');
+  }
+
+  li.next {
+    min-width: auto;
+  }
+
+  li.next a {
+    background-image: url('/images/pagination_right_arrow.svg');
+    margin-left: 24px;
+  }
+
+  li.break {
+    font-size: 18px;
+    line-height: 24px;
+    color: $color-gray-8;
+    padding-left: 9px;
+    padding-right: 9px;
   }
 
   a.--elipsis {

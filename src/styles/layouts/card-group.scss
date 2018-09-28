@@ -15,7 +15,9 @@
 
   .l-card-group__pagination-container {
     font-size: 0;
-    padding: 37px 0 36px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     @include breakpoint(tablet) {
       padding-top: 0;
       padding-bottom: 20px;
@@ -31,20 +33,6 @@
     @include breakpoint(phone) {
       margin-bottom: 40px;
     }
-
   }
 
 }
-
-// .l-card-group.l-card-group--desktop {
-//   @include breakpoint(tablet) {
-//     display: none;
-//   }
-// }
-
-// .l-card-group.l-card-group--mobile {
-//   display: none;
-//   @include breakpoint(tablet) {
-//     display: block;
-//   }
-// }

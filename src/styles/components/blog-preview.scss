@@ -4,8 +4,13 @@
 
 .c-blog-preview.c-blog-preview--desktop {
   padding-top: 72px;
+  padding-bottom: 80px;
   @include breakpoint(phone) {
     display: none;
+  }
+
+  .c-pagination {
+    margin-top: 61px;
   }
 }
 
