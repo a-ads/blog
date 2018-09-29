@@ -25,6 +25,8 @@
     "react-helmet": "^5.2.0",
     "react-paginate": "^5.2.3",
     "react-redux": "^5.0.7",
-    "redux": "^4.0.0"
+    "react-slick": "^0.23.1",
+    "redux": "^4.0.0",
+    "slick-carousel": "^1.8.1"
   }
 }

@@ -66,17 +66,6 @@
       object-position: center center;
     }
   }
-
-  // .c-blog-post__big-picture + .c-blog-post__body {
-  //   margin-top: -150px;
-  //   @include breakpoint(tablet) {
-  //     margin-top: -180px;
-  //   }
-  //   @include breakpoint(phone) {
-  //     margin-top: -50px;
-  //   }
-  // }
-
   
   .c-blog-post__body__container {
     background-color: $color-white-1;
@@ -117,8 +106,35 @@
       }
     }
 
-    ol li + li {
+    ul {
+      padding-left: 65px;
+      list-style: none;
+    }
+
+    ul li {
+      position: relative;
+      font-size: 24px;
+      line-height: 40px;
+    }
+
+    ul li::before {
+      content: '';
+      position: absolute;
+      background-color: $color-gray-9;
+      width: 14px;
+      height: 14px;
+      display: block;
+      border-radius: 50%;
+      top: 13px;
+      left: -39px;
+    }
+
+    ol li + li, ul li + li {
       margin-top: 20px
+    }
+
+    p + ul, p + ol {
+      margin-top: -20px;
     }
 
     img {
@@ -167,56 +183,19 @@
     }
 
     blockquote {
-      position: relative;
-      margin: 100px 0 100px 0;
-      padding: 0 144px 0 240px;
-      clear: both;
-      @include breakpoint(tablet) {
-        padding: 0;
-        margin: 154px 0 80px 0;
-      }
-      @include breakpoint(phone) {
-        margin: 80px 0 80px 0;
-      }
-      
+      margin-bottom: 40px;
+      border: 2px solid $color-gray-9;
+      border-radius: 4px;
+      padding: 40px 57px;
     } 
-
-    blockquote::before {
-      content: '';
-      display: block;
-      position: absolute;
-      width: 76px;
-      height: 54px;
-      background-image: url('/images/quote.svg');
-      margin-left: -106px;
-      background-size: contain;
-      @include breakpoint(tablet) {
-        margin-left: 306px;
-        top: -74px;
-      }
-      @include breakpoint(phone) {
-        margin-left: 0;
-        width: 62px;
-        height: 44px;
-        position: static;
-        margin-left: auto;
-        margin-right: auto;
-      }
+    
+    blockquote p {
+      margin: 0;
+      padding: 0;
+      line-height: 1.4;
+      font-size: 32px;
+      font-style: italic;
     }
-
-    blockquote p.__text {
-      font-size: 24px;
-      line-height: 1.5;
-      color: $color-black-2; 
-      @include breakpoint(tablet) {
-        padding-right: 0;
-      }
-      @include breakpoint(phone) {
-        font-size: 16px;
-        line-height: 2.13;
-      }
-    }
-
   }
 
   .c-blog-post__body__container > *:first-child {
@@ -224,7 +203,7 @@
   }
 
   .c-blog-post__tags {
-    margin: 50px 0 80px 0;
+    margin: 50px 0 60px 0;
     @include breakpoint(tablet) {
       margin: 30px 0 10px 0;
     }
@@ -253,17 +232,17 @@
   }
 
   .c-blog-post__related-articles-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    @include breakpoint(tablet) {
-      padding: 0px 20px 0 20px;
-    }
-    @include breakpoint(phone) {
-      flex-direction: column;
-      align-items: center;
-      overflow: hidden;
-    }
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: space-between;
+    // @include breakpoint(tablet) {
+    //   padding: 0px 20px 0 20px;
+    // }
+    // @include breakpoint(phone) {
+    //   // flex-direction: column;
+    //   // align-items: center;
+    //   // overflow: hidden;
+    // }
 
     .c-card.c-card--prev-article {
       @include breakpoint(phone) {
@@ -282,5 +261,9 @@
         margin-bottom: 20px;
       }
     }
+  }
+  
+  .c-blog-post__related-articles-title {
+    margin-bottom: 40px;
   }
 }

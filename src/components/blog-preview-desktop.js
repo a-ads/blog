@@ -73,7 +73,7 @@ export default class extends React.Component {
   createPagination() {
     return <ReactPaginate 
       containerClassName='c-pagination'
-      pageCount={this.pageCount * 100}
+      pageCount={this.pageCount}
       pageRangeDisplayed={5}
       marginPagesDisplayed={1}
       activeClassName='--active'

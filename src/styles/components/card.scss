@@ -5,6 +5,10 @@
   border-radius: 6px;
   overflow: hidden;
   background-color: $color-white-1;
+  @include breakpoint(tablet) {
+    width: 220px;
+    height: 277px;
+  }
   @include breakpoint(phone) {
     width: 100%;
     max-width: 336px;
@@ -39,6 +43,9 @@
     height: 180px;
     overflow: hidden;
     background-color: #d3d6d7;
+    @include breakpoint(tablet) {
+      height: 110px;
+    }
     @include breakpoint(phone) {
       left: -10px;
       right: -10px;
@@ -75,6 +82,11 @@
     position: absolute;
     text-transform: uppercase;
     bottom: 24px;
+    @include breakpoint(tablet) {
+      bottom: 20px;
+      font-size: 12px;
+      letter-spacing: 0.86px;
+    }
   }
 
   .c-card__text__excerpt {
@@ -89,6 +101,10 @@
     font-size: 24px;
     max-height: 96px;
     overflow: hidden;
+    @include breakpoint(tablet) {
+      font-size: 18px;
+      line-height: 24px;
+    }
   }
 
   .c-card__text__date {
