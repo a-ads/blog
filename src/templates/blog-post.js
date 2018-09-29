@@ -96,6 +96,7 @@ export default class BlogPost extends React.Component {
               slidesToScroll={2}
               dots={true}
               infinite={true}
+              variableWidth={true}
               responsive={[
                 {
                   breakpoint: 1240,

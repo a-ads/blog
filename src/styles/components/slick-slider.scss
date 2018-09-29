@@ -1,0 +1,68 @@
+.slick-slider {
+  .slick-arrow {
+    font-size: 0;
+    width: 26px;
+    height: 48px;
+    position: absolute;
+    display: block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    background-image: url('/images/slider_left_arrow.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 150px; 
+    outline: none;
+  }
+
+  .slick-slide {
+    width: 360px;
+    margin-left: 30px;
+  }
+
+  .slick-list {
+    height: 360px;
+  }
+
+  .slick-arrow.slick-prev  {
+    left: -126px;
+  }
+
+  .slick-arrow.slick-next  {
+    right: -126px;
+    transform: rotateZ(180deg);
+  }
+
+  .slick-dots {
+    position: absolute;
+    list-style: none;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-size: 0;
+    margin-top: 40px;
+  }
+
+  .slick-dots li {
+    line-height: 0;
+    display: inline-block;
+    margin: 0 9px;
+  }
+
+  .slick-dots li button {
+    font-size: 0;
+    background-color: transparent;
+    border: none;
+    width: 14px;
+    height: 14px;
+    background-color: $color-gray-9;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .slick-dots li.slick-active button {
+    background-color: $color-blue-3;
+  }
+
+}
