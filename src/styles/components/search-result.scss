@@ -1,14 +1,15 @@
 .c-search-result {
   padding-top: 60px;
+  padding-bottom: 40px;
   min-height: 730px;
+  background-color: $color-gray-11;
   @include breakpoint(phone) {
     padding-top: 16px;
   }
 
   .c-search-result__title {
-    font-weight: 400;
-    margin-bottom: 10px;
-    //font-family: $font-1;
+    margin-bottom: 61px;
+    font-family: $font-1;
     @include breakpoint(phone) {
       line-height: 1.7;
       max-width: 336px;

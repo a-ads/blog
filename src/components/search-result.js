@@ -13,8 +13,8 @@ export default class SearchResult extends React.Component {
         <div className='l-container'>
           {!searchResultEmpty ?
             <div>
-              <h1 className='c-search-result__title'>Search results for:</h1>
-              <p className='h1-like c-search-result__query'>{searchQuery}</p>
+              <h1 className='c-search-result__title'>Search results for {`«${searchQuery}»`}</h1>
+              {/* <p className='h1-like c-search-result__query'>{searchQuery}</p> */}
             </div>
             :
             <div>
