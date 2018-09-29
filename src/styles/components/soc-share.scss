@@ -1,27 +1,26 @@
 .c-soc-share-wrapper {
-  display: none;
   &.--desktop {
     position: absolute;
-    height: 100%;
-    top: 0;
-    left: 0;
+    left: -131px;
+    top: 14px;
+    bottom: 0;
   }
 
-  &.--mobile {
-    display: none;
-    position: static;
-    height: auto!important;
-    @include breakpoint(tablet) {
-      display: block;
-    }
-  }
+  // &.--mobile {
+  //   display: none;
+  //   position: static;
+  //   height: auto!important;
+  //   @include breakpoint(tablet) {
+  //     display: block;
+  //   }
+  // }
 }
 
 .c-soc-share {
   position: sticky;
-  width: 48px;
+  width: 37px;
   z-index: 10;
-  top: 0;
+  top: 70px;
   @include breakpoint(tablet) {
     width: 100%;
     bottom: 0;
@@ -55,18 +54,22 @@
     }
   }
 
+  .c-soc-share__item + .c-soc-share__item {
+    margin-top: 18px;
+  }
+
   .c-soc-share__container {
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
     @include breakpoint(tablet) {
       flex-direction: row;
     }
   }
 
   .c-soc-share__item-pic {
-    width: 48px;
-    height: 48px;
-    background-color: white;
+    width: 37px;
+    height: 37px;
     @include breakpoint(tablet) {
       display: inline-block;
       width: 64px;
@@ -87,29 +90,5 @@
     @include breakpoint(tablet) {
       display: none;
     }
-  }
-
-  .c-soc-share__item.--facebook {
-    background-color: #3a589b;
-  }
-
-  .c-soc-share__item.--twitter {
-    background-color: #598dca;
-  }
-
-  .c-soc-share__item.--slack {
-    background-color: #3caa88;
-  }
-
-  .c-soc-share__item.--fb-messenger {
-    background-color: #0084ff;
-  }
-
-  .c-soc-share__item.--linkedin {
-    background-color: #007ab9;
-  }
-
-  .c-soc-share__item.--email {
-    background-color: #848484;
   }
 }

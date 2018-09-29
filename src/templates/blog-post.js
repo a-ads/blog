@@ -52,13 +52,13 @@ export default class BlogPost extends React.Component {
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
           </section>        
-          <SocialButtonsMobile />
-          <SocialButtonsDesktop />
           {post.frontmatter.tags && 
             <section className='c-blog-post__tags'>
               {this.renderTags(post.frontmatter.tags)}
             </section>
           }
+          <SocialButtonsMobile />
+          <SocialButtonsDesktop />
         </article>
         
         {this.renderRelatedArticlesSlider()}
