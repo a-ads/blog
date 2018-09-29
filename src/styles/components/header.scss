@@ -105,7 +105,7 @@
   }
   
   .c-search {
-    margin-top: 42px;
+    width: 336px;
     @include breakpoint(tablet) {
       display: block;
       margin-top: 0;
@@ -138,6 +138,10 @@
   }
 
   .c-header__menu {
+    display: flex;
+    flex-direction: row;
+    // justify-content: center;
+    align-items: center;
     @include breakpoint(tablet) {
       padding-top: 40px;
     }

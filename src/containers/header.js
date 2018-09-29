@@ -31,15 +31,7 @@ class Header extends React.Component {
               <img src='/images/logo.svg' alt='logo'/>
             </a>
           </div>
-          {this.state.isSearchComponentDesktopActive ?
-            <Search 
-              search={this.props.search}
-              changeSearchQuery={this.props.changeSearchQuery}
-              onOutsideClick={this.hideSearchComponentDesktop}
-            />
-            :
-            this.createHeaderMenu()
-          }
+          {this.createHeaderMenu()}
         </div>
 
         <div className='c-header__container l-container c-header__container--mobile'>
@@ -82,12 +74,21 @@ class Header extends React.Component {
       <div className='c-header__menu' style={{}}>
         <ul>
           {this.renderCategoriesList()}
-          <li className='--search-icon'>
-            <a href='#' onClick={this.onSearchIconClick}>
-              <img src='/images/search-icon.svg' alt='search icon'/>
-            </a>
-          </li>
+          {!this.state.isSearchComponentDesktopActive &&
+            <li className='--search-icon'>
+              <a href='#' onClick={this.onSearchIconClick}>
+                <img src='/images/search-icon.svg' alt='search icon'/>
+              </a>
+            </li>
+          }
         </ul>
+        {this.state.isSearchComponentDesktopActive &&
+          <Search 
+            search={this.props.search}
+            changeSearchQuery={this.props.changeSearchQuery}
+            onOutsideClick={this.hideSearchComponentDesktop}
+          />
+        }
       </div>
     )
   }

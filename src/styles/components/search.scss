@@ -7,21 +7,22 @@
   }
 
   .c-search__query-wrapper input {
-    font-family: $font-1;
-    padding: 0 60px 0 30px;
-    height: 45px;
+    font-family: $font-2;
+    padding: 0 52px 0 15px;
+    height: 52px;
     border: none;
-    border-bottom: 2px solid $color-black-2;
     width: 100%;
     outline: none;
     font-size: 18px;
     color: $color-black-2;
+    background-color: $color-gray-11;
+    border-radius: 4px;
   }
 
   .c-search__submit-btn-wrapper {
     position: absolute;
-    bottom: 12px;
-    left: 0;
+    right: 14px;
+    top: 14px;
     font-size: 0;
     overflow: hidden;
   }
@@ -30,10 +31,11 @@
     background-color: transparent;
     border: none;
     font-size: 0;
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     overflow: hidden;
     outline: none;
+    display: block;
     cursor: pointer;
 
     img {
@@ -46,6 +48,7 @@
   }
 
   .c-search__cross {
+    display: none;
     width: 20px;
     height: 20px;
     position: absolute;
