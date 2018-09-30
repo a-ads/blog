@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>success (1)</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Blog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Success-pop-up-1440" transform="translate(-690.000000, -486.000000)" fill="#18ADF2" fill-rule="nonzero">
+            <g id="Group-2" transform="translate(443.000000, 424.000000)">
+                <g id="success-(1)" transform="translate(247.000000, 62.000000)">
+                    <path d="M30,0 C13.4584615,0 0,13.4573077 0,30 C0,46.5426923 13.4584615,60 30,60 C46.5415385,60 60,46.5426923 60,30 C60,13.4573077 46.5415385,0 30,0 Z M46.725,19.995 L28.2634615,40.7642308 C27.8088462,41.2753846 27.1753846,41.5384615 26.5373077,41.5384615 C26.0307692,41.5384615 25.5219231,41.3723077 25.0961538,41.0330769 L13.5576923,31.8023077 C12.5630769,31.0073077 12.4015385,29.5546154 13.1976923,28.5588462 C13.9926923,27.5630769 15.4465385,27.4015385 16.4411538,28.1976923 L26.2684615,36.0588462 L43.275,16.9269231 C44.1196154,15.9738462 45.5803846,15.8884615 46.5323077,16.7353846 C47.4853846,17.5834615 47.5719231,19.0419231 46.725,19.995 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

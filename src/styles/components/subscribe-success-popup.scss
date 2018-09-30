@@ -1,0 +1,36 @@
+.c-subscribe-success-popup {
+  width: 555px;
+  height: 320px;
+  border-radius: 4px;
+  padding: 62px 0 62px 0;
+  text-align: center;
+
+  .c-subscribe-success-popup__icon {
+    font-size: 0;
+    margin-bottom: 24px;
+  }
+
+  .c-subscribe-success-popup__icon img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .c-subscribe-success-popup__title {
+    font-size: 26px;
+    font-family: $font-1;
+    margin-bottom: 25px;
+    line-height: 32px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    padding: 0 100px;
+  }
+
+  .c-subscribe-success-popup__close-button {
+    font-size: 16px;
+    font-family: $font-2;
+    color: $color-blue-3;
+    line-height: 22px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}

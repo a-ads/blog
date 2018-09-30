@@ -1,4 +1,5 @@
 import React from 'react'
+import SubscribeSuccessPopup from './subscribe-success-popup'
 
 export default class extends React.Component {
   constructor (props) {
@@ -24,33 +25,41 @@ export default class extends React.Component {
   renderSubscribe() {
     return(
       <div className='c-subscribe'>
-        {!this.isEmailSent() ? 
-          <div className='c-subscribe__container'> 
-            <div className='c-subscribe__title'>
-              Subscribe to our newsletter<br />Be ready for useful content.
-            </div>
-            <div className='c-subscribe__small-text'>
-              3 articles a week for earch heading. Minimum.
-            </div>
-            <form>
-              <div className='c-subscribe__input-wrapper'>
-                {this.renderEmailInput({
-                  placeholder: 'Your email'
-                })}
-              </div>
-              <div className='c-subscribe__submit-wrapper'>
-                {this.renderSubmit({value: 'Submit'})}
-              </div>
-              <div className='c-subscribe__privacy-policy'>
-                By clicking the button you agree with our <a href='#'>privacy policy</a>
-              </div>
-            </form>  
+        <div className='c-subscribe__container'> 
+          <div className='c-subscribe__title'>
+            Subscribe to our newsletter<br />Be ready for useful content.
           </div>
-        :
-          <div className='c-subscribe__message-is-sent'>
-            <p>Thanks! Please, check out your email to confirm subscription.</p>
+          <div className='c-subscribe__small-text'>
+            3 articles a week for earch heading. Minimum.
           </div>
-        }
+          <form>
+            <div className='c-subscribe__input-wrapper'>
+              {this.renderEmailInput({
+                placeholder: 'Your email'
+              })}
+            </div>
+            <div className='c-subscribe__submit-wrapper'>
+              {this.renderSubmit({value: 'Submit'})}
+            </div>
+            <div className='c-subscribe__privacy-policy'>
+              By clicking the button you agree with our <a href='#'>privacy policy</a>
+            </div>
+          </form>  
+        </div>
+
+        <SubscribeSuccessPopup 
+          open={this.isEmailSent()}
+          onClose={() => {
+            this.setState({
+              emailSent: false
+            })
+          }}
+          onCloseButtonClick={() => {
+            this.setState({
+              emailSent: false
+            })
+          }}
+        />
       </div>
     )
   }
