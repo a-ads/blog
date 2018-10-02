@@ -38,9 +38,6 @@ export default class extends React.Component {
       <div>
         {this.createBlogPreviewDesktop()}
         {this.createBlogPreviewMobile()}
-        <div className='l-container'>
-          <Subscribe mobile />
-        </div>
       </div>
     )
   }

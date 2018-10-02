@@ -3,7 +3,7 @@
   margin: 0 auto;
 
   @include breakpoint(tablet) {
-    width: 768px - 40px;
+    width: 720px;
   }
 
   @include breakpoint(phone) {

@@ -19,8 +19,7 @@
     flex-direction: row;
     justify-content: center;
     @include breakpoint(tablet) {
-      padding-top: 0;
-      padding-bottom: 20px;
+      
     }
     @include breakpoint(phone) {
       padding-left: 20px;

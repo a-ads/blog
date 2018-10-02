@@ -36,7 +36,6 @@ export default class extends React.Component {
   render() {
     const { title } = this.props.data.site.siteMetadata
     const { children } = this.props
-    const usedBlogCategories = this.getUsedBlogCategories()
 
     return (
       <div>
@@ -46,7 +45,7 @@ export default class extends React.Component {
           <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,600,700|Open+Sans:400,600,700' rel='stylesheet' />
         </Helmet>
         <Header 
-          categories={usedBlogCategories}
+          categories={this.getUsedBlogCategories()}
         />
         <div className='l-body'>
           {children()}

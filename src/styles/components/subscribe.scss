@@ -1,6 +1,4 @@
 .c-subscribe {
-  height: 360px;
-
   .c-subscribe__container {
     border-radius: 6px;
     overflow: hidden;
@@ -10,6 +8,10 @@
     background-image: url('/images/hand-with-envelope.svg');
     background-repeat: no-repeat;
     background-position: right center; 
+    @include breakpoint(tablet) {
+      background-size: 252px auto;
+      padding: 32px 30px 40px 30px;
+    }
   }
 
   .c-subscribe__title {
@@ -18,6 +20,11 @@
     margin-bottom: 12px;
     font-family: $font-2;
     font-weight: 700;
+    @include breakpoint(tablet) {
+      font-size: 26px;
+      line-height: 36px;
+      margin-bottom: 8px;
+    }
   }
 
   .c-subscribe__small-text {
@@ -26,10 +33,17 @@
     color: $color-gray-8;
     line-height: 30px;
     margin-bottom: 26px;
+    @include breakpoint(tablet) {
+      font-size: 16px;
+      margin-bottom: 18px;
+    }
   }
 
   .c-subscribe__input-wrapper {
     margin-bottom: 28px;
+    @include breakpoint(tablet) {
+      margin-bottom: 20px;
+    }
     
     input {
       width: 550px;
@@ -41,6 +55,12 @@
       background-color: transparent;
       font-family: $font-2;
       height: 54px;
+      @include breakpoint(tablet) {
+        height: 50px;
+        font-size: 16px;
+        line-height: 22px;
+        width: 397px;
+      }
     }
 
     input::placeholder {
@@ -71,6 +91,9 @@
       cursor: pointer;
       font-family: $font-2;
       text-align: center;
+      @include breakpoint(tablet) {
+        font-size: 16px;
+      }
     }
   }
 
@@ -88,6 +111,13 @@
     float: left;
     line-height: 20px;
     color: $color-gray-10;
+    @include breakpoint(tablet) {
+      width: 200px;
+      font-size: 12px;
+      line-height: 16px;
+      padding-top: 10px;
+      margin-left: 16px;
+    }
   }
 
   .c-subscribe__privacy-policy a {

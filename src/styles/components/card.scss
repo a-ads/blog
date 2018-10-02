@@ -5,6 +5,7 @@
   border-radius: 6px;
   overflow: hidden;
   background-color: $color-white-1;
+  font-family: $font-2;
   @include breakpoint(tablet) {
     width: 220px;
     height: 277px;
@@ -59,13 +60,8 @@
   }
 
   .c-card__text {
-    height: 180px;
-    left: 10px;
-    right: 10px;
-    bottom: 0;
     background-color: $color-white-1;
     padding: 24px 21px 0 24px;
-    border-bottom: 5px solid transparent;
     @include breakpoint(phone) {
       left: 0px;
       right: 0px;
@@ -73,7 +69,6 @@
   }
 
   .c-card__text__category {
-    font-family: $font-1;
     font-size: 14px;
     color: $color-blue-5;
     font-weight: 700;
@@ -91,10 +86,13 @@
 
   .c-card__text__excerpt {
     display: none;
+    font-size: 18px;
+    color: $color-gray-8;
+    line-height: 30px;
+    overflow: hidden;
   }
 
   .c-card__text__title {
-    font-family: $font-2;
     font-weight: 700;
     line-height: 32px;
     color: $color-black-2;
@@ -108,8 +106,6 @@
   }
 
   .c-card__text__date {
-    font-family: $font-1;
-    font-family: $font-2;
     line-height: 24px;
     color: $color-gray-8;
     font-size: 18px;
@@ -119,18 +115,27 @@
 
 .c-card.c-card--large {
   width: 100%;
+  @include breakpoint(tablet) {
+    height: 220px;
+  }
 
   .c-card__image {
     width: 360px;
     height: 100%;
     float: left;
     border-radius: 0 6px 6px 0;
+    @include breakpoint(tablet) {
+      width: 220px;
+    }
   }
 
   .c-card__text {
     float: left;
     width: calc(100% - 360px);
     padding: 40px 70px 0 55px;
+    @include breakpoint(tablet) {
+      padding: 35px 11px 0 52px;
+    }
   }
 
   .c-card__text__title {
@@ -139,148 +144,67 @@
     line-height: 44px;
     max-height: 88px;
     margin-bottom: 17px;
+    @include breakpoint(tablet) {
+      font-size: 26px;
+      line-height: 36px;
+      max-height: 72px;
+    }
   }
 
   .c-card__text__excerpt {
     display: block;
-    font-size: 18px;
-    color: $color-gray-8;
-    line-height: 30px;
     max-height: 120px;
-    overflow: hidden;
+    @include breakpoint(tablet) {
+      display: none;
+    }
   }
 
   .c-card__text__category {
     bottom: 45px;
+    @include breakpoint(tablet) {
+      bottom: 35px;
+    }
   }
 }
 
 .c-card.c-card--double {
   width: 750px;
+  @include breakpoint(tablet) {
+    width: 470px;
+  }
 
   .c-card__image {
     width: 360px;
     height: 100%;
     float: left;
     border-radius: 0 6px 6px 0;
+    @include breakpoint(tablet) {
+      width: 220px;
+    }
   }
 
   .c-card__text {
     float: left;
     width: calc(100% - 360px);
     padding: 34px 38px 0 54px;
-  }
-}
-
-.c-card.c-card--prev-article {
-  height: 220px;
-  width: 402px;
-  @include breakpoint(tablet) {
-    height: 162px;
-    width: 288px;
-  }
-
-  .c-card__image {
-    left: 46px;
-    height: 178px;
     @include breakpoint(tablet) {
-      left: 40px;
-      right: unset;
-      height: 125px;
-    }
-  }
-
-  .c-card__text {
-    top: 10px;
-    right: auto;
-    left: auto;
-    right: 10px;
-    bottom: unset;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    width: 392px;
-    padding-right: 32px;
-    padding-left: 83px;
-    background-color: $color-blue-2;
-    clip-path: polygon(15% 0%, 100% 1%, 100% 100%, 15% 100%, 0% 50%);
-    @include breakpoint(tablet) {
-      padding-top: 20px;
-      width: 278px;
-      padding-right: 20px;
-      padding-left: 80px;
-      height: 152px;
-      clip-path: polygon(18% 0%, 100% 1%, 100% 100%, 18% 100%, 0% 50%);
+      padding: 44px 46px 0 45px;
+      width: calc(100% - 220px);
     }
   }
 
   .c-card__text__title {
+    margin-bottom: 17px;
     @include breakpoint(tablet) {
-      font-size: 16px;
-      line-height: 1.38;
+      margin-bottom: 0;
     }
   }
 
-  .c-card__text__category {
+  .c-card__text__excerpt {
+    display: block;
+    max-height: 150px;
     @include breakpoint(tablet) {
-      font-size: 12px;
-      line-height: normal;
-      margin-bottom: 6px;
-    }
-  }
-}
-
-.c-card.c-card--next-article {
-  height: 220px;
-  width: 402px;
-  @include breakpoint(tablet) {
-    height: 162px;
-    width: 288px;
-  }
-
-  .c-card__image {
-    right: 46px;
-    height: 178px;
-    @include breakpoint(tablet) {
-      right: 40px;
-      left: unset;
-      height: 125px;
-    }
-  }
-  
-  .c-card__text {
-    top: 10px;
-    bottom: unset;
-    left: 10px;
-    right: auto;
-    width: 392px;
-    padding-left: 32px;
-    padding-right: 83px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    background-color: $color-beige-1;
-    clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
-    @include breakpoint(tablet) {
-      width: 278px;
-      padding-left: 20px;
-      padding-right: 80px;
-      padding-top: 20px;
-      height: 152px;
-      clip-path: polygon(0% 0%, 82% 0%, 100% 50%, 82% 100%, 0% 100%);
-    }
-  }
-
-  .c-card__text__title {
-    @include breakpoint(tablet) {
-      font-size: 16px;
-      line-height: 1.38;
-    }
-  }
-
-  .c-card__text__category {
-    @include breakpoint(tablet) {
-      font-size: 12px;
-      line-height: normal;
-      margin-bottom: 6px;
+      display: none;
     }
   }
 }
