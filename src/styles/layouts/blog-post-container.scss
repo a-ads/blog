@@ -8,5 +8,8 @@
   @include breakpoint(phone) {
     width: auto;
     max-width: 280px;
+    box-sizing: content-box;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }

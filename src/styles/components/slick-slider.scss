@@ -22,7 +22,7 @@
       width: 220px;
     }
     @include breakpoint(phone) {
-      width: 280px;
+      margin-left: 0;
     }
   }
 
@@ -33,6 +33,7 @@
     }
     @include breakpoint(phone) {
       height: 320px;
+      width: 100%;
     }
   }
 
