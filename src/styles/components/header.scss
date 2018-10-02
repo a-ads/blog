@@ -6,7 +6,7 @@
   height: 112px;
   @include breakpoint(tablet) {
     overflow: visible;
-    height: auto;
+    height: 102px;
     position: fixed;
     top: 0;
     left: 0;
@@ -26,9 +26,8 @@
     background-color: $color-white-1;
     @include breakpoint(tablet) {
       width: 100%;
-      padding-left: 20px;
-      padding-right: 20px;
-      height: 90px;
+      padding-left: 24px;
+      padding-right: 24px;
     }
     @include breakpoint(phone) {
       height: 78px;
@@ -40,7 +39,7 @@
     flex-direction: row;
     align-items: center;
     height: 100%;
-    @include breakpoint(tablet) {
+    @include breakpoint(phone) {
       display: none;
     }
   }
@@ -50,30 +49,31 @@
     z-index: 1200;
     // position: relative;
     position: absolute;
-    @include breakpoint(tablet) {
+    @include breakpoint(phone) {
       display: flex;
     }
   }
 
   .c-header__logo {
     // margin-top: 32px;
-    @include breakpoint(tablet) {
-      margin-top: 24px;
-    }
-    @include breakpoint(phone) {
-      margin-top: 23px;
-    }
+    // @include breakpoint(tablet) {
+    //   margin-top: 24px;
+    // }
+    // @include breakpoint(phone) {
+    //   margin-top: 23px;
+    // }
   }
 
   .c-header__logo img {
     width: 100%;
-    height: 100%;
   }
 
   .c-header__logo__container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    @include breakpoint(tablet) {
+      display: block;
+      width: 73px;
+      height: 40px;
+    }
   }
 
   .c-header__logo__part-1 {
@@ -140,23 +140,13 @@
   .c-header__menu {
     display: flex;
     flex-direction: row;
-    // justify-content: center;
     align-items: center;
-    @include breakpoint(tablet) {
-      padding-top: 40px;
-    }
-    // @include breakpoint(phone) {
-
-    // }
 
     ul {
       list-style: none;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      @include breakpoint(tablet) {
-        display: block;
-      }
     }
 
     ul li {
@@ -164,10 +154,8 @@
       line-height: 0;
       margin-right: 50px;
       @include breakpoint(tablet) {
-        margin-bottom: 40px;
-      }
-      @include breakpoint(tablet) {
-        margin-bottom: 30px;
+        margin-right: 30px;
+        height: 24px;
       }
     }
 
@@ -179,8 +167,8 @@
       font-family: $font-2;
       color: $color-gray-8;
       @include breakpoint(tablet) {
-        font-size: 28px;
-        line-height: normal;
+        font-size: 16px;
+        line-height: 24px;
       }
       @include breakpoint(phone) {
         font-size: 20px;
