@@ -11,6 +11,9 @@
   @include breakpoint(tablet) {
     font-size: 16px;
   }
+  @include breakpoint(phone) {
+    font-size: 14px;
+  }
 }
 
 .c-tag:hover {
