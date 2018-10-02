@@ -27,7 +27,7 @@ export default class extends React.Component {
       <div className='c-subscribe'>
         <div className='c-subscribe__container'> 
           <div className='c-subscribe__title'>
-            Subscribe to our newsletter<br />Be ready for useful content.
+            Subscribe to our newsletter Be ready for useful content.
           </div>
           <div className='c-subscribe__small-text'>
             3 articles a week for earch heading. Minimum.

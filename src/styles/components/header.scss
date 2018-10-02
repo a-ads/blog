@@ -12,6 +12,9 @@
     left: 0;
     width: 100%;
   }
+  @include breakpoint(phone) {
+    height: 80px;
+  }
 
   &.--is-dropdown-menu-open {
     height: 100%;
@@ -44,11 +47,12 @@
     }
   }
 
-  .c-header__container.c-header__container--mobile {
+  .c-header__container.c-header__container--phone {
     display: none;
     z-index: 1200;
-    // position: relative;
-    position: absolute;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
     @include breakpoint(phone) {
       display: flex;
     }
@@ -119,22 +123,12 @@
   }
 
   .c-header__burger {
-    display: none;
-    width: 37px;
-    height: 29px;
     background-image: url('/images/burger-icon.svg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     cursor: pointer;
-    margin-top: 31px;
-    @include breakpoint(tablet) {
-      display: block;
-    }
-    @include breakpoint(phone) {
-      width: 32px;
-      height: 28px;
-      margin-top: 25px;
-    }
+    width: 28px;
+    height: 22px;
   }
 
   .c-header__menu {
@@ -201,7 +195,7 @@
 
   .bm-menu-wrap {
     display: none;
-    @include breakpoint(tablet) {
+    @include breakpoint(phone) {
       display: block;
     }
   }
@@ -231,65 +225,65 @@
     }
   }
 
-  .c-header__dropdown-menu .c-subscribe.c-subscribe--mobile {
-    margin: 0 -20px;
+  // .c-header__dropdown-menu .c-subscribe.c-subscribe--mobile {
+  //   margin: 0 -20px;
     
-    .c-subscribe__title {
-      font-size: 20px;
-      font-family: $font-1;
-      line-height: 1.85;
-      color: $color-black-2;
-      margin-bottom: 10px;
-      line-height: 1.85;
-      @include breakpoint(phone) {
-        font-size: 16px;
-        line-height: 22px;
-        font-weight: 600;
-      }
-    }
+  //   .c-subscribe__title {
+  //     font-size: 20px;
+  //     font-family: $font-1;
+  //     line-height: 1.85;
+  //     color: $color-black-2;
+  //     margin-bottom: 10px;
+  //     line-height: 1.85;
+  //     @include breakpoint(phone) {
+  //       font-size: 16px;
+  //       line-height: 22px;
+  //       font-weight: 600;
+  //     }
+  //   }
     
-    .c-subscribe__wrapper {
-      padding: 30px 20px;
-      background-color: $color-gray-5;
-      border-radius: 0;
-      box-shadow: none;
-      @include breakpoint(phone) {
-        padding: 20px 20px;
-        margin-left: 0;
-        margin-right: 0;
-        max-width: none;
-      }
-    }
+  //   .c-subscribe__wrapper {
+  //     padding: 30px 20px;
+  //     background-color: $color-gray-5;
+  //     border-radius: 0;
+  //     box-shadow: none;
+  //     @include breakpoint(phone) {
+  //       padding: 20px 20px;
+  //       margin-left: 0;
+  //       margin-right: 0;
+  //       max-width: none;
+  //     }
+  //   }
 
-    .c-subscribe__message-is-sent {
-      padding-top: 42px;
-      padding-bottom: 0px;
-      margin-bottom: -5px;
-      @include breakpoint(phone) {
-        padding-top: 34px;
-        margin-bottom: 0;
-        padding-bottom: 2px;
-      }
-    }
+  //   .c-subscribe__message-is-sent {
+  //     padding-top: 42px;
+  //     padding-bottom: 0px;
+  //     margin-bottom: -5px;
+  //     @include breakpoint(phone) {
+  //       padding-top: 34px;
+  //       margin-bottom: 0;
+  //       padding-bottom: 2px;
+  //     }
+  //   }
 
-    .c-subscribe__message-is-sent::before {
-      top: -7px;
-      width: 100%;
-      height: 41px;
-      @include breakpoint(phone) {
-        top: 2px;
-        height: 24px;
-      }
-    }
+  //   .c-subscribe__message-is-sent::before {
+  //     top: -7px;
+  //     width: 100%;
+  //     height: 41px;
+  //     @include breakpoint(phone) {
+  //       top: 2px;
+  //       height: 24px;
+  //     }
+  //   }
 
-    .c-subscribe__message-is-sent p {
-      @include breakpoint(phone) {
-        font-size: 16px;
-        line-height: 23px;
-        width: 233px;
-      }
-    }
-  }
+  //   .c-subscribe__message-is-sent p {
+  //     @include breakpoint(phone) {
+  //       font-size: 16px;
+  //       line-height: 23px;
+  //       width: 233px;
+  //     }
+  //   }
+  // }
 
   .c-header__dropdown-menu-container {
     width: 100%;

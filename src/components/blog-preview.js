@@ -14,14 +14,14 @@ export default class extends React.Component {
       previews: []
     }
     this.onPageChange = this.onPageChange.bind(this)
-    this.className = 'c-blog-preview c-blog-preview--desktop'
+    this.className = 'c-blog-preview'
     this.wrapRef = React.createRef()
   }
 
   render() {
     return (
       <div ref={this.wrapRef} className={this.className}>
-        <div className='l-card-group l-card-group--desktop'>
+        <div className='l-card-group'>
           <div className='l-card-group__card-container l-container'>
             {this.state.previews}
           </div>

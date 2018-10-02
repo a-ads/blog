@@ -34,7 +34,7 @@ class Header extends React.Component {
           {this.createHeaderMenu()}
         </div>
 
-        <div className='c-header__container l-container c-header__container--mobile'>
+        <div className='c-header__container l-container c-header__container--phone'>
           <div className='c-header__logo'>
             <a className='c-header__logo__container' href='/'>
               <img src='/images/logo.svg' alt='logo'/>
