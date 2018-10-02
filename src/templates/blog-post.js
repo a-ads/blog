@@ -57,8 +57,8 @@ export default class BlogPost extends React.Component {
               {this.renderTags(post.frontmatter.tags)}
             </section>
           }
-          <SocialButtonsMobile />
           <SocialButtonsDesktop />
+          <SocialButtonsMobile />
         </article>
         
         {this.renderRelatedArticlesSlider()}
@@ -102,7 +102,8 @@ export default class BlogPost extends React.Component {
                   breakpoint: 1240,
                   settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 3
+                    slidesToScroll: 3,
+                    arrows: false
                   }
                 },
                 {

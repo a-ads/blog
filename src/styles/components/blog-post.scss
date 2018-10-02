@@ -3,7 +3,7 @@
   position: relative;
   margin: 0 auto;
   @include breakpoint(tablet) {
-    padding-top: 30px;
+    padding-top: 40px;
   }
   @include breakpoint(phone) {
     padding-top: 20px;
@@ -19,22 +19,17 @@
     text-decoration: none;
     text-transform: uppercase;
     @include breakpoint(tablet) {
-      margin-bottom: 10px;
-    }
-    span {
+      margin-bottom: 40px;
       font-size: 16px;
-      font-weight: 600;
-      line-height: 22px;
+      letter-spacing: 1.14px;
     }
   }
-
 
   .c-blog-post__title {
     margin-bottom: 30px;
     font-family: $font-1;
     @include breakpoint(tablet) {
-      margin-bottom: 30px;
-      padding-right: 120px;
+      margin-bottom: 25px;
     }
     @include breakpoint(phone) {
       margin-bottom: 16px;
@@ -52,7 +47,7 @@
     flex-flow: row wrap;
     margin-bottom: 50px;
     @include breakpoint(tablet) {
-      height: 380px;
+      margin-bottom: 45px;
     }
     @include breakpoint(phone) {
       height: 220px;
@@ -69,10 +64,7 @@
   
   .c-blog-post__body__container {
     background-color: $color-white-1;
-    min-height: 300px;
-    @include breakpoint(tablet) {
-      padding: 22px 20px 0px 20px;
-    }
+    min-height: 300px;  
 
     &:after {
       content: '';
@@ -93,6 +85,10 @@
       margin-bottom: 30px;
       margin-top: 50px;
       padding-right: 45px;
+      @include breakpoint(tablet) {
+        padding-right: 100px;
+        margin-bottom: 20px;
+      }
       @include breakpoint(phone) {
         margin-top: 20px;
         padding-right: 0;
@@ -102,32 +98,17 @@
     p {
       margin-bottom: 40px;
       @include breakpoint(tablet) {
-        padding-right: 0;
+        margin-bottom: 30px;
       }
     }
 
-    ul {
-      padding-left: 65px;
-      list-style: none;
+    p img {
+      @include breakpoint(tablet) {
+        margin-top: 10px;
+      }
     }
 
-    ul li {
-      position: relative;
-      font-size: 24px;
-      line-height: 40px;
-    }
-
-    ul li::before {
-      content: '';
-      position: absolute;
-      background-color: $color-gray-9;
-      width: 14px;
-      height: 14px;
-      display: block;
-      border-radius: 50%;
-      top: 13px;
-      left: -39px;
-    }
+    
 
     ol li + li, ul li + li {
       margin-top: 20px
@@ -135,6 +116,9 @@
 
     p + ul, p + ol {
       margin-top: -20px;
+      @include breakpoint(tablet) {
+        margin-top: -10px;
+      }
     }
 
     img {
@@ -187,6 +171,10 @@
       border: 2px solid $color-gray-9;
       border-radius: 4px;
       padding: 40px 57px;
+      @include breakpoint(tablet) {
+        margin-top: 40px;
+        padding: 30px 30px;
+      }
     } 
     
     blockquote p {
@@ -195,6 +183,10 @@
       line-height: 1.4;
       font-size: 32px;
       font-style: italic;
+      @include breakpoint(tablet) {
+        font-size: 26px;
+        line-height: 1.5;
+      }
     }
   }
 
@@ -205,29 +197,27 @@
   .c-blog-post__tags {
     margin: 50px 0 60px 0;
     @include breakpoint(tablet) {
-      margin: 30px 0 10px 0;
+      margin: 40px 0 20px 0;
     }
   }
 
   .c-blog-post__tags__container {
-    @include breakpoint(tablet) {
-      padding: 0 20px;
-    }
-    @include breakpoint(phone) {
-      padding: 0 30px;
-    }
+    
   }
 
   .c-blog-post__tags .c-tag {
     margin-right: 40px;
     margin-bottom: 20px;
+    @include breakpoint(tablet) {
+      margin-right: 25px;
+    }
   }
 
   .c-blog-post__related-articles {
     padding: 60px 0 90px 0;
     background-color: $color-gray-11;
     @include breakpoint(tablet) {
-      margin: 20px 0 40px 0;
+      padding: 40px 0 82px 0;
     }
   }
   
