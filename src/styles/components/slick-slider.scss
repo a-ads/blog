@@ -21,12 +21,18 @@
     @include breakpoint(tablet) {
       width: 220px;
     }
+    @include breakpoint(phone) {
+      width: 280px;
+    }
   }
 
   .slick-list {
     height: 360px;
     @include breakpoint(tablet) {
       height: 277px;
+    }
+    @include breakpoint(phone) {
+      height: 320px;
     }
   }
 
@@ -51,12 +57,18 @@
     @include breakpoint(tablet) {
       margin-top: 30px;
     }
+    @include breakpoint(phone) {
+      margin-top: 25px;
+    }
   }
 
   .slick-dots li {
     line-height: 0;
     display: inline-block;
     margin: 0 9px;
+    @include breakpoint(phone) {
+      margin: 0 5px;
+    }
   }
 
   .slick-dots li::before {
@@ -73,6 +85,10 @@
     border-radius: 50%;
     outline: none;
     cursor: pointer;
+    @include breakpoint(phone) {
+      width: 11px;
+      height: 11px;
+    }
   }
 
   .slick-dots li.slick-active button {
