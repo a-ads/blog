@@ -1,22 +1,26 @@
 .c-search-result {
-  padding-top: 60px;
+  padding-top: 66px;
   padding-bottom: 40px;
   min-height: 730px;
   background-color: $color-gray-11;
+  @include breakpoint(tablet) {
+    padding-top: 40px;
+  }
   @include breakpoint(phone) {
-    padding-top: 16px;
+    padding-top: 30px;
   }
 
   .c-search-result__title {
     margin-bottom: 61px;
     font-family: $font-1;
+    @include breakpoint(tablet) {
+      margin-bottom: 35px;
+    }
     @include breakpoint(phone) {
-      line-height: 1.7;
       max-width: 336px;
       margin-left: auto;
       margin-right: auto;
-      font-size: 20px;
-      margin-bottom: 0;
+      margin-bottom: 30px;
     }
   }
 

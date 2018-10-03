@@ -4,25 +4,25 @@ import Card from '../components/card'
 const TagPage = ({ pathContext, data }) => {
   const { tag } = pathContext
   return (
-    <div className='c-tag-page'>
+    <div className='c-post-section'>
       <div className='l-container'>
-        <h1>{tag}</h1>
-        <div className='l-card-group'>
-          <div className='l-card-group__card-container l-container'>
-            {data.allMarkdownRemark.edges.map((edge, key) => {
-              const { node } = edge
-              return (
-                <Card
-                  key={key}
-                  link={node.fields.slug}
-                  thumbnail={node.frontmatter.thumbnail}
-                  title={node.frontmatter.title}
-                  category={node.frontmatter.category}
-                  date={node.frontmatter.date}
-                />
-              )
-            })}
-          </div>
+        <h1 className='c-post-section__title'>{tag}</h1>
+      </div>
+      <div className='l-card-group'>
+        <div className='l-card-group__card-container l-container'>
+          {data.allMarkdownRemark.edges.map((edge, key) => {
+            const { node } = edge
+            return (
+              <Card
+                key={key}
+                link={node.fields.slug}
+                thumbnail={node.frontmatter.thumbnail}
+                title={node.frontmatter.title}
+                category={node.frontmatter.category}
+                date={node.frontmatter.date}
+              />
+            )
+          })}
         </div>
       </div>
     </div>
