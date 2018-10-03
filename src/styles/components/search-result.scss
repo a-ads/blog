@@ -26,7 +26,7 @@
 
   .c-search-result__query {
     margin-bottom: 24px;
-    //font-family: $font-1;
+    font-family: $font-1;
     @include breakpoint(phone) {
       margin-bottom: 0;
       line-height: 1.7;
