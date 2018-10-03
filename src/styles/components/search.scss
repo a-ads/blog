@@ -17,6 +17,10 @@
     color: $color-black-2;
     background-color: $color-gray-11;
     border-radius: 4px;
+    @include breakpoint(tablet) {
+      height: 48px;
+      font-size: 16px;
+    }
   }
 
   .c-search__submit-btn-wrapper {
@@ -25,6 +29,10 @@
     top: 14px;
     font-size: 0;
     overflow: hidden;
+    @include breakpoint(tablet) {
+      top: 12px;
+      right: 12px;
+    }
   }
 
   .c-search__submit-btn {

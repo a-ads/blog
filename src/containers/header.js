@@ -55,12 +55,11 @@ class Header extends React.Component {
                 search={this.props.search}
                 changeSearchQuery={this.props.changeSearchQuery}
               />
-              <div className='c-header__menu'>
+              <div className="c-header__menu">
                 <ul>
                   {this.renderCategoriesList()}
                 </ul>
               </div>
-              <Subscribe mobile />
             </div>
           </div>
         </MobileMenu>
