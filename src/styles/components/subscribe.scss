@@ -144,6 +144,7 @@
     float: left;
     line-height: 20px;
     color: $color-gray-10;
+    font-family: $font-2;
     @include breakpoint(tablet) {
       width: 200px;
       font-size: 12px;
