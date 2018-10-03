@@ -4,6 +4,11 @@
   border-radius: 4px;
   padding: 62px 0 62px 0;
   text-align: center;
+  @include breakpoint(phone) {
+    width: auto;
+    height: auto;
+    padding: 40px 0 40px 0;
+  }
 
   .c-subscribe-success-popup__icon {
     font-size: 0;
@@ -23,6 +28,11 @@
     margin-bottom: 25px;
     font-weight: bold;
     padding: 0 100px;
+    @include breakpoint(phone) {
+      padding: 0 20px;
+      font-size: 26px;
+      line-height: 1.5;
+    }
   }
 
   .c-subscribe-success-popup__close-button {
