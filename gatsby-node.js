@@ -63,6 +63,16 @@ exports.createPages= ({ graphql, boundActionCreators }) => {
       _.each(blogPosts, (blogPost, index) => {
         const previousBlogPost = index === blogPosts.length - 1 ? null : blogPosts[index + 1].node;
         const nextBlogPost = index === 0 ? null : blogPosts[index - 1].node;
+        //console.log(blogPosts);
+
+        function getRelatedPosts(blogPosts) {
+          return blogPosts.filter(function (el, i) {
+            if (i !== index && el.node.frontmatter.category === blogPost.node.frontmatter.category) {
+              return true;
+            }
+          });
+        }
+
         createPage({
           path: blogPost.node.fields.slug,
           component: path.resolve('./src/templates/blog-post.js'),
@@ -70,6 +80,7 @@ exports.createPages= ({ graphql, boundActionCreators }) => {
             slug: blogPost.node.fields.slug,
             previous: previousBlogPost,
             next: nextBlogPost,
+            relatedPosts: getRelatedPosts(blogPosts)
           },
         });
       });

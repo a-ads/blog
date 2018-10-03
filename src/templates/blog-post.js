@@ -6,20 +6,6 @@ import Card from '../components/card'
 import SocialButtonsDesktop from '../components/social-buttons-desktop'
 import SocialButtonsMobile from '../components/social-buttons-mobile'
 
-const renderTags = (tags) => {
-  const tagsArray = []
-
-  tags.forEach((tag) => {
-    tagsArray.push(<a className='c-tag' href={`/tags/${_.kebabCase(tag)}`}>{tag}</a>)
-  })
-
-  return (
-    <div className='c-blog-post__tags__container'>
-      {tagsArray}
-    </div>
-  )
-}
-
 export default class BlogPost extends React.Component {
   constructor(props) {
     super(props)
@@ -27,7 +13,6 @@ export default class BlogPost extends React.Component {
 
   render() {
     const post = this.props.data.markdownRemark
-    const { previous, next } = this.props.pathContext
     
     return (
       <div className='c-blog-post'>
@@ -61,7 +46,7 @@ export default class BlogPost extends React.Component {
           <SocialButtonsMobile />
         </article>
         
-        {this.renderRelatedArticlesSlider()}
+        {this.renderRelatedPostsSlider()}
       </div>
     )
   }
@@ -80,8 +65,11 @@ export default class BlogPost extends React.Component {
     )
   }
 
-  renderRelatedArticlesSlider() {
-    const articles = [0, 1, 2, 3, 4, 5, 6]
+  renderRelatedPostsSlider() {
+    const relatedPosts = this.props.pathContext.relatedPosts;
+    if (relatedPosts.length === 0) {
+      return
+    }
 
     return (
       <div className='c-blog-post__related-articles'>
@@ -95,7 +83,7 @@ export default class BlogPost extends React.Component {
               slidesToShow={2}
               slidesToScroll={2}
               dots={true}
-              infinite={true}
+              infinite={false}
               variableWidth={true}
               responsive={[
                 {
@@ -103,7 +91,7 @@ export default class BlogPost extends React.Component {
                   settings: {
                     slidesToShow: 3,
                     slidesToScroll: 3,
-                    arrows: false
+                    arrows: false,
                   }
                 },
                 {
@@ -117,10 +105,10 @@ export default class BlogPost extends React.Component {
                 }
               ]}
             >
-              {articles.map((article, index) => (
-                <Card 
+              {this.props.pathContext.relatedPosts.map((post, index) => (
+                <Card
                   key={index}
-                  title='test'
+                  title={post.node.frontmatter.title}
                 />
               ))}
             </Slider>
