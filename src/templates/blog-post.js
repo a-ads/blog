@@ -108,7 +108,12 @@ export default class BlogPost extends React.Component {
               {this.props.pathContext.relatedPosts.map((post, index) => (
                 <Card
                   key={index}
+                  link={post.node.fields.slug}
+                  thumbnail={post.node.frontmatter.thumbnail}
                   title={post.node.frontmatter.title}
+                  category={post.node.frontmatter.category}
+                  date={post.node.frontmatter.date}
+                  excerpt={post.node.excerpt}
                 />
               ))}
             </Slider>
