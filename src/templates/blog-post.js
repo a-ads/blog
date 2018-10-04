@@ -2,6 +2,7 @@ import React from 'react'
 import _ from 'lodash'
 import Slider from 'react-slick'
 
+import Layout from '../layouts/index'
 import Card from '../components/card'
 import SocialButtonsDesktop from '../components/social-buttons-desktop'
 import SocialButtonsMobile from '../components/social-buttons-mobile'
@@ -15,39 +16,41 @@ export default class BlogPost extends React.Component {
     const post = this.props.data.markdownRemark
     
     return (
-      <div className='c-blog-post'>
-        <article className='l-blog-post-container'>
-          <section className='c-blog-post__header'>
-            <h1 className='c-blog-post__title'>
-              {post.frontmatter.title}
-            </h1>
-            <div className='c-blog-post__category'>
-              {post.frontmatter.category}
-            </div>
-          </section>
-
-          {post.frontmatter.thumbnail &&
-            <section className='c-blog-post__big-picture'>
-              <img src={post.frontmatter.thumbnail} alt='pic'/>
+      <Layout>
+        <div className='c-blog-post'>
+          <article className='l-blog-post-container'>
+            <section className='c-blog-post__header'>
+              <h1 className='c-blog-post__title'>
+                {post.frontmatter.title}
+              </h1>
+              <div className='c-blog-post__category'>
+                {post.frontmatter.category}
+              </div>
             </section>
-          }
 
-          <section className='c-blog-post__body'>
-            <div className='c-blog-post__body__container'  
-              dangerouslySetInnerHTML={{ __html: post.html }}
-            />
-          </section>        
-          {post.frontmatter.tags && 
-            <section className='c-blog-post__tags'>
-              {this.renderTags(post.frontmatter.tags)}
-            </section>
-          }
-          <SocialButtonsDesktop />
-          <SocialButtonsMobile />
-        </article>
-        
-        {this.renderRelatedPostsSlider()}
-      </div>
+            {post.frontmatter.thumbnail &&
+              <section className='c-blog-post__big-picture'>
+                <img src={post.frontmatter.thumbnail} alt='pic'/>
+              </section>
+            }
+
+            <section className='c-blog-post__body'>
+              <div className='c-blog-post__body__container'  
+                dangerouslySetInnerHTML={{ __html: post.html }}
+              />
+            </section>        
+            {post.frontmatter.tags && 
+              <section className='c-blog-post__tags'>
+                {this.renderTags(post.frontmatter.tags)}
+              </section>
+            }
+            <SocialButtonsDesktop />
+            <SocialButtonsMobile />
+          </article>
+          
+          {this.renderRelatedPostsSlider()}
+        </div>
+      </Layout>
     )
   }
 

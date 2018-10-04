@@ -1,8 +1,9 @@
 import React from 'react'
 import AadsServices from '../components/aads-services'
+import Layout from '../layouts/index'
 
 export default () => (
-  <div>
+  <Layout>
     <article className='c-blog-article'>
       <section className='c-blog-article__header'>
         <div className='l-container'>
@@ -21,5 +22,5 @@ export default () => (
       </section>
     </article>
     <AadsServices />
-  </div>
+  </Layout>
 )

@@ -1,32 +1,35 @@
 import React from 'react'
+import Layout from '../layouts/index'
 import Card from '../components/card'
 
 const CategoryPage = ({ pathContext, data }) => {
   const { category } = pathContext
   return (
-    <div className='c-post-section'>
-      <div className='l-container'>
-        <h1 className='c-post-section__title'>{category}</h1>
-      </div>
-      
-      <div className='l-card-group'>
-        <div className='l-card-group__card-container l-container'>
-          {data.allMarkdownRemark.edges.map((edge, key) => {
-            const { node } = edge
-            return (
-              <Card
-                key={key}
-                link={node.fields.slug}
-                thumbnail={node.frontmatter.thumbnail}
-                title={node.frontmatter.title}
-                category={node.frontmatter.category}
-                date={node.frontmatter.date}
-              />
-            )
-          })}
+    <Layout>
+      <div className='c-post-section'>
+        <div className='l-container'>
+          <h1 className='c-post-section__title'>{category}</h1>
+        </div>
+        
+        <div className='l-card-group'>
+          <div className='l-card-group__card-container l-container'>
+            {data.allMarkdownRemark.edges.map((edge, key) => {
+              const { node } = edge
+              return (
+                <Card
+                  key={key}
+                  link={node.fields.slug}
+                  thumbnail={node.frontmatter.thumbnail}
+                  title={node.frontmatter.title}
+                  category={node.frontmatter.category}
+                  date={node.frontmatter.date}
+                />
+              )
+            })}
+          </div>
         </div>
       </div>
-    </div>
+    </Layout>
   )
 }
 
