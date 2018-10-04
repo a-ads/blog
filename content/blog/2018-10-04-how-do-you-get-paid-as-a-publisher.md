@@ -6,7 +6,7 @@ tags:
 category: How to
 thumbnail: ''
 ---
-## Factors that affect eCPM. 
+## Factors that affect eCPM.
 
 We use every chance to reach out to our publishers and keep them informed about their earning prospects. Here is a comprehensive overview of what you can expect as a publisher!
 
@@ -25,7 +25,7 @@ CPM of an ad unit is determined by the following factors:
 * content filters defined for the ad unit \
   _The ad unit owner might forbid any of the following advertising categories: NSFW, Shady, Gambling, Risky Investments and also he might choose to show only text advertisements.  A number of our advertisers match these categories or they choose to show graphical banners only, so your earnings might be affected._
 * ad unit display rate \
-  _Our bot checks whether the ad unit is present at the specified URL every two hours. If the bot can access the ad unit only once every two attempts, then the display rate is 50%. To make sure that your ad unit is accessible, follow these simple rules (**ссылка на статью про требования к размещению блоков**)
+  _Our bot checks whether the ad unit is present at the specified URL every two hours. If the bot can access the ad unit only once every two attempts, then the display rate is 50%. To make sure that your ad unit is accessible, follow these simple rules.
 * size and location of an ad unit on a website page \
   _If the ad unit can be clearly seen and located on the page properly and falls into a popular size category it’s more likely to collect more impressions and clicks and earn more._
 * quality of traffic \
