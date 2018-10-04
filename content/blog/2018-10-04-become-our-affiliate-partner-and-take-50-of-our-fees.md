@@ -4,7 +4,7 @@ title: Become our affiliate partner and take 50% of our fees!
 tags:
   - news
 category: Development
-thumbnail: ''
+thumbnail: /assets/illustration-2.png
 ---
 Actually all our publishers are our partners, since they all have our ads with links on their pages. 
 
