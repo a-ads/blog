@@ -22,5 +22,5 @@ If you have many ad units it is simpler to accumulate earnings at the user accou
 
 To configure these options go to:
 
-1. User account->Settings->Edit withdrawal settings->Withdrawal type/withdrawal threshold
-2. Ad unit account ->Finances->Withdrawal options ->Withdrawal type
+1. User account -> Settings -> Edit withdrawal settings -> Withdrawal type/withdrawal threshold
+2. Ad unit account -> Finances -> Withdrawal options -> Withdrawal type
