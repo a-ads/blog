@@ -17,23 +17,32 @@
 
   .slick-slide {
     width: 360px;
-    margin-right: 30px;
+    padding: 0 15px;
+    box-sizing: content-box;
     @include breakpoint(tablet) {
       width: 220px;
     }
     @include breakpoint(phone) {
       margin-right: 0;
+      padding: 0 0;
+      width: auto;
     }
+  }
+
+  .slick-slide .c-card {
+    box-sizing: content-box;
   }
 
   .slick-list {
     height: 360px;
+    margin: 0 -15px;
     @include breakpoint(tablet) {
       height: 277px;
     }
     @include breakpoint(phone) {
       height: 320px;
       width: 100%;
+      margin: 0 0;
     }
   }
 
