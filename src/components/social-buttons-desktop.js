@@ -5,10 +5,15 @@ export default class extends React.Component {
   constructor(props) {
     super(props)
     this.onFacebookButtonClick = this.onFacebookButtonClick.bind(this)
+    this.onTwitterButtonClick = this.onTwitterButtonClick.bind(this)
   }
 
   onFacebookButtonClick() {
-    window.open(`https://www.facebook.com/sharer/sharer.php?u=${getCurrentPath()}`, "width=600,height=400", )
+    window.open(`https://www.facebook.com/sharer/sharer.php?u=${getCurrentPath()}`, '', 'width=600,height=400')
+  }
+
+  onTwitterButtonClick() {
+    window.open(`https://twitter.com/intent/tweet?url=${getCurrentPath()}`, '', 'width=600,height=400')
   }
 
   render() {
@@ -20,13 +25,13 @@ export default class extends React.Component {
               <div className='c-soc-share__item-pic'><img src='/images/Facebook.svg' alt='fb'/></div>
             </a>
 
-            <a className='c-soc-share__item --twitter' href='#'>
+            <a className='c-soc-share__item --twitter' onClick={this.onTwitterButtonClick}>
               <div className='c-soc-share__item-pic'><img src='/images/Twitter.svg' alt='twitter'/></div>
             </a>
 
-            <a className='c-soc-share__item --medium' href='#'>
+            {/* <a className='c-soc-share__item --medium' href='#'>
               <div className='c-soc-share__item-pic'><img src='/images/Medium.svg' alt='slack'/></div>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

@@ -10,13 +10,13 @@ export default class extends SocialButtonsDesktop {
             <div className='c-soc-share__item-pic'><img src='/images/Facebook.svg' alt='fb'/></div>
           </a>
 
-          <a className='c-soc-share__item --twitter' href='#'>
+          <a className='c-soc-share__item --twitter' onClick={this.onTwitterButtonClick}>
             <div className='c-soc-share__item-pic'><img src='/images/Twitter.svg' alt='twitter'/></div>
           </a>
 
-          <a className='c-soc-share__item --medium' href='#'>
+          {/* <a className='c-soc-share__item --medium' href='#'>
             <div className='c-soc-share__item-pic'><img src='/images/Medium.svg' alt='slack'/></div>
-          </a>
+          </a> */}
         </div>
       </div>
     )
