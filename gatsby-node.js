@@ -49,12 +49,13 @@ exports.createPages= ({ graphql, boundActionCreators }) => {
     `)
     .then(result => {
       /*Index page*/
-      const mainJumbotronSlug = result.data.mainJumbotron.path;
+      //const mainJumbotronSlug = result.data.mainJumbotron.path;
       createPage({
         path: '/',
         component: path.resolve('./src/templates/index.js'),
+        layout: path.resolve('./src/layouts/index.js'),
         context: {
-          mainJumbotronSlug
+          //mainJumbotronSlug
         }
       });
 

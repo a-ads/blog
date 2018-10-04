@@ -1,5 +1,7 @@
 import React from 'react'
+import _ from 'lodash'
 
+import Layout from '../layouts/index'
 import BlogPreview from '../components/blog-preview'
 import CONFIG from '../config'
 
@@ -31,9 +33,9 @@ export const query = graphql`
 export default class extends React.Component {
   render() {
     return (
-      <div>
+      <Layout>
         {this.createBlogPreview()}
-      </div>
+      </Layout>
     )
   }
 

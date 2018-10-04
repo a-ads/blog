@@ -28,24 +28,24 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: '@andrew-codes/gatsby-plugin-elasticlunr-search',
-      options: {
-        fields: [
-          'title',
-          'tags',
-          'category'
-        ],
-        resolvers: {
-          MarkdownRemark: {
-            title: node => node.frontmatter.title,
-            tags: node => node.frontmatter.tags,
-            thumbnail: node => node.frontmatter.thumbnail,
-            slug: node => node.fields.slug,
-            category: node => node.frontmatter.category,
-          },
-        },
-      },
-    },
+    // {
+    //   resolve: '@andrew-codes/gatsby-plugin-elasticlunr-search',
+    //   options: {
+    //     fields: [
+    //       'title',
+    //       'tags',
+    //       'category'
+    //     ],
+    //     resolvers: {
+    //       MarkdownRemark: {
+    //         title: node => node.frontmatter.title,
+    //         tags: node => node.frontmatter.tags,
+    //         thumbnail: node => node.frontmatter.thumbnail,
+    //         slug: node => node.fields.slug,
+    //         category: node => node.frontmatter.category,
+    //       },
+    //     },
+    //   },
+    // },
   ],
 };

@@ -61,7 +61,7 @@ export default class extends React.Component {
     this.searchComponentRef = node
   }
 
-  handleClickOutside() {
+  handleClickOutside(event) {
     if (this.isClickOutside(event) && this.props.onOutsideClick) {
       this.props.onOutsideClick()
     }

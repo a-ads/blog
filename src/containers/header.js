@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { fallDown as MobileMenu } from 'react-burger-menu'
 
-import Subscribe from '../components/subscribe'
+import _ from 'lodash'
 import Search from '../components/search'
 
 

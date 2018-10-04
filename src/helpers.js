@@ -3,6 +3,6 @@ export const getURLParamValue = (param, url) => {
 }
 
 export const getCurrentPath = () => {
-  const url = new URL(location.href)
+  const url = new URL(window.location.href)
   return url.origin + url.pathname
 }
