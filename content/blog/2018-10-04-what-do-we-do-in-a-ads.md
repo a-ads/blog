@@ -4,7 +4,7 @@ title: What do we do in A-Ads?
 tags:
   - news
 category: Stories
-thumbnail: ''
+thumbnail: /assets/illustration-1-2x.png
 ---
 A-Ads is the first bitcoin-based advertising network, founded in 2011. We bring you the extensive selection of traffic sources which are perfect for the promotion of ICOs, FinTech crypto-related services, crypto-exchanges and Trading, Cloud Mining, Gaming, Gambling and Blockchain projects. 
 
