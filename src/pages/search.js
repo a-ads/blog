@@ -1,19 +1,10 @@
 import React from 'react'
-// import { Index } from 'elasticlunr'
 import { connect } from 'react-redux'
 
 import Layout from '../layouts/index'
 import Card from '../components/card'
 import { getCurrentURL, getURLParamValue } from '../helpers'
 import SearchResult from '../components/search-result'
-
-// export const query = graphql`
-//   query SearchPageQuery {
-//     siteSearchIndex(pages: {regex: "//blog//"}) {
-//       index
-//     }
-//   }
-// `
 
 const mapStateToProps = (state) => {
   return {

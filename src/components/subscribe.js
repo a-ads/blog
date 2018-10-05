@@ -1,5 +1,6 @@
 import React from 'react'
 import SubscribeSuccessPopup from './subscribe-success-popup'
+import axios from 'axios'
 
 export default class extends React.Component {
   constructor (props) {
@@ -138,8 +139,22 @@ export default class extends React.Component {
 
   onSubmitClick(event) {
     event.preventDefault()
-    this.setState({
-      emailSent: true
+    axios.post('https://mailer.golovamedia.com/subscribe/', {
+      method: 'post',
+      data: {
+        list: 'X7tMuLRU763FMkPZHLZYM8vA',
+        email: this.state.email,
+        boolean: true
+      },
+    })
+    .then(response => {
+      console.log(response)
+      this.setState({
+        emailSent: true
+      })
+    })
+    .catch(error => {
+      console.log(error)
     })
   }
 }
