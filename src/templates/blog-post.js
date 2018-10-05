@@ -15,6 +15,7 @@ export default class BlogPost extends React.Component {
 
   render() {
     const { location } = this.props
+    const siteUrl = this.props.data.site.siteMetadata.siteUrl
     const post = this.props.data.markdownRemark
     const HTMLTitle = `${post.frontmatter.title} — ${this.props.data.site.siteMetadata.title}`
 
@@ -22,12 +23,20 @@ export default class BlogPost extends React.Component {
       <Layout>
         <Helmet>
           <title>{HTMLTitle}</title>
-          <meta property='og:url' content={`${location.pathname}`} />
+          <meta property='og:url' content={`${siteUrl}${location.pathname}`} />
           <meta property='og:type' content='website' />
           <meta property='og:title' content={post.frontmatter.title} />
-          <meta property="og:image" content={`${post.frontmatter.thumbnail}`} />
+          <meta property="og:image" content={`${siteUrl}${post.frontmatter.thumbnail}`} />
           <meta property="og:site_name" content={this.props.data.site.siteMetadata.title} />
           <meta property="og:locale" content="en_US" />
+
+          <meta name='twitter:card' content='summary' />
+          {/* <meta name="twitter:site" content="@site_account"> */}
+          {/* <meta name="twitter:creator" content="@individual_account"> */}
+          <meta name='twitter:url' content={`${siteUrl}${location.pathname}`} />
+          <meta name='twitter:title' content={post.frontmatter.title} />
+          {/* <meta name="twitter:description" content="Content description less than 200 characters"> */}
+          <meta name='twitter:image' content={`${siteUrl}${post.frontmatter.thumbnail}`} />
         </Helmet>
         <div className='c-blog-post'>
           <article className='l-blog-post-container'>
@@ -153,6 +162,7 @@ export const query = graphql`
     site {
       siteMetadata {
         title
+        siteUrl
       }
     }
   }
