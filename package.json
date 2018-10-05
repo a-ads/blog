@@ -8,10 +8,10 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "@andrew-codes/gatsby-plugin-elasticlunr-search": "^1.0.4",
     "axios": "^0.18.0",
     "gatsby": "^2.0.18",
     "gatsby-link": "^2.0.4",
+    "gatsby-plugin-lunr": "^1.2.0",
     "gatsby-plugin-netlify-cms": "^3.0.3",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sass": "^2.0.1",
