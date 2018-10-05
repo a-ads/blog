@@ -98,7 +98,7 @@
       }
     }
 
-    p {
+    p, ul, ol {
       margin-bottom: 40px;
       @include breakpoint(tablet) {
         margin-bottom: 30px;
@@ -114,6 +114,7 @@
       }
     }
 
+    
     
 
     ol li + li, ul li + li {
