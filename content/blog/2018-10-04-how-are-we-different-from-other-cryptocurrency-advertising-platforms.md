@@ -8,7 +8,7 @@ thumbnail: /assets/illustration-4-2x.png
 ---
 **Anonymity**. First of all - we are an anonymous network. Publisher or advertiser - it is your choice how much personal information to share. As long as your activity is legit , we are OK with your incognito status.
 
-**Daily Budget** is our payment model for the advertisers. It means that you set any preferred budget per day and we give you as much traffic as possible for the money. You can increase your campaign effectiveness by examining our targeting options (ссылка). CPM and CPA models are also an option, as soon as you are able to do a bit of programming on your side. You can always contact our support team for more information.
+**Daily Budget** is our payment model for the advertisers. It means that you set any preferred budget per day and we give you as much traffic as possible for the money. You can increase your campaign effectiveness by examining our targeting options. CPM and CPA models are also an option, as soon as you are able to do a bit of programming on your side. You can always contact our support team for more information.
 
 **Unique impressions**. If you are a publisher this will be an important factor of your successful earnings with us. We don’t pay for views which are not unique. It means an impression generated from an IP address which is unique in the scope of the whole advertising network during a 24 hours interval.
 
