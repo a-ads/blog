@@ -4,7 +4,7 @@ title: Did you know there’s a way to count your ad unit eCPM?
 tags:
   - news
 category: How to
-thumbnail: ''
+thumbnail: /assets/illustration-3.png
 ---
 Here’s a simple formula to measure your ad unit current viability. 
 

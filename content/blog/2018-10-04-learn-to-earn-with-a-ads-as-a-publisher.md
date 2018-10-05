@@ -4,7 +4,7 @@ title: Learn to earn with A-Ads as a publisher
 tags:
   - news
 category: Stories
-thumbnail: ''
+thumbnail: /assets/illustration-3.png
 ---
 Come on board and have a share of our sweet advertising budget pie! 
 

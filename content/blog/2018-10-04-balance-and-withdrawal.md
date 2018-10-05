@@ -4,7 +4,7 @@ title: Balance and withdrawal
 tags:
   - news
 category: How to
-thumbnail: ''
+thumbnail: /assets/illustration-6.png
 ---
 You have two types of balance: user balance and ad unit balance.
 

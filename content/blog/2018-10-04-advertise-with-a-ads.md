@@ -4,7 +4,7 @@ title: Advertise with A-Ads
 tags:
   - news
 category: Stories
-thumbnail: ''
+thumbnail: /assets/illustration-4-2x.png
 ---
 Have you thought of a strategy of exposing your product to millions of viewers on almost 50 000 ad units worldwide?
 
