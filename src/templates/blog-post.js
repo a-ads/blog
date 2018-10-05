@@ -22,10 +22,10 @@ export default class BlogPost extends React.Component {
       <Layout>
         <Helmet>
           <title>{HTMLTitle}</title>
-          <meta property='og:url' content={`${location.origin}${location.pathname}`} />
+          <meta property='og:url' content={`${location.pathname}`} />
           <meta property='og:type' content='website' />
           <meta property='og:title' content={post.frontmatter.title} />
-          <meta property="og:image" content={`${location.origin}${post.frontmatter.thumbnail}`} />
+          <meta property="og:image" content={`${post.frontmatter.thumbnail}`} />
           <meta property="og:site_name" content={this.props.data.site.siteMetadata.title} />
           <meta property="og:locale" content="en_US" />
         </Helmet>
