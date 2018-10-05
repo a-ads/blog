@@ -6,6 +6,7 @@ import Layout from '../layouts/index'
 import Card from '../components/card'
 import SocialButtonsDesktop from '../components/social-buttons-desktop'
 import SocialButtonsMobile from '../components/social-buttons-mobile'
+import Helmet from 'react-helmet'
 
 export default class BlogPost extends React.Component {
   constructor(props) {
@@ -13,10 +14,21 @@ export default class BlogPost extends React.Component {
   }
 
   render() {
+    const { location } = this.props
     const post = this.props.data.markdownRemark
-    
+    const HTMLTitle = `${post.frontmatter.title} — ${this.props.data.site.siteMetadata.title}`
+
     return (
       <Layout>
+        <Helmet>
+          <title>{HTMLTitle}</title>
+          <meta property='og:url' content={`${location.origin}${location.pathname}`} />
+          <meta property='og:type' content='website' />
+          <meta property='og:title' content={post.frontmatter.title} />
+          <meta property="og:image" content={`${location.origin}${post.frontmatter.thumbnail}`} />
+          <meta property="og:site_name" content={this.props.data.site.siteMetadata.title} />
+          <meta property="og:locale" content="en_US" />
+        </Helmet>
         <div className='c-blog-post'>
           <article className='l-blog-post-container'>
             <section className='c-blog-post__header'>
@@ -135,6 +147,12 @@ export const query = graphql`
         thumbnail
         tags
         category
+      }
+    }
+
+    site {
+      siteMetadata {
+        title
       }
     }
   }
