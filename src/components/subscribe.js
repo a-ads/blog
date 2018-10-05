@@ -2,13 +2,16 @@ import React from 'react'
 import SubscribeSuccessPopup from './subscribe-success-popup'
 import axios from 'axios'
 
+import { isEmailValid } from '../helpers'
+
 export default class extends React.Component {
   constructor (props) {
     super(props)
 
     this.state = {
       email: '',
-      emailSent: false
+      emailSent: false,
+      emailValid: false
     }
 
     this.onEmailInputChange = this.onEmailInputChange.bind(this)
@@ -119,8 +122,10 @@ export default class extends React.Component {
   }
 
   onEmailInputChange(event) {
+    const email = event.target.value
     this.setState({
-      email: event.target.value
+      email: email,
+      emailValid: isEmailValid(email)
     })
   }
 
@@ -133,7 +138,7 @@ export default class extends React.Component {
     } = attrs
 
     return(
-      <input type='submit' value={value} onClick={this.onSubmitClick} {...rest} />
+      <input type='submit' value={value} onClick={this.onSubmitClick} disabled={!this.state.emailValid} {...rest} />
     )
   }
 
