@@ -30,7 +30,7 @@ export default class extends React.Component {
             Subscribe to our newsletter Be ready for useful content.
           </div>
           <div className='c-subscribe__small-text'>
-            3 articles a week for earch heading. Minimum.
+            &nbsp;
           </div>
           <form>
             <div className='c-subscribe__input-wrapper'>
