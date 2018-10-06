@@ -144,13 +144,16 @@ export default class extends React.Component {
 
   onSubmitClick(event) {
     event.preventDefault()
-    axios.post('https://mailer.golovamedia.com/subscribe/', {
+    axios.post('https://mailer.golovamedia.com/subscribe', {
       method: 'post',
       data: {
         list: 'X7tMuLRU763FMkPZHLZYM8vA',
         email: this.state.email,
         boolean: true
       },
+      headers: {
+        'Content-type': 'application/x-www-form-urlencoded'
+      }
     })
     .then(response => {
       console.log(response)
