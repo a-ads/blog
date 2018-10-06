@@ -32,7 +32,7 @@ export default class BlogPost extends React.Component {
           <meta property='og:description' content={post.excerpt} />
 
           <meta name='twitter:card' content='summary' />
-          <meta name="twitter:site" content="@aads_network">
+          <meta name='twitter:site' content='@aads_network' />
           {/* <meta name="twitter:creator" content="@individual_account"> */}
           <meta name='twitter:url' content={`${siteUrl}${location.pathname}`} />
           <meta name='twitter:title' content={post.frontmatter.title} />
