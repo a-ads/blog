@@ -1,15 +1,16 @@
 .l-card-group {
   .l-card-group__card-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 40px;
+    padding-bottom: 40px;
     @include breakpoint(tablet) {
       border-bottom: none;
     }
     @include breakpoint(phone) {
-      flex-direction: column;
-      align-items: center;
+      display: block;
+      padding-bottom: 0;
     }
   }
 
@@ -27,10 +28,20 @@
   }
 
   .c-card {
-    margin-bottom: 40px;
+    // margin-bottom: 40px;
     @include breakpoint(phone) {
       margin-bottom: 30px;
     }
+  }
+
+  .c-card.c-card--large {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .c-card.c-card--double {
+    grid-column-start: 1;
+    grid-column-end: 3;
   }
 
 }
