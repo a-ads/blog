@@ -8,11 +8,9 @@ export default class extends React.Component {
   constructor(props) {
     super(props)
 
-    this.posts = props.defaultPosts || []
+    this.posts = props.posts || []
     this.pageCount = Math.ceil(props.postCount / props.previewsPerPage)
-    this.state = {
-      previews: []
-    }
+    this.pageIndex = this.props.pageIndex
     this.onPageChange = this.onPageChange.bind(this)
     this.className = 'c-blog-preview'
     this.wrapRef = React.createRef()
@@ -23,7 +21,7 @@ export default class extends React.Component {
       <div ref={this.wrapRef} className={this.className}>
         <div className='l-card-group'>
           <div className='l-card-group__card-container l-container'>
-            {this.state.previews}
+            {this.getPreviews()}
           </div>
           <div className='l-container'>
             <Subscribe />
@@ -41,9 +39,7 @@ export default class extends React.Component {
   }
 
   renderPreviews() {
-    this.setState({
-      previews: this.getPreviews()
-    })
+
   }
 
   getPreviews() {
@@ -77,28 +73,21 @@ export default class extends React.Component {
       pageRangeDisplayed={5}
       marginPagesDisplayed={1}
       activeClassName='--active'
-      onPageChange={this.onPageChange}
       previousLabel={''}
       nextLabel={''}
       disabledClassName={'--disabled'}
       disableInitialCallback={true}
+      onPageChange={this.onPageChange}
+      initialPage={this.pageIndex}
+      hrefBuilder={(pageIndex) => {
+        return `/page-${pageIndex}`
+      }}
     />
   }
 
   onPageChange({ selected }) {
-    axios.get(`/blog-preview-parts/part-${selected}.json`)
-    .then(({ data }) => {
-      this.setPosts(data)
-      this.renderPreviews()
-      window.scroll({
-        top: this.wrapRef.current.offsetTop, 
-        left: 0,
-        behavior: 'smooth' 
-      });
-    })
-    .catch(error => {
-      console.log(error)
-    })
+    const pageIndex = selected + 1
+    window.location = `/page-${pageIndex}`
   }
 
   setPosts(posts) {

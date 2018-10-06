@@ -39,6 +39,7 @@ exports.createPages= ({ graphql, boundActionCreators }) => {
                 date(formatString: "DD MMMM YYYY"),
                 tags
               }
+              excerpt
             }
           }
         },
@@ -48,19 +49,37 @@ exports.createPages= ({ graphql, boundActionCreators }) => {
       }
     `)
     .then(result => {
+      const blogPosts = result.data.allBlogPosts.edges;
+      const postCount = result.data.allBlogPosts.totalCount;
       /*Index page*/
-      //const mainJumbotronSlug = result.data.mainJumbotron.path;
-      createPage({
-        path: '/',
-        component: path.resolve('./src/templates/index.js'),
-        layout: path.resolve('./src/layouts/index.js'),
-        context: {
-          //mainJumbotronSlug
+      const blogPostPreviewsPerPage =  CONFIG.blogPreviewDesktop.previewsPerPage;
+      _.chunk(blogPosts, blogPostPreviewsPerPage).forEach((blogPostsChunk, pageIndex) => {
+        let slug = `/page-${pageIndex + 1}`;
+        if (pageIndex === 0) {
+          createPage({
+            path: '/',
+            component: path.resolve('./src/templates/index.js'),
+            layout: path.resolve('./src/layouts/index.js'),
+            context: {
+              blogPostsChunk,
+              pageIndex: pageIndex,
+              postCount: postCount
+            }
+          });
         }
+        createPage({
+          path: slug,
+          component: path.resolve('./src/templates/index.js'),
+          layout: path.resolve('./src/layouts/index.js'),
+          context: {
+            blogPostsChunk,
+            pageIndex: pageIndex,
+            postCount: postCount
+          }
+        });
       });
 
-      /*Blog post pages*/
-      const blogPosts = result.data.allBlogPosts.edges;
+      /*Blog post pages*/      
       _.each(blogPosts, (blogPost, index) => {
         const previousBlogPost = index === blogPosts.length - 1 ? null : blogPosts[index + 1].node;
         const nextBlogPost = index === 0 ? null : blogPosts[index - 1].node;
@@ -121,50 +140,6 @@ exports.createPages= ({ graphql, boundActionCreators }) => {
           },
         });
       });
-
-      createBlogPreviewDesktopParts();
-      function createBlogPreviewDesktopParts() {
-        const blogPostPreviewsPerPage =  CONFIG.blogPreviewDesktop.previewsPerPage;
-        const blogPostCount = result.data.allBlogPosts.totalCount;
-        const dir = `./public/${CONFIG.blogPreviewDesktop.previewFilesDir}`;
-        if (blogPostCount > blogPostPreviewsPerPage) {
-          if (!fs.existsSync(dir)){
-            fs.mkdirSync(dir);
-          }
-          _.chunk(blogPosts, blogPostPreviewsPerPage).forEach((blogPostsChunk, pageIndex) => {
-            const jsonFileContent = JSON.stringify(blogPostsChunk)
-            fs.writeFile(
-              path.resolve(`${dir}/${CONFIG.blogPreviewDesktop.previewFilesPrefix}${pageIndex}.json`),
-              jsonFileContent, err => {
-                if (err) throw err;
-                console.log('saved')
-              }
-            )
-          });
-        }
-      }
-
-      createBlogPreviewMobileParts();
-      function createBlogPreviewMobileParts() {
-        const blogPostPreviewsPerPage =  CONFIG.blogPreviewMobile.previewsPerPage;
-        const blogPostCount = result.data.allBlogPosts.totalCount;
-        const dir = `./public/${CONFIG.blogPreviewMobile.previewFilesDir}`;
-        if (blogPostCount > blogPostPreviewsPerPage) {
-          if (!fs.existsSync(dir)){
-            fs.mkdirSync(dir);
-          }
-          _.chunk(blogPosts, blogPostPreviewsPerPage).forEach((blogPostsChunk, pageIndex) => {
-            const jsonFileContent = JSON.stringify(blogPostsChunk)
-            fs.writeFile(
-              path.resolve(`${dir}/${CONFIG.blogPreviewMobile.previewFilesPrefix}${pageIndex}.json`),
-              jsonFileContent, err => {
-                if (err) throw err;
-                console.log('saved')
-              }
-            )
-          });
-        }
-      }
 
       resolve();
     })
