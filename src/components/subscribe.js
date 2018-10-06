@@ -153,7 +153,6 @@ export default class extends React.Component {
       },
       headers: {
         'Content-type': 'application/x-www-form-urlencoded',
-        'Access-Control-Allow-Origin': '*'
       }
     })
     .then(response => {
