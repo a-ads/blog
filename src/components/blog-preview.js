@@ -2,7 +2,6 @@ import React from 'react'
 import ReactPaginate from 'react-paginate'
 import Card from './card'
 import Subscribe from './subscribe'
-import axios from 'axios'
 
 export default class extends React.Component {
   constructor(props) {
@@ -21,28 +20,20 @@ export default class extends React.Component {
       <div ref={this.wrapRef} className={this.className}>
         <div className='l-card-group'>
           <div className='l-card-group__card-container l-container'>
-            {this.getPreviews()}
+            {this.renderPreviews()}
           </div>
-          <div className='l-container'>
+          {/* <div className='l-container'>
             <Subscribe />
-          </div>
+          </div> */}
           <div className='l-card-group__pagination-container l-container'>
-            {this.createPagination()}
+            {this.renderPagination()}
           </div>
         </div>
       </div>
     )
   }
 
-  componentDidMount() {
-    this.renderPreviews()
-  }
-
   renderPreviews() {
-
-  }
-
-  getPreviews() {
     return this.posts.map((post, index) => {
       let additionalClassName = '';
       switch (index) {
@@ -66,7 +57,7 @@ export default class extends React.Component {
     })
   }
 
-  createPagination() {
+  renderPagination() {
     return <ReactPaginate 
       containerClassName='c-pagination'
       pageCount={this.pageCount}
@@ -88,9 +79,5 @@ export default class extends React.Component {
   onPageChange({ selected }) {
     const pageIndex = selected + 1
     window.location = `/page-${pageIndex}`
-  }
-
-  setPosts(posts) {
-    this.posts = posts
   }
 }
