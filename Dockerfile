@@ -1,20 +1,21 @@
 FROM node:8-alpine
 MAINTAINER bn0ir <gblacknoir@gmail.com>
 
-RUN apk --update --no-cache add libpng-dev \
-    && apk add --update --no-cache --repository https://dl-3.alpinelinux.org/alpine/edge/testing/ \
+COPY ./ /data/
+
+RUN apk add --update --no-cache --repository https://dl-3.alpinelinux.org/alpine/edge/testing/ --virtual .build-deps \
+       libpng-dev \
        vips-dev \
        fftw-dev \
        build-base \
-    && rm -rf /var/cache/apk/*
-
-RUN npm install -g yarn gatsby
-
-COPY ./ /data/
-
-RUN cd /data/ \
-    && yarn install \
-    && gatsby build
+    && cd /data/ \
+    && npm install yarn gatsby \
+    && node_modules/.bin/yarn install \
+    && node_modules/.bin/gatsby build \
+    && yarn cache clean \
+    && npm cache clean --force \
+    && apk del .build-deps \
+    && rm -rf node_modules/* /var/cache/apk/* /tmp/* /var/tmp/*
 
 FROM alpine:3.8
 
