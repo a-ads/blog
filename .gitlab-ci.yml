@@ -1,11 +1,14 @@
+image: node:8-alpine
+
 build:
-  image: docker:stable
   stage: build
   script:
-    - docker build -t a-ads/blog .
+    - apk add --update --no-cache --repository https://dl-3.alpinelinux.org/alpine/edge/testing/ --virtual .build-deps libpng-dev vips-dev fftw-dev build-base
+    - npm install yarn gatsby
+    - node_modules/.bin/yarn install
+    - node_modules/.bin/gatsby build
 
 deploy:
-  image: a-ads/blog
   script:
   - apk add --no-cache --update python3
   - pip3 install awscli
