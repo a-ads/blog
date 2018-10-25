@@ -1,6 +1,3 @@
-before_script:
-  - docker info
-
 build:
   image: docker:stable
   stage: build
