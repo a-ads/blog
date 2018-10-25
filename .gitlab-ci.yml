@@ -1,0 +1,15 @@
+before_script:
+  - docker info
+
+build:
+  image: docker:stable
+  stage: build
+  script:
+    - docker build -t a-ads/blog .
+
+deploy:
+  image: a-ads/blog
+  script:
+  - apk add --no-cache --update python3
+  - pip3 install awscli
+#  - aws s3 cp ./ s3://yourbucket/ --recursive --exclude "*" --include "*.html"
