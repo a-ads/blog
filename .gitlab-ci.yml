@@ -3,7 +3,8 @@ image: node:8-alpine
 build:
   stage: build
   script:
-    - apk add --update --no-cache --repository https://dl-3.alpinelinux.org/alpine/edge/testing/ libpng-dev vips-dev fftw3 fftw-dev build-base
+    - apk add --update --no-cache --repository https://dl-3.alpinelinux.org/alpine/edge/main/ libpng-dev fftw-dev build-base
+    - apk add --update --no-cache --repository https://dl-3.alpinelinux.org/alpine/edge/testing/ vips-dev
     - npm install yarn gatsby
     - node_modules/.bin/yarn install
     - node_modules/.bin/gatsby build
@@ -12,4 +13,5 @@ deploy:
   script:
   - apk add --no-cache --update python3
   - pip3 install awscli
+  - ls -la
 #  - aws s3 cp ./ s3://yourbucket/ --recursive --exclude "*" --include "*.html"
