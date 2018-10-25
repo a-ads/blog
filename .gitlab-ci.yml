@@ -1,5 +1,5 @@
 variables:
-  S3_BUCKET_NAME: "backup.glv.cc"
+  S3_BUCKET_NAME: "a-ads-blog"
 
 image: node:8-alpine
 
