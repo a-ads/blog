@@ -1,10 +1,11 @@
 import React from 'react'
+import { withPrefix } from "gatsby"
 
 export default class extends React.Component {
   constructor(props) {
     super(props)
     this.searchQueryInputRef = React.createRef()
-    this.searchFormSubmitId = 'search-form-submit' //TODO сделать уникальным
+    this.searchFormSubmitId = 'search-form-submit'
     this.onSearchQueryInputChange = this.onSearchQueryInputChange.bind(this)
     this.onCrossClick = this.onCrossClick.bind(this)
     this.setSearchComponentRef = this.setSearchComponentRef.bind(this)
@@ -14,7 +15,7 @@ export default class extends React.Component {
   render() {
     return (
       <div className='c-search' ref={this.setSearchComponentRef}>
-        <form action='/search/' method='get'>
+        <form action='/blog/search/' method='get'>
           <div className='c-search__query-wrapper'>
             <input type='text' 
               name='search-query' 
@@ -30,7 +31,7 @@ export default class extends React.Component {
               <img src='/images/search-icon-active.svg' alt='search icon'/>
             </label>
             <input type='submit' 
-               id={this.searchFormSubmitId}
+              id={this.searchFormSubmitId}
               style={{display: 'none'}} 
             />
           </div>

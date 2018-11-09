@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "gatsby"
 
 export default (props) => {
   const {
@@ -12,7 +13,8 @@ export default (props) => {
 
   return (
     <div className={`c-card ${additionalClassName}`}>
-      <a href={link}>
+      {/* <a href={link}> */}
+      <Link to={link}>
         <div className='c-card__image'>
           {thumbnail &&
             <img src={thumbnail} alt='card sample'/>
@@ -27,7 +29,8 @@ export default (props) => {
           </div>
           <div className='c-card__text__category'>{category}</div>
         </div>
-      </a>
+      </Link>
+      {/* </a> */}
     </div>
   )
 }

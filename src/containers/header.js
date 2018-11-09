@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { fallDown as MobileMenu } from 'react-burger-menu'
-
+import { Link } from "gatsby"
 import _ from 'lodash'
 import Search from '../components/search'
 
@@ -27,18 +27,18 @@ class Header extends React.Component {
       <div className='c-header'>
         <div className='c-header__container l-container c-header__container--desktop'>
           <div className='c-header__logo'>
-            <a className='c-header__logo__container' href='/'>
+            <Link className='c-header__logo__container' to='/'>
               <img src='/images/logo.svg' alt='logo'/>
-            </a>
+            </Link>
           </div>
           {this.createHeaderMenu()}
         </div>
 
         <div className='c-header__container l-container c-header__container--phone'>
           <div className='c-header__logo'>
-            <a className='c-header__logo__container' href='/'>
+            <Link className='c-header__logo__container' to='/'>
               <img src='/images/logo.svg' alt='logo'/>
-            </a>
+            </Link>
           </div>
           <div className='c-header__burger' onClick={this.onBurgerClick}></div>
         </div>
@@ -96,12 +96,9 @@ class Header extends React.Component {
     const categories = this.props.categories
     return categories.map((category, key) => (
       <li key={key}>
-        <a href={`/categories/${_.kebabCase(category.node.title)}`}>
+        <Link to={`/categories/${_.kebabCase(category.node.title)}`}>
           {category.node.title}
-        </a>
-        {/* <a href={`/search/?search-query=${encodeURIComponent(category.node.title)}`}>
-          {category.node.title}
-        </a> */}
+        </Link>
       </li>
     ))
   }
