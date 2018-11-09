@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/blog',
   siteMetadata: {
     title: 'A-ADS Blog',
     siteUrl: 'http://a-blog.glv.cc'
