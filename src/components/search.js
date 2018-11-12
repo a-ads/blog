@@ -15,7 +15,7 @@ export default class extends React.Component {
   render() {
     return (
       <div className='c-search' ref={this.setSearchComponentRef}>
-        <form action='/blog/search/' method='get'>
+        <form action={withPrefix('/search/')} method='get'>
           <div className='c-search__query-wrapper'>
             <input type='text' 
               name='search-query' 
