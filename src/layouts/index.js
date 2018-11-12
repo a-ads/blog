@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import {StaticQuery, graphql} from 'gatsby'
+import { StaticQuery, graphql, withPrefix } from 'gatsby'
 import _ from 'lodash'
 
 import Header from '../containers/header'
@@ -44,7 +44,7 @@ export default class extends React.Component {
             <div>
               <Helmet>
                 <title>{data.site.siteMetadata.title}</title>
-                <link rel='icon' type='image/png' href='/images/favicon.png' />
+                <link rel='icon' type='image/png' href={withPrefix('/images/favicon.png')} />
                 <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,600,700|Open+Sans:400,600,700' rel='stylesheet' />
               </Helmet>
               <Header 
