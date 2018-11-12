@@ -4,6 +4,7 @@ import { fallDown as MobileMenu } from 'react-burger-menu'
 import { Link } from "gatsby"
 import _ from 'lodash'
 import Search from '../components/search'
+import { withPrefix } from 'gatsby'
 
 
 class Header extends React.Component {
@@ -28,7 +29,7 @@ class Header extends React.Component {
         <div className='c-header__container l-container c-header__container--desktop'>
           <div className='c-header__logo'>
             <Link className='c-header__logo__container' to='/'>
-              <img src='images/logo.svg' alt='logo'/>
+              <img src={withPrefix('/images/logo.svg')} alt='logo' />
             </Link>
           </div>
           {this.createHeaderMenu()}
@@ -37,7 +38,7 @@ class Header extends React.Component {
         <div className='c-header__container l-container c-header__container--phone'>
           <div className='c-header__logo'>
             <Link className='c-header__logo__container' to='/'>
-              <img src='images/logo.svg' alt='logo'/>
+              <img src={withPrefix('/images/logo.svg')} alt='logo'/>
             </Link>
           </div>
           <div className='c-header__burger' onClick={this.onBurgerClick}></div>
@@ -76,7 +77,7 @@ class Header extends React.Component {
           {!this.state.isSearchComponentDesktopActive &&
             <li className='--search-icon'>
               <a href='#' onClick={this.onSearchIconClick}>
-                <img src='images/search-icon.svg' alt='search icon'/>
+                <img src={withPrefix('/images/search-icon.svg')} alt='search icon' />
               </a>
             </li>
           }

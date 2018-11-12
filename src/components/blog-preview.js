@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactPaginate from 'react-paginate'
 import Card from './card'
-import Subscribe from './subscribe'
+import { withPrefix } from 'gatsby'
 
 export default class extends React.Component {
   constructor(props) {
@@ -71,7 +71,7 @@ export default class extends React.Component {
       onPageChange={this.onPageChange}
       initialPage={this.pageIndex}
       hrefBuilder={(pageIndex) => {
-        return `/page-${pageIndex}`
+        return withPrefix(`/page-${pageIndex}`)
       }}
     />
   }

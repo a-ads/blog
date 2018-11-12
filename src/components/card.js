@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "gatsby"
+import { Link, withPrefix } from "gatsby"
 
 export default (props) => {
   const {
@@ -17,7 +17,7 @@ export default (props) => {
       <Link to={link}>
         <div className='c-card__image'>
           {thumbnail &&
-            <img src={thumbnail} alt='card sample'/>
+            <img src={withPrefix(thumbnail)} alt='card sample'/>
           }
         </div>
         <div className='c-card__text'>
