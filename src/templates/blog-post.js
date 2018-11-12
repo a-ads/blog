@@ -1,7 +1,7 @@
 import React from 'react'
 import _ from 'lodash'
 import Slider from 'react-slick'
-
+import { withPrefix } from 'gatsby'
 import Layout from '../layouts/index'
 import Card from '../components/card'
 import SocialButtonsDesktop from '../components/social-buttons-desktop'
@@ -51,7 +51,7 @@ export default class BlogPost extends React.Component {
 
             {post.frontmatter.thumbnail &&
               <section className='c-blog-post__big-picture'>
-                <img src={post.frontmatter.thumbnail} alt='pic'/>
+                <img src={withPrefix(post.frontmatter.thumbnail)} alt='pic' />
               </section>
             }
 
