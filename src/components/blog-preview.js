@@ -78,6 +78,6 @@ export default class extends React.Component {
 
   onPageChange({ selected }) {
     const pageIndex = selected + 1
-    window.location = `/page-${pageIndex}`
+    window.location = withPrefix(`/page-${pageIndex}`)
   }
 }
