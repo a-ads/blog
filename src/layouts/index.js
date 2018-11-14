@@ -2,7 +2,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql, withPrefix } from 'gatsby'
 import _ from 'lodash'
-
 import Header from '../containers/header'
 import Footer from '../components/footer.js'
 import '../styles/main.scss'
