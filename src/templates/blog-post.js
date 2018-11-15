@@ -79,7 +79,7 @@ export default class BlogPost extends React.Component {
     const tagsArray = []
 
     tags.forEach((tag, index) => {
-      tagsArray.push(<a className='c-tag' key={index} href={`/tags/${_.kebabCase(tag)}`}>{tag}</a>)
+      tagsArray.push(<a className='c-tag' key={index} href={withPrefix(`/tags/${_.kebabCase(tag)}`)}>{tag}</a>)
     })
 
     return (
