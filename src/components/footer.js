@@ -1,10 +1,10 @@
 import React from 'react'
-import { withPrefix } from 'gatsby'
+import { withPrefix, Link } from 'gatsby'
 
 export default () => (
   <div className='c-footer'> 
     <div className='c-footer__container l-container'> 
-      <div className='c-footer__links'><a href='/about/'>About A-ADS</a></div>
+      <div className='c-footer__links'><Link to='/about'>About A-ADS</Link></div>
       <div className='c-footer__social-buttons'>
         <a href='https://www.facebook.com/aads.network/' target='_blank'><img src={withPrefix('/images/fb.svg')} alt=''/></a>
         <a href='https://twitter.com/aads_network' target='_blank'><img src={withPrefix('/images/twitter.svg')} alt=''/></a>
