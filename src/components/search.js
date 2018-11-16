@@ -27,8 +27,8 @@ export default class extends React.Component {
           </div>
           <div className='c-search__submit-btn-wrapper'>
             <label htmlFor={this.searchFormSubmitId} className='c-search__submit-btn'>
-              <img src='images/search-icon.svg' alt='search icon'/>
-              <img src='images/search-icon-active.svg' alt='search icon'/>
+              <img src={withPrefix('images/search-icon.svg')} alt='search icon'/>
+              <img src={withPrefix('images/search-icon-active.svg')} alt='search icon'/>
             </label>
             <input type='submit' 
               id={this.searchFormSubmitId}
