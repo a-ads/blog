@@ -141,8 +141,7 @@ exports.createPages= ({ graphql, boundActionCreators }) => {
         });
       });
 
-      const blogPostsForAadsMainPage = blogPosts.slice(9).map(function (post) {
-        // console.log(post);
+      const blogPostsForAadsMainPage = JSON.parse(JSON.stringify(_.take(blogPosts, 9))).map(function (post) {
         if (post.node.frontmatter.thumbnail) {
           post.node.frontmatter.thumbnail = '/blog' + post.node.frontmatter.thumbnail;
         }
