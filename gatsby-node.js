@@ -79,7 +79,7 @@ exports.createPages= ({ graphql, boundActionCreators }) => {
         });
       });
 
-      /*Blog post pages*/      
+      /*Blog post pages*/
       _.each(blogPosts, (blogPost, index) => {
         const previousBlogPost = index === blogPosts.length - 1 ? null : blogPosts[index + 1].node;
         const nextBlogPost = index === 0 ? null : blogPosts[index - 1].node;
@@ -139,6 +139,20 @@ exports.createPages= ({ graphql, boundActionCreators }) => {
             category,
           },
         });
+      });
+
+      const blogPostsForAadsMainPage = blogPosts.slice(9).map(function (post) {
+        // console.log(post);
+        if (post.node.frontmatter.thumbnail) {
+          post.node.frontmatter.thumbnail = '/blog' + post.node.frontmatter.thumbnail;
+        }
+        if (post.node.fields.slug) {
+          post.node.fields.slug = '/blog' + post.node.fields.slug;
+        }
+        return post;
+      });
+      fs.writeFile(path.resolve('./public/main_page_blogposts_preview.json'), JSON.stringify(blogPostsForAadsMainPage), function(err) {
+        console.log(err);
       });
 
       resolve();
