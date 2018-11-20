@@ -141,14 +141,14 @@ exports.createPages= ({ graphql, boundActionCreators }) => {
         });
       });
 
-      const blogPostsForAadsMainPage = JSON.parse(JSON.stringify(_.take(blogPosts, 9))).map(function (post) {
-        if (post.node.frontmatter.thumbnail) {
-          post.node.frontmatter.thumbnail = '/blog' + post.node.frontmatter.thumbnail;
-        }
-        if (post.node.fields.slug) {
-          post.node.fields.slug = '/blog' + post.node.fields.slug;
-        }
-        return post;
+      const blogPostsForAadsMainPage = _.take(blogPosts, 9).map(function (post) {
+        return {
+          slug: '/blog' + post.node.fields.slug,
+          title: post.node.frontmatter.title,
+          thumbnail: '/blog' + post.node.frontmatter.thumbnail,
+          category: post.node.frontmatter.category,
+          date: post.node.frontmatter.date,
+        };
       });
       fs.writeFile(path.resolve('./public/main_page_blogposts_preview.json'), JSON.stringify(blogPostsForAadsMainPage), function(err) {
         console.log(err);
