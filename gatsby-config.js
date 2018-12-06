@@ -5,7 +5,12 @@ module.exports = {
     siteUrl: 'http://a-blog.glv.cc'
   },
   plugins: [
-    'gatsby-plugin-netlify-cms',
+    {
+      resolve: 'gatsby-plugin-netlify-cms',
+      options: {
+        publicPath: '/blog/admin'
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
