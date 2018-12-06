@@ -8,7 +8,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
-        publicPath: '/blog/admin'
+        publicPath: 'blog/admin'
       }
     },
     {
