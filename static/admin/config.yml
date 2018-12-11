@@ -3,7 +3,7 @@ backend:
   # repo: Leoplod/aads-blog-gatsby-netlifycms
   # auth_type: implicit
   # app_id: 55aa5600385313996d0ccd2a8af267b51317fa5340339796e5b53e8fb3a096e2
-  name: gitlab
+  name: git-gateway
   repo: lev/blog
   base_url: https://gitlab0.int.a-ads.com
   api_root: https://gitlab0.int.a-ads.com/api/v4
