@@ -1,6 +1,6 @@
 ---
 date: '2018-10-04'
-title: Advertise with A-Ads
+title: Advertise with A-ADS
 tags:
   - news
 category: Stories
@@ -36,4 +36,4 @@ That is why the recommended way of using A-ADS is the following:
 
 You can automate this process via our API, please see the related articles or consult with our support team for details.
 
-Learn to reach your campaign goals with us!
+Reach your campaign goals with us!
