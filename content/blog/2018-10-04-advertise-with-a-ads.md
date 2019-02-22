@@ -35,3 +35,5 @@ That is why the recommended way of using A-ADS is the following:
 3. Reward efficient traffic sources to get more traffic from them.
 
 You can automate this process via our API, please see the related articles or consult with our support team for details.
+
+Learn to reach your campaign goals with us!
