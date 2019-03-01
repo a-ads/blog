@@ -9,4 +9,4 @@ thumbnail: /assets/dz6zixrxgaakjqf.jpg
 ---
 Тест теста
 
-![](/assets/appstore.png)
+![null](/assets/appstore.png)
