@@ -64,8 +64,11 @@ class SearchPage extends React.Component {
       } else {
         this.searchResults = []
       }
-    } catch (e) {
-      console.log(e);
+    } catch(e) {
+      console.log(e)
+      setTimeout(() => {
+        this.setSearchResults()
+      }, 500)
     }
   }
 
