@@ -9,4 +9,4 @@ thumbnail: /blog/assets/peenysqueezy.jpg
 ---
 Тест теста
 
-![null](/assets/appstore.png)
+![null](/blog/assets/dz6zixrxgaakjqf.jpg)
