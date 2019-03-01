@@ -4,6 +4,14 @@ const _ = require('lodash');
 const CONFIG = require('./src/config.js');
 const fs = require('fs');
 
+exports.onCreateWebpackConfig = ({ actions, stage }) => {
+  if (stage === 'build-javascript') {
+    actions.setWebpackConfig({
+      devtool: false,
+    })
+  }
+};
+
 exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   const { createNodeField } = boundActionCreators;
   
