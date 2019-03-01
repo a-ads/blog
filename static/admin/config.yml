@@ -12,7 +12,7 @@ backend:
   app_id: 52373d0f5426390b5ac3bbe0ee0ebe0dba2242f8b03173558db165149c314997
 
 media_folder: static/assets
-public_folder: /blog/assets
+public_folder: blog/assets
 
 collections:
   - name: blog
