@@ -28,13 +28,13 @@ class SearchPage extends React.Component {
   }
 
   render() {
-    this.setSearchResults()
-
+    const renderedSearchResults = this.getRenderedSearchResults()
+    
     return (
       <Layout>
         <SearchResult 
-          searchResultEmpty={this.isSearchResultEmpty()}
-          renderedSearchResults={this.getRenderedSearchResults()}
+          searchResultEmpty={!renderedSearchResults.length}
+          renderedSearchResults={renderedSearchResults}
           searchQuery={this.props.search.query}
         />
       </Layout>
@@ -53,15 +53,19 @@ class SearchPage extends React.Component {
   }
 
   setSearchResults = () => {
-    const searchQuery = this.props.search.query
-    if (this.isSearchQueryValid(searchQuery)) {
-      const lunrIndex = window.__LUNR__['en'];
-      this.searchResults = lunrIndex.index.search(searchQuery)
-      .map(({ ref }) => {
-        return lunrIndex.store[ref]
-      })
-    } else {
-      this.searchResults = []
+    try {
+      const searchQuery = this.props.search.query
+      if (this.isSearchQueryValid(searchQuery)) {
+        const lunrIndex = window.__LUNR__['en'];
+        this.searchResults = lunrIndex.index.search(searchQuery)
+        .map(({ ref }) => {
+          return lunrIndex.store[ref]
+        })
+      } else {
+        this.searchResults = []
+      }
+    } catch (e) {
+      console.log(e);
     }
   }
 
@@ -74,6 +78,8 @@ class SearchPage extends React.Component {
   }
 
   getRenderedSearchResults() {
+    this.setSearchResults()
+
     return this.searchResults.map((result, key) => (
       <Card 
         key={key}
