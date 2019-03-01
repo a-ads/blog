@@ -5,7 +5,7 @@ tags:
   - news
   - test
 category: Development
-thumbnail: /assets/dz6zixrxgaakjqf.jpg
+thumbnail: /blog/assets/hot_streets.jpg
 ---
 Тест теста
 
