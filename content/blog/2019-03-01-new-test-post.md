@@ -9,4 +9,4 @@ thumbnail: /blog/assets/hot_streets.jpg
 ---
 Тест теста
 
-![null](/blog/assets/siniy-les-foto.jpg)
+![null](/blog/assets/img3.png)
