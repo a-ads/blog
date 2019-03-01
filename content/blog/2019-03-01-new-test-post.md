@@ -5,8 +5,8 @@ tags:
   - news
   - test
 category: Development
-thumbnail: /blog/assets/peenysqueezy.jpg
+thumbnail: /blog/assets/dz6zixrxgaakjqf.jpg
 ---
 Тест теста
 
-![null](/blog/assets/dz6zixrxgaakjqf.jpg)
+![null](/blog/assets/siniy-les-foto.jpg)
