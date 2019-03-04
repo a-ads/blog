@@ -13,7 +13,6 @@ export default (props) => {
 
   return (
     <div className={`c-card ${additionalClassName}`}>
-      {console.log(thumbnail)}
       <Link to={link}>
         <div className='c-card__image'>
           {thumbnail &&
