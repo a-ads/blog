@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: '/blog',
   siteMetadata: {
     title: 'A-ADS Blog',
-    siteUrl: 'http://a-blog.glv.cc'
+    siteUrl: 'https://a-ads.com/blog'
   },
   plugins: [
     {
