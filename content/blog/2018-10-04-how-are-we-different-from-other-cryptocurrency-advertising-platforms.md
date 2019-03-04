@@ -4,7 +4,7 @@ title: How are we different from other cryptocurrency advertising platforms?
 tags:
   - news
 category: Stories
-thumbnail: /assets/illustration-4-2x.png
+thumbnail: /blog/assets/illustration-4-2x.png
 ---
 **Anonymity**. First of all - we are an anonymous network. Publisher or advertiser - it is your choice how much personal information to share. As long as your activity is legit , we are OK with your incognito status.
 

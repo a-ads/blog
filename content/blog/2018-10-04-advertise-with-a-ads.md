@@ -4,7 +4,7 @@ title: Advertise with A-ADS
 tags:
   - news
 category: Stories
-thumbnail: /assets/illustration-4-2x.png
+thumbnail: /blog/assets/illustration-4-2x.png
 ---
 Have you thought of a strategy of exposing your product to millions of viewers on tens of thousands of ad units worldwide? You can do it quite easy with [A-ADS bitcoin advertising network](https://a-ads.com).
 

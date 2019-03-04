@@ -5,7 +5,6 @@ module.exports = {
     siteUrl: 'http://a-blog.glv.cc'
   },
   plugins: [
-    'gatsby-plugin-netlify-cms-paths',
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {

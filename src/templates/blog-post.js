@@ -51,7 +51,7 @@ export default class BlogPost extends React.Component {
 
             {post.frontmatter.thumbnail &&
               <section className='c-blog-post__big-picture'>
-                <img src={withPrefix(post.frontmatter.thumbnail)} alt='pic' />
+                <img src={post.frontmatter.thumbnail} alt='pic' />
               </section>
             }
 

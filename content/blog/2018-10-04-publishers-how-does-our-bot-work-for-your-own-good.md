@@ -4,7 +4,7 @@ title: 'Publishers: how does our bot work for your own good'
 tags:
   - news
 category: How to
-thumbnail: /assets/illustration-5-2x.png
+thumbnail: /blog/assets/illustration-5-2x.png
 ---
 ## OR: Why you should put the exact URL in your ad unit info.
 

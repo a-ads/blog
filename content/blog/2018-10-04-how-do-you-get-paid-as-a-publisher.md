@@ -4,7 +4,7 @@ title: How do you get paid as a publisher?
 tags:
   - news
 category: How to
-thumbnail: /assets/illustration-7.png
+thumbnail: /blog/assets/illustration-7.png
 ---
 ## Factors that affect eCPM.
 

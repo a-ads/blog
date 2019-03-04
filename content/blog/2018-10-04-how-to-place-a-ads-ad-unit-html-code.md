@@ -4,7 +4,7 @@ title: How to place A-Ads ad unit HTML code?
 tags:
   - news
 category: How to
-thumbnail: /assets/illustration-2.png
+thumbnail: /blog/assets/illustration-2.png
 ---
 Read more here: 
 

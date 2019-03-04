@@ -4,7 +4,7 @@ title: Counting unique impressions
 tags:
   - news
 category: How to
-thumbnail: /assets/illustration-6.png
+thumbnail: /blog/assets/illustration-6.png
 ---
 If you want to become our publisher, the main phrase you need to learn is “unique impressions”. What do we mean by that?
 
