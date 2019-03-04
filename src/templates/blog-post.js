@@ -23,7 +23,7 @@ export default class BlogPost extends React.Component {
       <Layout>
         <Helmet>
           <title>{HTMLTitle}</title>
-          <meta property='og:url' content={`${siteUrl}${location.pathname}`} />
+          <meta property='og:url' content={`${siteUrl}${withPrefix(location.pathname)}`} />
           <meta property='og:type' content='website' />
           <meta property='og:title' content={post.frontmatter.title} />
           <meta property='og:image' content={`${siteUrl}${post.frontmatter.thumbnail}`} />
@@ -33,7 +33,7 @@ export default class BlogPost extends React.Component {
 
           <meta name='twitter:card' content='summary' />
           <meta name='twitter:site' content='@aads_network' />
-          <meta name='twitter:url' content={`${siteUrl}${location.pathname}`} />
+          <meta name='twitter:url' content={`${siteUrl}${withPrefix(location.pathname)}`} />
           <meta name='twitter:title' content={post.frontmatter.title} />
           <meta name='twitter:description' content={post.excerpt} />
           <meta name='twitter:image' content={`${siteUrl}${post.frontmatter.thumbnail}`} />
