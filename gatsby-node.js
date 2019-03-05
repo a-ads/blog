@@ -151,10 +151,10 @@ exports.createPages= ({ graphql, boundActionCreators }) => {
 
       const blogPostsForAadsMainPage = JSON.parse(JSON.stringify(_.take(blogPosts, 9))).map(function (post) {
         if (post.node.frontmatter.thumbnail) {
-          post.node.frontmatter.thumbnail = '/blog' + post.node.frontmatter.thumbnail;
+          post.node.frontmatter.thumbnail = post.node.frontmatter.thumbnail;
         }
         if (post.node.fields.slug) {
-          post.node.fields.slug = '/blog' + post.node.fields.slug;
+          post.node.fields.slug = post.node.fields.slug;
         }
         return post;
       });
