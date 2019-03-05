@@ -154,7 +154,7 @@ exports.createPages= ({ graphql, boundActionCreators }) => {
           post.node.frontmatter.thumbnail = post.node.frontmatter.thumbnail;
         }
         if (post.node.fields.slug) {
-          post.node.fields.slug = post.node.fields.slug;
+          post.node.fields.slug = '/blog' + post.node.fields.slug;
         }
         return post;
       });
