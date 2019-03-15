@@ -16,7 +16,7 @@ You can [advertise anonymously](https://a-ads.com/campaigns/new) or create a use
 
 # Relevant traffic
 
-In A-ADS you get to choose the ad units straight from the publishers. We have traffic from various sources, significant share of it is bitcoin or cryptocurrency-related. We also feature traffic from other categories that you can explore in our [catalog](https://a-ads.com/catalog). 
+In A-ADS you get to choose the ad units straight from the publishers. We have traffic from various sources, a significant share of it is bitcoin or cryptocurrency-related. We also feature traffic from other categories that you can explore in our [catalog](https://a-ads.com/catalog). 
 
 # Pay as much as you like
 
@@ -26,7 +26,7 @@ We can work on CPM (cost per mille) and CPA (cost per action / revenue sharing) 
 
 # Fine-tune your campaign
 
-Our targeting options include targeting by country, type of ad (text/banner), quality range, traffic sources, max CPM, etc. Each setting comes with its own limitations and may affect the efficiency of your campaign in an unexpected manner.
+Our targeting options include targeting by country, type of ad (text/banner), quality range, traffic sources, max CPM, etc. Each option comes with its own limitations and may affect the efficiency of your campaign in an unexpected manner.
 
 That is why the recommended way of using A-ADS is the following:
 
