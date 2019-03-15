@@ -8,7 +8,9 @@ thumbnail: /blog/assets/illustration-6.png
 ---
 If you want to become our publisher, you might be interested to learn what we mean by “unique impressions”.
 
-One IP address can generate only 1 unique impression in the scope of the whole network during a day. This impression will be considered unique as it comes from the visitor who hasn't seen our ads for the past 24 hours.
+* One IP address can generate only 1 unique impression in the scope of the whole network during a day. This impression will be considered unique as it comes from the visitor who hasn't seen our ads for the past 24 hours.
+* If there are several ad units on the same page, only one of them will receive a unique impression upon page load (the one which loads first). 
+* Also, if your ad unit is of type "Site", then only impressions which go from the site domain (or its subdomains) will be considered unique.
 
 This makes our stats incompatible with Google Analytics or any other web visitors counting services. 
 
