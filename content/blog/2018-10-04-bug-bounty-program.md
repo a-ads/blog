@@ -15,7 +15,7 @@ The security of our operations is our highest priority for many reasons: we're d
 * Please submit the bug report via our support channels (email or web site widget) but only after you've verified that it indeed works.
 * Use whatever language you prefer if you don't feel comfortable writing in English.
 
-We are leaving the monetary reward you'll be getting for your report to our discretion. The reward will be paid in bitcoins. Please remember that we don't reward for the already known vulnerabilities which are listed below.
+We are leaving the monetary reward you'll be getting for your report to our discretion. The reward will be paid in bitcoins. Please remember that we don't reward for the already known vulnerabilities which are listed [here](http://blog.anonymousads.com/2017/09/bug-bounty-program-at-ads.html).
 
 Also, if you're a security researcher and you're reading this information we'd like to draw your attention to the fact that our SPF record is indeed valid and we do not deem account deletion a security vulnerability.
 
