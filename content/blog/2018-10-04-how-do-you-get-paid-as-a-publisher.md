@@ -6,13 +6,13 @@ tags:
 category: How to
 thumbnail: /blog/assets/illustration-7.png
 ---
-## Factors that affect eCPM.
+## Factors that affect publishers' revenue
 
 We use every chance to reach out to our publishers and keep them informed about their earning prospects. Here is a comprehensive overview of what you can expect as a publisher.
 
 Our pricing model is built around the ratio between supply and demand for traffic. No fixed CPM or CPC - actual traffic cost is a given fact which is hard to influence on or accurately predict.
 
-Ad unit earnings are affected by many factors, inclidng the following:
+Ad unit earnings are affected by many factors, including the following:
 
 * **number of unique impressions**\
   _Please, mind that we've got an alternative way of counting unique impressions. We count as unique globally unique impressions which means that a single IP address will be counted as unique only once every 24 hours when the visitor encounters any of our banners on any of our publishers’ websites. It isn't counted as unique again during this interval no matter how many banners the visitor subsequently sees and what websites he visits. So, our numbers of unique impressions will be much lower than those reported by other networks or tracking tools for the same traffic._
