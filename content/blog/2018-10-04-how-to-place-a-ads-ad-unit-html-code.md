@@ -1,6 +1,6 @@
 ---
 date: '2018-10-04'
-title: How to place A-Ads ad unit HTML code?
+title: How to place A-ADS ad unit HTML code?
 tags:
   - news
 category: How to
