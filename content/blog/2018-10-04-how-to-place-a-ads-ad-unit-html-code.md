@@ -16,4 +16,4 @@ There’s no problem in using the same code for the whole domain and its subdoma
 
 ## **Make ad units accessible to our bot**
 
-This means no pop-up questions or private zones that need authorization. Ad unit should be visible and clickable. If you use Cloudflare or other anti-DDoS service, you might need to add exceptions for the assign URL or whitelist our bot (contact support for details).
+This means no pop-up questions or private zones that need authorization. Ad unit should be visible and clickable. If you use Cloudflare or another anti-DDoS service, you might need to add exceptions for the assigned URL or whitelist our bot (contact support for details).
