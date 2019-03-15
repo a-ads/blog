@@ -10,6 +10,6 @@ Most of our ad units have "**Site**" type. They are for text and graphical banne
 
 "**App**" type is for ad units that you want to place somewhere else: mobile applications, browser extensions, etc. We cannot verify the placement, so it shows as anonymous traffic sources in our system. These ad units usually earn less.  
 
-"**Affiliate"** type is for ad units, that are not supposed to show advertisements. They exist only as an account in our network and are used to give affiliate links and earn fees from campaigns created with these links. Imagine you don't have a site, you don't have neither a mobile app, nor a browser extension, but you've got a neighbor who needs advertising. You create an affiliate ad unit, give your neighbor a link, he creates a campaign and you get a half of our fees as a reward.
+"**Affiliate"** type is for ad units, that are not supposed to show advertisements. They exist only as an account in our network and are used to give affiliate links and earn fees from campaigns created with these links. Imagine you don't have a site, you don't have a mobile app, nor a browser extension, but you've got a neighbor who needs advertising. You create an affiliate ad unit, give your neighbor a link, he creates a campaign and you get half of our fees as a reward.
 
 ‘“**Site**" and "**App**" ad units also can be used to create affiliate links.
