@@ -16,7 +16,7 @@ You can [advertise anonymously](https://a-ads.com/campaigns/new) or create a use
 
 # Relevant traffic
 
-In A-ADS you get to choose the ad units straight from the publishers. Most of our traffic is bitcoin and cryptocurrency-related, but we also feature ICO, bitcoin-casinos, earning online announcements and many more topics from other categories that you can explore in our [catalog](https://a-ads.com/catalog). 
+In A-ADS you get to choose the ad units straight from the publishers. We have traffic from various sources, significant share of it is bitcoin or cryptocurrency-related. We also feature traffic from other categories that you can explore in our [catalog](https://a-ads.com/catalog). 
 
 # Pay as much as you like
 
@@ -34,6 +34,6 @@ That is why the recommended way of using A-ADS is the following:
 2. Enable goal tracking and use your analytics to detect which ad units generate useful traffic and attract customers.
 3. Reward efficient traffic sources to get more traffic from them.
 
-You can automate this process via our API, please see the related articles or consult with our support team for details.
+You can automate this process via our API, please consult with our support team for details.
 
 Reach your campaign goals with us!
