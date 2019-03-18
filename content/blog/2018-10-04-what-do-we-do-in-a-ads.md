@@ -24,6 +24,4 @@ Become a publisher, add up to our daily traffic and take your share of the profi
 
 Keep your privacy and enjoy lightning fast ad delivery, thanks to the lack of client-side real-time bidding!
 
-- - -
-
-\***\*[**Check out our affiliate program and win 50% of our commission by attracting new advertisers\*\*](https://a-ads.com/blog/2018-10-04-become-our-affiliate-partner-and-take-50-of-our-fees/).
+[Check out our affiliate program and win 50% of our commission by attracting new advertisers](https://a-ads.com/blog/2018-10-04-become-our-affiliate-partner-and-take-50-of-our-fees/).
