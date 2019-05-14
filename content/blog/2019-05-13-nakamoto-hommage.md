@@ -6,7 +6,7 @@ tags:
 category: Stories
 thumbnail: ''
 ---
-Let the music last forever!
+## Let the music last forever!
 
 We believe in music without limits the same way as we believe in free markets! To prove that, we have asked a contemporary Russian composer Boris Filanovsky to create a musical piece, dedicated to Satoshi Nakamoto, the legendary creator of Bitcoin.
 
