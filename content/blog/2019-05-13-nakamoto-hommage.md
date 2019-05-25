@@ -16,7 +16,7 @@ Anyone can contribute to producing this composition making a voluntary contribut
 
 The beginning has already been funded and is available to listen on YouTube: 
 
-[![Direct music #7 Satoshi Nakamoto](http://img.youtube.com/vi/1kpmZThsSHI/0.jpg)](http://www.youtube.com/watch?v=1kpmZThsSHI "Direct music #7 Satoshi Nakamoto")
+<iframe allowfullscreen="" frameborder="0" height="360" src="https://www.youtube.com/embed/1kpmZThsSHI" width="480"></iframe>
 
 Boris Filanovsky is a Golden Mask Award for Musical Theatre/Best Composer nominee and a winner of several international awards. He has established a “direct music” approach, which means that anyone can directly place an order on a musical piece, written by him.
 
