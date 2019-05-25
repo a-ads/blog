@@ -4,7 +4,7 @@ title: Nakamoto Hommage
 tags:
   - news
 category: Stories
-thumbnail: ''
+thumbnail: /blog/assets/img3.png
 ---
 ## Let the music last forever!
 
