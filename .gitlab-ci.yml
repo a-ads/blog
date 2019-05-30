@@ -1,12 +1,12 @@
 variables:
   S3_BUCKET_NAME: "a-ads-blog"
 
-image: node:12-alpine
+image: node:8-alpine
 
 deploy:
   script:
     - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/main/ libpng-dev fftw-dev build-base python-dev
-    - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing/ vips-dev
+    - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ vips-dev
     - npm install gatsby
     - npm install
     - node_modules/.bin/gatsby build --prefix-paths
