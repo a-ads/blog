@@ -1,5 +1,6 @@
-import React from 'react'
-import { Link } from "gatsby"
+import React, { useEffect, useRef } from 'react'
+import { Link } from 'gatsby'
+import Dotdotdot from 'dotdotdot-js/dist/dotdotdot.es6.js'
 
 export default (props) => {
   const {
@@ -11,6 +12,13 @@ export default (props) => {
     additionalClassName = '',
   } = props
 
+  const titleRef = useRef(null)
+  useEffect(() => {
+    new Dotdotdot(titleRef.current, {
+      tolerance: 1
+    })
+  })
+
   return (
     <div className={`c-card ${additionalClassName}`}>
       <Link to={link}>
@@ -20,7 +28,7 @@ export default (props) => {
           }
         </div>
         <div className='c-card__text'>
-          <div className='c-card__text__title'>
+          <div ref={titleRef} className='c-card__text__title'>
             {title}
           </div>
           <div className='c-card__text__excerpt'>
@@ -29,7 +37,6 @@ export default (props) => {
           <div className='c-card__text__category'>{category}</div>
         </div>
       </Link>
-      {/* </a> */}
     </div>
   )
 }
