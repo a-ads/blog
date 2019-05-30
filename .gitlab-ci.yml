@@ -1,7 +1,7 @@
 variables:
   S3_BUCKET_NAME: "a-ads-blog"
 
-image: node:7-alpine
+image: node-alpine-edge
 
 deploy:
   script:
