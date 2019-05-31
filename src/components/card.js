@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import { Link } from 'gatsby'
-import Dotdotdot from 'dotdotdot-js/dist/dotdotdot.es6.js'
+import TruncateHtmlText from '../utils/truncate-html-text'
 
 export default (props) => {
   const {
@@ -14,9 +14,11 @@ export default (props) => {
 
   const titleRef = useRef(null)
   useEffect(() => {
-    new Dotdotdot(titleRef.current, {
-      tolerance: 1
-    })
+    const truncateTitle = new TruncateHtmlText(titleRef.current)
+
+    return function cleanup() {
+      truncateTitle.destroy()
+    }
   })
 
   return (

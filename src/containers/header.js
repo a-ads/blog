@@ -6,7 +6,6 @@ import _ from 'lodash'
 import Search from '../components/search'
 import { withPrefix } from 'gatsby'
 
-
 class Header extends React.Component {
   constructor(props) {
     super(props)
@@ -44,7 +43,7 @@ class Header extends React.Component {
           <div className='c-header__burger' onClick={this.onBurgerClick}></div>
         </div>
 
-        <MobileMenu 
+        <MobileMenu
           isOpen={this.state.isMobileMenuOpen}
           width='100%'
           height='auto'
@@ -52,7 +51,7 @@ class Header extends React.Component {
         >
           <div className='c-header__dropdown-menu'>
             <div className='c-header__dropdown-menu-container'>
-              <Search 
+              <Search
                 search={this.props.search}
                 changeSearchQuery={this.props.changeSearchQuery}
               />
@@ -83,7 +82,7 @@ class Header extends React.Component {
           }
         </ul>
         {this.state.isSearchComponentDesktopActive &&
-          <Search 
+          <Search
             search={this.props.search}
             changeSearchQuery={this.props.changeSearchQuery}
             onOutsideClick={this.hideSearchComponentDesktop}
@@ -138,7 +137,7 @@ class Header extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-  return { 
+  return {
     search: state.search
   }
 }

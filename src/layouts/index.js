@@ -5,12 +5,13 @@ import _ from 'lodash'
 import Header from '../containers/header'
 import Footer from '../components/footer.js'
 import '../styles/main.scss'
+import '../utils/font-loader'
 
 export default class extends React.Component {
   render() {
     const { children } = this.props
     return (
-      <StaticQuery 
+      <StaticQuery
         query={graphql`
           query LayoutQuery {
             site {
@@ -43,10 +44,8 @@ export default class extends React.Component {
             <div>
               <Helmet>
                 <title>{data.site.siteMetadata.title}</title>
-                <link rel='icon' type='image/png' href={withPrefix('/images/favicon.png')} />
-                <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,600,700|Open+Sans:400,600,700' rel='stylesheet' />
               </Helmet>
-              <Header 
+              <Header
                 categories={this.getUsedBlogCategories()}
               />
               <div className='l-body'>
@@ -64,9 +63,9 @@ export default class extends React.Component {
     const {
       allBlogCategories
     } = this.data
-      
+
     return _.filter(
-      allBlogCategories.edges, 
+      allBlogCategories.edges,
       categoryEdge => this.isBlogCategoryUsed(categoryEdge.node.title)
     )
   }
@@ -76,7 +75,7 @@ export default class extends React.Component {
     const blogPostIndex = blogPostsGroupedByCategory.group
       .map(post => post.fieldValue)
       .indexOf(categoryTitle)
-    if (blogPostIndex !== -1) 
+    if (blogPostIndex !== -1)
       return true
   }
 }
