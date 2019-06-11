@@ -58,6 +58,13 @@ module.exports = {
           }
         }
       }
+    },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'GTM-WGWBHFS',
+        head: true,
+      }
     }
   ],
 };
