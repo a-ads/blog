@@ -1,6 +1,7 @@
 import React from 'react'
 import _ from 'lodash'
 import Slider from 'react-slick'
+import { graphql } from 'gatsby'
 import { withPrefix } from 'gatsby'
 import Layout from '../layouts/index'
 import Card from '../components/card'

@@ -1,4 +1,5 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import Layout from '../layouts/index'
 import Card from '../components/card'
 
