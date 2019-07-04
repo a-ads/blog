@@ -2,7 +2,7 @@
 date: 2019-07-04T17:37:38.866Z
 title: You see "HTML code not found" error - what next?
 tags:
-  - ''
+  - HTML_code_not_found
 category: How to
 thumbnail: /blog/assets/illustration-1-2x.png
 ---
@@ -24,11 +24,9 @@ Your site takes too long to respond.
 
 Your site cannot be loaded with a browser at all, e.g. it might be offline.
 
-## Page cannot be loaded 
+## Page cannot be loaded
 
 ![](/blog/assets/img_2077.jpg)
-
-
 
 The error appears when a website can be opened in a browser, but its source code cannot be analyzed by our bot program because of incorrect site settings. The possible reasons are as follows:
 
@@ -42,23 +40,13 @@ The error appears when a website can be opened in a browser, but its source code
 
 ![](/blog/assets/img_2078.jpg)
 
-
-
 An ad unit must be present on the URL specified for it on the ad unit page. You get the “Redirecting to another website” error, if this URL redirects to some other domain. 
-
-
 
 To fix the error you can either remove redirect, or change the URL of the ad unit on the ad unit page at a-ads.com. You can edit the ad unit URL via the link on the ad unit page:
 
-
-
 ![](/blog/assets/pasted-image-2.png)
 
-
-
 Mind, if your ad unit had been found on the old URL before, you won’t be able to change the URL yourself, you’ll need help from our support team to do it.
-
-
 
 If you cannot fix the problem, just abandon this ad unit and create a new one. :)
 
@@ -68,17 +56,11 @@ If you cannot fix the problem, just abandon this ad unit and create a new one. :
 
 This error appears if src attribute of the iframe tag is absent or is empty. 
 
-
-
-In case you add a URL with javascript, it’s possible that it is not added in due time, so the bot will define the URL as empty.
-
-
+In case you add a URL with JavaScript, it’s possible that it is not added in due time, so the bot will define the URL as empty.
 
 A correct src tag looks like this:
 
 ![](/blog/assets/pasted-image-3.png)
-
-
 
 ## Invalid URL
 
@@ -86,13 +68,9 @@ A correct src tag looks like this:
 
 Attribute src should contain a normalized URL. If a URL is not normalized, you’ll get this error message. 
 
-
-
 You can check if the URL is correct by copy-pasting it into browser address bar - a banner should be displayed. E.g. you copy this:
 
 ![](/blog/assets/unnamed.png)
-
-
 
 And see a banner:
 
@@ -100,13 +78,9 @@ And see a banner:
 
 So the URL in the src attribute is correct.
 
-
-
 Here are examples of invalid URLs:
 
 ![](/blog/assets/11.png)
-
-
 
 ![](/blog/assets/14.png)
 
@@ -115,10 +89,6 @@ Here are examples of invalid URLs:
 ![](/blog/assets/12.png)
 
 The last URL is also invalid, because it contains space symbols and an ad cannot be loaded for this reason.
-
-
-
-
 
 ## Alert or pop-up message is blocking your ad
 
@@ -130,13 +100,9 @@ The bot normally can verify an ad unit in spite of alert, confirm and prompt win
 
 ![](/blog/assets/17.png)
 
-
-
 ## Ad is not fully visible
 
 ![](/blog/assets/18.jpg)
-
-
 
 You get this message if an ad on your site is not fully visible. A banner is present in the site code, but is partly or fully hidden by some other page elements. If banners overlap each other, you’ll get this error too.
 
@@ -146,8 +112,6 @@ You get this message if an ad on your site is not fully visible. A banner is pre
 
 If you place a floating ad that can be closed, the “Close” button should not overlap it, else you’ll also get this error. Here is an example of proper placement of a button: 
 
-
-
 ![](/blog/assets/22.png)
 
 And here is a wrong way: 
@@ -156,11 +120,7 @@ And here is a wrong way:
 
 The “Ad is not fully visible” error might also be caused by a pop-up window which appears while loading a site. Prompt, alert and confirm windows cause another error. :)
 
-
-
 If you can avoid using pop-ads, you’d better not used them at all. 
-
-
 
 One more probable reason for the error is that your banners are loaded later than your site.
 
@@ -169,8 +129,6 @@ If the ad unit on your site is placed correctly but doesn’t appear immediately
 ## Ad is unclickable
 
 ![](/blog/assets/2e8f314a-49ed-447e-a069-0546347f010d.jpeg)
-
-
 
 A banner must be clickable. A click must lead to the advertised site. If nothing happens after a click, or if it leads to some other site, the error appears.
 
@@ -184,23 +142,17 @@ The src attribute must contain one of A-ads.com domains. On the moment two domai
 
 ![](/blog/assets/emd1.png)
 
-
-
 The error appears if there’s no data-aa attribute in the iframe. A correct iframe with data-aa attribute looks like this:
 
 ![](/blog/assets/emd2.png)
 
-An erroneous iframe
+An erroneous iframe:
 
 ![](/blog/assets/emd3.png)
-
-
 
 ## Empty ID
 
 ![](/blog/assets/empty1.png)
-
-
 
 An ad unit ID must be present in the src attribute of the iframe tag in your site source code. The ID is expected to be after the first slash sign “/” following the domain (ad.a-ads.com or acceptable.a-ads.com). A correct code piece looks like:
 
@@ -224,23 +176,15 @@ This error means you’ve got one ad unit ID in the src attribute and another ID
 
 ## Size doesn’t match
 
-
-
 An ad unit can be adaptive or have a fixed size. The minimum allowed size for an adaptive ad unit is 120x25 px. If a banner on your site page is less, you’ll get an error message:
 
 ![](/blog/assets/9098201a-1076-4acf-8af6-00cd2239ea75.jpeg)
-
-
 
 If your ad unit is a fixed size one, the banner on your site page should match ad unit exact size, else you’ll get an error message:
 
 ![](/blog/assets/145fb995-cb0f-4725-b7cb-061f222e5885.jpeg)
 
 To fix the error you should adjust an actual size of a banner with the requirements.The required size for your banner is present in the text of the error message (the second size of the two). The first size in the error message will be an actual size of a banner on your site.
-
-
-
-
 
 ## Unknown error
 
@@ -252,6 +196,8 @@ An unexpected error occurred and we cannot identify its origin. It can disappear
 
 ## Conclusion
 
+If the issue is likely to be on your side, we encourage you to find the solution before you address the support. You can run our bot after you've fixed the issue to see if the error disappeared.
 
+![](/blog/assets/screenshot-1-.png)
 
-If the issue is likely to be on your side, we encourage you to find the solution before you address the support. If an ad code is placed on your site in accordance with the specified requirements, and our software still cannot find it, please, contact our support team and we will eagerly help you.
+If an ad unit code is placed on your site in accordance with the specified requirements, and our bot still cannot find it, please, contact our support team and we will eagerly help you.
