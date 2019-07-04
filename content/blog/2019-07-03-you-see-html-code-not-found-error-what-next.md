@@ -94,7 +94,9 @@ The last URL is also invalid, because it contains space symbols and an ad cannot
 
 ![](/blog/assets/15.jpg)
 
-The bot normally can verify an ad unit in spite of alert, confirm and prompt windows on your site page. In cases when it cannot cope with this sort of pop-up, you get this error.
+The bot normally can verify an ad unit in spite of alert, confirm and prompt windows on your site page. In cases when it cannot cope with this sort of pop-up, you get this error. 
+
+Pop-ups blocking a banner might look like this:
 
 ![](/blog/assets/16.png)
 
