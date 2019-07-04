@@ -54,11 +54,11 @@ If you cannot fix the problem, just abandon this ad unit and create a new one. :
 
 ![](/blog/assets/73ea60b2-c6b0-4214-972f-b5891bf93445.jpeg)
 
-This error appears if src attribute of the iframe tag is absent or is empty. 
+This error appears if src attribute of the iframe tag is absent or is empty. This can happen e.g. if you have edited your ad unit code and occasionally removed the src attribute. 
 
 In case you add a URL with JavaScript, it’s possible that it is not added in due time, so the bot will define the URL as empty.
 
-A correct src tag looks like this:
+A correct src attribute looks like this:
 
 ![](/blog/assets/pasted-image-3.png)
 
@@ -120,11 +120,11 @@ And here is a wrong way:
 
 The “Ad is not fully visible” error might also be caused by a pop-up window which appears while loading a site. Prompt, alert and confirm windows cause another error. :)
 
-If you can avoid using pop-ads, you’d better not used them at all. 
+If you can avoid using pop-up ads, you’d better not used them at all. 
 
 One more probable reason for the error is that your banners are loaded later than your site.
 
-If the ad unit on your site is placed correctly but doesn’t appear immediately after loading, our bot may consider it invisible, blocked by another element, inaccessible for clicks or not detected at all. In this case, please, contact our support team - we’ll fix the error on our side.
+If the ad unit on your site is placed correctly but doesn’t appear immediately after loading, our bot may consider it invisible, blocked by another element, inaccessible for clicks or not detected at all. In this case, please, contact our support team - we’ll fix the error.
 
 ## Ad is unclickable
 
@@ -136,7 +136,7 @@ A banner must be clickable. A click must lead to the advertised site. If nothing
 
 ![](/blog/assets/6e0c068f-2dbb-4310-8bd4-b5650e71060c.jpeg)
 
-The src attribute must contain one of A-ads.com domains. On the moment two domains are allowed: ad.a-ads.com and acceptable.a-ads.com . If the src attribute contains any other domain, you’ll get this message.
+The src attribute must contain one of a-ads.com domains. On the moment two domains are allowed: ad.a-ads.com and acceptable.a-ads.com . If the src attribute contains any other domain, you’ll get this message.
 
 ## Empty data-aa
 
