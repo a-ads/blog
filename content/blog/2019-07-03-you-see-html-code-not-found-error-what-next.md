@@ -114,11 +114,11 @@ You get this message if an ad on your site is not fully visible. A banner is pre
 
 If you place a floating ad that can be closed, the “Close” button should not overlap it, else you’ll also get this error. Here is an example of proper placement of a button: 
 
-![](/blog/assets/снимок-экрана-2019-07-08-в-2.23.26.png)
+![](/blog/assets/снимок-экрана-2019-07-08-в-2.37.01.png)
 
 And here is a wrong way: 
 
-![](/blog/assets/снимок-экрана-2019-07-08-в-2.25.18.png)
+![](/blog/assets/снимок-экрана-2019-07-08-в-2.37.21.png)
 
 The “Ad is not fully visible” error might also be caused by a pop-up window which appears while loading a site. Prompt, alert and confirm windows normally don't cause an error or cause another error. :)
 
@@ -195,8 +195,6 @@ To fix the error you should adjust an actual size of a banner with the requireme
 ![](/blog/assets/07dfcb2d-29d9-43fc-8942-2b59fb4c47a0.jpeg)
 
 An unexpected error occurred and we cannot identify its origin. It might disappear on its own or it might remain, then you should contact our helpdesk.
-
-![](/blog/assets/tyl1.png)
 
 ## Conclusion
 
