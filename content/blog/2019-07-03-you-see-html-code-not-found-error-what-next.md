@@ -74,25 +74,25 @@ You can check if the URL is correct by copy-pasting it into browser address bar 
 
 And see a banner:
 
-![](/blog/assets/unnamed1.png)
+![](/blog/assets/снимок-экрана-2019-07-08-в-1.35.29.png)
 
 So the URL in the src attribute is correct.
 
 Here are examples of invalid URLs:
 
-![](/blog/assets/11.png)
+![](/blog/assets/снимок-экрана-2019-07-08-в-1.35.46.png)
 
-![](/blog/assets/14.png)
+![](/blog/assets/снимок-экрана-2019-07-08-в-1.36.08.png)
 
-![](/blog/assets/13.png)
+![](/blog/assets/снимок-экрана-2019-07-08-в-1.36.16.png)
 
-![](/blog/assets/12.png)
+![](/blog/assets/снимок-экрана-2019-07-08-в-1.36.29.png)
 
 The last URL is also invalid, because it contains space symbols and an ad cannot be loaded for this reason.
 
 ## Alert or pop-up message is blocking your ad
 
-![](/blog/assets/15.jpg)
+![](/blog/assets/снимок-экрана-2019-07-08-в-1.52.37.png)
 
 The bot normally can verify an ad unit in spite of alert, confirm and prompt windows on your site page. In cases when it cannot cope with this sort of pop-up, you get this error. 
 
@@ -104,21 +104,21 @@ Pop-ups blocking a banner might look like this:
 
 ## Ad is not fully visible
 
-![](/blog/assets/18.jpg)
+![](/blog/assets/снимок-экрана-2019-07-08-в-1.53.26.png)
 
 You get this message if an ad on your site is not fully visible. A banner is present in the site code, but is partly or fully hidden by some other page elements. If banners overlap each other, you’ll get this error too.
 
-![](/blog/assets/19.png)
+![](/blog/assets/снимок-экрана-2019-07-08-в-1.54.45.png)
 
-![](/blog/assets/20.png)
+![](/blog/assets/снимок-экрана-2019-07-08-в-1.54.59.png)
 
 If you place a floating ad that can be closed, the “Close” button should not overlap it, else you’ll also get this error. Here is an example of proper placement of a button: 
 
-![](/blog/assets/22.png)
+![](/blog/assets/снимок-экрана-2019-07-08-в-1.56.19.png)
 
 And here is a wrong way: 
 
-![](/blog/assets/21.jpg)
+![](/blog/assets/снимок-экрана-2019-07-08-в-1.57.19.png)
 
 The “Ad is not fully visible” error might also be caused by a pop-up window which appears while loading a site. Prompt, alert and confirm windows normally don't cause an error or cause another error. :)
 
@@ -142,19 +142,19 @@ The src attribute must contain one of a-ads.com domains. On the moment two domai
 
 ## Empty data-aa
 
-![](/blog/assets/emd1.png)
+![](/blog/assets/снимок-экрана-2019-07-08-в-1.58.21.png)
 
 The error appears if there’s no data-aa attribute in the iframe. A correct iframe with data-aa attribute looks like this:
 
-![](/blog/assets/emd2.png)
+![](/blog/assets/снимок-экрана-2019-07-08-в-1.59.06.png)
 
 An erroneous iframe:
 
-![](/blog/assets/emd3.png)
+![](/blog/assets/снимок-экрана-2019-07-08-в-1.59.22.png)
 
 ## Empty ID
 
-![](/blog/assets/empty1.png)
+![](/blog/assets/снимок-экрана-2019-07-08-в-2.00.20.png)
 
 An ad unit ID must be present in the src attribute of the iframe tag in your site source code. The ID is expected to be after the first slash sign “/” following the domain (ad.a-ads.com or acceptable.a-ads.com). A correct code piece looks like:
 
@@ -170,11 +170,11 @@ An ID is also expected to be before the next slash or further params, e.g. “?s
 
 ## Invalid ID
 
-![](/blog/assets/id1.png)
+![](/blog/assets/снимок-экрана-2019-07-08-в-2.01.52.png)
 
 This error means you’ve got one ad unit ID in the src attribute and another ID in the data-aa attribute in the iframe tag embedded into your site source code.
 
-![](/blog/assets/id2.png)
+![](/blog/assets/снимок-экрана-2019-07-08-в-2.01.58.png)
 
 ## Size doesn’t match
 
@@ -202,6 +202,6 @@ An unexpected error occurred and we cannot identify its origin. It might disappe
 
 If the issue is likely to be on your side, we encourage you to find the solution before you address the support. You can run our bot after you've fixed the issue to see if the error disappeared.
 
-![](/blog/assets/tyl1.png)
+![](/blog/assets/screenshot-1-.png)
 
 If an ad unit code is placed on your site in accordance with the specified requirements, and our bot still cannot find it, please, contact our support team and we will eagerly help you.
