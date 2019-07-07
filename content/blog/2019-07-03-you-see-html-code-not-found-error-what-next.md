@@ -120,7 +120,7 @@ And here is a wrong way:
 
 ![](/blog/assets/21.jpg)
 
-The “Ad is not fully visible” error might also be caused by a pop-up window which appears while loading a site. Prompt, alert and confirm windows cause another error. :)
+The “Ad is not fully visible” error might also be caused by a pop-up window which appears while loading a site. Prompt, alert and confirm windows normally don't cause an error or cause another error. :)
 
 If you can avoid using pop-up ads, you’d better not used them at all. 
 
@@ -192,7 +192,7 @@ To fix the error you should adjust an actual size of a banner with the requireme
 
 ![](/blog/assets/07dfcb2d-29d9-43fc-8942-2b59fb4c47a0.jpeg)
 
-An unexpected error occurred and we cannot identify its origin. It can disappear if you launch our bot manually or it may remain, then you should contact our helpdesk.
+An unexpected error occurred and we cannot identify its origin. It might disappear on its own or it might remain, then you should contact our helpdesk.
 
 ![](/blog/assets/tyl1.png)
 
