@@ -202,6 +202,6 @@ An unexpected error occurred and we cannot identify its origin. It might disappe
 
 If the issue is likely to be on your side, we encourage you to find the solution before you address the support. You can run our bot after you've fixed the issue to see if the error disappeared.
 
-![](/blog/assets/screenshot-1-.png)
+![](/blog/assets/tyl1.png)
 
 If an ad unit code is placed on your site in accordance with the specified requirements, and our bot still cannot find it, please, contact our support team and we will eagerly help you.
