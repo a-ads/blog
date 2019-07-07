@@ -56,7 +56,7 @@ If you cannot fix the problem, just abandon this ad unit and create a new one. :
 
 This error appears if src attribute of the iframe tag is absent or is empty. This can happen e.g. if you have edited your ad unit code and occasionally removed the src attribute. 
 
-In case you add a URL with JavaScript, it’s possible that it is not added in due time, so the bot will define the URL as empty.
+In case you add a URL into src attribute with JavaScript, it’s possible that it is not added in due time, so the bot will define the URL as empty.
 
 A correct src attribute looks like this:
 
@@ -178,7 +178,9 @@ This error means you’ve got one ad unit ID in the src attribute and another ID
 
 ## Size doesn’t match
 
-An ad unit can be adaptive or have a fixed size. The minimum allowed size for an adaptive ad unit is 120x25 px. If a banner on your site page is less, you’ll get an error message:
+An ad unit can be adaptive or have a fixed size. 
+
+The minimum allowed size for an adaptive ad unit is 120x25 px. If a banner on your site page is less, you’ll get an error message:
 
 ![](/blog/assets/9098201a-1076-4acf-8af6-00cd2239ea75.jpeg)
 
