@@ -2,7 +2,7 @@
 date: 2019-07-04T17:37:38.866Z
 title: You see "HTML code not found" error - what next?
 tags:
-  - HTML_code_not_found
+  - ''
 category: How to
 thumbnail: /blog/assets/illustration-1-2x.png
 ---
@@ -164,7 +164,7 @@ This one is incorrect, because an ID is absent in src attribute:
 
 ![](/blog/assets/empty2.png)
 
-An ID is also expected to be before the next slash or further params, e.g. “?size=123*456”. That’s why ID is regarded empty in the following case as well:
+An ID is also expected to be before the next slash or further params, e.g. “?size=240x400”. That’s why ID is regarded empty in the following case as well:
 
 ![](/blog/assets/empty3.png)
 
