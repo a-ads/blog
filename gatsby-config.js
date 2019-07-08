@@ -65,6 +65,22 @@ module.exports = {
         trackingId: 'UA-2973328-17',
         head: true,
       }
+    },
+    {
+      resolve: 'gatsby-plugin-feed',
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+      }
     }
   ],
 };
