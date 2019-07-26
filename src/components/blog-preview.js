@@ -22,9 +22,6 @@ export default class extends React.Component {
           <div className='l-card-group__card-container l-container'>
             {this.renderPreviews()}
           </div>
-          {/* <div className='l-container'>
-            <Subscribe />
-          </div> */}
           <div className='l-card-group__pagination-container l-container'>
             {this.renderPagination()}
           </div>
@@ -35,30 +32,78 @@ export default class extends React.Component {
 
   renderPreviews() {
     return this.posts.map((post, index) => {
-      let additionalClassName = '';
+      let additionalClassName = ''
+      let thumbnail = post.node.frontmatter.thumbnail
+
       switch (index) {
       case 0:
-        additionalClassName = 'c-card--large'
+        return (
+          <React.Fragment>
+            <Card
+              key={index}
+              link={post.node.fields.slug}
+              thumbnail={post.node.frontmatter.big_picture || post.node.frontmatter.thumbnail}
+              title={post.node.frontmatter.title}
+              category={post.node.frontmatter.category}
+              date={post.node.frontmatter.date}
+              excerpt={post.node.excerpt}
+              additionalClassName='c-card--large hidden-phone'
+            />
+            <Card
+              key={index}
+              link={post.node.fields.slug}
+              thumbnail={post.node.frontmatter.thumbnail}
+              title={post.node.frontmatter.title}
+              category={post.node.frontmatter.category}
+              date={post.node.frontmatter.date}
+              excerpt={post.node.excerpt}
+              additionalClassName='visible-phone'
+            />
+          </React.Fragment>
+        )
       break;
       case 7:
-        additionalClassName = 'c-card--double'
+        return (
+          <React.Fragment>
+            <Card
+              key={index}
+              link={post.node.fields.slug}
+              thumbnail={post.node.frontmatter.big_picture || post.node.frontmatter.thumbnail}
+              title={post.node.frontmatter.title}
+              category={post.node.frontmatter.category}
+              date={post.node.frontmatter.date}
+              excerpt={post.node.excerpt}
+              additionalClassName='c-card--double  hidden-phone'
+            />
+            <Card
+              key={index}
+              link={post.node.fields.slug}
+              thumbnail={post.node.frontmatter.thumbnail}
+              title={post.node.frontmatter.title}
+              category={post.node.frontmatter.category}
+              date={post.node.frontmatter.date}
+              excerpt={post.node.excerpt}
+              additionalClassName='visible-phone'
+            />
+          </React.Fragment>
+        )
       break;
+      default:
+        return <Card
+          key={index}
+          link={post.node.fields.slug}
+          thumbnail={thumbnail}
+          title={post.node.frontmatter.title}
+          category={post.node.frontmatter.category}
+          date={post.node.frontmatter.date}
+          excerpt={post.node.excerpt}
+        />
       }
-      return <Card 
-        key={index}
-        link={post.node.fields.slug}
-        thumbnail={post.node.frontmatter.thumbnail}
-        title={post.node.frontmatter.title}
-        category={post.node.frontmatter.category}
-        date={post.node.frontmatter.date}
-        additionalClassName={additionalClassName}
-        excerpt={post.node.excerpt}
-      />
     })
   }
 
   renderPagination() {
-    return <ReactPaginate 
+    return <ReactPaginate
       containerClassName='c-pagination'
       pageCount={this.pageCount}
       pageRangeDisplayed={5}

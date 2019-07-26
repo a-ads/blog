@@ -14,7 +14,7 @@ exports.onCreateWebpackConfig = ({ actions, stage }) => {
 
 exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   const { createNodeField } = boundActionCreators;
-  
+
   if (node.internal.type === 'MarkdownRemark') {
     const slug = createFilePath({ node, getNode, basePath: 'blog'});
     createNodeField({
@@ -45,7 +45,8 @@ exports.createPages= ({ graphql, boundActionCreators }) => {
                 thumbnail,
                 category,
                 date(formatString: "DD MMMM YYYY"),
-                tags
+                tags,
+                big_picture
               }
               excerpt
             }

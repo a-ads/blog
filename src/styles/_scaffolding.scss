@@ -141,8 +141,8 @@ li {
 ol {
   counter-reset: item;
 
-  li { 
-    display: block; 
+  li {
+    display: block;
     padding-left: 58px;
     position: relative;
     @include breakpoint(phone) {
@@ -177,6 +177,19 @@ a:hover {
 
 .is-hidden {
   display: none;
+}
+
+.visible-phone {
+  display: none;
+  @include breakpoint(phone) {
+    display: inherit;
+  }
+}
+
+.hidden-phone {
+  @include breakpoint(phone) {
+    display: none;
+  }
 }
 
 input[type="text"] {

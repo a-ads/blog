@@ -33,6 +33,7 @@ collections:
           displayFields: [title]
         }
       - { name: thumbnail, label: Featured Image, widget: image, required: false, default: '' }
+      - { name: big_picture, label: Square Image, widget: image, required: false, default: '' }
       - { name: body, label: Body, widget: markdown }
 
   - name: blog_categories
