@@ -5,6 +5,7 @@ tags:
   - news
 category: Stories
 thumbnail: /blog/assets/illustration-4-2x.png
+big_picture: ''
 ---
 Have you thought of a strategy of exposing your product to millions of viewers on tens of thousands of ad units worldwide? You can do it quite easy with [A-ADS bitcoin advertising network](https://a-ads.com).
 
@@ -12,11 +13,11 @@ Have you thought of a strategy of exposing your product to millions of viewers o
 
 You can [advertise anonymously](https://a-ads.com/campaigns/new) or create a user account for your convenience. It doesn't take much time since we respect your privacy and don't require personal data.
 
-[Start your campaign](https://a-ads.com/campaigns/new) right away! 
+[Start your campaign](https://a-ads.com/campaigns/new) right away!
 
 # Relevant traffic
 
-In A-ADS you get to choose the ad units straight from the publishers. We have traffic from various sources, a significant share of it is bitcoin or cryptocurrency-related. We also feature traffic from other categories that you can explore in our [catalog](https://a-ads.com/catalog). 
+In A-ADS you get to choose the ad units straight from the publishers. We have traffic from various sources, a significant share of it is bitcoin or cryptocurrency-related. We also feature traffic from other categories that you can explore in our [catalog](https://a-ads.com/catalog).
 
 # Pay as much as you like
 
