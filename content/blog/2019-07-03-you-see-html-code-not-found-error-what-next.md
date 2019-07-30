@@ -12,19 +12,19 @@ So, you’ve got an error message saying that your ad unit code is not found. Th
 
 We normally show one more info message below this one. It describes the reason why your ad unit is not found. Here’re the most popular problems and possible fixes:
 
-## [Timeout error](#timeout-error)
+## Timeout error
 
 ![](/blog/assets/232a78d6-f480-4c2a-9b61-eb40ecaab1a4.jpeg)
 
 Your site takes too long to respond. 
 
-## [Unavailable site](#unavailable-site)
+## Unavailable site
 
 ![](/blog/assets/5af669c8-fbfb-426e-bb7a-621b16b7925f.jpeg)
 
 Your site cannot be loaded with a browser at all, e.g. it might be offline.
 
-## [Page cannot be loaded](#page-cannot-be-loaded)
+## Page cannot be loaded
 
 ![](/blog/assets/img_2077.jpg)
 
@@ -36,7 +36,7 @@ The error appears when a website can be opened in a browser, but its source code
 * a domain name is not registered;
 * a site forbids VPN, proxy, Tor, etc.
 
-## [Redirecting to another website](#redirecting-to-another-website)
+## Redirecting to another website
 
 ![](/blog/assets/img_2078.jpg)
 
@@ -50,7 +50,7 @@ Mind, if your ad unit had been found on the old URL before, you won’t be able 
 
 If you cannot fix the problem, just abandon this ad unit and create a new one. :)
 
-## [Missing URL](#missing-url)
+## Missing URL
 
 ![](/blog/assets/73ea60b2-c6b0-4214-972f-b5891bf93445.jpeg)
 
@@ -62,7 +62,7 @@ A correct src attribute looks like this:
 
 ![](/blog/assets/pasted-image-3.png)
 
-## [Invalid URL](#invalid-url)
+## Invalid URL
 
 ![](/blog/assets/3aea5d01-9b1e-4840-96b3-f7075f4ec1e3.jpeg)
 
@@ -90,7 +90,7 @@ Here are examples of invalid URLs:
 
 The last URL is also invalid, because it contains space symbols and an ad cannot be loaded for this reason.
 
-## [Alert or pop-up message is blocking your ad](#alert-or-pop-up-message-is-blocking-your-ad)
+## Alert or pop-up message is blocking your ad
 
 ![](/blog/assets/снимок-экрана-2019-07-08-в-1.52.37.png)
 
@@ -102,7 +102,7 @@ Pop-ups blocking a banner might look like this:
 
 ![](/blog/assets/17.png)
 
-## [Ad is not fully visible](#ad-is-not-fully-visible)
+## Ad is not fully visible
 
 ![](/blog/assets/снимок-экрана-2019-07-08-в-1.53.26.png)
 
@@ -128,19 +128,19 @@ One more probable reason for the error is that your banners are loaded later tha
 
 If the ad unit on your site is placed correctly but doesn’t appear immediately after loading, our bot may consider it invisible, blocked by another element, inaccessible for clicks or not detected at all. In this case, please, contact our support team - we’ll fix the error.
 
-## [Ad is unclickable](#ad-is-unclickable)
+## Ad is unclickable
 
 ![](/blog/assets/2e8f314a-49ed-447e-a069-0546347f010d.jpeg)
 
 A banner must be clickable. A click must lead to the advertised site. If nothing happens after a click, or if it leads to some other site, the error appears.
 
-## [Invalid domain](#invalid-domain)
+## Invalid domain
 
 ![](/blog/assets/6e0c068f-2dbb-4310-8bd4-b5650e71060c.jpeg)
 
 The src attribute must contain one of a-ads.com domains. On the moment two domains are allowed: ad.a-ads.com and acceptable.a-ads.com . If the src attribute contains any other domain, you’ll get this message.
 
-## [Empty data-aa](#empty-data-aa)
+## Empty data-aa
 
 ![](/blog/assets/снимок-экрана-2019-07-08-в-1.58.21.png)
 
@@ -152,7 +152,7 @@ An erroneous iframe:
 
 ![](/blog/assets/снимок-экрана-2019-07-08-в-1.59.22.png)
 
-## [Empty ID](#empty-id)
+## Empty ID
 
 ![](/blog/assets/снимок-экрана-2019-07-08-в-2.00.20.png)
 
@@ -168,7 +168,7 @@ An ID is also expected to be before the next slash or further params, e.g. “?s
 
 ![](/blog/assets/empty3.png)
 
-## [Invalid ID](#invalid-id)
+## Invalid ID
 
 ![](/blog/assets/снимок-экрана-2019-07-08-в-2.01.52.png)
 
@@ -176,7 +176,7 @@ This error means you’ve got one ad unit ID in the src attribute and another ID
 
 ![](/blog/assets/снимок-экрана-2019-07-08-в-2.01.58.png)
 
-## [Size doesn’t match](#size-doesn-t-match)
+## Size doesn’t match
 
 An ad unit can be adaptive or have a fixed size. 
 
@@ -190,13 +190,13 @@ If your ad unit is a fixed size one, the banner on your site page should match a
 
 To fix the error you should adjust an actual size of a banner with the requirements.The required size for your banner is present in the text of the error message (the second size of the two). The first size in the error message will be an actual size of a banner on your site.
 
-## [Unknown error](#unknown-error)
+## Unknown error
 
 ![](/blog/assets/07dfcb2d-29d9-43fc-8942-2b59fb4c47a0.jpeg)
 
 An unexpected error occurred and we cannot identify its origin. It might disappear on its own or it might remain, then you should contact our helpdesk.
 
-## [Conclusion](#conclusion)
+## Conclusion
 
 If the issue is likely to be on your side, we encourage you to find the solution before you address the support. You can run our bot after you've fixed the issue to see if the error disappeared.
 
