@@ -12,4 +12,4 @@ Many users ask us [how to place an ad unit code correctly](https://a-ads.com/blo
 
 The bot looks for an ad unit at the specified URL. If an ad unit is found, all the impressions from all site pages from the specified URL domain and all its subdomains will be counted correctly. 
 
-This means that if you've got an ad unit at https://example.org (or at https://example.org/page_with_ad) and it's found by a bot, you can place this ad unit at pages like <https://good.example.org>, <https://bad.example.org/super>, <https://example.org/private> (where only registered users can access), etc.
+This means that if you've got an ad unit at https://example.org (or at https://example.org/page_with_ad) and it's found by a bot, you can place this ad unit at pages like https://good.example.org, https://bad.example.org/super, https://example.org/private (where only registered users can access), etc.
