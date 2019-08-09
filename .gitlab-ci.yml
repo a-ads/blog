@@ -5,7 +5,8 @@ image: node:8-alpine
 
 deploy:
   script:
-    - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/main/ libpng-dev fftw-dev build-base python-dev
+    - apk add --update --no-cache build-base
+    - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/main/ libpng-dev fftw-dev python-dev
     - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ vips-dev
     - npm install gatsby@2.10.5
     - npm install
