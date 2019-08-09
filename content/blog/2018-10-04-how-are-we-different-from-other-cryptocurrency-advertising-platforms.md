@@ -15,5 +15,3 @@ thumbnail: /blog/assets/illustration-4-2x.png
 **Unique impressions**. If you are a publisher this will be an important factor of your successful earnings with us. Please see [this article](https://a-ads.com/blog/2018-10-04-counting-unique-impressions/) to understand what we mean by this.
 
 **Lightweight non-intrusive ads**. We don’t go for pop-ups and pop-unders. Our text ads follow a simple protocol and are easy to download.
-
-****
