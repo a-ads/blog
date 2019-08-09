@@ -12,7 +12,7 @@ The most sane way is to start with a relatively small daily budget (any sum that
 
 Balance on your dashboard shows how much money you've got on your account at the moment. 
 
-Balance = deposits + earnings - sent to campaigns + received from campaigns. 
+Balance = deposits + earnings - "sent to campaigns" + "received from campaigns"
 
 This money will be automatically spent to fund your campaign when it runs out of money. Money from the user account is sent to campaigns in little portions every 2 hours, each portion is enough to pay to ad units for 2 hours. So balance is constantly changing.
 
