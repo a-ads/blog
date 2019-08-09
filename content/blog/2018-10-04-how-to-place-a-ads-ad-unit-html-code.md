@@ -17,5 +17,4 @@ This means no pop-up questions or private zones that need authorization. Ad unit
 See also:
 
 * [How many ad units are enough for a website?](https://a-ads.com/blog/2018-10-04-how-many-ad-units-are-enough-for-a-website/)
-* <https://support.a-ads.com/hc/en-us/articles/360000625205-Ad-units-requirements-and-rules>
-  ## ****
+* [How to place an ad unit code correctly?](https://a-ads.com/blog/2019-06-17-how-to-place-an-ad-unit-code-correctly/)
