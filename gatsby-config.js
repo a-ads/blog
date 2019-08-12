@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     title: 'A-ADS Blog',
     siteUrl: 'https://a-ads.com',
-    fullUrl: siteUrl + pathPrefix
+    fullUrl: 'https://a-ads.com/blog'
   },
   plugins: [
     {
