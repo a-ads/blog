@@ -2,8 +2,7 @@ module.exports = {
   pathPrefix: '/blog',
   siteMetadata: {
     title: 'A-ADS Blog',
-    siteUrl: 'https://a-ads.com',
-    fullUrl: 'https://a-ads.com/blog'
+    siteUrl: 'https://a-ads.com/blog'
   },
   plugins: [
     {
@@ -75,8 +74,8 @@ module.exports = {
             site {
               siteMetadata {
                 title
-                fullUrl
-                site_url: fullUrl
+                siteUrl
+                site_url: siteUrl
               }
             }
           }
