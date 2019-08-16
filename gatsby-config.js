@@ -74,7 +74,7 @@ module.exports = {
             site {
               siteMetadata {
                 title
-                siteUrl: "https://a-ads.com/blog",
+                siteUrl
                 site_url: siteUrl
               }
             }
