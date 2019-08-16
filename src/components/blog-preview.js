@@ -32,7 +32,6 @@ export default class extends React.Component {
 
   renderPreviews() {
     return this.posts.map((post, index) => {
-      let additionalClassName = ''
       let thumbnail = post.node.frontmatter.thumbnail
 
       switch (index) {

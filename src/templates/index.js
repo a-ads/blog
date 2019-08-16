@@ -1,6 +1,4 @@
 import React from 'react'
-import _ from 'lodash'
-
 import Layout from '../layouts/index'
 import BlogPreview from '../components/blog-preview'
 import CONFIG from '../config'

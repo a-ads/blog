@@ -1,5 +1,5 @@
 import React from 'react'
-import { withPrefix, Link } from 'gatsby'
+import { withPrefix } from 'gatsby'
 
 export default () => (
   <div className='c-footer'> 
