@@ -33,7 +33,7 @@ export default () => (
               transactions, and diverse traffic from thousands of sites 
               and applications. It takes less than a minute to create 
               a new advertising campaign. No registration required,&nbsp;
-              <a href='https://a-ads.com/campaigns/new' target='_blank'>try it yourself!</a>
+              <a href='https://a-ads.com/campaigns/new' target='_blank' rel='noopener noreferrer'>try it yourself!</a>
               <br /><br />
             </p>
           </div>
