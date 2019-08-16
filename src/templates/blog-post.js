@@ -91,7 +91,7 @@ export default class BlogPost extends React.Component {
   }
 
   renderRelatedPostsSlider() {
-    const relatedPosts = this.props.pathContext.relatedPosts;
+    const relatedPosts = this.props.pageContext.relatedPosts;
     if (relatedPosts.length === 0) {
       return
     }
@@ -129,7 +129,7 @@ export default class BlogPost extends React.Component {
                 }
               ]}
             >
-              {this.props.pathContext.relatedPosts.map((post, index) => (
+              {this.props.pageContext.relatedPosts.map((post, index) => (
                 <Card
                   key={index}
                   link={post.node.fields.slug}

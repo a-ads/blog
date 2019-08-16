@@ -3,8 +3,8 @@ import { graphql } from 'gatsby'
 import Layout from '../layouts/index'
 import Card from '../components/card'
 
-const TagPage = ({ pathContext, data }) => {
-  const { tag } = pathContext
+const TagPage = ({ pageContext, data }) => {
+  const { tag } = pageContext
   return (
     <Layout>
       <div className='c-post-section'>
