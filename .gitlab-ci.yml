@@ -8,7 +8,7 @@ deploy:
     - apk add --update --no-cache build-base
     - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/main/ libpng-dev fftw-dev python-dev
     - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ vips-dev
-    - npm install gatsby@2.12.0
+    - npm install gatsby@2.13.67
     - npm install
     - node_modules/.bin/gatsby build --prefix-paths
     - apk add --no-cache --update python3
