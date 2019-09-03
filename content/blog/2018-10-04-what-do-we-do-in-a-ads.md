@@ -10,11 +10,11 @@ A-ADS (former "Anonymous Ads") is the first privacy-focused bitcoin-based advert
 
 ## Crypto advertising made easier
 
-It takes less than a minute to start your anonymous advertising campaign or create an anonymous ad unit. Your personal data is safe - we simply don’t need it!
+It takes less than a minute to start your anonymous advertising campaign or create an anonymous ad unit. Your personal data is safe - we simply don’t need it.
 
-We bring you an extensive selection of traffic sources which are perfect for the promotion of ICOs, FinTech crypto-related services, crypto-exchanges and Trading, Cloud Mining, Gaming, Gambling and Blockchain projects.
+We bring you an extensive selection of traffic sources which are perfect for promotion of ICOs, FinTech crypto-related services, crypto-exchanges and Trading, Cloud Mining, Gaming, Gambling and Blockchain projects.
 
-We accept major crypto-currencies such as Bitcoin, Bitcoin Cash, Ethereum, Dash, Monero, Litecoin, and Zcash.
+We accept major cryptocurrencies such as Bitcoin, Bitcoin Cash, Ethereum, Dash, Dogecoin, Litecoin, and Zcash. We also support some minor crypto-currencies for deposits; the list of accepted coins imcludes Bit Torrent, Bitcoin Gold, DigiByte, Ether Classic, Game Credits, Komodo, Neo, Qtum, Ravencoin, Tron, Tether, Ripple, Verge and Zcoin. The number of supported coins is growing.
 
 We offer Pay-per-Day (CPD) and Pay-for-Result (CPA + RS) models which you can mix in one campaign, as well as text and graphic banner ads in most popular languages. 
 
