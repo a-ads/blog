@@ -30,7 +30,7 @@ And here are some tips that will help you on the way:
 * Our bot uses a VPN, so if you disallow VPN access, the bot won’t be able to check code presence. A possible solution is to whitelist the bot IPs.
 * Be careful if modifying the provided code. If you eliminate "data-aa" attribute from your phrase, the banner will not be found. We use this attribute to differentiate our banners from other HTML elements on the page. 
 * If you use the code on different website versions, make sure it’s available for check on desktop layout, otherwise it won’t be found.
-* You can launch the bot manually. Just click on "Check embedded HTML code" and your page will be checked in 10 minutes.
+* You can launch the bot manually. Just click on "Check embedded HTML code" and your page will be checked within 10 minutes.
 
 ![](/blog/assets/снимок-экрана-50-.png)
 
