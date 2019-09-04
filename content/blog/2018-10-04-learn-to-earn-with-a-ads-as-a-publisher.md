@@ -2,7 +2,7 @@
 date: '2018-10-04'
 title: Learn to earn with A-ADS as a publisher
 tags:
-  - news
+  - ''
 category: Stories
 thumbnail: /blog/assets/illustration-3.png
 ---
@@ -16,4 +16,4 @@ We love genuine human traffic. So, if you have a website, a blog or an app with 
 
 What do we pay for? First of all, we are not a pay-per-click or pay-per-impression network. We distribute advertisers' budgets to ad units targeted by them with respect to various metrics. The one magic word you need to learn to earn with us is [“unique impression”](https://a-ads.com/blog/admin/#/collections/blog/entries/2018-10-04-counting-unique-impressions). The more you have, the better are your earning prospects as long as your traffic is good. Advertisers can also reward ad units for useful actions performed by their visitors.
 
-We want your web project to grow successfully with us, so take a minute to familiarize with the [nuances of properly placing A-ADS ad units on your website](https://a-ads.com/blog/admin/#/collections/blog/entries/2018-10-04-how-to-place-a-ads-ad-unit-html-code).
+We want your web project to grow successfully with us, so take a minute to familiarize with [the nuances of properly placing A-ADS ad units on your website](https://a-ads.com/blog/2019-06-17-how-to-place-an-ad-unit-code-correctly/).
