@@ -27,12 +27,10 @@ We can work on fixed CPM (cost per mille) and CPA (cost per action / revenue sha
 
 Our targeting options include targeting by country, type of ad (text/banner), quality range, traffic sources, max CPM, etc. Each option comes with its own limitations and may affect the efficiency of your campaign.
 
-That's why the recommended way of using A-ADS is the following:
+That's why the recommended way of using A-ADS is as follows:
 
 1. Create a low-budget advertising campaign with wide targeting (e. g. target all traffic sources).
 2. Enable goal tracking and use your analytics to detect which ad units generate useful traffic and attract customers.
-3. Reward efficient traffic sources to get more traffic from them.
-
-You can automate this process via our API, please consult our support team for details.
+3. Reward efficient traffic sources to get more traffic from them. You can automate this process via our API, please consult our support team for details.
 
 Reach your campaign goals with us!
