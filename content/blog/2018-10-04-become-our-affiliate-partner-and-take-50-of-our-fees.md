@@ -10,10 +10,10 @@ If you invite others to advertise with A-ADS, you can count on 10% of money spen
 
 You can create an affiliate ad unit here: <https://a-ads.com/ad_units/new>
 
-But actually ad units of "site" and "app" types can work as affiliate ones by default. An affiliate link is generated automatically for any ad unit, it can be found in the bottom right corner of an ad unit page. 
+But actually ad units of "site" and "app" types can work as affiliate ones. An affiliate link is generated automatically for any ad unit, it can be found in the bottom right corner of an ad unit page. 
 
 ![](/blog/assets/screenshot-2-.png)
 
-Our affiliate ad displayed on your site works as an affiliate link too.
+And our affiliate ad displayed on your site works as an affiliate link by default.
 
 ![](/blog/assets/screenshot-3-.png)
