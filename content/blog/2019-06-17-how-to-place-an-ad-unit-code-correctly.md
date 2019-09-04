@@ -2,7 +2,7 @@
 date: 2019-06-17T11:01:05.440Z
 title: How to place an ad unit code correctly?
 tags:
-  - news
+  - ''
 category: How to
 thumbnail: /blog/assets/illustration-6.png
 ---
@@ -20,8 +20,8 @@ Still, some of our publishers face difficulties in embedding the code into their
 
 How can we go about it? Here are some ways.
 
-1. An ad unit must be present on that very page you specified for it on our site, as our bot checks only this page. 
-2. Make sure our bot can access your ad unit. This means the page should be accessible with no captchas,  pop-ups or authorization. 
+1. An ad unit must be present on that very page you specified for it in the ad unit settings, as our bot checks only this page. 
+2. Make sure our bot can access your ad unit on the page specified in the settings. This means the page should be accessible with no captchas,  pop-ups or authorization. 
 3. If you use Cloudflare or another anti-DDoS service, you’ll need to whitelist our bot IPs. You can ask for them our support team.
 4. There’s no problem in using the same code within a whole domain. Using the same ad unit for several domains is not prohibited, but it will lower your earnings as unique impressions will be counted only for one domain - domain of the page the ad unit is assigned to.
 
