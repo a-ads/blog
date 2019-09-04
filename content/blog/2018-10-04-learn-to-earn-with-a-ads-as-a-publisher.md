@@ -12,8 +12,8 @@ We retain a fixed 20% fee on any advertising budget - the rest goes to our publi
 
 We love genuine human traffic. So, if you have a website, a blog or an app with real visitors, we are happy to connect you with our numerous advertising campaigns. 
 
-[It takes less than a minute to create your own advertising unit](https://a-ads.com/ad_units/new). We are not asking for your personal data, as we want you to be safe with us. Your account, either anonymous or personal, will accumulate all your ad units and campaigns
+[It takes less than a minute to create an advertising unit](https://a-ads.com/ad_units/new). We are not asking for your personal data, as we want you to be safe with us. Your account, either anonymous or personal, will accumulate all your ad units and campaigns.
 
-What do we pay for? First of all, we are not a pay-per-click or pay-per-view network. We distribute advertisers' budgets to ad units targeted by them with respect to various metrics. The one magic word you need to learn to earn with us is [“unique impression”](https://a-ads.com/blog/admin/#/collections/blog/entries/2018-10-04-counting-unique-impressions). The more you have, the better are your earning prospects as long as your traffic is good. Advertisers can also reward ad units for useful actions performed by their visitors.
+What do we pay for? First of all, we are not a pay-per-click or pay-per-impression network. We distribute advertisers' budgets to ad units targeted by them with respect to various metrics. The one magic word you need to learn to earn with us is [“unique impression”](https://a-ads.com/blog/admin/#/collections/blog/entries/2018-10-04-counting-unique-impressions). The more you have, the better are your earning prospects as long as your traffic is good. Advertisers can also reward ad units for useful actions performed by their visitors.
 
 We want your web project to grow successfully with us, so take a minute to familiarize with the [nuances of properly placing A-ADS ad units on your website](https://a-ads.com/blog/admin/#/collections/blog/entries/2018-10-04-how-to-place-a-ads-ad-unit-html-code).
