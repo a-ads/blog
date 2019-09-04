@@ -14,13 +14,13 @@ It takes less than a minute to start your anonymous advertising campaign or crea
 
 We bring you an extensive selection of traffic sources which are perfect for promotion of ICOs, FinTech crypto-related services, crypto-exchanges and Trading, Cloud Mining, Gaming, Gambling and Blockchain projects.
 
-We accept major cryptocurrencies such as Bitcoin, Bitcoin Cash, Ethereum, Dash, Dogecoin, Litecoin, and Zcash. We also support some minor crypto-currencies for deposits; the list of accepted coins imcludes Bit Torrent, Bitcoin Gold, DigiByte, Ether Classic, Game Credits, Komodo, Neo, Qtum, Ravencoin, Tron, Tether, Ripple, Verge and Zcoin. The number of supported coins is growing.
+We accept deposits in Bitcoin and a number of altcoins including Bitcoin Cash, Ethereum, Dash, Dogecoin, Litecoin, Zcash, Bit Torrent, Bitcoin Gold, DigiByte, Ether Classic, Game Credits, Komodo, Neo, Qtum, Ravencoin, Tron, Tether, Ripple, Verge and Zcoin. The number of supported coins is growing.
 
-We offer Pay-per-Day (CPD) and Pay-for-Result (CPA + RS) models which you can mix in one campaign, as well as text and graphic banner ads in most popular languages. 
+We offer Pay-per-Day (CPD) and Pay-for-Result (CPA + RS) models which you can mix in one campaign, as well as text and graphic banner ads in most popular languages. You can create your CPD campaign [here](https://a-ads.com/campaigns/new) or contact our helpdesk to discuss CPA opportunities.
 
 ## Earn with us
 
-Become a publisher, add up to our daily traffic and take your share of the profit straight from the world of cryptocurrency. Our lightweight ads are unobtrusive and safe, and they don’t leave cookies until click.
+[Become a publisher](https://a-ads.com/ad_units/new), add up to our daily traffic and take your share of the profit straight from the world of cryptocurrency. Our lightweight ads are unobtrusive and safe, and they don’t leave cookies until click.
 
 Keep your privacy and enjoy lightning fast ad delivery, thanks to the lack of client-side real-time bidding!
 
