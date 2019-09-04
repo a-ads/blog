@@ -2,11 +2,11 @@
 date: '2018-10-04'
 title: What is the difference between ad unit types?
 tags:
-  - news
+  - ''
 category: How to
 thumbnail: /blog/assets/img3.png
 ---
-Most of our ad units have "**Site**" type. They are for text and graphical banners built into site code and shown at sites. Our algorithms check the ad placement of sites and enable advertisers to target them by category.  See [how to place A-ADS ad units HTML code](https://a-ads.com/blog/2018-10-04-how-to-place-a-ads-ad-unit-html-code/).
+Most of our ad units have "**Site**" type. They are for text and graphical banners built into site code and shown at sites. Our algorithms check the ad placement of sites and enable advertisers to target them by category.  See [how to place A-ADS ad units HTML code](https://a-ads.com/blog/2019-06-17-how-to-place-an-ad-unit-code-correctly/).
 
 "**App**" type is for ad units that you want to place somewhere else: mobile applications, browser extensions, etc. We cannot verify the placement, so it shows as anonymous traffic sources in our system. These ad units usually earn less.  
 
