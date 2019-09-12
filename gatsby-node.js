@@ -149,6 +149,26 @@ exports.createPages= ({ graphql, actions }) => {
         });
       });
 
+      const searchFile = JSON.parse(JSON.stringify(blogPosts)).map(function (post) {
+        // if (post.node.frontmatter.thumbnail) {
+        //   post.node.frontmatter.thumbnail = post.node.frontmatter.thumbnail;
+        // }
+        if (post.node.fields.slug) {
+          post.node.fields.slug = '/blog' + post.node.fields.slug;
+        }
+        return {
+          title: post.node.frontmatter.title,
+          slug: post.node.fields.slug,
+          tags: post.node.frontmatter.tags,
+          thumbnail: post.node.frontmatter.thumbnail,
+          excerpt: post.node.excerpt
+        };
+      });
+      fs.writeFile(path.resolve('./public/search.json'), JSON.stringify(searchFile), function(err) {
+        console.log(err);
+      });
+      //console.log(searchFile);
+
       const blogPostsForAadsMainPage = JSON.parse(JSON.stringify(_.take(blogPosts, 9))).map(function (post) {
         if (post.node.frontmatter.thumbnail) {
           post.node.frontmatter.thumbnail = post.node.frontmatter.thumbnail;

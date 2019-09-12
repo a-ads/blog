@@ -1,38 +1,28 @@
 import React from 'react'
 import { connect } from 'react-redux'
-
 import Layout from '../layouts/index'
 import Card from '../components/card'
 import { getCurrentURL, getURLParamValue } from '../helpers'
 import SearchResult from '../components/search-result'
-
-const mapStateToProps = (state) => {
-  return {
-    search: state.search
-  }
-}
-
-const mapDispatchToProps = dispatch => {
-  return {
-    changeSearchQuery: (searchQuery) => dispatch({ //TODO сделать отдельный файл в actions
-      type: 'SEARCH_QUERY_CHANGE',
-      payload: searchQuery
-    })
-  }
-}
+import { withPrefix } from "gatsby"
+import Axios from 'axios'
+import * as JsSearch from 'js-search'
 
 class SearchPage extends React.Component {
   constructor(props) {
     super(props)
+    this.state = {
+      postList: []
+    }
     this.searchResults = []
   }
 
   render() {
     const renderedSearchResults = this.getRenderedSearchResults()
-    
+
     return (
       <Layout>
-        <SearchResult 
+        <SearchResult
           searchResultEmpty={!renderedSearchResults.length}
           renderedSearchResults={renderedSearchResults}
           searchQuery={this.props.search.query}
@@ -41,8 +31,14 @@ class SearchPage extends React.Component {
     )
   }
 
-  componentDidMount() {
+  async componentDidMount() {
     this.changeSearchQueryFromURLParam()
+    Axios.get(withPrefix('/search.json'))
+      .then(res => {
+        this.setState({
+          postList: res.data
+        })
+      })
   }
 
   changeSearchQueryFromURLParam() {
@@ -53,23 +49,15 @@ class SearchPage extends React.Component {
   }
 
   setSearchResults = () => {
-    try {
-      const searchQuery = this.props.search.query
-      if (this.isSearchQueryValid(searchQuery)) {
-        const lunrIndex = window.__LUNR__['en'];
-        this.searchResults = lunrIndex.index.search(searchQuery)
-        .map(({ ref }) => {
-          return lunrIndex.store[ref]
-        })
-      } else {
-        this.searchResults = []
-      }
-    } catch(e) {
-      console.log(e)
-      setTimeout(() => {
-        this.setSearchResults()
-      }, 500)
-    }
+    const { postList } = this.state
+    const dataToSearch = new JsSearch.Search("title")
+    dataToSearch.indexStrategy = new JsSearch.PrefixIndexStrategy()
+    dataToSearch.sanitizer = new JsSearch.LowerCaseSanitizer()
+    dataToSearch.searchIndex = new JsSearch.TfIdfSearchIndex("title")
+    dataToSearch.addDocuments(postList)
+    dataToSearch.addIndex("title")
+    dataToSearch.addIndex("tags")
+    this.searchResults = dataToSearch.search(this.props.search.query)
   }
 
   isSearchQueryValid(query) {
@@ -84,7 +72,7 @@ class SearchPage extends React.Component {
     this.setSearchResults()
 
     return this.searchResults.map((result, key) => (
-      <Card 
+      <Card
         key={key}
         link={result.slug}
         thumbnail={result.thumbnail}
@@ -92,6 +80,21 @@ class SearchPage extends React.Component {
         category={result.category}
       />
     ))
+  }
+}
+
+const mapStateToProps = (state) => {
+  return {
+    search: state.search
+  }
+}
+
+const mapDispatchToProps = dispatch => {
+  return {
+    changeSearchQuery: (searchQuery) => dispatch({ //TODO сделать отдельный файл в actions
+      type: 'SEARCH_QUERY_CHANGE',
+      payload: searchQuery
+    })
   }
 }
 

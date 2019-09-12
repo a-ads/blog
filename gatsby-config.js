@@ -38,30 +38,6 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-lunr',
-      options: {
-        languages: [
-          { name: 'en' }
-        ],
-        fields: [
-          { name: 'title', store: true },
-          { name: 'tags', store: false },
-          { name: 'category', store: true },
-          { name: 'slug', store: true },
-          { name: 'thumbnail', store: true}
-        ],
-        resolvers: {
-          MarkdownRemark: {
-            title: node => node.frontmatter.title,
-            tags: node => node.frontmatter.tags,
-            thumbnail: node => node.frontmatter.thumbnail,
-            slug: node => node.fields.slug,
-            category: node => node.frontmatter.category,
-          }
-        }
-      }
-    },
-    {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
         trackingId: 'UA-2973328-17',
