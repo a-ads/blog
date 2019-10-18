@@ -154,7 +154,7 @@ exports.createPages= ({ graphql, actions }) => {
         //   post.node.frontmatter.thumbnail = post.node.frontmatter.thumbnail;
         // }
         if (post.node.fields.slug) {
-          post.node.fields.slug = '/blog' + post.node.fields.slug;
+          post.node.fields.slug = post.node.fields.slug;
         }
         return {
           title: post.node.frontmatter.title,
