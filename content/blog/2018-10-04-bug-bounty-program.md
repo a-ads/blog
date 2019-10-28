@@ -23,25 +23,30 @@ We welcome you to help us with finding flaws in our code by clicking “Report a
 
 ## Hall of fame
 
-* 2018-05-06  Ch Chakradhar (Spi3er) reported a catalog CSRF vulnerability ($30)
-* 2018-03-02 Waqar Vicky reported a number of issues and received a $100 bounty:
+\- 2018-05-06  Ch Chakradhar (Spi3er) reported a catalog CSRF vulnerability ($30)
 
-Password reset requests are not rate limited and can be used to perform a DoS attack
+\- 2018-03-02 Waqar Vicky reported a number of issues and received a $100 bounty:
 
-Our jQuery library is outdated and might be insecure
+* Password reset requests are not rate limited and can be used to perform a DoS attack
+* Our jQuery library is outdated and might be insecure
+* We allow extremely weak password at user registration
+* After logging off you can use a web browser back button to see previously opened web pages
+* After changing an email address other open sessions are not invalidated
 
-We allow extremely weak password at user registration
+\- 2017-12-10 Anonymous researcher reported a session termination vulnerability and earned $50.
 
-After logging off you can use a web browser back button to see previously opened web pages
+\- 2017-11-22 Anonymous researcher reported a self XSS protection vulnerability - we don't consider it to be our vulnerability, but we may take measures to mitigate it in the future.
 
-After changing an email address other open sessions are not invalidated
+\- 2017-11-22 Anonymous researcher reported a tab open vulnerability and earned ~$100.
 
-* 2017-12-10 Anonymous researcher reported a session termination vulnerability and earned $50.
-* 2017-11-22 Anonymous researcher reported a self XSS protection vulnerability - we don't consider it to be our vulnerability, but we may take measures to mitigate it in the future.
-* 2017-11-22 Anonymous researcher reported a tab open vulnerability and earned ~$100.
-* 2017-11-22 Anonymous researcher reported an SSL cookie vulnerability (investigating).
-* 2017-11-21 Anonymous researcher reported a minor issue related to the email change and earned a reward of ~$30.
-* 2017-11-16 Ch Chakradhar (Spi3er) reported a minor issue which made it possible to check the existence of a user by email and earned a reward of ~$30.
-* 2017-11-08 Anonymous researcher reported a vulnerability which gave him access to our staging database and to a third-party server which we used for monitoring and control. Thus he earned a reward of ~$500.
-* 2017-11-05 Ankit Bharathan reported a low-impact XSS issue in ad preview page and earned a reward of ~$50.
-* 2017-07-04 Jens Mueller (@jensvoid) responsibly reported a CORS misconfiguration vulnerability and earned a reward of ~$240.
+\- 2017-11-22 Anonymous researcher reported an SSL cookie vulnerability (investigating).
+
+\- 2017-11-21 Anonymous researcher reported a minor issue related to the email change and earned a reward of ~$30.
+
+\- 2017-11-16 Ch Chakradhar (Spi3er) reported a minor issue which made it possible to check the existence of a user by email and earned a reward of ~$30.
+
+\- 2017-11-08 Anonymous researcher reported a vulnerability which gave him access to our staging database and to a third-party server which we used for monitoring and control. Thus he earned a reward of ~$500.
+
+\- 2017-11-05 Ankit Bharathan reported a low-impact XSS issue in ad preview page and earned a reward of ~$50.
+
+\- 2017-07-04 Jens Mueller (@jensvoid) responsibly reported a CORS misconfiguration vulnerability and earned a reward of ~$240.
