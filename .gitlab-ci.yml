@@ -4,11 +4,14 @@ variables:
 image: node:8-alpine
 
 deploy:
+  before_script:
+    - npm install npm@latest -g
+    - check-dependencies || npm install
+
   script:
     - apk add --update --no-cache build-base
     - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/main/ libpng-dev fftw-dev python-dev
     - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ vips-dev
-    - npm install npm@latest -g
     - node -v
     - npm -v
     - npm install
