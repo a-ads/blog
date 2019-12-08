@@ -4,8 +4,8 @@ title: FaucetHub withdrawals replaced by ExpressCrypto
 tags:
   - news
 category: Development
-thumbnail: /blog/assets/undraw_adjustments_p22m.png
-big_picture: /blog/assets/undraw_adjustments_p22msq.png
+thumbnail: /blog/assets/undraw_notify_88a4обложка.png
+big_picture: /blog/assets/undraw_notify_88a4квадрат.png
 ---
 Since [FaucetHub](https://faucethub.io/) stops maintaining its services, we've replaced it with an alternative service - [ExpressCrypto](https://expresscrypto.io/). Thus our publishers keep the opportunity to withdraw little sums of money.
 
