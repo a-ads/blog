@@ -19,7 +19,7 @@ class Header extends React.Component {
   }
 
   componentDidUpdate() {
-    document.body.style.overflow = this.state.isMobileMenuOpen ? 'hidden' : 'auto'
+    // document.body.style.overflow = this.state.isMobileMenuOpen ? 'hidden' : 'auto'
   }
 
   render() {
