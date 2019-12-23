@@ -86,6 +86,7 @@ class Header extends React.Component {
             search={this.props.search}
             changeSearchQuery={this.props.changeSearchQuery}
             onOutsideClick={this.hideSearchComponentDesktop}
+            focus={true}
           />
         }
       </div>

@@ -17,12 +17,12 @@ export default class extends React.Component {
       <div className='c-search' ref={this.setSearchComponentRef}>
         <form action={withPrefix('/search/')} method='get'>
           <div className='c-search__query-wrapper'>
-            <input type='text' 
-              name='search-query' 
-              value={this.props.search.query} 
-              placeholder='Search' 
+            <input type='text'
+              name='search-query'
+              value={this.props.search.query}
+              placeholder='Search'
               ref={this.searchQueryInputRef}
-              onChange={this.onSearchQueryInputChange} 
+              onChange={this.onSearchQueryInputChange}
             />
           </div>
           <div className='c-search__submit-btn-wrapper'>
@@ -30,13 +30,13 @@ export default class extends React.Component {
               <img src={withPrefix('images/search-icon.svg')} alt='search icon'/>
               <img src={withPrefix('images/search-icon-active.svg')} alt='search icon'/>
             </label>
-            <input type='submit' 
+            <input type='submit'
               id={this.searchFormSubmitId}
-              style={{display: 'none'}} 
+              style={{display: 'none'}}
             />
           </div>
           {!this.isSearchQueryEmpty() &&
-            <div className='c-search__cross' 
+            <div className='c-search__cross'
               onClick={this.onCrossClick}
             />
           }
@@ -46,7 +46,9 @@ export default class extends React.Component {
   }
 
   componentDidMount() {
-    this.focusOnSearchQueryInput()
+    if (this.props.focus) {
+      this.focusOnSearchQueryInput()
+    }
     document.addEventListener('mousedown', this.handleClickOutside)
   }
 
