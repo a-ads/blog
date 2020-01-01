@@ -13,7 +13,7 @@ We've deployed new features for advertisers: you can now start, stop, clone, and
 
 New campaigns have a default name of the form "Campaign #123456", where 123456 stands for a campaign ID. Now you can change it on the "Campaign -> Details" page. Campaign ID will still be present in the page URL.
 
-![](/blog/assets/naming.png)
+![](/blog/assets/name.png)
 
 ## 2. Start / Pause campaigns
 
@@ -27,7 +27,7 @@ You can start and pause a campaign on your user dashboard or a "Campaign -> Deta
 
 Now you can clone your campaigns using the "Clone" button from your user dashboard.
 
-![](/blog/assets/clone.png)
+![](/blog/assets/clone1.png)
 
 It will create a new campaign with the name "Copy of \[original campaign name]", which you can change.
 
