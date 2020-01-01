@@ -7,7 +7,7 @@ category: How to
 thumbnail: /blog/assets/undraw_decide_3iwxобложка.png
 big_picture: /blog/assets/undraw_decide_3iwxквадрат.png
 ---
-We've deployed new features for advertisers: you can now start, stop, clone, and rename your advertising campaigns.
+We've deployed new features for advertisers: you can now start, pause, clone, and rename your advertising campaigns.
 
 ## 1. Naming campaigns
 
