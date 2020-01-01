@@ -1,6 +1,6 @@
 ---
 date: 2019-12-19T14:05:44.182Z
-title: 'New features for advertisers: Start / Stop / Clone and Rename!'
+title: 'New features for advertisers: Start / Pause / Clone and Rename!'
 tags:
   - news
 category: How to
@@ -15,11 +15,11 @@ New campaigns have a default name of the form "Campaign #123456", where 123456 s
 
 ![](/blog/assets/naming.png)
 
-## 2. Start / Stop campaigns
+## 2. Start / Pause campaigns
 
-You can start and stop a campaign on your user dashboard or a "Campaign -> Details" page.
+You can start and pause a campaign on your user dashboard or a "Campaign -> Details" page.
 
-![](/blog/assets/start-stop.png)
+![](/blog/assets/start-pause.png)
 
 ## 
 
@@ -29,11 +29,7 @@ Now you can clone your campaigns using the "Clone" button from your user dashboa
 
 ![](/blog/assets/clone.png)
 
-
-
-It will create a new campaign with the name "Copy of <original campaign name>", which you can change.
-
-
+It will create a new campaign with the name "Copy of \[original campaign name]", which you can change.
 
 We hope that our advertisers will find these features useful!
 
