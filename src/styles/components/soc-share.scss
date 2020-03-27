@@ -2,7 +2,7 @@
   &.--desktop {
     position: absolute;
     left: -131px;
-    top: 14px;
+    top: 0;
     bottom: 0;
   }
 
@@ -75,10 +75,10 @@
       height: 36px;
     }
   }
-  
+
   .c-soc-share__item-pic img {
     width: 100%;
-    height: 100%;  
+    height: 100%;
   }
 
   .c-soc-share__item-counter {

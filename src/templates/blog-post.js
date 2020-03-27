@@ -42,6 +42,7 @@ export default class BlogPost extends React.Component {
         <div className='c-blog-post'>
           <article className='l-blog-post-container'>
             <section className='c-blog-post__header'>
+              <p className={'c-blog-post__date'}>{post.frontmatter.date}</p>
               <h1 className='c-blog-post__title'>
                 {post.frontmatter.title}
               </h1>
@@ -57,11 +58,11 @@ export default class BlogPost extends React.Component {
             }
 
             <section className='c-blog-post__body'>
-              <div className='c-blog-post__body__container'  
+              <div className='c-blog-post__body__container'
                 dangerouslySetInnerHTML={{ __html: post.html }}
               />
-            </section>        
-            {post.frontmatter.tags && 
+            </section>
+            {post.frontmatter.tags &&
               <section className='c-blog-post__tags'>
                 {this.renderTags(post.frontmatter.tags)}
               </section>
@@ -69,7 +70,7 @@ export default class BlogPost extends React.Component {
             <SocialButtonsDesktop />
             <SocialButtonsMobile />
           </article>
-          
+
           {this.renderRelatedPostsSlider()}
         </div>
       </Layout>
@@ -102,7 +103,7 @@ export default class BlogPost extends React.Component {
           <div className='c-blog-post__related-articles-title h2-like'>
             Also read related articles
           </div>
-          
+
           <div className='c-blog-post__related-articles-container'>
             <Slider
               slidesToShow={2}
@@ -157,6 +158,7 @@ export const query = graphql`
         thumbnail
         tags
         category
+        date(formatString: "DD MMMM, YYYY")
       }
       excerpt
     }
