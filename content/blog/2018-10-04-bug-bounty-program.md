@@ -23,6 +23,8 @@ We welcome you to help us with finding flaws in our code by clicking “Report a
 
 ## Hall of fame
 
+\- 2020-03-27 Abir Khan Hridoy reported a possible DoS vulnerability in the user email confirmation routine ($25)
+
 \- 2018-05-06  Ch Chakradhar (Spi3er) reported a catalog CSRF vulnerability ($30)
 
 \- 2018-03-02 Waqar Vicky reported a number of issues and received a $100 bounty:
@@ -31,7 +33,7 @@ We welcome you to help us with finding flaws in our code by clicking “Report a
 * Our jQuery library is outdated and might be insecure
 * We allow extremely weak password at user registration
 * After logging off you can use a web browser back button to see previously opened web pages
-* After changing an email address other open sessions are not invalidated
+* After changing an email address _or_ password other open sessions and existing password reset tokens are not invalidated
 
 \- 2017-12-10 Anonymous researcher reported a session termination vulnerability and earned $50.
 
