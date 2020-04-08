@@ -7,7 +7,7 @@ category: Development
 thumbnail: /blog/assets/undraw_authentication_fsn5обложка.png
 big_picture: /blog/assets/undraw_authentication_fsn5квадрат.png
 ---
-We are pleased to announce that we now have a [new sign-in webpage](https://a-ads.com/user/sign_in#!access-code) for those using the access code, i.e., unregistered users.
+We are pleased to announce that we now have a [new sign-up webpage](https://a-ads.com/user/sign_up#!access-code) for those using the access code, i.e., unregistered users.
 
 If you are not signed in, an anonymous (or unregistered) account is created automatically upon the creation of ad units and campaigns. You can manage it using the access code. If you are signed in, you will not notice any changes.
 
