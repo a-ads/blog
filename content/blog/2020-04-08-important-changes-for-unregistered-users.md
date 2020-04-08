@@ -1,6 +1,6 @@
 ---
 date: 2020-04-08T14:35:34.563Z
-title: Important changes for unregistered users
+title: Anonymous accounts for unregistered users
 tags:
   - ''
 category: Development
