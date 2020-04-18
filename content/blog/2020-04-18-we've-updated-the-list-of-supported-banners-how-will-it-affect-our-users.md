@@ -1,6 +1,6 @@
 ---
 date: 2020-04-18T12:35:13.341Z
-title: We’ve updated the list of supported banners. How will it affect our users?
+title: We've updated the list of supported banners. How will it affect our users?
 tags:
   - ''
 category: Development
@@ -19,7 +19,7 @@ The deprecated ad banner sizes cannot be used to create new ad units and cannot 
 
 
 
-As a publisher, if you still have ad units using the deprecated sizes, we advise adjusting them for the actual sizes, as the number of ad campaigns using the old banner formats will soon decrease and ultimately turn to zero. New campaigns that show banners only cannot use the deprecated sizes, and as a result, incompatible ad units will see their earnings dwindle. Make sure that you update ad units’ HTML code on your website.
+As a publisher, if you still have ad units using the deprecated sizes, we advise adjusting them for the actual sizes, as the number of ad campaigns using the old banner formats will soon decrease and ultimately turn to zero. New campaigns that show banners only cannot use the deprecated sizes, and as a result, incompatible ad units will see their earnings dwindle. Make sure that you update ad units' HTML code on your website.
 
 
 
