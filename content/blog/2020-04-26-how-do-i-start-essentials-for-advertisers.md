@@ -9,7 +9,7 @@ big_picture: /blog/assets/undraw_add_document_0hekквадрат.png
 ---
 ## 1. Create a campaign
 
-To start, please, [create a campaign](https://a-ads.com/campaigns/new), or you can [sign up](https://a-ads.com/user/sign_up) first, then all your campaigns will be within one user account.
+To start, please, [create a campaign](https://a-ads.com/campaigns/new).
 
 **1.1. Choose your advertising payment model**
 
