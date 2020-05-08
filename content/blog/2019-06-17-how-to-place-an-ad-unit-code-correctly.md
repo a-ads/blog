@@ -8,7 +8,7 @@ thumbnail: /blog/assets/illustration-6.png
 ---
 It only takes seconds to copy-paste a provided ad unit code to your website page. You can find the code in the right-bottom corner of an ad unit’s main page, in the section called "Code for your site".
 
-![](/blog/assets/снимок-экрана-48-.png)
+![](/blog/assets/codefor.png)
 
 What we consider an ad unit code is an iframe like:
 
