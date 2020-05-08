@@ -6,6 +6,7 @@ COPY ./ /data/
 RUN apk add --update --no-cache --repository http://dl-3.alpinelinux.org/alpine/edge/main/ --virtual .build-deps \
        libpng-dev \
        fftw-dev \
+       libimagequant \
        build-base \
     && apk add --update --no-cache --repository http://dl-3.alpinelinux.org/alpine/edge/community/ --virtual .build-deps-testing \
        vips-dev \
