@@ -15,7 +15,7 @@ Now you can [sign in](https://a-ads.com/user/sign_in#!social-networks) or [sign 
 
 Or you can link your social network accounts to your existing A-ADS account in the User - Settings - Social networks authentication [page](https://a-ads.com/user/social_networks).
 
-![](/blog/assets/снимок-экрана-49-.png)
+![](/blog/assets/снимок-экрана-50-11.png)
 
 A-ADS receives the minimum amount of personal data from your social network account and records only your email address. We use it for access recovery, security confirmations, and other relevant notifications. If your social network account has the same email address as your existing A-ADS account, then it will be linked to it automatically.
 
