@@ -11,7 +11,7 @@ To improve the experience of our users, we have implemented authentication via s
 
 Now you can [sign in](https://a-ads.com/user/sign_in#!social-networks) or [sign up](https://a-ads.com/user/sign_up#!social-networks) with Twitter, Facebook, and Google.
 
-![](/blog/assets/снимок-экрана-48-.png)
+![](/blog/assets/снимок-экрана-48-1.png)
 
 Or you can link your social network accounts to your existing A-ADS account in the User - Settings - Social networks authentication [page](https://a-ads.com/user/social_networks).
 
