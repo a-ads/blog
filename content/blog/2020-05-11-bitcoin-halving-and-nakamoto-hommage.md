@@ -11,7 +11,7 @@ Bitcoin halving is going to happen within 10 hours, reducing bitcoin inflation t
 
 At least it should cause a series of publications and increase Bitcoin exposure in mass media. This process has already started and gained some attention, which could explain a recent Bitcoin price rise.
 
-Perhaps, the hype related to the Bitcoin Halving reminded the famous modern composer Boris Filanovsky about his “Infinite Superposition” - an experimental musical form that grows somewhat similar to Bitcoin blockchain and has been started as [Nakomoto Hommage](https://a-ads.com/blog/2019-05-13-nakamoto-hommage/) in 2019.
+Perhaps, the hype related to the Bitcoin Halving reminded the famous modern composer Boris Filanovsky about his “Infinite Superposition” - an experimental musical form that grows somewhat similar to Bitcoin blockchain and had been started as [Nakomoto Hommage](https://a-ads.com/blog/2019-05-13-nakamoto-hommage/) in 2019.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ua-rvUbh5FE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
