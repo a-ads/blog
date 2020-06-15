@@ -10,7 +10,11 @@ So, you’ve got an error message saying that your ad unit code is not found. Th
 
 ![](/blog/assets/pasted-image-1.png)
 
-We normally show one more info message below this one. It describes the reason why your ad unit is not found. Here’re the most popular problems and possible fixes:
+If you see this message alone, this means that our bot cannot find the ad unit at the specified URL. 
+
+An ad unit must be present on that very page you specified for it in the ad unit settings, as our bot doesn't search through all your site pages to find the ad unit, it checks only the specified page. So first of all, check if the ad unit is present right at the specified URL.
+
+We often show one more info message below this one. It describes the exact reason why your ad unit is not found (even despite the ad unit code present at the specified URL). Here’re the most popular problems and possible fixes:
 
 ## <a id="timeout-error"></a>Timeout error
 
