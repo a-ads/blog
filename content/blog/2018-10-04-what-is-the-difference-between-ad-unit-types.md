@@ -2,7 +2,7 @@
 date: '2018-10-04'
 title: What is the difference between ad unit types?
 tags:
-  - ''
+  - publisher
 category: How to
 thumbnail: /blog/assets/img3.png
 ---
