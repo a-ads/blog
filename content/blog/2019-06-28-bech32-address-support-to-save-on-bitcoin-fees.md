@@ -3,6 +3,8 @@ date: 2019-06-28T14:05:03.983Z
 title: Bech32 address support to save on bitcoin fees
 tags:
   - news
+  - advertiser
+  - publisher
 category: Development
 thumbnail: /blog/assets/illustration-8.png
 ---
