@@ -2,12 +2,12 @@
 date: 2019-07-29T13:39:29.970Z
 title: 'Can I show banners only, not text ads?'
 tags:
-  - ''
+  - advertiser
 category: How to
 thumbnail: /blog/assets/undraw_adjustments_p22m.png
 big_picture: /blog/assets/undraw_adjustments_p22msq.png
 ---
-Yes, you can. To do that, you need to enable the "show banners only" option. At the campaign web page click "Traffic sources", then choose "Selection criteria":
+Yes, you can. To do that, you need to enable the "show banners only" option. At the campaign web page click "Traffic sources", then choose "Selection criteria":
 
 ![](/blog/assets/снимок-экрана-94-.png)
 
@@ -24,8 +24,6 @@ You should add as many banner sizes as possible before doing this. At the time o
 ![](/blog/assets/снимок-экрана-101-.png)
 
 You need at least 728x90, 300x250 and 468x60 sizes as they cover ~68% of traffic.
-
-
 
 Mind that if you have a banner and a text ad for one ad unit size, banner will be shown by default. If you enable the "show banners only" option, all the adaptive ad units become unavailable, despite matching your banner sizes. So, the amount of traffic that you receive decreases. And if you have all or nearly all banner sizes you probably don't need the "show banners only" option.
 
