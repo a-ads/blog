@@ -2,7 +2,7 @@
 date: '2018-10-04'
 title: 'How many ad units are enough for a website? '
 tags:
-  - news
+  - publisher
 category: How to
 thumbnail: /blog/assets/illustration-6.png
 ---
