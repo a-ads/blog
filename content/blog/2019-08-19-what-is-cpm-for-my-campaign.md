@@ -2,7 +2,7 @@
 date: 2019-08-19T10:21:58.012Z
 title: What is CPM for my campaign?
 tags:
-  - ''
+  - advertiser
 category: How to
 thumbnail: /blog/assets/undraw_investing_7u74-обложка.png
 big_picture: /blog/assets/undraw_investing_7u74.png
