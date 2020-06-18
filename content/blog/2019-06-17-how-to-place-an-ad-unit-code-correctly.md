@@ -2,7 +2,7 @@
 date: 2019-06-17T11:01:05.440Z
 title: How to place an ad unit code correctly?
 tags:
-  - ''
+  - publisher
 category: How to
 thumbnail: /blog/assets/illustration-6.png
 ---
