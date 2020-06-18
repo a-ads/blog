@@ -2,7 +2,7 @@
 date: '2018-10-04'
 title: How do you get paid as a publisher?
 tags:
-  - news
+  - publisher
 category: How to
 thumbnail: /blog/assets/illustration-7.png
 ---
