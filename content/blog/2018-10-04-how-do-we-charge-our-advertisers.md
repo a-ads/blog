@@ -2,7 +2,7 @@
 date: '2018-10-04'
 title: How do we charge our advertisers?
 tags:
-  - news
+  - advertiser
 category: How to
 thumbnail: /blog/assets/illustration-8.png
 ---
