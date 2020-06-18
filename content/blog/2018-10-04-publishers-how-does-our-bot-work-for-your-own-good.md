@@ -2,7 +2,7 @@
 date: '2018-10-04'
 title: 'Publishers: how does our bot work for your own good'
 tags:
-  - news
+  - publisher
 category: How to
 thumbnail: /blog/assets/illustration-5-2x.png
 ---
