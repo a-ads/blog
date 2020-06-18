@@ -2,7 +2,7 @@
 date: '2018-10-04'
 title: Counting unique impressions
 tags:
-  - ''
+  - publisher
 category: How to
 thumbnail: /blog/assets/illustration-6.png
 ---
