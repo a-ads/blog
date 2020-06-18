@@ -3,6 +3,8 @@ date: '2018-10-04'
 title: What do we do in A-ADS?
 tags:
   - news
+  - advertiser
+  - publisher
 category: Stories
 thumbnail: /blog/assets/illustration-1-2x.png
 ---
