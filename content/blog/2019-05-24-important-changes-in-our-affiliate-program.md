@@ -3,6 +3,8 @@ date: 2019-05-24T12:19:48.459Z
 title: Important changes in our affiliate program
 tags:
   - news
+  - advertiser
+  - publisher
 category: Development
 thumbnail: /blog/assets/illustration-2.png
 ---
