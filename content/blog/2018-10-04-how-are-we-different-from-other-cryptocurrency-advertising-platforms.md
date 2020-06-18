@@ -3,6 +3,8 @@ date: '2018-10-04'
 title: How are we different from other cryptocurrency advertising platforms?
 tags:
   - news
+  - advertiser
+  - publisher
 category: Stories
 thumbnail: /blog/assets/illustration-4-2x.png
 ---
