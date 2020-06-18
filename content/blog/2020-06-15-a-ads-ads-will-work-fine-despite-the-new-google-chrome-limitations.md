@@ -3,6 +3,8 @@ date: 2020-06-15T16:21:44.355Z
 title: A-ADS ads will work fine despite the new Google Chrome limitations
 tags:
   - news
+  - advertiser
+  - publisher
 category: Stories
 thumbnail: /blog/assets/undraw_fast_loading_0lbобложка.png
 big_picture: /blog/assets/undraw_fast_loading_0lbhквадрат.png
