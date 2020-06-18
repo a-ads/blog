@@ -3,6 +3,8 @@ date: 2020-05-08T16:08:02.635Z
 title: Authentication via social networks
 tags:
   - news
+  - advertiser
+  - publisher
 category: Development
 thumbnail: /blog/assets/undraw_social_girl_562b12обложка.png
 big_picture: /blog/assets/undraw_social_girl_562b12квадрат.png
