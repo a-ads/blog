@@ -2,7 +2,7 @@
 date: 2019-09-24T16:20:33.749Z
 title: What are advertisement ratings?
 tags:
-  - ''
+  - advertiser
 category: How to
 thumbnail: /blog/assets/undraw_online_organizer_ofxmобложка.png
 big_picture: /blog/assets/undraw_online_organizer_ofxmsq.png
