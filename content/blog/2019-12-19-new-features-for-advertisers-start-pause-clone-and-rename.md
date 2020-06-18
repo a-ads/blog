@@ -3,6 +3,7 @@ date: 2019-12-19T14:05:44.182Z
 title: 'New features for advertisers: Start / Pause / Clone and Rename!'
 tags:
   - news
+  - advertiser
 category: How to
 thumbnail: /blog/assets/undraw_decide_3iwxобложка.png
 big_picture: /blog/assets/undraw_decide_3iwxквадрат.png
