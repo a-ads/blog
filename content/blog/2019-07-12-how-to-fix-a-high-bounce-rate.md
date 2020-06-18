@@ -2,7 +2,7 @@
 date: 2019-07-12T10:06:36.009Z
 title: How to fix a high bounce rate?
 tags:
-  - ''
+  - advertiser
 category: How to
 thumbnail: /blog/assets/image120720192200.png
 ---
