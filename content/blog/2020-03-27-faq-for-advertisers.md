@@ -2,7 +2,7 @@
 date: 2020-03-27T15:23:27.233Z
 title: FAQ for advertisers
 tags:
-  - ''
+  - advertiser
 category: How to
 thumbnail: /blog/assets/undraw_questions_75eобложка.png
 big_picture: /blog/assets/undraw_questions_75e0квадрат.png
