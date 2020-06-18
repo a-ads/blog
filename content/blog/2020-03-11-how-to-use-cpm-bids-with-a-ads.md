@@ -2,7 +2,7 @@
 date: 2020-03-11T12:40:31.774Z
 title: How to use CPM bids with A-ADS?
 tags:
-  - ''
+  - advertiser
 category: How to
 thumbnail: /blog/assets/undraw_revenue_3oshобложка.png
 big_picture: /blog/assets/undraw_revenue_3oshквадрат.png
