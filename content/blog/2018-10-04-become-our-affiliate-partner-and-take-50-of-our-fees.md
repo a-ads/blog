@@ -3,7 +3,7 @@ date: '2018-10-04'
 title: Become our affiliate partner and take 50% of our fees!
 tags:
   - advertiser
-  - publishers
+  - publisher
 category: How to
 thumbnail: /blog/assets/illustration-2.png
 ---
