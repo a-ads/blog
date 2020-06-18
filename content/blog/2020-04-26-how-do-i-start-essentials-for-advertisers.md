@@ -2,7 +2,7 @@
 date: 2020-04-26T12:19:24.713Z
 title: How do I start? Essentials for advertisers
 tags:
-  - ''
+  - advertiser
 category: How to
 thumbnail: /blog/assets/undraw_add_document_0hekобложка.png
 big_picture: /blog/assets/undraw_add_document_0hekквадрат.png
