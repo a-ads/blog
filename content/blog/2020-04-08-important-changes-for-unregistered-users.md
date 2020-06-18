@@ -2,7 +2,9 @@
 date: 2020-04-08T14:35:34.563Z
 title: Anonymous accounts for unregistered users
 tags:
-  - ''
+  - news
+  - advertiser
+  - publisher
 category: Development
 thumbnail: /blog/assets/undraw_authentication_fsn5обложка.png
 big_picture: /blog/assets/undraw_authentication_fsn5квадрат.png
