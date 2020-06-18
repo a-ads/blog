@@ -2,7 +2,7 @@
 date: '2018-10-04'
 title: Advertise with A-ADS
 tags:
-  - ''
+  - advertisers
 category: Stories
 thumbnail: /blog/assets/illustration-4-2x.png
 big_picture: ''
