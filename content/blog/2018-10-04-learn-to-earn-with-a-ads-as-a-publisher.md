@@ -2,7 +2,7 @@
 date: '2018-10-04'
 title: Learn to earn with A-ADS as a publisher
 tags:
-  - ''
+  - publisher
 category: Stories
 thumbnail: /blog/assets/illustration-3.png
 ---
