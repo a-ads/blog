@@ -2,7 +2,7 @@
 date: 2019-12-16T09:21:23.492Z
 title: CPM estimations on campaign's budget page
 tags:
-  - ''
+  - advertiser
 category: How to
 thumbnail: /blog/assets/undraw_personal_finance_tqcобложка.png
 big_picture: /blog/assets/undraw_personal_finance_tqcdквадрат.png
