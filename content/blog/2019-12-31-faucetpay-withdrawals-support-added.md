@@ -3,6 +3,8 @@ date: 2019-12-31T11:58:26.678Z
 title: FaucetPay withdrawals support added
 tags:
   - news
+  - advertiser
+  - publisher
 category: Development
 thumbnail: /blog/assets/undraw_partying_p92d-обложка.png
 big_picture: /blog/assets/undraw_partying_p92квадрат.png
