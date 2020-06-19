@@ -56,7 +56,7 @@ class SearchPage extends React.Component {
     dataToSearch.searchIndex = new JsSearch.TfIdfSearchIndex("title")
     dataToSearch.addDocuments(postList)
     dataToSearch.addIndex("title")
-    dataToSearch.addIndex("excerpt")
+    dataToSearch.addIndex("fullExcerpt")
     dataToSearch.addIndex("tags")
     this.searchResults = dataToSearch.search(this.props.search.query)
   }

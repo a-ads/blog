@@ -49,6 +49,9 @@ exports.createPages= ({ graphql, actions }) => {
                 big_picture
               }
               excerpt
+              internal {
+                content
+              }
             }
           }
         },
@@ -161,7 +164,10 @@ exports.createPages= ({ graphql, actions }) => {
           slug: post.node.fields.slug,
           tags: post.node.frontmatter.tags,
           thumbnail: post.node.frontmatter.thumbnail,
-          excerpt: post.node.excerpt
+          fullExcerpt:
+            post.node.internal.content
+            .replace(/\r?\n|\r/g, ' ') //remove ""\n\r" from text
+            .replace(/\s\s+/g, ' ') //remove double spaces
         };
       });
       fs.writeFile(path.resolve('./public/search.json'), JSON.stringify(searchFile), function(err) {
