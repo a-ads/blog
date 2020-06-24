@@ -6,6 +6,8 @@ tags:
 category: How to
 thumbnail: /blog/assets/illustration-1-2x.png
 ---
+## <a id="default-error"></a>
+
 So, you’ve got an error message saying that your ad unit code is not found. This error seriously reduces your earnings and needs to be fixed. 
 
 ![](/blog/assets/pasted-image-1.png)
