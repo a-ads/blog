@@ -25,6 +25,8 @@ We welcome you to help us with finding flaws in our code by clicking “Report a
 
 \- 2020-03-27 Abir Khan Hridoy reported a possible DoS vulnerability in the user email confirmation routine ($25)
 
+\- 2019-10-24 Agung Saputra (r00t-geek) found out that some of our servers are directly exposed to the Internet ($20).
+
 \- 2018-05-06  Ch Chakradhar (Spi3er) reported a catalog CSRF vulnerability ($30)
 
 \- 2018-03-02 Waqar Vicky reported a number of issues and received a $100 bounty:
