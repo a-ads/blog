@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { connect } from 'react-redux'
 import { fallDown as MobileMenu } from 'react-burger-menu'
 import { Link } from "gatsby"
 import _ from 'lodash'
 import Search from '../components/search'
 import { withPrefix } from 'gatsby'
+import useDropdown from '../utils/use-dropdown'
 
 class Header extends React.Component {
   constructor(props) {
@@ -26,20 +27,30 @@ class Header extends React.Component {
     return (
       <div className='c-header'>
         <div className='c-header__container l-container c-header__container--desktop'>
-          <div className='c-header__logo'>
-            <Link className='c-header__logo__container' to='/'>
-              <img src={withPrefix('/images/logo.svg')} alt='logo' />
-            </Link>
+          <div className='c-header__left-part'>
+            <div className='c-header__logo'>
+              <Link className='c-header__logo__container' to='/'>
+                <img src={withPrefix('/images/logo.svg')} alt='logo' />
+              </Link>
+            </div>
+            {this.renderUserTypeTagLinks()}
+            <UserTypeTagsDropdown />
           </div>
+
           {this.createHeaderMenu()}
         </div>
 
         <div className='c-header__container l-container c-header__container--phone'>
-          <div className='c-header__logo'>
-            <Link className='c-header__logo__container' to='/'>
-              <img src={withPrefix('/images/logo.svg')} alt='logo'/>
-            </Link>
+          <div className='c-header__left-part'>
+            <div className='c-header__logo'>
+              <Link className='c-header__logo__container' to='/'>
+                <img src={withPrefix('/images/logo.svg')} alt='logo'/>
+              </Link>
+            </div>
+
+            <UserTypeTagsDropdown />
           </div>
+
           <div className='c-header__burger' onClick={this.onBurgerClick}></div>
         </div>
 
@@ -55,6 +66,7 @@ class Header extends React.Component {
                 search={this.props.search}
                 changeSearchQuery={this.props.changeSearchQuery}
               />
+
               <div className="c-header__menu">
                 <ul>
                   {this.renderCategoriesList()}
@@ -70,7 +82,7 @@ class Header extends React.Component {
 
   createHeaderMenu() {
     return (
-      <div className='c-header__menu' style={{}}>
+      <div className='c-header__menu'>
         <ul>
           {this.renderCategoriesList()}
           {!this.state.isSearchComponentDesktopActive &&
@@ -102,6 +114,16 @@ class Header extends React.Component {
         </Link>
       </li>
     ))
+  }
+
+  renderUserTypeTagLinks() {
+    return (
+      <div className='c-header__user-types'>
+        <span>for:</span>
+        <Link to="/tags/advertiser">Advertiser</Link>
+        <Link to="/tags/publisher">Publisher</Link>
+      </div>
+    )
   }
 
   onSearchIconClick() {
@@ -150,6 +172,33 @@ const mapDispatchToProps = dispatch => {
       payload: searchQuery
     })
   }
+}
+
+function UserTypeTagsDropdown() {
+  const dropdownRef = useRef()
+  const [isOpen, setIsOpen] = useDropdown({
+    dropRef: dropdownRef
+  })
+
+  return (
+    <div className='c-header__user-types --dropdown' ref={dropdownRef}>
+      <span
+        className='c-header__user-types-drop-trigger'
+        onClick={() => setIsOpen(true)}
+      >
+        for
+      </span>
+      <div
+        className={`
+          c-header__user-types-drop-container
+          ${isOpen ? '--visible' : ''}
+        `}
+      >
+        <Link to="/tags/advertiser">Advertiser</Link>
+        <Link to="/tags/publisher">Publisher</Link>
+      </div>
+    </div>
+  )
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Header)

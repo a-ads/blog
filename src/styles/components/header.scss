@@ -20,6 +20,11 @@
     height: 100%;
   }
 
+  .c-header__left-part {
+    display: flex;
+    align-items: center;
+  }
+
   .c-header__container {
     display: flex;
     flex-direction: row;
@@ -61,6 +66,10 @@
     }
   }
 
+  .c-header__logo {
+    font-size: 0;
+  }
+
   .c-header__logo img {
     width: 100%;
   }
@@ -100,12 +109,121 @@
       margin-top: 0;
     }
   }
-  
+
+  .c-header__user-types {
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+    @include breakpoint('tablet') {
+      display: none;
+    }
+    @include breakpoint('phone') {
+      margin-left: 0;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    span {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.28;
+      font-family: "Noto Sans", sans-serif;
+      color: #263338;
+      @include breakpoint('tablet') {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 0;
+        display: flex;
+        cursor: pointer;
+        align-items: baseline;
+        color: #B4B7B9;
+
+        &::after {
+          content: '';
+          display: block;
+          margin-left: 6px;
+          width: 10px;
+          height: 8px;
+          background-image: url('/images/more.svg');
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+
+    a {
+      margin-left: 16px;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.28;
+      font-family: "Noto Sans", sans-serif;
+      color: rgba(38, 50, 56, 0.5);
+      @include breakpoint('tablet') {
+        font-size: 18px;
+        line-height: 24px;
+        margin-left: 0;
+        margin-bottom: 16px;
+      }
+    }
+
+    a.--active {
+      color: $color-blue-1
+    }
+  }
+
+  .c-header__user-types.--dropdown {
+    position: relative;
+    margin-left: 32px;
+    display: none;
+    @include breakpoint('tablet') {
+      display: block;
+    }
+
+    .c-header__user-types-drop-container {
+      display: none;
+      position: absolute;
+      padding: 24px 28px;
+      background: white;
+      border-radius: 4px;
+      box-shadow: 0px 2px 16px rgba(15, 35, 63, 0.12);
+      flex-direction: column;
+      top: calc(100% + 15px);
+      left: -52px;
+
+      &.--visible {
+        display: flex;
+      }
+
+      &::after {
+        position: absolute;
+        content: '';
+        display: block;
+        width: 0;
+        height: 0;
+        border-bottom: 12px solid white;
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        right: calc(50% - 12px);
+        top: -8px;
+      }
+
+      > a {
+        margin-bottom: 0;
+      }
+
+      > a + a {
+        margin-top: 24px;
+      }
+    }
+  }
+
   .c-search {
-    width: 336px;
+    position: absolute;
     @include breakpoint(tablet) {
       display: block;
-      width: 220px;
+    }
+    @include breakpoint(phone) {
+      position: relative;
     }
   }
 
@@ -122,6 +240,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    position: relative;
 
     ul {
       list-style: none;
@@ -129,6 +248,7 @@
       flex-direction: row;
       justify-content: space-between;
       padding-left: 0;
+      // align-items: center;
       @include breakpoint(phone) {
         flex-direction: column;
       }
@@ -139,7 +259,7 @@
       line-height: 0;
       margin-right: 50px;
       @include breakpoint(tablet) {
-        margin-right: 30px;
+        margin-right: 24px;
         height: 24px;
       }
       @include breakpoint(phone) {
@@ -193,7 +313,7 @@
     display: none;
     padding-top: 20px;
     padding-bottom: 20px;
-    
+
     .c-search {
       width: 100%;
       margin-bottom: 30px;
