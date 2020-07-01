@@ -123,7 +123,15 @@
       align-items: flex-start;
     }
 
-    span {
+    > span {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.28;
+      font-family: "Noto Sans", sans-serif;
+      color: #263338;
+    }
+
+    .c-header__user-types-drop-trigger {
       font-size: 18px;
       font-weight: 700;
       line-height: 1.28;
@@ -144,10 +152,14 @@
           margin-left: 6px;
           width: 10px;
           height: 8px;
-          background-image: url('/images/more.svg');
+          background-image: url('../../public/images/more.svg');
           background-size: contain;
           background-repeat: no-repeat;
         }
+      }
+
+      span {
+        color: #33c7f5;
       }
     }
 
@@ -188,7 +200,7 @@
       box-shadow: 0px 2px 16px rgba(15, 35, 63, 0.12);
       flex-direction: column;
       top: calc(100% + 15px);
-      left: -52px;
+      right: -70px;
 
       &.--visible {
         display: flex;

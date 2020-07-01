@@ -1,7 +1,7 @@
-import React, { useRef } from 'react'
+import React, { useRef, useEffect } from 'react'
 import { connect } from 'react-redux'
 import { fallDown as MobileMenu } from 'react-burger-menu'
-import { Link } from "gatsby"
+import { Link, navigate } from 'gatsby'
 import _ from 'lodash'
 import Search from '../components/search'
 import { withPrefix } from 'gatsby'
@@ -17,10 +17,6 @@ class Header extends React.Component {
     this.onSearchIconClick = this.onSearchIconClick.bind(this)
     this.hideSearchComponentDesktop = this.hideSearchComponentDesktop.bind(this)
     this.onBurgerClick = this.onBurgerClick.bind(this)
-  }
-
-  componentDidUpdate() {
-    // document.body.style.overflow = this.state.isMobileMenuOpen ? 'hidden' : 'auto'
   }
 
   render() {
@@ -180,22 +176,42 @@ function UserTypeTagsDropdown() {
     dropRef: dropdownRef
   })
 
+  let selectedItem = 'All'
+
+  if (typeof window !== 'undefined') {
+    if (window.location.pathname.match(withPrefix('/tags/publisher'))) {
+      selectedItem = 'Publisher'
+    }
+    if (window.location.pathname.match(withPrefix('/tags/advertiser'))) {
+      selectedItem = 'Advertiser'
+    }
+  }
+
   return (
     <div className='c-header__user-types --dropdown' ref={dropdownRef}>
-      <span
+      <div
         className='c-header__user-types-drop-trigger'
         onClick={() => setIsOpen(true)}
       >
         for
-      </span>
+        &nbsp;
+        <span>{selectedItem}</span>
+      </div>
       <div
         className={`
           c-header__user-types-drop-container
           ${isOpen ? '--visible' : ''}
         `}
       >
-        <Link to="/tags/advertiser">Advertiser</Link>
-        <Link to="/tags/publisher">Publisher</Link>
+        {selectedItem !== 'All' &&
+          <Link to="/">All</Link>
+        }
+        {selectedItem !== 'Advertiser' &&
+          <Link to="/tags/advertiser/">Advertiser</Link>
+        }
+        {selectedItem !== 'Publisher' &&
+          <Link to="/tags/publisher/">Publisher</Link>
+        }
       </div>
     </div>
   )
