@@ -50,7 +50,7 @@ An ad unit must be present on the URL specified for it on the ad unit page. You 
 
 To fix the error you can either remove redirect, or change the URL of the ad unit on the ad unit page at a-ads.com. You can edit the ad unit URL via the link on the ad unit page:
 
-![](/blog/assets/pasted-image-2.png)
+![](/blog/assets/editpage.png)
 
 Mind, if your ad unit had been found on the old URL before, you won’t be able to change the URL yourself, you’ll need help from our support team to do it.
 
@@ -206,6 +206,6 @@ An unexpected error occurred and we cannot identify its origin. It might disappe
 
 If the issue is likely to be on your side, we encourage you to find the solution before you address the support. You can run our bot after you've fixed the issue to see if the error disappeared.
 
-![](/blog/assets/tyl1.png)
+![](/blog/assets/checkcode.png)
 
 If an ad unit code is placed on your site in accordance with the specified requirements, and our bot still cannot find it, please, contact our support team and we will eagerly help you.
