@@ -19,7 +19,7 @@ export default class SearchResult extends React.Component {
             <div>
               <p className='h1-like c-search-result__query'>Nothing found</p>
               <p className="c-search-result__sorry">
-                Sorry, but nothing matched your search terms. 
+                Sorry, but nothing matched your search terms.
                 Please try again with some different keywords.
               </p>
             </div>

@@ -12,7 +12,8 @@ class SearchPage extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      postList: []
+      postList: [],
+      isLoaded: false
     }
     this.searchResults = []
   }
@@ -23,7 +24,7 @@ class SearchPage extends React.Component {
     return (
       <Layout>
         <SearchResult
-          searchResultEmpty={!renderedSearchResults.length}
+          searchResultEmpty={this.isSearchResultEmpty()}
           renderedSearchResults={renderedSearchResults}
           searchQuery={this.props.search.query}
         />
@@ -36,7 +37,8 @@ class SearchPage extends React.Component {
     Axios.get(withPrefix('/search.json'))
       .then(res => {
         this.setState({
-          postList: res.data
+          postList: res.data,
+          isLoaded: true
         })
       })
   }
@@ -66,7 +68,7 @@ class SearchPage extends React.Component {
   }
 
   isSearchResultEmpty() {
-    return this.searchResults.length === 0
+    return (this.searchResults.length === 0 && this.state.isLoaded)
   }
 
   getRenderedSearchResults() {
