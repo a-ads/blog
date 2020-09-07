@@ -6,7 +6,7 @@ export default function BecomeCustomer() {
       <div className="l-container">
         <Block
           title="Get more paying customers"
-          imgPath="/images/wallet-colored.svg"
+          imgPath="/blog/images/wallet-colored.svg"
           href="https://a-ads.com/campaigns/new"
           list={(
             <ul>
@@ -20,7 +20,7 @@ export default function BecomeCustomer() {
         <div className="become-customer__delimeter"/>
         <Block
           title="Monetize your traffic"
-          imgPath="/images/megaphone-colored.svg"
+          imgPath="/blog/images/wallet-colored.svg"
           href="https://a-ads.com/ad_units/new"
           list={(
             <ul>
