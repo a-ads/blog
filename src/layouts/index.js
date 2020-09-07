@@ -6,6 +6,7 @@ import Header from '../containers/header'
 import Footer from '../components/footer.js'
 import '../styles/main.scss'
 import '../utils/font-loader'
+import BecomeCustomer from '../components/become-customer'
 
 export default class extends React.Component {
   render() {
@@ -51,6 +52,7 @@ export default class extends React.Component {
               <div className='l-body'>
                 {children}
               </div>
+              <BecomeCustomer />
               <Footer />
             </div>
           )

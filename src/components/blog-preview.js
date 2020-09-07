@@ -37,9 +37,8 @@ export default class extends React.Component {
       switch (index) {
       case 0:
         return (
-          <React.Fragment>
+          <React.Fragment key={'preview-card-' + index}>
             <Card
-              key={index}
               link={post.node.fields.slug}
               thumbnail={post.node.frontmatter.big_picture || post.node.frontmatter.thumbnail}
               title={post.node.frontmatter.title}
@@ -49,7 +48,7 @@ export default class extends React.Component {
               additionalClassName='c-card--large hidden-phone'
             />
             <Card
-              key={index}
+              key={'preview-card-' + index + '-phone'}
               link={post.node.fields.slug}
               thumbnail={post.node.frontmatter.thumbnail}
               title={post.node.frontmatter.title}
@@ -60,12 +59,10 @@ export default class extends React.Component {
             />
           </React.Fragment>
         )
-      break;
       case 7:
         return (
-          <React.Fragment>
+          <React.Fragment key={'preview-card-' + index}>
             <Card
-              key={index}
               link={post.node.fields.slug}
               thumbnail={post.node.frontmatter.big_picture || post.node.frontmatter.thumbnail}
               title={post.node.frontmatter.title}
@@ -75,7 +72,6 @@ export default class extends React.Component {
               additionalClassName='c-card--double  hidden-phone'
             />
             <Card
-              key={index}
               link={post.node.fields.slug}
               thumbnail={post.node.frontmatter.thumbnail}
               title={post.node.frontmatter.title}
@@ -86,10 +82,9 @@ export default class extends React.Component {
             />
           </React.Fragment>
         )
-      break;
       default:
         return <Card
-          key={index}
+          key={'preview-card-' + index}
           link={post.node.fields.slug}
           thumbnail={thumbnail}
           title={post.node.frontmatter.title}

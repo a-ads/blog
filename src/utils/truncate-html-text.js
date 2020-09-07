@@ -23,7 +23,11 @@ export default class TruncateHtmlText {
   }
 
   truncateText() {
-    shave(this.HTMLElement, parseInt(getComputedStyle(this.HTMLElement).maxHeight))
+    const maxHeight = parseInt(getComputedStyle(this.HTMLElement).maxHeight)
+
+    if (maxHeight)
+      shave(this.HTMLElement, maxHeight)
+    
   }
 
   onResizeWindow() {
