@@ -23,6 +23,8 @@ We welcome you to help us with finding flaws in our code by clicking “Report a
 
 ## Hall of fame
 
+\- 2020-09-01 Shiraz Ali Khan reported a minor configuration issue with our email server DNS record ($20)
+
 \- 2020-03-27 Abir Khan Hridoy reported a possible DoS vulnerability in the user email confirmation routine ($25)
 
 \- 2019-10-24 Agung Saputra (r00t-geek) found out that some of our servers are directly exposed to the Internet ($20).
