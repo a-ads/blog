@@ -196,7 +196,7 @@ If your ad unit is a fixed size one, the banner on your site page should match a
 
 To fix the error you should adjust an actual size of a banner with the requirements.The required size for your banner is present in the text of the error message (the second size of the two). The first size in the error message will be an actual size of a banner on your site.
 
-## <a id="cloudflare-detected"></a>Cloudflare detected
+## <a id="cloudflare-detected"></a>Cloudflare denies access
 
 ![](/blog/assets/cloudflare_detected.png)
 
