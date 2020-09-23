@@ -38,11 +38,11 @@ See also [our article about Goal tracking](https://a-ads.com/blog/2019-10-16-adv
 
 ![](/blog/assets/ts-source.png)
 
-2. Create an offer element. Read the Creating an Offer Element article here, to learn how to do that.
-3. (Optionally) Create a lander element. Read the Create a Lander Element article here, to learn more.
-4. Create a campaign in Voluum with your earlier created traffic source element. If you don’t know how to create a campaign in Voluum, find out here.
+2. Create an offer element. Read the Creating an Offer Element article [here](https://doc.voluum.com/en/adding_offer.html), to learn how to do that.
+3. (Optionally) Create a lander element. Read the Create a Lander Element article [here](https://doc.voluum.com/en/adding_simple_lander.html), to learn more.
+4. Create a campaign in Voluum with your earlier created traffic source element. If you don’t know how to create a campaign in Voluum, find out [here](https://doc.voluum.com/en/create_simple_campaign.html).
 5. Log into your A-ADS account.
-6. Enable Goal tracking for your campaign at A-ADS as seen in the image below, if you don’t have a campaign you can create one here. 
+6. Enable Goal tracking for your campaign at A-ADS as seen in the image below, if you don’t have a campaign you can create one [here](https://a-ads.com/campaigns/new). 
 
 ![](/blog/assets/screenshot_from_2020-09-23_16-56-06.png)
 
