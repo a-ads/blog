@@ -4,8 +4,8 @@ title: Advanced Tracking with Voluum
 tags:
   - advertiser
 category: How to
-thumbnail: /blog/assets/undraw_revenue_3oshобложка.png
-big_picture: /blog/assets/undraw_revenue_3oshквадрат.png
+thumbnail: /blog/assets/voluum______________feature.png
+big_picture: /blog/assets/voluum______________square.png
 ---
 [Voluum](https://voluum.com/partner/a-ads/) is an innovative, real-time analytics platform for tracking online campaigns. The system designed by Codewise is for the use of performance marketers and individual advertisers who want to monitor the progress and profitability of their campaigns.
 
@@ -25,7 +25,7 @@ See also [our article about Goal tracking](https://a-ads.com/blog/2019-10-16-adv
 
 ## Let’s start!
 
-Create a traffic source (TS) element in Voluum. Voluum provides you with the A-ADS traffic source template, so you can use it and skip most of the manual setup. To use this template, perform the following steps:
+1. Create a traffic source (TS) element in Voluum. Voluum provides you with the A-ADS traffic source template, so you can use it and skip most of the manual setup. To use this template, perform the following steps:
 
 * Go to the Traffic sources tab.
 * Click the New traffic source button.
