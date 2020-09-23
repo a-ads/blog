@@ -2,13 +2,11 @@
 date: 2020-09-23T13:53:40.381Z
 title: Advanced Tracking with Voluum
 tags:
-  - news
+  - advertiser
 category: How to
-thumbnail: /blog/assets/curious-pug-pet.jpg
-big_picture: /blog/assets/curious-pug-pet.jpg
+thumbnail: /blog/assets/undraw_revenue_3oshобложка.png
+big_picture: /blog/assets/undraw_revenue_3oshквадрат.png
 ---
-
-
 
 
 [Voluum](https://voluum.com/partner/a-ads/) is an innovative, real-time analytics platform for tracking online campaigns. The system designed by Codewise is for the use of performance marketers and individual advertisers who want to monitor the progress and profitability of their campaigns.
