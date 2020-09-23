@@ -7,8 +7,6 @@ category: How to
 thumbnail: /blog/assets/undraw_revenue_3oshобложка.png
 big_picture: /blog/assets/undraw_revenue_3oshквадрат.png
 ---
-
-
 [Voluum](https://voluum.com/partner/a-ads/) is an innovative, real-time analytics platform for tracking online campaigns. The system designed by Codewise is for the use of performance marketers and individual advertisers who want to monitor the progress and profitability of their campaigns.
 
 ![](/blog/assets/advanced-tracking-with-voluum-arsen-.png)
@@ -47,8 +45,6 @@ Create a traffic source (TS) element in Voluum. Voluum provides you with the A-A
 6. Enable Goal tracking for your campaign at A-ADS as seen in the image below, if you don’t have a campaign you can create one here. 
 
 ![](/blog/assets/screenshot_from_2020-09-23_16-56-06.png)
-
-
 
 You’ll probably want to use the `partner` parameter to track the traffic source that brought a visitor to your site, and you can also use more parameters available for tracking. You can add them too. 
 
