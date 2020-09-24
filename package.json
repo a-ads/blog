@@ -35,6 +35,7 @@
     "redux": "^3.7.2",
     "shave": "^2.5.3",
     "slick-carousel": "^1.8.1",
+    "unist-util-visit": "^2.0.3",
     "webfontloader": "^1.6.28"
   },
   "devDependencies": {
