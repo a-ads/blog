@@ -26,12 +26,12 @@ See also [our article about Goal tracking](https://a-ads.com/blog/2019-10-16-adv
 ## Let’s start!
 
 1. Create a traffic source (TS) element in Voluum. Voluum provides you with the A-ADS traffic source template, so you can use it and skip most of the manual setup. To use this template, perform the following steps:
-   - Go to the Traffic sources tab.
+   * Go to the Traffic sources tab.
      Click the New traffic source button.
      ![](/blog/assets/15f5f1a36e61b0.png)
-   - Select the A-ADS template from the list of available templates.
-   - Click the Next button. The New traffic source form will appear.
-   - You can change or adjust (if necessary) any option in the New traffic     source form. Once you are done, click the Save button.
+   * Select the A-ADS template from the list of available templates.
+   * Click the Next button. The New traffic source form will appear.
+   * You can change or adjust (if necessary) any option in the New traffic     source form. Once you are done, click the Save button.
 
 ![](/blog/assets/ts-source.png)
 
@@ -49,9 +49,11 @@ You’ll probably want to use the `partner` parameter to track the traffic sourc
 
 Please note, each parameter/token in the “A-ADS Suffix” represents “Voluum’s TS parameter/token”, e.g.:
 
-A-ADS’s goal tracking (GT)				Voluum’s traffic source (TS)
+```
+A-ADS’s goal tracking (GT)             Voluum’s traffic source (TS)
 
-partner={{partner}}					        TS parameter = partner, TS token = {{partner}}
+partner={{partner}}                    TS parameter = |partner, TS token = {{partner}}
+```
 
 Suffix parameters/token in A-ADS and TS parameters/token in Voluum are correlated. 
 
