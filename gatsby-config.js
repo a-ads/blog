@@ -34,6 +34,7 @@ module.exports = {
               maxWidth: 1140
             },
           },
+          'gatsby-remark-numbered-list-fix',
         ],
       },
     },
