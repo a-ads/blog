@@ -139,19 +139,20 @@ li {
 }
 
 ol {
-  counter-reset: item;
+  counter-reset: step-counter calc(var(--start) - 1);
 
   > li {
     display: block;
     padding-left: 58px;
     position: relative;
+    counter-increment: step-counter;
     @include breakpoint(phone) {
       padding-left: 24px;
     }
   }
 
   > li:before {
-    content: counter(item) ". ";
+    content: counter(step-counter) ". ";
     counter-increment: item;
     color: $color-blue-1;
     position: absolute;
