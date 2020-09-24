@@ -25,7 +25,7 @@ We can work on fixed CPM (cost per mille) and CPA (cost per action / revenue sha
 
 # Adjust your campaign
 
-Our targeting options include targeting by country, type of ad (text/banner), quality range, traffic sources, max CPM, etc. Each option comes with its own limitations and may affect the efficiency of your campaign.
+Our targeting options include targeting by country, type of ad (text/banner), traffic sources, max CPM, etc. Each option comes with its own limitations and may affect the efficiency of your campaign.
 
 That's why the recommended way of using A-ADS is as follows:
 

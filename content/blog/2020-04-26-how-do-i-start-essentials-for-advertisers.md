@@ -25,7 +25,7 @@ Each ad must have a text version and may include graphic banners. A text version
 
 ## 2. Configure your campaign (optional)
 
-Most of the campaign settings are available after you create one. If you want to fine-tune your campaign, you can go to the campaign page and choose site categories, specify geo-targeting, adjust quality range or set other options if necessary.
+Most of the campaign settings are available after you create one. If you want to fine-tune your campaign, you can go to the campaign page and choose site categories, specify geo-targeting or set other options if necessary.
 
 E. g., if you want to advertise a crypto-related business, you might be interested in the following categories: Bitcoin, Earning online, and possibly Business and Finance. You can choose them on your Campaign -> Traffic sources -> Selection Criteria page. The full list of publishing websites is available in the [catalog](https://a-ads.com/catalog).  
 

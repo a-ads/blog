@@ -19,7 +19,7 @@ The more banners you have, the better. The most popular sizes are 300x250, 468x6
 
 ## How to start?
 
-To start, please, create a campaign. Most of the campaign settings are available on a campaign page after you create one. There you can choose site categories, geo-targeting, adjust quality range or set other options if necessary.
+To start, please, create a campaign. Most of the campaign settings are available on a campaign page after you create one. There you can choose site categories, geo-targeting or set other options if necessary.
 
 ## How to advertise on Crypto sites?
 
