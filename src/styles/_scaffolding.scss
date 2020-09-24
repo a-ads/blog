@@ -95,11 +95,11 @@ ul {
   }
 }
 
-ul li {
+ul > li {
   position: relative;
 }
 
-ul li::before {
+ul > li::before {
   content: '';
   position: absolute;
   background-color: $color-gray-9;
@@ -141,7 +141,7 @@ li {
 ol {
   counter-reset: item;
 
-  li {
+  > li {
     display: block;
     padding-left: 58px;
     position: relative;
@@ -150,7 +150,7 @@ ol {
     }
   }
 
-  li:before {
+  > li:before {
     content: counter(item) ". ";
     counter-increment: item;
     color: $color-blue-1;
