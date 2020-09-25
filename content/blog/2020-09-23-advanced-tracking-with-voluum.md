@@ -33,7 +33,7 @@ See also [our article about Goal tracking](https://a-ads.com/blog/2019-10-16-adv
    * Click the Next button. The New traffic source form will appear.
    * You can change or adjust (if necessary) any option in the New traffic     source form. Once you are done, click the Save button.
 
-![](/blog/assets/ts-source.png)
+![Open the image in a new tab for better resolution.](/blog/assets/ts-source.png)
 
 2. Create an offer element. Read the Creating an Offer Element article [here](https://doc.voluum.com/en/adding_offer.html), to learn how to do that.
 3. (Optionally) Create a lander element. Read the Create a Lander Element article [here](https://doc.voluum.com/en/adding_simple_lander.html), to learn more.
