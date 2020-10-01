@@ -7,17 +7,9 @@ category: How to
 thumbnail: /blog/assets/undraw_adjustments_p22m.png
 big_picture: /blog/assets/undraw_adjustments_p22msq.png
 ---
-Yes, you can. To do that, you need to enable the "show banners only" option. At the campaign web page click "Traffic sources", then choose "Selection criteria":
+Yes, you can. To do that, you need to enable the "show banners only" option. At the campaign web page the checkbox "Show banners only":
 
-![](/blog/assets/снимок-экрана-94-.png)
-
-And click a blue pencil here:
-
-![](/blog/assets/снимок-экрана-95-.png)
-
-There you can enable the "show banners only" option:
-
-![](/blog/assets/снимок-экрана-99-.png)
+![](/blog/assets/banner_only.png)
 
 You should add as many banner sizes as possible before doing this. At the time of writing this article the most popular sizes were the following: 
 
