@@ -16,7 +16,7 @@ What we consider an ad unit code is an iframe like:
 
 where **123456** stays for your ad unit number.
 
-Still, some of our publishers face difficulties in embedding the code into their sites and receive a yellow message "The ad unit HTML code has not been found...". 
+Still, some of our publishers face difficulties in embedding the code into their sites and receive a yellow message "The ad unit HTML code has not been found...":
 
 How can we go about it? Here are some ways.
 
@@ -32,6 +32,6 @@ And here are some tips that will help you on the way:
 * If you use the code on different website versions, make sure it’s available for check on desktop layout, otherwise it won’t be found.
 * You can launch the bot manually. Just click on "Check embedded HTML code" and your page will be checked within 10 minutes.
 
-![](/blog/assets/снимок-экрана-50-.png)
+![](/blog/assets/not_found.png "Ad unit not found error message")
 
 If you’ve checked all possible issues and the problem remains, please contact our support team. We’re always ready to help you.
