@@ -154,7 +154,7 @@ ol {
   > li:before {
     content: counter(step-counter) ". ";
     counter-increment: item;
-    color: $color-blue-1;
+    color: $color-black-2;
     position: absolute;
     text-align: right;
     width: 36px;
