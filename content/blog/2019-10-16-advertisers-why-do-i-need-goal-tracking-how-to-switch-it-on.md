@@ -17,7 +17,7 @@ With the "Goal tracking" option enabled, you can use your web analytics system t
 
 You can enable goal tracking by checking the corresponding field on the campaign page:
 
-![](/blog/assets/43hb01z.png)
+![](/blog/assets/screenshot_from_2020-09-23_16-56-06.png)
 
 You will see the suffix applied to your campaign, e. g. "?partner={{partner}}".
 
