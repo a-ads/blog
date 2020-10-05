@@ -32,6 +32,6 @@ And here are some tips that will help you on the way:
 * If you use the code on different website versions, make sure it’s available for check on desktop layout, otherwise it won’t be found.
 * You can launch the bot manually. Just click on "Check embedded HTML code" and your page will be checked within 10 minutes.
 
-![](/blog/assets/not_found.png)
+![](/blog/assets/not-found.png)
 
 If you’ve checked all possible issues and the problem remains, please contact our support team. We’re always ready to help you.
