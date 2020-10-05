@@ -5,7 +5,7 @@ tags:
   - news
   - advertiser
 category: How to
-thumbnail: /blog/assets/undraw_decide_3iwxобложка.png
+thumbnail: /blog/assets/rename_campaign.png
 big_picture: /blog/assets/undraw_decide_3iwxквадрат.png
 ---
 We've deployed new features for advertisers: you can now start, pause, clone, and rename your advertising campaigns.
