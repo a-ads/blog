@@ -23,6 +23,8 @@ We welcome you to help us with finding flaws in our code by clicking “Report a
 
 ## Hall of fame
 
+\- 2020-10-02 Ardyan Vicky Ramadhan re-reported a tab open vulnerability first discovered two years prior ($25). It resurfaced after a major website redesign. We've adjusted our development guidelines to avoid it in the future.
+
 \- 2020-09-01 Shiraz Ali Khan reported a minor configuration issue with our email server DNS record ($20)
 
 \- 2020-03-27 Abir Khan Hridoy reported a possible DoS vulnerability in the user email confirmation routine ($25)
