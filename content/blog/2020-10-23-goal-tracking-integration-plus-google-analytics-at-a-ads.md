@@ -5,7 +5,7 @@ tags:
   - news
 category: How to
 thumbnail: /blog/assets/goal-tracking-integration-plus-google-analytic-logo.png
-big_picture: ''
+big_picture: /blog/assets/goal-tracking-integration-plus-google-analytic-logo.png
 ---
 # Goal tracking integration  plus Google Analytics
 
