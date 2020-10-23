@@ -1,13 +1,13 @@
 ---
 date: 2020-10-23T14:03:30.203Z
-title: Goal tracking integration plus Google Analytics
+title: Goal tracking integration with Google Analytics
 tags:
   - advertiser
 category: How to
 thumbnail: /blog/assets/goal-tracking-integration-plus-google-analytic-logo.png
 big_picture: /blog/assets/goal-tracking-integration-plus-google-analytic-logo.png
 ---
-# Goal tracking integration  plus Google Analytics
+# Goal tracking integration with Google Analytics
 
 ## What is Google Analytics?
 
