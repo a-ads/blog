@@ -1,6 +1,6 @@
 ---
 date: 2020-10-23T14:03:30.203Z
-title: Goal tracking integration plus Google Analytics at A-ADS
+title: Goal tracking integration plus Google Analytics
 tags:
   - advertiser
 category: How to
