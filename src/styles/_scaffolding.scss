@@ -84,6 +84,29 @@ p {
   }
 }
 
+code {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Courier New', 'monospace';
+  padding: 16px;
+  border: 2px solid #D8DFE3;
+  border-radius: 4px;
+  display: block;
+  word-wrap: break-word;
+  color: #263238;
+  white-space: normal;
+  @include breakpoint(tablet) {
+    font-size: 20px;
+    line-height: 36px;
+  }
+  @include breakpoint(phone) {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
 ul {
   padding-left: 65px;
   list-style: none;
