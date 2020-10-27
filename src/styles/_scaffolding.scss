@@ -95,8 +95,8 @@ code {
   border-radius: 4px;
   display: block;
   word-wrap: break-word;
+  white-space: pre-wrap;
   color: #263238;
-  white-space: normal;
   @include breakpoint(tablet) {
     font-size: 20px;
     line-height: 36px;
