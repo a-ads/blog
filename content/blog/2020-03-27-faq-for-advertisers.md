@@ -23,7 +23,7 @@ To start, please, create a campaign. Most of the campaign settings are available
 
 ## How to advertise on Crypto sites?
 
-If you want to advertise a crypto-related business, you might be interested in the following categories: Bitcoin, Earning online, and possibly Business and Finance. You can choose them on your Campaign -> Traffic sources -> Selection Criteria page. The full list of publishing websites is available in the [catalog](https://a-ads.com/catalog).  
+If you want to advertise a crypto-related business, you might be interested in the following categories: Bitcoin, Earning online, and possibly Business and Finance. You can choose them on your "Campaign -> Traffic sources -> Selection Criteria" page. The full list of publishing websites is available in the [catalog](https://a-ads.com/catalog).
 
 ## What are the available payment models?
 
@@ -31,7 +31,7 @@ Our main payment model is a daily budget. [CPM bids](https://a-ads.com/blog/2020
 
 ## Is there a minimum deposit or a minimum daily budget?
 
-No, there is none. You can deposit any sum to your deposit address and set any daily budget, that seems reasonable to you. The only limitation is technical: budgets less than 121 satoshis won’t be spent. Just mind checking the traffic estimations when you set a daily budget at Campaign -> Finances -> Budget page. Please note that traffic estimations might not be accurate, especially if you have a narrow targeting and low budgets.
+No, there is none. You can deposit any sum to your deposit address and set any daily budget, that seems reasonable to you. The only limitation is technical: budgets less than 121 satoshis won’t be spent. Just mind checking the traffic estimations when you set a daily budget at "Campaign -> Payment model" page. Please note that traffic estimations might not be accurate, especially if you have a narrow targeting and low budgets.
 
 ## How to move money from a user balance to a campaign balance?
 

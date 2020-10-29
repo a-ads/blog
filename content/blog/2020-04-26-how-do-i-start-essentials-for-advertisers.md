@@ -15,7 +15,7 @@ To start, please, [create a campaign](https://a-ads.com/campaigns/new).
 
 Our main payment model is [Daily budget](https://a-ads.com/blog/2019-08-11-how-does-daily-budget-work/): you spend a fixed amount of money per day and get a share of our publishers’ traffic.  [CPM bids](https://a-ads.com/blog/2020-03-11-how-to-use-cpm-bids-with-a-ads/) are also available, but Daily budget is preferable because when you pay per day, you are not being charged for fake impressions.
 
-You can set any daily budget, that seems reasonable to you. Please, mind checking the traffic estimations at Campaign -> Finances -> Budget and note that they are volatile and might not be accurate, especially if you have a narrow targeting and low budget.
+You can set any daily budget, that seems reasonable to you. Please, mind checking the traffic estimations at "Campaign -> Payment model" page and note that they are volatile and might not be accurate, especially if you have a narrow targeting and low budget.
 
 **1.2. Create advertisement**
 
@@ -27,7 +27,7 @@ Each ad must have a text version and may include graphic banners. A text version
 
 Most of the campaign settings are available after you create one. If you want to fine-tune your campaign, you can go to the campaign page and choose site categories, specify geo-targeting or set other options if necessary.
 
-E. g., if you want to advertise a crypto-related business, you might be interested in the following categories: Bitcoin, Earning online, and possibly Business and Finance. You can choose them on your Campaign -> Traffic sources -> Selection Criteria page. The full list of publishing websites is available in the [catalog](https://a-ads.com/catalog).  
+E. g., if you want to advertise a crypto-related business, you might be interested in the following categories: Bitcoin, Earning online, and possibly Business and Finance. You can choose them on your "Campaign -> Traffic sources -> Selection Criteria" page. The full list of publishing websites is available in the [catalog](https://a-ads.com/catalog).
 
 ## 3. Deposit funds
 

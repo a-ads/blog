@@ -17,7 +17,7 @@ With A-ADS traffic, you can count the actual CPM of your campaign if you want. T
 
 
 
-If you count actual CPM for different periods, you’ll see that it’s not constant. That’s because we don’t work on fixed CPM terms - [our network works as a market instead](https://a-ads.com/blog/2019-08-11-how-does-daily-budget-work/).  So always check campaign performance estimates on the Campaign -> Finances -> Budget page after making any adjustments to your campaign settings.
+If you count actual CPM for different periods, you’ll see that it’s not constant. That’s because we don’t work on fixed CPM terms - [our network works as a market instead](https://a-ads.com/blog/2019-08-11-how-does-daily-budget-work/).  So always check campaign performance estimates on the "Campaign -> Payment model" page after making any adjustments to your campaign settings.
 
 
 

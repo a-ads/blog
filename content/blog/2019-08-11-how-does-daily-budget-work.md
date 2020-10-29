@@ -95,4 +95,4 @@ Use broader targeting and lower daily budget to get a more predictable and satis
 
 
 
-Always check campaign performance estimates on the campaign -> finances -> budget page after making any adjustments to your campaign settings.
+Always check campaign performance estimates on the "Campaign -> Payment model" page after making any adjustments to your campaign settings.
