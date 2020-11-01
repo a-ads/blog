@@ -16,7 +16,7 @@ It takes less than a minute to start your anonymous advertising campaign or crea
 
 We bring you an extensive selection of traffic sources which are perfect for promotion of ICOs, FinTech crypto-related services, crypto-exchanges and Trading, Cloud Mining, Gaming, Gambling and Blockchain projects.
 
-We accept deposits in Bitcoin and a number of altcoins including Ripple, Qtum, Tether, NEO, Bitcoin Gold, Ether Classic, Tron, Verge, BitTorrent, DigiByte, Komodo, Zcoin, Ravencoin, Bitcoin Cash, Dash, Dogecoin, Ethereum, Litecoin, ZCash, BitcoinDiamond, Horizen, PIVX, Stratis, Vertcoin and Waves. The number of supported coins is growing.
+We accept deposits in Bitcoin and a number of altcoins including Ripple, Qtum, Tether, NEO, Bitcoin Gold, Ether Classic, Tron, Verge, BitTorrent, DigiByte, Komodo, Zcoin, Ravencoin, Bitcoin Cash, Dash, Dogecoin, Ethereum, Litecoin, ZCash, Horizen, PIVX, Stratis, Vertcoin and Waves. The number of supported coins is growing.
 
 We offer Pay-per-Day (CPD) and Pay-for-Result (CPA + RS) models which you can mix in one campaign, as well as text and graphic banner ads in most popular languages. You can create your CPD campaign [here](https://a-ads.com/campaigns/new) or contact our helpdesk to discuss CPA opportunities.
 
