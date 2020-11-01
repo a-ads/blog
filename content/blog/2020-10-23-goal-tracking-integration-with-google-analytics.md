@@ -7,7 +7,6 @@ category: How to
 thumbnail: /blog/assets/goal-tracking-integration-with-google-analytic-logo-main.png
 big_picture: /blog/assets/goal-tracking-integration-plus-google-analytic-logo-square.png
 ---
-# Goal tracking integration with Google Analytics
 
 ## What is Google Analytics?
 
