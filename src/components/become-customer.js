@@ -6,7 +6,7 @@ export default function BecomeCustomer() {
       <div className="l-container">
         <Block
           title="Get more paying customers"
-          imgPath="/blog/images/wallet-colored.svg"
+          imgPath="/blog/images/megaphone-colored.svg"
           href="https://a-ads.com/campaigns/new"
           list={(
             <ul>

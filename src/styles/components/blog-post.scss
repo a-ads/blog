@@ -73,7 +73,7 @@
       margin-bottom: 45px;
     }
     @include breakpoint(phone) {
-      height: 180px;
+      height: auto;
       margin-bottom: 30px;
     }
 
@@ -83,6 +83,12 @@
       flex-grow: 1;
       object-fit: cover;
       object-position: center center;
+      @include breakpoint(phone) {
+        min-width: none;
+        min-height: none;
+        object-fit: initial;
+        width: 100%;
+      }
     }
   }
 
