@@ -75,6 +75,7 @@
     @include breakpoint(phone) {
       height: auto;
       margin-bottom: 30px;
+      display: block;
     }
 
     img {
@@ -84,9 +85,9 @@
       object-fit: cover;
       object-position: center center;
       @include breakpoint(phone) {
-        min-width: none;
-        min-height: none;
-        object-fit: initial;
+        min-width: auto;
+        min-height: auto;
+        object-fit: unset;
         width: 100%;
       }
     }
