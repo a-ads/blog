@@ -23,7 +23,7 @@ We welcome you to help us with finding flaws in our code by clicking “Report a
 
 ## Hall of fame
 
-\- 2020-11-23 Ardyan Vicky Ramadhan reported a Formula/CSV injection vulnerability which could only exploited if the attacker gains unauthorized access to our advertisers. We have put the issue into the backlog for the time being ($50).
+\- 2020-11-23 Ardyan Vicky Ramadhan reported a Formula/CSV injection vulnerability which could only exploited if the attacker gains unauthorized access to our advertisers ($50). We have put the issue into the backlog for the time being.
 
 \- 2020-10-02 Ardyan Vicky Ramadhan re-reported a tab open vulnerability first discovered two years prior ($25). It resurfaced after a major website redesign. We've adjusted our development guidelines to avoid it in the future.
 
