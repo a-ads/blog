@@ -23,15 +23,17 @@ We welcome you to help us with finding flaws in our code by clicking “Report a
 
 ## Hall of fame
 
+\- 2020-11-23 Ardyan Vicky Ramadhan reported a Formula/CSV injection vulnerability which could only exploited if the attacker gains unauthorized access to our advertisers. We have put the issue into the backlog for the time being ($50).
+
 \- 2020-10-02 Ardyan Vicky Ramadhan re-reported a tab open vulnerability first discovered two years prior ($25). It resurfaced after a major website redesign. We've adjusted our development guidelines to avoid it in the future.
 
-\- 2020-09-01 Shiraz Ali Khan reported a minor configuration issue with our email server DNS record ($20)
+\- 2020-09-01 Shiraz Ali Khan reported a minor configuration issue with our email server DNS record ($20).
 
-\- 2020-03-27 Abir Khan Hridoy reported a possible DoS vulnerability in the user email confirmation routine ($25)
+\- 2020-03-27 Abir Khan Hridoy reported a possible DoS vulnerability in the user email confirmation routine ($25).
 
 \- 2019-10-24 Agung Saputra (r00t-geek) found out that some of our servers are directly exposed to the Internet ($20).
 
-\- 2018-05-06  Ch Chakradhar (Spi3er) reported a catalog CSRF vulnerability ($30)
+\- 2018-05-06  Ch Chakradhar (Spi3er) reported a catalog CSRF vulnerability ($30).
 
 \- 2018-03-02 Waqar Vicky reported a number of issues and received a $100 bounty:
 
