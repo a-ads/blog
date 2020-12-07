@@ -2,7 +2,8 @@
 date: 2020-12-07T10:02:05.831Z
 title: How can I confirm my withdrawal address?
 tags:
-  - news
+  - advertiser
+  - publisher
 category: How to
 thumbnail: /blog/assets/change_withdrawal_address_featured.png
 big_picture: /blog/assets/change_withdrawal_address_square.png
