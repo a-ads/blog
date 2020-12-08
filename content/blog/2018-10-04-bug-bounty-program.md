@@ -63,6 +63,6 @@ We welcome you to help us with finding flaws in our code by clicking “Report a
 
 ## Other known issues
 
-\- We send plaintext passwords to our users via email
+\- We send plaintext passwords to our users via email.
 
 \- Most of the information about our publishers' sites and advertisers' campaigns is public, including traffic and financial stats [is public](a-ads.com/privacy_policy).
