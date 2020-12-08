@@ -60,3 +60,9 @@ We welcome you to help us with finding flaws in our code by clicking “Report a
 \- 2017-11-05 Ankit Bharathan reported a low-impact XSS issue in ad preview page and earned a reward of ~$50.
 
 \- 2017-07-04 Jens Mueller (@jensvoid) responsibly reported a CORS misconfiguration vulnerability and earned a reward of ~$240.
+
+## Other known issues
+
+\- We send plaintext passwords to our users via email
+
+\- Most of the information about our publishers' sites and advertisers' campaigns is public, including traffic and financial stats [is public](a-ads.com/privacy_policy).
