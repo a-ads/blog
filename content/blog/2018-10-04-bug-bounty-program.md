@@ -65,4 +65,8 @@ We welcome you to help us with finding flaws in our code by clicking “Report a
 
 \- We send plaintext passwords to our users via email.
 
-\- Most of the information about our publishers' sites and advertisers' campaigns is public, including traffic and financial stats [is public](https://a-ads.com/privacy_policy).
+\- Most of the information about our publishers' sites and advertisers' campaigns is public.
+
+\- Some IPs of our servers are exposed to the internet.
+
+\- There is a way to terminate a browser session of another user.
