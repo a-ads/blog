@@ -1,6 +1,6 @@
 ---
 date: '2018-10-04'
-title: 'Publishers: how does our bot work for your own good'
+title: How does our bot work for your own good
 tags:
   - publisher
 category: How to
