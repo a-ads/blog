@@ -1,8 +1,8 @@
 ---
 date: 2020-12-25T10:31:30.034Z
-title: Tracking Integration with ADSBRIDGE
+title: Advanced Tracking with AdsBridge
 tags:
-  - news
+  - advertiser
 category: How to
 thumbnail: /blog/assets/adsbridge-featured.png
 big_picture: /blog/assets/adsbridge-square.png
@@ -70,6 +70,6 @@ Also, if you did not create a landing page you can use AdsBridge “direct link�
 
 ![](/blog/assets/adsbridge7-statistics.png)
 
-Note: AdsBridge Statistics only show “Token 1 - Token 6.
+Note: AdsBridge Statistics only show “Token 1 - Token 6”.
 
 **All Done!**
