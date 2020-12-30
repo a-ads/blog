@@ -61,7 +61,9 @@ We welcome you to help us with finding flaws in our code by clicking “Report a
 
 \- 2017-07-04 Jens Mueller (@jensvoid) responsibly reported a CORS misconfiguration vulnerability and earned a reward of ~$240.
 
-## Other known issues
+## Other known issues we won't reward for
+
+\- Security headers-related issues (unless there is a way to exploit them)
 
 \- We send plaintext passwords to our users via email.
 
