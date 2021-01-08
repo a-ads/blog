@@ -23,6 +23,8 @@ We welcome you to help us with finding flaws in our code by clicking “Report a
 
 ## Hall of fame
 
+\- 2021-01-08 Ardyan Vicky Ramadhan reported a Ticket Trick vulnerability and earned $50.
+
 \- 2020-11-23 Ardyan Vicky Ramadhan reported a Formula/CSV injection vulnerability which could only exploited if the attacker gains unauthorized access to our advertisers ($50). This attack is difficult to mitigate, and explicitly [disallowed](https://owasp.org/www-community/attacks/CSV_Injection) from quite a few bug bounty programs.
 
 \- 2020-10-02 Ardyan Vicky Ramadhan re-reported a tab open vulnerability first discovered two years prior ($25). It resurfaced after a major website redesign. We've adjusted our development guidelines to avoid it in the future.
@@ -61,7 +63,7 @@ We welcome you to help us with finding flaws in our code by clicking “Report a
 
 \- 2017-07-04 Jens Mueller (@jensvoid) responsibly reported a CORS misconfiguration vulnerability and earned a reward of ~$240.
 
-## Other known issues we won't reward for
+## Known and other issues we won't reward for
 
 \- Security headers-related issues (unless there is a way to exploit them)
 
@@ -72,3 +74,5 @@ We welcome you to help us with finding flaws in our code by clicking “Report a
 \- Some IPs of our servers are exposed to the internet.
 
 \- There is a way to terminate a browser session of another user.
+
+\- Ticket Trick vulnerability.
