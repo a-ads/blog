@@ -11,7 +11,7 @@ Hello publishers, we’re proud to announce the release of our WordPress plugin.
 
 **Table of contents**
 
-* Installation & Activation
+* Installation and activation
 * Configuration
 * Demo
 * Possible errors and solutions
@@ -22,7 +22,7 @@ Hello publishers, we’re proud to announce the release of our WordPress plugin.
 * A complete WordPress installation
 * An A-ADS account
 
-## Installation & Activation
+## Installation and activation
 
 **Step One:** Visit your WP(WordPress) store
 
@@ -66,8 +66,7 @@ Hello publishers, we’re proud to announce the release of our WordPress plugin.
 
 ## Possible errors and solutions
 
-1. If you don’t have an A-ADS ad unit, this plugin won’t generate any income for you. You can create one here.
-
+1. If you don’t have an A-ADS ad unit, this plugin will **not** generate any income for you. You can create one [here](https://a-ads.com/ad_units/new).
 2. If you don’t see the banner/text ad, it could simply mean that the selected placeholder doesn’t exist yet, due to your content or type of content. Fix by placing the banner/text ad in a different placeholder.
 
 For instance if you put the ad widget in “Left Sidebar”, and you didn’t see the banner/text ad at the specified placeholder, just place the ad widget in a different placeholder. E.G “Right Sidebar”, or “Footer”, or any other placeholder that exists.
