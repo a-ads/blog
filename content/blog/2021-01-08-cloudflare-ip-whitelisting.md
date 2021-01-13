@@ -2,7 +2,7 @@
 date: 2021-01-08T10:50:22.162Z
 title: Cloudflare IP Whitelisting
 tags:
-  - news
+  - publisher
 category: How to
 thumbnail: /blog/assets/cloudflare-whitelisting-featured.png
 big_picture: /blog/assets/cloudflare-whitelisting-square.png
