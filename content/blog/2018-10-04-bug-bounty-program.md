@@ -23,6 +23,8 @@ We welcome you to help us with finding flaws in our code by clicking “Report a
 
 ## Hall of fame
 
+\- 2021-01-08 Ardyan Vicky Ramadhan reported that we don't rate limit certain actions which could be performed by the user. The reward is pending.
+
 \- 2021-01-08 Ardyan Vicky Ramadhan reported a Ticket Trick vulnerability and earned $50.
 
 \- 2020-11-23 Ardyan Vicky Ramadhan reported a Formula/CSV injection vulnerability which could only exploited if the attacker gains unauthorized access to our advertisers ($50). This attack is difficult to mitigate, and explicitly [disallowed](https://owasp.org/www-community/attacks/CSV_Injection) from quite a few bug bounty programs.
