@@ -23,7 +23,7 @@ We welcome you to help us with finding flaws in our code by clicking “Report a
 
 ## Hall of fame
 
-\- 2021-01-08 Ardyan Vicky Ramadhan reported that we don't rate limit certain actions which could be performed by the user. The reward is pending.
+\- 2021-01-08 Ardyan Vicky Ramadhan reported that we don't rate limit certain actions which could be performed by the user. We are still investigating the issue. The reward is pending.
 
 \- 2021-01-08 Ardyan Vicky Ramadhan reported a Ticket Trick vulnerability and earned $50.
 
