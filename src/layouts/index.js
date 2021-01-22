@@ -7,6 +7,7 @@ import Footer from '../components/footer.js'
 import '../styles/main.scss'
 import '../utils/font-loader'
 import BecomeCustomer from '../components/become-customer'
+import { withPrefix } from 'gatsby'
 
 export default class extends React.Component {
   render() {
@@ -37,14 +38,14 @@ export default class extends React.Component {
               }
             }
           }
-        `
-        }
+        `}
         render={data => {
           this.data = data
           return (
             <div>
               <Helmet>
                 <title>{data.site.siteMetadata.title}</title>
+                <link rel="shortcut icon" type="image/jpg" href={withPrefix('/favicon.png')} />
               </Helmet>
               <Header
                 categories={this.getUsedBlogCategories()}
