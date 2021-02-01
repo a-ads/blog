@@ -4,8 +4,8 @@ title: Tracking with PeerClick
 tags:
   - advertiser
 category: How to
-thumbnail: ''
-big_picture: ''
+thumbnail: /blog/assets/adsbridge-featured.png
+big_picture: /blog/assets/adsbridge-square.png
 ---
 ![](/blog/assets/a-ads-logo.png)
 
