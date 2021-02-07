@@ -1,6 +1,6 @@
 ---
 date: 2021-02-01T07:47:09.331Z
-title: Tracking with PeerClick
+title: Advanced tracking with PeerClick
 tags:
   - advertiser
 category: How to
