@@ -82,10 +82,12 @@ Visit your newly created campaign “Tracking” tab then click “copy”, as s
 
 ![](/blog/assets/peerclick8.png)
 
-5. Configure your A-ADS campaign.\
+****
+
+**5. Configure your A-ADS campaign.**\
 Set your A-ADS campaign link to your PeerClick campaign URL without the “?” and everything after it.
 
-For example: “http://1355671696.gopeerclick.com/15Gptd”
+For example: http://1355671696.gopeerclick.com/15Gptd
 
 Then set your A-ADS campaign’s goal tracking suffix to the “?” and everything after.
 
