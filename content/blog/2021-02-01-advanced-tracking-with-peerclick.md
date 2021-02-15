@@ -4,14 +4,14 @@ title: Advanced tracking with PeerClick
 tags:
   - advertiser
 category: How to
-thumbnail: /blog/assets/adsbridge-featured.png
-big_picture: /blog/assets/adsbridge-square.png
+thumbnail: /blog/assets/peerclick_featured.png
+big_picture: /blog/assets/peerclick_square.png
 ---
 ![](/blog/assets/a-ads-logo.png)
 
 # +
 
-![](/blog/assets/peerclick-logo.png)
+![](/blog/assets/peerclick_color_logo_bage-01.png)
 
 ## What is PeerClick?
 
@@ -48,7 +48,7 @@ Note: There is no reason to change anything, except if you have different config
 
 ![](/blog/assets/peerclick3.png)
 
-****
+- - -
 
 **2. Create an offer.**\
 Go to the offers tab\
@@ -60,7 +60,7 @@ Configure your offer name and URL, then click “Create Offer”, as **seen in t
 
 ![](/blog/assets/peerclick5.png)
 
-****
+- - -
 
 **3. Create a campaign at PeerClick.**\
 Go to the “Campaigns” tab.\
@@ -75,14 +75,14 @@ Example in the image below:
 
 ![](/blog/assets/peerclick7.png)
 
-****
+- - -
 
 **4. Get the campaign tracking info.**\
 Visit your newly created campaign “Tracking” tab then click “copy”, as seen in the image below.
 
 ![](/blog/assets/peerclick8.png)
 
-****
+- - -
 
 **5. Configure your A-ADS campaign.**\
 Set your A-ADS campaign link to your PeerClick campaign URL without the “?” and everything after it.
