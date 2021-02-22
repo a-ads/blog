@@ -23,7 +23,7 @@ You will see the suffix applied to your campaign, e. g. "?partner={{partner}}".
 
 Each time we serve your ad, our server will append this suffix to your ad link and replace the "{{partner}}" with some tracking value, which identifies your campaign and the traffic source.
 
-If your ad link is "`https://example.org`" and the suffix "?partner={{partner}}", then visitors may come to your site via the link "`https://example.org/?partner=12345_67890`", where "12345" is your campaign id and "67890" is the ad unit id.
+If your ad link is `https://example.org` and the suffix "?partner={{partner}}", then visitors may come to your site via the link `https://example.org/?partner=12345_67890`, where "12345" is your campaign id and "67890" is the ad unit id.
 
 ## How to adjust the suffix?
 
