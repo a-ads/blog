@@ -19,12 +19,11 @@ Note: You can withdraw directly to a BTC address, or use FaucetPay, or ExpressCr
 
 3. Input either 
 
-* A valid “Withdrawal address”, or
-* ExpressCrypto Unique ID, or
-* An existing address at FaucetPay (which must be registered in advance)
+ • A valid “Withdrawal address”, or\
+ • ExpressCrypto Unique ID, or\
+ • An existing address at FaucetPay (which must be registered in advance)
 
 4. When withdrawing to a direct BTC address, you cannot set a “Withdrawal threshold” to less than 0.001 BTC.
-
 5. Enter your password or access code.
 
 Note: If you don’t have any means of authentication, probably because you used a social account to register, please use the email connected to your social account on [A-ADS password reset form](https://a-ads.com/user/password/new).
@@ -33,7 +32,7 @@ Note: If you don’t have any means of authentication, probably because you used
 
 ![](/blog/assets/withdrawal-change-53.png)
 
-7.  You’ll see an event: 
+7. You’ll see an event: 
 
 ![](/blog/assets/withdrawal-change-2.png)
 
