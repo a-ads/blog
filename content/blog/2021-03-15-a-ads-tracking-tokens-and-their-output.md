@@ -19,11 +19,11 @@ Where 12345 is equal to campaign ID and 67890 is equal to ad unit ID.
 
 \* **{{timestamp}}**
 
-This token indicates the exact time the ad was clicked. This is simple Unix time (https://en.wikipedia.org/wiki/Unix_time)
+This token indicates the exact time the ad was clicked. This is simple [Unix time](https://en.wikipedia.org/wiki/Unix_time)
 
 E.g. 1613148215
 
-You can convert the value to normal time here Epoch converter
+You can convert the value to normal time using [Epoch converter](https://www.epochconverter.com/)
 
 \* **{{device_type}}**
 
@@ -61,7 +61,7 @@ This token states the browser language from which the click was made.
 
 E.g. en-US
 
-More info here.
+[More info](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language).
 
 \* **{{ip_address}}**
 
