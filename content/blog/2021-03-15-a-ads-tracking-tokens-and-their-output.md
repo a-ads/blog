@@ -1,0 +1,82 @@
+---
+date: 2021-03-15T08:23:02.309Z
+title: A-ADS Tracking Tokens and Their Output
+tags:
+  - advertiser
+category: How to
+thumbnail: /blog/assets/tracking_tokens_featured.png
+big_picture: /blog/assets/tracking_tokens_square.png
+---
+Most, or all of our tracking tokens are self-explanatory but for elaboration and easy understanding the following article will briefly explain the values of the tokens.
+
+\* **{{partner}}**
+
+This token is the most popular, and to some users, the most important, it denotes {campaign\_ID}\_{ad_unit_ID}.
+
+e.g. 12345_67890
+
+Where 12345 is equal to campaign ID and 67890 is equal to ad unit ID.
+
+\* **{{timestamp}}**
+
+This token indicates the exact time the ad was clicked. This is simple Unix time (https://en.wikipedia.org/wiki/Unix_time)
+
+E.g. 1613148215
+
+You can convert the value to normal time here Epoch converter
+
+\* **{{device_type}}**
+
+This token states the type of device that made the click.
+
+E.g. Desktop.
+
+\* **{{browser_name}}**
+
+This token states the name of the browser that made the click.
+
+E.g. Google Chrome.
+
+\* **{{os_name}}**
+
+This token states the name of the operating system that made the click.
+
+E.g. Windows.
+
+\*  **{{os_version}}**
+
+This token states the version of the operating system that made the click.
+
+E.g. 10
+
+\* **{{http_country_code}}**
+
+This token states the country code from which the click was made.
+
+E.g. US
+
+\* **{{http_accept_language}}**
+
+This token states the browser language from which the click was made.
+
+E.g. en-US
+
+More info here.
+
+\* **{{ip_address}}**
+
+This token states the IP address from which the click was made.
+
+E.g. 197.210.45.176
+
+\* **{{ad_unit}}**
+
+This token states the ad unit that is responsible for referring the user that made the click.
+
+E.g. 1410509
+
+\* **{{banner_size}}**
+
+This token states the size of the banner that was clicked.
+
+E.g. 728x90
