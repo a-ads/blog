@@ -49,7 +49,7 @@ This token states the version of the operating system that made the click.
 
 E.g. 10
 
-\* **{{http_country_code}}**
+\* **{{http\_country\_code}}**
 
 This token states the country code from which the click was made.
 
