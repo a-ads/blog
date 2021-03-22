@@ -55,7 +55,7 @@ This token states the country code from which the click was made.
 
 E.g. US
 
-\* **{{http_accept_language}}**
+\* **{{http\_accept\_language}}**
 
 This token states the browser language from which the click was made.
 
