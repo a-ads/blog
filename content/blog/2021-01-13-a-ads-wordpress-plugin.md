@@ -28,7 +28,7 @@ Hello publishers, we’re proud to announce the release of our WordPress plugin.
 
 Visit the WordPress plugin store in your WP setup.
 
-For example: \`https://yourdomain.com/wp-admin/plugin-install.php\`
+For example: `https://yourdomain.com/wp-admin/plugin-install.php`
 
 **Step Two:** Search for our plugin by inserting our domain name in the placeholder, as seen in the image below.
 
@@ -42,7 +42,7 @@ For example: \`https://yourdomain.com/wp-admin/plugin-install.php\`
 
 **Step Four**: Visit your WP widget control panel, you should see our widget listed as “A-ADS Widget”. Then click the drop-down arrow, as seen in the image below.
 
-For example: \`https://yourdomain.com/wp-admin/widgets.php\`
+For example: `https://yourdomain.com/wp-admin/widgets.php`
 
 ![](/blog/assets/worpress-plugin-3.png)
 
