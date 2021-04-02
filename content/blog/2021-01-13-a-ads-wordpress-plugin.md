@@ -7,7 +7,7 @@ category: How to
 thumbnail: /blog/assets/worpress-plugin-featured.png
 big_picture: /blog/assets/worpress-plugin-square.png
 ---
-Hello publishers, we’re proud to announce the release of our WordPress plugin. The aim of this article is to show you how to use this plugin.
+Hello publishers, we’re proud to announce the release of our WordPress plugin. This article aims to show you how to use this plugin.
 
 **Table of contents**
 
@@ -26,9 +26,9 @@ Hello publishers, we’re proud to announce the release of our WordPress plugin.
 
 **Step One:** Visit your WP(WordPress) store
 
-\>> Visit the WordPress plugin store in your WP setup.
+Visit the WordPress plugin store in your WP setup.
 
-\>> For example: “https://yourdomain.com/wp-admin/plugin-install.php”.
+For example: \`https://yourdomain.com/wp-admin/plugin-install.php\`
 
 **Step Two:** Search for our plugin by inserting our domain name in the placeholder, as seen in the image below.
 
@@ -42,7 +42,7 @@ Hello publishers, we’re proud to announce the release of our WordPress plugin.
 
 **Step Four**: Visit your WP widget control panel, you should see our widget listed as “A-ADS Widget”. Then click the drop-down arrow, as seen in the image below.
 
-\>> For example: https://yourdomain.com/wp-admin/widgets.php
+For example: \`https://yourdomain.com/wp-admin/widgets.php\`
 
 ![](/blog/assets/worpress-plugin-3.png)
 
@@ -56,7 +56,7 @@ Hello publishers, we’re proud to announce the release of our WordPress plugin.
 
 ## Demo
 
-**Step Seven**: All done, Check for the ad, as you configured in your WP widget control panel.
+**Step Seven**: All done, check for the ad, as you configured in your WP widget control panel.
 
 See the image below.
 
@@ -67,7 +67,7 @@ See the image below.
 1. If you don’t have an A-ADS ad unit, this plugin will **not** generate any income for you. You can create one [here](https://a-ads.com/ad_units/new).
 2. If you don’t see the banner/text ad, it could simply mean that the selected placeholder doesn’t exist yet, due to your content or type of content. Fix by placing the banner/text ad in a different placeholder.
 
-For instance if you put the ad widget in “Left Sidebar”, and you didn’t see the banner/text ad at the specified placeholder, just place the ad widget in a different placeholder. E.G “Right Sidebar”, or “Footer”, or any other placeholder that exists.
+For instance, if you put the ad widget in “Left Sidebar”, and you didn’t see the banner/text ad at the specified placeholder, just place the ad widget in a different placeholder. E.G “Right Sidebar”, or “Footer”, or any other placeholder that exists.
 
 Note: you can drag and drop the ad widget or any other widget to different placeholders.
 
