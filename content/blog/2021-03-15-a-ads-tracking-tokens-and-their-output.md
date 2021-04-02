@@ -27,19 +27,19 @@ You can convert the value to normal time using [Epoch converter](https://www.epo
 
 \* `{{device_type}}`
 
-This token states the type of device that made the click.
+This token states the type of device that made the click. Available device types: 'Desktop', 'Mobile', 'Tablet' and 'Other'.
 
 E.g. Desktop.
 
 \* `{{browser_name}}`
 
-This token states the name of the browser that made the click.
+This token states the name of the browser that made the click. Available browser names: 'Android Browser', 'Internet Explorer', 'Microsoft Edge', 'Google Chrome', 'Mozilla Firefox', 'Opera', 'Samsung Browser', 'UC Browser', 'Apple Safari', 'Yandex Browser', 'Other'.
 
 E.g. Google Chrome.
 
 \* `{{os_name}}`
 
-This token states the name of the operating system that made the click.
+This token states the name of the operating system that made the click. Available os names: 'Android', 'Chrome OS', 'iOS', 'GNU/Linux', 'Mac', 'Windows', 'Other'.
 
 E.g. `Windows`
 
@@ -51,7 +51,7 @@ E.g. `10`
 
 \* `{{http_country_code}}`
 
-This token states the country code from which the click was made.
+This token states the country code from which the click was made. Here are [available country codes](https://dev.maxmind.com/geoip/legacy/codes/iso3166/).
 
 E.g. `US`
 
