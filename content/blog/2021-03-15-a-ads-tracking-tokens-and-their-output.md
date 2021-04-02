@@ -9,74 +9,74 @@ big_picture: /blog/assets/tracking_tokens_square.png
 ---
 Most, or all of our tracking tokens are self-explanatory but for elaboration and easy understanding the following article will briefly explain the values of the tokens.
 
-\* **{{partner}}**
+\* `{{partner}}`
 
 This token is the most popular, and to some users, the most important, it denotes {campaign\_ID}\_{ad_unit_ID}.
 
-e.g. 12345_67890
+e.g. `12345_67890`
 
 Where 12345 is equal to campaign ID and 67890 is equal to ad unit ID.
 
-\* **{{timestamp}}**
+\* `{{timestamp}}`
 
 This token indicates the exact time the ad was clicked. This is simple [Unix time](https://en.wikipedia.org/wiki/Unix_time)
 
-E.g. 1613148215
+E.g. `1613148215`
 
 You can convert the value to normal time using [Epoch converter](https://www.epochconverter.com/)
 
-\* **{{device_type}}**
+\* `{{device_type}}`
 
 This token states the type of device that made the click.
 
 E.g. Desktop.
 
-\* **{{browser_name}}**
+\* `{{browser_name}}`
 
 This token states the name of the browser that made the click.
 
 E.g. Google Chrome.
 
-\* **{{os_name}}**
+\* `{{os_name}}`
 
 This token states the name of the operating system that made the click.
 
-E.g. Windows.
+E.g. `Windows`
 
-\*  **{{os_version}}**
+\*  `{{os_version}}`
 
 This token states the version of the operating system that made the click.
 
-E.g. 10
+E.g. `10`
 
-\* **{{http\_country\_code}}**
+\* `{{http_country_code}}`
 
 This token states the country code from which the click was made.
 
-E.g. US
+E.g. `US`
 
-\* **{{http\_accept\_language}}**
+\* `{{http_accept_language}}`
 
 This token states the browser language from which the click was made.
 
-E.g. en-US
+E.g. `en-US`
 
 [More info](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language).
 
-\* **{{ip_address}}**
+\* `{{ip_address}}`
 
 This token states the IP address from which the click was made.
 
-E.g. 197.210.45.176
+E.g. `127.128.129.130`
 
-\* **{{ad_unit}}**
+\* `{{ad_unit}}`
 
 This token states the ad unit that is responsible for referring the user that made the click.
 
-E.g. 1410509
+E.g. `1410509`
 
-\* **{{banner_size}}**
+\* `{{banner_size}}`
 
 This token states the size of the banner that was clicked.
 
-E.g. 728x90
+E.g. `728x90`
