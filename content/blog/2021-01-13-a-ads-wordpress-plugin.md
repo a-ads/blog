@@ -40,9 +40,7 @@ Hello publishers, we’re proud to announce the release of our WordPress plugin.
 
 ## Configuration
 
-**Step Four**: Visit your WP widget control panel, you should see our widget listed as “A-ADS Widget”.
-
-\    Then click the drop-down arrow, as seen in the image below.
+**Step Four**: Visit your WP widget control panel, you should see our widget listed as “A-ADS Widget”. Then click the drop-down arrow, as seen in the image below.
 
 \>> For example: https://yourdomain.com/wp-admin/widgets.php
 
@@ -60,7 +58,7 @@ Hello publishers, we’re proud to announce the release of our WordPress plugin.
 
 **Step Seven**: All done, Check for the ad, as you configured in your WP widget control panel.
 
-\    See the image below.
+See the image below.
 
 ![](/blog/assets/worpress-plugin-6.jpg)
 
