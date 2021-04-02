@@ -23,7 +23,9 @@ We welcome you to help us with finding flaws in our code by clicking “Report a
 
 ## Hall of fame
 
-\- 2021-02-16 Ardyan Vicky Ramadhan reported a bug that allowed to edit other users' advertisements ($300).
+\- 2021-03-09 Ardyan Vicky Ramadhan reported a bug that allowed to edit other users' unlinked advertisements ($25).
+
+\- 2021-02-16 Ardyan Vicky Ramadhan reported a bug that allowed to edit other users' campaigns ($300).
 
 \- 2021-01-08 Ardyan Vicky Ramadhan reported that we don't rate limit certain actions which could be performed by the user ($50).
 
