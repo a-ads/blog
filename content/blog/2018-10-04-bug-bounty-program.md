@@ -23,7 +23,7 @@ We welcome you to help us with finding flaws in our code by clicking “Report a
 
 ## Hall of fame
 
-\- 2021-03-11 Foysal Ahmed Fahim reported a vulnerability which allowed a possible takeover of an unused A-ADS subdomain ($25).
+\- 2021-03-11 Foysal Ahmed Fahim reported a vulnerability that allowed a possible takeover of an unused A-ADS subdomain ($30).
 
 \- 2021-03-09 Ardyan Vicky Ramadhan reported a bug that allowed to edit other users' unlinked advertisements ($30).
 
