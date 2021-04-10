@@ -12,7 +12,7 @@ We’re glad to inform our advertisers that we’ve implemented the support of a
 
 
 
-Now we accept deposits in Ripple, Qtum, Tether, NEO, Bitcoin Gold, Ether Classic, Tron, Verge, BitTorrent, DigiByte, Komodo, Ravencoin, Bitcoin Cash, Dash, Dogecoin, Ethereum, Litecoin, ZCash, Horizen, PIVX, NEM, Vertcoin and Waves.
+Now we accept deposits in Ripple, Binance Coin, Bitcoin SV, Qtum, Tether, NEO, Bitcoin Gold, Ether Classic, Tron, Verge, BitTorrent, DigiByte, Komodo, Ravencoin, Bitcoin Cash, Dash, Dogecoin, Ethereum, Litecoin, ZCash, Horizen, PIVX, NEM, Vertcoin and Waves.
 
 
 
