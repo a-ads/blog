@@ -23,7 +23,7 @@ We welcome you to help us with finding flaws in our code by clicking “Report a
 
 ## Hall of fame
 
-\- 2021-04-06 Murimi M. reported a vulnerability that allowed to log into a user account without passing a captcha from mobile devices ($30).
+\- 2021-04-06 Murimi M. reported a vulnerability that allowed to log into a user account with an access code or BTC address without passing a captcha ($30).
 
 \- 2021-03-11 Foysal Ahmed Fahim reported a vulnerability that allowed a possible takeover of an unused A-ADS subdomain ($30).
 
