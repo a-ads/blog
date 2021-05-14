@@ -12,7 +12,7 @@ We’re glad to inform our advertisers that we’ve implemented the support of a
 
 
 
-Now we accept deposits in Ripple, Binance Coin, Bitcoin SV, Qtum, Tether, NEO, Bitcoin Gold, Ether Classic, Tron, Verge, BitTorrent, DigiByte, Komodo, Ravencoin, Bitcoin Cash, Dash, Dogecoin, Ethereum, Litecoin, ZCash, Horizen, PIVX, NEM, Vertcoin and Waves.
+Now we accept deposits in Ripple, Binance Coin, Bitcoin SV, Tether, NEO, Ether Classic, Tron, BitTorrent, Bitcoin Cash, Dash, Dogecoin, Ethereum, Litecoin, ZCash, NEM and Waves.
 
 
 
@@ -28,7 +28,7 @@ First of all, we automatically convert your altcoin deposits to Bitcoin (BTC), w
 
 
 
-Secondly, there is a 3% conversion fee for altcoin deposits, and[ our payment processor ](https://www.coinpayments.net/)will take an additional 0.5% fee.
+Secondly, there is a 3% conversion fee for altcoin deposits, and [our payment processor](https://www.coinpayments.net/) will take an additional 0.5% fee (1% for ERC20 and BEP20 tokens).
 
 
 
