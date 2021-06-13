@@ -1,4 +1,5 @@
 import React from 'react'
+import { withPrefix } from 'gatsby'
 
 export default function BecomeCustomer() {
   return (
@@ -6,7 +7,7 @@ export default function BecomeCustomer() {
       <div className="l-container">
         <Block
           title="Get more paying customers"
-          imgPath="/blog/images/megaphone-colored.svg"
+          img={<img src={withPrefix('/images/megaphone-colored.svg')} width="70" height="56" alt="megaphone"/>}
           href="https://a-ads.com/campaigns/new"
           list={(
             <ul>
@@ -20,7 +21,7 @@ export default function BecomeCustomer() {
         <div className="become-customer__delimeter"/>
         <Block
           title="Monetize your traffic"
-          imgPath="/blog/images/wallet-colored.svg"
+          img={<img src={withPrefix('/images/wallet-colored.svg')} width="55" height="56" alt="wallet"/>}
           href="https://a-ads.com/ad_units/new"
           list={(
             <ul>
@@ -40,6 +41,7 @@ export default function BecomeCustomer() {
 function Block({
   title,
   imgPath = '',
+  img,
   list,
   textOnButton,
   href
@@ -47,7 +49,7 @@ function Block({
   return (
     <div className="become-customer__block">
       <div className="become-customer__block-img-wrap">
-        <img src={imgPath} alt={imgPath}/>
+        {img}
       </div>
       <div className="become-customer__block-main-wrap">
         <h3>{title}</h3>

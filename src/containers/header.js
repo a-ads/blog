@@ -1,7 +1,7 @@
-import React, { useRef, useEffect } from 'react'
+import React, { useRef } from 'react'
 import { connect } from 'react-redux'
 import { fallDown as MobileMenu } from 'react-burger-menu'
-import { Link, navigate } from 'gatsby'
+import { Link } from 'gatsby'
 import _ from 'lodash'
 import Search from '../components/search'
 import { withPrefix } from 'gatsby'
@@ -26,7 +26,7 @@ class Header extends React.Component {
           <div className='c-header__left-part'>
             <div className='c-header__logo'>
               <Link className='c-header__logo__container' to='/'>
-                <img src={withPrefix('/images/logo.svg')} alt='logo' />
+                <img src={withPrefix('/images/logo.svg')} alt='logo' width='90' height='50' />
               </Link>
             </div>
             {this.renderUserTypeTagLinks()}
@@ -40,7 +40,7 @@ class Header extends React.Component {
           <div className='c-header__left-part'>
             <div className='c-header__logo'>
               <Link className='c-header__logo__container' to='/'>
-                <img src={withPrefix('/images/logo.svg')} alt='logo'/>
+                <img src={withPrefix('/images/logo.svg')} alt='logo' width='73' height='41' />
               </Link>
             </div>
 
@@ -84,7 +84,7 @@ class Header extends React.Component {
           {!this.state.isSearchComponentDesktopActive &&
             <li className='--search-icon'>
               <a href='#' onClick={this.onSearchIconClick}>
-                <img src={withPrefix('/images/search-icon.svg')} alt='search icon' />
+                <img src={withPrefix('/images/search-icon.svg')} width='24' height='24' alt='search icon' />
               </a>
             </li>
           }

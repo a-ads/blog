@@ -89,6 +89,7 @@
         min-height: auto;
         object-fit: unset;
         width: 100%;
+        height: auto;
       }
     }
   }
@@ -120,6 +121,10 @@
         margin-top: 40px;
         padding-right: 0;
       }
+    }
+
+    p {
+      word-break: break-all;
     }
 
     p, ul, ol {
@@ -155,6 +160,7 @@
 
     img {
       max-width: 100%;
+      height: auto;
     }
 
     figure {

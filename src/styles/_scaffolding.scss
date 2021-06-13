@@ -94,7 +94,7 @@ code {
   border: 2px solid #D8DFE3;
   border-radius: 4px;
   display: inline-block;
-  word-wrap: break-word;
+  word-break: break-all;
   white-space: pre-wrap;
   color: #263238;
   @include breakpoint(tablet) {
