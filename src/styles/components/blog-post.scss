@@ -105,6 +105,14 @@
     }
   }
 
+  article.l-blog-post-container {
+    @include breakpoint(phone) {
+      width: 100%;
+      box-sizing: border-box;
+      max-width: 480px;
+    }
+  }
+
   .c-blog-post__body {
     position: relative;
     z-index: 10;

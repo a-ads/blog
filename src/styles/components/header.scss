@@ -190,17 +190,15 @@
     @include breakpoint('tablet') {
       display: block;
     }
+    @media (max-width: 375px) {
+      margin-left: 20px;
+    }
 
     .c-header__user-types-drop-container {
       display: none;
       position: absolute;
-      padding: 24px 28px;
-      background: white;
-      border-radius: 4px;
-      box-shadow: 0px 2px 16px rgba(15, 35, 63, 0.12);
-      flex-direction: column;
       top: calc(100% + 15px);
-      right: -70px;
+      left: 0px;
 
       &.--visible {
         display: flex;
@@ -215,9 +213,19 @@
         border-bottom: 12px solid white;
         border-left: 12px solid transparent;
         border-right: 12px solid transparent;
-        right: calc(50% - 12px);
+        right: calc(50% + 16px);
         top: -8px;
       }
+    }
+
+    .c-header__user-types-drop-container-inner {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      background: white;
+      border-radius: 4px;
+      box-shadow: 0px 2px 16px rgba(15, 35, 63, 0.12);
+      padding: 24px 28px;
 
       > a {
         margin-bottom: 0;

@@ -203,15 +203,17 @@ function UserTypeTagsDropdown() {
           ${isOpen ? '--visible' : ''}
         `}
       >
-        {selectedItem !== 'All' &&
-          <Link to="/">All</Link>
-        }
-        {selectedItem !== 'Advertiser' &&
-          <Link to="/tags/advertiser/">Advertiser</Link>
-        }
-        {selectedItem !== 'Publisher' &&
-          <Link to="/tags/publisher/">Publisher</Link>
-        }
+        <div className={`c-header__user-types-drop-container-inner`}>
+          {selectedItem !== 'All' &&
+            <Link to="/">All</Link>
+          }
+          {selectedItem !== 'Advertiser' &&
+            <Link to="/tags/advertiser/">Advertiser</Link>
+          }
+          {selectedItem !== 'Publisher' &&
+            <Link to="/tags/publisher/">Publisher</Link>
+          }
+        </div>
       </div>
     </div>
   )
