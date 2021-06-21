@@ -131,10 +131,6 @@
       }
     }
 
-    p {
-      word-break: break-all;
-    }
-
     p, ul, ol {
       margin-bottom: 40px;
       @include breakpoint(tablet) {
