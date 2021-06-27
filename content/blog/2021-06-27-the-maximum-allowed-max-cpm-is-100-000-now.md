@@ -4,8 +4,8 @@ title: 'The maximum allowed "Max CPM" is $100,000 now'
 tags:
   - news advertiser
 category: Development
-thumbnail: /blog/assets/undraw_stepping_up_g6oo.png
-big_picture: /blog/assets/undraw_stepping_up_g6oo.png
+thumbnail: /blog/assets/undraw_stepping_up_g6oo2.png
+big_picture: /blog/assets/undraw_stepping_up_g6oo2.png
 ---
 # What is "Max CPM"?
 
