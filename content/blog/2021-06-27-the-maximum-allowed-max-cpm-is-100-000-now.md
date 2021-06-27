@@ -25,4 +25,4 @@ It appears that some advertisers are ready to pay over $10,000 per thousand of u
 
 # Why is there even a limitation for "Max CPM"?
 
-It is a sanity check to protect our advertisers from misconfiguring their campaigns. A few months ago, we thought that an over $100 value could be there only by mistake. But since some advertisers are willing to pay more, we have been gradually increasing it (10x at a time).
+It is a sanity check to protect our advertisers from misconfiguring their campaigns. A few months ago, we thought that an over $100 value could be there only by mistake. But since some advertisers are willing to pay more, we have been gradually increasing it, 10x at a time.
