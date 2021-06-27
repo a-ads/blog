@@ -11,7 +11,7 @@ big_picture: /blog/assets/undraw_stepping_up_g6oo.png
 
 `Max CPM` is a parameter of the Cost-Per-Day (aka Daily budget) advertising campaign that works as a filter: it excludes the traffic sources with expensive traffic from the campaign's targeting.
 
-If `Max CPM` is not specified, the default value is used, which works fine in a normal situation and protects the advertisers from overpaying for traffic.
+If `Max CPM` is not specified, the default value is used, which works fine in a normal situation and protects advertisers from overpaying for traffic.
 
 However, when multiple big advertisers compete for a single site, they may raise its CPM, thus effectively excluding it from their campaigns' targeting.
 
