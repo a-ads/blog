@@ -19,7 +19,7 @@ However, when multiple big advertisers compete for a single site, they may raise
 
 `Max CPM` is not the traffic price - it is a filter. If you do not want to filter out ad units by CPM, you can set it to the maximum allowed value.
 
-CPM is not a good metric at A-ADS because of [how we measure traffic](https://a-ads.com/blog/2018-10-04-counting-unique-impressions/): one IP address can generate only one unique impression in the scope of the whole A-ADS network per day. So if there are multiple ad units on the same page, the first one will get most of the unique impressions, and the last one may appear to have an insanely high CPM.
+Due to a way [how we measure traffic](https://a-ads.com/blog/2018-10-04-counting-unique-impressions/), CPM is not a good metric at A-ADS: one IP address can generate only one unique impression in the scope of the whole advertising network per day. So if there are multiple ad units on the same page, the first one will get most of the unique impressions, and the last one may appear to have an insanely high CPM.
 
 It appears that some advertisers are ready to pay over $10,000 per thousand of unique impressions, so we decided to increase the maximum allowed value to $100,000.
 
