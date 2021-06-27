@@ -1,6 +1,6 @@
 ---
 date: 2021-06-27T13:34:07.916Z
-title: 'The maximum allowed `Max CPM` is $100,000 now'
+title: 'The maximum allowed "Max CPM" is $100,000 now'
 tags:
   - news advertiser
 category: Development
