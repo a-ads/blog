@@ -53,7 +53,11 @@ export default class BlogPost extends React.Component {
 
             {post.frontmatter.thumbnail &&
               <section className='c-blog-post__big-picture'>
-                <img src={post.frontmatter.thumbnail} alt='pic' />
+                <img src={post.fields.thumbnailObject.src} 
+                  alt='pic' 
+                  width={post.fields.thumbnailObject.width}
+                  height={post.fields.thumbnailObject.height}
+                />
               </section>
             }
 
@@ -159,6 +163,13 @@ export const query = graphql`
         tags
         category
         date(formatString: "DD MMMM, YYYY")
+      }
+      fields {
+        thumbnailObject {
+          src
+          width
+          height
+        }
       }
       excerpt
     }

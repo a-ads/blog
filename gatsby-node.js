@@ -3,6 +3,7 @@ const { createFilePath } = require('gatsby-source-filesystem');
 const _ = require('lodash');
 const CONFIG = require('./src/config.js');
 const fs = require('fs');
+const imageSize = require('image-size')
 
 exports.onCreateWebpackConfig = ({ actions, stage }) => {
   if (stage === 'build-javascript') {
@@ -14,14 +15,36 @@ exports.onCreateWebpackConfig = ({ actions, stage }) => {
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
-
+  
   if (node.internal.type === 'MarkdownRemark') {
     const slug = createFilePath({ node, getNode, basePath: 'blog'});
     createNodeField({
       node,
       name: 'slug',
-      value: slug
+      value: slug, 
     });
+
+    var thumbnailObject = {};
+    if (node.frontmatter.thumbnail) {
+      try {
+        const splittedThubmnail = node.frontmatter.thumbnail.split('/');
+        const thumbnailPath = './static/assets/' + splittedThubmnail[splittedThubmnail.length - 1];
+        const thubmnailDimensions = imageSize(thumbnailPath);
+
+        thumbnailObject = {
+          src: node.frontmatter.thumbnail,
+          width: thubmnailDimensions.width,
+          height: thubmnailDimensions.height
+        };
+      } catch(err) {
+        console.error(err);
+      }
+    }
+    createNodeField({
+      node,
+      name: 'thumbnailObject',
+      value: thumbnailObject
+    })
   }
 };
 
