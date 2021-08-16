@@ -21,4 +21,4 @@ We welcome you to help us with finding flaws in our code by clicking “Report a
 
 ## Hall of fame
 
-The Hall of Fame is being updated in [our Helpdesk](https://help.a-ads.com/en/article/bug-bounty-program-at-a-ads-17ryedq/).
+The Hall of Fame is stored in [our Helpdesk](https://help.a-ads.com/en/article/bug-bounty-program-at-a-ads-17ryedq/).
