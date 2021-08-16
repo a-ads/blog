@@ -24,19 +24,3 @@ We welcome you to help us with finding flaws in our code by clicking “Report a
 ## Hall of fame
 
 The Hall of Fame is being updated in [our Helpdesk](https://help.a-ads.com/en/article/bug-bounty-program-at-a-ads-17ryedq/).
-
-
-
-## Known and other issues we won't reward for
-
-\- Security headers-related issues (unless there is a way to exploit them)
-
-\- We send plaintext passwords to our users via email.
-
-\- Most of the information about our publishers' sites and advertisers' campaigns is public.
-
-\- Some IPs of our servers are exposed to the internet.
-
-\- There is a way to terminate a browser session of another user.
-
-\- Ticket Trick vulnerability.
