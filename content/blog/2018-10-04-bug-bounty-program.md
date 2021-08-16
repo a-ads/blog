@@ -23,57 +23,9 @@ We welcome you to help us with finding flaws in our code by clicking “Report a
 
 ## Hall of fame
 
-\- 2021-07-08 badcracker reported a bug which allowed to bypass the CAPTCHA protection under special conditions. The issue has been resolved. The reward is pending.
+The Hall of Fame is being updated in [our Helpdesk](https://help.a-ads.com/en/article/bug-bounty-program-at-a-ads-17ryedq/).
 
-\- 2021-04-06 Murimi M. reported a vulnerability that allowed to log into a user account with an access code or BTC address without passing a captcha ($30).
 
-\- 2021-03-11 Foysal Ahmed Fahim reported a vulnerability that allowed a possible takeover of an unused A-ADS subdomain ($30).
-
-\- 2021-03-09 Ardyan Vicky Ramadhan reported a bug that allowed to edit other users' unlinked advertisements ($30).
-
-\- 2021-02-16 Ardyan Vicky Ramadhan reported a bug that allowed to edit other users' campaigns ($300).
-
-\- 2021-01-08 Ardyan Vicky Ramadhan reported that we don't rate limit certain actions which could be performed by the user ($50).
-
-\- 2021-01-08 Ardyan Vicky Ramadhan reported a Ticket Trick vulnerability ($50).
-
-\- 2020-11-23 Ardyan Vicky Ramadhan reported a Formula/CSV injection vulnerability which could only exploited if the attacker gains unauthorized access to our advertisers ($50). This attack is difficult to mitigate, and explicitly [disallowed](https://owasp.org/www-community/attacks/CSV_Injection) from quite a few bug bounty programs.
-
-\- 2020-10-02 Ardyan Vicky Ramadhan re-reported a tab open vulnerability first discovered two years prior ($25). It resurfaced after a major website redesign. We've adjusted our development guidelines to avoid it in the future.
-
-\- 2020-09-01 Shiraz Ali Khan reported a minor configuration issue with our email server DNS record ($20).
-
-\- 2020-03-27 Abir Khan Hridoy reported a possible DoS vulnerability in the user email confirmation routine ($25).
-
-\- 2019-10-24 Agung Saputra (r00t-geek) found out that some of our servers are directly exposed to the Internet ($20).
-
-\- 2018-05-06  Ch Chakradhar (Spi3er) reported a catalog CSRF vulnerability ($30).
-
-\- 2018-03-02 Waqar Vicky reported a number of issues and received a $100 bounty:
-
-* Password reset requests are not rate limited and can be used to perform a DoS attack
-* Our jQuery library is outdated and might be insecure
-* We allow extremely weak password at user registration
-* After logging off you can use a web browser back button to see previously opened web pages
-* After changing an email address _or_ password other open sessions and existing password reset tokens are not invalidated
-
-\- 2017-12-10 Anonymous researcher reported a session termination vulnerability and earned $50.
-
-\- 2017-11-22 Anonymous researcher reported a self XSS protection vulnerability - we don't consider it to be our vulnerability, but we may take measures to mitigate it in the future.
-
-\- 2017-11-22 Anonymous researcher reported a tab open vulnerability and earned ~$100.
-
-\- 2017-11-22 Anonymous researcher reported an SSL cookie vulnerability (investigating).
-
-\- 2017-11-21 Anonymous researcher reported a minor issue related to the email change and earned a reward of ~$30.
-
-\- 2017-11-16 Ch Chakradhar (Spi3er) reported a minor issue which made it possible to check the existence of a user by email and earned a reward of ~$30.
-
-\- 2017-11-08 Anonymous researcher reported a vulnerability which gave him access to our staging database and to a third-party server which we used for monitoring and control. Thus he earned a reward of ~$500.
-
-\- 2017-11-05 Ankit Bharathan reported a low-impact XSS issue in ad preview page and earned a reward of ~$50.
-
-\- 2017-07-04 Jens Mueller (@jensvoid) responsibly reported a CORS misconfiguration vulnerability and earned a reward of ~$240.
 
 ## Known and other issues we won't reward for
 
