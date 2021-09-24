@@ -31,7 +31,7 @@ E. g., if you want to advertise a crypto-related business, you might be interest
 
 ## 3. Deposit funds
 
-We currently accept deposits in Bitcoin and 20+ other cryptocurrencies. You can deposit any sum to your campaign or user account. Please note that your user balance will automatically be used to fund your started campaigns. So if you do not want your campaigns to use your user balance, then please pause them.
+We currently accept deposits in Bitcoin and 20+ other cryptocurrencies. We advise our users not to make deposits less than 15$ in value. The minimum deposit value for each cryptocurrency is displayed in the deposit popup and might change, so keep an eye on it. Please note that your user balance will automatically be used to fund your started campaigns. So if you do not want your campaigns to use your user balance, then please pause them.
 
 ## 4. Wait for traffic
 
