@@ -29,9 +29,13 @@ If you want to advertise a crypto-related business, you might be interested in t
 
 Our main payment model is a daily budget. [CPM bids](https://a-ads.com/blog/2020-03-11-how-to-use-cpm-bids-with-a-ads/) are also available, but the daily budget is preferable.
 
-## Is there a minimum deposit or a minimum daily budget?
+## Is there a minimum daily budget?
 
-No, there is none. You can deposit any sum to your deposit address and set any daily budget, that seems reasonable to you. The only limitation is technical: budgets less than 121 satoshis won’t be spent. Just mind checking the traffic estimations when you set a daily budget at "Campaign -> Payment model" page. Please note that traffic estimations might not be accurate, especially if you have a narrow targeting and low budgets.
+You can set any daily budget, that seems reasonable to you. The only limitation is technical: budgets less than 120 satoshis won’t be spent. Just mind checking the traffic estimations when you set a daily budget at “Campaign -> Payment model” page. Please note that traffic estimations might not be accurate, especially if you have a narrow targeting and low budgets.
+
+## Is there a minimum deposit?
+
+The minimum deposit value depends on the chosen cryptocurrency and is shown in the deposit popup. The general advice is to make deposits greater than 15$ in value so that it is proceeded correctly.
 
 ## How to move money from a user balance to a campaign balance?
 
