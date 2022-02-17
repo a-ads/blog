@@ -22,7 +22,7 @@ Ad unit earnings are affected by many factors, including the following:
   Here comes the impact of language, geolocation, ad unit dimensions, categories defined for the website.\
   Remember: our daily budget [varies greatly](https://a-ads.com/blog/2019-08-11-how-does-daily-budget-work/) from day to day as advertising campaigns come and go. We cannot promise or predict that your ad unit will match the category, language, banner sizes, budget, etc. of currently running ads.
 * **content filters defined for the ad unit** \
-  The ad unit owner might forbid any of the following advertising categories: NSFW, Shady, Gambling, Risky Investments, and also s/he might choose to show only text advertisements.  A number of our advertisers match these categories or they choose to show graphical banners only thus excluding part of ad units from their targeting.
+  The ad unit owner might forbid any of the following advertising categories: NSFW, Risky, Gambling, Investments, and also s/he might choose to show only text advertisements.  A number of our advertisers match these categories or they choose to show graphical banners only thus excluding part of ad units from their targeting.
 * **ad unit display rate** \
   Our bot checks whether the [ad unit is present](https://a-ads.com/blog/2019-06-17-how-to-place-an-ad-unit-code-correctly/) at the specified URL and is accessible. It does so several times a day. If the bot can access the ad unit only once every two attempts, then the display rate is 50%.
 * **size and location of an ad unit on a website page** \

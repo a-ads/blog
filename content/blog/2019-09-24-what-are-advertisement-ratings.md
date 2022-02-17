@@ -19,11 +19,11 @@ Advertising campaigns need to be approved by A-ADS moderators to get started. Ad
 
 
 
-**"Risky investments"** rating is for all kinds of financial services and offers which suggest spending money to receive profits in the future. Here come all the crypto investments, ICOs, stocks, loans, etc. Please avoid promising too much in your ads, because if it doesn't look feasible, the ad may receive a “Shady” rating as well.
+**"Investments"** rating is for all kinds of financial services and offers which suggest spending money to receive profits in the future. Here come all the crypto investments, ICOs, stocks, loans, etc. Please avoid promising too much in your ads, because if it doesn't look feasible, the ad may receive a “Risky” rating as well.
 
 
 
-**"Shady"** rating is for suspicious or potentially illegal services. All offers considered "too good to be true" (e. g. high payments for easy work or impossibly high returns) will also fall into this category. Most of the legit publishers don't allow "Shady" ads, so please carefully word your ads to avoid this rating.
+**"Risky"** rating is for suspicious or potentially illegal services. All offers considered "too good to be true" (e. g. high payments for easy work or impossibly high returns) will also fall into this category. Most of the legit publishers don't allow "Risky" ads, so please carefully word your ads to avoid this rating.
 
 
 
@@ -55,7 +55,7 @@ Publishers decide what kinds of ads are allowed on their sites.
 
 
 
-Since most of our advertisers come from the crypto-industry, publishers typically allow "Gambling" and "Risky investments" ads.
+Since most of our advertisers come from the crypto-industry, publishers typically allow "Gambling" and "Investments" ads.
 
 
 
@@ -63,7 +63,7 @@ There is less inventory available for "NSFW" ads.
 
 
 
-Ads rated as "Shady" usually have worse performance because legit publishers with quality sites tend to avoid them.
+Ads rated as "Risky" usually have worse performance because legit publishers with quality sites tend to avoid them.
 
 
 
