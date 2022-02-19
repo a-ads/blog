@@ -15,12 +15,11 @@ A-ADS strives to be as secure as possible, so we have enabled the measures to pr
 
 2. Select your “withdrawal type”.
 
-Note: You can withdraw directly to a BTC address, or use FaucetPay, or ExpressCrypto; The withdrawals to FaucetPay and ExpressCrypto are instant, but those to direct BTC addresses are processed only once a day.
+Note: You can withdraw directly to a BTC address, or use FaucetPay; The withdrawals to FaucetPay are instant, but those to direct BTC addresses are processed only once a day.
 
 3. Input either 
 
  • A valid “Withdrawal address”, or\
- • ExpressCrypto Unique ID, or\
  • An existing address at FaucetPay (which must be registered in advance)
 
 4. When withdrawing to a direct BTC address, you cannot set a “Withdrawal threshold” to less than 0.001 BTC.
