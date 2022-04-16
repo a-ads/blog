@@ -1,5 +1,5 @@
 ---
-date: 2020-03-13T10:02:47.895Z
+date: 2022-03-01T10:02:47.895Z
 title: How to run your own affiliate program
 tags:
   - ''
