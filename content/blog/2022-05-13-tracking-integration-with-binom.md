@@ -4,8 +4,8 @@ title: Tracking Integration With Binom
 tags:
   - advertiser
 category: How to
-thumbnail: /blog/assets/office-workers-organizing-data-storage.jpg
-big_picture: ''
+thumbnail: /blog/assets/undraw_current_location_re_j130.png
+big_picture: /blog/assets/undraw_current_location_re_j130.png
 ---
 ## What is Binom?
 
