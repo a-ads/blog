@@ -5,7 +5,7 @@ tags:
   - advertiser
 category: How to
 thumbnail: /blog/assets/office-workers-organizing-data-storage.jpg
-big_picture: /blog/assets/office-workers-organizing-data-storage.jpg
+big_picture: ''
 ---
 ## What is Binom?
 
