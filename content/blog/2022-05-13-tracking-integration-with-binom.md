@@ -49,7 +49,7 @@ Click the “Create” button
 
 Fill out the form as applies to you 
 
-![](/blog/assets/picture3.png)
+![](/blog/assets/binom3.png)
 
 After that, click “Save” 
 
@@ -65,13 +65,13 @@ Click the “Create” button
 
 Fill out the form as applies to you with the A-ADS traffic source, and the offer that you created earlier
 
-![](/blog/assets/picture4.png)
+![](/blog/assets/binom4.png)
 
 **5. Log into your A-ADS account.** 
 
 **6. Enable Goal tracking for your campaign at A-ADS as seen in the image below, if you don't have a  campaign you can create one** [**here**](https://a-ads.com/campaigns/new)**.** 
 
-![](/blog/assets/picture5.png)
+![](/blog/assets/binom5.png)
 
 **7. Configure your A-ADS campaign.**
 
@@ -90,12 +90,16 @@ For example:
 
 As seen in the image below:
 
-![](/blog/assets/picture6.png)
+![](/blog/assets/binom6.png)
 
 Then save your campaign.
 
-You can check the statistics on campaign performance simply by clicking “Stats”, Statistics should look something like the image below, based on your settings: 
+You can check the statistics on campaign performance simply by clicking “Stats”
 
-![](/blog/assets/picture7.png)
+![](/blog/assets/binom7.png)
+
+Statistics should look something like the image below, based on your settings: 
+
+![](/blog/assets/binom8.png)
 
 All Done!
