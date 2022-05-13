@@ -33,7 +33,7 @@ Click the “Load from template” button
 
 Then, search and click “A-ADS” 
 
-![](/blog/assets/picture1.png)
+![](/blog/assets/binom1.png)
 
 Then, click “Save”
 
