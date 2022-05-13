@@ -37,7 +37,7 @@ Then, search and click “A-ADS”
 
 Then, click “Save”
 
-![](/blog/assets/picture2.png)
+![](/blog/assets/binom2.png)
 
 ● You can change or adjust (if necessary) any option in the “New traffic source” form. Once you have done so, click the “Save” button. Note: “{{partner}}” should remain in “Token 1” 
 
