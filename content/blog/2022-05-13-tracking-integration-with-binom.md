@@ -75,7 +75,7 @@ Fill out the form as applies to you with the A-ADS traffic source, and the offer
 
 **7. Configure your A-ADS campaign.**
 
-\*\*\*\*\
+\
 Set your A-ADS campaign ad link to your Binom campaign URL without the “?” and everything after it.
 
 For example: http://tracker.binomsite.com/click.php?key=jsu8xyskjply0it1oim4
