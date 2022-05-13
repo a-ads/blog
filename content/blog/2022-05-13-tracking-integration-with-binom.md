@@ -7,19 +7,11 @@ category: How to
 thumbnail: /blog/assets/office-workers-organizing-data-storage.jpg
 big_picture: /blog/assets/office-workers-organizing-data-storage.jpg
 ---
-![](/blog/assets/a-ads-logo.png)
-
-# +
-
-![](/blog/assets/picture8.png)
-
-
-
-## What is Binom? 
+## What is Binom?
 
 [Binom ](https://binom.org/)is an affiliate tracker for efficient traffic planning and management. The solution itself was designed and developed by a group of experienced digital marketing experts whose intention was to create an outstanding tool. A tool any affiliate marketer could use to run a profitable campaign in any niche or any country. 
 
-## Integration Instructions 
+## Integration Instructions
 
 **Prerequisites:** 
 
@@ -28,8 +20,6 @@ big_picture: /blog/assets/office-workers-organizing-data-storage.jpg
 ● A-ADS account 
 
 ● A-ADS campaign with goal tracking enable 
-
-
 
 **Let's start!** 
 
@@ -42,8 +32,6 @@ Click the “Create” button
 Click the “Load from template” button 
 
 Then, search and click “A-ADS” 
-
-
 
 ![](/blog/assets/picture1.png)
 
@@ -63,8 +51,6 @@ Fill out the form as applies to you
 
 ![](/blog/assets/picture3.png)
 
-
-
 After that, click “Save” 
 
 If you need more info on “Offers”, please go [here](https://docs.binom.org/manage-offers.php). 
@@ -81,23 +67,15 @@ Fill out the form as applies to you with the A-ADS traffic source, and the offer
 
 ![](/blog/assets/picture4.png)
 
-
-
-
-
 **5. Log into your A-ADS account.** 
 
 **6. Enable Goal tracking for your campaign at A-ADS as seen in the image below, if you don't have a  campaign you can create one** [**here**](https://a-ads.com/campaigns/new)**.** 
 
 ![](/blog/assets/picture5.png)
 
-
-
-
-
 **7. Configure your A-ADS campaign.**
 
-****\
+\*\*\*\*\
 Set your A-ADS campaign ad link to your Binom campaign URL without the “?” and everything after it.
 
 For example: http://tracker.binomsite.com/click.php?key=jsu8xyskjply0it1oim4
@@ -114,16 +92,10 @@ As seen in the image below:
 
 ![](/blog/assets/picture6.png)
 
-
-
-
-
 Then save your campaign.
 
 You can check the statistics on campaign performance simply by clicking “Stats”, Statistics should look something like the image below, based on your settings: 
 
 ![](/blog/assets/picture7.png)
-
-
 
 All Done!
