@@ -4,7 +4,7 @@ title: Tracking Integration With Binom
 tags:
   - advertiser
 category: How to
-thumbnail: /blog/assets/a-ads-blog-img-2-.jpg
+thumbnail: /blog/assets/360х360.jpg
 big_picture: /blog/assets/360х360.jpg
 ---
 ## What is Binom?
