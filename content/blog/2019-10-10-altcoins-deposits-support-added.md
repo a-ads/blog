@@ -12,7 +12,7 @@ We’re glad to inform our advertisers that we’ve implemented the support of a
 
 
 
-Now we accept deposits in Ripple, Binance Coin, Bitcoin SV, Tether, NEO, Ether Classic, Tron, BitTorrent, Bitcoin Cash, Dash, Dogecoin, Ethereum, Litecoin, ZCash, NEM and Waves.
+Now we accept deposits in Ripple, Binance Coin, Bitcoin SV, Tether, NEO, Ether Classic, Tron, Bitcoin Cash, Dash, Dogecoin, Ethereum, Litecoin, ZCash, NEM and Waves.
 
 
 
