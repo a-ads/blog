@@ -39,7 +39,7 @@ Litecoin (LTC)
 
 CoinGecko is a great resource to stay updated with crypto prices and decide whether a coin is worth mining or buying. 
 
-##  **2. Earn crypto by buying** 
+## **2. Earn crypto by buying**
 
 Buying crypto seems like the most straightforward way to get some coins, right? Plus, it has never been easier than before. As the industry became so super duper popular in the past few years, its demand skyrocketed. Many companies have started offering services that enable anyone to easily and safely enter the market.
 
@@ -55,7 +55,7 @@ But you should remember, some exchanges require verification from your bank, and
 
 Another option is a decentralized exchange (DEX) such as Uniswap or PancakeSwap. The compliance requirements are usually lower and may approve your account faster. But, keep in mind that trading tokens on a DEX is even riskier than on a centralized exchange.
 
-## **3. Earn cryptocurrency by watching videos** 
+## **3. Earn cryptocurrency by watching videos**
 
 This way is rather easy but not a smooth landscape yet. Most of the payouts are very low, and the videos can be boring to watch, cuz they are mostly ads. But there are some interesting projects that go beyond advertising as well. 
 
@@ -87,13 +87,15 @@ have. But! I want to warn you, that  there are a few risks to staking crypto, yo
 
 Also keep in mind that staking can require that you lock up your coins for a minimum amount of time. During that period, you're unable to do anything with your staked assets, such as sell them. I warned you, bro.
 
+![](/blog/assets/750х400-2-.jpg)
+
 ## 5. Get crypto with DeFi
 
 Ok, now we will talk about the next level of complexity. Don't worry, I am with you here. So, in the most straightforward understanding of this process, Yield Farming is a method of generating rewards from locking up cryptocurrencies. As you lock in your funds and grant liquidity to a Defi token, you will get rewards and interest. Depending on the project, you can get additional tokens besides the yield. Not so complicated, right?
 
 Some of the most prominent DeFis that you can mine right now are Compound (COMP), Kyber Network (KNC), 0x (ZRX), and Ren (REN).
 
-## 6. Earn cryptocurrency by playing games 
+## 6. Earn cryptocurrency by playing games
 
 You can not only play games, but earn some crypto! Sounds awesome, right?
 
@@ -124,6 +126,8 @@ Wait for your earnings!
 What’s more is that we provide alternative technologies for monetizing your traffic. In addition to the ability to sell ads on your website directly, you can also earn from the pool of our active advertisers. Our distributed, scalable infrastructure ensures reliable ad delivery all around the world. 
 
 In return for displaying ads, the publisher gets paid. And while most networks will pay out their users in only one currency (such as EUR or USD), many also do payouts in cryptocurrency.
+
+![](/blog/assets/750х400-1-.jpg)
 
 ## 8. Accept crypto payments
 
