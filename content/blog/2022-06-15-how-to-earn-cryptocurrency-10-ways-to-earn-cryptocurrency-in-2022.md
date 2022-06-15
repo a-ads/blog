@@ -15,7 +15,7 @@ But, we all remember that the crypto market can be pretty uncertain, so we donâ€
 
 ## 10 ways to earn cryptocurrency
 
-Start mining cryptocurrency 
+## 1. Start mining cryptocurrency 
 
 It seems obvious that you should just start mining crypto. But, the problem is that it doesnâ€™t work for all currencies.
 
