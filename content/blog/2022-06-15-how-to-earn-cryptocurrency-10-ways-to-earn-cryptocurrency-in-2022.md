@@ -4,8 +4,8 @@ title: How to earn cryptocurrency | 10 ways to earn cryptocurrency in 2022
 tags:
   - news
 category: Stories
-thumbnail: ''
-big_picture: ''
+thumbnail: /blog/assets/750х400.jpg
+big_picture: /blog/assets/360х360.jpg
 ---
 # How to Earn Cryptocurrency in 2022
 
