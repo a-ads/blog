@@ -1,5 +1,5 @@
 ---
-date: 2022-06-13T06:22:05.453Z
+date: 2022-06-15T06:22:05.453Z
 title: How to earn cryptocurrency | 10 ways to earn cryptocurrency in 2022
 tags:
   - news
