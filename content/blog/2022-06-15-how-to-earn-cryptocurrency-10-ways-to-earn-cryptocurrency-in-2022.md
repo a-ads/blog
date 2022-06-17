@@ -15,7 +15,7 @@ But, we all remember that the crypto market can be pretty uncertain, so we donâ€
 
 ## 10 ways to earn cryptocurrency
 
-## 1. Start mining cryptocurrency 
+## 1. Start mining cryptocurrency
 
 It seems obvious that you should just start mining crypto. But, the problem is that it doesnâ€™t work for all currencies.
 
@@ -81,9 +81,7 @@ Cardano (CRYPTO:ADA) is an eco-friendly cryptocurrency. It was founded on peer-r
 
 Polkadot (CRYPTO:DOT) is a protocol that allows different blockchains to connect and work with one another.
 
-Secondly, transfer your crypto to a blockchain wallet. After you buy your crypto, it will be available on the exchange where you purchased it. Some exchanges have their own staking programs with select cryptocurrencies. If that's the case, you can just stake crypto directly on the exchange. While staking can work differently depending on the cryptocurrency, most use staking pools. Research the staking pools available for the cryptocurrency you have. But!
-
-have. But! I want to warn you, that  there are a few risks to staking crypto, you should understand. Crypto prices are volatile and can drop quickly. If your staked assets suffer a large price drop, that could outweigh any interest you earn on them.
+Secondly, transfer your crypto to a blockchain wallet. After you buy your crypto, it will be available on the exchange where you purchased it. Some exchanges have their own staking programs with select cryptocurrencies. If that's the case, you can just stake crypto directly on the exchange. While staking can work differently depending on the cryptocurrency, most use staking pools. Research the staking pools available for the cryptocurrency you have. But! I want to warn you, that  there are a few risks to staking crypto, you should understand. Crypto prices are volatile and can drop quickly. If your staked assets suffer a large price drop, that could outweigh any interest you earn on them.
 
 Also keep in mind that staking can require that you lock up your coins for a minimum amount of time. During that period, you're unable to do anything with your staked assets, such as sell them. I warned you, bro.
 
