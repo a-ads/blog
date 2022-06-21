@@ -9,7 +9,7 @@ big_picture: /blog/assets/360х360.jpg
 ---
 ## What is Binom?
 
-[Binom ](https://binom.org/)is an affiliate tracker for efficient traffic planning and management. The solution itself was designed and developed by a group of experienced digital marketing experts whose intention was to create an outstanding tool. A tool any affiliate marketer could use to run a profitable campaign in any niche or any country. 
+[Binom](https://binom.org/) is an affiliate tracker for efficient traffic planning and management. The solution itself was designed and developed by a group of experienced digital marketing experts whose intention was to create an outstanding tool. A tool any affiliate marketer could use to run a profitable campaign in any niche or any country.
 
 ## Integration Instructions
 

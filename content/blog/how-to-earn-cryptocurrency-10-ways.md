@@ -1,7 +1,6 @@
 ---
 date: 2022-06-15T06:22:05.453Z
 title: How to Earn Cryptocurrency in 2022 - Top 10 Proven Methods
-
 tags:
   - news
 category: How to
