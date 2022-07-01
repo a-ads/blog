@@ -38,13 +38,6 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: 'UA-2973328-17',
-        head: true,
-      }
-    },
 
     {
       resolve: `gatsby-plugin-feed`,
