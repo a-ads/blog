@@ -41,11 +41,20 @@ export default class extends React.Component {
         `}
         render={data => {
           this.data = data
-          return (
+          return (<React.Fragment>
+            <noscript>
+              <iframe 
+                height='0'
+                src='https://www.googletagmanager.com/ns.html?id=GTM-WGWBHFS'
+                style={{'display' :'none', 'visibility':'hidden'}}
+                width='0'
+              ></iframe>
+            </noscript>
             <div>
               <Helmet>
                 <title>{data.site.siteMetadata.title}</title>
                 <link rel="shortcut icon" type="image/jpg" href={withPrefix('/favicon.png')} />
+                <script src={withPrefix('/google-tag-script.js')} ></script>
               </Helmet>
               <Header
                 categories={this.getUsedBlogCategories()}
@@ -56,6 +65,7 @@ export default class extends React.Component {
               <BecomeCustomer />
               <Footer />
             </div>
+          </React.Fragment>
           )
         }}
       />
