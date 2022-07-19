@@ -1,4 +1,4 @@
-FROM node:14-alpine
+FROM node:8-alpine
 MAINTAINER bn0ir <gblacknoir@gmail.com>
 
 COPY ./ /data/
@@ -19,6 +19,6 @@ RUN apk add --update --no-cache --repository http://dl-3.alpinelinux.org/alpine/
     && apk del .build-deps .build-deps-testing \
     && rm -rf node_modules/* /var/cache/apk/* /tmp/* /var/tmp/*
 
-FROM alpine:3.11
+FROM alpine:3.8
 
 COPY --from=0 /data/public/ /data/
