@@ -1,4 +1,8 @@
 backend:
+  # name: gitlab
+  # repo: Leoplod/aads-blog-gatsby-netlifycms
+  # auth_type: implicit
+  # app_id: 55aa5600385313996d0ccd2a8af267b51317fa5340339796e5b53e8fb3a096e2
   name: gitlab
   repo: lev/blog
   base_url: https://gitlab0.int.a-ads.com
@@ -7,7 +11,6 @@ backend:
   auth_type: implicit
   app_id: 52373d0f5426390b5ac3bbe0ee0ebe0dba2242f8b03173558db165149c314997
 
-publish_mode: editorial_workflow
 media_folder: static/assets
 public_folder: blog/assets
 
@@ -32,9 +35,6 @@ collections:
       - { name: thumbnail, label: Featured Image, widget: image, required: false, default: '' }
       - { name: big_picture, label: Square Image, widget: image, required: false, default: '' }
       - { name: body, label: Body, widget: markdown }
-      - { name: meta_description, label: Meta Description, required: false, default: '' }
-      - { name: meta_keywords, label: Meta Keywords, required: false, default: '' }
-      - { name: json_ld, label: Json ld, widget: 'text', required: false, default: '' }
 
   - name: blog_categories
     label: Blog categories
