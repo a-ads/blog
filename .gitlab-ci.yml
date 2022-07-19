@@ -1,17 +1,17 @@
 variables:
   S3_BUCKET_NAME: "a-ads-blog"
 
-image: node:8-alpine
+image: node:14-alpine
 
 deploy:
   before_script:
-    - npm install npm@6.14.11 -g
+    - npm install npm@8.13.2 -g
     - npm install
 
   script:
     - apk add --update --no-cache build-base
     - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/main/ libpng-dev fftw-dev python-dev libimagequant-dev
-    - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ vips-dev 
+    - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ vips-dev
     - node_modules/.bin/gatsby build --prefix-paths
     - apk add --no-cache --update python3
     - pip3 install awscli
