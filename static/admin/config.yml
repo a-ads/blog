@@ -16,10 +16,11 @@ collections:
     label: Blog
     folder: content/blog
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{fields.slug}}"
     fields:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
+      - { name: slug, label: Slug }
       - { name: tags, label: Tags, widget: list, default: ["news"], required: false }
       - { name: category,
           label: Category,
