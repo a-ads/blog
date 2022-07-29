@@ -1,7 +1,7 @@
 variables:
   S3_BUCKET_NAME: "a-ads-blog"
 
-image: node:8.9.0-alpine
+image: node:8-alpine
 
 deploy:
   before_script:
@@ -9,6 +9,8 @@ deploy:
     - npm install
 
   script:
+# Fix Alpine signing keys : https://gitlab.alpinelinux.org/alpine/aports/-/issues/14043
+    - apk upgrade
     - apk add --update --no-cache build-base
     - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/main/ libpng-dev fftw-dev python-dev libimagequant-dev
     - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ vips-dev 
