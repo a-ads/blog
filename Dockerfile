@@ -3,12 +3,12 @@ MAINTAINER bn0ir <gblacknoir@gmail.com>
 
 COPY ./ /data/
 
-RUN apk add --update --no-cache --repository http://dl-3.alpinelinux.org/alpine/edge/main/ --virtual .build-deps \
+RUN apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/main/ --virtual .build-deps \
        libpng-dev \
        fftw-dev \
        libimagequant-dev \
        build-base \
-    && apk add --update --no-cache --repository http://dl-3.alpinelinux.org/alpine/edge/community/ --virtual .build-deps-testing \
+    && apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ --virtual .build-deps-testing \
        vips-dev \
     && cd /data/ \
     && npm install yarn gatsby \
