@@ -10,7 +10,7 @@ deploy:
 
   script:
 # Fix Alpine signing keys : https://gitlab.alpinelinux.org/alpine/aports/-/issues/14043
-    - apk upgrade
+    - apk add -X https://dl-cdn.alpinelinux.org/alpine/v3.16/main -u alpine-keys
     - apk add --update --no-cache build-base
     - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/main/ libpng-dev fftw-dev python-dev libimagequant-dev
     - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ vips-dev 
