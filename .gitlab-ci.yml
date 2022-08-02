@@ -11,7 +11,7 @@ deploy:
 
   script:
     - set -e -x
-    #- sed -i -e 's/v3\.11/v3.12/g' /etc/apk/repositories
+    - #sed -i -e 's/v3\.11/v3.12/g' /etc/apk/repositories
     - apk upgrade --available
     - apk add --update --no-cache build-base
     - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/v3.12/main/ libpng-dev fftw-dev python3-dev libimagequant-dev
