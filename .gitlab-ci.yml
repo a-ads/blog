@@ -10,6 +10,7 @@ deploy:
     - npm install
 
   script:
+    - set -e -x
     - sed -i -e 's/v3\.11/v3.12/g' /etc/apk/repositories
     - apk upgrade --available
     - apk add --update --no-cache build-base
