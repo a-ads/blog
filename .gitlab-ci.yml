@@ -5,6 +5,7 @@ image: node:8-alpine
 
 deploy:
   before_script:
+    - node -v
     - npm install npm@6.14.16 -g
     - npm install
 
