@@ -9,6 +9,8 @@ deploy:
     - npm install npm@6.14.16 -g
     - npm install
 
+
+#sed -i -e 's/v3\.11/v3.12/g' /etc/apk/repositories # removed now
   script:
     - set -e -x
     - apk upgrade --available
