@@ -17,8 +17,7 @@ deploy:
     - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/v3.12/main/ libpng-dev fftw-dev python3-dev libimagequant-dev
     - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/v3.12/community/ vips-dev
     - node_modules/.bin/gatsby build --prefix-paths
-    - apk add --no-cache --update python3
-    - apk add --no-cache --update aws-cli
+    - apk add --no-cache --update python3 aws-cli
     - #pip3 install awscli
     - aws s3 cp ./public/ s3://$S3_BUCKET_NAME/blog/ --recursive --acl public-read
     - aws s3 cp --content-type="text/vnd.yaml" --acl public-read --metadata-directive="REPLACE" s3://$S3_BUCKET_NAME/blog/admin/config.yml s3://$S3_BUCKET_NAME/blog/admin/config.yml
