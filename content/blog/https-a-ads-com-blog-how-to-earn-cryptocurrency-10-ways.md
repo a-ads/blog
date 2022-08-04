@@ -1,7 +1,7 @@
 ---
 date: 2022-08-04T05:24:28.476Z
 title: How to Earn Cryptocurrency in 2022
-slug: https://a-ads.com/blog/how-to-earn-cryptocurrency-10 ways/
+slug: https://a-ads.com/blog/how-to-earn-cryptocurrency-10 ways1/
 tags:
   - news
 category: How to
