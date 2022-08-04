@@ -7,6 +7,9 @@ tags:
 category: How to
 thumbnail: /blog/assets/750х400.jpg
 big_picture: /blog/assets/360х360.jpg
+meta_description: Let’s browse the best ways to get some crypto coins at a
+  minimum risk and even minimum effort. Such us mining, buying, staking,
+  watching videos, playing games and others
 ---
 
 
