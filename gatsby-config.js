@@ -24,6 +24,7 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
     'gatsby-transformer-yaml',
+    `gatsby-plugin-sitemap`,
     {
       resolve: 'gatsby-transformer-remark',
       options: {
