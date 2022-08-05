@@ -38,6 +38,7 @@ export default class BlogPost extends React.Component {
           <meta name='twitter:title' content={post.frontmatter.title} />
           <meta name='twitter:description' content={post.excerpt} />
           <meta name='twitter:image' content={`${siteUrl}${post.frontmatter.thumbnail}`} />
+          <meta name='title' content={post.frontmatter.meta_title} />
           <meta name='description' content={post.frontmatter.meta_description} />
           <meta name='keywords' content={post.frontmatter.meta_keywords} />
           <script type='application/ld+json'>{post.frontmatter.json_ld}</script>
@@ -167,6 +168,7 @@ export const query = graphql`
         tags
         category
         date(formatString: "DD MMMM, YYYY")
+        meta_title
         meta_description
         meta_keywords
         json_ld

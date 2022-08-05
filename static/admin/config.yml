@@ -33,6 +33,7 @@ collections:
       - { name: thumbnail, label: Featured Image, widget: image, required: false, default: '' }
       - { name: big_picture, label: Square Image, widget: image, required: false, default: '' }
       - { name: body, label: Body, widget: markdown }
+      - { name: meta_title, label: Meta Title, required: false, default: '' }
       - { name: meta_description, label: Meta Description, required: false, default: '' }
       - { name: meta_keywords, label: Meta Keywords, required: false, default: '' }
       - { name: json_ld, label: Json ld, widget: 'text', required: false, default: '' }

@@ -6,6 +6,7 @@ tags:
 category: Stories
 thumbnail: /blog/assets/illustration-4-2x.png
 big_picture: ''
+meta_title: ''
 meta_description: ''
 meta_keywords: ''
 json_ld: ''
