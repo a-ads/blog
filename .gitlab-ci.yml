@@ -19,10 +19,11 @@ prod_master_deploy:
     - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/v3.12/community/ vips-dev
     - node_modules/.bin/gatsby build --prefix-paths
     - apk add --no-cache --update python3 aws-cli
-    - aws s3 cp ./public/ s3://$S3_BUCKET_NAME/blog/ --recursive --acl public-read
+    - aws s3 cp ./public/ s3://$S3_PROD_BUCKET_NAME/blog/ --recursive --acl public-read
     - aws s3 cp --content-type="text/vnd.yaml" --acl public-read --metadata-directive="REPLACE" s3://$S3_PROD_BUCKET_NAME/blog/admin/config.yml s3://$S3_PROD_BUCKET_NAME/blog/admin/config.yml
   only:
     - master
+  when: manual  
 
 
 alpha_deploy:
@@ -40,7 +41,7 @@ alpha_deploy:
     - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/v3.12/community/ vips-dev
     - node_modules/.bin/gatsby build --prefix-paths
     - apk add --no-cache --update python3 aws-cli
-    - aws s3 cp ./public/ s3://$S3_BUCKET_NAME/alpha/blog/ --recursive --acl public-read
+    - aws s3 cp ./public/ s3://$S3_ALPHA_BUCKET_NAME/alpha/blog/ --recursive --acl public-read
     - aws s3 cp --content-type="text/vnd.yaml" --acl public-read --metadata-directive="REPLACE" s3://$S3_ALPHA_BUCKET_NAME/alpha/blog/admin/config.yml s3://$S3_ALPHA_BUCKET_NAME/alpha/blog/admin/config.yml
   only:
     - alpha
