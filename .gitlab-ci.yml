@@ -1,5 +1,5 @@
 variables:
-  S3_BUCKET_NAME: "a-ads-blog"
+  S3_BUCKET_NAME: "a-ads-alpha-blog"
 
 image: node:12-alpine
 
@@ -22,4 +22,4 @@ deploy:
     - aws s3 cp ./public/ s3://$S3_BUCKET_NAME/blog/ --recursive --acl public-read
     - aws s3 cp --content-type="text/vnd.yaml" --acl public-read --metadata-directive="REPLACE" s3://$S3_BUCKET_NAME/blog/admin/config.yml s3://$S3_BUCKET_NAME/blog/admin/config.yml
   only:
-    - master
+    - alpha
