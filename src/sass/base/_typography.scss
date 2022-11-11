@@ -1,0 +1,68 @@
+@import '../abstracts';
+
+body {
+    line-height: map-deep-get($f-sizes, body-2, height);
+    font-family: $primary-f-family;
+    color: map-deep-get($colors, "primary", "400");
+    font-size: map-deep-get($f-sizes, body-2, size-l);
+
+    @include bp(s) {
+        font-size: map-deep-get($f-sizes, body-2, size-s);
+    }
+
+    .btn {
+        font-size: map-deep-get($f-sizes, "body-1", "size-l");
+
+        @include bp(s) {
+          font-size: map-deep-get($f-sizes, body-1, size-s);
+        }
+    }
+
+    h1, 
+    h2,
+    h3 {
+        font-weight: 700;
+        font-family: $secondary-f-family;
+    }
+
+    h1 {
+        line-height: map-deep-get($f-sizes, title-1, height);
+        font-size: map-deep-get($f-sizes, title-1, size-l);
+
+        @include bp(s) {
+            font-size: map-deep-get($f-sizes, title-1, size-s);
+        }
+    }
+
+    h2 {
+        line-height: map-deep-get($f-sizes, title-2, height);
+        font-size: map-deep-get($f-sizes, title-2, size-l);
+        @include bp(s) {
+            font-size: map-deep-get($f-sizes, title-2, size-s);
+        }
+    }
+
+    h3 {
+        line-height: map-deep-get($f-sizes, title-3, height);
+        font-size: map-deep-get($f-sizes, title-3, size-l);
+        @include bp(s) {
+            font-size: map-deep-get($f-sizes, title-3, size-s);
+        }
+    }
+
+    .body-1 {
+        font-size: map-deep-get($f-sizes, "body-1", "size-l");
+
+        @include bp(s) {
+          font-size: map-deep-get($f-sizes, body-1, size-s);
+        }
+    }
+
+    .body-2 {
+        font-size: map-deep-get($f-sizes, "body-2", "size-l");
+
+        @include bp(s) {
+          font-size: map-deep-get($f-sizes, body-2, size-s);
+        }
+    }
+}

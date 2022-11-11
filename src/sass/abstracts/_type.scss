@@ -1,0 +1,44 @@
+$fallbackFonts: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif';
+
+$primary-f-family: 'Inter', $fallbackFonts;
+$secondary-f-family: 'Poppins', $fallbackFonts;
+
+// Headings help keep the big size of a title on tablet
+// Titles are fully responsive
+// All font sizes are derived from figma designs
+
+$f-sizes: (
+    label: (
+        "size": clamp(1rem, 2vw, 1.25rem),
+        "height": 140%
+    ),
+    title-1: (
+        "size-l": 40px,
+        "size-s": 24px,
+        "height": 130%
+    ),
+    title-2: (
+        "size-l": 32px,
+        "size-s": 20px,
+        "height": 150%
+    ), 
+    title-3: (
+        "size-l": 24px,
+        "size-s": 18px,        
+        "height": 135%
+    ),
+    body-1: (
+        "size-l": 16px,
+        "size-s": 14px,
+        "height": 160%
+    ),
+    body-2: (
+        "size-l": 20px,
+        "size-s": 16px,
+        "height": 140%
+    ),
+    caption: (
+        "size": 12px,
+        "height": 18px
+    ),
+);

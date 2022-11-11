@@ -1,8 +1,0 @@
-.l-body {
-  @include breakpoint(tablet) {
-    padding-top: 102px;
-  }
-  @include breakpoint(phone) {
-    padding-top: 80px;
-  }
-}

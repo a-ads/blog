@@ -1,0 +1,55 @@
+@import '../abstracts';
+
+$flex: (
+    "flex": ("display": flex),
+    "wrap": ("flex-wrap": wrap),
+    "x-space-between": ("justify-content": space-between),
+    "x-space-evenly": ("justify-content": space-evenly),
+    "x-center": ("justify-content": center),
+    "x-left": ("justify-content": left),
+    "x-right": ("justify-content": right),
+    "y-space-between": ("align-items": space-between),
+    "y-center": ("align-items": center),
+    "y-flex-end": ("align-items": flex-end),
+    "center": ("justify-content": center, "align-items": center),
+    "column": ("flex-direction": column),
+);
+
+@each $name, $rule in $flex {
+    @include cn($name, $rule);
+}
+
+.column {
+    flex-direction: column;
+
+    &.x-center {
+        align-items: center;
+    }
+
+    &.y-center {
+        justify-content: center;
+    }
+
+    &.x-right {
+        align-items: flex-end;
+    }
+
+    @include bp (s) {
+        &.s-x-center, .s-column .x-center {
+            align-items: center !important;
+        }
+        &.s-x-left, .s-column .x-left {
+            align-items: flex-start !important;
+        }
+    }
+    @include bp (m) {
+        &.m-x-center, .m-column .x-center {
+            align-items: center !important;
+        }
+    }
+    @include bp (l) {
+        &.l-x-center, .l-column .x-center {
+            align-items: center !important;
+        }
+    }
+}

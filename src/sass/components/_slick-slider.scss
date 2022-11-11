@@ -1,0 +1,124 @@
+.slick-slider {
+  width: 1110px; // slider width * 3 + gap * 2
+
+  @include bp (not-desk) {
+    width: 100%;
+  }
+
+  .slick-arrow {
+    font-size: 0;
+    width: .7em;
+    height: .7em;
+    position: absolute;
+    display: block;
+    border: none;
+    cursor: pointer;
+    background-image: url('../../static/images/regular-icons/chevron.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    top: -4.7rem; 
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1.3rem;
+    border-radius: 100%;
+
+    &.slick-prev {
+      right: 4rem;
+    }
+
+    &.slick-next {
+      right: 0;
+      transform: rotate(180deg);
+    }
+
+    @include bp(m) {
+      height: .5em;
+      width: .5em;
+      padding: 1.3rem;
+    }
+  }
+
+  .slick-slide {
+    width: 360px;
+    padding: 0 15px;
+    box-sizing: content-box;
+
+    div + h3 {
+      margin-top: 2px;
+    }
+
+    img {
+      height: 200px;
+    }
+  }
+
+  .slick-slide .c-card {
+    box-sizing: content-box;
+  }
+
+  .slick-list {
+    height: 360px;
+    margin: 0 -15px;
+    @include bp(m) {
+      height: 277px;
+    }
+    @include bp(s) {
+      height: 320px;
+      margin: 0 -15px;
+    }
+  }
+
+  .slick-track {
+    min-width: 100%;
+  }
+
+  .slick-dots {
+    position: absolute;
+    list-style: none;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-size: 0;
+    margin-top: 40px;
+    padding: 0;
+    @include bp(m) {
+      margin-top: 30px;
+    }
+    @include bp(s) {
+      margin-top: 25px;
+    }
+  }
+
+  .slick-dots li {
+    line-height: 0;
+    display: inline-block;
+    margin: 0 9px;
+    @include bp(s) {
+      margin: 0 5px;
+    }
+  }
+
+  .slick-dots li::before {
+    display: none;
+  }
+
+  .slick-dots li button {
+    font-size: 0;
+    background-color: transparent;
+    border: none;
+    width: 14px;
+    height: 14px;
+    background-color: map-deep-get($colors, "gray", "400");
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    @include bp(s) {
+      width: 11px;
+      height: 11px;
+    }
+  }
+
+  .slick-dots li.slick-active button {
+    background-color: map-deep-get($colors, "primary", "200");
+  }
+}

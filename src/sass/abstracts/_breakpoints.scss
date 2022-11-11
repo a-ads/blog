@@ -1,0 +1,22 @@
+$bps: (
+    "s": ("min": 1px, "max": 414px),
+    "m": ("min": 415px, "max": 820px),
+    "l": ("min": 821px, "max": 9999px),
+    "not-desk": ("min": 1px, "max": 820px),
+    "desk": ("min": 415px, "max": 9999px)
+);
+
+@mixin bp($bp) { 
+    @if map-has-key($bps, $bp) {
+        @media screen and 
+            (max-width: map-get(map-get($bps, $bp), "max")) 
+                and 
+            (min-width: map-get(map-get($bps, $bp), "min")) 
+                {
+                    @content;
+                }    
+    }
+    @else {
+        @warn "'#{$bp}' is not a valid breakpoint";
+    }
+}

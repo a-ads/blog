@@ -9,7 +9,7 @@ backend:
 
 publish_mode: editorial_workflow
 media_folder: static/assets
-public_folder: blog/assets
+public_folder: /blog/assets
 
 collections:
   - name: blog
@@ -22,6 +22,7 @@ collections:
       - { name: title, label: Title }
       - { name: slug, label: Slug }
       - { name: tags, label: Tags, widget: list, default: ["news"], required: false }
+
       - { name: category,
           label: Category,
           widget: relation,
@@ -30,13 +31,70 @@ collections:
           searchFields: [title],
           displayFields: [title]
         }
+
+      - { name: category_top_level,
+          label: Category Top Level,
+          widget: relation,
+          collection: blog_categories_top_level,
+          valueField: title,
+          searchFields: [title],
+          displayFields: [title],
+          multiple: true
+        }
+
+      - { name: category_second_level,
+          label: Category Second Level,
+          widget: relation,
+          collection: blog_categories_second_level,
+          valueField: title,
+          searchFields: [title],
+          displayFields: [title],
+          multiple: true,
+          required: false
+        }
+
+      - { name: author,
+          label: Author,
+          widget: relation,
+          collection: authors,
+          valueField: name,
+          searchFields: [name],
+          displayFields: [name]
+        }
       - { name: thumbnail, label: Featured Image, widget: image, required: false, default: '' }
       - { name: big_picture, label: Square Image, widget: image, required: false, default: '' }
       - { name: body, label: Body, widget: markdown }
+      - { name: popularity, label: Popularity, required: false, default: '0' }
       - { name: meta_title, label: Meta Title, required: false, default: '' }
       - { name: meta_description, label: Meta Description, required: false, default: '' }
       - { name: meta_keywords, label: Meta Keywords, required: false, default: '' }
       - { name: json_ld, label: Json ld, widget: 'text', required: false, default: '' }
+  
+  - name: blog_categories_top_level
+    label: Blog categories top level
+    folder: content/blog_categories_top_level
+    create: true
+    extension: yml
+    fields:
+      - { name: title, label: Title }
+      - { name: order, label: order, default: '0' }
+
+  - name: blog_categories_second_level
+    label: Blog categories second level
+    folder: content/blog_categories_second_level
+    create: true
+    extension: yml
+    fields:
+      - { name: title, label: Title }
+      - { name: order, label: Order, default: '0' }
+      - { name: parent_category,
+          label: Parent category, 
+          widget: relation, 
+          collection: blog_categories_top_level,
+          valueField: title,
+          displayFields: [title],
+          searchFields: [title]
+        }
 
   - name: blog_categories
     label: Blog categories
@@ -57,3 +115,18 @@ collections:
         fields:
           - { label: Path to markdown, name: path, widget: string }
           - { label: Title, name: title, widget: string }
+  
+  - name: authors
+    label: Authors
+    folder: content/authors
+    slug: "{{fields.name}}"
+    create: true
+    fields: 
+      - { name: name, label: Name }
+      - { name: image, label: Image, widget: image, required: false, default: '' }
+      - { name: position, label: Position }
+      - { name: description, label: Description,  widget: string }
+      - { name: 'twitter_link', label: Twitter link, required: false }
+      - { name: 'facebook_link', label: Facebook link, required: false }
+      - { name: 'bitcointalk_link', label: Bitcointalk link, required: false }
+      

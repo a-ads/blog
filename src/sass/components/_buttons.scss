@@ -1,0 +1,55 @@
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-width: 1.5rem;
+  box-sizing: border-box;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  user-select: none;
+  appearance: none;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: inherit;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, padding 250ms ease;
+  white-space: nowrap;
+  
+  &-white {
+    @extend .btn, %contained;
+    background-color: map-deep-get($colors, "base", "100");
+    color: map-deep-get($colors, "primary", "200");
+  }
+
+  &-blue {
+    @extend .btn, %contained;
+    background-color: map-deep-get($colors, "primary", "200");
+    color: map-deep-get($colors, "base", "100");
+
+    &:hover {
+      background-color: #57C1F1;   
+    }
+    &:focus {
+      background-color: #049BE0;      
+    }
+  }
+
+  .i-before:not(:only-child) {
+    margin-right: 8px;
+    margin-left: -4px;
+  }
+  .i-after:not(:only-child) {
+    margin-left: 8px;
+    margin-right: -4px;
+    justify-content: right;
+  }
+}
+
+%contained {
+  padding: .875rem 4.375rem !important;
+  box-shadow: 0px 11px 30px -13px rgba(18, 16, 28, 0.25);
+  font-family: $secondary-f-family;
+  font-weight: 600;
+}

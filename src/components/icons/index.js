@@ -1,0 +1,15 @@
+export { default as Btc } from "./Btc";
+export { default as Envelope } from "./Envelope";
+export { default as Fb } from "./Fb";
+export { default as Fbmessenger } from "./Fbmessenger";
+export { default as Instagram } from "./Instagram";
+export { default as Linkedin } from "./Linkedin";
+export { default as Reddit } from "./Reddit";
+export { default as Telegram } from "./Telegram";
+export { default as TgNoBg } from "./TgNoBg";
+export { default as Twitter } from "./Twitter";
+export { default as Whatsapp } from "./Whatsapp";
+export { default as Horn } from "./Horn";
+export { default as Wallet } from "./Wallet";
+export { default as SearchIcon } from "./SearchIcon";
+export { default as Chevron } from "./Chevron";
