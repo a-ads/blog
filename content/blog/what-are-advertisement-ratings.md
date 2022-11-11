@@ -1,9 +1,14 @@
 ---
 date: 2019-09-24T16:20:33.749Z
 title: What are advertisement ratings?
+slug: what-are-advertisement-ratings
 tags:
   - advertiser
 category: How to
+category_top_level:
+  - Advertisers
+  - Guides
+author: Yulia Savushkina
 thumbnail: /blog/assets/undraw_online_organizer_ofxmобложка.png
 big_picture: /blog/assets/undraw_online_organizer_ofxmsq.png
 ---

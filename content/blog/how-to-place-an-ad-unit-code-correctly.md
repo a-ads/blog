@@ -1,9 +1,14 @@
 ---
 date: 2019-06-17T11:01:05.440Z
 title: How to place an ad unit code correctly?
+slug: how-to-place-an-ad-unit-code-correctly
 tags:
   - publisher
 category: How to
+category_top_level:
+  - Publishers
+  - Guides
+author: Yulia Savushkina
 thumbnail: /blog/assets/illustration-6.png
 ---
 It only takes seconds to copy-paste a provided ad unit code to your website page. You can find the code in the right-bottom corner of an ad unit’s main page, in the section called "Code for your site".

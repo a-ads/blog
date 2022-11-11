@@ -1,9 +1,14 @@
 ---
 date: 2019-10-16T06:44:36.879Z
 title: Why do I need Goal tracking? How to switch it on?
+slug: advertisers-why-do-i-need-goal-tracking-how-to-switch-it-on
 tags:
   - advertiser
 category: How to
+category_top_level:
+  - Advertisers
+  - Guides
+author: Yulia Savushkina
 thumbnail: /blog/assets/undraw_progress_tracking_7hvkобложка.png
 big_picture: /blog/assets/undraw_progress_tracking_7hvkква.png
 ---

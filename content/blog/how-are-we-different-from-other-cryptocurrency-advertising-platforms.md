@@ -1,11 +1,17 @@
 ---
-date: '2018-10-04'
+date: 2018-10-04
 title: How are we different from other cryptocurrency advertising platforms?
+slug: how-are-we-different-from-other-cryptocurrency-advertising-platforms
 tags:
   - news
   - advertiser
   - publisher
 category: Stories
+category_top_level:
+  - Guides
+  - Advertisers
+  - Publishers
+author: Yulia Savushkina
 thumbnail: /blog/assets/illustration-4-2x.png
 ---
 **We respect privacy**. First of all - we are an anonymous network. Publisher or advertiser - it is your choice how much personal information to share. As long as your activity is legit, we are OK with your incognito status. Also, our ads don't run javascript, and they don't leave cookies until you click them. 

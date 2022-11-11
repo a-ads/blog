@@ -1,9 +1,13 @@
 ---
 date: 2020-05-11T09:34:00.485Z
 title: Bitcoin Halving and Nakamoto Hommage
+slug: bitcoin-halving-and-nakamoto-hommage
 tags:
   - news
 category: Stories
+category_top_level:
+  - News & Trends
+author: Yulia Savushkina
 thumbnail: /blog/assets/undraw_compose_music_ovo2обложка.png
 big_picture: /blog/assets/undraw_compose_music_ovo2квадрат.png
 ---

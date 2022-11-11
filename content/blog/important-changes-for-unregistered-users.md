@@ -1,11 +1,17 @@
 ---
 date: 2020-04-08T14:35:34.563Z
 title: Anonymous accounts for unregistered users
+slug: important-changes-for-unregistered-users
 tags:
   - news
   - advertiser
   - publisher
 category: Development
+category_top_level:
+  - Guides
+  - Advertisers
+  - Publishers
+author: Yulia Savushkina
 thumbnail: /blog/assets/undraw_authentication_fsn5обложка.png
 big_picture: /blog/assets/undraw_authentication_fsn5квадрат.png
 ---

@@ -1,9 +1,15 @@
 ---
-date: '2018-10-04'
+date: 2018-10-04
 title: Counting unique impressions
+slug: counting-unique-impressions
 tags:
   - publisher
 category: How to
+category_top_level:
+  - Advertisers
+  - Publishers
+  - Guides
+author: Yulia Savushkina
 thumbnail: /blog/assets/illustration-6.png
 ---
 If you [want to become our publisher](https://a-ads.com/ad_units/new), you might be interested to learn what we mean by "unique impressions".

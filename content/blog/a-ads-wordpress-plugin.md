@@ -1,11 +1,17 @@
 ---
 date: 2021-01-13T12:29:22.860Z
 title: A-ADS Wordpress Plugin
+slug: wordpress-plugin
 tags:
   - publisher
 category: How to
-thumbnail: /blog/assets/worpress-plugin-featured.png
-big_picture: /blog/assets/worpress-plugin-square.png
+category_top_level:
+  - Guides
+category_second_level:
+  - How To
+author: Yulia Savushkina
+thumbnail: /blog/assets/full-7-.png
+big_picture: /blog/assets/short-1-.png
 ---
 Hello publishers, we’re proud to announce the release of [our WordPress plugin](https://wordpress.org/plugins/a-ads/). This article aims to show you how to use this plugin.
 

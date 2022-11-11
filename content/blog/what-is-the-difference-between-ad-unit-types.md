@@ -1,9 +1,15 @@
 ---
-date: '2018-10-04'
+date: 2018-10-04
 title: What is the difference between ad unit types?
+slug: what-is-the-difference-between-ad-unit-types
 tags:
   - publisher
 category: How to
+category_top_level:
+  - Guides
+  - Publishers
+category_second_level: []
+author: Yulia Savushkina
 thumbnail: /blog/assets/img3.png
 ---
 Most of our ad units have "**Site**" type. They are for text and graphical banners built into site code and shown at sites. Our algorithms check the ad placement of sites and enable advertisers to target them by category.  See [how to place A-ADS ad units HTML code](https://a-ads.com/blog/2019-06-17-how-to-place-an-ad-unit-code-correctly/).

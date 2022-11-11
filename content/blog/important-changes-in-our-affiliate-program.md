@@ -1,11 +1,17 @@
 ---
 date: 2019-05-24T12:19:48.459Z
 title: Important changes in our affiliate program
+slug: important-changes-in-our-affiliate-program
 tags:
   - news
   - advertiser
   - publisher
 category: Development
+category_top_level:
+  - Guides
+  - Advertisers
+  - Publishers
+author: Yulia Savushkina
 thumbnail: /blog/assets/illustration-2.png
 ---
 [Our affiliate program](https://a-ads.com/blog/2018-10-04-become-our-affiliate-partner-and-take-50-of-our-fees/) is pretty old, it has been working without a change since 2013. At that time our system was "append-only", there were no user accounts and our users had to create new anonymous ads and ad units each time they wanted to edit anything. Affiliate payouts were life-long but worked only for ads created via referral links.

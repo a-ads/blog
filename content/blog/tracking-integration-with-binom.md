@@ -1,11 +1,17 @@
 ---
 date: 2022-05-13T07:56:22.563Z
 title: Tracking Integration With Binom
+slug: tracking-integration-with-binom
 tags:
   - advertiser
 category: How to
-thumbnail: /blog/assets/binom750х400-1.png
-big_picture: /blog/assets/360х360.jpg
+category_top_level:
+  - Advertisers
+category_second_level:
+  - How To
+author: Danil Parsky
+thumbnail: /blog/assets/full-1-.png
+big_picture: /blog/assets/short-12-.png
 ---
 ## What is Binom?
 

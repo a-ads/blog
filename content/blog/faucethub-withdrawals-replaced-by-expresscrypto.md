@@ -1,11 +1,16 @@
 ---
 date: 2019-12-07T19:01:59.776Z
 title: FaucetHub withdrawals replaced by ExpressCrypto
+slug: faucethub-withdrawals-replaced-by-expresscrypto
 tags:
   - news
   - advertiser
   - publisher
 category: Development
+category_top_level:
+  - Publishers
+  - Guides
+author: Yulia Savushkina
 thumbnail: /blog/assets/undraw_notify_88a4обложка.png
 big_picture: /blog/assets/undraw_notify_88a4квадрат.png
 ---

@@ -1,9 +1,13 @@
 ---
 date: 2019-05-13T09:53:46.756Z
 title: Nakamoto Hommage
+slug: nakamoto-hommage
 tags:
   - news
 category: Stories
+category_top_level:
+  - News & Trends
+author: Yulia Savushkina
 thumbnail: /blog/assets/img3.png
 ---
 ## Let the music last forever!

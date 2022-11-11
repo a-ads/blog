@@ -1,11 +1,18 @@
 ---
 date: 2020-11-20T12:17:04.326Z
 title: Total budget for CPD campaigns
+slug: total-budget-for-cpd-campaigns
 tags:
   - advertiser
 category: How to
-thumbnail: /blog/assets/total_budget_featured.png
-big_picture: /blog/assets/total_budget_cover.png
+category_top_level:
+  - Advertisers
+  - Guides
+category_second_level:
+  - How To
+author: Yulia Savushkina
+thumbnail: /blog/assets/full-12-.png
+big_picture: /blog/assets/short-10-.png
 ---
 As you probably know, our default payment model is [CPD](https://a-ads.com/blog/2020-07-01-campaign-types/) (cost per day), and running CPD campaigns get automatically refilled from user balance.
 

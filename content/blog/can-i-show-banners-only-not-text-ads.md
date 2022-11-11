@@ -1,9 +1,14 @@
 ---
 date: 2019-07-29T13:39:29.970Z
-title: 'Can I show banners only, not text ads?'
+title: Can I show banners only, not text ads?
+slug: can-i-show-banners-only-not-text-ads
 tags:
   - advertiser
 category: How to
+category_top_level:
+  - Advertisers
+  - Guides
+author: Yulia Savushkina
 thumbnail: /blog/assets/undraw_adjustments_p22m.png
 big_picture: /blog/assets/undraw_adjustments_p22msq.png
 ---

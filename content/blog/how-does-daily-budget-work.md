@@ -1,9 +1,14 @@
 ---
 date: 2019-08-11T09:53:05.269Z
 title: How does daily budget work?
+slug: how-does-daily-budget-work
 tags:
   - advertiser
 category: How to
+category_top_level:
+  - Advertisers
+  - Guides
+author: Yulia Savushkina
 thumbnail: /blog/assets/undraw_invest_88iw.png
 big_picture: /blog/assets/undraw_invest_88iw-1-.png
 ---

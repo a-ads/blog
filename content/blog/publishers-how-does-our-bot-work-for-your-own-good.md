@@ -1,12 +1,17 @@
 ---
-date: '2018-10-04'
+date: 2018-10-04
 title: How does our bot work for your own good
+slug: publishers-how-does-our-bot-work-for-your-own-good
 tags:
   - publisher
 category: How to
+category_top_level:
+  - Publishers
+  - Guides
+author: Yulia Savushkina
 thumbnail: /blog/assets/illustration-5-2x.png
 ---
-## OR: Why you should put the exact URL in your ad unit info.
+## Why you should put the exact URL in your ad unit info.
 
 Many users ask us [how to place an ad unit code correctly](https://a-ads.com/blog/2019-06-17-how-to-place-an-ad-unit-code-correctly/). They say that even though the URL is correct, the code is still not found. In many cases, we discover that the code is actually not present on the assigned page. Why you should care for it? Here we have gathered some useful explanations!
 

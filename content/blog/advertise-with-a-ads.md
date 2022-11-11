@@ -1,15 +1,20 @@
 ---
-date: '2018-10-04'
+date: 2018-10-04
 title: Advertise with A-ADS
+slug: advertise-with-a-ads
 tags:
   - advertiser
 category: Stories
+category_top_level:
+  - Guides
+  - Advertisers
+author: Anna Trifonova
 thumbnail: /blog/assets/illustration-4-2x.png
-big_picture: ''
-meta_title: ''
-meta_description: ''
-meta_keywords: ''
-json_ld: ''
+big_picture: ""
+meta_title: ""
+meta_description: ""
+meta_keywords: ""
+json_ld: ""
 ---
 Have you thought of a strategy of exposing your product to millions of viewers on thousands of sites worldwide? You can do it quite easy with [A-ADS bitcoin advertising network](https://a-ads.com).
 

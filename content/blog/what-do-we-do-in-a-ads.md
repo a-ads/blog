@@ -1,11 +1,17 @@
 ---
-date: '2018-10-04'
+date: 2018-10-04
 title: What do we do in A-ADS?
+slug: what-do-we-do-in-a-ads
 tags:
   - news
   - advertiser
   - publisher
 category: Stories
+category_top_level:
+  - Guides
+  - Advertisers
+  - Publishers
+author: Yulia Savushkina
 thumbnail: /blog/assets/illustration-1-2x.png
 ---
 A-ADS (former "Anonymous Ads") is the first privacy-focused bitcoin-based advertising network, founded in 2011. 

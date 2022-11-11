@@ -1,9 +1,13 @@
 ---
-date: '2018-10-04'
+date: 2018-10-04
 title: Bug bounty program
+slug: bug-bounty-program
 tags:
-  - ''
+  - ""
 category: Development
+category_top_level:
+  - Guides
+author: Yulia Savushkina
 thumbnail: /blog/assets/illustration-3.png
 ---
 The security of our operations is our highest priority for many reasons: we're dealing with our clients’ money, we must protect our partners' privacy, and we have our own reputation at stake. Either you are a professional security researcher or just a beginner, we welcome your security reports. However we'd love them to be useful and actionable, that's why we have certain recommendations in their regard.
@@ -19,6 +23,6 @@ We are leaving the monetary reward you'll get for your report to our discretion.
 
 We welcome you to help us with finding flaws in our code by clicking “Report a bug” button on the bottom of our website.
 
-## Hall of fame
+**Hall of fame**
 
 The Hall of Fame is stored in [our Helpdesk](https://help.a-ads.com/en/article/bug-bounty-program-at-a-ads-17ryedq/).

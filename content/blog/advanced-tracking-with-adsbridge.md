@@ -1,11 +1,18 @@
 ---
 date: 2020-12-25T10:31:30.034Z
 title: Advanced Tracking with AdsBridge
+slug: advanced-tracking-with-adsbridge
 tags:
   - advertiser
 category: How to
-thumbnail: /blog/assets/adsbridge-featured.png
-big_picture: /blog/assets/adsbridge-square.png
+category_top_level:
+  - Advertisers
+  - Guides
+category_second_level:
+  - How To
+author: Yulia Savushkina
+thumbnail: /blog/assets/full-16-.png
+big_picture: /blog/assets/short-16-.png
 ---
 ![](/blog/assets/a-ads-logo.png "A-ADS logo") 
 

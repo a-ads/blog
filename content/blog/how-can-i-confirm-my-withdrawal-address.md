@@ -1,12 +1,18 @@
 ---
 date: 2020-12-07T10:02:05.831Z
 title: How can I confirm my withdrawal address?
+slug: how-can-i-confirm-my-withdrawal-address
 tags:
   - advertiser
   - publisher
 category: How to
-thumbnail: /blog/assets/change_withdrawal_address_featured.png
-big_picture: /blog/assets/change_withdrawal_address_square.png
+category_top_level:
+  - Guides
+category_second_level:
+  - How To
+author: Yulia Savushkina
+thumbnail: /blog/assets/full-14-.png
+big_picture: /blog/assets/short-11-.png
 ---
 To keep our users’ money safe, we have recently implemented additional security measures. Now we require an email confirmation of a new withdrawal address. This feature works for non-anonymous accounts only - those are the accounts with verified emails.
  

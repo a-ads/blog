@@ -1,10 +1,15 @@
 ---
-date: '2018-10-04'
+date: 2018-10-04
 title: Learn to earn with A-ADS as a publisher
+slug: learn-to-earn-with-a-ads-as-a-publisher
 tags:
   - publisher
 category: Stories
-thumbnail: /blog/assets/illustration-3.png
+category_top_level:
+  - Guides
+  - Publishers
+author: Yulia Savushkina
+thumbnail: https://stg.int.a-ads.com/blog/assets/illustration-3.png
 ---
 Come on board and have a share of our sweet advertising budget pie! 
 

@@ -1,12 +1,17 @@
 ---
 date: 2019-07-04T17:37:38.866Z
 title: You see "HTML code not found" error - what next?
+slug: you-see-html-code-not-found-error-what-next
 tags:
   - publisher
 category: How to
+category_top_level:
+  - Publishers
+  - Guides
+author: Yulia Savushkina
 thumbnail: /blog/assets/illustration-1-2x.png
 ---
-## <a id="default-error"></a>
+## Default error
 
 So, you’ve got an error message saying that your ad unit code is not found. This error seriously reduces your earnings and needs to be fixed. 
 
@@ -18,19 +23,19 @@ An ad unit must be present on that very page you specified for it in the ad unit
 
 We often show one more info message below this one. It describes the exact reason why your ad unit is not found (even despite the ad unit code present at the specified URL). Here’re the most popular problems and possible fixes:
 
-## <a id="timeout-error"></a>Timeout error
+## Timeout error
 
 ![](/blog/assets/01timeouterror.jpg)
 
 Your site takes too long to respond. 
 
-## <a id="unavailable-site"></a>Unavailable site
+## Unavailable site
 
 ![](/blog/assets/3unavailable.jpg)
 
 Your site cannot be loaded with a browser at all, e.g. it might be offline.
 
-## <a id="page-cannot-be-loaded"></a>Page cannot be loaded
+## Page cannot be loaded
 
 ![](/blog/assets/4pagecannotbeloaded.jpg)
 
@@ -42,7 +47,7 @@ The error appears when a website can be opened in a browser, but its source code
 * a domain name is not registered;
 * a site forbids VPN, proxy, Tor, etc.
 
-## <a id="redirecting-to-another-website"></a>Redirecting to another website
+## Redirecting to another website
 
 ![](/blog/assets/5redirecting.jpg)
 
@@ -56,7 +61,7 @@ Mind, if your ad unit had been found on the old URL before, you won’t be able 
 
 If you cannot fix the problem, just abandon this ad unit and create a new one. :)
 
-## <a id="missing-url"></a>Missing URL
+## Missing URL
 
 ![](/blog/assets/7miurl.jpg)
 
@@ -68,7 +73,7 @@ A correct src attribute looks like this:
 
 ![](/blog/assets/pasted-image-3.png)
 
-## <a id="invalid-url"></a>Invalid URL
+## Invalid URL
 
 ![](/blog/assets/8invalidurl.jpg)
 
@@ -96,7 +101,7 @@ Here are examples of invalid URLs:
 
 The last URL is also invalid, because it contains space symbols and an ad cannot be loaded for this reason.
 
-## <a id="alert-or-pop-up-message-is-blocking-your-ad"></a>Alert or pop-up message is blocking your ad
+## Alert or pop-up message is blocking your ad
 
 ![](/blog/assets/9alertorpopup.jpg)
 
@@ -108,7 +113,7 @@ Pop-ups blocking a banner might look like this:
 
 ![](/blog/assets/17.png)
 
-## <a id="ad-is-not-fully-visible"></a>Ad is not fully visible
+## Ad is not fully visible
 
 ![](/blog/assets/10adnotfully.jpg)
 
@@ -134,19 +139,19 @@ One more probable reason for the error is that your banners are loaded later tha
 
 If the ad unit on your site is placed correctly but doesn’t appear immediately after loading, our bot may consider it invisible, blocked by another element, inaccessible for clicks or not detected at all. In this case, please, contact our support team - we’ll fix the error.
 
-## <a id="ad-is-unclickable"></a>Ad is unclickable
+## Ad is unclickable
 
 ![](/blog/assets/11unclickable.jpg)
 
 A banner must be clickable. A click must lead to the advertised site. If nothing happens after a click, or if it leads to some other site, the error appears.
 
-## <a id="invalid-domain"></a>Invalid domain
+## Invalid domain
 
 ![](/blog/assets/111invaliddomain.jpg)
 
 The src attribute must contain one of a-ads.com domains. On the moment two domains are allowed: ad.a-ads.com and acceptable.a-ads.com . If the src attribute contains any other domain, you’ll get this message.
 
-## <a id="empty-data-aa"></a>Empty data-aa
+## Empty data
 
 ![](/blog/assets/13emptydataaa.jpg)
 
@@ -158,7 +163,7 @@ An erroneous iframe:
 
 ![](/blog/assets/снимок-экрана-2019-07-08-в-1.59.22.png)
 
-## <a id="empty-id"></a>Empty ID
+## Empty ID
 
 ![](/blog/assets/14emptyid.jpg)
 
@@ -174,7 +179,7 @@ An ID is also expected to be before the next slash or further params, e.g. “?s
 
 ![](/blog/assets/empty3.png)
 
-## <a id="invalid-id"></a>Invalid ID
+## Invalid ID
 
 ![](/blog/assets/15invalidid.jpg)
 
@@ -182,7 +187,7 @@ This error means you’ve got one ad unit ID in the src attribute and another ID
 
 ![](/blog/assets/снимок-экрана-2019-07-08-в-2.01.58.png)
 
-## <a id="size-doesn-t-match"></a>Size doesn’t match
+## Size doesn’t match
 
 An ad unit can be adaptive or have a fixed size. 
 
@@ -196,19 +201,19 @@ If your ad unit is a fixed size one, the banner on your site page should match a
 
 To fix the error you should adjust an actual size of a banner with the requirements.The required size for your banner is present in the text of the error message (the second size of the two). The first size in the error message will be an actual size of a banner on your site.
 
-## <a id="cloudflare-detected"></a>Cloudflare denies access
+## Cloudflare denies access
 
 ![](/blog/assets/cloudflare_detected.png)
 
 Cloudflare prevents our bot from accessing your site. To fix this please whitelist our server IPs. You can address support to know the IPs to add.
 
-## <a id="unknown-error"></a>Unknown error
+## Unknown error
 
 ![](/blog/assets/unknonerror.jpg)
 
 An unexpected error occurred and we cannot identify its origin. It might disappear on its own or it might remain, then you should contact our helpdesk.
 
-## <a id="conclusion"></a>Conclusion
+## Conclusion
 
 If the issue is likely to be on your side, we encourage you to find the solution before you address the support. You can run our bot after you've fixed the issue to see if the error disappeared.
 

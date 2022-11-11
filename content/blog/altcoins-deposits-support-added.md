@@ -1,10 +1,15 @@
 ---
 date: 2019-10-10T10:31:02.555Z
 title: Altcoins deposits support added
+slug: altcoins-deposits-support-added
 tags:
   - news
   - advertiser
 category: Development
+category_top_level:
+  - Advertisers
+  - Guides
+author: Yulia Savushkina
 thumbnail: /blog/assets/undraw_digital_currency_qpakобложка.png
 big_picture: /blog/assets/undraw_digital_currency_qpakквадрат.png
 ---

@@ -1,11 +1,18 @@
 ---
 date: 2021-02-01T07:47:09.331Z
 title: Advanced tracking with PeerClick
+slug: advanced-tracking-with-peerclick
 tags:
   - advertiser
 category: How to
-thumbnail: /blog/assets/peerclick_featured.png
-big_picture: /blog/assets/peerclick_square.png
+category_top_level:
+  - Advertisers
+  - Guides
+category_second_level:
+  - How To
+author: Yulia Savushkina
+thumbnail: /blog/assets/full-6-.png
+big_picture: /blog/assets/short.png
 ---
 ![](/blog/assets/a-ads-logo.png)
 

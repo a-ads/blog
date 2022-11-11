@@ -1,11 +1,17 @@
 ---
 date: 2021-03-07T08:09:29.394Z
 title: How to Change and Confirm a Withdrawal Address
+slug: how-to-change-and-confirm-a-withdrawal-address
 tags:
-  - ''
+  - ""
 category: How to
-thumbnail: /blog/assets/withdrawal-change-logo-featured.png
-big_picture: /blog/assets/withdrawal-change-logo-square.png
+category_top_level:
+  - Guides
+category_second_level:
+  - How To
+author: Yulia Savushkina
+thumbnail: /blog/assets/full-5-.png
+big_picture: /blog/assets/short-15-.png
 ---
 A-ADS strives to be as secure as possible, so we have enabled the measures to protect withdrawal changes via an email. This how-to describes how it can be done precisely.
 

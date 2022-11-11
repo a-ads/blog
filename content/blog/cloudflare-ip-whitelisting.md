@@ -1,11 +1,17 @@
 ---
 date: 2021-01-08T10:50:22.162Z
 title: Cloudflare IP Whitelisting
+slug: cloudflare-ip-whitelisting
 tags:
   - publisher
 category: How to
-thumbnail: /blog/assets/cloudflare-whitelisting-featured.png
-big_picture: /blog/assets/cloudflare-whitelisting-square.png
+category_top_level:
+  - Guides
+category_second_level:
+  - How To
+author: Yulia Savushkina
+thumbnail: /blog/assets/full-13-.png
+big_picture: /blog/assets/short-3-.png
 ---
 If you are experiencing the “Cloudflare prevents our bot from accessing your site” error as seen in the image below.
 

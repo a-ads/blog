@@ -1,11 +1,16 @@
 ---
 date: 2019-12-31T11:58:26.678Z
 title: FaucetPay withdrawals support added
+slug: faucetpay-withdrawals-support-added
 tags:
   - news
   - advertiser
   - publisher
 category: Development
+category_top_level:
+  - Guides
+  - Publishers
+author: Yulia Savushkina
 thumbnail: /blog/assets/undraw_partying_p92d-обложка.png
 big_picture: /blog/assets/undraw_partying_p92квадрат.png
 ---

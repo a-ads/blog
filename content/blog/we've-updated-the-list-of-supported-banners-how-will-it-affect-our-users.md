@@ -1,10 +1,16 @@
 ---
 date: 2020-04-18T12:35:13.341Z
 title: We've updated the list of supported banners. How will it affect our users?
+slug: we've-updated-the-list-of-supported-banners-how-will-it-affect-our-users
 tags:
   - advertiser
   - publisher
 category: Development
+category_top_level:
+  - Publishers
+  - Advertisers
+  - Guides
+author: Yulia Savushkina
 thumbnail: /blog/assets/undraw_content_vbqoобложка.png
 big_picture: /blog/assets/undraw_content_vbqoквадрат.png
 ---

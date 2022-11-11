@@ -1,9 +1,14 @@
 ---
-date: '2018-10-04'
+date: 2018-10-04
 title: How do we charge our advertisers?
+slug: how-do-we-charge-our-advertisers
 tags:
   - advertiser
 category: How to
+category_top_level:
+  - Advertisers
+  - Guides
+author: Yulia Savushkina
 thumbnail: /blog/assets/illustration-8.png
 ---
 We don't have any minimum deposit necessary to start a campaign. You can start with anything worthy of a transaction fee.
