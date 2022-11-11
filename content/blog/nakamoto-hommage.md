@@ -1,14 +1,14 @@
 ---
+author: Yulia Savushkina
 date: 2019-05-13T09:53:46.756Z
 title: Nakamoto Hommage
 slug: nakamoto-hommage
 tags:
   - news
 category: Stories
+thumbnail: /blog/assets/img3.png
 category_top_level:
   - News & Trends
-author: Yulia Savushkina
-thumbnail: /blog/assets/img3.png
 ---
 ## Let the music last forever!
 
@@ -18,7 +18,7 @@ The opus is meant to be an endless musical form with non-linear structure, meani
 
 Anyone can contribute to producing this composition making a voluntary contribution to the following bitcoin address: 18DHwXu22sbiWnVtNwhN69pdFYrXs74tW2. Every 100 euros of the budget will equal to 1 added minute of sound.
 
-The beginning has already been funded and is available to listen on YouTube: 
+The beginning has already been funded and is available to listen on YouTube 
 
 <iframe allowfullscreen="" frameborder="0" height="360" src="https://www.youtube.com/embed/1kpmZThsSHI" width="480"></iframe>
 
