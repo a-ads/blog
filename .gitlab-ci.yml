@@ -22,8 +22,7 @@ production_deploy:
     - aws s3 cp ./public/ s3://$S3_PRODUCTION_BUCKET_NAME/blog/ --recursive --acl public-read
     - aws s3 cp --content-type="text/vnd.yaml" --acl public-read --metadata-directive="REPLACE" s3://$S3_PRODUCTION_BUCKET_NAME/blog/admin/config.yml s3://$S3_PRODUCTION_BUCKET_NAME/blog/admin/config.yml
   only:
-    - production
-  when: manual  
+    - master  
 
 
 staging_deploy:
