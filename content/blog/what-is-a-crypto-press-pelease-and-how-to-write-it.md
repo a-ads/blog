@@ -1,5 +1,5 @@
 ---
-date: 2022-11-03T07:48:38.135Z
+date: 2022-11-18T07:48:38.135Z
 title: What is a crypto Press Release and how to write it
 slug: what-is-a-crypto-press-pelease-and-how-to-write-it
 tags:
@@ -87,7 +87,9 @@ For example, The headline is "Find Satoshi Lab, creators of STEPN, launch NFT ma
 
 State the facts as concisely as possible. Tell about who you are, what you do, when, where, and why. Let's have a look at the MOOAR press release again: 
 
-![](https://lh3.googleusercontent.com/ELJ7_y30HvltYgEFE1KBMHytvQ7Hh8JJlykDqNXuG3dXFpKGxC0vrIxrE8lgyLmlKS_2LTOnqjfolXPIhJsLSrLymcKaFzIPzpQBOrZmthT7CnBIdRkmTVQklegsNWaiCnbVAuChYSp0dDM4EH-OG5HZ-yNaWYPS0KEWx09Slt2c4RjX3mSxruMeTDdl "Source: Cointelegraph.com")
+![](https://lh3.googleusercontent.com/ELJ7_y30HvltYgEFE1KBMHytvQ7Hh8JJlykDqNXuG3dXFpKGxC0vrIxrE8lgyLmlKS_2LTOnqjfolXPIhJsLSrLymcKaFzIPzpQBOrZmthT7CnBIdRkmTVQklegsNWaiCnbVAuChYSp0dDM4EH-OG5HZ-yNaWYPS0KEWx09Slt2c4RjX3mSxruMeTDdl)
+
+*Source: Cointelegraph.com*
 
 6. 2nd paragraph
 
