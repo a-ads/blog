@@ -18,7 +18,7 @@ meta_description: Looking to earn interest on Bitcoin, Ethereum, or other
 meta_keywords: ""
 json_ld: ""
 ---
-<h2>Where to Earn Interest on Crypto
+<h2>Where to Earn Interest on Crypto</h2>
 
 If you are a long-term investor, time plays into your hands. It also means that you should consider earning interest on your digital assets and receiving passive income. 
 
@@ -26,18 +26,7 @@ Many platforms offer interest-bearing accounts that pay you in crypto you fund y
 
 ## Best Crypto Interest Accounts Reviewed
 
-### 1. [Aqru](https://aqru.io/earn-interest-stablecoins/)
-
-| **P﻿ros**                                                                       | **C﻿ons**                                  |
-| ------------------------------------------------------------------------------- | ------------------------------------------ |
-| Can earn up to 8% of APY on stablecoins and 2,5 % of APY on the bitcoin you buy | Not a wide variety of crypto you can stake |
-|                                                                                 |                                            |
-|                                                                                 |                                            |
-|                                                                                 |                                            |
-|                                                                                 |                                            |
-|                                                                                 |                                            |
-
-Let’s start with one of the best platforms for earning interest on crypto. What makes it the best? Well, lots of stuff. 
+### 1. Aqru
 
 First, Aqru supports bitcoin and ethereum, which attract an APY from 2.5 - 5%. For stablecoins, Aqru will pay even more - a very competitive APY of 8%. Plus, unlike other platforms, Aqru does not ask you to lock your crypto away but allows you to make all of its supported savings accounts flexible. It means that you can withdraw your currency from your Aqru account at any convenient time.
 
@@ -51,37 +40,13 @@ One more thing that makes Aqru so convenient for users is its user-friendly inte
 
 ### 2. DeFi Swap 
 
-|     |     |
-| --- | --- |
-|     |     |
-|     |     |
-|     |     |
-|     |     |
-|     |     |
-
-
-
-DeFi Swap is a new decentralized exchange with a range of crypto-centric services. The most significant advantage of DeFi Swap is the ability to change one token for another without the help of a centralized exchange. You need to connect your wallet to the platform, select the tokens you want to convert, and DeFi Swap immediately executes the transaction. Pretty simple, right? 
-
 What about staking? At DeFi Swap, this process is very straightforward. Users have several options of lock-up terms to choose from – 30, 90, 180, and 365 days. And as everywhere else, the higher the lock-up period, the more interest you earn. DeFi Swap also supports yield farming services, which are offered on a decentralized basis via smart contracts. 
 
 Two excellent features DeFi is currently working on are the integration of NFT swapping and staking tools into its platform and the mobile app. The company promises to release these two soon. For now, you can still access all instruments offered by DeFi Swap on your mobile.
 
 As for the fees, DeFi Swap does not have fixed pricing like you will find on centralized exchanges. The automated market maker or AMM determines all prices. Specifically, your fees depend on how busy the underlying network is. In such a case, that's the Binance Smart Chain. But the good thing is that DeFi Swap doesn't charge any fee for deposits or withdrawals. 
 
-### 3. [Gemini](https://www.gemini.com)
-
-|     |     |
-| --- | --- |
-|     |     |
-|     |     |
-|     |     |
-|     |     |
-|     |     |
-
-
-
-Gemini is another excellent option, especially for experienced investors. But Gemini is fantastic for beginners as it has its learning hub! New investors can learn a bunch of helpful stuff through Gemini's Cryptopedia: a blog with many valuable articles. 
+### 3. Gemini
 
 Gemini was launched in 2015 and is now considered on the list of the best cryptocurrency platforms for earning interest. It has over 70 cryptocurrencies available in over 60 countries and all U.S. states.
 
@@ -91,20 +56,7 @@ Gemini offers two types of wallets: a cold one called Gemini Custody and the hot
 
 The platform also offers a suite of products that make up a more cohesive ecosystem for traders and investors.
 
-#### 4. [YouHodler](https://www.youhodler.com)
-
-|     |     |
-| --- | --- |
-|     |     |
-|     |     |
-|     |     |
-|     |     |
-|     |     |
-|     |     |
-
-
-
-It is a Switzerland-based platform that supports more than 50 cryptocurrencies. It is focused on crypto-backed lending with fiat, crypto, and stablecoin loans, crypto/fiat, and crypto/crypto conversions. 
+#### 4. YouHodler
 
 Why is YouHolder on our list today? First, YouHodler does not have any hidden fees, rollover fees, or any fees for the first three hours of trading. The other costs are pretty competitive with the rest of the market players. Another convenience is that YouHodler never locks funds on the platform, and withdrawals are incredibly fast. 
 
@@ -112,20 +64,7 @@ Secondly, the products that YouHolder offers are incredible: over 50 cryptocurre
 
 One more thing about YouHolder, worth mentioning is its learning opportunities. The help desk sections offer tutorial videos and articles that help you to learn more about the platform. Their customer service works 24/7, and speaks multi-languages. It is an incredible help for beginners. 
 
-### 5. [BlockFi](https://blockfi.com/rates/)
-
-|     |     |
-| --- | --- |
-|     |     |
-|     |     |
-|     |     |
-|     |     |
-|     |     |
-|     |     |
-
-
-
-And the final platform for today's guide is BlockFi. This is one of the few crypto exchanges based in the United States. 
+### 5. BlockFi
 
 If you open an interest account, BlockFi offers you to earn between 3% and 8.6% compounding interest on your cryptocurrency holdings. The account has no hidden fees and no minimum balance requirement.
 
