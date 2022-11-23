@@ -15,7 +15,7 @@ const Nav = ({ className, tags = [], ...props }) => {
           (tag, i) =>
             !_.isEmpty(tag) && (
               <React.Fragment key={tag}>
-                {i % 2 !== 0 && <Bullet />}
+                {i > 0 && <Bullet />}
                 <li style={{ width: "auto" }}>
                   <Link
                     to={i === 0 ? "/" : `/categories/${_.kebabCase(tag)}`}
@@ -24,7 +24,6 @@ const Nav = ({ className, tags = [], ...props }) => {
                     {_.capitalize(tag)}
                   </Link>
                 </li>
-                {i % 2 !== 0 && i + 1 !== _tags.length && <Bullet />}
               </React.Fragment>
             )
         )}
