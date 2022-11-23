@@ -8,8 +8,8 @@ category: Stories
 category_top_level:
   - Guides
 author: Yulia Savushkina
-thumbnail: ""
-big_picture: ""
+thumbnail: /blog/assets/full-30-.png
+big_picture: /blog/assets/short-18-.png
 popularity: "0"
 meta_title: 5 Places to Earn Interest on Crypto - How to Earn Interest on Cryptocurrency
 meta_description: Looking to earn interest on Bitcoin, Ethereum, or other
@@ -18,7 +18,7 @@ meta_description: Looking to earn interest on Bitcoin, Ethereum, or other
 meta_keywords: ""
 json_ld: ""
 ---
-<h2>Where to Earn Interest on Crypto</h2>
+## Where to Earn Interest on Crypto
 
 If you are a long-term investor, time plays into your hands. It also means that you should consider earning interest on your digital assets and receiving passive income. 
 
@@ -50,6 +50,10 @@ As for the fees, DeFi Swap does not have fixed pricing like you will find on cen
 
 Gemini was launched in 2015 and is now considered on the list of the best cryptocurrency platforms for earning interest. It has over 70 cryptocurrencies available in over 60 countries and all U.S. states.
 
+![](/blog/assets/full-32-.png)
+
+
+
 Gemini's trading minimum for any coin is the smallest amount of each coin that can be bought. Although Gemini does not advertise its offering as a traditional staking program, its "earn" features pay out interest on specific cryptocurrencies. Rates range as high as 8.05% APY. As for the fees, you'll be charged both convenience and transaction fees which do not depend on Gemini's online site or a mobile app.
 
 Gemini offers two types of wallets: a cold one called Gemini Custody and the hot Gemini Wallet. Users won't be charged for putting money into their Gemini account unless they use a debit card. In this case, Gemini charges 3.49% of the total purchase amount.
@@ -72,9 +76,11 @@ The interest rate varies depending on what cryptocurrency you hold in your walle
 
 As for crypto withdrawals, BlockFi offers one crypto withdrawal and one stablecoin withdrawal per month. Next, you need to pay a fee for each withdrawal. 
 
+![](/blog/assets/full-31-.png)
+
 To conclude, BlockFi will suit you well if you are a beginner investor looking for a personal or business account and are open to increased regulation in exchange for higher security.
 
- Some additional options
+**Some additional options**
 
 We can't help but mention such giant companies as Crypto.com and Coinbase that also offer earning interest options: 
 
