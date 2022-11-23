@@ -1,34 +1,9 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import AntiAdBlockLink from "../components/AntiAdBlockLink";
 import { useMedia } from "../hooks";
 import { showReportBugModal, showSuggestIdeaModal } from "../components/modals";
-
-function getFormattedDate() {
-  const today = new Date();
-  const dd = String(today.getDate()).padStart(2, "0");
-  const mm = String(today.getMonth()).padStart(2, "0").replace("0", "");
-  const yyyy = today.getFullYear();
-  const hours = today.getHours();
-  const minutes = today.getMinutes();
-
-  const months = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December",
-  ];
-
-  return `${dd} ${months[mm]} ${yyyy} ${hours}:${minutes} UTC`;
-}
+import moment from 'moment'
 
 export default () => {
   const medias = useMedia({
@@ -43,7 +18,13 @@ export default () => {
     ],
     size: 36,
   });
-  const [seeMoreMedias, setSeeMoreMedias] = React.useState(false);
+  const [seeMoreMedias, setSeeMoreMedias] = useState(false);
+
+  const [formattedDate, setFormattedDate] = useState('');
+
+  useEffect(() => {
+    setFormattedDate(moment.utc().format('D MMMM YYYY, HH:mm UTC'));
+  }, []);
 
   return (
     <footer className="flex column bg-grey-300">
@@ -135,10 +116,10 @@ export default () => {
       </div>
       <div className="flex y-center gap-1n5 container mb-2 s-d-none">
         {medias}
-        <span className="footer-date l-ml-2">{getFormattedDate()}</span>
+        <span className="footer-date l-ml-2">{formattedDate}</span>
       </div>
       <span className="footer-date desk-d-none full-w text-center mb-2">
-        {getFormattedDate()}
+        {formattedDate}
       </span>
       <div
         className={`flex y-center gap-1n5 container mb-2 s-wrap desk-d-none ${
