@@ -52,15 +52,13 @@ Gemini was launched in 2015 and is now considered on the list of the best crypto
 
 ![](/blog/assets/full-32-.png)
 
-
-
 Gemini's trading minimum for any coin is the smallest amount of each coin that can be bought. Although Gemini does not advertise its offering as a traditional staking program, its "earn" features pay out interest on specific cryptocurrencies. Rates range as high as 8.05% APY. As for the fees, you'll be charged both convenience and transaction fees which do not depend on Gemini's online site or a mobile app.
 
 Gemini offers two types of wallets: a cold one called Gemini Custody and the hot Gemini Wallet. Users won't be charged for putting money into their Gemini account unless they use a debit card. In this case, Gemini charges 3.49% of the total purchase amount.
 
 The platform also offers a suite of products that make up a more cohesive ecosystem for traders and investors.
 
-#### 4. YouHodler
+### 4. YouHodler
 
 Why is YouHolder on our list today? First, YouHodler does not have any hidden fees, rollover fees, or any fees for the first three hours of trading. The other costs are pretty competitive with the rest of the market players. Another convenience is that YouHodler never locks funds on the platform, and withdrawals are incredibly fast. 
 
