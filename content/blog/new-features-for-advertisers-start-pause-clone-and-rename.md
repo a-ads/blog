@@ -9,7 +9,7 @@ category: How to
 category_top_level:
   - Advertisers
   - Guides
-author: Yulia Savushkina
+author: Olga Ostrovskaya
 thumbnail: /blog/assets/undraw_decide_3iwxобложка.png
 big_picture: /blog/assets/undraw_decide_3iwxквадрат.png
 ---
