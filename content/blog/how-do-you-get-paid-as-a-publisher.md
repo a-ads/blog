@@ -8,7 +8,7 @@ category: How to
 category_top_level:
   - Publishers
   - Guides
-author: Yulia Savushkina
+author: Olga Ostrovskaya
 thumbnail: /blog/assets/illustration-7.png
 ---
 ## Factors that affect publishers' revenue
