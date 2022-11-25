@@ -8,7 +8,7 @@ category: Stories
 category_top_level:
   - Guides
   - Publishers
-author: Yulia Savushkina
+author: Anastasia Zavershinskaya
 thumbnail: https://stg.int.a-ads.com/blog/assets/illustration-3.png
 ---
 Come on board and have a share of our sweet advertising budget pie! 
