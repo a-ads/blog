@@ -11,7 +11,7 @@ category_top_level:
   - Guides
   - Advertisers
   - Publishers
-author: Yulia Savushkina
+author: Olga Ostrovskaya
 thumbnail: /blog/assets/undraw_authentication_fsn5обложка.png
 big_picture: /blog/assets/undraw_authentication_fsn5квадрат.png
 ---
