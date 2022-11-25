@@ -11,7 +11,7 @@ category_top_level:
   - Guides
   - Advertisers
   - Publishers
-author: Yulia Savushkina
+author: Anastasia Zavershinskaya
 thumbnail: /blog/assets/illustration-1-2x.png
 ---
 A-ADS (former "Anonymous Ads") is the first privacy-focused bitcoin-based advertising network, founded in 2011. 
