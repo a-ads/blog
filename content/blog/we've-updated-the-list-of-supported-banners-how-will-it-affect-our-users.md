@@ -10,7 +10,7 @@ category_top_level:
   - Publishers
   - Advertisers
   - Guides
-author: Yulia Savushkina
+author: Olga Ostrovskaya
 thumbnail: /blog/assets/undraw_content_vbqoобложка.png
 big_picture: /blog/assets/undraw_content_vbqoквадрат.png
 ---
