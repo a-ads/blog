@@ -8,7 +8,7 @@ category: How to
 category_top_level:
   - Publishers
   - Guides
-author: Yulia Savushkina
+author: Anastasia Zavershinskaya
 thumbnail: /blog/assets/illustration-5-2x.png
 ---
 ## Why you should put the exact URL in your ad unit info.
