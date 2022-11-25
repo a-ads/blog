@@ -9,7 +9,7 @@ tags:
 category: Development
 category_top_level:
   - Guides
-author: Yulia Savushkina
+author: Olga Ostrovskaya
 thumbnail: /blog/assets/illustration-8.png
 ---
 Good news for our users, we now support Bech32 addresses for bitcoin withdrawals!
