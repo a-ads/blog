@@ -9,7 +9,7 @@ category: Development
 category_top_level:
   - Advertisers
   - Guides
-author: Yulia Savushkina
+author: Olga Ostrovskaya
 thumbnail: /blog/assets/undraw_digital_currency_qpakобложка.png
 big_picture: /blog/assets/undraw_digital_currency_qpakквадрат.png
 ---
