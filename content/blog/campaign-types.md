@@ -8,7 +8,7 @@ category: Development
 category_top_level:
   - Advertisers
   - Guides
-author: Yulia Savushkina
+author: Olga Ostrovskaya
 thumbnail: /blog/assets/undraw_select_option_y75iобложка.png
 big_picture: /blog/assets/undraw_select_option_y75iквадрат.png
 ---
