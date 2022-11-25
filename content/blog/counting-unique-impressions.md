@@ -9,7 +9,7 @@ category_top_level:
   - Advertisers
   - Publishers
   - Guides
-author: Yulia Savushkina
+author: Olga Ostrovskaya
 thumbnail: /blog/assets/illustration-6.png
 ---
 If you [want to become our publisher](https://a-ads.com/ad_units/new), you might be interested to learn what we mean by "unique impressions".
