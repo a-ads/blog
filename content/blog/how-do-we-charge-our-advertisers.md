@@ -8,7 +8,7 @@ category: How to
 category_top_level:
   - Advertisers
   - Guides
-author: Yulia Savushkina
+author: Olga Ostrovskaya
 thumbnail: /blog/assets/illustration-8.png
 ---
 We don't have any minimum deposit necessary to start a campaign. You can start with anything worthy of a transaction fee.
