@@ -8,7 +8,7 @@ category: How to
 category_top_level:
   - Guides
   - Publishers
-author: Yulia Savushkina
+author: Anastasia Zavershinskaya
 thumbnail: /blog/assets/illustration-6.png
 ---
 If you have several ad units on your webpage, it is most likely that the first one or two will summon all the unique impressions, and your other ad units will become inactive and display only free affiliate ads.
