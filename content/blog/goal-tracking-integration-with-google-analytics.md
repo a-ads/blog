@@ -10,7 +10,7 @@ category_top_level:
   - Guides
 category_second_level:
   - How To
-author: Yulia Savushkina
+author: Micheal George
 thumbnail: /blog/assets/full-11-.png
 big_picture: /blog/assets/short-9-.png
 ---
