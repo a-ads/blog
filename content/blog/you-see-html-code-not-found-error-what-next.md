@@ -8,7 +8,7 @@ category: How to
 category_top_level:
   - Publishers
   - Guides
-author: Yulia Savushkina
+author: Anastasia Zavershinskaya
 thumbnail: /blog/assets/illustration-1-2x.png
 ---
 ## Default error
