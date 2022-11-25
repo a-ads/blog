@@ -1,17 +1,18 @@
+@import "../abstracts/breakpoints";
 html,
 body {
   height: 100%;
-  //   overflow-x: hidden;
+  scroll-behavior: smooth;
+
+  @include bp(below-600) {
+    overflow-x: hidden;
+  }
 }
 
 body {
   position: relative;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-html:focus-within {
-  scroll-behavior: smooth;
+  // display: flex;
+  // flex-direction: column;
 }

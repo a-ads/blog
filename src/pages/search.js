@@ -72,7 +72,9 @@ class SearchPage extends React.Component {
       <RootLayout>
         <div className="search-page-bg">
           {!this.state.isLoaded && (
-            <div className="spinner-wrap"><Spinner /></div>
+            <div className="spinner-wrap">
+              <Spinner />
+            </div>
           )}
 
           {this.state.isLoaded && (

@@ -28,7 +28,7 @@ export default () => {
 
   return (
     <footer className="flex column bg-grey-300">
-      <div className="container px-0 w-90 py-3 s-py-2 flex wrap l-x-space-evenly not-desk-grid m-cols-3 s-cols-2 gap-2">
+      <div className="container px-0 w-90 py-3 s-py-2 flex wrap l-x-space-evenly below-950-grid range-600-950-cols-3 below-600-cols-2 gap-2">
         {[
           {
             title: "Advertising",

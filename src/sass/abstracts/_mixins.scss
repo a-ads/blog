@@ -1,41 +1,40 @@
-@mixin apply_rules ($rules, $important) {
-    @each $name, $rule in $rules {
-        @if $important != "" {
-            #{$name}: $rule !important;
-        }
-        @else {
-            #{$name}: $rule;
-        }
+@mixin apply_rules($rules, $important) {
+  @each $name, $rule in $rules {
+    @if $important != "" {
+      #{$name}: $rule !important;
+    } @else {
+      #{$name}: $rule;
     }
+  }
 }
 
-@mixin add_inheritance ($class, $rules, $important: "") {
-    $classes: $class, #{'pass-down'}-#{$class}#{' >*'};
-    $classes1: $class, #{'children'}-#{$class}#{' *'};
-    @each $c in $classes {
-        .#{$c} {
-            @include apply_rules($rules, $important);
-        }
+@mixin add_inheritance($class, $rules, $important: "") {
+  $classes: $class, #{"pass-down"}-#{$class}#{" >*"};
+  $classes1: $class, #{"children"}-#{$class}#{" *"};
+  @each $c in $classes {
+    .#{$c} {
+      @include apply_rules($rules, $important);
     }
-    @each $c in $classes1 {
-        .#{$c} {
-            @include apply_rules($rules, $important);
-        }
+  }
+  @each $c in $classes1 {
+    .#{$c} {
+      @include apply_rules($rules, $important);
     }
+  }
 }
 
-@mixin add_bps ($cn, $rules) {
-    $bps: s, m, l, not-desk, desk;
-
-    @each $bp in $bps {
-        @include bp($bp) {
-            $c: #{$bp}-#{$cn};
-            @include add_inheritance($c, $rules, true);
-        }
+@mixin add_bps($cn, $rules) {
+  $bps: s, m, l, not-desk, desk, below-1200, above-1200, below-600, above-600,
+    below-950, below-750, above-750, above-950, range-600-950, range-414-600;
+  @each $bp in $bps {
+    @include bp($bp) {
+      $c: #{$bp}-#{$cn};
+      @include add_inheritance($c, $rules, true);
     }
+  }
 }
 
-@mixin cn ($cn, $rules) {
-    @include add_inheritance($cn, $rules);
-    @include add_bps($cn, $rules);
+@mixin cn($cn, $rules) {
+  @include add_inheritance($cn, $rules);
+  @include add_bps($cn, $rules);
 }

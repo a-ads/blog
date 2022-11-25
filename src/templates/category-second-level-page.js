@@ -26,7 +26,7 @@ const CategoryPage = ({ pageContext, data }) => {
           {categoriesSecondLevel.map((category) => (
             <Link
               key={category.id}
-              className="flex center px-2 py-1 max-wdth-200 txt-base-200 f-secondary weight-800 radius-4"
+              className="flex center px-2 py-1 max-wdth-200 txt-base-200 f-secondary weight-800 radius-4 white-space-nowrap"
               to={`categories/${_.kebabCase(category.title)}`}
               style={
                 activeSecondCategory.title === category.title

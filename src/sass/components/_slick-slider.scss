@@ -1,26 +1,39 @@
-.slick-slider {
-  width: 1110px; // slider width * 3 + gap * 2
+@import "../abstracts/breakpoints";
 
-  @include bp (not-desk) {
-    width: 100%;
-  }
+.slick-slider {
+  width: 100%; // Container width
 
   .slick-arrow {
     font-size: 0;
-    width: .7em;
-    height: .7em;
+    width: 0.7em;
+    height: 0.7em;
     position: absolute;
     display: block;
     border: none;
     cursor: pointer;
-    background-image: url('../../static/images/regular-icons/chevron.svg');
+    background-image: url("../../static/images/regular-icons/chevron.svg");
     background-position: center;
     background-repeat: no-repeat;
-    top: -4.7rem; 
+    top: -4.7rem;
     outline: none;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 1.3rem;
     border-radius: 100%;
+
+    @include bp(below-1200) {
+      left: 80vw;
+      &.slick-next {
+        left: 87vw;
+      }
+    }
+
+    @include bp(below-750) {
+      left: 77vw;
+
+      &.slick-next {
+        left: 86vw;
+      }
+    }
 
     &.slick-prev {
       right: 4rem;
@@ -32,14 +45,14 @@
     }
 
     @include bp(m) {
-      height: .5em;
-      width: .5em;
+      height: 0.5em;
+      width: 0.5em;
       padding: 1.3rem;
     }
   }
 
   .slick-slide {
-    width: 360px;
+    width: 400px;
     padding: 0 15px;
     box-sizing: content-box;
 
@@ -109,7 +122,7 @@
     width: 14px;
     height: 14px;
     background-color: map-deep-get($colors, "gray", "400");
-    border-radius: 50%;
+    border-radius: 70%;
     outline: none;
     cursor: pointer;
     @include bp(s) {

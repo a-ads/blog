@@ -128,9 +128,9 @@ const Header = ({
             />
           </Link>
           <nav
-            className={`flex not-desk-d-none ${
+            className={`flex below-950-d-none ${
               isHamburgerOpen
-                ? "not-desk-flex column absolute z-layout bg-grey-300 full-w pt-1n5 pb-2 pass-down-not-desk-font-normal"
+                ? "below-950-flex column absolute left-0 z-layout bg-grey-300 full-w pt-1n5 pb-2 pass-down-below-950-font-normal"
                 : "gap-2"
             }`}
             style={{ top: isHamburgerOpen ? 176 : null }}
@@ -140,8 +140,8 @@ const Header = ({
                 key={node.id}
                 to={`/categories/${_.kebabCase(node.title)}`}
                 className={`f-secondary txt-primary-400 body-1 bold ${
-                  i === categoriesTopLevel.nodes.length - 1 && "border-none"
-                } ${isHamburgerOpen ? "bb-grey-600 py-1" : ""}`}
+                  node.title === "Guides" && "border-none"
+                } ${isHamburgerOpen ? "bb-grey-600 py-1 mx-2" : ""}`}
                 style={{ order: node.order }}
               >
                 {node.title}
@@ -150,7 +150,7 @@ const Header = ({
           </nav>
         </div>
         <div
-          className={`nav-hamburger ml-auto l-d-none  ${
+          className={`nav-hamburger ml-auto above-950-d-none  ${
             isHamburgerOpen ? "open mt-1n5" : "mb-1"
           }`}
           onClick={() => setIsHamburgerOpen(!isHamburgerOpen)}
@@ -163,8 +163,8 @@ const Header = ({
         <SearchBar
           search={search}
           changeSearchQuery={changeSearchQuery}
-          className={`full-w not-desk-d-none ${
-            isHamburgerOpen ? "not-desk-flex col-span-3 mt-1 mb-0n5" : ""
+          className={`full-w below-950-d-none ${
+            isHamburgerOpen ? "below-950-flex col-span-3 mt-1 mb-0n5" : ""
           }`}
         />
       </div>

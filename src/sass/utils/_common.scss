@@ -44,6 +44,12 @@ $common: (
   "absolute": (
     "position": absolute,
   ),
+  "sticky": (
+    "position": sticky,
+  ),
+  "fixed": (
+    "position": fixed,
+  ),
   "left-0": (
     "left": 0,
   ),
@@ -309,6 +315,10 @@ $common: (
   width: 100%;
   height: 17vw;
 
+  @include bp(below-1200) {
+    height: 250px;
+  }
+
   @include bp(m) {
     height: 180px;
   }
@@ -323,13 +333,16 @@ $common: (
     align-items: center;
     padding-left: 19rem;
 
-    @include bp(m) {
+    @include bp(below-1200) {
       background-image: url("../../public/images/discover-tablet.jpg");
-      height: 180px;
+      height: 250px;
       display: flex;
       justify-content: left;
       align-items: center;
       padding-left: 4rem;
+    }
+    @include bp(m) {
+      height: 180px;
     }
     @include bp(s) {
       background-image: url("../../public/images/discover-phone.jpg");
@@ -349,7 +362,7 @@ $common: (
       display: flex;
       justify-content: left;
       align-items: center;
-      padding-left: 20rem;
+      padding-inline: auto;
     }
 
     @include bp(s) {
@@ -603,6 +616,9 @@ textarea.modal-input {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+.overflow-visible {
+  overflow: visible;
+}
 .pt-2-p {
   p:first-child {
     padding-top: 2rem;
@@ -644,4 +660,44 @@ code {
       margin-top: 1.25rem;
     }
   }
+
+  ol {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    & + p {
+      margin-top: 20px;
+    }
+  }
+
+  ol li:not(:only-child) {
+    counter-increment: item;
+    display: table-row;
+    &::before {
+      content: counter(item) ".";
+      text-align: left;
+      display: table-cell;
+      width: 1rem;
+      padding-inline: 1rem 0.3rem;
+      float: left;
+    }
+  }
+}
+
+.article-overview-desktop {
+  position: sticky;
+  top: 90px;
+  bottom: 500px;
+  width: 266px;
+  padding-bottom: 430px;
+
+  .overview-medias {
+    position: absolute;
+    top: -4rem;
+    left: 0;
+  }
+}
+
+.white-space-nowrap {
+  white-space: nowrap;
 }

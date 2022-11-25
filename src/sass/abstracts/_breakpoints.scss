@@ -1,22 +1,72 @@
 $bps: (
-    "s": ("min": 1px, "max": 414px),
-    "m": ("min": 415px, "max": 820px),
-    "l": ("min": 821px, "max": 9999px),
-    "not-desk": ("min": 1px, "max": 820px),
-    "desk": ("min": 415px, "max": 9999px)
+  "s": (
+    "min": 1px,
+    "max": 414px,
+  ),
+  "m": (
+    "min": 415px,
+    "max": 820px,
+  ),
+  "l": (
+    "min": 821px,
+    "max": 9999px,
+  ),
+  "not-desk": (
+    "min": 1px,
+    "max": 820px,
+  ),
+  "desk": (
+    "min": 415px,
+    "max": 9999px,
+  ),
+  "below-600": (
+    "min": 1px,
+    "max": 600px,
+  ),
+  "above-600": (
+    "min": 600px,
+    "max": 9999px,
+  ),
+  "below-950": (
+    "min": 1px,
+    "max": 950px,
+  ),
+  "above-950": (
+    "min": 950px,
+    "max": 9999px,
+  ),
+  "below-1200": (
+    "min": 1px,
+    "max": 1200px,
+  ),
+  "above-1200": (
+    "min": 1200px,
+    "max": 9999px,
+  ),
+  "below-750": (
+    "min": 1px,
+    "max": 750px,
+  ),
+  "above-750": (
+    "min": 750px,
+    "max": 9999px,
+  ),
+  "range-600-950": (
+    "min": 600px,
+    "max": 950px,
+  ),
+  "range-414-600": (
+    "min": 414px,
+    "max": 600px,
+  ),
 );
 
-@mixin bp($bp) { 
-    @if map-has-key($bps, $bp) {
-        @media screen and 
-            (max-width: map-get(map-get($bps, $bp), "max")) 
-                and 
-            (min-width: map-get(map-get($bps, $bp), "min")) 
-                {
-                    @content;
-                }    
+@mixin bp($bp) {
+  @if map-has-key($bps, $bp) {
+    @media screen and (max-width: map-get(map-get($bps, $bp), "max")) and (min-width: map-get(map-get($bps, $bp), "min")) {
+      @content;
     }
-    @else {
-        @warn "'#{$bp}' is not a valid breakpoint";
-    }
+  } @else {
+    @warn "'#{$bp}' is not a valid breakpoint";
+  }
 }

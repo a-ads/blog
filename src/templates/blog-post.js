@@ -15,18 +15,23 @@ const ArticleOverview = ({ toc, className, authorLinks, ...props }) => {
     className: "blue",
     size: 36,
   });
+
   return (
     <aside
-      className={cn("flex column x-left col-4 not-desk-full-w", className)}
+      className={cn("flex column x-left col-4 full-w", className)}
       {...props}
     >
-      <div className="flex gap-2 mt-3 mb-2 not-desk-d-none">{medias}</div>
+      {medias.length > 0 && (
+        <div className="overview-medias flex gap-2 not-desk-mt-3 mb-2 not-desk-d-none">
+          {medias}
+        </div>
+      )}
       {toc && (
         <>
           {" "}
           <span
             className={`label weight-600 f-secondary ${
-              medias.lenght ? "" : "mt-2"
+              medias.lenght ? "" : "not-desk-mt-2"
             }`}
           >
             Read in the article:
@@ -38,7 +43,7 @@ const ArticleOverview = ({ toc, className, authorLinks, ...props }) => {
         </>
       )}
       <div
-        className={`not-desk-d-none ${!medias.length && !toc && "mt-2n2"}`}
+        className={`below-1200-d-none ${!medias.length && !toc && "mt-2n2"}`}
         style={{
           backgroundImage: `url('${withPrefix("/images/small-banner.jpg")}')`,
           backgroundPosition: "center",
@@ -154,103 +159,109 @@ const BlogPost = ({ location, data, pageContext }) => {
           {seo.post.frontmatter.json_ld}
         </script>
       </Helmet>
-      <div className="bg-grey-300 fullsize mt-2 s-mt-20px bg-img blog-post-bg-position">
-        <main className="l-grid cols-4 container">
-          <div />
-          <section
-            className="flex column l-col-span-3 pass-down-full-w"
-            aria-label={seo.htmlTitle}
-          >
-            <Nav tags={navTags} />
-            <h1 className="heading-1 mt-1 mb-0n5">{seo.htmlTitle}</h1>
-            <Link
-              className="uppercase txt-primary-200 bold body-1 f-secondary"
-              to={`/categories/${_.kebabCase(navTags[0])}`}
-            >
-              {_.isArray(seo.post.frontmatter.category_top_level)
-                ? seo.post.frontmatter.category_top_level[0]
-                : ""}
-            </Link>
-            <header
-              className="flex y-center x-right gap-1 s-column s-x-left"
-              style={{ marginBlock: 28 }}
-            >
-              {/* TODO: WTF? сделать блок автора и даты раздельно */}
+
+      <div className="bg-grey-300 mt-2 s-mt-20px bg-img blog-post-bg-position">
+        <main className="flex column">
+          <header className="grid cols-4 container below-600-full-w overflow-visible">
+            <div />
+            <section className="col-span-3 below-1200-col-span-4">
+              <Nav tags={navTags} />
+              <h1 className="heading-1 mt-1 mb-0n5">{seo.htmlTitle}</h1>
               <Link
-                to={author.node.fields.slug}
-                className="flex y-center gap-0n5 full-w"
+                className="uppercase txt-primary-200 bold body-1 f-secondary"
+                to={`/categories/${_.kebabCase(navTags[0])}`}
               >
-                <div>
-                  <Img
-                    src={author.node.frontmatter.image}
-                    alt="avatar"
-                    h={70}
-                    w={70}
-                    className="mr-0n5 radius-50"
-                  />
-                </div>
-                <div className="flex column full-w">
-                  <div className="label bold f-secondary txt-base-200">
-                    {author.node.frontmatter.name}
-                  </div>
-                  <div className="full-w flex x-space-between">
-                    <span className="body-1 txt-grey-200">
-                      {author.node.frontmatter.position}
-                    </span>
-                    <span className="flex y-center body-1 txt-grey-400 text-right s-d-none">
-                      Updated: {seo.post.frontmatter.date}{" "}
-                      {seo.timeToRead && <Bullet className="txt-grey-200" />}{" "}
-                      {seo.timeToRead} min read
-                    </span>
-                  </div>
-                </div>
+                {_.isArray(seo.post.frontmatter.category_top_level)
+                  ? seo.post.frontmatter.category_top_level[0]
+                  : ""}
               </Link>
-            </header>
-            <span className="body-1 txt-grey-400 desk-d-none mb-1">
-              {seo.post.frontmatter.date} {seo.timeToRead}
-            </span>
-            <div className="relative">
-              <Img src={seo.post.frontmatter.thumbnail} maxH={460} />
-              {["absolute not-desk-d-none", "l-d-none"].map((cn, i) => (
-                <ArticleOverview
-                  key={cn}
-                  className={cn}
-                  toc={seo.toc}
-                  authorLinks={author.node.frontmatter}
-                  style={
-                    i === 0
-                      ? { left: "-32.9%", top: -115, width: 266 }
-                      : { marginTop: 28 }
-                  }
-                />
-              ))}
-            </div>
-            <div
-              className="post container pt-2-p px-0 pb-2 flow js-anchor-target-blank"
-              dangerouslySetInnerHTML={{ __html: seo.post.html }}
-            />
-            <div className="flex gap-2">
-              {restTags.map((t) => (
-                <Link key={_.kebabCase(t)} to={`/categories/${_.kebabCase(t)}`}>
-                  <div
-                    key={t}
-                    style={{ padding: "8px 12px" }}
-                    className="bg-success-100 flex y-center body-1"
-                  >
-                    {_.capitalize(t)}
+              <header
+                className="flex y-center x-right gap-1 s-column s-x-left"
+                style={{ marginBlock: 28 }}
+              >
+                <Link
+                  to={author.node.fields.slug}
+                  className="flex y-center gap-0n5 full-w"
+                >
+                  <div>
+                    <Img
+                      src={author.node.frontmatter.image}
+                      alt="avatar"
+                      h={70}
+                      w={70}
+                      className="mr-0n5 radius-50"
+                    />
+                  </div>
+                  <div className="flex column full-w">
+                    <div className="label bold f-secondary txt-base-200">
+                      {author.node.frontmatter.name}
+                    </div>
+                    <div className="full-w flex x-space-between">
+                      <span className="body-1 txt-grey-200">
+                        {author.node.frontmatter.position}
+                      </span>
+                      <span className="flex y-center body-1 txt-grey-400 text-right s-d-none">
+                        Updated: {seo.post.frontmatter.date}{" "}
+                        {seo.timeToRead && <Bullet className="txt-grey-200" />}{" "}
+                        {seo.timeToRead} min read
+                      </span>
+                    </div>
                   </div>
                 </Link>
-              ))}
+              </header>
+              <span className="body-1 txt-grey-400 desk-d-none mb-1">
+                {seo.post.frontmatter.date} {seo.timeToRead}
+              </span>
+            </section>
+          </header>
+          <section className="grid cols-4 container below-600-full-w overflow-visible">
+            <div className="full-h below-1200-d-none">
+              <ArticleOverview
+                className="article-overview-desktop"
+                toc={seo.toc}
+                authorLinks={author.node.frontmatter}
+              />
             </div>
-            <div className="l-d-none bt-grey-200 pt-2 mt-2 pb-2 s-pb-0 flex gap-1n5 y-center">
-              {medias}
+            <div className="col-span-3 below-1200-col-span-4">
+              <div className="relative">
+                <Img src={seo.post.frontmatter.thumbnail} maxH={460} />
+                <ArticleOverview
+                  className="above-1200-d-none"
+                  toc={seo.toc}
+                  authorLinks={author.node.frontmatter}
+                  style={{ marginTop: 28 }}
+                />
+              </div>
+              <div
+                className="post container pt-2-p px-0 pb-2 flow js-anchor-target-blank"
+                dangerouslySetInnerHTML={{ __html: seo.post.html }}
+              />
+              <div className="flex gap-2">
+                {restTags.map((t) => (
+                  <Link
+                    key={_.kebabCase(t)}
+                    to={`/categories/${_.kebabCase(t)}`}
+                  >
+                    <div
+                      key={t}
+                      style={{ padding: "8px 12px" }}
+                      className="bg-success-100 flex y-center body-1"
+                    >
+                      {_.capitalize(t)}
+                    </div>
+                  </Link>
+                ))}
+              </div>
+              <div className="l-d-none bt-grey-200 pt-2 mt-2 pb-2 s-pb-0 flex gap-1n5 y-center">
+                {medias}
+              </div>
             </div>
           </section>
         </main>
         <div className="full-w related-articles not-desk-mt-2">
           <Banner banner="discover" className="l-my-3" />
           <section
-            className="container pt-2 s-d-none"
+            className="container pt-2 below-600-d-none"
             aria-label="Also read related articles"
           >
             <h2 className="flex x-space-between mb-2 m-pt-2">
@@ -264,10 +275,11 @@ const BlogPost = ({ location, data, pageContext }) => {
               variableWidth
               responsive={[
                 {
-                  breakpoint: 1240,
+                  breakpoint: 900,
                   settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 2,
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    centerMode: true,
                   },
                 },
               ]}
