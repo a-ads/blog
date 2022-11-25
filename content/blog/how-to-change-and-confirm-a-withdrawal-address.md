@@ -9,7 +9,7 @@ category_top_level:
   - Guides
 category_second_level:
   - How To
-author: Yulia Savushkina
+author: Olga Ostrovskaya
 thumbnail: /blog/assets/full-5-.png
 big_picture: /blog/assets/short-15-.png
 ---
