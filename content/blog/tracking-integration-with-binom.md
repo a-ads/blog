@@ -9,7 +9,7 @@ category_top_level:
   - Advertisers
 category_second_level:
   - How To
-author: Danil Persky
+author: Micheal George
 thumbnail: /blog/assets/full-1-.png
 big_picture: /blog/assets/short-12-.png
 ---
