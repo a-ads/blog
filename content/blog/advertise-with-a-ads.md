@@ -8,7 +8,7 @@ category: Stories
 category_top_level:
   - Guides
   - Advertisers
-author: Anna Trifonova
+author: Anastasia Zavershinskaya
 thumbnail: /blog/assets/illustration-4-2x.png
 big_picture: ""
 meta_title: ""
