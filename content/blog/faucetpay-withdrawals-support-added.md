@@ -10,7 +10,7 @@ category: Development
 category_top_level:
   - Guides
   - Publishers
-author: Yulia Savushkina
+author: Olga Ostrovskaya
 thumbnail: /blog/assets/undraw_partying_p92d-обложка.png
 big_picture: /blog/assets/undraw_partying_p92квадрат.png
 ---
