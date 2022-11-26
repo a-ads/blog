@@ -20,7 +20,7 @@ Many new crypto businesses and startups appear every year on the global market. 
 
 If you are in a crypto-related business or a startup, you must build a solid digital marketing strategy to stand out from your competitors. This article will introduce you to 20 crypto marketing strategies that work and tell you how to design a successful crypto marketing strategy for your business.
 
-## 20 ways to promote your project 
+**20 ways to promote your project** 
 
 Among all marketing strategies to promote a crypto business, we have chosen the 20 most applicable to a crypto business: 
 
@@ -28,7 +28,7 @@ Among all marketing strategies to promote a crypto business, we have chosen the 
 
 When choosing the right strategy for your business, we would recommend considering the following: 
 
-## **1. Think about your aims**
+**1. Think about your aims**
 
 Develop a clear idea of what you want your project to achieve. Consider what money you want to earn and how this project should impact your business. 
 
@@ -60,7 +60,7 @@ Example: Increase the number of monthly users of the "….." mobile app by 1,000
 
 ![](/blog/assets/1.png)
 
-## 2. Think about a community 
+**2. Think about a community** 
 
 Because crypto is a new concept, you must develop a dedicated community to promote your project.
 
@@ -76,7 +76,7 @@ Some of these methods include:
 * Invest time and research to determine what your buyers need and expect
 * Encourage satisfied customers to leave good reviews, and work with users who negatively review your brand.
 
-## 3. Be aware of crypto policies and regulations
+**3. Be aware of crypto policies and regulations**
 
 Crypto still needs to be entirely used around the globe. Some countries and companies have been using it for a while, while others still ban crypto. When choosing a media platform to implement your marketing strategy, check the policies first: 
 
@@ -90,7 +90,7 @@ Crypto still needs to be entirely used around the globe. Some countries and comp
 
 Now it is time to design an effective crypto marketing strategy. 
 
-## Design an effective crypto marketing strategy
+**Design an effective crypto marketing strategy**
 
 **Who is your customer?**
 
@@ -106,7 +106,7 @@ By answering the following questions, you can create an accurate customer avatar
 * Fear and frustration: the problems your customer may face
 * Wants and aspirations: what will change in your customer's life if they use your product? 
 
-## Customer avatar
+**Customer avatar**
 
 ![](/blog/assets/2.png)
 
