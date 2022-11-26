@@ -9,8 +9,8 @@ category_top_level:
   - Publishers
   - News & Trends
 author: Yulia Savushkina
-thumbnail: ""
-big_picture: ""
+thumbnail: /blog/assets/753.png
+big_picture: /blog/assets/low-cpm-to-advertisese.png
 meta_title: 10 Best cryptocurrency to mine 2022 | What is crypto mining?
 meta_description: Our list of the best cryptocurrencies to mine or the most
   profitable coins to mine that you can start mining in 2022. In addition, we
