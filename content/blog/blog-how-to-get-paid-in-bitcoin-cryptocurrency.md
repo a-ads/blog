@@ -1,5 +1,5 @@
 ---
-date: 2022-11-26T23:44:22.858Z
+date: 2022-11-22T23:44:22.858Z
 title: How to get paid in cryptocurrency
 slug: blog/how-to-get-paid-in-bitcoin-cryptocurrency
 tags:
