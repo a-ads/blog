@@ -115,7 +115,7 @@ The U.S. The Library of Congress has collected data on crypto legal status world
 
 The report shows that some countries are rather friendly towards crypto, for example, the USA, where bitcoin is a "money services business." Whereas some countries such as Algeria, Bangladesh, China, Egypt, Iraq, Morocco, Nepal, Qatar, and Tunisia have an absolute ban on crypto. So owning or trading crypto there is illegal.
 
-![](https://lh4.googleusercontent.com/xsSLeXk1mv6Wc7yx32daSPtUgo72nZlxfuc1Ra_ULD73O-G5IBZ67laYfqJRVmqqma4K7EKz1qCmfAYlS048Zp62lqMF5D3qJhlMPf5axCk1RC_1QshmU_hMknOLl9-RvDV4QPW43TusTV3MLf3b-Qhz2aReZyqzoWjICiEzmdnFHiFnqF7KUwECUF-g4Q)
+![](/blog/assets/pasted-image-0.png)
 
 Forty-two more countries have implicit bans on cryptocurrencies, meaning the government restricts banks and financial institutions from dealing with crypto or offering services to crypto providers.
 
