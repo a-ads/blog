@@ -9,7 +9,7 @@ tags:
 category: Development
 category_top_level:
   - Guides
-author: Yulia Savushkina
+author: Olga Ostrovskaya
 thumbnail: /blog/assets/undraw_social_girl_562b12обложка.png
 big_picture: /blog/assets/undraw_social_girl_562b12квадрат.png
 ---
