@@ -9,7 +9,7 @@ category: How to
 category_top_level:
   - Publishers
   - Guides
-author: Yulia Savushkina
+author: Olga Ostrovskaya
 thumbnail: /blog/assets/illustration-2.png
 ---
 If you invite others to advertise with A-ADS, you can count on 10% of money spent by them. When somebody follows your partner link, we use a cookie to track his activity. An advertiser is considered your referral for 6 months after he creates a campaign or a user account via your link. Our payouts are transparent and you can see them here: <https://a-ads.com/campaigns/1/goals>
