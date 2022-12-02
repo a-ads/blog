@@ -1,7 +1,7 @@
 ---
 date: 2022-11-29T22:05:16.677Z
-title: 5 Best Crypto Wallets of 2022
-slug: 5-best-crypto-wallets
+title: How to start investing in cryptocurrency in 2022
+slug: how-to-start-investing-in-cryptocurrency
 tags:
   - news
 category: Stories
@@ -13,10 +13,10 @@ author: Yulia Savushkina
 thumbnail: /blog/assets/full-42-.png
 big_picture: /blog/assets/short-23-.png
 popularity: "0"
-meta_title: 5 Best Bitcoin and Crypto Wallets of 2022
-meta_description: Unlike traditional assets, you need to store your digital
-  assets in a dedicated cryptocurrency wallet. Let’s browse the 5 best bitcoin
-  and crypto wallets for different purposes.
+meta_title: How to start investing in cryptocurrency in 2022 - Beginners Guide
+meta_description: If you’re new to the world of crypto, figuring out how to buy
+  cryptocurrency can be confusing at first. Let’s browse how to start investing
+  in cryptocurrency and what you need to watch out for.
 meta_keywords: ""
 json_ld: ""
 ---
