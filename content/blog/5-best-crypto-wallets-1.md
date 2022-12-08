@@ -110,7 +110,7 @@ Which one to choose is entirely up to your preferences and needs. Now, let's see
 
 1. Exodus Wallet
 
-Why choose [Exodus](https://www.exodus.com): 
+Why choose [Exodus](https://www.exodus.com){:rel=“nofollow”}: 
 
 Advantages 
 
