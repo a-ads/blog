@@ -88,7 +88,7 @@ Cold wallets are paper wallets and hardware wallets. The last ones are considere
 
 ![](https://lh5.googleusercontent.com/5MCI-LwHTALmop_nEUf-H95qkeHh9_68rvaC7WfvVAj_9Rw1UOuFrFPQimFrqpYNHuSNh64I7FdXxyzfOyNad-pfydThUCUa3vYFAS4FXYh9Ux1t3CsaBrQbFj68t15iRAKpGVHxBGuYEzcHl3umDeBzOnUBs1ylVtsSeKlNgegG1FValyGtH4MKr3Ywyw)
 
-*Source: [Nataly Gejdos](https://www.shutterstock.com/ru/g/Nataly+Gejdos)*
+*Source: [Nataly Gejdos](https://www.shutterstock.com/ru/g/Nataly+Gejdos "{rel='nofollow'}")*
 
 Hardware wallets are a more complicated and costly option for those who care about the security of their crypto-savings. These wallets can secure your crypto even if your computer is hacked, which is impressive! But you have to pay for such security as it costs up to $100. The most popular hardware wallets are Trezor, NGRAVE, Ledger, and SafePal.
 
@@ -110,7 +110,7 @@ Which one to choose is entirely up to your preferences and needs. Now, let's see
 
 1. Exodus Wallet
 
-Why choose [Exodus](https://www.exodus.com){:rel=“nofollow”}: 
+Why choose [Exodus](https://www.exodus.com) 
 
 Advantages 
 
