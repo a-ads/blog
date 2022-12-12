@@ -54,9 +54,7 @@ Which factors add credibility to a blog?
 
 Some respondents take into account other factors. These include designing a good blog site (17%), posting consistently (15%), being active on social media (13%), having great authors (12%), and getting positive testimonials or comments (5%).
 
-![](https://lh6.googleusercontent.com/snRskZQyqTUC2Roxv9ufe_stVwvJUSiin4BAGm_FEcx-boYJj3Kkkm8oVpVq810vDY9DNEu4UaJtQFQvCzxsmsx7R2yPA-UjCqxKjF6saomoD984CUPWHo57ldsuP4RnDB3-DWSBm10YEUiSiW_86TwPiLUEBLtAnXJMVLHTEdVzC4MhCk7vKeNEHdPP-Q)
-
-## Types of content marketing for crypto businesses  
+**Types of content marketing for crypto businesses**  
 
 1. Whitepapers 
 2. Blogs 
