@@ -18,20 +18,6 @@ meta_description: While cryptocurrency market began life as a payments network,
 meta_keywords: ""
 json_ld: ""
 ---
-Reading time: 6 mins
-
-Table of Content:
-
-* ## How to buy and keep cryptocurrency. Step-by-step guide.
-* ## Easy steps to create a hardware wallet 
-* ## How to start a hot wallet 
-* How to create a paper wallet 
-* ## How to buy cryptocurrency 
-* How to buy cryptocurrency through ATM
-* Conclusion 
-
-
-
 ## How to buy and keep cryptocurrency. Step-by-step guide
 
 Buying crypto is easier than it might seem. Crypto investors should open a cryptocurrency exchange account, have personal identification documents if they are using a KYC platform, and have a good and secure Internet connection. Plus, investors should choose a payment method and a personal wallet, whether a hot or a hardware wallet. 
