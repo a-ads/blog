@@ -87,10 +87,6 @@ Edx.org has an excellent course on trading and analysis called [Introduction to 
 
 Books are always great gifts! They are educational, thought-provoking, and entertaining. You can choose a book about crypto from a considerable variety of them. We would mention the five most popular in this category: 
 
-![](https://lh6.googleusercontent.com/BalyXmRjNhbtE3QOObAeqzQK8XDx0w3esXwFFHDt1gdgfCEwMpnC41ViD41tbimiK41M69VkLNTek_BLPyJw1icVVEgzJQh60EFxbthJzskn5X4Rx7skCYWAnzPkKSYF0MhIS46mGDBP_HzLtcQh6v4MftTTqcKrNWDg_kJdHsgRkTPd1zqKoOYI6zhMeQ)![](https://lh5.googleusercontent.com/hnaQamO5winMwv52a5KbQGOc_HwX9Calx1QTizDAqvD3p0wtEqc4wRws3ozf-kMTj1neC6Oq3qxK0i7hsH6tGBJR5VdwYQCunbRyatGqp1ikdIU0yCr94FsUONzq_3EIzY7pDdSsp1snlqSWy-JfaOSPXersOh8jObtxMoyzsOBwoA8zcd5255W06uijQg)
-
-*Source: Amazon.com*
-
 1. The Basics of Bitcoins and Blockchains by Antony Lewis
 2. Mastering Bitcoin: Programming the Open Blockchain, 2nd Edition by Andreas M. Antonopoulos
 3. Blockchain Basics: A Non-Technical Introduction in 25 Steps by Daniel Drescher
