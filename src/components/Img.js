@@ -4,7 +4,7 @@ import cn from "../utils/cn";
 export default React.memo(
   ({
     src = "",
-    desc,
+    alt,
     h,
     w,
     maxH,
@@ -48,10 +48,9 @@ export default React.memo(
             width: "inherit",
             borderRadius: "inherit",
           }}
-          alt={desc || "image"}
+          alt={alt || "image"}
           {...imgProps}
         />
-        {desc}
       </span>
     );
   }

@@ -17,7 +17,7 @@ export default ({ location, data, pageContext }) => {
             {authors.map(({ node, articlesCount }) => (
               <Link
                 key={node.fields.slug}
-                to={node.fields.slug}
+                to={node.fields.slug + "/"}
                 className="flex y-center x-left gap-1n5 col-2 mb-2 s-full-w txt-primary-400"
               >
                 <Img

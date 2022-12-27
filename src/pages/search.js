@@ -66,18 +66,20 @@ class SearchPage extends React.Component {
 
   render() {
     this.setSearchResults();
-    const isSearchValid = this.searchResults.length && this.state.isLoaded; // isLoaded has nothing to do with validity. We need a loading state design TODO
+    const searchLength = this.searchResults.length;
+    const isSearchValid = searchLength !== 0;
+    const isMounted = this.state.isLoaded;
 
     return (
       <RootLayout>
         <div className="search-page-bg">
-          {!this.state.isLoaded && (
+          {!isMounted && (
             <div className="spinner-wrap">
               <Spinner />
             </div>
           )}
 
-          {this.state.isLoaded && (
+          {isMounted && (
             <>
               <section className="container pb-1">
                 <h1 className="mt-2 s-mt-1n5">
@@ -85,9 +87,10 @@ class SearchPage extends React.Component {
                     ? `Search results for «${this.props.search.query}»`
                     : "No results were found"}
                 </h1>
-                {Boolean(isSearchValid) && (
+                {isSearchValid && (
                   <span className="txt-grey-200 body-1">
-                    {this.searchResults.length} articles found
+                    {searchLength}
+                    {searchLength === 1 ? " article " : " articles "}found
                   </span>
                 )}
                 {isSearchValid ? (

@@ -13,8 +13,8 @@ const CategoryPage = ({ pageContext, data }) => {
   return (
     <RootLayout>
       <div className="pass-down-container pb-5 bg-img category-page-bg-position">
-        <Nav className="mt-2 mb-1" tags={[pageContext.category]} />
-
+        {/* <Nav className="mt-2 mb-1" tags={[pageContext.category]} /> */}
+        <h1 className="mt-3 mb-0n5">{pageContext.category}</h1>
         <div className="flex gap-2 mb-2 overflow-y-scroll">
           <div
             className="flex pointer center px-2 py-1 max-wdth-200 bg-success-100 f-secondary weight-800 radius-4"
@@ -30,7 +30,7 @@ const CategoryPage = ({ pageContext, data }) => {
             <Link
               key={category.id}
               className="flex center px-2 py-1 max-wdth-200 txt-base-200 f-secondary weight-800 radius-4 white-space-nowrap"
-              to={`categories/${_.kebabCase(category.title)}`}
+              to={`categories/${_.kebabCase(category.title)}/`}
             >
               {category.title}
             </Link>

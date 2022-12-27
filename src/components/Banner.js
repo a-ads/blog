@@ -60,7 +60,7 @@ export default ({
     >
       <div>
         <div className="flex column">
-          <h2>{getVal(title, "title")}</h2>
+          <span>{getVal(title, "title")}</span>
           <span className="body-2">{getVal(subtitle, "subtitle")}</span>
           {getVal(children, "btn")}
         </div>

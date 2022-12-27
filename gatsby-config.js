@@ -1,17 +1,19 @@
-const PATH_PREFIX = '/blog';
+const PATH_PREFIX = "/blog";
 
 module.exports = {
   pathPrefix: PATH_PREFIX,
   siteMetadata: {
-    title: 'A-ADS Blog',
-    siteUrl: 'https://a-ads.com'
+    title: "A-ADS Blog",
+    description: `A-ADS is a pioneer crypto advertising network. It offers ethical privacy-aware CPA, CPD, CPM ads and accepts over 20 major crypto-currencies, including Bitcoin.`,
+    // image: `static/favicon.png`,
+    siteUrl: "https://a-ads.com",
   },
   plugins: [
     {
-      resolve: 'gatsby-plugin-netlify-cms',
+      resolve: "gatsby-plugin-netlify-cms",
       options: {
         enableIdentityWidget: false,
-      }
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -20,22 +22,22 @@ module.exports = {
         name: "content",
       },
     },
-    'gatsby-plugin-sass',
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-yaml',
+    "gatsby-plugin-sass",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-yaml",
     `gatsby-plugin-sitemap`,
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-images',
+            resolve: "gatsby-remark-images",
             options: {
-              maxWidth: 1140
+              maxWidth: 1140,
             },
           },
-          'gatsby-remark-numbered-list-fix',
+          "gatsby-remark-numbered-list-fix",
           {
             resolve: `gatsby-remark-table-of-contents`,
             options: {
@@ -47,7 +49,7 @@ module.exports = {
               className: "table-of-contents",
             },
           },
-          `gatsby-remark-autolink-headers`
+          `gatsby-remark-autolink-headers`,
         ],
       },
     },
@@ -70,17 +72,25 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.edges.map(edge => {
+              return allMarkdownRemark.edges.map((edge) => {
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
                   date: edge.node.frontmatter.date,
-                  url: site.siteMetadata.siteUrl + PATH_PREFIX + edge.node.fields.slug,
-                  guid: site.siteMetadata.siteUrl + PATH_PREFIX + edge.node.fields.slug,
-                  custom_elements: [{
-                    "content:encoded": edge.node.html
-                  }]
-                })
-              })
+                  url:
+                    site.siteMetadata.siteUrl +
+                    PATH_PREFIX +
+                    edge.node.fields.slug,
+                  guid:
+                    site.siteMetadata.siteUrl +
+                    PATH_PREFIX +
+                    edge.node.fields.slug,
+                  custom_elements: [
+                    {
+                      "content:encoded": edge.node.html,
+                    },
+                  ],
+                });
+              });
             },
             query: `
               {
@@ -113,6 +123,6 @@ module.exports = {
           },
         ],
       },
-    }
+    },
   ],
 };

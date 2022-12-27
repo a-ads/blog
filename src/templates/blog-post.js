@@ -169,7 +169,7 @@ const BlogPost = ({ location, data, pageContext }) => {
               <h1 className="heading-1 mt-1 mb-0n5">{seo.htmlTitle}</h1>
               <Link
                 className="uppercase txt-primary-200 bold body-1 f-secondary"
-                to={`/categories/${_.kebabCase(navTags[0])}`}
+                to={`/categories/${_.kebabCase(navTags[0])}/`}
               >
                 {_.isArray(seo.post.frontmatter.category_top_level)
                   ? seo.post.frontmatter.category_top_level[0]
@@ -179,38 +179,42 @@ const BlogPost = ({ location, data, pageContext }) => {
                 className="flex y-center x-right gap-1 s-column s-x-left"
                 style={{ marginBlock: 28 }}
               >
-                <Link
-                  to={author.node.fields.slug}
-                  className="flex y-center gap-0n5 full-w"
-                >
-                  <div>
+                <div className="flex y-center gap-0n5 full-w">
+                  <Link to={author.node.fields.slug + "/"}>
                     <Img
                       src={author.node.frontmatter.image}
-                      alt="avatar"
                       h={70}
                       w={70}
                       className="mr-0n5 radius-50"
+                      alt={author.node.frontmatter.name}
                     />
-                  </div>
+                  </Link>
                   <div className="flex column full-w">
-                    <div className="label bold f-secondary txt-base-200">
+                    <Link
+                      className="label bold f-secondary txt-base-200"
+                      to={author.node.fields.slug + "/"}
+                    >
                       {author.node.frontmatter.name}
-                    </div>
+                    </Link>
                     <div className="full-w flex x-space-between">
-                      <span className="body-1 txt-grey-200">
+                      <Link
+                        to={author.node.fields.slug + "/"}
+                        className="body-1 txt-grey-200"
+                      >
                         {author.node.frontmatter.position}
-                      </span>
-                      <span className="flex y-center body-1 txt-grey-400 text-right s-d-none">
+                      </Link>
+                      <span className="flex y-center body-1 txt-grey-400 text-right s-d-none events-none">
                         Updated: {seo.post.frontmatter.date}{" "}
                         {seo.timeToRead && <Bullet className="txt-grey-200" />}{" "}
                         {seo.timeToRead} min read
                       </span>
                     </div>
                   </div>
-                </Link>
+                </div>
               </header>
               <span className="body-1 txt-grey-400 desk-d-none mb-1">
-                {seo.post.frontmatter.date} {seo.timeToRead}
+                {seo.post.frontmatter.date}{" "}
+                {seo.timeToRead && seo.timeToRead + " min read"}
               </span>
             </section>
           </header>
@@ -233,14 +237,14 @@ const BlogPost = ({ location, data, pageContext }) => {
                 />
               </div>
               <div
-                className="post container pt-2-p px-0 pb-2 flow js-anchor-target-blank"
+                className="post container pt-2-p px-0 flow js-anchor-target-blank"
                 dangerouslySetInnerHTML={{ __html: seo.post.html }}
               />
               <div className="flex gap-2">
                 {restTags.map((t) => (
                   <Link
                     key={_.kebabCase(t)}
-                    to={`/categories/${_.kebabCase(t)}`}
+                    to={`/categories/${_.kebabCase(t)}/`}
                   >
                     <div
                       key={t}
@@ -252,7 +256,7 @@ const BlogPost = ({ location, data, pageContext }) => {
                   </Link>
                 ))}
               </div>
-              <div className="l-d-none bt-grey-200 pt-2 mt-2 pb-2 s-pb-0 flex gap-1n5 y-center">
+              <div className="l-d-none border-top pt-2 mt-2 pb-2 s-pb-0 flex gap-1n5 y-center s-p-0 s-mt-1">
                 {medias}
               </div>
             </div>
@@ -268,7 +272,7 @@ const BlogPost = ({ location, data, pageContext }) => {
               Also read related articles
             </h2>
             <Slider
-              className="pb-5 m-pb-4"
+              className="pb-4"
               slidesToShow={3}
               slidesToScroll={2}
               infinite

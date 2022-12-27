@@ -133,12 +133,17 @@ const Header = ({
                 ? "below-950-flex column absolute left-0 z-layout bg-grey-300 full-w pt-1n5 pb-2 pass-down-below-950-font-normal"
                 : "gap-2"
             }`}
-            style={{ top: isHamburgerOpen ? 176 : null }}
+            style={{
+              top: isHamburgerOpen ? 176 : null,
+              boxShadow: isHamburgerOpen
+                ? "0px 11px 25px -10px rgba(18, 16, 28, 0.25)"
+                : null,
+            }}
           >
             {categoriesTopLevel.nodes.map((node, i) => (
               <Link
                 key={node.id}
-                to={`/categories/${_.kebabCase(node.title)}`}
+                to={`/categories/${_.kebabCase(node.title)}/`}
                 className={`f-secondary txt-primary-400 body-1 bold ${
                   node.title === "Guides" && "border-none"
                 } ${isHamburgerOpen ? "bb-grey-600 py-1 mx-2" : ""}`}

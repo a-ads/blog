@@ -1,35 +1,35 @@
-@import '../abstracts';
+@import "../abstracts";
 
 $borderShortcuts: (
-    "bt": "border-top",
-    "br": "border-right",
-    "bb": "border-bottom",
-    "bl": "border-left",
-    "b": "border"
+  "bt": "border-top",
+  "br": "border-right",
+  "bb": "border-bottom",
+  "bl": "border-left",
+  "b": "border",
 );
 
 @each $palette, $clr in $colors {
-    @each $darkness, $value in $clr {
-        $cn: #{$palette}-#{$darkness};
-        .txt-#{$cn} {
-            color: $value;
-        }
-        .bg-#{$cn} {
-            background-color: $value;
-            color: set-contrast-text($value);
-        }
-        .palette-#{$cn} {
-            background-color: $value;
-            color: set-contrast-text($value);
-
-            &:hover {
-                background-color: darken($value, 6%);
-            }
-        }
-        @each $shortcut, $fullname in $borderShortcuts {
-            .#{$shortcut}-#{$cn} {
-                #{$fullname}: 1px solid map-deep-get($colors, $palette, $darkness);
-            }
-        }
+  @each $darkness, $value in $clr {
+    $cn: #{$palette}-#{$darkness};
+    .txt-#{$cn} {
+      color: $value;
     }
+    .bg-#{$cn} {
+      background-color: $value;
+      color: set-contrast-text($value);
+    }
+    .palette-#{$cn} {
+      background-color: $value;
+      color: set-contrast-text($value);
+
+      &:hover {
+        background-color: darken($value, 6%);
+      }
+    }
+    @each $shortcut, $fullname in $borderShortcuts {
+      .#{$shortcut}-#{$cn} {
+        #{$fullname}: 1px solid map-deep-get($colors, $palette, $darkness);
+      }
+    }
+  }
 }

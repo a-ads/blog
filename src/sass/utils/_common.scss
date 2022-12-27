@@ -382,8 +382,10 @@ $common: (
     }
   }
 
-  h2 {
+  span:first-of-type {
     font-size: 32px;
+    font-weight: 700;
+    line-height: 150%;
 
     @include bp(m) {
       font-size: 24px;
@@ -700,4 +702,24 @@ code {
 
 .white-space-nowrap {
   white-space: nowrap;
+}
+
+.hover-for-card-title {
+  &:hover .h3 {
+    color: #717171;
+  }
+}
+
+.border-top {
+  @include bp(m) {
+    border-top: 1px solid #a8acae;
+  }
+}
+
+h1 {
+  overflow-y: hidden;
+}
+
+.events-none {
+  pointer-events: none;
 }

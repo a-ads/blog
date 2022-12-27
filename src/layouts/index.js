@@ -111,6 +111,8 @@ export default ({ children, className, ...props }) => {
           site {
             siteMetadata {
               title
+              description
+              siteUrl
             }
           }
 
@@ -144,8 +146,16 @@ export default ({ children, className, ...props }) => {
               }}
             />
           </noscript>
-          <Helmet>
+          <Helmet
+            htmlAttributes={{
+              lang: "en",
+            }}
+          >
             <title>{data.site.siteMetadata.title}</title>
+            <meta
+              name="description"
+              content={data.site.siteMetadata.description}
+            />
             <link
               rel="shortcut icon"
               type="image/jpg"

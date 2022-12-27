@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "gatsby";
+import _ from "lodash";
 import RootLayout from "../layouts";
-import { Banner, Img, BlogPostGrid } from "../components";
+import { Banner, Img, BlogPostGrid, Bullet } from "../components";
 import { useMedia } from "../hooks";
 
 export default ({ location, data, pageContext: { author, posts } }) => {
@@ -13,6 +15,23 @@ export default ({ location, data, pageContext: { author, posts } }) => {
           className="container"
           aria-label={author.node.frontmatter.description}
         >
+          <nav className="full-w bg-grey-300 mt-1">
+            <ul className="flex y-center wrap txt-grey-200 body-1 container px-0">
+              {["blog", "authors"].map((tag, i) => (
+                <React.Fragment key={tag}>
+                  {i > 0 && <Bullet />}
+                  <li style={{ width: "auto" }}>
+                    <Link
+                      to={i === 0 ? "/" : `/${_.kebabCase(tag)}/`}
+                      className="txt-grey-200 hover"
+                    >
+                      {_.capitalize(tag)}
+                    </Link>
+                  </li>
+                </React.Fragment>
+              ))}
+            </ul>
+          </nav>
           <div className="flex gap-2 s-column my-3">
             <Img
               src={author.node.frontmatter.image}
@@ -35,9 +54,9 @@ export default ({ location, data, pageContext: { author, posts } }) => {
           </div>
         </section>
 
-        <h1 className="container overflow-hidden">
+        <p className="h1 container overflow-hidden">
           {author.node.frontmatter.name}'s latest articles
-        </h1>
+        </p>
         <BlogPostGrid posts={posts} className="mt-2 container" />
         <Banner banner="promote" className="mt-5" />
       </main>

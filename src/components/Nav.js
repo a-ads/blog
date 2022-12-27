@@ -19,7 +19,7 @@ const Nav = ({ className, tags: t = [], ...props }) => {
             {i > 0 && <Bullet />}
             <li style={{ width: "auto" }}>
               <Link
-                to={i === 0 ? "/" : `/categories/${_.kebabCase(tag)}`}
+                to={i === 0 ? "/" : `/categories/${_.kebabCase(tag)}/`}
                 className="txt-grey-200 hover"
               >
                 {_.capitalize(tag)}
