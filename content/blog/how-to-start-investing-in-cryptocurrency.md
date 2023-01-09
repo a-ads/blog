@@ -1,6 +1,6 @@
 ---
 date: 2022-11-29T22:05:16.677Z
-title: How to start investing in cryptocurrency in 2022
+title: How to start investing in cryptocurrency in 2023
 slug: how-to-start-investing-in-cryptocurrency
 tags:
   - news
@@ -13,14 +13,14 @@ author: Yulia Savushkina
 thumbnail: /blog/assets/full-42-.png
 big_picture: /blog/assets/short-23-.png
 popularity: "0"
-meta_title: How to start investing in cryptocurrency in 2022 - Beginners Guide
+meta_title: How to start investing in cryptocurrency in 2023 - Beginners Guide
 meta_description: If you’re new to the world of crypto, figuring out how to buy
   cryptocurrency can be confusing at first. Let’s browse how to start investing
   in cryptocurrency and what you need to watch out for.
 meta_keywords: ""
 json_ld: ""
 ---
-## How to start investing in cryptocurrency in 2022
+## How to start investing in cryptocurrency in 2023
 
 **A beginner guide**
 
