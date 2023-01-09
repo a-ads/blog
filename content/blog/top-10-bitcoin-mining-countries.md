@@ -1,6 +1,6 @@
 ---
 date: 2022-10-31T04:54:00.307Z
-title: Top 10 Bitcoin Mining Countries in 2022
+title: Top 10 Bitcoin Mining Countries in 2023
 slug: top-10-bitcoin-mining-countries
 tags:
   - news
@@ -13,7 +13,7 @@ author: Yulia Savushkina
 thumbnail: /blog/assets/full-17-.png
 big_picture: /blog/assets/preview.png
 popularity: "0"
-meta_title: Top 10 Bitcoin Mining Countries in 2022
+meta_title: Top 10 Bitcoin Mining Countries in 2023
 meta_description: Cryptocurrencies continue to be a promising investment for
   many. Let’s browse the best countries which are favourites fo prospective
   crypto-miners and that have flexible rules and an abundance of cheap energy
@@ -21,7 +21,7 @@ meta_description: Cryptocurrencies continue to be a promising investment for
 meta_keywords: ""
 json_ld: ""
 ---
-## Top 10 Bitcoin Mining Countries in 2022
+## Top 10 Bitcoin Mining Countries in 2023
 
 Cryptocurrencies are still promising investments for many. The last 5 years have shown that we are probably living in the middle of a digital gold rush.
 Investors, tech innovators, and entrepreneurs worldwide are packing their stuff and heading to the hottest spots for mining crypto. Let's examine some of those places, their opportunities, and their drawbacks.
