@@ -1,6 +1,6 @@
 ---
 date: 2022-08-26T03:35:15.701Z
-title: 10 Best Cryptocurrency to mine 2022
+title: 10 Best Cryptocurrency to mine 2023
 slug: 10-best-cryptocurrency-to-mine
 tags:
   - news
@@ -11,9 +11,9 @@ category_top_level:
 author: Yulia Savushkina
 thumbnail: /blog/assets/753.png
 big_picture: /blog/assets/low-cpm-to-advertisese.png
-meta_title: 10 Best cryptocurrency to mine 2022 | What is crypto mining?
+meta_title: 10 Best cryptocurrency to mine 2023 | What is crypto mining?
 meta_description: Our list of the best cryptocurrencies to mine or the most
-  profitable coins to mine that you can start mining in 2022. In addition, we
+  profitable coins to mine that you can start mining in 2023. In addition, we
   will look at how to choose the best coin to mine and what it will take to mine
   it.
 meta_keywords: ""
