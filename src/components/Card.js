@@ -40,7 +40,7 @@ export default ({
         "flex column txt-primary-400 hover-for-card-title",
         className
       )}
-      to={link + "/"}
+      to={link}
       {...props}
     >
       <span className={imgCn}>

@@ -89,7 +89,7 @@ const BlogPost = ({ location, data, pageContext }) => {
   });
   const seo = useMemo(
     () => ({
-      htmlTitle: `${data.markdownRemark.frontmatter.title} — ${data.site.siteMetadata.title}`,
+      htmlTitle: `${data.markdownRemark.frontmatter.title}`,
       siteUrl: data.site.siteMetadata.siteUrl,
       post: data.markdownRemark,
       toc: data.markdownRemark.tableOfContents,
@@ -162,7 +162,7 @@ const BlogPost = ({ location, data, pageContext }) => {
 
       <div className="bg-grey-300 mt-2 s-mt-20px bg-img blog-post-bg-position">
         <main className="flex column">
-          <header className="grid cols-4 container below-600-full-w overflow-visible">
+          <header className="grid cols-4 full-w container below-600-full-w overflow-visible">
             <div />
             <section className="col-span-3 below-1200-col-span-4">
               <Nav tags={navTags} />
@@ -180,7 +180,7 @@ const BlogPost = ({ location, data, pageContext }) => {
                 style={{ marginBlock: 28 }}
               >
                 <div className="flex y-center gap-0n5 full-w">
-                  <Link to={author.node.fields.slug + "/"}>
+                  <Link to={author.node.fields.slug}>
                     <Img
                       src={author.node.frontmatter.image}
                       h={70}
@@ -192,13 +192,13 @@ const BlogPost = ({ location, data, pageContext }) => {
                   <div className="flex column full-w">
                     <Link
                       className="label bold f-secondary txt-base-200"
-                      to={author.node.fields.slug + "/"}
+                      to={author.node.fields.slug}
                     >
                       {author.node.frontmatter.name}
                     </Link>
                     <div className="full-w flex x-space-between">
                       <Link
-                        to={author.node.fields.slug + "/"}
+                        to={author.node.fields.slug}
                         className="body-1 txt-grey-200"
                       >
                         {author.node.frontmatter.position}
@@ -212,9 +212,10 @@ const BlogPost = ({ location, data, pageContext }) => {
                   </div>
                 </div>
               </header>
-              <span className="body-1 txt-grey-400 desk-d-none mb-1">
+              <span className="body-1 flex y-center txt-grey-400 desk-d-none mb-1">
                 {seo.post.frontmatter.date}{" "}
-                {seo.timeToRead && seo.timeToRead + " min read"}
+                {seo.timeToRead && <Bullet className="txt-grey-200" />}{" "}
+                {seo.timeToRead} min read{" "}
               </span>
             </section>
           </header>
@@ -268,9 +269,9 @@ const BlogPost = ({ location, data, pageContext }) => {
             className="container pt-2 below-600-d-none"
             aria-label="Also read related articles"
           >
-            <h2 className="flex x-space-between mb-2 m-pt-2">
+            <span className="h2 flex x-space-between mb-2 m-pt-2">
               Also read related articles
-            </h2>
+            </span>
             <Slider
               className="pb-4"
               slidesToShow={3}
