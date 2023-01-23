@@ -1,7 +1,7 @@
 ---
 date: 2023-01-16T14:53:03.824Z
 title: Top DeFi Tokens to Buy in 2023
-slug: https://a-ads.com/blog/top-defi-tokens-to-buy/
+slug: top-defi-tokens-to-buy
 tags:
   - news
 category: How to
