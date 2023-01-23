@@ -1,7 +1,7 @@
 ---
 date: 2023-01-11T09:55:53.071Z
 title: 5 of the crypto wallets that earn interest in 2023
-slug: how-to-promote-a-crypto-project-cryptocurrency-marketing
+slug: 5-of-the-crypto-wallets-that-earn-interest
 tags:
   - news
 category: Stories
@@ -12,11 +12,8 @@ author: Yulia Savushkina
 thumbnail: /blog/assets/full-4-.png
 big_picture: /blog/assets/short-3-.png
 popularity: "0"
-meta_title: How to promote a crypto project. Cryptocurrency Marketing
-meta_description: As the cryptocurrency market grows and becomes more
-  competitive, marketing in this industry will get more crucial. We would like
-  to introduce you to crypto marketing strategies and how to promote a crypto
-  project.
+meta_title: ""
+meta_description: ""
 meta_keywords: ""
 json_ld: ""
 ---
