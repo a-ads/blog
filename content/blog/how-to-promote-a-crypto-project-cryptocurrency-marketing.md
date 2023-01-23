@@ -1,7 +1,7 @@
 ---
 date: 2023-01-11T09:55:53.071Z
 title: 5 of the crypto wallets that earn interest in 2023
-slug: how-to-promote-a-crypto-project-cryptocurrency-marketing
+slug: 5-of-the-crypto-wallets-that-earn-interest
 tags:
   - news
 category: Stories
