@@ -1,7 +1,7 @@
 ---
 date: 2023-01-20T19:28:34.328Z
 title: Best Cryptocurrency Payment Gateways in 2023
-slug: https://a-ads.com/blog/best-cryptocurrency-payment-gateways/
+slug: best-cryptocurrency-payment-gateways
 tags:
   - news
 category: How to
