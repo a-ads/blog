@@ -12,11 +12,8 @@ author: Yulia Savushkina
 thumbnail: /blog/assets/full-4-.png
 big_picture: /blog/assets/short-3-.png
 popularity: "0"
-meta_title: How to promote a crypto project. Cryptocurrency Marketing
-meta_description: As the cryptocurrency market grows and becomes more
-  competitive, marketing in this industry will get more crucial. We would like
-  to introduce you to crypto marketing strategies and how to promote a crypto
-  project.
+meta_title: ""
+meta_description: ""
 meta_keywords: ""
 json_ld: ""
 ---
