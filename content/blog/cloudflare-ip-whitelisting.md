@@ -23,15 +23,13 @@ In order to eliminate this error, follow these steps below.
 
 1. Login to your Cloudflare account.
 2. Select the specified domain.
-3. Navigate to Firewall >> Tools as seen in the image below.
+3. Navigate to Security >> WAF >> Tools as seen in the image below.
 
-![](/blog/assets/cloudflare-whitelisting-2.png)
+![](/blog/assets/cloudflare.png)
 
 4. Under “IP Access Rules”, add the IP addresses that you received from A-ADS support team like in the image below.
 
 Note : If you don’t have any of our bots IP’s, please contact our support.
-
-![](/blog/assets/cloudflare-whitelisting-3.png)
 
 5. Click “Check embedded HTML code” in your ad unit’s dashboard as seen in the image below.
 
