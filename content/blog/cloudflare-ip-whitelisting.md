@@ -27,7 +27,7 @@ In order to eliminate this error, follow these steps below.
 
 ![](/blog/assets/cloudflare.png)
 
-4. Under “IP Access Rules”, add the IP addresses that you received from A-ADS support team like in the image below.
+4. Under “IP Access Rules”, add the IP addresses that you received from A-ADS support team.
 
 Note : If you don’t have any of our bots IP’s, please contact our support.
 
