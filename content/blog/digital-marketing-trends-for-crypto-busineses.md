@@ -1,7 +1,7 @@
 ---
 date: 2023-01-22T19:19:20.476Z
 title: " Digital marketing trends for crypto busineses in 2023"
-slug: " Digital marketing trends for crypto busineses"
+slug: " digital-marketing-trends-for-crypto-busineses"
 tags:
   - news
 category: Stories
@@ -32,6 +32,8 @@ There are at least three ways how A.I. can improve personalization:
 
 2. Voice Assistants and Bots
 
+   ![](/blog/assets/1.png)
+
 Chatbots and other types of assistants will gain more and more popularity in 2023. They are effective not only for clients but also for companies. The most popular option in retail is customer service, where A.I. helps predict customer behaviour and creates hyper-personalization. Since 2020, many marketers have started implementing chatbots for user experience strategies. Business executives have noticed improved communication with customers through the introduction of digital technologies.
 
 The main advantages of such assistants are:
@@ -49,6 +51,8 @@ By implementing CDP, you will receive a single database that stores all necessar
 
 4. Personalization 
 
+   ![](/blog/assets/2.png)
+
 Users who view two product pages on your site spend twice as much on average as those who only view one (according to Dynamic Yield). A McKinsey study also showed that personalization revenue growth could be up to 25%.
 
 You should pay particular attention to the interests and behaviour patterns of generation Z. This is the generation of digital natives, and these guys aged 17-25 determine and set the trends of many industries. They like innovative technical solutions and dynamic visual formats, and they need to be guided by this.
@@ -60,6 +64,8 @@ In 2022, users paid more attention to how brands use their data. In 2023, this t
 35% of customers will forget about a brand if it secretly collects their data and uses it for recommendations, so broadcast your concern to customers, increasing loyalty and attracting a new audience. For example, Google is preparing to drop cookies in favour of the Privacy Sandbox project, which speaks to growing concerns about the security and ethics of data access.
 
 6. Effective UX 
+
+   ![](/blog/assets/3.png)
 
 The importance of a convenient mobile version or application of your project is critical as the number of people accessing the Internet from a smartphone was 5.31 billion in 2022 compared with 5.19 billion in 2020. 
 
