@@ -44,7 +44,7 @@ When choosing a wallet, think about such factors as accessibility and compatibil
 
 Most big crypto exchanges like Coinbase or Binance offer their wallets. They are available as a mobile app and browser extension.
 
-We have written a useful guide on how to choose a crypto wallet here. (cсылка на статью в блоге: 5 Best Crypto Wallets of 2022)
+We have written a useful guide on how to choose a crypto wallet [here](https://a-ads.com/blog/5-best-crypto-wallets/).
 
 **Step 2: Choose a Wallet username**
 
