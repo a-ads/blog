@@ -11,8 +11,11 @@ author: Yulia Savushkina
 thumbnail: /blog/assets/full-7-.png
 big_picture: /blog/assets/short-7-.png
 popularity: "0"
-meta_title: ""
-meta_description: ""
+meta_title: 7 Best Cryptocurrency Payment Gateways in 2022
+meta_description: When it comes to choosing a payment gateway for your crypto
+  business, it is wise to choose a secure and profitable platform. Let’s browse
+  the list of popular cryptocurrency payment gateways along with their main
+  features to choose the best one.
 meta_keywords: ""
 json_ld: ""
 ---
