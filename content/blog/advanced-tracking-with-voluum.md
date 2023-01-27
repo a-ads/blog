@@ -20,7 +20,7 @@ big_picture: /blog/assets/short-8-.png
 
 \* Voluum offers up to 37% discounts to A-ADS users, claim your discounts [here](https://voluum.com/partner/a-ads/). Track, manage, and optimize all your advertising campaigns in one place. Explore the powerful features and skyrocket your performance. 
 
-See also [our article about Goal tracking](https://a-ads.com/blog/2019-10-16-advertisers-why-do-i-need-goal-tracking-how-to-switch-it-on/).
+See also [our article about Goal tracking](https://a-ads.com/blog/2019-10-16-why-do-i-need-goal-tracking-how-to-switch-it-on/).
 
 # Integration Instructions
 

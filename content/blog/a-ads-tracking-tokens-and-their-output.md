@@ -14,7 +14,7 @@ author: Micheal George
 thumbnail: /blog/assets/full-4-.png
 big_picture: /blog/assets/short-14-.png
 ---
-Firstly, info on "Goal tracking" and how to switch it on [here](https://a-ads.com/blog/2019-10-16-advertisers-why-do-i-need-goal-tracking-how-to-switch-it-on/).\
+Firstly, info on "Goal tracking" and how to switch it on [here](https://a-ads.com/blog/2019-10-16-why-do-i-need-goal-tracking-how-to-switch-it-on/).\
 Most, or all of our tracking tokens are self-explanatory but for elaboration and easy understanding the following article will briefly explain the values of the tokens.
 
 \* `{{partner}}`

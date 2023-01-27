@@ -22,7 +22,7 @@ There are several good practices for how to use CPM bids with success, though.
 
 **Use bids to test traffic with broad targeting**
 
- Adjust your campaign to target All traffic, set [Goal tracking](https://a-ads.com/blog/2019-10-16-advertisers-why-do-i-need-goal-tracking-how-to-switch-it-on/) on, and create low CPM bids. You can also allow anonymous traffic alongside with setting CPM extremely low. Receive traffic and track the sources that convert for you.
+ Adjust your campaign to target All traffic, set [Goal tracking](https://a-ads.com/blog/2019-10-16-why-do-i-need-goal-tracking-how-to-switch-it-on/) on, and create low CPM bids. You can also allow anonymous traffic alongside with setting CPM extremely low. Receive traffic and track the sources that convert for you.
 
 
 
