@@ -18,7 +18,7 @@ Unfortunately, it is not easy to locate your ad on our publishers’ sites, beca
 But usually, it is still possible:
 
 1. Go to your "Campaign -> Traffic sources -> Exclude from campaign" page and see a list of ad units that generate traffic for your campaign (sorted by non-unique clicks).
-2. Сlick any of the ad units and check its campaigns at the Ad Unit -> Campaigns page. Here you should be able to find your campaign and the percentage of traffic bought by it. But if you don't - then probably your ad is no longer displayed on the ad unit, please check another one a similar way.
+2. Click any of the ad units and check its campaigns at the Ad Unit -> Campaigns page. Here you should be able to find your campaign and the percentage of traffic bought by it. But if you don't - then probably your ad is no longer displayed on the ad unit, please check another one a similar way.
 3. Go to the ad unit's site and reload it until you see your ad.
 
 

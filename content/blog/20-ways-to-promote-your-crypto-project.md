@@ -135,7 +135,7 @@ Monitoring your strategies' key metrics will help you analyze if you're on the r
 
 For example, for email marketing, the key indicators will be open rate (how many people open the email), click rate (who clicked on the call-to-action button), conversion rate, and, most importantly, unsubscribe rate. 
 
-Takуaways:
+Takeaways:
 
 * Plan a long-term crypto marketing strategy and fill it with effective tactics
 * Use a data-driven approach and fact-checking in your marketing communications to remain a trusted source among your audience
