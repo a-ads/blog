@@ -12,8 +12,11 @@ author: Yulia Savushkina
 thumbnail: /blog/assets/full-4-.png
 big_picture: /blog/assets/short-3-.png
 popularity: "0"
-meta_title: ""
-meta_description: ""
+meta_title: 5 Of The Crypto Wallets That Earn Interest In 2023
+meta_description: Handful of digital currency platforms, following the example
+  of traditional banks by paying their customers interest on the coins and
+  tokens they store in their wallets. Let’s browse the very best crypto wallets
+  that earn interest in terms of reputation, supported tokens, and more.
 meta_keywords: ""
 json_ld: ""
 ---
