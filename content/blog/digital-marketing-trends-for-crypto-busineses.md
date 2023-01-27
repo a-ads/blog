@@ -1,5 +1,5 @@
 ---
-date: 2023-01-22T19:19:20.476Z
+date: 2023-01-27T19:19:20.476Z
 title: " Digital marketing trends for crypto busineses in 2023"
 slug: " digital-marketing-trends-for-crypto-busineses"
 tags:
