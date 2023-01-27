@@ -1,7 +1,7 @@
 ---
 date: 2022-12-14T06:00:19.364Z
 title: How To Buy Bitcoin
-slug: how-to-buy-bitcoin/
+slug: how-to-buy-bitcoin
 tags:
   - news
 category: How to

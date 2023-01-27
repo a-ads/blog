@@ -1,6 +1,6 @@
 ---
 date: 2018-10-04
-title: "How many ad units are enough for a website? "
+title: How many ad units are enough for a website?
 slug: how-many-ad-units-are-enough-for-a-website
 tags:
   - publisher

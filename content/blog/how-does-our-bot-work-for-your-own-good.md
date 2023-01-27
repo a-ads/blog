@@ -1,7 +1,7 @@
 ---
 date: 2018-10-04
 title: How does our bot work for your own good
-slug: publishers-how-does-our-bot-work-for-your-own-good
+slug: how-does-our-bot-work-for-your-own-good
 tags:
   - publisher
 category: How to

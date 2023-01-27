@@ -1,7 +1,7 @@
 ---
 date: 2021-01-13T12:29:22.860Z
 title: A-ADS Wordpress Plugin
-slug: wordpress-plugin
+slug: a-ads-wordpress-plugin
 tags:
   - publisher
 category: How to

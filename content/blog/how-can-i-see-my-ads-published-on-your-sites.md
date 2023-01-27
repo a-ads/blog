@@ -1,7 +1,7 @@
 ---
 date: 2019-09-07T10:08:21.980Z
 title: How can I see my ads published on your sites?
-slug: advertisers-how-can-i-see-my-ads-published-on-your-sites
+slug: how-can-i-see-my-ads-published-on-your-sites
 tags:
   - advertiser
 category: How to

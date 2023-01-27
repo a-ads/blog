@@ -1,7 +1,7 @@
 ---
 date: 2020-04-18T12:35:13.341Z
 title: We've updated the list of supported banners. How will it affect our users?
-slug: we've-updated-the-list-of-supported-banners-how-will-it-affect-our-users
+slug: we-have-updated-the-list-of-supported-banners-how-will-it-affect-our-users
 tags:
   - advertiser
   - publisher

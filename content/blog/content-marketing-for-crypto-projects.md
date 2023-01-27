@@ -1,7 +1,7 @@
 ---
 date: 2022-12-09T11:45:44.808Z
-title: "Content marketing for crypto projects "
-slug: "сontent-marketing-for-crypto-projects "
+title: Content marketing for crypto projects
+slug: сontent-marketing-for-crypto-projects
 tags:
   - news
 category: How to

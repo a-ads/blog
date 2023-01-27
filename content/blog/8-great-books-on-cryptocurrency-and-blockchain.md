@@ -1,7 +1,7 @@
 ---
 date: 2022-12-29T09:46:12.033Z
-title: "8 great books on cryptocurrency and blockchain "
-slug: "8-great-books-on-cryptocurrency-and-blockchain "
+title: 8 great books on cryptocurrency and blockchain
+slug: 8-great-books-on-cryptocurrency-and-blockchain
 tags:
   - news
 category: How to
