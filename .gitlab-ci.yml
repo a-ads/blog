@@ -35,7 +35,7 @@ production_deploy:
 
 
 staging_deploy:
-#  when: manual
+  when: manual
   retry: 1
   image: $REGISTRY_HOST/aads-ci-blog
 
