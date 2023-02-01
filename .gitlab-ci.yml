@@ -7,7 +7,7 @@ variables:
   SSH_PORT: 10115
   TMPDIR: /tmp
 
-image: node:18-alpine
+image: node:12-alpine
 
 
 production_deploy:
@@ -29,6 +29,7 @@ production_deploy:
     - aws s3 cp --content-type="text/vnd.yaml" --acl public-read --metadata-directive="REPLACE" s3://$PROD_BUCKET/blog/admin/config.yml s3://$PROD_BUCKET/blog/admin/config.yml
   only:
     - master  
+
 
 
 
