@@ -1,7 +1,7 @@
 ---
 date: 2023-01-27T19:19:20.476Z
-title: " Digital marketing trends for crypto busineses in 2023"
-slug: " digital-marketing-trends-for-crypto-busineses"
+title: Digital marketing trends for crypto businesses in 2023
+slug: digital-marketing-trends-for-crypto-businesses
 tags:
   - news
 category: Stories
