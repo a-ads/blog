@@ -18,7 +18,7 @@ meta_description: There are many reasons why you might want to get paid in
 meta_keywords: ""
 json_ld: ""
 ---
-What are the best work perks? Some say that flexibility and remote work from home are the most wanted perkы. But one more bonus that is getting increasingly popular is the option of being paid in cryptocurrency. 
+What are the best work perks? Some say that flexibility and remote work from home are the most wanted perks. But one more bonus that is getting increasingly popular is the option of being paid in cryptocurrency. 
 
 According to a global financial consultancy deVere Group poll, cryptocurrency could soon become more common in salary negotiations with younger workers. Their research has shown that more than a third of millennials (people between 26 - 42) and half of the younger generation (25 and below) would be happy to earn half their salary in bitcoin or other cryptocurrencies. 
 
