@@ -94,4 +94,4 @@ In short, Quality Score estimates the quality of your ads and the landing pages 
 
 And one more, before launching an advertising campaign for a crypto project, first, make sure you have a marketing strategy because the needs and goals of your project will determine the type of paid-for advertising the project should choose to invest in.
 
-Google Ads are one of many ways to advertise your crypto business. A-ADS provides advertising services for crypto companies bringing publishers and advertisers from all over the world together. [Check our page](a-ads.com)and run your first ad campaign in 3 easy steps.
+Google Ads are one of many ways to advertise your crypto business. A-ADS provides advertising services for crypto companies bringing publishers and advertisers from all over the world together. [Check our page](https://a-ads.com/) and run your first ad campaign in 3 easy steps.
