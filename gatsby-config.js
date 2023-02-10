@@ -22,6 +22,13 @@ module.exports = {
         name: "content",
       },
     },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.a-ads.com`,
+        stripQueryString: true,
+      },
+    },
     "gatsby-plugin-sass",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
