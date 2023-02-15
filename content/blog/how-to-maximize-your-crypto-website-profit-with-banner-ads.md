@@ -76,6 +76,6 @@ To make your crypto banner ads more effective, avoid using too many ads on a sin
 
 Probably the most crucial part of your successful crypto ad campaign is choosing the right ad network, as a proper ad network can bring you the most profit.
 
-At A-ADS, the biggest and oldest cryptocurrency ad network, we care about your ads' effectiveness and provide over 70 million impressions and over 60,000 clicks daily. A-ADS has a convenient interface for advertisers and includes customizations such as geotargeting and ad placement options. To learn more about our advantages for publishers, check our main page. (ссылка на главную старницу) 
+At A-ADS, the biggest and oldest cryptocurrency ad network, we care about your ads' effectiveness and provide over 70 million impressions and over 60,000 clicks daily. A-ADS has a convenient interface for advertisers and includes customizations such as geotargeting and ad placement options. To learn more about our advantages for publishers, check our [main page](a-ads.com). 
 
 Overall, banner ads are successful tools for your crypto business or product. Just make sure you choose the best marketing strategies and crypto advertising platforms and make your ads fresh and appealing to customers.
