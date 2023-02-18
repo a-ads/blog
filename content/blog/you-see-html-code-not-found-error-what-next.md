@@ -151,7 +151,7 @@ A banner must be clickable. A click must lead to the advertised site. If nothing
 
 The src attribute must contain one of a-ads.com domains. On the moment two domains are allowed: ad.a-ads.com and acceptable.a-ads.com . If the src attribute contains any other domain, you’ll get this message.
 
-## Empty data
+## Empty data-aa
 
 ![](/blog/assets/13emptydataaa.jpg)
 
