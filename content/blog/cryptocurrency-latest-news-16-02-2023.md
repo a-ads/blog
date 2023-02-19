@@ -33,6 +33,8 @@ Siemens has been studying blockchain technology for several years and has invest
 * producing human-like responses to questions about blockchain
 * or "helping to clarify concepts interactively and conversationally."
 
+![](/blog/assets/2023-02-17-15.31.00-копия.jpg)
+
 ## Surprisingly, Blockchain Avalanche showed growth of transactions by 1500%!
 
 In 2022, despite the bankruptcies of major market players and the decrease in the cost of tokens by almost 15 times, the number of transactions exceeded 450 million. It is 1507% more than in 2021.
