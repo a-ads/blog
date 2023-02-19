@@ -1,7 +1,7 @@
 ---
 date: 2023-02-03T10:03:34.823Z
-title: "Why you need chatbots for your crypto business. Part 1  "
-slug: "why-you-need-chatbots-for-your-crypto-business-part-1  "
+title: Why you need chatbots for your crypto business. Part 1
+slug: why-you-need-chatbots-for-your-crypto-business-part-1
 tags:
   - news
 category: How to

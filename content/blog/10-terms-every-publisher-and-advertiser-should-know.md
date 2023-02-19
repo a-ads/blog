@@ -1,7 +1,7 @@
 ---
 date: 2023-02-17T09:23:32.710Z
 title: 10 terms every Publisher and Advertiser should know
-slug: 10-terms-every-Publisher-and-Advertiser-should-know
+slug: 10-terms-every-publisher-and-advertiser-should-know
 tags:
   - news
 category: How to
