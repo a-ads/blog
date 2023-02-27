@@ -25,7 +25,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://www.a-ads.com`,
+        siteUrl: `https://a-ads.com`,
         stripQueryString: true,
       },
     },
