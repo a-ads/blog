@@ -9,7 +9,7 @@ category_top_level:
   - Guides
   - Advertisers
   - Publishers
-author: "Emmanuel "
+author: Emmanuel Olatunji
 thumbnail: /blog/assets/full-25-.png
 big_picture: /blog/assets/short-20-.png
 popularity: "0"
