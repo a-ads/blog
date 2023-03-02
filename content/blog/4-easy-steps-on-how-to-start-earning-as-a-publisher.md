@@ -1,5 +1,5 @@
 ---
-date: 2023-03-02T04:03:16.001Z
+date: 2023-02-25T04:03:16.001Z
 title: 4 easy steps on how to start earning as a publisher
 slug: 4-easy-steps-on-how-to-start-earning-as-a-publisher
 tags:
