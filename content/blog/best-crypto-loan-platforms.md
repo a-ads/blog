@@ -1,7 +1,7 @@
 ---
 date: 2023-03-12T14:13:02.676Z
 title: 3 Best Crypto Loan Platforms - How to get a crypto loan
-slug: https://a-ads.com/blog/best-crypto-loan-platforms/
+slug: best-crypto-loan-platforms
 tags:
   - news
 category: Stories
