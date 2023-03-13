@@ -10,8 +10,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Micheal George
-thumbnail: /blog/assets/full-1-.png
-big_picture: /blog/assets/short-12-.png
+thumbnail: ../../static/assets/full-1-.png
+big_picture: ../../static/assets/short-12-.png
 ---
 ## What is Binom?
 
@@ -39,11 +39,11 @@ Click the “Load from template” button
 
 Then, search and click “A-ADS” 
 
-![](/blog/assets/binom1.png)
+![](../../static/assets/binom1.png)
 
 Then, click “Save”
 
-![](/blog/assets/binom2.png)
+![](../../static/assets/binom2.png)
 
 ● You can change or adjust (if necessary) any option in the “New traffic source” form. Once you have done so, click the “Save” button. Note: “{{partner}}” should remain in “Token 1” 
 
@@ -55,7 +55,7 @@ Click the “Create” button
 
 Fill out the form as applies to you 
 
-![](/blog/assets/binom3.png)
+![](../../static/assets/binom3.png)
 
 After that, click “Save” 
 
@@ -71,13 +71,13 @@ Click the “Create” button
 
 Fill out the form as applies to you with the A-ADS traffic source, and the offer that you created earlier
 
-![](/blog/assets/binom4.png)
+![](../../static/assets/binom4.png)
 
 **5. Log into your A-ADS account.** 
 
 **6. Enable Goal tracking for your campaign at A-ADS as seen in the image below, if you don't have a  campaign you can create one** [**here**](https://a-ads.com/campaigns/new)**.** 
 
-![](/blog/assets/binom5.png)
+![](../../static/assets/binom5.png)
 
 **7. Configure your A-ADS campaign.**
 
@@ -96,16 +96,16 @@ For example:
 
 As seen in the image below:
 
-![](/blog/assets/binom6.png)
+![](../../static/assets/binom6.png)
 
 Then save your campaign.
 
 You can check the statistics on campaign performance simply by clicking “Stats”
 
-![](/blog/assets/binom7.png)
+![](../../static/assets/binom7.png)
 
 Statistics should look something like the image below, based on your settings: 
 
-![](/blog/assets/binom8.png)
+![](../../static/assets/binom8.png)
 
 All Done!

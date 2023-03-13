@@ -8,8 +8,8 @@ category: How to
 category_top_level:
   - News & Trends
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-13-.png
-big_picture: /blog/assets/short-9-.png
+thumbnail: ../../static/assets/full-13-.png
+big_picture: ../../static/assets/short-9-.png
 popularity: "0"
 meta_title: "How to Invest in Defi: A Step-by-Step Guide"
 meta_description: Decentralized finance (Defi) is looking very promising as it

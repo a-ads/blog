@@ -9,8 +9,8 @@ category_top_level:
   - Advertisers
   - Guides
 author: Olga Ostrovskaya
-thumbnail: /blog/assets/undraw_progress_tracking_7hvkобложка.png
-big_picture: /blog/assets/undraw_progress_tracking_7hvkква.png
+thumbnail: ../../static/assets/undraw_progress_tracking_7hvkобложка.png
+big_picture: ../../static/assets/undraw_progress_tracking_7hvkква.png
 ---
 ## Why goal tracking?
 
@@ -24,7 +24,7 @@ With the "Goal tracking" option enabled, you can use your web analytics system t
 
 You can enable goal tracking by checking the corresponding field on the campaign page:
 
-![](/blog/assets/screenshot_from_2020-09-23_16-56-06.png)
+![](../../static/assets/screenshot_from_2020-09-23_16-56-06.png)
 
 You will see the suffix applied to your campaign, e. g. "?partner={{partner}}".
 

@@ -11,14 +11,14 @@ category_top_level:
 category_second_level:
   - How To
 author: Micheal George
-thumbnail: /blog/assets/full-6-.png
-big_picture: /blog/assets/short.png
+thumbnail: ../../static/assets/full-6-.png
+big_picture: ../../static/assets/short.png
 ---
-![](/blog/assets/a-ads-logo.png)
+![](../../static/assets/a-ads-logo.png)
 
 # +
 
-![](/blog/assets/peerclick_color_logo_bage-01.png)
+![](../../static/assets/peerclick_color_logo_bage-01.png)
 
 ## What is PeerClick?
 
@@ -44,16 +44,16 @@ Use Promo code "A-ADS" and get $50 on your balance!
 Go to the Sources tab.\
 Click “create source” as seen in the image below:
 
-![](/blog/assets/peerclick1.png "PeerClick create source")
+![](../../static/assets/peerclick1.png "PeerClick create source")
 
 Search for the A-ADS template, then click add, as seen in the image below:
 
-![](/blog/assets/peerclick2.png "PeerClick: create traffic source")
+![](../../static/assets/peerclick2.png "PeerClick: create traffic source")
 
 A setup form with all the details filled in will appear, just click “Create Traffic Source”, as seen in the image below.\
 Note: There is no reason to change anything, except if you have different configurations in mind.
 
-![](/blog/assets/peerclick3.png)
+![](../../static/assets/peerclick3.png)
 
 - - -
 
@@ -61,11 +61,11 @@ Note: There is no reason to change anything, except if you have different config
 Go to the offers tab\
 Click “Create offer”, as seen in the image below:
 
-![](/blog/assets/peerclick4.png "PeerClick: create an offer")
+![](../../static/assets/peerclick4.png "PeerClick: create an offer")
 
 Configure your offer name and URL, then click “Create Offer”, as **seen in the image below**:
 
-![](/blog/assets/peerclick5.png)
+![](../../static/assets/peerclick5.png)
 
 - - -
 
@@ -73,21 +73,21 @@ Configure your offer name and URL, then click “Create Offer”, as **seen in t
 Go to the “Campaigns” tab.\
 Click “Create Campaign”, as seen in the image below:
 
-![](/blog/assets/peerclick6.png)
+![](../../static/assets/peerclick6.png)
 
 Configure “Campaign Name”, “Traffic source”, “Paths”, “Offers”, and enable “Direct Linking”.\
 Click “Create”.\
 Note: This is assuming you are not using a “landing page”, this setup would refer to the offer URL (the site you promote).\
 Example in the image below:
 
-![](/blog/assets/peerclick7.png)
+![](../../static/assets/peerclick7.png)
 
 - - -
 
 **4. Get the campaign tracking info.**\
 Visit your newly created campaign “Tracking” tab then click “copy”, as seen in the image below.
 
-![](/blog/assets/peerclick8.png)
+![](../../static/assets/peerclick8.png)
 
 - - -
 
@@ -106,15 +106,15 @@ For example:
 
 As seen in the image below:
 
-![](/blog/assets/peerclick9.png)
+![](../../static/assets/peerclick9.png)
 
 **6. Checking Reports.**\
 In PeerClick’s campaign tab, click preferred campaign, then click “Report”, as seen in the image below.
 
-![](/blog/assets/peerclick10.png)
+![](../../static/assets/peerclick10.png)
 
 The highlighted row in the image below can be used to see more info in the report.
 
-![](/blog/assets/peerclick11.png)
+![](../../static/assets/peerclick11.png)
 
 **All Done.**

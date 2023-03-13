@@ -8,8 +8,8 @@ category: How to
 category_top_level:
   - Guides
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-54-.png
-big_picture: /blog/assets/short-29-.png
+thumbnail: ../../static/assets/full-54-.png
+big_picture: ../../static/assets/short-29-.png
 popularity: "0"
 meta_title: How To Buy Bitcoin | Step By Step Guide
 meta_description: While cryptocurrency market began life as a payments network,

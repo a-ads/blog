@@ -8,8 +8,8 @@ category: How to
 category_top_level:
   - News & Trends
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-55-.png
-big_picture: /blog/assets/short-30-.png
+thumbnail: ../../static/assets/full-55-.png
+big_picture: ../../static/assets/short-30-.png
 popularity: "0"
 meta_title: ""
 meta_description: ""
@@ -88,7 +88,7 @@ May crypto or blockchain projects require a certain amount of background knowled
 
 Building a solid community around your project is the key to success, but you must ensure you engage the right audience. The wrong type of followers attaching themselves to your brand could harm getting good prospective users. Blockchain and crypto projects that communicate well can combine fun info and images, interesting announcements, links to educational blogs and videos, and other professional updates—these help build a community.
 
-![](/blog/assets/full-56-.png)
+![](../../static/assets/full-56-.png)
 
 * Spam filter dangers
 
@@ -152,7 +152,7 @@ The user may discover a feature that will make them stick to the platform or upg
 
 Newsletters are a perfect way to inform an audience. You can use newsletters to educate and entertain users. By choosing topics the readers want to know more about, a crypto company can have an audience looking forward to their newsletters.
 
-![](/blog/assets/full-57-.png)
+![](../../static/assets/full-57-.png)
 
 If you link the blog or website in the newsletters, it will help you to increase your web traffic. 
 

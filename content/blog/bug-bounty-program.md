@@ -8,7 +8,7 @@ category: Development
 category_top_level:
   - Guides
 author: Yulia Savushkina
-thumbnail: /blog/assets/illustration-3.png
+thumbnail: ../../static/assets/illustration-3.png
 ---
 The security of our operations is our highest priority for many reasons: we're dealing with our clients’ money, we must protect our partners' privacy, and we have our own reputation at stake. Either you are a professional security researcher or just a beginner, we welcome your security reports. However we'd love them to be useful and actionable, that's why we have certain recommendations in their regard.
 

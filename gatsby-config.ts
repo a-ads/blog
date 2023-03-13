@@ -1,0 +1,145 @@
+import type { GatsbyConfig } from 'gatsby'
+const resolve = require('path').resolve
+
+const config: GatsbyConfig = {
+  pathPrefix: '/blog',
+  siteMetadata: {
+    title: 'A-ADS Blog',
+    description: `A-ADS is a pioneer crypto advertising network. It offers ethical privacy-aware CPA, CPD, CPM ads and accepts over 20 major crypto-currencies, including Bitcoin.`,
+    image: `static/images/favicon.png`,
+    siteUrl: 'https://a-ads.com',
+  },
+  graphqlTypegen: true,
+  plugins: [
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'assets',
+        path: `${__dirname}/static/assets`,
+      },
+      __key: 'assets',
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: `${__dirname}/static/images`,
+      },
+      __key: 'images',
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'pages',
+        path: `${__dirname}/src/pages`, // why
+      },
+      __key: 'pages',
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: 'content',
+        path: `${__dirname}/content`,
+      },
+      __key: 'content',
+    },
+    {
+      resolve: 'gatsby-plugin-html-attributes',
+      options: {
+        lang: 'en',
+      },
+    },
+    'gatsby-plugin-netlify-cms',
+    // 'gatsby-plugin-google-gtag',
+    'gatsby-plugin-image',
+    'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        icon: `${__dirname}/static/images/favicon.png`,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-mdx',
+      options: {
+        extensions: ['.mdx', '.md'],
+      },
+    },
+    'gatsby-plugin-sharp',
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 900,
+            },
+          },
+          {
+            resolve: `gatsby-remark-table-of-contents`,
+            options: {
+              exclude: 'Table of Contents',
+              tight: false,
+              ordered: false,
+              fromHeading: 1,
+              toHeading: 6,
+              className: 'toc-gatsby-config',
+            },
+          },
+          `gatsby-remark-autolink-headers`,
+        ],
+      },
+    },
+    'gatsby-transformer-yaml',
+    'gatsby-transformer-sharp',
+    {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        cssLoaderOptions: {
+          camelCase: false,
+        },
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-alias-imports',
+      options: {
+        alias: {
+          '@pages': resolve(`${__dirname}/src/pages/`),
+          '@ui': resolve(`${__dirname}/src/components/ui`),
+          '@components': resolve(`${__dirname}/src/components`),
+          '@icons': resolve(`${__dirname}/src/components/icons`),
+        },
+        extensions: ['jsx, tsx, ts, css'],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        component: resolve(`${__dirname}/src/components/RootLayout.tsx`), // Persists layout between page changes. Auto imports layout component.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-webfonts`,
+      options: {
+        fonts: {
+          google: [
+            {
+              family: 'Inter',
+              variants: ['400', '500', '700'],
+            },
+            {
+              family: 'Poppins',
+              variants: ['500', '600', '700'],
+            },
+          ],
+        },
+      },
+    },
+  ],
+}
+
+export default config

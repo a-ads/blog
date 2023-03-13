@@ -10,8 +10,8 @@ category_top_level:
   - Advertisers
   - Publishers
 author: Emmanuel Olatunji
-thumbnail: /blog/assets/full-25-.png
-big_picture: /blog/assets/short-20-.png
+thumbnail: ../../static/assets/full-25-.png
+big_picture: ../../static/assets/short-20-.png
 popularity: "0"
 meta_title: ""
 meta_description: ""
@@ -60,7 +60,7 @@ This is the owner of a domain name or a person that sells digital webpage space 
 
 This is a group of people or websites an advertiser would like to show an advert to. Ad target varies in different advertiser preferences, depending on demographics, psychographics, buying, and browsing behavior.
 
-![](/blog/assets/762.png)
+![](../../static/assets/762.png)
 
 ## 8. TRAFFIC
 

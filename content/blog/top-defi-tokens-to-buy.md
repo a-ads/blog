@@ -8,8 +8,8 @@ category: How to
 category_top_level:
   - News & Trends
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-5-.png
-big_picture: /blog/assets/short-4-.png
+thumbnail: ../../static/assets/full-5-.png
+big_picture: ../../static/assets/short-4-.png
 popularity: "0"
 meta_title: Top DeFi Tokens to Buy | How to Buy Decentralized Finance Tokens
 meta_description: DeFi is tipped to be the next big thing in the crypto and

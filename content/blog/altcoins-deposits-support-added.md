@@ -10,8 +10,8 @@ category_top_level:
   - Advertisers
   - Guides
 author: Olga Ostrovskaya
-thumbnail: /blog/assets/undraw_digital_currency_qpakобложка.png
-big_picture: /blog/assets/undraw_digital_currency_qpakквадрат.png
+thumbnail: ../../static/assets/undraw_digital_currency_qpakобложка.png
+big_picture: ../../static/assets/undraw_digital_currency_qpakквадрат.png
 ---
 We’re glad to inform our advertisers that we’ve implemented the support of altcoins for deposits. 
 

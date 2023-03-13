@@ -8,8 +8,8 @@ category: How to
 category_top_level:
   - News & Trends
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-7-.png
-big_picture: /blog/assets/short-7-.png
+thumbnail: ../../static/assets/full-7-.png
+big_picture: ../../static/assets/short-7-.png
 popularity: "0"
 meta_title: 7 Best Cryptocurrency Payment Gateways in 2022
 meta_description: When it comes to choosing a payment gateway for your crypto
@@ -29,7 +29,7 @@ Online payment works the same. The main difference is that a payment gateway is 
 
 Let's look at the graph that helps to understand the process better: 
 
-![](/blog/assets/full-9-.png)
+![](../../static/assets/full-9-.png)
 
 **Why customers want to pay with crypto**
 

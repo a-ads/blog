@@ -13,8 +13,8 @@ category_second_level:
   - How To
   - Mining
 author: Yulia Savushkina
-thumbnail: /blog/assets/758.png
-big_picture: /blog/assets/759.png
+thumbnail: ../../static/assets/758.png
+big_picture: ../../static/assets/759.png
 meta_title: How to earn cryptocurrency | 10 ways to earn cryptocurrency in 2023
 meta_description: Let’s browse the best ways to get some crypto coins at a
   minimum risk and even minimum effort. Such us mining, buying, staking,
@@ -64,7 +64,7 @@ This way is relatively easy but not a smooth landscape yet. Most of the payouts 
 
 One way is to use a site like CoinTube. CoinTube is a site that allows you to watch videos about cryptocurrencies and earn bitcoin. You need to create an account and then start watching videos. 
 
-![](/blog/assets/full-22-.png)
+![](../../static/assets/full-22-.png)
 
 One more option that functions similarly is the CoinmarketCap Learning Center. Coinmarketcap has different videos and requires you to take a short quiz afterward, but the payouts and educational value are also high. You can also go for Odysee, which is positioned as an answer to Youtube, Permission.io, and PlayNano Online. This one is a project that lets you earn Nano by watching videos, playing games, completing surveys, and doing other activities.
 
@@ -102,7 +102,7 @@ But, some games need an initial investment, while some you play for free. And on
 
 Now, let's look a bit closer. You can check out the Sandbox for the beginning. The fans of Minecraft will like this game! This game is more like a creator platform than just a game. Users can create and animate their voxel assets, becoming NFTs uploaded to the marketplace. Users create their own assets and then sell them. They also get rewards for playing on the platform. The plots vary: gamers can build their creations using a game builder and modify them how they like.
 
-![](/blog/assets/full-20-.png)
+![](../../static/assets/full-20-.png)
 
 Players can also buy a piece of digital real estate in The Sandbox metaverse called LAND and populate it with games and assets to build unique experiences. The metaverse comprises 166,464 Lands, which players can use for hosting tournaments, building housing, or developing multiplayer experiences.
 

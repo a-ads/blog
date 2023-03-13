@@ -11,8 +11,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-37-.png
-big_picture: /blog/assets/short-21-.png
+thumbnail: ../../static/assets/full-37-.png
+big_picture: ../../static/assets/short-21-.png
 popularity: "0"
 meta_title: Airdrops. How to get free crypto tokens | Beginners Guide
 meta_description: The free crypto distributions are commonly known as airdrops.
@@ -78,7 +78,7 @@ Characteristics: 
 * This airdrop sends crypto only to designated wallets
 * Usually, the receivers need to be familiar with the projects, like being an active member of a community or a supporter 
 
-![](/blog/assets/full-39-.png)
+![](../../static/assets/full-39-.png)
 
 ## How can you get free crypto tokens
 
@@ -120,7 +120,7 @@ This one is considered one of the best airdrops in terms of effort and value. Pu
 
 This world-known crypto exchange often provides instant crypto airdrops. Binance often hosts several trading tournaments and giveaways for its users. Their promotions include a share of 90,000 BUSD, 200 NFT mystery boxes, and a prize pool worth $4,000. All you need to do not to miss your chance is follow their newsletters.
 
-![](/blog/assets/full-38-.png)
+![](../../static/assets/full-38-.png)
 
 ## Are crypto airdrops safe?
 

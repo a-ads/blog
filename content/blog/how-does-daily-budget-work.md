@@ -9,8 +9,8 @@ category_top_level:
   - Advertisers
   - Guides
 author: Yulia Savushkina
-thumbnail: /blog/assets/undraw_invest_88iw.png
-big_picture: /blog/assets/undraw_invest_88iw-1-.png
+thumbnail: ../../static/assets/undraw_invest_88iw.png
+big_picture: ../../static/assets/undraw_invest_88iw-1-.png
 ---
 A-ADS default payment scheme is pay-per-day. It is quite unusual and works as follows.
 

@@ -8,8 +8,8 @@ category: How to
 category_top_level:
   - News & Trends
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-3-.png
-big_picture: /blog/assets/short-2-.png
+thumbnail: ../../static/assets/full-3-.png
+big_picture: ../../static/assets/short-2-.png
 popularity: "0"
 meta_title: How to promote a crypto project. Cryptocurrency Marketing
 meta_description: We all know how valuable cryptocurrenciesare, but it becomes a

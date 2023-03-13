@@ -10,8 +10,8 @@ category_top_level:
   - Advertisers
   - Guides
 author: Olga Ostrovskaya
-thumbnail: /blog/assets/undraw_decide_3iwxобложка.png
-big_picture: /blog/assets/undraw_decide_3iwxквадрат.png
+thumbnail: ../../static/assets/undraw_decide_3iwxобложка.png
+big_picture: ../../static/assets/undraw_decide_3iwxквадрат.png
 ---
 We've deployed new features for advertisers: you can now start, pause, clone, and rename your advertising campaigns.
 
@@ -19,19 +19,19 @@ We've deployed new features for advertisers: you can now start, pause, clone, an
 
 New campaigns have a default name of the form "Campaign #123456", where 123456 stands for a campaign ID. Now you can change it on the "Campaign -> Details" page. Campaign ID will still be present in the page URL.
 
-![](/blog/assets/rename_campaign.png)
+![](../../static/assets/rename_campaign.png)
 
 ## Start / Pause campaigns
 
 You can start and pause a campaign on your user dashboard or a "Campaign -> Details" page.
 
-![](/blog/assets/start-pause.png)
+![](../../static/assets/start-pause.png)
 
 ## Clone campaigns
 
 Now you can clone your campaigns using the "Clone" button from your user dashboard.
 
-![](/blog/assets/clone1.png)
+![](../../static/assets/clone1.png)
 
 It will create a new campaign with the name "Copy of \[original campaign name]", which you can change.
 

@@ -8,8 +8,8 @@ category: How to
 category_top_level:
   - News & Trends
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-21-.png
-big_picture: /blog/assets/short-17-.png
+thumbnail: ../../static/assets/full-21-.png
+big_picture: ../../static/assets/short-17-.png
 popularity: "0"
 meta_title: Best Apps to Earn Crypto - How to Earn Cryptocurrency with App
 meta_description: In case you’re looking apps to earn crypto — you’re in the

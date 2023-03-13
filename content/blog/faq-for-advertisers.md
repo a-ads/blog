@@ -9,8 +9,8 @@ category_top_level:
   - Advertisers
   - Guides
 author: Olga Ostrovskaya
-thumbnail: /blog/assets/undraw_questions_75eобложка.png
-big_picture: /blog/assets/undraw_questions_75e0квадрат.png
+thumbnail: ../../static/assets/undraw_questions_75eобложка.png
+big_picture: ../../static/assets/undraw_questions_75e0квадрат.png
 ---
 ## What are the accepted ad formats?
 

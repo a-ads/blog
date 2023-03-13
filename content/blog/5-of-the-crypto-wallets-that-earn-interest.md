@@ -9,8 +9,8 @@ category_top_level:
   - News & Trends
 category_second_level: []
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-4-.png
-big_picture: /blog/assets/short-3-.png
+thumbnail: ../../static/assets/full-4-.png
+big_picture: ../../static/assets/short-3-.png
 popularity: "0"
 meta_title: 5 Of The Crypto Wallets That Earn Interest In 2023
 meta_description: Handful of digital currency platforms, following the example

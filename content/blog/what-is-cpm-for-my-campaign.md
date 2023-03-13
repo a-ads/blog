@@ -9,8 +9,8 @@ category_top_level:
   - Advertisers
   - Guides
 author: Olga Ostrovskaya
-thumbnail: /blog/assets/undraw_investing_7u74-обложка.png
-big_picture: /blog/assets/undraw_investing_7u74.png
+thumbnail: ../../static/assets/undraw_investing_7u74-обложка.png
+big_picture: ../../static/assets/undraw_investing_7u74.png
 ---
 Although A-ADS is not a pay-per-impression network, advertisers often regard CPM as one of the major performance indicators for their campaigns. CPM stands for cost per mille, or cost per thousand advertising impressions. You can count it using the formula:
 

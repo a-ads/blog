@@ -11,8 +11,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Micheal George
-thumbnail: /blog/assets/full-11-.png
-big_picture: /blog/assets/short-9-.png
+thumbnail: ../../static/assets/full-11-.png
+big_picture: ../../static/assets/short-9-.png
 ---
 
 ## What is Google Analytics?
@@ -34,25 +34,25 @@ Please note, step one to step four is to be ignored if you already use GA.
 
 1. Go to [analytics.google.com](https://analytics.google.com) 
 
-![](/blog/assets/google-analytics-intro.png "Google Analytics Intro")
+![](../../static/assets/google-analytics-intro.png "Google Analytics Intro")
 
 2. Click “Set up for free”.
 3. Fill the form, and click the “Create” button.
 
-![](/blog/assets/google-analytics-create-propery.png)
+![](../../static/assets/google-analytics-create-propery.png)
 
 4. Copy and paste the tracking code into your website.
 5. Go to [a-ads.com](https://a-ads.com) .
 6. Create a new campaign, or go to your existing campaign’s dashboard.
 7. Enable goal tracking, as seen in the image below.
 
-![](/blog/assets/goal-tracking-partner.png "Goal tracking partner")
+![](../../static/assets/goal-tracking-partner.png "Goal tracking partner")
 
 8. Change the default suffix to
 
 `?utm_source=A-ADS&utm_medium=Banner&utm_campaign=MyCampaignName&utm_term={{partner}}`,  as seen in the image below.
 
-![](/blog/assets/goal-tracking.png "Goal tracking")
+![](../../static/assets/goal-tracking.png "Goal tracking")
 
 **The breakdown of the Suffix:**
 
@@ -65,7 +65,7 @@ Utm_term = {{partner}}
 
 9. After your A-ADS campaign starts running and has generated clicks, go to "Acquisition>>Campaigns>>All Campaigns" of your  GA dashboard.
 
-![](/blog/assets/campaign-mycompaign.png)
+![](../../static/assets/campaign-mycompaign.png)
 
 10. In most Google Analytics reports, you can see a row with Primary or  Default Dimension followed by several links. The last one is usually marked Other.
 
@@ -77,10 +77,10 @@ A **dimension** is a descriptive attribute or characteristic of an object that c
 
 11. Click on Other and then click Acquisition. Select “Keyword”, which corresponds to the value of utm_term.
 
-![](/blog/assets/campaign-acquisition-keyword.png)
+![](../../static/assets/campaign-acquisition-keyword.png)
 
 12. Tracking info should look like the image below.
 
-![](/blog/assets/campaign-summary.png)
+![](../../static/assets/campaign-summary.png)
 
 **All Done!**

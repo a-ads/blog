@@ -12,8 +12,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Olga Ostrovskaya
-thumbnail: /blog/assets/full-2-.png
-big_picture: /blog/assets/short-17-.png
+thumbnail: ../../static/assets/full-2-.png
+big_picture: ../../static/assets/short-17-.png
 ---
 
 Many of our users tend to reuse their passwords on multiple sites. Unfortunately, sometimes such passwords get leaked and become publicly available. There have been several incidents where hackers have managed to get into other users' accounts.

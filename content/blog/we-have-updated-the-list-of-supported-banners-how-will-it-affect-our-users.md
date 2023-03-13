@@ -11,8 +11,8 @@ category_top_level:
   - Advertisers
   - Guides
 author: Olga Ostrovskaya
-thumbnail: /blog/assets/undraw_content_vbqoобложка.png
-big_picture: /blog/assets/undraw_content_vbqoквадрат.png
+thumbnail: ../../static/assets/undraw_content_vbqoобложка.png
+big_picture: ../../static/assets/undraw_content_vbqoквадрат.png
 ---
 Today we have updated the list of supported banner ad sizes because outdated banners showed insufficient performance. From now on the accepted banner sizes are: 120x60, 120x600, 125x125, 160x600, 200x200, 240x400, 250x250, 300x250, 300x600, 320x50, 320x100, 336x280, 468x60, 728x90, 970x90, 970x250. Individual banners must weigh less than 700 kilobytes.
 

@@ -1,0 +1,23 @@
+.input-container {
+  @apply flex h-12 rounded cursor-text py-3 px-4;
+}
+
+.input {
+  @apply h-full w-full border-none outline-none bg-transparent;
+}
+
+.preappend ~ .input {
+  @apply px-4;
+}
+
+.outlined-input {
+  @apply border bg-transparent;
+}
+
+.contained-input {
+  @apply border-none;
+}
+
+.preappend {
+  @apply h-full flex justify-center items-center;
+}

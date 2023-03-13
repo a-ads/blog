@@ -10,8 +10,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Micheal George
-thumbnail: /blog/assets/full-7-.png
-big_picture: /blog/assets/short-1-.png
+thumbnail: ../../static/assets/full-7-.png
+big_picture: ../../static/assets/short-1-.png
 ---
 Hello publishers, we’re proud to announce the release of [our WordPress plugin](https://wordpress.org/plugins/a-ads/). This article aims to show you how to use this plugin.
 
@@ -38,11 +38,11 @@ For example: `https://yourdomain.com/wp-admin/plugin-install.php`
 
 **Step Two:** Search for our plugin by inserting our domain name in the placeholder, as seen in the image below.
 
-![](/blog/assets/worpress-plugin-1.png)
+![](../../static/assets/worpress-plugin-1.png)
 
 **Step Three:** Click the “Install Now” button, when it’s done installing, click “activate”. The result should be as shown in the image below.
 
-![](/blog/assets/worpress-plugin-2.png)
+![](../../static/assets/worpress-plugin-2.png)
 
 ## Configuration
 
@@ -50,15 +50,15 @@ For example: `https://yourdomain.com/wp-admin/plugin-install.php`
 
 For example: `https://yourdomain.com/wp-admin/widgets.php`
 
-![](/blog/assets/worpress-plugin-3.png)
+![](../../static/assets/worpress-plugin-3.png)
 
 **Step Five**: Select a placeholder, as seen in the image below.
 
-![](/blog/assets/worpress-plugin-4.png)
+![](../../static/assets/worpress-plugin-4.png)
 
 **Step Six**: Configure your ad widget with ad unit ID and size, as seen in the image below.
 
-![](/blog/assets/worpress-plugin-5.png)
+![](../../static/assets/worpress-plugin-5.png)
 
 ## Demo
 
@@ -66,7 +66,7 @@ For example: `https://yourdomain.com/wp-admin/widgets.php`
 
 See the image below.
 
-![](/blog/assets/worpress-plugin-6.jpg)
+![](../../static/assets/worpress-plugin-6.jpg)
 
 ## Possible errors and solutions
 

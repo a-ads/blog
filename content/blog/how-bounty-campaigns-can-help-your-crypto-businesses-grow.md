@@ -10,8 +10,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Yulia Savushkina
-thumbnail: /blog/assets/full.png
-big_picture: /blog/assets/short.png
+thumbnail: ../../static/assets/full.png
+big_picture: ../../static/assets/short.png
 popularity: "0"
 meta_title: ""
 meta_description: ""

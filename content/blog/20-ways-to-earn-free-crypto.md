@@ -10,8 +10,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-17-.png
-big_picture: /blog/assets/short-13-.png
+thumbnail: ../../static/assets/full-17-.png
+big_picture: ../../static/assets/short-13-.png
 popularity: "0"
 meta_title: 20 Ways to Earn Free Crypto in 2022
 meta_description: Many people that aren’t operating on a huge budget are
@@ -118,7 +118,7 @@ This famous multinational social trading platform offers new investors a $10 sig
 
 This platform works with companies that want to advertise their apps, surveys, and products. The users of Free cash can earn up to $100 or more per month if they take simple surveys on different companies and test apps. Then, the platform pays you in whichever form of currency you choose. Usually, users can expect to earn $1 per 5 to 10-minute offer and instantly cash out their crypto for PayPal, VISA cards, Bitcoin, CS: GO Skins, Amazon gift cards, and multiple other gift cards.
 
-![](/blog/assets/full-18-.png)
+![](../../static/assets/full-18-.png)
 
 ### Bitcoin Mining Pool 
 

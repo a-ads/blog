@@ -9,8 +9,8 @@ category_top_level:
   - Guides
   - Advertisers
 author: Olga Ostrovskaya
-thumbnail: /blog/assets/undraw_searching_p5uxf.png
-big_picture: /blog/assets/undraw_searching_p5uxsq.png
+thumbnail: ../../static/assets/undraw_searching_p5uxf.png
+big_picture: ../../static/assets/undraw_searching_p5uxsq.png
 ---
 Unfortunately, it is not easy to locate your ad on our publishers’ sites, because the process of ad selection is probabilistic.
 

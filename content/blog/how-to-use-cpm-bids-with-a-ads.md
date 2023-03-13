@@ -9,8 +9,8 @@ category_top_level:
   - Guides
   - Advertisers
 author: Olga Ostrovskaya
-thumbnail: /blog/assets/undraw_revenue_3oshобложка.png
-big_picture: /blog/assets/undraw_revenue_3oshквадрат.png
+thumbnail: ../../static/assets/undraw_revenue_3oshобложка.png
+big_picture: ../../static/assets/undraw_revenue_3oshквадрат.png
 ---
 Although our main payment scheme is [the daily budget](https://a-ads.com/blog/2019-08-11-how-does-daily-budget-work/), our advertisers can also use CPM bids to buy traffic. Buying bids, you pay a fixed CPM, so the risk of paying for fake traffic is higher than on the daily budget terms. 
 

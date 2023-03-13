@@ -12,8 +12,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-23-.png
-big_picture: /blog/assets/preview-1-.png
+thumbnail: ../../static/assets/full-23-.png
+big_picture: ../../static/assets/preview-1-.png
 popularity: "0"
 meta_title: ""
 meta_description: ""
@@ -72,7 +72,7 @@ The headline is usually the most attention-grabbing aspect of your Crypto PR eff
 
 Avoid superlatives like "absolutely" and "amazing," and keep your headlines as short and straightforward as possible. 
 
-![](/blog/assets/снимок-экрана-2022-11-02-в-16.50.17.png "Source: Cryptonews.com")
+![](../../static/assets/снимок-экрана-2022-11-02-в-16.50.17.png "Source: Cryptonews.com")
 
 3. Subheadline 
 
@@ -80,7 +80,7 @@ The subheading supports the headline, and it shouldn't be long. 
 
 For example, The headline is "Find Satoshi Lab, creators of STEPN, launch NFT marketplace, MOOAR." In contrast, the subheadline is "The Find Satoshi Lab ecosystem, featuring STEPN, DOOAR, and MOOAR under its umbrella becomes self-sustaining."
 
-![](/blog/assets/снимок-экрана-2022-11-02-в-16.58.54.png)
+![](../../static/assets/снимок-экрана-2022-11-02-в-16.58.54.png)
 
 4. Date and location 
 5. 1st paragraph 

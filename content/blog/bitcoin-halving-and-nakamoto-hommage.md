@@ -8,8 +8,8 @@ category: Stories
 category_top_level:
   - News & Trends
 author: Yulia Savushkina
-thumbnail: /blog/assets/undraw_compose_music_ovo2обложка.png
-big_picture: /blog/assets/undraw_compose_music_ovo2квадрат.png
+thumbnail: ../../static/assets/undraw_compose_music_ovo2обложка.png
+big_picture: ../../static/assets/undraw_compose_music_ovo2квадрат.png
 ---
 Bitcoin halving is going to happen within 10 hours, reducing bitcoin inflation to less than 1.8% per year, while central banks increase the money supply to fight the coronacrisis. How will all this affect the bitcoin price and adoption? We’ll see.
 

@@ -9,7 +9,7 @@ category_top_level:
   - Guides
   - Advertisers
 author: Anastasia Zavershinskaya
-thumbnail: /blog/assets/illustration-4-2x.png
+thumbnail: ../../static/assets/illustration-4-2x.png
 big_picture: ""
 meta_title: ""
 meta_description: ""

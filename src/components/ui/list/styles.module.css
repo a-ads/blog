@@ -1,0 +1,23 @@
+.list {
+  @apply flex overflow-hidden relative;
+
+  li {
+    @apply flex;
+
+    &:not(.flex-col) {
+      @apply items-center;
+    }
+  }
+
+  &.bulleted {
+    li:before {
+      content: '\2022';
+      font-weight: bold;
+      display: inline-flex;
+      align-items: center;
+      font-size: 1.5em;
+      width: 1.2em;
+      @apply clr-blue;
+    }
+  }
+}

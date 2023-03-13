@@ -11,14 +11,14 @@ category_top_level:
   - Publishers
   - Guides
 author: Olga Ostrovskaya
-thumbnail: /blog/assets/undraw_notify_88a4обложка.png
-big_picture: /blog/assets/undraw_notify_88a4квадрат.png
+thumbnail: ../../static/assets/undraw_notify_88a4обложка.png
+big_picture: ../../static/assets/undraw_notify_88a4квадрат.png
 ---
 Since [FaucetHub](https://faucethub.io/) stops maintaining its services, we've replaced it with an alternative service - [ExpressCrypto](https://expresscrypto.io/). Thus our publishers keep the opportunity to withdraw little sums of money.
 
 If you used FaucetHub, please, set new withdrawal settings. You can enable ExpressCrypto withdrawals in your user or ad unit withdrawal settings. 
 
-![](/blog/assets/screenshot-4-.png)
+![](../../static/assets/screenshot-4-.png)
 
 You'll need to sign up at ExpressCrypto and specify your unique ID provided by this service in the corresponding field.
 

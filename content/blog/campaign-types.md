@@ -9,8 +9,8 @@ category_top_level:
   - Advertisers
   - Guides
 author: Olga Ostrovskaya
-thumbnail: /blog/assets/undraw_select_option_y75iобложка.png
-big_picture: /blog/assets/undraw_select_option_y75iквадрат.png
+thumbnail: ../../static/assets/undraw_select_option_y75iобложка.png
+big_picture: ../../static/assets/undraw_select_option_y75iквадрат.png
 ---
 ## Overview
 

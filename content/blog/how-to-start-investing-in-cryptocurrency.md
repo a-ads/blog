@@ -10,8 +10,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-42-.png
-big_picture: /blog/assets/short-23-.png
+thumbnail: ../../static/assets/full-42-.png
+big_picture: ../../static/assets/short-23-.png
 popularity: "0"
 meta_title: How to start investing in cryptocurrency in 2023 - Beginners Guide
 meta_description: If you’re new to the world of crypto, figuring out how to buy
@@ -78,7 +78,7 @@ Investing in funds is extremely popular on the stock market among investors. Fun
 
 One more way is to choose a company already connected to the crypto world and invest in it. Such companies may use or own cryptocurrencies and blockchain technologies that help to run businesses. So you can buy shares of Nvidia (NVDA), PayPal, or Square (SQ) via a broker, as these companies are public. 
 
-![](/blog/assets/full-46-.png)
+![](../../static/assets/full-46-.png)
 
 If those two options are not for you, let's see what steps to take if you want to invest directly in cryptocurrency. 
 
@@ -124,7 +124,7 @@ Which one to choose is entirely up to your preferences and needs. Now, let's see
 
 Cryptocurrency gives investors many potentially cool things, such as diversification, return potential, and utility. With the help of buying crypto, investors can diversify portfolios as a way to spread risk. Some crypto projects offer a return that no bank can ever provide. And that's what appeals to investors so much. Finally, it's an investment that you can use. Investors can use crypto to pay for goods and services. 
 
-![](/blog/assets/full-44-.png)
+![](../../static/assets/full-44-.png)
 
 But the pitfalls are also huge as cryptocurrency comes with a risk. It is highly volatile and often not regulated at all. There are heaps of stories about fraud and hacking. So, be aware. 
 

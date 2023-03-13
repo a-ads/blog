@@ -9,8 +9,8 @@ category_top_level:
   - Advertisers
   - Guides
 author: Olga Ostrovskaya
-thumbnail: /blog/assets/undraw_online_organizer_ofxmобложка.png
-big_picture: /blog/assets/undraw_online_organizer_ofxmsq.png
+thumbnail: ../../static/assets/undraw_online_organizer_ofxmобложка.png
+big_picture: ../../static/assets/undraw_online_organizer_ofxmsq.png
 ---
 Advertising campaigns need to be approved by A-ADS moderators to get started. Ads which involve sensitive content will receive appropriate ratings.
 

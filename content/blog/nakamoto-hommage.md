@@ -6,7 +6,7 @@ slug: nakamoto-hommage
 tags:
   - news
 category: Stories
-thumbnail: /blog/assets/img3.png
+thumbnail: ../../static/assets/img3.png
 category_top_level:
   - News & Trends
 ---

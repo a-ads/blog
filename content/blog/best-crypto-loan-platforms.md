@@ -8,8 +8,8 @@ category: Stories
 category_top_level:
   - News & Trends
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-5-.png
-big_picture: /blog/assets/short-4-.png
+thumbnail: ../../static/assets/full-5-.png
+big_picture: ../../static/assets/short-4-.png
 popularity: "0"
 meta_title: 3 Best Crypto Loan Platforms | How to Get a Crypto Loan
 meta_description: Did you know that your idle cryptocurrency in your wallet
@@ -74,7 +74,7 @@ Remember about the risks! 
 
 However, crypto lending platforms also carry risks. Cryptocurrency is volatile and can fluctuate quickly, impacting the borrower's ability to repay the loan. Additionally, there is a risk of hacking or security breaches on the platform, which can lead to loss of funds.
 
-![](/blog/assets/full-6-.png)
+![](../../static/assets/full-6-.png)
 
 ## How to Choose a Cryptocurrency Lending Platform
 

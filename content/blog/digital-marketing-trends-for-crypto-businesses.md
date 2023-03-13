@@ -8,8 +8,8 @@ category: Stories
 category_top_level:
   - News & Trends
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-6-.png
-big_picture: /blog/assets/short-6-.png
+thumbnail: ../../static/assets/full-6-.png
+big_picture: ../../static/assets/short-6-.png
 popularity: "0"
 meta_title: ""
 meta_description: ""
@@ -32,7 +32,7 @@ There are at least three ways how A.I. can improve personalization:
 
 2. Voice Assistants and Bots
 
-   ![](/blog/assets/1.png)
+   ![](../../static/assets/1.png)
 
 Chatbots and other types of assistants will gain more and more popularity in 2023. They are effective not only for clients but also for companies. The most popular option in retail is customer service, where A.I. helps predict customer behaviour and creates hyper-personalization. Since 2020, many marketers have started implementing chatbots for user experience strategies. Business executives have noticed improved communication with customers through the introduction of digital technologies.
 
@@ -51,7 +51,7 @@ By implementing CDP, you will receive a single database that stores all necessar
 
 4. Personalization 
 
-   ![](/blog/assets/2.png)
+   ![](../../static/assets/2.png)
 
 Users who view two product pages on your site spend twice as much on average as those who only view one (according to Dynamic Yield). A McKinsey study also showed that personalization revenue growth could be up to 25%.
 
@@ -65,7 +65,7 @@ In 2022, users paid more attention to how brands use their data. In 2023, this t
 
 6. Effective UX 
 
-   ![](/blog/assets/3.png)
+   ![](../../static/assets/3.png)
 
 The importance of a convenient mobile version or application of your project is critical as the number of people accessing the Internet from a smartphone was 5.31 billion in 2022 compared with 5.19 billion in 2020. 
 

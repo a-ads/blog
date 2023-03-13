@@ -11,8 +11,8 @@ category_top_level:
   - Guides
   - Publishers
 author: Olga Ostrovskaya
-thumbnail: /blog/assets/undraw_partying_p92d-обложка.png
-big_picture: /blog/assets/undraw_partying_p92квадрат.png
+thumbnail: ../../static/assets/undraw_partying_p92d-обложка.png
+big_picture: ../../static/assets/undraw_partying_p92квадрат.png
 ---
 We have implemented the support of <a href="https://faucetpay.io/" rel="nofollow">FaucetPay</a> withdrawals. FaucetPay is a micro-wallet service alternative to ExpressCrypto. So now you can choose between these two.
 

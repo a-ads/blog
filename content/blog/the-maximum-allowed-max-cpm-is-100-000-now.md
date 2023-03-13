@@ -10,8 +10,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-3-.png
-big_picture: /blog/assets/short-13-.png
+thumbnail: ../../static/assets/full-3-.png
+big_picture: ../../static/assets/short-13-.png
 ---
 # What is "Max CPM"?
 

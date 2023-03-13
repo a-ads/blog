@@ -8,8 +8,8 @@ category: How to
 category_top_level:
   - News & Trends
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-20-.png
-big_picture: /blog/assets/short-15-.png
+thumbnail: ../../static/assets/full-20-.png
+big_picture: ../../static/assets/short-15-.png
 popularity: "0"
 meta_title: ""
 meta_description: ""
@@ -22,7 +22,7 @@ In our previous article about chatbots here, we have written about the pros and 
 
 If any of these factors are true for you, then your crypto business does need a chatbot: 
 
-![](/blog/assets/1-3-.png)
+![](../../static/assets/1-3-.png)
 
 However, despite all apparent advantages, chatbots have their limitations, which may include the following: 
 
@@ -120,7 +120,7 @@ One of the most creative steps in your journey! To create a chatbot's personalit
 
 To think about the structure of the dialogues, start with a list of frequently asked questions the bot will answer. To do so, ask your customer service and sales team the questions they receive most often. Then, study calls and letters from your customers, look for the same type of requests in mail or messengers and check your company's communication scripts.
 
-![](/blog/assets/2-3-.png)
+![](../../static/assets/2-3-.png)
 
 Plus, you can analyze your FAQ section, knowledge base, and documentation. 
 

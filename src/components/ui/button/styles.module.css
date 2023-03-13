@@ -1,0 +1,40 @@
+.btn-common {
+  @apply inline-flex items-center font-secondary outline-transparent appearance-none no-underline cursor-pointer rounded-md transition duration-300 ease-in-out;
+}
+
+.btn-ghost {
+  @apply bg-transparent p-0 hover:clr-light-blue;
+  @apply btn-common;
+}
+
+.btn-contained-common {
+  @apply body-3 justify-center relative box-border outline-2 outline-offset-2 select-none;
+  @apply btn-common;
+
+  font-weight: 600; /* The class wouldnt work -_- */
+}
+
+.btn-primary {
+  @apply !bg-blue !clr-white hover:!bg-light-blue;
+  @apply btn-contained-common;
+}
+
+.btn-secondary {
+  @apply !bg-base clr-blue;
+  @apply btn-contained-common;
+}
+
+/* todo  */
+.btn-sm {
+  @apply !h-10 !w-10;
+}
+
+.btn-md {
+  min-height: 3rem;
+  padding: 0.375rem 1rem;
+}
+
+/* todo  */
+.btn-lg {
+  @apply !h-10 !w-10;
+}

@@ -10,14 +10,14 @@ category_top_level:
 category_second_level:
   - How To
 author: Olga Ostrovskaya
-thumbnail: /blog/assets/full-5-.png
-big_picture: /blog/assets/short-15-.png
+thumbnail: ../../static/assets/full-5-.png
+big_picture: ../../static/assets/short-15-.png
 ---
 A-ADS strives to be as secure as possible, so we have enabled the measures to protect withdrawal changes via an email. This how-to describes how it can be done precisely.
 
 1. Start with visiting the “Withdrawal options” page, which can be found at “Finances >> Withdrawal options”, it should look like the image below:
 
-![](/blog/assets/withdrawal-change-1.png)
+![](../../static/assets/withdrawal-change-1.png)
 
 2. Select your “withdrawal type”.
 
@@ -35,20 +35,20 @@ Note: If you don’t have any means of authentication, probably because you used
 
 6. Click “Update withdrawal settings”, then click “OK” in the confirmation message:
 
-![](/blog/assets/withdrawal-change-53.png)
+![](../../static/assets/withdrawal-change-53.png)
 
 7. You’ll see an event: 
 
-![](/blog/assets/withdrawal-change-2.png)
+![](../../static/assets/withdrawal-change-2.png)
 
 8. Check the mailbox connected to your account, you should find an email from A-ADS with contents like this:
 
-![](/blog/assets/withdrawal-change-3.png)
+![](../../static/assets/withdrawal-change-3.png)
 
 Make sure to check all your folders, including “Spam” if you don’t find our email in your inbox. Alternatively you can search e-mails by A-ADS.
 
 9. Please, click the button, “Click to confirm”. At the destination page, you should see an event like in the image below:
 
-![](/blog/assets/withdrawal-change-4.png)
+![](../../static/assets/withdrawal-change-4.png)
 
 Note: Once your withdrawal option is confirmed, **withdrawals will be suspended for three days, as a regular measure to protect your funds**.

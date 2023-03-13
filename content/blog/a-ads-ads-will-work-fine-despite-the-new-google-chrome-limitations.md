@@ -14,8 +14,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Olga Ostrovskaya
-thumbnail: /blog/assets/full-15-.png
-big_picture: /blog/assets/short-7-.png
+thumbnail: ../../static/assets/full-15-.png
+big_picture: ../../static/assets/short-7-.png
 popularity: "5000"
 ---
 Google Chrome developers have recently <a href="https://developers.google.com/web/updates/2020/05/heavy-ad-interventions" rel="nofollow">introduced new limitations in terms of displaying ads to the user</a>. For instance, the ads that create a very high network or processor load will be blocked and never shown.

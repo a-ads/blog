@@ -8,8 +8,8 @@ category: How to
 category_top_level:
   - News & Trends
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-33-.png
-big_picture: /blog/assets/short-20-.png
+thumbnail: ../../static/assets/full-33-.png
+big_picture: ../../static/assets/short-20-.png
 popularity: "0"
 meta_title: ""
 meta_description: ""
@@ -24,7 +24,7 @@ If you are in a crypto-related business or a startup, you must build a solid dig
 
 Among all marketing strategies to promote a crypto business, we have chosen the 20 most applicable to a crypto business: 
 
-![](/blog/assets/761.png)
+![](../../static/assets/761.png)
 
 When choosing the right strategy for your business, we would recommend considering the following: 
 
@@ -58,7 +58,7 @@ What's your time horizon?
 
 Example: Increase the number of monthly users of the "….." mobile app by 1,000 by Q1 of 2023.
 
-![](/blog/assets/1.png)
+![](../../static/assets/1.png)
 
 **2. Think about a community** 
 
@@ -108,7 +108,7 @@ By answering the following questions, you can create an accurate customer avatar
 
 **Customer avatar**
 
-![](/blog/assets/2.png)
+![](../../static/assets/2.png)
 
 **Who are your competitors?**
 
@@ -121,13 +121,13 @@ What to look for: 
 
 Competitor analysis gives you valuable insights about businesses in your niche, products, customers, and competitors' popular technologies.
 
-![](/blog/assets/3.png)
+![](../../static/assets/3.png)
 
 **What is your plan?**
 
 Discuss with your team how often you would like to post your content and what channels you would use for that. A marketing calendar is a great way to plan your marketing communication via different channels. 
 
-![](/blog/assets/4.png)
+![](../../static/assets/4.png)
 
 **How will you track the performance?** 
 

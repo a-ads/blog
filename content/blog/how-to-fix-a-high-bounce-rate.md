@@ -9,7 +9,7 @@ category_top_level:
   - Publishers
   - Guides
 author: Olga Ostrovskaya
-thumbnail: /blog/assets/image120720192200.png
+thumbnail: ../../static/assets/image120720192200.png
 ---
 Sometimes our advertisers are unhappy because they see extremely high bounce rates for A-ADS traffic. Tracking systems might show a bounce rate of up to 99%, while the bounce rate for other networks might be something like 25 - 70%.
 

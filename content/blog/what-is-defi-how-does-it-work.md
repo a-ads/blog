@@ -8,8 +8,8 @@ category: How to
 category_top_level:
   - News & Trends
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-12-.png
-big_picture: /blog/assets/short-8-.png
+thumbnail: ../../static/assets/full-12-.png
+big_picture: ../../static/assets/short-8-.png
 popularity: "0"
 meta_title: What is Decentralized finance (DeFi)? How Does DeFi Work
 meta_description: DeFi is an emerging financial technology based on secure

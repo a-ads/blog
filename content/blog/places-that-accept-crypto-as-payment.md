@@ -8,8 +8,8 @@ category: How to
 category_top_level:
   - News & Trends
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-4-.png
-big_picture: /blog/assets/short-3-.png
+thumbnail: ../../static/assets/full-4-.png
+big_picture: ../../static/assets/short-3-.png
 popularity: "0"
 meta_title: 10 Places That Accept Crypto As Payment | Major Companies Who Accept Bitcoin
 meta_description: In 2022, companies are looking for new ways to use bitcoin or
@@ -62,7 +62,7 @@ Whole Foods, Starbucks, and Home Depot, the largest hardware store chain in the 
 
 Love traveling? The great news is that you can pay for hotels and accommodation with [Expedia](http://viewfinder.expedia.com/features/expedia-embraces-bitcoin) or book a flight with [CheapAir](http://www.cheapair.com/blog/travel-news/book-your-flights-on-cheapair-with-bitcoin-virtual-currency) or BalticAir. [Car dealerships](https://www.cryptocoinsnews.com/buying-cars-bitcoin-lamborghini-jeep-everything) are also trying to keep up, and while paying for fuel directly with bitcoin has yet to happen, Tesla accepted bitcoin as a payment starting in early 2021.
 
-![](/blog/assets/2.png)
+![](../../static/assets/2.png)
 
 **Donate on charity** 
 
@@ -84,7 +84,7 @@ As for the cons of such cards, they still need to be globally accepted, and you 
 
 Now, let’s look a bit closer at the companies, apps, and merchants that accept cryptocurrency as payment. The table below illustrates only the tip of the iceberg, where is, in realia, there are way many companies that can accept crypto: 
 
-![](/blog/assets/1.png)
+![](../../static/assets/1.png)
 
 1. Twitch
 

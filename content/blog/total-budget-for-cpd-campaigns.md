@@ -11,14 +11,14 @@ category_top_level:
 category_second_level:
   - How To
 author: Olga Ostrovskaya
-thumbnail: /blog/assets/full-12-.png
-big_picture: /blog/assets/short-10-.png
+thumbnail: ../../static/assets/full-12-.png
+big_picture: ../../static/assets/short-10-.png
 ---
 As you probably know, our default payment model is [CPD](https://a-ads.com/blog/2020-07-01-campaign-types/) (cost per day), and running CPD campaigns get automatically refilled from user balance.
 
 To give our users more control over this process, we have added a new parameter for CPD campaigns — Total budget.
 
-![](/blog/assets/total_budget.png "Total Campaign Budget for A-ADS")
+![](../../static/assets/total_budget.png "Total Campaign Budget for A-ADS")
 
 "Total budget" is a limit of how much money the campaign can spend.
 

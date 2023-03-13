@@ -10,8 +10,8 @@ category_top_level:
   - Guides
 category_second_level: []
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-27-.png
-big_picture: /blog/assets/preview-3-.png
+thumbnail: ../../static/assets/full-27-.png
+big_picture: ../../static/assets/preview-3-.png
 popularity: "0"
 meta_title: What is staking crypto? 5 Best crypto staking platforms
 meta_description: What Is staking, how it works, and how to get started. You’ll
@@ -92,7 +92,7 @@ Again, one crucial thing I want to tell you is that staking is risky. It may not
 
 The value of your staked crypto may change. Cryptocurrencies are often highly volatile; your assets could drop in value with little warning, making it a much less profitable endeavour. Plus, if your staked assets suffer a significant price drop, that could outweigh any interest you earn on them.
 
-![](/blog/assets/760.png)
+![](../../static/assets/760.png)
 
 Some proof-of-stake cryptocurrencies have lock-up periods, which means you can use your crypto within a specific time. And if you need money asap, you can't get it.
 

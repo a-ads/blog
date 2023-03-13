@@ -8,8 +8,8 @@ category: How to
 category_top_level:
   - News & Trends
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-47-.png
-big_picture: /blog/assets/short-24-.png
+thumbnail: ../../static/assets/full-47-.png
+big_picture: ../../static/assets/short-24-.png
 popularity: "0"
 meta_title: 5 Best Bitcoin and Crypto Wallets of 2023
 meta_description: Unlike traditional assets, you need to store your digital

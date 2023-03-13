@@ -12,8 +12,8 @@ category_top_level:
   - Advertisers
   - Publishers
 author: Olga Ostrovskaya
-thumbnail: /blog/assets/undraw_authentication_fsn5обложка.png
-big_picture: /blog/assets/undraw_authentication_fsn5квадрат.png
+thumbnail: ../../static/assets/undraw_authentication_fsn5обложка.png
+big_picture: ../../static/assets/undraw_authentication_fsn5квадрат.png
 ---
 We are pleased to announce that we now have new [sign-up](https://a-ads.com/user/sign_up#!access-code) and [sign-in](https://a-ads.com/user/sign_in#!access-code) webpages for those using the access code, i.e., unregistered users.
 

@@ -8,8 +8,8 @@ category: How to
 category_top_level:
   - Guides
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-36-.png
-big_picture: /blog/assets/preview-5-.png
+thumbnail: ../../static/assets/full-36-.png
+big_picture: ../../static/assets/preview-5-.png
 popularity: "0"
 meta_title: How to get paid in bitcoin or another crypto
 meta_description: There are many reasons why you might want to get paid in
@@ -119,7 +119,7 @@ Forty-two more countries have implicit bans on cryptocurrencies, meaning the gov
 
 But, despite this list, there are still dozens of countries where having a crypto salary is not a big deal.
 
-![](/blog/assets/pasted-image-0.png)
+![](../../static/assets/pasted-image-0.png)
 
 ## Who typically gets paid in crypto? 
 

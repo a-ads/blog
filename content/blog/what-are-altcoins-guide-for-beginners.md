@@ -8,8 +8,8 @@ category: Stories
 category_top_level:
   - News & Trends
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-28-.png
-big_picture: /blog/assets/preview-4-.png
+thumbnail: ../../static/assets/full-28-.png
+big_picture: ../../static/assets/preview-4-.png
 popularity: "0"
 meta_title: What are altcoins? A guide to the cryptocurrencies beyond Bitcoin
 meta_description: Altcoins are generally defined as all cryptocurrencies other

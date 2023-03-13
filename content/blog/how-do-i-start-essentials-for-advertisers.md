@@ -9,8 +9,8 @@ category_top_level:
   - Advertisers
   - Guides
 author: Olga Ostrovskaya
-thumbnail: /blog/assets/undraw_add_document_0hekобложка.png
-big_picture: /blog/assets/undraw_add_document_0hekквадрат.png
+thumbnail: ../../static/assets/undraw_add_document_0hekобложка.png
+big_picture: ../../static/assets/undraw_add_document_0hekквадрат.png
 ---
 ## Create a campaign
 

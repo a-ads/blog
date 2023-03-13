@@ -10,12 +10,12 @@ category_top_level:
 category_second_level:
   - How To
 author: Micheal George
-thumbnail: /blog/assets/full-13-.png
-big_picture: /blog/assets/short-3-.png
+thumbnail: ../../static/assets/full-13-.png
+big_picture: ../../static/assets/short-3-.png
 ---
 If you are experiencing the “Cloudflare prevents our bot from accessing your site” error as seen in the image below.
 
-![](/blog/assets/screenshot_5.png)
+![](../../static/assets/screenshot_5.png)
 
 It means that for some security reason Cloudflare is preventing our bots from accessing your site.
 
@@ -25,7 +25,7 @@ In order to eliminate this error, follow these steps below.
 2. Select the specified domain.
 3. Navigate to Security >> WAF >> Tools as seen in the image below.
 
-![](/blog/assets/cloudflare.png)
+![](../../static/assets/cloudflare.png)
 
 4. Under “IP Access Rules”, add the IP addresses that you received from A-ADS support team.
 
@@ -33,10 +33,10 @@ Note : If you don’t have any of our bots IP’s, please contact our support.
 
 5. Click “Check embedded HTML code” in your ad unit’s dashboard as seen in the image below.
 
-![](/blog/assets/cloudflare-whitelisting-4.png)
+![](../../static/assets/cloudflare-whitelisting-4.png)
 
 6. Wait a few minutes, reload the ad unit dashboard, the results should be like below.
 
-![](/blog/assets/cloudflare-whitelisting-5.png)
+![](../../static/assets/cloudflare-whitelisting-5.png)
 
 7. All done.

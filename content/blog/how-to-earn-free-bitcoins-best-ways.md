@@ -12,8 +12,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-24-.png
-big_picture: /blog/assets/preview-2-.png
+thumbnail: ../../static/assets/full-24-.png
+big_picture: ../../static/assets/preview-2-.png
 popularity: "0"
 meta_title: How to earn free bitcoins - 15 Best ways
 meta_description: We invite you to consider some of the best ways to earn free
@@ -59,7 +59,7 @@ Sometimes you just don't want to sign up for a new exchange to tap or something,
 
 For example, you can earn free Bitcoin instantly by applying for the Binance bitcoin referral program. You can refer your friends, giving you 20% when they make a transaction. Your friend also gets a 20% discount.
 
-![](/blog/assets/full-26-.png)
+![](../../static/assets/full-26-.png)
 
 Such resources as Gemini and Kriptomat now offer excellent bonuses of Bitcoin if you refer someone. In this case, you both get a bonus. The platform eToro also presently provides $50 for referrals.
 
@@ -115,7 +115,7 @@ You can earn crypto by watching some educational videos, with small 'rewards' di
 
 Another simple way to earn free bitcoin without risking any capital is to list your unwanted goods at an online marketplace specialising in crypto deposits and withdrawals. Similar to eBay, platforms like Ethair allow you to list goods via a 'Buy Now' or auction setting. 
 
-![](/blog/assets/full-25-.png)
+![](../../static/assets/full-25-.png)
 
 When one of your items is sold, you can receive the proceeds from the sale in bitcoin. You can later withdraw the bitcoin to your wallet. Best of all, Ethair does not charge any commission when you sell items on its platform. Great, right?
 

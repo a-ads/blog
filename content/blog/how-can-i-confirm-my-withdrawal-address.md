@@ -11,8 +11,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Olga Ostrovskaya
-thumbnail: /blog/assets/full-14-.png
-big_picture: /blog/assets/short-11-.png
+thumbnail: ../../static/assets/full-14-.png
+big_picture: ../../static/assets/short-11-.png
 ---
 To keep our users’ money safe, we have recently implemented additional security measures. Now we require an email confirmation of a new withdrawal address. This feature works for non-anonymous accounts only - those are the accounts with verified emails.
  
@@ -24,11 +24,11 @@ To confirm the new address, you need to click the confirmation link we send to y
  
  
  
-![](/blog/assets/confirmed.png "Withdrawal address confirmed")
+![](../../static/assets/confirmed.png "Withdrawal address confirmed")
  
 If you click and see the message that your link is invalid, this means that confirmation failed, and you need to request a new link to your email.
  
-![](/blog/assets/confirmed_invalid.png "An invalid confirmation link")
+![](../../static/assets/confirmed_invalid.png "An invalid confirmation link")
  
 If you change your withdrawal address but do not receive the confirmation email, you should check the spam folder. If you do not see the letter in spam either, please, request a new one. You can request a new confirmation email in 15 minutes after the first attempt.
  
