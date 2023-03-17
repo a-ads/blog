@@ -10,7 +10,7 @@ category_top_level:
 category_second_level: []
 author: Yulia Savushkina
 thumbnail: /blog/assets/full-7-.png
-big_picture: /blog/assets/short-5-.png
+big_picture: /blog/assets/short-8-.png
 popularity: "0"
 meta_title: ""
 meta_description: ""
