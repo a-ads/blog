@@ -2,10 +2,12 @@
 date: 2023-02-16T09:13:44.984Z
 title: Cryptocurrency Latest News
 slug: cryptocurrency-latest-news-16-02-2023
-tags: []
+tags:
+  - news
 category: Stories
 category_top_level:
   - News & Trends
+category_second_level: []
 author: Yulia Savushkina
 thumbnail: /blog/assets/full-24-.png
 big_picture: /blog/assets/short-19-.png

@@ -1,7 +1,7 @@
 ---
 date: 2023-02-28T07:39:51.753Z
 title: Cryptocurrency Latest News
-slug: cryptocurrency-latest-news-28-02-2023/
+slug: cryptocurrency-latest-news-28-02-2023
 tags:
   - news
 category: How to
