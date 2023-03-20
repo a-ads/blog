@@ -9,7 +9,7 @@ category_top_level:
   - News & Trends
 category_second_level: []
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-7-.png
+thumbnail: /blog/assets/full-10-.png
 big_picture: /blog/assets/short-8-.png
 popularity: "0"
 meta_title: ""
