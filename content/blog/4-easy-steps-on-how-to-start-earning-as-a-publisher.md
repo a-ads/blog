@@ -10,7 +10,7 @@ category_top_level:
 category_second_level:
   - How To
 author: Emmanuel Olatunji
-thumbnail: /blog/assets/full-26-.png
+thumbnail: /blog/assets/full-11-.png
 big_picture: /blog/assets/short-21-.png
 popularity: "0"
 meta_title: 4 easy steps on how to start earning as a publisher
