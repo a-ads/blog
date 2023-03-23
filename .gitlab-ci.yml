@@ -10,6 +10,8 @@ variables:
 image: node:12-alpine
 
 
+
+
 production_deploy:
   before_script:
     - node -v
@@ -55,3 +57,29 @@ staging_deploy:
     - node_modules/.bin/gatsby build --prefix-paths
     - aws s3 cp ./public/ s3://$STAGE_BUCKET/blog/ --recursive --acl public-read
     - aws s3 cp --content-type="text/vnd.yaml" --acl public-read --metadata-directive="REPLACE" s3://$STAGE_BUCKET/blog/admin/config.yml s3://$STAGE_BUCKET/blog/admin/config.yml
+
+
+
+
+build image:
+  stage: build
+  image: ubuntu:22.04
+  when: manual
+  allow_failure: false
+  services:
+    - docker:20-dind
+  only:
+    - staging
+  variables:
+    DOCKER_HOST: tcp://docker:2375
+    DOCKER_TLS_CERTDIR: ''
+    TMPDIR: ''
+
+  before_script:
+    - apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends tzdata awscli docker.io
+
+  script:
+    - eval $(aws ecr get-login --no-include-email)
+    - docker build
+        --tag $REGISTRY_HOST/aads-ci-blog:latest .
+    - docker push $REGISTRY_HOST/aads-ci-blog:latest

@@ -1,24 +1,26 @@
-FROM node:8-alpine
-MAINTAINER bn0ir <gblacknoir@gmail.com>
+FROM node:lts-bullseye
 
 COPY ./ /data/
 
-RUN apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/main/ --virtual .build-deps \
-       libpng-dev \
-       fftw-dev \
-       libimagequant-dev \
-       build-base \
-    && apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ --virtual .build-deps-testing \
-       vips-dev \
-    && cd /data/ \
-    && npm install yarn gatsby \
-    && node_modules/.bin/yarn install \
-    && node_modules/.bin/gatsby build \
-    && yarn cache clean \
-    && npm cache clean --force \
-    && apk del .build-deps .build-deps-testing \
-    && rm -rf node_modules/* /var/cache/apk/* /tmp/* /var/tmp/*
+WORKDIR /data/
 
-FROM alpine:3.8
+RUN export DEBIAN_FRONTEND=noninteractive \
+    && apt-get --allow-releaseinfo-change update \
+    && apt-get -o Dpkg::Options::="--force-confnew" -yV upgrade --with-new-pkgs \
+    && apt-get -y install libpng-dev fftw-dev python3-dev libimagequant-dev libvips-dev build-essential python3 \
+    && node -v \
+    && npm install npm@8.19.3 -g \
+    && npm install --legacy-peer-deps \
+    && node_modules/.bin/gatsby clean \
+    && node_modules/.bin/gatsby build --prefix-paths \
+    && npm cache clean --force
 
-COPY --from=0 /data/public/ /data/
+FROM node:lts-bullseye-slim
+
+RUN export DEBIAN_FRONTEND=noninteractive \
+   && apt-get --allow-releaseinfo-change update \
+   && apt-get -o Dpkg::Options::="--force-confnew" -yV upgrade --with-new-pkgs \
+   && apt-get -y install awscli
+
+WORKDIR /data/
+COPY --from=0 /data/ /data/
