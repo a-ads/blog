@@ -9,8 +9,8 @@ category: How to
 category_top_level:
   - News & Trends
 author: Yulia Savushkina
-thumbnail: ""
-big_picture: ""
+thumbnail: /blog/assets/full-12-.png
+big_picture: /blog/assets/short-9-.png
 popularity: "0"
 meta_title: ""
 meta_description: ""
