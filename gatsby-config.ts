@@ -49,6 +49,7 @@ const config: GatsbyConfig = {
         lang: 'en',
       },
     },
+    'gatsby-plugin-react-helmet',
     'gatsby-plugin-netlify-cms',
     // 'gatsby-plugin-google-gtag',
     'gatsby-plugin-image',
@@ -57,6 +58,13 @@ const config: GatsbyConfig = {
       resolve: 'gatsby-plugin-manifest',
       options: {
         icon: `${__dirname}/static/images/favicon.png`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.a-ads.com`,
+        stripQueryString: true,
       },
     },
     {
@@ -94,6 +102,7 @@ const config: GatsbyConfig = {
         ],
       },
     },
+
     'gatsby-transformer-yaml',
     'gatsby-transformer-sharp',
     {

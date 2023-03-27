@@ -3,7 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 import { take, drop } from 'lodash-es'
 
 import { Button } from '@ui'
-import { Banner, BlogPostGrid } from '@components'
+import { Banner, BlogPostGrid, Seo } from '@components'
 
 interface CategoryPageContext {
   category: CategoriesTopLevelNames
@@ -31,6 +31,7 @@ const CategoryTemplate: React.FC<{ pageContext: CategoryPageContext }> = ({
 
   return (
     <>
+      <Seo title={category} />
       <div className='pb-5 relative'>
         <section aria-label={category} className='container'>
           <h1 className='up-desktop:mt-12 mt-8 phone:mt-6 mb-3'>{category}</h1>
@@ -50,20 +51,23 @@ const CategoryTemplate: React.FC<{ pageContext: CategoryPageContext }> = ({
             ))}
           </div>
         </section>
+
         <BlogPostGrid
           posts={take(activePosts, 5)}
           className='mb-[70px] tablet:mb-[60px] phone:mb-12'
         />
+
         <Banner />
         <div className='mt-20' />
         <BlogPostGrid posts={drop(activePosts, 5)} canLoadMore />
         <div className='mb-20' />
         <Banner variant='promote' />
+
         {/* Background image  */}
         <StaticImage
           src='../../static/images/backgrounds/left.png'
           alt='Background image'
-          className='absolute top-0 left-0 -z-10'
+          className='!absolute top-0 left-0 -z-10'
           quality={100}
           placeholder='none'
         />

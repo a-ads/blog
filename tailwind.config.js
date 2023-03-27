@@ -32,6 +32,22 @@ module.exports = {
       secondary: ['Poppins', ...defaultTheme.fontFamily.sans],
     },
     extend: {
+      zIndex: {
+        layout: 100,
+        dropdown: 200,
+        tooltip: 300,
+        overlay: 400,
+        fixed: 500,
+        modal: 600,
+        0: 0,
+        1: 1,
+        50: 50,
+        150: 150,
+        250: 250,
+        350: 350,
+        450: 450,
+        550: 550,
+      },
       colors: {
         base: '#fff',
         primary: '#343240',
@@ -128,7 +144,7 @@ module.exports = {
   },
   plugins: [
     plugin(function ({ addUtilities, theme }) {
-      // Rewrite text color class prefix to "clr-":
+      // Rewrite "text-" color class prefix to "clr-":
       const colors = theme('colors')
       const textColorClasses = {}
       // output: { ".clr-base": { color: "#fff" } } - taken from the theme
@@ -149,7 +165,7 @@ module.exports = {
         }
       }
 
-      // Remove tw's default text size color prefix
+      // Remove tw's default "text-" size prefix
       // output: { ".body-4": { fontSize: "0.875rem" etc... } } - taken from the theme
       // usage <p className="body-4">...</p>
       const fontSize = theme('fontSize')

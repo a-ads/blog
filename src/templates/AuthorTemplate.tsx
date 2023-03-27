@@ -1,16 +1,10 @@
 import React from 'react'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { drop } from 'lodash-es'
-import type { HeadFC } from 'gatsby'
 
 import { Banner, BlogPostGrid, Breadcrumbs, Seo } from '@components'
 import { Icon } from '@ui'
 import { Pen } from '@icons'
-
-export const Head: HeadFC = () => (
-  <Seo title='Author Page' description='Author page' />
-)
-
 interface AuthorPageProps {
   pageContext: Author
 }
@@ -21,6 +15,7 @@ const AuthorPage: React.FC<AuthorPageProps> = ({ pageContext }) => {
 
   return (
     <>
+      <Seo title={name} description={`Our author ${name}. ${description}`} />
       <div className='container'>
         <Breadcrumbs
           tags={['authors']}
@@ -54,7 +49,7 @@ const AuthorPage: React.FC<AuthorPageProps> = ({ pageContext }) => {
         aria-label={`${name}'s latest articles`}
         className='container mb-14'
       >
-        <h1 className='container mt-11'>{name}'s latest articles</h1>
+        <h1 className='mt-11'>{name}'s latest articles</h1>
         <BlogPostGrid posts={posts!} className='mt-8' />
       </section>
       <BlogPostGrid posts={drop(posts!, 5)} className='container' canLoadMore />

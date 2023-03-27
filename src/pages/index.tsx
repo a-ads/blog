@@ -2,12 +2,10 @@ import React, { useMemo } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import { take, drop } from 'lodash-es'
-import type { HeadFC, PageProps } from 'gatsby'
+import type { PageProps } from 'gatsby'
 
 import { BlogPostGrid, Banner, Seo } from '@components'
 import '../global.css'
-
-export const Head: HeadFC = () => <Seo title='A-ADS Blog' />
 
 interface IBlogPosts {
   allMarkdownRemark: {
@@ -63,6 +61,7 @@ const IndexPage: React.FC<PageProps> = () => {
 
   return (
     <>
+      <Seo />
       <section
         aria-label='Crypto Marketing & Trends'
         className='relative mb-20'
@@ -75,14 +74,14 @@ const IndexPage: React.FC<PageProps> = () => {
         <StaticImage
           src='../../static/images/backgrounds/left.png'
           alt='Background image'
-          className='absolute top-0 left-0 -z-10'
+          className='!absolute top-0 left-0 -z-10'
           quality={100}
           placeholder='none'
         />
         <StaticImage
           src='../../static/images/backgrounds/right.png'
           alt='Background image'
-          className='absolute bottom-0 right-0 -z-10'
+          className='!absolute bottom-0 right-0 -z-10'
           quality={100}
           placeholder='none'
         />

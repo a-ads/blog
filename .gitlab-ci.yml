@@ -1,6 +1,6 @@
 variables:
-  PROD_BUCKET: "a-ads-blog"
-  STAGE_BUCKET: "a-ads-staging-blog"
+  PROD_BUCKET: 'a-ads-blog'
+  STAGE_BUCKET: 'a-ads-staging-blog'
   AWS_DEFAULT_REGION: eu-central-1
   REGISTRY_HOST: 461602623056.dkr.ecr.eu-central-1.amazonaws.com
   DOCKER_DRIVER: overlay2
@@ -9,16 +9,19 @@ variables:
 
 image: node:12-alpine
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 3763577 (Add toc scrollbar, refactor toc component, fix article count per author on authors page bug, temporarily move authors page to templates)
 production_deploy:
   before_script:
     - node -v
     - npm install npm@6.14.16 -g
     - npm install
 
-#sed -i -e 's/v3\.11/v3.12/g' /etc/apk/repositories # removed now
+  #sed -i -e 's/v3\.11/v3.12/g' /etc/apk/repositories # removed now
   script:
     - set -e -x
     - apk upgrade --available
@@ -30,10 +33,7 @@ production_deploy:
     - aws s3 cp ./public/ s3://$PROD_BUCKET/blog/ --recursive --acl public-read
     - aws s3 cp --content-type="text/vnd.yaml" --acl public-read --metadata-directive="REPLACE" s3://$PROD_BUCKET/blog/admin/config.yml s3://$PROD_BUCKET/blog/admin/config.yml
   only:
-    - master  
-
-
-
+    - master
 
 staging_deploy:
   when: manual
@@ -46,10 +46,10 @@ staging_deploy:
   stage: deploy
 
   before_script:
-    - echo 'Starting deploy to staging'
+    - echo 'Starting deploy from 2736-blog-remake to staging'
 
   only:
-    - staging
+    - 2736-blog-remake
 
   script:
     # Update blog
@@ -58,9 +58,12 @@ staging_deploy:
     - aws s3 cp ./public/ s3://$STAGE_BUCKET/blog/ --recursive --acl public-read
     - aws s3 cp --content-type="text/vnd.yaml" --acl public-read --metadata-directive="REPLACE" s3://$STAGE_BUCKET/blog/admin/config.yml s3://$STAGE_BUCKET/blog/admin/config.yml
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 3763577 (Add toc scrollbar, refactor toc component, fix article count per author on authors page bug, temporarily move authors page to templates)
 build image:
   stage: build
   image: ubuntu:22.04
@@ -69,7 +72,11 @@ build image:
   services:
     - docker:20-dind
   only:
+<<<<<<< HEAD
     - staging
+=======
+    - 2736-blog-remake
+>>>>>>> 3763577 (Add toc scrollbar, refactor toc component, fix article count per author on authors page bug, temporarily move authors page to templates)
   variables:
     DOCKER_HOST: tcp://docker:2375
     DOCKER_TLS_CERTDIR: ''
@@ -81,5 +88,10 @@ build image:
   script:
     - eval $(aws ecr get-login --no-include-email)
     - docker build
+<<<<<<< HEAD
         --tag $REGISTRY_HOST/aads-ci-blog:latest .
     - docker push $REGISTRY_HOST/aads-ci-blog:latest
+=======
+      --tag $REGISTRY_HOST/aads-ci-blog:latest .
+    - docker push $REGISTRY_HOST/aads-ci-blog:latest
+>>>>>>> 3763577 (Add toc scrollbar, refactor toc component, fix article count per author on authors page bug, temporarily move authors page to templates)

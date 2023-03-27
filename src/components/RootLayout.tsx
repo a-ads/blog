@@ -9,6 +9,8 @@ import { Button, Icon, Link, List, ListItem } from '@ui'
 import { SocialButton } from '@components'
 import { Horn, Wallet } from '@icons'
 import { SearchQueryProvider, SearchBar } from './Search'
+import ModalRenderer from './modal/ModalRenderer'
+import { showReportBugModal, showSuggestIdeaModal } from './modal/modals'
 import type { SocialId } from './SocialButton'
 
 const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
@@ -23,6 +25,7 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
       {/* Three lines  */}
       {['top-0', 'top-[12px]', 'top-[24px]'].map((classname) => (
         <span
+          aria-label='Hambuger line'
           key={classname}
           className={cn(
             'block absolute h-1 w-full bg-blue rounded-lg opacity-100 left-0 duration-[0.25s] ease-in-out rotate-0',
@@ -167,8 +170,8 @@ const Footer = () => {
             title: 'Service',
             items: [
               { name: 'Get Help', to: 'https://help.a-ads.com/en/' },
-              { name: 'Report a bug', onClick: () => null },
-              { name: 'Suggest an idea', onClick: () => null },
+              { name: 'Report a bug', onClick: showReportBugModal },
+              { name: 'Suggest an idea', onClick: showSuggestIdeaModal },
               { name: 'Status Page', to: 'https://status.a-ads.com/en/' },
             ],
           },
@@ -278,6 +281,7 @@ const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 
   return (
     <>
+      <ModalRenderer />
       <SearchQueryProvider>
         <Header categoriesTopLevel={data.allBlogCategoriesTopLevelYaml.nodes} />
         {children}

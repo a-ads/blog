@@ -1,5 +1,7 @@
 declare module '*.module.css'
 
+type UnknownObject = Record<string, unknown>
+
 type CategoriesTopLevelNames =
   | 'Advertisers'
   | 'Guides'
@@ -47,4 +49,6 @@ interface BlogPost {
   html: InnerHtmlString
   table_of_contents: string
   related_posts: BlogPostCard[]
+  meta_title: string
+  meta_description: string
 }

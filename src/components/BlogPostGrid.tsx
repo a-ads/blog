@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import cn from 'classnames'
+import { uniqueId } from 'lodash-es'
 
 import { Button } from '@ui'
 import { Card } from '@components'
@@ -41,7 +42,7 @@ const BlogPostGrid = ({
           (post, i) =>
             i < postAmountToDisplay && (
               <Card
-                key={post.title}
+                key={uniqueId()}
                 className={cn('mb-8 phone:mb-0', {
                   'col-span-2 down-tablet:col-span-1 down-tablet:w-full':
                     span.includes(i),

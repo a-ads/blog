@@ -1,17 +1,17 @@
-import React, { useEffect, useRef, useState } from 'react'
-import SlickSlider from 'react-slick'
+import React, { useEffect, useRef, useState, lazy } from 'react'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import type { Settings } from 'react-slick'
 
 import { Button } from '@ui'
 import { Chevron } from '@icons'
-import * as styles from './styles.module.css'
 import type { DefaultProps } from '../types'
+
+const LazySlickSlider = lazy(() => import('react-slick'))
 
 export type SliderProps = DefaultProps & Settings
 
-const Slider: React.FC<SliderProps> = ({ children, ...props }) => {
+const Slider: React.FC<SliderProps> = ({ children, className, ...props }) => {
   const ref = useRef<any>(null)
   const [buttons, setButtons] = useState<React.ReactNode | null>(null)
 
@@ -40,9 +40,9 @@ const Slider: React.FC<SliderProps> = ({ children, ...props }) => {
   return (
     <>
       {buttons}
-      <SlickSlider
+      <LazySlickSlider
         ref={ref}
-        className={styles.slider}
+        className={className}
         slidesToScroll={1}
         slidesToShow={3}
         dots={false}
@@ -60,7 +60,7 @@ const Slider: React.FC<SliderProps> = ({ children, ...props }) => {
         {...props}
       >
         {children}
-      </SlickSlider>
+      </LazySlickSlider>
     </>
   )
 }

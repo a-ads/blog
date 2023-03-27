@@ -73,6 +73,8 @@ exports.createPages = async ({ graphql, actions }) => {
                   )
                 }
               }
+              meta_title
+              meta_description
               title
               slug
             }
@@ -152,14 +154,6 @@ exports.createPages = async ({ graphql, actions }) => {
       ...rest,
     }
   })
-  const authorBlogPostCount = posts.reduce((acc, post) => {
-    if (acc[post.author]) {
-      acc[post.author] += 1
-    } else {
-      acc[post.author] = 1
-    }
-    return acc
-  }, {})
 
   // Blog Post Pages
   posts.forEach((post) => {
@@ -194,6 +188,15 @@ exports.createPages = async ({ graphql, actions }) => {
   })
 
   // Individual author pages
+  const authorBlogPostCount = posts.reduce((acc, post) => {
+    if (acc[post.author]) {
+      acc[post.author] += 1
+    } else {
+      acc[post.author] = 1
+    }
+    return acc
+  }, {})
+
   authors.forEach((author) => {
     createPage({
       path: author.slug,
@@ -211,18 +214,34 @@ exports.createPages = async ({ graphql, actions }) => {
     })
   })
 
+  // Shouldnt be here, but due to how md files are structured, we need to create a page for all authors as a template
+  // All authors page (pass each author's article count)
+  createPage({
+    path: '/authors',
+    component: resolve(`${__dirname}/src/templates/AuthorsPage.tsx`),
+    context: {
+      authors: authors.map((author) => ({
+        ...author,
+        postCount: authorBlogPostCount[author.name],
+      })),
+    },
+  })
+
   // Category pages
   const categories = data.allBlogCategoriesTopLevelYaml.edges.map(
     ({ node }) => node.title
   )
   const subcategories = data.allBlogCategoriesSecondLevelYaml.edges
+
   // Some subcategories have no posts, so we filter them out
-  const subcategoriesWithPosts = subcategories.filter(({ node }) =>
-    posts.some(
+  const subcategoriesWithPosts = subcategories.filter(({ node }) => {
+    const findPostsBySubcat = posts.filter(
       ({ category_second_level }) =>
         category_second_level && category_second_level.includes(node.title)
     )
-  )
+
+    return findPostsBySubcat.length > 0
+  })
 
   categories.forEach((category) => {
     createPage({

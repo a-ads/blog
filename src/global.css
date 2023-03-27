@@ -32,6 +32,20 @@
 
 /* Clean this up todo  */
 @layer components {
+  textarea {
+    width: 100%;
+    border: 1px solid #cdcdcd;
+    background: 0 0;
+    outline: none !important;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 22px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 144px;
+    max-width: 144px;
+    padding: 10px 16px 12px;
+  }
   .article {
     ul {
       list-style: none; /* Remove default bullets */
