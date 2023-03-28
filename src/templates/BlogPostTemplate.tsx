@@ -231,7 +231,14 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
           </span>
           <Slider>
             {related_posts.map((relatedPost) => (
-              <Card key={relatedPost.title} {...relatedPost} />
+              // Hacky way to insert gaps between cards
+              <div>
+                <Card
+                  key={relatedPost.title}
+                  className='w-[95%]'
+                  {...relatedPost}
+                />
+              </div>
             ))}
           </Slider>
         </section>

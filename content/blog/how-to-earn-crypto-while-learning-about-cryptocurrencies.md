@@ -8,8 +8,8 @@ category: How to
 category_top_level:
   - News & Trends
 author: Yulia Savushkina
-thumbnail: /blog/assets/full-13-.png
-big_picture: /blog/assets/short-10-.png
+thumbnail: ../../static/assets/full-13-.png
+big_picture: ../../static/assets/short-10-.png
 popularity: "0"
 meta_title: How to earn crypto while learning about cryptocurrencies | Beginners Guide
 meta_description: You may not need to buy or mine crypto to acquire some coins,

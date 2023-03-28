@@ -10,7 +10,7 @@
 @layer base {
   body {
     text-rendering: optimizeSpeed;
-    @apply font-primary body-1 clr-primary bg-gray-blue;
+    @apply font-primary body-1 clr-primary bg-gray-blue overflow-x-hidden;
   }
 
   h1 {
@@ -105,6 +105,10 @@
 
     p {
       margin-bottom: 1.25rem;
+    }
+
+    p + h2 {
+      margin-top: 1.25rem;
     }
 
     h2 {

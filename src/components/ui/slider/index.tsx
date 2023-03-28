@@ -24,7 +24,7 @@ const Slider: React.FC<SliderProps> = ({ children, className, ...props }) => {
     }
 
     setButtons(
-      <div className='absolute top-20 right-0'>
+      <div className='absolute top-20 right-[1rem]'>
         <div className='flex justify-end gap-7 mb-10'>
           <Button {...arrowProps} onClick={() => current.slickPrev()}>
             <Chevron className='' />
@@ -51,7 +51,7 @@ const Slider: React.FC<SliderProps> = ({ children, className, ...props }) => {
           {
             breakpoint: 900,
             settings: {
-              slidesToShow: 3,
+              slidesToShow: 2,
               slidesToScroll: 1,
               centerMode: true,
             },

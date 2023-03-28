@@ -142,7 +142,7 @@ export const FooterModal: React.FC<FooterModalProps> = ({
                         errors={errors}
                         name={fieldName}
                         render={({ message }) => (
-                          <p className='error-msg'>{message}</p>
+                          <p className='clr-red body-4'>{message}</p>
                         )}
                       />
                     </>

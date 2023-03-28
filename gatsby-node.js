@@ -66,7 +66,7 @@ exports.createPages = async ({ graphql, actions }) => {
                   gatsbyImageData(
                     blurredOptions: { width: 100 }
                     placeholder: BLURRED
-                    quality: 10
+                    quality: 90
                     layout: FULL_WIDTH
                     transformOptions: { cropFocus: CENTER }
                     aspectRatio: 1.7
