@@ -80,5 +80,4 @@ build image:
     - docker build
         --tag $REGISTRY_HOST/aads-ci-blog:latest .
     - docker push $REGISTRY_HOST/aads-ci-blog:latest
-      --tag $REGISTRY_HOST/aads-ci-blog:latest .
-    - docker push $REGISTRY_HOST/aads-ci-blog:latest
+
