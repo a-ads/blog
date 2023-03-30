@@ -9,25 +9,30 @@ variables:
 
 image: node:12-alpine
 
-production_deploy:
-  before_script:
-    - node -v
-    - npm install npm@6.14.16 -g
-    - npm install
 
-  #sed -i -e 's/v3\.11/v3.12/g' /etc/apk/repositories # removed now
-  script:
-    - set -e -x
-    - apk upgrade --available
-    - apk add --update --no-cache build-base
-    - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/v3.12/main/ libpng-dev fftw-dev python3-dev libimagequant-dev
-    - apk add --update --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/v3.12/community/ vips-dev
-    - node_modules/.bin/gatsby build --prefix-paths
-    - apk add --no-cache --update python3 aws-cli
-    - aws s3 cp ./public/ s3://$PROD_BUCKET/blog/ --recursive --acl public-read
-    - aws s3 cp --content-type="text/vnd.yaml" --acl public-read --metadata-directive="REPLACE" s3://$PROD_BUCKET/blog/admin/config.yml s3://$PROD_BUCKET/blog/admin/config.yml
+production_deploy:
+  when: always
+  retry: 1
+  image: $REGISTRY_HOST/aads-ci-blog
+
+  services:
+    - $REGISTRY_HOST/aads-ci-blog
+
+  stage: deploy
+
+  before_script:
+    - echo 'Starting deploy to production'
+
   only:
     - master
+
+  script:
+    # Update blog
+    - cd /data
+    - node_modules/.bin/gatsby build --prefix-paths
+    - aws s3 cp ./public/ s3://$PROD_BUCKET/blog/ --recursive --acl public-read
+    - aws s3 cp --content-type="text/vnd.yaml" --acl public-read --metadata-directive="REPLACE" s3://$PROD_BUCKET/blog/admin/config.yml s3://$PROD_BUCKET/blog/admin/config.yml
+
 
 staging_deploy:
   when: manual
@@ -40,11 +45,10 @@ staging_deploy:
   stage: deploy
 
   before_script:
-    - echo 'Starting deploy from 2736-blog-remake to staging'
+    - echo 'Starting deploy to staging'
 
   only:
     - staging
-    - 2736-blog-remake
 
   script:
     # Update blog
@@ -66,7 +70,6 @@ build image:
     - docker:20-dind
   only:
     - staging
-    - 2736-blog-remake
   variables:
     DOCKER_HOST: tcp://docker:2375
     DOCKER_TLS_CERTDIR: ''
