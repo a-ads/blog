@@ -8,6 +8,8 @@ category: How to
 category_top_level:
   - Advertisers
   - Guides
+category_second_level:
+  - How To
 author: Yulia Savushkina
 thumbnail: /blog/assets/tik-tok-videos-25.03-1-.png
 big_picture: /blog/assets/short-1-.png
