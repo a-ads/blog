@@ -7,7 +7,7 @@ variables:
   SSH_PORT: 10115
   TMPDIR: /tmp
 
-image: node:12-alpine
+# image: node:12-alpine
 
 
 production_deploy:
@@ -70,6 +70,7 @@ build image:
     - docker:20-dind
   only:
     - staging
+    - master
   variables:
     DOCKER_HOST: tcp://docker:2375
     DOCKER_TLS_CERTDIR: ''
