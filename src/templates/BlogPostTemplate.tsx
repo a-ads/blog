@@ -121,7 +121,7 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
               "@type": "Person",
               "name": "${author.name}",
               "url": "https://a-ads.com/blog${author.slug}"
-            }]
+            }],
             "image": ['${post.thumbnail?.childImageSharp?.gatsbyImageData?.images?.fallback?.src}']
           }
         `}
