@@ -33,54 +33,37 @@ production_deploy:
     - aws s3 cp ./public/ s3://$PROD_BUCKET/blog/ --recursive --acl public-read
     - aws s3 cp --content-type="text/vnd.yaml" --acl public-read --metadata-directive="REPLACE" s3://$PROD_BUCKET/blog/admin/config.yml s3://$PROD_BUCKET/blog/admin/config.yml
 
-
 staging_deploy:
   when: manual
   retry: 1
-  image: $REGISTRY_HOST/aads-ci-blog
-
+  stage: deploy
   services:
     - $REGISTRY_HOST/aads-ci-blog
-
-  stage: deploy
-
   before_script:
     - echo 'Starting deploy to staging'
-
-  only:
-    - staging
-
   script:
-    # Update blog
-    - cd /data
-    - node_modules/.bin/gatsby build --prefix-paths
-    - aws s3 cp ./public/ s3://$STAGE_BUCKET/blog/ --recursive --acl public-read
-    - aws s3 cp --content-type="text/vnd.yaml" --acl public-read --metadata-directive="REPLACE" s3://$STAGE_BUCKET/blog/admin/config.yml s3://$STAGE_BUCKET/blog/admin/config.yml
+    # Trigger the image build pipeline
+    - curl --request POST --form "token=$CI_JOB_TOKEN" --form ref=staging https://gitlab0.int.a-ads.com/api/v4/projects/$CI_PROJECT_ID/trigger/pipeline
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule" || $CI_COMMIT_BRANCH == "staging"'
+      when: always
+      allow_failure: true
 
 
-
-
-
-build image:
+build_image:
   stage: build
   image: ubuntu:22.04
-  when: manual
-  allow_failure: false
   services:
     - docker:20-dind
   only:
-    - staging
+    - triggers
   variables:
     DOCKER_HOST: tcp://docker:2375
     DOCKER_TLS_CERTDIR: ''
     TMPDIR: ''
-
   before_script:
     - apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends tzdata awscli docker.io
-
   script:
     - eval $(aws ecr get-login --no-include-email)
-    - docker build
-        --tag $REGISTRY_HOST/aads-ci-blog:latest .
+    - docker build --tag $REGISTRY_HOST/aads-ci-blog:latest .
     - docker push $REGISTRY_HOST/aads-ci-blog:latest
-
