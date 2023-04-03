@@ -122,7 +122,7 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
               "name": "${author.name}",
               "url": "https://a-ads.com/blog${author.slug}"
             }],
-            "image": ['${post.thumbnail?.childImageSharp?.gatsbyImageData?.images?.fallback?.src}']
+            "image": ["${post.thumbnail?.childImageSharp?.gatsbyImageData?.images?.fallback?.src}"]
           }
         `}
       </Script>
