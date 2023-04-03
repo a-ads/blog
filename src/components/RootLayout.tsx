@@ -52,13 +52,14 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
             text={cat.title}
             to={`/categories/${kebabCase(cat.title)}/`}
             style={{ order: cat.order }}
-            baseCn='py-4 body-3 whitespace-nowrap font-medium hover:clr-primary'
+            baseCn='py-4 body-3 whitespace-nowrap font-medium hover:clr-primary rounded-none'
             className={cat.order == 3 ? 'border-none' : 'down-desktop:border-b'} // This disables the border on the last item on mobile
+            onClick={() => (isHamburgerOpen ? setIsHamburgerOpen(false) : null)}
           />
         ))}
       </>
     ),
-    []
+    [isHamburgerOpen]
   )
 
   const MobileNav = useMemo(
@@ -70,7 +71,7 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
         </nav>
       </div>
     ),
-    []
+    [isHamburgerOpen]
   )
 
   return (

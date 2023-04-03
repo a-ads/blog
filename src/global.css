@@ -28,6 +28,10 @@
   .h3 {
     @apply font-secondary;
   }
+
+  div ul li a strong {
+    @apply font-normal;
+  }
 }
 
 /* Clean this up todo  */

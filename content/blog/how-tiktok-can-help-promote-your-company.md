@@ -11,8 +11,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Yulia Savushkina
-thumbnail: /blog/assets/tik-tok-videos-25.03-1-.png
-big_picture: /blog/assets/short-1-.png
+thumbnail: ../../static/tik-tok-videos-25.03-1-.png
+big_picture: ../../static/short-1-.png
 popularity: ""
 meta_title: ""
 meta_description: ""
