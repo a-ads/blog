@@ -63,7 +63,7 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://a-ads.com`,
+        siteUrl: `https://a-ads.com/blog/`,
         stripQueryString: true,
       },
     },
