@@ -36,6 +36,10 @@
 
 /* Clean this up todo  */
 @layer components {
+  #naming-campaigns + p + p span a span {
+    padding-bottom: 70% !important;
+  }
+
   textarea {
     width: 100%;
     border: 1px solid #cdcdcd;
@@ -91,7 +95,7 @@
         content: counter(item) '.';
         text-align: left;
         display: table-cell;
-        width: 1rem;
+        width: 3rem;
         padding-inline: 1rem 0.3rem;
         float: left;
       }

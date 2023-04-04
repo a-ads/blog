@@ -63,7 +63,11 @@ exports.createPages = async ({ graphql, actions }) => {
               reading_time
               thumbnail {
                 childImageSharp {
-                  gatsbyImageData(placeholder: BLURRED, quality: 100)
+                  gatsbyImageData(
+                    placeholder: BLURRED
+                    quality: 100
+                    layout: FULL_WIDTH
+                  )
                 }
               }
               meta_title

@@ -4,6 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 import cn from 'classnames'
 import { kebabCase } from 'lodash-es'
 import { utcToZonedTime, format } from 'date-fns-tz'
+import 'prismjs/themes/prism.css'
 
 import { Button, Icon, Link, List, ListItem } from '@ui'
 import { SocialButton } from '@components'
