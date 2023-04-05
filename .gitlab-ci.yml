@@ -13,7 +13,7 @@ stages:
 
 production_deploy:
   stage: deploy
-  when: manual
+  when: always
   retry: 1
   image: $REGISTRY_HOST/aads-ci-blog:production
   services:
