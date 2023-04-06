@@ -9,8 +9,8 @@ category_top_level:
   - Advertisers
   - Guides
 author: Yulia Savushkina
-thumbnail: /blog/assets/how-to-create-a-successful-blockchain-based-loyalty-program-with-examples.png
-big_picture: /blog/assets/short-6-.png
+thumbnail: ../../static/how-to-create-a-successful-blockchain-based-loyalty-program-with-examples.png
+big_picture: ../../static/short-6-.png
 popularity: ""
 meta_title: ""
 meta_description: ""

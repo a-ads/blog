@@ -11,8 +11,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Yulia Savushkina
-thumbnail: ../../static//data-driven-advertising_-how-to-measure-the-success-of-your-crypto-campaign.png
-big_picture: ../../static//short-5-.png
+thumbnail: ../../static/data-driven-advertising_-how-to-measure-the-success-of-your-crypto-campaign.png
+big_picture: ../../static/short-5-.png
 popularity: ""
 meta_title: ""
 meta_description: ""
