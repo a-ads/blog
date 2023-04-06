@@ -230,17 +230,27 @@ exports.createPages = async ({ graphql, actions }) => {
   )
   const subcategories = data.allBlogCategoriesSecondLevelYaml.edges
 
-  // Some subcategories have no posts, so we filter them out
-  const subcategoriesWithPosts = subcategories.filter(({ node }) => {
-    const findPostsBySubcat = posts.filter(
-      ({ category_second_level }) =>
-        category_second_level && category_second_level.includes(node.title)
-    )
-
-    return findPostsBySubcat.length > 0
-  })
-
   categories.forEach((category) => {
+    // Filter out subcategories with posts and create subcategoriesWithPosts array
+    const subcategoriesWithPosts = subcategories
+      .filter(({ node }) => {
+        const subcategoryPosts = posts.filter(
+          ({ category_second_level }) =>
+            category_second_level && category_second_level.includes(node.title)
+        )
+        return subcategoryPosts.length > 0
+      })
+      .map(({ node }) => {
+        const subcategoryPosts = posts.filter(
+          ({ category_second_level }) =>
+            category_second_level && category_second_level.includes(node.title)
+        )
+        return {
+          subcategoryName: node.title,
+          posts: subcategoryPosts.map(toBlogPostCardProps),
+        }
+      })
+
     createPage({
       path: `/categories/${category
         .toLowerCase()
@@ -248,14 +258,12 @@ exports.createPages = async ({ graphql, actions }) => {
       component: resolve(`${__dirname}/src/templates/CategoryTemplate.tsx`),
       context: {
         category,
-        subcategories: subcategoriesWithPosts
-          .filter(({ node }) => node.parent_category === category)
-          .map(({ node }) => node.title),
         posts: posts
           .filter(
             ({ category_top_level }) => category_top_level[0] === category
           )
           .map(toBlogPostCardProps),
+        subcategoriesWithPosts,
       },
     })
   })

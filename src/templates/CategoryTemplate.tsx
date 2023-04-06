@@ -5,29 +5,44 @@ import { take, drop } from 'lodash-es'
 import { Button } from '@ui'
 import { Banner, BlogPostGrid, Seo } from '@components'
 
-interface CategoryPageContext {
-  category: CategoriesTopLevelNames
-  subcategories: CategoriesSecondLevelNames[]
-  posts: BlogPostCard[]
+interface CategoryPageProps {
+  pageContext: {
+    category: CategoriesTopLevelNames
+    subcategories: CategoriesSecondLevelNames[]
+    posts: BlogPostCard[]
+    subcategoriesWithPosts: {
+      subcategoryName: CategoriesSecondLevelNames
+      posts: BlogPostCard[]
+    }[]
+  }
 }
 type SelectableSubcategory = CategoriesSecondLevelNames | 'All'
 
-const CategoryTemplate: React.FC<{ pageContext: CategoryPageContext }> = ({
-  pageContext: { category, subcategories, posts },
-}) => {
+const CategoryTemplate = (props: CategoryPageProps) => {
+  const {
+    category,
+    posts: allPosts,
+    subcategoriesWithPosts,
+  } = props.pageContext
+
   const [selectedSubcategory, setSelectedSubcategory] =
     useState<SelectableSubcategory>('All')
 
   const handleSubcategoryClick = (subcategory: SelectableSubcategory) =>
     subcategory !== selectedSubcategory && setSelectedSubcategory(subcategory)
 
+  const subcategories = subcategoriesWithPosts.map(
+    (subcat) => subcat.subcategoryName
+  )
+
   const activeSubcategoryStyles = '!bg-[#03a9f41a] !clr-blue font-extrabold'
+
   const activePosts =
     selectedSubcategory === 'All'
-      ? posts
-      : posts.filter(
-          (post) => post.category_second_level?.[0] === selectedSubcategory
-        )
+      ? allPosts
+      : subcategoriesWithPosts.find(
+          (subcat) => subcat.subcategoryName === selectedSubcategory
+        )?.posts
 
   return (
     <>
