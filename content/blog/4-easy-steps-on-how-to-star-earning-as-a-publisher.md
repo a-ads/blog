@@ -11,8 +11,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Emmanuel Olatunji
-thumbnail: ../../static/4-easy-steps-on-how-to-start-earning-as-a-publisher-28.03.png
-big_picture: ../../static/short-3-.png
+thumbnail: ../../static/assets/4-easy-steps-on-how-to-start-earning-as-a-publisher-28.03.png
+big_picture: ../../static/assets/short-3-.png
 popularity: ""
 meta_title: ""
 meta_description: ""

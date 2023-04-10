@@ -10,8 +10,8 @@ category_top_level:
   - Publishers
   - Advertisers
 author: Yulia Savushkina
-thumbnail: ../../static/full.png
-big_picture: ../../static/short-2-.png
+thumbnail: ../../static/assets/full.png
+big_picture: ../../static/assets/short-2-.png
 popularity: ""
 meta_title: ""
 meta_description: ""

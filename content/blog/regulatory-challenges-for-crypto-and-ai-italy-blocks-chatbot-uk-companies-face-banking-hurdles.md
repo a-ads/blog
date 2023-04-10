@@ -9,8 +9,8 @@ category: Stories
 category_top_level:
   - News & Trends
 author: Yulia Savushkina
-thumbnail: ../../static/full-2-.png
-big_picture: ../../static/short-7-.png
+thumbnail: ../../static/assets/full-2-.png
+big_picture: ../../static/assets/short-7-.png
 popularity: ""
 meta_title: ""
 meta_description: ""

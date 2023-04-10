@@ -67,6 +67,7 @@ exports.createPages = async ({ graphql, actions }) => {
                     placeholder: BLURRED
                     quality: 100
                     layout: FULL_WIDTH
+                    transformOptions: { cropFocus: CENTER }
                   )
                 }
               }
