@@ -168,6 +168,7 @@ type BlogCategoriesTopLevelYaml = Node & {
   readonly children: ReadonlyArray<Node>;
   readonly id: Scalars['ID'];
   readonly internal: Internal;
+  readonly meta_description: Maybe<Scalars['String']>;
   readonly order: Maybe<Scalars['String']>;
   readonly parent: Maybe<Node>;
   readonly title: Maybe<Scalars['String']>;
@@ -222,6 +223,7 @@ type BlogCategoriesTopLevelYamlFieldSelector = {
   readonly children: InputMaybe<NodeFieldSelector>;
   readonly id: InputMaybe<FieldSelectorEnum>;
   readonly internal: InputMaybe<InternalFieldSelector>;
+  readonly meta_description: InputMaybe<FieldSelectorEnum>;
   readonly order: InputMaybe<FieldSelectorEnum>;
   readonly parent: InputMaybe<NodeFieldSelector>;
   readonly title: InputMaybe<FieldSelectorEnum>;
@@ -231,6 +233,7 @@ type BlogCategoriesTopLevelYamlFilterInput = {
   readonly children: InputMaybe<NodeFilterListInput>;
   readonly id: InputMaybe<StringQueryOperatorInput>;
   readonly internal: InputMaybe<InternalFilterInput>;
+  readonly meta_description: InputMaybe<StringQueryOperatorInput>;
   readonly order: InputMaybe<StringQueryOperatorInput>;
   readonly parent: InputMaybe<NodeFilterInput>;
   readonly title: InputMaybe<StringQueryOperatorInput>;
@@ -285,6 +288,7 @@ type BlogCategoriesTopLevelYamlSortInput = {
   readonly children: InputMaybe<NodeSortInput>;
   readonly id: InputMaybe<SortOrderEnum>;
   readonly internal: InputMaybe<InternalSortInput>;
+  readonly meta_description: InputMaybe<SortOrderEnum>;
   readonly order: InputMaybe<SortOrderEnum>;
   readonly parent: InputMaybe<NodeSortInput>;
   readonly title: InputMaybe<SortOrderEnum>;
@@ -2663,6 +2667,7 @@ type Query_blogCategoriesTopLevelYamlArgs = {
   children: InputMaybe<NodeFilterListInput>;
   id: InputMaybe<StringQueryOperatorInput>;
   internal: InputMaybe<InternalFilterInput>;
+  meta_description: InputMaybe<StringQueryOperatorInput>;
   order: InputMaybe<StringQueryOperatorInput>;
   parent: InputMaybe<NodeFilterInput>;
   title: InputMaybe<StringQueryOperatorInput>;

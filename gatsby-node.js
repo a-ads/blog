@@ -117,6 +117,7 @@ exports.createPages = async ({ graphql, actions }) => {
           node {
             title
             order
+            meta_description
           }
         }
       }
@@ -227,7 +228,10 @@ exports.createPages = async ({ graphql, actions }) => {
 
   // Category pages
   const categories = data.allBlogCategoriesTopLevelYaml.edges.map(
-    ({ node }) => node.title
+    ({ node }) => ({
+      title: node.title,
+      meta_description: node.meta_description,
+    })
   )
   const subcategories = data.allBlogCategoriesSecondLevelYaml.edges
 
@@ -253,15 +257,16 @@ exports.createPages = async ({ graphql, actions }) => {
       })
 
     createPage({
-      path: `/categories/${category
+      path: `/categories/${category.title
         .toLowerCase()
         .replace('news & trends', 'news-trends')}/`,
       component: resolve(`${__dirname}/src/templates/CategoryTemplate.tsx`),
       context: {
-        category,
+        category: category.title,
+        meta_description: category.meta_description,
         posts: posts
           .filter(
-            ({ category_top_level }) => category_top_level[0] === category
+            ({ category_top_level }) => category_top_level[0] === category.title
           )
           .map(toBlogPostCardProps),
         subcategoriesWithPosts,

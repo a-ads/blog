@@ -10,6 +10,7 @@ interface CategoryPageProps {
     category: CategoriesTopLevelNames
     subcategories: CategoriesSecondLevelNames[]
     posts: BlogPostCard[]
+    meta_description: string
     subcategoriesWithPosts: {
       subcategoryName: CategoriesSecondLevelNames
       posts: BlogPostCard[]
@@ -22,6 +23,7 @@ const CategoryTemplate = (props: CategoryPageProps) => {
   const {
     category,
     posts: allPosts,
+    meta_description,
     subcategoriesWithPosts,
   } = props.pageContext
 
@@ -46,7 +48,7 @@ const CategoryTemplate = (props: CategoryPageProps) => {
 
   return (
     <>
-      <Seo title={category} />
+      <Seo title={category} description={meta_description} />
       <div className='pb-5 relative'>
         <section aria-label={category} className='container'>
           <h1 className='up-desktop:mt-12 mt-8 phone:mt-6 mb-3'>{category}</h1>
