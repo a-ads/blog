@@ -1,5 +1,7 @@
 declare module '*.module.css'
 
+// Oh boy we need a refactor here
+
 type UnknownObject = Record<string, unknown>
 
 type CategoriesTopLevelNames =

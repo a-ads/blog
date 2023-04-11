@@ -51,7 +51,15 @@ const config: GatsbyConfig = {
     },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-netlify-cms',
-    // 'gatsby-plugin-google-gtag',
+    {
+      resolve: 'gatsby-plugin-google-gtag',
+      options: {
+        trackingIds: ['GTM-WGWBHFS'],
+        gtagConfig: {
+          anonymize_ip: true,
+        },
+      },
+    },
     'gatsby-plugin-image',
     'gatsby-plugin-sitemap',
     {
