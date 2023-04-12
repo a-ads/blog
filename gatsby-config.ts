@@ -81,7 +81,14 @@ const config: GatsbyConfig = {
         extensions: ['.mdx', '.md'],
       },
     },
-    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-plugin-sharp',
+      options: {
+        defaults: {
+          quality: 100,
+        },
+      },
+    },
     {
       resolve: `gatsby-transformer-remark`,
       options: {

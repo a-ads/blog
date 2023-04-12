@@ -32,6 +32,14 @@
   div ul li a strong {
     @apply font-normal;
   }
+
+  .article .gatsby-resp-image-background-image {
+    padding-bottom: 60% !important;
+  }
+
+  .article .gatsby-resp-image-link {
+    pointer-events: none;
+  }
 }
 
 /* Clean this up todo  */
@@ -61,9 +69,13 @@
       flex-direction: column;
       gap: 1rem;
 
+      li h2 {
+        @apply inline-flex;
+      }
+
       li::before {
         content: '\2022'; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-        color: map-get($colors, blue);
+        @apply clr-blue;
         font-weight: bold; /* If you want it to be bold */
         font-size: 1.3rem;
         display: inline-block; /* Needed to add space between the bullet and the text */

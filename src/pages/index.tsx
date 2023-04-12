@@ -30,7 +30,7 @@ const IndexPage: React.FC<PageProps> = () => {
                 gatsbyImageData(
                   blurredOptions: { width: 100 }
                   placeholder: BLURRED
-                  quality: 10
+                  quality: 100
                   layout: FULL_WIDTH
                   transformOptions: { cropFocus: CENTER }
                   aspectRatio: 1.7

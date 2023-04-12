@@ -8,6 +8,8 @@ import { SocialButton, Breadcrumbs, Seo, Card, Banner } from '@components'
 import type { SocialId } from 'src/components/SocialButton'
 
 const extractFilename = (filePath: string) => {
+  if (typeof filePath !== 'string') return ''
+
   const parts = filePath.split('/')
   return parts[parts.length - 1]
 }
