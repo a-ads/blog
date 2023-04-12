@@ -1,5 +1,4 @@
 import React from 'react'
-import { Script } from 'gatsby'
 import { getImage, GatsbyImage, StaticImage } from 'gatsby-plugin-image'
 import { kebabCase } from 'lodash-es'
 import cn from 'classnames'
@@ -7,6 +6,11 @@ import cn from 'classnames'
 import { Link, Slider } from '@ui'
 import { SocialButton, Breadcrumbs, Seo, Card, Banner } from '@components'
 import type { SocialId } from 'src/components/SocialButton'
+
+const extractFilename = (filePath: string) => {
+  const parts = filePath.split('/')
+  return parts[parts.length - 1]
+}
 
 const TableOfContents = ({
   toc,
@@ -108,24 +112,28 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
 
   return (
     <>
-      <Seo title={post.meta_title} description={post.meta_description} />
-      <Script type='application/ld+json'>
-        {`
+      <Seo title={post.meta_title} description={post.meta_description}>
+        <script type='application/ld+json'>
+          {`
           {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "${post.meta_title}",
             "datePublished": "${post.date}",
-            "updateDate": "${post.date}",
+            "dateModified": "${post.date}",
             "author": [{
               "@type": "Person",
               "name": "${author.name}",
               "url": "https://a-ads.com/blog${author.slug}"
             }],
-            "image": ["${post.thumbnail?.childImageSharp?.gatsbyImageData?.images?.fallback?.src}"]
+            "image": ["https://a-ads.com/blog/assets/${extractFilename(
+              post.thumbnail?.childImageSharp?.gatsbyImageData?.images?.fallback
+                ?.src
+            )}"]
           }
         `}
-      </Script>
+        </script>
+      </Seo>
       <header
         aria-label='Blog post header'
         className='container grid grid-cols-12 gap-8 down-desktop:block'
