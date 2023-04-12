@@ -36,10 +36,6 @@
   .article .gatsby-resp-image-background-image {
     padding-bottom: 60% !important;
   }
-
-  .article .gatsby-resp-image-link {
-    pointer-events: none;
-  }
 }
 
 /* Clean this up todo  */
