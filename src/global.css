@@ -33,8 +33,9 @@
     @apply font-normal;
   }
 
-  .article .gatsby-resp-image-background-image {
-    padding-bottom: 60% !important;
+  .article .gatsby-resp-image-wrapper {
+    max-height: 500px !important;
+    overflow: hidden;
   }
 }
 

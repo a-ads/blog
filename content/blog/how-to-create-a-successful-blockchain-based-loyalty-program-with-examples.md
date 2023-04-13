@@ -66,7 +66,10 @@ The program has over 20 million members, and its success can be attributed to se
 
 Rakuten, a Japanese e-commerce giant, launched its [Rakuten Coin loyalty program](https://global.rakuten.com/corp/news/update/2021/0318_01.html) in 2018. The program allows customers to earn and redeem points across different Rakuten services, such as Rakuten Ichiba, Rakuten Travel, and Rakuten Mobile. The program also enables customers to exchange Rakuten Coins for fiat currency or other cryptocurrencies.
 
-![](https://lh5.googleusercontent.com/N_WKHQqCjXZM5AijhwQ-EybndFZxvq0Yf_E23jbLoR51PesnUrNL7xBeFaaUFz38-zXngZlrSR86rgut58OcHxBhftht6cvgPLFyaYoMlTbY2Oo6LP2TOT-yT-wuGD0a8BcXkczvtTO1KCiD6oomaAo)
+<a href="https://lh5.googleusercontent.com/N_WKHQqCjXZM5AijhwQ-EybndFZxvq0Yf_E23jbLoR51PesnUrNL7xBeFaaUFz38-zXngZlrSR86rgut58OcHxBhftht6cvgPLFyaYoMlTbY2Oo6LP2TOT-yT-wuGD0a8BcXkczvtTO1KCiD6oomaAo" target="_blank">
+  <img src="https://lh5.googleusercontent.com/N_WKHQqCjXZM5AijhwQ-EybndFZxvq0Yf_E23jbLoR51PesnUrNL7xBeFaaUFz38-zXngZlrSR86rgut58OcHxBhftht6cvgPLFyaYoMlTbY2Oo6LP2TOT-yT-wuGD0a8BcXkczvtTO1KCiD6oomaAo">
+</a>
+
 
 *Source: global.rakuten.com*
 
@@ -80,7 +83,10 @@ The program offers attractive rewards incentivizing customers to remain loyal to
 
 
 
-![](https://lh3.googleusercontent.com/8Pi79n8YOvLmZniw3Sao0UYmOHoxrD_wiEphGeGdQeASDExD6ZDc2YBw0Bg6zPZoxk7-hYOC-ASOkWk_QbvOCpIJVtvrsCM8Oz4otist2nUiiXaRiaeW8FGSudVbTqEa1OlAyCMYgykCkEhlExwn8ec)
+<a href="https://lh3.googleusercontent.com/8Pi79n8YOvLmZniw3Sao0UYmOHoxrD_wiEphGeGdQeASDExD6ZDc2YBw0Bg6zPZoxk7-hYOC-ASOkWk_QbvOCpIJVtvrsCM8Oz4otist2nUiiXaRiaeW8FGSudVbTqEa1OlAyCMYgykCkEhlExwn8ec" target="_blank">
+  <img src="https://lh3.googleusercontent.com/8Pi79n8YOvLmZniw3Sao0UYmOHoxrD_wiEphGeGdQeASDExD6ZDc2YBw0Bg6zPZoxk7-hYOC-ASOkWk_QbvOCpIJVtvrsCM8Oz4otist2nUiiXaRiaeW8FGSudVbTqEa1OlAyCMYgykCkEhlExwn8ec">
+</a>
+
 
 *Source:Starbucks.com*
 

@@ -86,6 +86,7 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
             layout='fixed'
             width={90}
             height={50}
+            quality={100}
           />
         </Link>
 
