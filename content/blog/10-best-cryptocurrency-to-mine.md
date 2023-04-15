@@ -21,7 +21,7 @@ json_ld: ""
 ---
 Still, deeply regret not investing in Bitcoin earlier? Relax. We all feel it from time to time. You have some options to deal with this feeling, such as crying yourself to sleep every night until you feel better or checking out other promising coins on the market.
 
-Our new article below is about the best crypto to mine in 2022. But before that, let's just quickly check what cryptocurrency is. 
+Our new article below is about the best crypto to mine in 2023. But before that, let's just quickly check what cryptocurrency is. 
 
 A cryptocurrency is a form of currency that remains only in digital format. Crypto is so awesome that it allows you to pay online without going through an intermediary, such as a bank, and it also can be held as an investment.
 
