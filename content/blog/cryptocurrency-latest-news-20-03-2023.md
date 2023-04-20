@@ -9,7 +9,7 @@ category: How to
 category_top_level:
   - News & Trends
 author: Yulia Savushkina
-thumbnail: ../../static/assets/full-12-.png 
+thumbnail: ../../static/assets/full-12-.png
 big_picture: ../../static/assets/short-9-.png
 popularity: "0"
 meta_title: ""
@@ -25,7 +25,7 @@ The screenshots show that the crypto wallet is "embedded in Edge, making it easy
 
 It's not the first time the IT giant has shown interest in cryptocurrency and not the first web browser to include a crypto wallet. As adoption grows, several other major web browsers, such as Opera or Firefox, have recently added support for built-in crypto wallets. 
 
-![](https://lh6.googleusercontent.com/IFh_hC0z74yfhJ3XDG0Sr7kSAObDuFjTcGxPjDCx6WxV89K4lPAsz52E_BvaGdMmcvDsgGs_HeaA9yJ2tYzjeZWh-lXbJZZDSZUVfNc5-I-KBQ7GChc5c6DSsYalqF-H9HO3fRoSA8Y8sACNn034aOs)
+![](https://lh6.googleusercontent.com/IFh_hC0z74yfhJ3XDG0Sr7kSAObDuFjTcGxPjDCx6WxV89K4lPAsz52E_BvaGdMmcvDsgGs_HeaA9yJ2tYzjeZWh-lXbJZZDSZUVfNc5-I-KBQ7GChc5c6DSsYalqF-H9HO3fRoSA8Y8sACNn034aOs "Secret Crypto Wallet Found in Microsoft Edge Browser")
 
 ## Coinbase Crypto Exchange Considers Overseas Trading Platform Amid U.S.
 
