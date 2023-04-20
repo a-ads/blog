@@ -2,7 +2,6 @@ import React, { useMemo } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import { take, drop } from 'lodash-es'
-import type { PageProps } from 'gatsby'
 
 import { BlogPostGrid, Banner, Seo } from '@components'
 import '../global.css'
@@ -15,7 +14,7 @@ interface IBlogPosts {
   }
 }
 
-const IndexPage: React.FC<PageProps> = () => {
+const IndexPage = () => {
   const data: IBlogPosts = useStaticQuery(graphql`
     query FetchBlogPostsByPopularity {
       allMarkdownRemark(
@@ -69,7 +68,9 @@ const IndexPage: React.FC<PageProps> = () => {
         <h1 className='container large mb-10 mt-12 tablet:mt-8 phone:my-5'>
           Crypto Marketing & Trends
         </h1>
+
         <BlogPostGrid posts={posts.top} />
+
         {/* Background images  */}
         <StaticImage
           src='../../static/images/backgrounds/left.png'
@@ -86,14 +87,18 @@ const IndexPage: React.FC<PageProps> = () => {
           placeholder='none'
         />
       </section>
+
       <Banner />
+
       <BlogPostGrid posts={posts.rest} canLoadMore className='mt-20' />
+
       <section aria-label='Most popular' className='py-20'>
         <div className='container'>
           <h2 className='h1 mb-10'>Most popular</h2>
           <BlogPostGrid posts={posts.top} />
         </div>
       </section>
+
       <Banner variant='promote' />
     </>
   )

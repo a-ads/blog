@@ -12,6 +12,7 @@ import { Horn, Wallet } from '@icons'
 import { SearchQueryProvider, SearchBar } from './Search'
 import ModalRenderer from './modal/ModalRenderer'
 import { showReportBugModal, showSuggestIdeaModal } from './modal/modals'
+import { toCategoryLink } from '@utils'
 import type { SocialId } from './SocialButton'
 
 const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
@@ -51,7 +52,7 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
             key={cat.id}
             ghost
             text={cat.title}
-            to={`/categories/${kebabCase(cat.title)}/`}
+            to={toCategoryLink(cat.title, 'all')}
             style={{ order: cat.order }}
             baseCn='py-4 body-3 whitespace-nowrap font-medium hover:clr-primary rounded-none'
             className={cat.order == 3 ? 'border-none' : 'down-desktop:border-b'} // This disables the border on the last item on mobile

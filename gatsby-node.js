@@ -234,43 +234,65 @@ exports.createPages = async ({ graphql, actions }) => {
     })
   )
   const subcategories = data.allBlogCategoriesSecondLevelYaml.edges
+  const subcategoriesWithPosts = subcategories
+    .filter(({ node }) => {
+      const subcategoryPosts = posts.filter(
+        ({ category_second_level }) =>
+          category_second_level && category_second_level.includes(node.title)
+      )
+      return subcategoryPosts.length > 0
+    })
+    .map(({ node }) => {
+      const subcategoryPosts = posts.filter(
+        ({ category_second_level }) =>
+          category_second_level && category_second_level.includes(node.title)
+      )
+      return {
+        subcategoryName: node.title,
+        posts: subcategoryPosts.map(toBlogPostCardProps),
+      }
+    })
 
+  // Create Category Pages with their unique urls and subcategory posts
+  const categoryPages = []
   categories.forEach((category) => {
-    // Filter out subcategories with posts and create subcategoriesWithPosts array
-    const subcategoriesWithPosts = subcategories
-      .filter(({ node }) => {
-        const subcategoryPosts = posts.filter(
-          ({ category_second_level }) =>
-            category_second_level && category_second_level.includes(node.title)
-        )
-        return subcategoryPosts.length > 0
-      })
-      .map(({ node }) => {
-        const subcategoryPosts = posts.filter(
-          ({ category_second_level }) =>
-            category_second_level && category_second_level.includes(node.title)
-        )
-        return {
-          subcategoryName: node.title,
-          posts: subcategoryPosts.map(toBlogPostCardProps),
-        }
-      })
+    const allPostsForOneCategory = posts.filter(
+      ({ category_top_level }) => category_top_level[0] === category.title
+    )
+    const allAsSubcategory = {
+      subcategoryName: 'All',
+      posts: allPostsForOneCategory,
+    }
+    const subcats = [allAsSubcategory, ...subcategoriesWithPosts]
 
-    createPage({
-      path: `/categories/${category.title
-        .toLowerCase()
-        .replace('news & trends', 'news-trends')}/`,
-      component: resolve(`${__dirname}/src/templates/CategoryTemplate.tsx`),
-      context: {
+    subcats.forEach((subcat) =>
+      categoryPages.push({
+        path: `/categories/${category.title}/${subcat.subcategoryName}/`,
+        posts: subcat.posts,
         category: category.title,
         meta_description: category.meta_description,
-        posts: posts
-          .filter(
-            ({ category_top_level }) => category_top_level[0] === category.title
-          )
-          .map(toBlogPostCardProps),
-        subcategoriesWithPosts,
+      })
+    )
+  })
+
+  const subcategoryNames = subcategoriesWithPosts.map(
+    ({ subcategoryName }) => subcategoryName
+  )
+  subcategoryNames.unshift('All')
+
+  categoryPages.forEach((page) =>
+    createPage({
+      path: page.path
+        .toLowerCase()
+        .replace('news & trends', 'news-trends')
+        .replace(' ', '-'),
+      component: resolve(`${__dirname}/src/templates/CategoryTemplate.tsx`),
+      context: {
+        category: page.category,
+        subcategories: subcategoryNames,
+        meta_description: page.meta_description,
+        posts: page.posts.map(toBlogPostCardProps),
       },
     })
-  })
+  )
 }

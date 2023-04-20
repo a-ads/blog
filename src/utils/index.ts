@@ -1,0 +1,1 @@
+export { toCategoryLink } from './toCategoryLink'

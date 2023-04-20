@@ -137,6 +137,7 @@ const config: GatsbyConfig = {
           '@ui': resolve(`${__dirname}/src/components/ui`),
           '@components': resolve(`${__dirname}/src/components`),
           '@icons': resolve(`${__dirname}/src/components/icons`),
+          '@utils': resolve(`${__dirname}/src/utils`),
         },
         extensions: ['jsx, tsx, ts, css'],
       },

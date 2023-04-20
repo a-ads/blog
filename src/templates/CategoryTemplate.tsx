@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import { take, drop } from 'lodash-es'
 
-import { Button } from '@ui'
+import { Link } from '@ui'
 import { Banner, BlogPostGrid, Seo } from '@components'
+import { toCategoryLink } from '@utils'
 
 interface CategoryPageProps {
   pageContext: {
@@ -11,40 +12,11 @@ interface CategoryPageProps {
     subcategories: CategoriesSecondLevelNames[]
     posts: BlogPostCard[]
     meta_description: string
-    subcategoriesWithPosts: {
-      subcategoryName: CategoriesSecondLevelNames
-      posts: BlogPostCard[]
-    }[]
   }
 }
-type SelectableSubcategory = CategoriesSecondLevelNames | 'All'
 
 const CategoryTemplate = (props: CategoryPageProps) => {
-  const {
-    category,
-    posts: allPosts,
-    meta_description,
-    subcategoriesWithPosts,
-  } = props.pageContext
-
-  const [selectedSubcategory, setSelectedSubcategory] =
-    useState<SelectableSubcategory>('All')
-
-  const handleSubcategoryClick = (subcategory: SelectableSubcategory) =>
-    subcategory !== selectedSubcategory && setSelectedSubcategory(subcategory)
-
-  const subcategories = subcategoriesWithPosts.map(
-    (subcat) => subcat.subcategoryName
-  )
-
-  const activeSubcategoryStyles = '!bg-[#03a9f41a] !clr-blue font-extrabold'
-
-  const activePosts =
-    selectedSubcategory === 'All'
-      ? allPosts
-      : subcategoriesWithPosts.find(
-          (subcat) => subcat.subcategoryName === selectedSubcategory
-        )?.posts
+  const { category, subcategories, posts, meta_description } = props.pageContext
 
   return (
     <>
@@ -53,31 +25,32 @@ const CategoryTemplate = (props: CategoryPageProps) => {
         <section aria-label={category} className='container'>
           <h1 className='up-desktop:mt-12 mt-8 phone:mt-6 mb-3'>{category}</h1>
           <div className='flex gap-8 mb-7 up-desktop:mb-10 phone:mb-6'>
-            {['All', ...subcategories].map((subcat) => (
-              <Button
+            {subcategories.map((subcat) => (
+              <Link
                 key={subcat}
                 text={subcat}
-                onClick={() =>
-                  handleSubcategoryClick(subcat as SelectableSubcategory)
-                }
+                to={toCategoryLink(category, subcat)}
                 baseCn='flex-center px-8 py-4 max-w-50 clr-black rounded whitespace-nowrap bg-gradient'
-                className={
-                  selectedSubcategory === subcat ? activeSubcategoryStyles : ''
-                }
+                // On active:
+                className='aria-[current="page"]:!bg-[#03a9f41a] aria-[current="page"]:!clr-blue aria-[current="page"]:font-extrabold'
               />
             ))}
           </div>
         </section>
 
         <BlogPostGrid
-          posts={take(activePosts, 5)}
+          posts={take(posts, 5)}
           className='mb-[70px] tablet:mb-[60px] phone:mb-12'
         />
 
         <Banner />
-        <div className='mt-20' />
-        <BlogPostGrid posts={drop(activePosts, 5)} canLoadMore />
-        <div className='mb-20' />
+
+        <BlogPostGrid
+          posts={drop(posts, 5)}
+          canLoadMore
+          className='mt-20 mb-20'
+        />
+
         <Banner variant='promote' />
 
         {/* Background image  */}

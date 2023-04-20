@@ -4,6 +4,7 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Link, Icon } from '@ui'
 import { Pen } from '@icons'
 import { Seo, Banner } from '@components'
+
 interface AuthorsPageProps {
   pageContext: {
     authors: Omit<Author, 'posts'>[]
