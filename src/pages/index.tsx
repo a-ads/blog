@@ -17,10 +17,7 @@ interface IBlogPosts {
 const IndexPage = () => {
   const data: IBlogPosts = useStaticQuery(graphql`
     query FetchBlogPostsByPopularity {
-      allMarkdownRemark(
-        filter: {}
-        sort: { frontmatter: { popularity: DESC } }
-      ) {
+      allMarkdownRemark(filter: {}, sort: { frontmatter: { date: DESC } }) {
         nodes {
           frontmatter {
             category_top_level
