@@ -7,7 +7,7 @@ tags:
 category: Stories
 category_top_level:
   - News & Trends
-author: Yulia Savushkina
+author: Anna Trifonova
 thumbnail: ../../static/assets/full-6-.png
 big_picture: ../../static/assets/short-6-.png
 popularity: "0"
