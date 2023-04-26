@@ -7,7 +7,7 @@ tags:
 category: How to
 category_top_level:
   - News & Trends
-author: Yulia Savushkina
+author: Anna Trifonova
 thumbnail: ../../static/assets/full-55-.png
 big_picture: ../../static/assets/short-30-.png
 popularity: "0"
