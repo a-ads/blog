@@ -9,7 +9,7 @@ category_top_level:
   - News & Trends
 category_second_level:
   - How To
-author: Yulia Savushkina
+author: Anna Trifonova
 thumbnail: ../../static/assets/full-41-.png
 big_picture: ../../static/assets/short-22-.png
 popularity: "0"
