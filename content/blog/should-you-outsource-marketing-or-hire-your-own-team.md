@@ -8,7 +8,7 @@ category: How to
 category_top_level:
   - Guides
 category_second_level: []
-author: Yulia Savushkina
+author: Anna Trifonova
 thumbnail: ../../static/assets/full-51-.png
 big_picture: ../../static/assets/short-28-.png
 popularity: "0"
