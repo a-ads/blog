@@ -8,7 +8,7 @@ category: How to
 category_top_level:
   - Advertisers
   - Guides
-author: Yulia Savushkina
+author: Anna Trifonova
 thumbnail: ../../static/assets/full-19-.png
 big_picture: ../../static/assets/short-14-.png
 popularity: "0"
