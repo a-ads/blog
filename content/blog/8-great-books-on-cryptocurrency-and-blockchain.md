@@ -7,7 +7,7 @@ tags:
 category: How to
 category_top_level:
   - News & Trends
-author: Yulia Savushkina
+author: Danil Persky
 thumbnail: ../../static/assets/full-2-.png
 big_picture: ../../static/assets/short-1-.png
 popularity: "0"
