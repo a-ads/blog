@@ -58,7 +58,7 @@ big_picture: ../../static/assets/short-16-.png
 
 Also, if you did not create a landing page you can use AdsBridge “direct link”, as seen in the image below:
 
-![AdsBridge “direct link"](../../static/assets/adsbridge4-directlink.png "AdsBridge “direct link\\"")
+![AdsBridge “direct link"](../../static/assets/adsbridge4-directlink.png "AdsBridge “direct link\"")
 
 5. Log into your A-ADS account.
 6. Enable Goal tracking for your campaign at A-ADS as seen in the image below, if you don't have a campaign you can create one [here](https://a-ads.com/campaigns/new).
