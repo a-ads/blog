@@ -17,7 +17,7 @@ A-ADS strives to be as secure as possible, so we have enabled the measures to pr
 
 1. Start with visiting the “Withdrawal options” page, which can be found at “Finances >> Withdrawal options”, it should look like the image below:
 
-![](../../static/assets/withdrawal-change-1.png)
+![Change withdrawal address](../../static/assets/withdrawal-change-1.png "Change withdrawal address")
 
 2. Select your “withdrawal type”.
 
@@ -35,20 +35,20 @@ Note: If you don’t have any means of authentication, probably because you used
 
 6. Click “Update withdrawal settings”, then click “OK” in the confirmation message:
 
-![](../../static/assets/withdrawal-change-53.png)
+![Are you sure?](../../static/assets/withdrawal-change-53.png "Are you sure?")
 
 7. You’ll see an event: 
 
-![](../../static/assets/withdrawal-change-2.png)
+![Withdrawal address sucessfully updated](../../static/assets/withdrawal-change-2.png "Withdrawal address sucessfully updated")
 
 8. Check the mailbox connected to your account, you should find an email from A-ADS with contents like this:
 
-![](../../static/assets/withdrawal-change-3.png)
+![withdrawal address change email confirmation](../../static/assets/withdrawal-change-3.png "withdrawal address change email confirmation")
 
 Make sure to check all your folders, including “Spam” if you don’t find our email in your inbox. Alternatively you can search e-mails by A-ADS.
 
 9. Please, click the button, “Click to confirm”. At the destination page, you should see an event like in the image below:
 
-![](../../static/assets/withdrawal-change-4.png)
+![Withdrawal address sucessfully confirmed](../../static/assets/withdrawal-change-4.png "Withdrawal address sucessfully confirmed")
 
 Note: Once your withdrawal option is confirmed, **withdrawals will be suspended for three days, as a regular measure to protect your funds**.
