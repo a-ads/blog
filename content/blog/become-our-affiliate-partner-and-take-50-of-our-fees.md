@@ -18,8 +18,8 @@ You can create an affiliate ad unit here: <https://a-ads.com/ad_units/new>
 
 Actually ad units of "site" and "app" types can work as affiliate ones too. An affiliate link is generated automatically for any ad unit, it can be found in the bottom right corner of an ad unit page. 
 
-![](../../static/assets/screenshot-2-.png)
+![Ad unit referral code](../../static/assets/screenshot-2-.png "Ad unit referral code")
 
 And our affiliate ad displayed on your site works as an affiliate link by default.
 
-![](../../static/assets/screenshot-3-.png)
+![Affiliate ad](../../static/assets/screenshot-3-.png "Affiliate ad")
