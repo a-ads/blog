@@ -18,7 +18,7 @@ Since [FaucetHub](https://faucethub.io/) stops maintaining its services, we've r
 
 If you used FaucetHub, please, set new withdrawal settings. You can enable ExpressCrypto withdrawals in your user or ad unit withdrawal settings. 
 
-![](../../static/assets/screenshot-4-.png)
+![ExpressCrypto withdrawal option](../../static/assets/screenshot-4-.png "ExpressCrypto withdrawal option")
 
 You'll need to sign up at ExpressCrypto and specify your unique ID provided by this service in the corresponding field.
 
