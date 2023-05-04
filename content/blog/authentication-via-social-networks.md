@@ -17,11 +17,11 @@ To improve the experience of our users, we have implemented authentication via s
 
 Now you can [sign in](https://a-ads.com/user/sign_in#!social-networks) or [sign up](https://a-ads.com/user/sign_up#!social-networks) with Twitter, Facebook, and Google.
 
-![](../../static/assets/снимок-экрана-48-1.png)
+![ sign in or sign up with Twitter, Facebook, or Google.](../../static/assets/снимок-экрана-48-1.png " sign in or sign up with Twitter, Facebook, or Google.")
 
 Or you can link your social network accounts to your existing A-ADS account in the User - Settings - Social networks authentication [page](https://a-ads.com/user/social_networks).
 
-![](../../static/assets/снимок-экрана-50-11.png)
+![Link your social network accounts to your existing A-ADS account](../../static/assets/снимок-экрана-50-11.png "Link your social network accounts to your existing A-ADS account")
 
 A-ADS receives the minimum amount of personal data from your social network account and records only your email address. We use it for access recovery, security confirmations, and other relevant notifications. If your social network account has the same email address as your existing A-ADS account, then it will be linked to it automatically.
 
