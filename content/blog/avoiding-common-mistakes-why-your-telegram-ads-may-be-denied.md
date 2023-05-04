@@ -1,7 +1,7 @@
 ---
 date: 2023-04-28T17:56:50.483Z
 title: "Avoiding Common Mistakes: Why Your Telegram Ads May Be Denied"
-slug: Avoiding-Common-Mistakes-Why-Your-Telegram-Ads-May-Be-Denied
+slug: avoiding-common-mistakes-why-your-telegram-ads-may-be-denied
 tags:
   - news
 category: How to
