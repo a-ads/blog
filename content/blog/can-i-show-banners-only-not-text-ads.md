@@ -14,11 +14,11 @@ big_picture: ../../static/assets/undraw_adjustments_p22msq.png
 ---
 Yes, you can. To do that, you need to enable the "show banners only" option. At the campaign web page the checkbox "Show banners only":
 
-![](../../static/assets/banner_only.png)
+![Show banner(s) only](../../static/assets/banner_only.png "Show banner(s) only")
 
 You should add as many banner sizes as possible before doing this. At the time of writing this article the most popular sizes were the following: 
 
-![](../../static/assets/снимок-экрана-101-.png)
+![Baner sizes and stats](../../static/assets/снимок-экрана-101-.png "Baner sizes and stats")
 
 You need at least 728x90, 300x250 and 468x60 sizes as they cover ~68% of traffic.
 
@@ -26,4 +26,4 @@ Mind that if you have a banner and a text ad for one ad unit size, banner will b
 
 After enabling the option, please, check your estimated daily performance at your Budget page: the quantity of traffic will decrease and the campaign might become less efficient. Take care!
 
-![](../../static/assets/снимок-экрана-100-.png)
+![Estimated daily performance for campaign](../../static/assets/снимок-экрана-100-.png "Estimated daily performance for campaign")
