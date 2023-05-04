@@ -14,7 +14,7 @@ big_picture: ../../static/assets/undraw_personal_finance_tqcdквадрат.png
 ---
 To make our advertisers' lives easier, we've recently implemented an interface amendment: now CPM and CPC estimations for an advertising campaign are visible on a "Campaign -> Payment model" page. So you don't need to count them manually each time you start a campaign or adjust it.
 
-![](../../static/assets/dailybudget.png)
+![Expected CPM and CPC](../../static/assets/dailybudget.png "Expected CPM and CPC")
 
 The number becomes red if CPC or CPM is more than $ 5. If the number of expected impressions is less than 1000, CPM is unavailable. If the expected number of clicks is less than two, CPC is unavailable too.
 
