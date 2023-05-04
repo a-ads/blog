@@ -1,5 +1,5 @@
 ---
-date: 2019-06-18T11:01:05.440Z
+date: 2019-06-19T11:01:05.440Z
 title: How to place an ad unit code correctly?
 slug: how-to-place-an-ad-unit-code-correctly
 tags:
