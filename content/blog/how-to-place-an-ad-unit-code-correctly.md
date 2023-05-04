@@ -13,7 +13,7 @@ thumbnail: ../../static/assets/illustration-6.png
 ---
 It only takes seconds to copy-paste a provided ad unit code to your website page. You can find the code in the right-bottom corner of an ad unit’s main page, in the section called "Code for your site".
 
-![](../../static/assets/codefor.png)
+![Code for your site](../../static/assets/codefor.png "Code for your site")
 
 What we consider an ad unit code is an iframe like:
 
@@ -37,6 +37,6 @@ And here are some tips that will help you on the way:
 * If you use the code on different website versions, make sure it’s available for check on desktop layout, otherwise it won’t be found.
 * You can launch the bot manually. Just click on "Check embedded HTML code" and your page will be checked within 10 minutes.
 
-![](../../static/assets/not-found.png)
+![Ad unit not found](../../static/assets/not-found.png "Ad unit not found")
 
 If you’ve checked all possible issues and the problem remains, please contact our support team. We’re always ready to help you.
