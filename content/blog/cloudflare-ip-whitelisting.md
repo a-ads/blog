@@ -37,6 +37,6 @@ Note : If you don’t have any of our bots IP’s, please contact our support.
 
 6. Wait a few minutes, reload the ad unit dashboard, the results should be like below.
 
-![](../../static/assets/cloudflare-whitelisting-5.png)
+![Cloudflare whitelisting successful](../../static/assets/cloudflare-whitelisting-5.png "Cloudflare whitelisting successful")
 
 7. All done.
