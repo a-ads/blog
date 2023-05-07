@@ -50,7 +50,7 @@ As for the fees, DeFi Swap does not have fixed pricing like you will find on cen
 
 Gemini was launched in 2015 and is now considered on the list of the best cryptocurrency platforms for earning interest. It has over 70 cryptocurrencies available in over 60 countries and all U.S. states.
 
-![](../../static/assets/full-32-.png)
+![Gemini](../../static/assets/full-32-.png "Gemini")
 
 Gemini's trading minimum for any coin is the smallest amount of each coin that can be bought. Although Gemini does not advertise its offering as a traditional staking program, its "earn" features pay out interest on specific cryptocurrencies. Rates range as high as 8.05% APY. As for the fees, you'll be charged both convenience and transaction fees which do not depend on Gemini's online site or a mobile app.
 
@@ -74,7 +74,7 @@ The interest rate varies depending on what cryptocurrency you hold in your walle
 
 As for crypto withdrawals, BlockFi offers one crypto withdrawal and one stablecoin withdrawal per month. Next, you need to pay a fee for each withdrawal. 
 
-![](../../static/assets/full-31-.png)
+![BlockFi](../../static/assets/full-31-.png "BlockFi")
 
 To conclude, BlockFi will suit you well if you are a beginner investor looking for a personal or business account and are open to increased regulation in exchange for higher security.
 
