@@ -39,11 +39,11 @@ Click the “Load from template” button
 
 Then, search and click “A-ADS” 
 
-![](../../static/assets/binom1.png)
+![Create new traffic source in Binom](../../static/assets/binom1.png "Create new traffic source in Binom")
 
 Then, click “Save”
 
-![](../../static/assets/binom2.png)
+![New traffic source token settings, Binom](../../static/assets/binom2.png "New traffic source token settings, Binom")
 
 ● You can change or adjust (if necessary) any option in the “New traffic source” form. Once you have done so, click the “Save” button. Note: “{{partner}}” should remain in “Token 1” 
 
@@ -55,13 +55,13 @@ Click the “Create” button
 
 Fill out the form as applies to you 
 
-![](../../static/assets/binom3.png)
+![Create a new offer in Binom](../../static/assets/binom3.png "Create a new offer in Binom")
 
 After that, click “Save” 
 
 If you need more info on “Offers”, please go [here](https://docs.binom.org/manage-offers.php). 
 
-**3. (Optional) Create a Landing page. Learn how to create one** [**here**](https://docs.binom.org/manage-landers.php)**.** 
+**3. (Optional) Create a Landing page. Learn how to create one** **[here](https://docs.binom.org/manage-landers.php).** 
 
 **4. Create a campaign in Binom with your earlier created traffic source and offer.** 
 
@@ -71,13 +71,13 @@ Click the “Create” button
 
 Fill out the form as applies to you with the A-ADS traffic source, and the offer that you created earlier
 
-![](../../static/assets/binom4.png)
+![Creating campaign in Binom with earlier created traffic source and offer](../../static/assets/binom4.png "Creating campaign in Binom with earlier created traffic source and offer")
 
 **5. Log into your A-ADS account.** 
 
-**6. Enable Goal tracking for your campaign at A-ADS as seen in the image below, if you don't have a  campaign you can create one** [**here**](https://a-ads.com/campaigns/new)**.** 
+**6. Enable Goal tracking for your campaign at A-ADS as seen in the image below, if you don't have a  campaign you can create one** **[here](https://a-ads.com/campaigns/new).** 
 
-![](../../static/assets/binom5.png)
+![A-ADS Goal Tracking](../../static/assets/binom5.png "A-ADS Goal Tracking")
 
 **7. Configure your A-ADS campaign.**
 
@@ -96,16 +96,16 @@ For example:
 
 As seen in the image below:
 
-![](../../static/assets/binom6.png)
+![A-ADS Goal Tracking Suffix](../../static/assets/binom6.png "A-ADS Goal Tracking Suffix")
 
 Then save your campaign.
 
 You can check the statistics on campaign performance simply by clicking “Stats”
 
-![](../../static/assets/binom7.png)
+![Campaign performance “Stats” button](../../static/assets/binom7.png "Campaign performance “Stats” button")
 
 Statistics should look something like the image below, based on your settings: 
 
-![](../../static/assets/binom8.png)
+![Binom statistics on campaign performance](../../static/assets/binom8.png "Binom statistics on campaign performance")
 
 All Done!
