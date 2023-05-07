@@ -119,7 +119,7 @@ Forty-two more countries have implicit bans on cryptocurrencies, meaning the gov
 
 But, despite this list, there are still dozens of countries where having a crypto salary is not a big deal.
 
-![](../../static/assets/pasted-image-0.png)
+![Cryptocurrency ban World Map](../../static/assets/pasted-image-0.png "Cryptocurrency ban World Map")
 
 ## Who typically gets paid in crypto? 
 
