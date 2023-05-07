@@ -38,7 +38,7 @@ Let's have a look at some statistics and trends in content marketing strategy: 
 * 79% of companies use content marketing to generate quality leads (Semrush)
 * There are currently over  600 million blogs as of 2021 (Hosting Tribunal)
 
-![](https://lh3.googleusercontent.com/mb04_pHoAb8nbj8EOO2hfaEeql5eS9qT6y2HbygD-rqfx9dstHPXk6tE8LvFzFhwa4X1FKw6qeLIUYQA9nnkPbOkxuC-u3sJcctrFQGkkZPahXbcle226r0dyjFEaKG-vSGPm4rzk-gyo4MlLCT_6FtOFzYzIPEMCKcjEZdid0T3obey_ItH19QVj71pfQ)
+![Content marketing statistics and trends](https://lh3.googleusercontent.com/mb04_pHoAb8nbj8EOO2hfaEeql5eS9qT6y2HbygD-rqfx9dstHPXk6tE8LvFzFhwa4X1FKw6qeLIUYQA9nnkPbOkxuC-u3sJcctrFQGkkZPahXbcle226r0dyjFEaKG-vSGPm4rzk-gyo4MlLCT_6FtOFzYzIPEMCKcjEZdid0T3obey_ItH19QVj71pfQ "Content marketing statistics and trends")
 
 Not every piece of content helps your project to grow. Marketing experts say that authentic content drives a consumer to return for more which develops brand loyalty.
 
