@@ -29,7 +29,7 @@ We've found some nice things for every crypto enthusiast at every price point. W
 
 Hardware wallets such as Ledger or Trezor are the most secure wallets you can buy. Just pick up the one you like.
 
-![](https://lh6.googleusercontent.com/kplxE04PpZKlwgW28mabxOId5-3vVVbSBuLWYooWd0Axmswr45t3j3FvIZOZNM4yY1MvxA-RBBMZr78xDL1CspYDVvhzeFk0CJj6-a2oa9n70x7YM97jYebhEYdCFK8jcjX9dM6HzniC7vrFDlJl1-gHA0ZcX1aRrn9i6z8F-_1MaYI62PNQ26u5SzOi2Q)
+![Crypto Hardware wallets](https://lh6.googleusercontent.com/kplxE04PpZKlwgW28mabxOId5-3vVVbSBuLWYooWd0Axmswr45t3j3FvIZOZNM4yY1MvxA-RBBMZr78xDL1CspYDVvhzeFk0CJj6-a2oa9n70x7YM97jYebhEYdCFK8jcjX9dM6HzniC7vrFDlJl1-gHA0ZcX1aRrn9i6z8F-_1MaYI62PNQ26u5SzOi2Q "Crypto Hardware wallets")
 
 *Source: Amazon.com*
 
@@ -47,7 +47,7 @@ You can check several shops to find the one you like, for example, [LEDGER Shop]
 
 If your friends check cryptocurrency prices throughout the day, they will probably benefit from a dedicated cryptocurrency price ticker. You can find a great [variety](https://www.amazon.com/Bitcoin-Ticker-Crypto-Cryptocurrency-tracker/dp/B09KMRLP52) on many marketplaces, such as Amazon.
 
-![](https://lh6.googleusercontent.com/ZFdyIaf_EyG3NzTZG1s5MqSz5Y1Q0mdyLpYw-wOPyWw1FVEbyicO1LYNqR9rJ-8g9l6ELBgf7_51mPAQUi0dvwzdkqU1h9f4R2TYkUsA6I_qx5Iuwx9RsyU8BzwhRjp__SvIQ9GyDbLUA_lpUfIEu7TdTUvnT4Eydc8B5-GiOqHyP_dmFwPDqa6RPJreDA)
+![Bitcoin price ticker](https://lh6.googleusercontent.com/ZFdyIaf_EyG3NzTZG1s5MqSz5Y1Q0mdyLpYw-wOPyWw1FVEbyicO1LYNqR9rJ-8g9l6ELBgf7_51mPAQUi0dvwzdkqU1h9f4R2TYkUsA6I_qx5Iuwx9RsyU8BzwhRjp__SvIQ9GyDbLUA_lpUfIEu7TdTUvnT4Eydc8B5-GiOqHyP_dmFwPDqa6RPJreDA "Bitcoin price ticker")
 
 *Source: Howchoo.com*
 
@@ -55,7 +55,7 @@ If your friends check cryptocurrency prices throughout the day, they will probab
 
 A great gift to stand out from a crowd. This gift allows you to carry a digital wallet in your physical wallet! These plastic crypto cards are personalized with the user's unique BTC (or other) address. You can scan the QR code on the front of the card to receive payments. Perfect for any cryptocurrency enthusiast. 
 
-![](https://lh3.googleusercontent.com/6nuq0fQ_e3Z_UZJj95rjGIUbsobzzvw0G-qz6DE9ExGtdC9mHbQdCkUPVbKATFet1BkVr3GGbSho1bMkecmTLJ5fwJH4fGSSkXIpdvT832RulQHiLbSu076tnXm6EoSM1uKQTAoyvbj5ptJXOWwVWSyOy2oJaNDXk-Rg4XFBMInVN4vbtHQT846YdnDMmg)​​![](https://lh6.googleusercontent.com/fdtwizGARMRWjKj9qu05Fz8ZoX_ogaVQaGGD0nLqdACnky_Uz3d5_7ReCjJuaNtT8quh5Si7Bhbd7HdG6cJ_viI6zR4zGM1bWWnZug8WE6nS8eIqdLuHfdf13AZ_6f_plDVNKAjh8umsnJJMQ09suz5rVCkHqxyxb1hUp-9PNx5ag-BBxOBisGurs1L5Yw)
+![Personalised crypto card](https://lh6.googleusercontent.com/fdtwizGARMRWjKj9qu05Fz8ZoX_ogaVQaGGD0nLqdACnky_Uz3d5_7ReCjJuaNtT8quh5Si7Bhbd7HdG6cJ_viI6zR4zGM1bWWnZug8WE6nS8eIqdLuHfdf13AZ_6f_plDVNKAjh8umsnJJMQ09suz5rVCkHqxyxb1hUp-9PNx5ag-BBxOBisGurs1L5Yw "Personalised crypto card")
 
 *Source: Etsy.com*
 
