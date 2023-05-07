@@ -62,7 +62,7 @@ Whole Foods, Starbucks, and Home Depot, the largest hardware store chain in the 
 
 Love traveling? The great news is that you can pay for hotels and accommodation with [Expedia](http://viewfinder.expedia.com/features/expedia-embraces-bitcoin) or book a flight with [CheapAir](http://www.cheapair.com/blog/travel-news/book-your-flights-on-cheapair-with-bitcoin-virtual-currency) or BalticAir. [Car dealerships](https://www.cryptocoinsnews.com/buying-cars-bitcoin-lamborghini-jeep-everything) are also trying to keep up, and while paying for fuel directly with bitcoin has yet to happen, Tesla accepted bitcoin as a payment starting in early 2021.
 
-![](../../static/assets/2.png)
+![Consumer trends](../../static/assets/2.png "Consumer trends")
 
 **Donate on charity** 
 
