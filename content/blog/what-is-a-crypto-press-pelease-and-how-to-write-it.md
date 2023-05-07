@@ -72,7 +72,7 @@ The headline is usually the most attention-grabbing aspect of your Crypto PR eff
 
 Avoid superlatives like "absolutely" and "amazing," and keep your headlines as short and straightforward as possible. 
 
-![](../../static/assets/снимок-экрана-2022-11-02-в-16.50.17.png "Source: Cryptonews.com")
+![Polkadex](../../static/assets/снимок-экрана-2022-11-02-в-16.50.17.png "Source: Cryptonews.com")
 
 3. Subheadline 
 
@@ -80,14 +80,14 @@ The subheading supports the headline, and it shouldn't be long. 
 
 For example, The headline is "Find Satoshi Lab, creators of STEPN, launch NFT marketplace, MOOAR." In contrast, the subheadline is "The Find Satoshi Lab ecosystem, featuring STEPN, DOOAR, and MOOAR under its umbrella becomes self-sustaining."
 
-![](../../static/assets/снимок-экрана-2022-11-02-в-16.58.54.png)
+![MOOAR](../../static/assets/снимок-экрана-2022-11-02-в-16.58.54.png "MOOAR")
 
 4. Date and location 
 5. 1st paragraph 
 
 State the facts as concisely as possible. Tell about who you are, what you do, when, where, and why. Let's have a look at the MOOAR press release again: 
 
-![](https://lh3.googleusercontent.com/ELJ7_y30HvltYgEFE1KBMHytvQ7Hh8JJlykDqNXuG3dXFpKGxC0vrIxrE8lgyLmlKS_2LTOnqjfolXPIhJsLSrLymcKaFzIPzpQBOrZmthT7CnBIdRkmTVQklegsNWaiCnbVAuChYSp0dDM4EH-OG5HZ-yNaWYPS0KEWx09Slt2c4RjX3mSxruMeTDdl)
+![MOOAR press release](https://lh3.googleusercontent.com/ELJ7_y30HvltYgEFE1KBMHytvQ7Hh8JJlykDqNXuG3dXFpKGxC0vrIxrE8lgyLmlKS_2LTOnqjfolXPIhJsLSrLymcKaFzIPzpQBOrZmthT7CnBIdRkmTVQklegsNWaiCnbVAuChYSp0dDM4EH-OG5HZ-yNaWYPS0KEWx09Slt2c4RjX3mSxruMeTDdl "MOOAR press release")
 
 *Source: Cointelegraph.com*
 
@@ -95,7 +95,7 @@ State the facts as concisely as possible. Tell about who you are, what you do, w
 
 In the body of your PR, expand on the information provided at the beginning. Add more details, specifics, and technicalities here.
 
-![](https://lh3.googleusercontent.com/5DKbrsRPK7Va60b3FRo-Sxhq1Av6xxfKF62xNxKdiQ7hIdMzvGh-RWjItjM1hCrM61gBuyIbf2Sf4dWaGvEjqDGV-YezfUkRxzdFDB5Ynps6QAmzmC9pbrMEUJuvee4o68oQABGJhsQqWhco2o5v7dBdozx7H_1e13UVosb_4Au0bNHs6RrnxsOxpNCH)
+![MOOAR press release](https://lh3.googleusercontent.com/5DKbrsRPK7Va60b3FRo-Sxhq1Av6xxfKF62xNxKdiQ7hIdMzvGh-RWjItjM1hCrM61gBuyIbf2Sf4dWaGvEjqDGV-YezfUkRxzdFDB5Ynps6QAmzmC9pbrMEUJuvee4o68oQABGJhsQqWhco2o5v7dBdozx7H_1e13UVosb_4Au0bNHs6RrnxsOxpNCH "MOOAR press release")
 
 *Source: Cointelegraph.com*
 
@@ -103,7 +103,7 @@ In the body of your PR, expand on the information provided at the beginning. Add
 
 You can add social proof and some storytelling to make your PR vivid and engaging. 
 
-![](https://lh4.googleusercontent.com/F5Y2CD610GjXIGgsbWaMq6oJ6clOMn0n3M0trs1PHeEAkdOaoU3SIqOKDEGFnpJZAqW5BcgJlFwNGkGf6NxPN4-1EAI6Z2couNkY-FHyoRxaTV4wEY_vXDEXLwCBW-2ffCqfWtlLlsaPYXvBZjiAQQT0HRJALHSsGhHtVETcTTwudECY2jjAM-5yCWZV)
+![MOOAR press release](https://lh4.googleusercontent.com/F5Y2CD610GjXIGgsbWaMq6oJ6clOMn0n3M0trs1PHeEAkdOaoU3SIqOKDEGFnpJZAqW5BcgJlFwNGkGf6NxPN4-1EAI6Z2couNkY-FHyoRxaTV4wEY_vXDEXLwCBW-2ffCqfWtlLlsaPYXvBZjiAQQT0HRJALHSsGhHtVETcTTwudECY2jjAM-5yCWZV "MOOAR press release")
 
 *Source: Cointelegraph.com*
 
@@ -111,7 +111,7 @@ You can add social proof and some storytelling to make your PR vivid and engagin
 
 This part should include some description of your company, its main achievements, and other important information about the organization.
 
-![](https://lh4.googleusercontent.com/8yGsoRynYQS8ZBHqwNukEJkjI0zg7oUoPWiPj9i0b-cFP3lFVqPKIOgRahhQoZKmeeXB1w8psXIqolT34xUok28E2Z33KscQZkif5X55on7CeBuAmH_meSRrHQZjEXK_0GCEE2h4sPEpXeKc2VG355e7V1pwBTJ-McsJ17y8iOURUTPPfPnu9-Y04P3M)
+![MOOAR press release](https://lh4.googleusercontent.com/8yGsoRynYQS8ZBHqwNukEJkjI0zg7oUoPWiPj9i0b-cFP3lFVqPKIOgRahhQoZKmeeXB1w8psXIqolT34xUok28E2Z33KscQZkif5X55on7CeBuAmH_meSRrHQZjEXK_0GCEE2h4sPEpXeKc2VG355e7V1pwBTJ-McsJ17y8iOURUTPPfPnu9-Y04P3M "MOOAR press release")
 
 *Source: Cointelegraph.com*
 
