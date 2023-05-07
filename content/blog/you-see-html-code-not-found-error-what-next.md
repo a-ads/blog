@@ -181,11 +181,11 @@ An ID is also expected to be before the next slash or further params, e.g. “?s
 
 ## Invalid ID
 
-![](../../static/assets/15invalidid.jpg)
+![Invalid ID error](../../static/assets/15invalidid.jpg "Invalid ID error")
 
 This error means you’ve got one ad unit ID in the src attribute and another ID in the data-aa attribute in the iframe tag embedded into your site source code.
 
-![](../../static/assets/снимок-экрана-2019-07-08-в-2.01.58.png)
+![An incorrect code piece with multiple IDs](../../static/assets/снимок-экрана-2019-07-08-в-2.01.58.png "An incorrect code piece with multiple IDs")
 
 ## Size doesn’t match
 
@@ -193,23 +193,23 @@ An ad unit can be adaptive or have a fixed size.
 
 The minimum allowed size for an adaptive ad unit is 120x25 px. If a banner on your site page is less, you’ll get an error message:
 
-![](../../static/assets/размерdontmatch.jpg)
+![Size doesn’t match error](../../static/assets/размерdontmatch.jpg "Size doesn’t match error")
 
 If your ad unit is a fixed size one, the banner on your site page should match ad unit exact size, else you’ll get an error message:
 
-![](../../static/assets/размерdontmatchдва.jpg)
+![Size doesn’t match error](../../static/assets/размерdontmatchдва.jpg "Size doesn’t match error")
 
 To fix the error you should adjust an actual size of a banner with the requirements.The required size for your banner is present in the text of the error message (the second size of the two). The first size in the error message will be an actual size of a banner on your site.
 
 ## Cloudflare denies access
 
-![](../../static/assets/cloudflare_detected.png)
+![Cloudflare denies access error](../../static/assets/cloudflare_detected.png "Cloudflare denies access error")
 
 Cloudflare prevents our bot from accessing your site. To fix this please whitelist our server IPs. You can address support to know the IPs to add.
 
 ## Unknown error
 
-![](../../static/assets/unknonerror.jpg)
+![Unknown error](../../static/assets/unknonerror.jpg "Unknown error")
 
 An unexpected error occurred and we cannot identify its origin. It might disappear on its own or it might remain, then you should contact our helpdesk.
 
@@ -217,6 +217,6 @@ An unexpected error occurred and we cannot identify its origin. It might disappe
 
 If the issue is likely to be on your side, we encourage you to find the solution before you address the support. You can run our bot after you've fixed the issue to see if the error disappeared.
 
-![](../../static/assets/checkcode.png)
+![Check embedded HTML code button](../../static/assets/checkcode.png "Check embedded HTML code button")
 
 If an ad unit code is placed on your site in accordance with the specified requirements, and our bot still cannot find it, please, contact our support team and we will eagerly help you.
