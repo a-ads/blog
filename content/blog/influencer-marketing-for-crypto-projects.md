@@ -60,7 +60,7 @@ Trust is not cheap, which means crypto influencer marketing is generally more ex
 
 #### Crypto Influencer marketing statistics
 
-![](https://lh6.googleusercontent.com/6rRR7sT_Q6lGs3fcR9aJdBc0ViKqzqbwPApKug9EUCklH1ipmJYuoc8LuTVVxG2fh4eIrJotX65QEaabdo5uPmhCO7KATQWhLQVFgF1Jyjmdp4WmkZGHJgrzEvqoZZrtWQP4HMm6qXCIDnezXhP5MVeTf2s1aHhD0SDD3DVsCpd7jWE8XDXh8TKN7JDPew)
+![Influencer marketing platforms of choice](https://lh6.googleusercontent.com/6rRR7sT_Q6lGs3fcR9aJdBc0ViKqzqbwPApKug9EUCklH1ipmJYuoc8LuTVVxG2fh4eIrJotX65QEaabdo5uPmhCO7KATQWhLQVFgF1Jyjmdp4WmkZGHJgrzEvqoZZrtWQP4HMm6qXCIDnezXhP5MVeTf2s1aHhD0SDD3DVsCpd7jWE8XDXh8TKN7JDPew "Influencer marketing platforms of choice")
 
 Source: Linqia 
 
