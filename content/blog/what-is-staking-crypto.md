@@ -92,7 +92,7 @@ Again, one crucial thing I want to tell you is that staking is risky. It may not
 
 The value of your staked crypto may change. Cryptocurrencies are often highly volatile; your assets could drop in value with little warning, making it a much less profitable endeavour. Plus, if your staked assets suffer a significant price drop, that could outweigh any interest you earn on them.
 
-![](../../static/assets/760.png)
+![Staking crypto](../../static/assets/760.png "Staking crypto")
 
 Some proof-of-stake cryptocurrencies have lock-up periods, which means you can use your crypto within a specific time. And if you need money asap, you can't get it.
 
