@@ -32,19 +32,19 @@ Let's have a look at some statistics:
 * The most effective strategies are subscriber segmentation (78%), message personalization (72%), and email automation campaigns (71%). ([HubSpot Blog Research](https://blog.hubspot.com/marketing/hubspot-blog-marketing-industry-trends-report?_ga=2.154607483.2116605659.1655405116-782004359.1655405116), 2021)
 * The most effective email subject lines include promotional offers personalized to customers' interests. ([HubSpot Blog Research](https://blog.hubspot.com/marketing/hubspot-blog-marketing-industry-trends-report?_ga=2.134746674.2116605659.1655405116-782004359.1655405116), 2021)
 
-![](https://lh3.googleusercontent.com/deyNXIykArYtR-uvKPsEdty49G9w6f7R74tUGazbNS3c-sorm1qCmtBM6qoS53q2yFaqALDax5rzHR1jMkZqH8r_N39QEzVolbpba44162Fn_5tLS2j-YS2QjqsgKymDpm1CsB30yakdlXdHSSOB2vov5-f40RZDQbl390Uvj86Ntann-aa6FNIyJ7B5dw)
+![Email marketing revenue worldwide from 2020 to 2027](https://lh3.googleusercontent.com/deyNXIykArYtR-uvKPsEdty49G9w6f7R74tUGazbNS3c-sorm1qCmtBM6qoS53q2yFaqALDax5rzHR1jMkZqH8r_N39QEzVolbpba44162Fn_5tLS2j-YS2QjqsgKymDpm1CsB30yakdlXdHSSOB2vov5-f40RZDQbl390Uvj86Ntann-aa6FNIyJ7B5dw "Email marketing revenue worldwide from 2020 to 2027")
 
 **What devices do users use to read emails?** 
 
 Statistics show that 46% of smartphone users prefer to receive communications from businesses via email. ([Statista](https://www.statista.com/statistics/1263298/business-messaging-channels-preferred-by-smartphone-users-worldwide/), 2021)
 
-![email marketing statistics: email views by device type](https://lh4.googleusercontent.com/7zVlZRLJ7UIcrEPNBk02i6HhiR5RsEUvLOCJIFZUOH98t1V1pUFmAHL4F2Dy02jEVHNa4iUW0PJpIBIshPXbTl_RIKsUnEfvoo45h7s_Cm-iViNpC7PTsckHzFMxU6JH5K0oSLL2iOOxdCm62QoLxH2_ctHBG_urNyeaGN9NzOyb1GEGKdbl46c8RZdKKQ)
+![email marketing statistics: email views by device type](https://lh4.googleusercontent.com/7zVlZRLJ7UIcrEPNBk02i6HhiR5RsEUvLOCJIFZUOH98t1V1pUFmAHL4F2Dy02jEVHNa4iUW0PJpIBIshPXbTl_RIKsUnEfvoo45h7s_Cm-iViNpC7PTsckHzFMxU6JH5K0oSLL2iOOxdCm62QoLxH2_ctHBG_urNyeaGN9NzOyb1GEGKdbl46c8RZdKKQ "email marketing statistics: email views by device type")
 
 **How often do users open the emails?**
 
 99% of email users check their inbox daily, with some checking 20 times daily. 58% of consumers check their email first thing in the morning ([OptinMonster](https://optinmonster.com/is-email-marketing-dead-heres-what-the-statistics-show/), 2020), while 84.3% of consumers say they check their emails at least once a day. ([Pathwire](https://www.pathwire.com/research/email-engagement-2021), 2021)
 
-![email marketing stats: how often consumers check email](https://lh6.googleusercontent.com/61etYLA0Oh3TLowt-dJpe2G9vi5bTxZ_eO8gOw6gHWu1NOq-Y-JugkRzdIBKD9UAbyJ2kfipOiznS4O5UlN9oAM1HFDjbEXLTK4A6cJdBd8WiqBopnsMvr6BNgQl6Ck2BDPAQLbb45E7881MEQCQ22JM_urqLtDLs1KlXbHZVaWUwUZGQ6Nzgx2AX_IqeA)
+![email marketing stats: how often consumers check email](https://lh6.googleusercontent.com/61etYLA0Oh3TLowt-dJpe2G9vi5bTxZ_eO8gOw6gHWu1NOq-Y-JugkRzdIBKD9UAbyJ2kfipOiznS4O5UlN9oAM1HFDjbEXLTK4A6cJdBd8WiqBopnsMvr6BNgQl6Ck2BDPAQLbb45E7881MEQCQ22JM_urqLtDLs1KlXbHZVaWUwUZGQ6Nzgx2AX_IqeA "email marketing stats: how often consumers check email")
 
 **What are the benefits of email marketing for crypto projects?** 
 
@@ -88,7 +88,7 @@ May crypto or blockchain projects require a certain amount of background knowled
 
 Building a solid community around your project is the key to success, but you must ensure you engage the right audience. The wrong type of followers attaching themselves to your brand could harm getting good prospective users. Blockchain and crypto projects that communicate well can combine fun info and images, interesting announcements, links to educational blogs and videos, and other professional updates—these help build a community.
 
-![](../../static/assets/full-56-.png)
+![Successful Email marketing for crypto projects](../../static/assets/full-56-.png "Successful Email marketing for crypto projects")
 
 * Spam filter dangers
 
@@ -152,7 +152,7 @@ The user may discover a feature that will make them stick to the platform or upg
 
 Newsletters are a perfect way to inform an audience. You can use newsletters to educate and entertain users. By choosing topics the readers want to know more about, a crypto company can have an audience looking forward to their newsletters.
 
-![](../../static/assets/full-57-.png)
+![Successful Email marketing for crypto projects](../../static/assets/full-57-.png "Successful Email marketing for crypto projects")
 
 If you link the blog or website in the newsletters, it will help you to increase your web traffic. 
 
