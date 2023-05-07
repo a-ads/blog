@@ -24,7 +24,7 @@ In this article, we'll look at some of these three companies' latest AI-powered 
 
 Miro has been testing its [AI beta model](https://help.miro.com/hc/en-us/articles/10180187913746-Introducing-Miro-AI) for customers that can help to generate content on their Miro boards. New features can be handy for content creators, designers, and marketing specialists. 
 
-![](https://lh3.googleusercontent.com/J5sEpUfKTOhRXRMTAIdtPEB4fct4GPch08rYh9agrR6kCeYPrxEssOzbTzu9p4dSZcxXKyViuv5pdUW5YKO_TNXwMcREvasUdzDrFvG0eB1qfTuEoJfGfL_HQ_uhCzKrPdM-1M3Ar6iyPFs9QtwCa4I)
+![Miro AI big ideas planning board](https://lh3.googleusercontent.com/J5sEpUfKTOhRXRMTAIdtPEB4fct4GPch08rYh9agrR6kCeYPrxEssOzbTzu9p4dSZcxXKyViuv5pdUW5YKO_TNXwMcREvasUdzDrFvG0eB1qfTuEoJfGfL_HQ_uhCzKrPdM-1M3Ar6iyPFs9QtwCa4I "Miro AI big ideas planning board")
 
 *Source: Miro.com*
 
