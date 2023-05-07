@@ -25,7 +25,7 @@ The screenshots show that the crypto wallet is "embedded in Edge, making it easy
 
 It's not the first time the IT giant has shown interest in cryptocurrency and not the first web browser to include a crypto wallet. As adoption grows, several other major web browsers, such as Opera or Firefox, have recently added support for built-in crypto wallets. 
 
-![](https://lh6.googleusercontent.com/IFh_hC0z74yfhJ3XDG0Sr7kSAObDuFjTcGxPjDCx6WxV89K4lPAsz52E_BvaGdMmcvDsgGs_HeaA9yJ2tYzjeZWh-lXbJZZDSZUVfNc5-I-KBQ7GChc5c6DSsYalqF-H9HO3fRoSA8Y8sACNn034aOs "Secret Crypto Wallet Found in Microsoft Edge Browser")
+![Secret Crypto Wallet Found in Microsoft Edge Browser](https://lh6.googleusercontent.com/IFh_hC0z74yfhJ3XDG0Sr7kSAObDuFjTcGxPjDCx6WxV89K4lPAsz52E_BvaGdMmcvDsgGs_HeaA9yJ2tYzjeZWh-lXbJZZDSZUVfNc5-I-KBQ7GChc5c6DSsYalqF-H9HO3fRoSA8Y8sACNn034aOs "Secret Crypto Wallet Found in Microsoft Edge Browser")
 
 ## Coinbase Crypto Exchange Considers Overseas Trading Platform Amid U.S.
 
@@ -39,6 +39,6 @@ Sam Altman, CEO of OpenAI, the company that created ChatGPT, recently said that 
 
 "It is going to eliminate a lot of current jobs, that's true. We can make much better ones. The reason to develop AI at all, in terms of impact on our lives and improving our lives and upside, this will be the greatest technology humanity has yet developed," said OpenAI CEO.
 
-![](https://lh5.googleusercontent.com/CmSmNkrzZ6wnYNrC8esCsYLBhEYFQaXYf7tEKFiTC2ZVdlhFLW_er6tvZAd9QdcOPyMYWUOBknjJimVNCfwOPB-C2MOJcVRl-i6FuEWlw4U457YpI1tuplx0eERfoiTP_3YUBYsP2skskQrovYx52R4)
+![Lazy student asking ChatGPT to write an essay](https://lh5.googleusercontent.com/CmSmNkrzZ6wnYNrC8esCsYLBhEYFQaXYf7tEKFiTC2ZVdlhFLW_er6tvZAd9QdcOPyMYWUOBknjJimVNCfwOPB-C2MOJcVRl-i6FuEWlw4U457YpI1tuplx0eERfoiTP_3YUBYsP2skskQrovYx52R4 "Lazy student asking ChatGPT to write an essay")
 
 In addition to the danger of [losing many workplaces](https://interestingengineering.com/innovation/chatgpt-4-will-kill-jobs), Sam Altman mentioned that the education system needs to be changed as AI encourages laziness and cheating among students. "But it's happened many other times with technology. When we got the calculator, the way we taught maths and what we tested students on totally changed". Moreover, the report says that Altman and his team want users to think of ChatGPT as a "co-pilot" in any field, someone who can help you write complex computer code or solve problems.
