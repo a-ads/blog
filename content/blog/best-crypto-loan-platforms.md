@@ -74,7 +74,7 @@ Remember about the risks! 
 
 However, crypto lending platforms also carry risks. Cryptocurrency is volatile and can fluctuate quickly, impacting the borrower's ability to repay the loan. Additionally, there is a risk of hacking or security breaches on the platform, which can lead to loss of funds.
 
-![](../../static/assets/full-6-.png)
+![Choosing a Cryptocurrency Lending Platform](../../static/assets/full-6-.png "Choosing a Cryptocurrency Lending Platform")
 
 ## How to Choose a Cryptocurrency Lending Platform
 
