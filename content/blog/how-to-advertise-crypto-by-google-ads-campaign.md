@@ -27,7 +27,7 @@ This article will check the Google Ads restrictions, find what bitcoin ads can b
 
 Unfortunately, not all cryptocurrencies can be advertised with Google Ads. Google has pretty strict regulations trying to avoid scams and frauds.
 
-![](../../static/assets/1-2-.png)
+![Due to the complex and evolving nature of regulations related to cryptocurrencies and related products and services, we only allow them to be advertised in limited circumstances](../../static/assets/1-2-.png "Google says")
 
 If you want to advertise your crypto project with Google, according to its policy, only the following is allowed now:
 
@@ -63,11 +63,11 @@ As for the cryptocurrency exchanges, they must be correctly registered with eith
 
 To run a crypto campaign with Google or YouTube in a specific region, you must check the licensing requirements in those countries or areas where certification is currently available. 
 
-![](../../static/assets/2-2-.png)
+![To be certified, advertisers from these countries have to meet local licensing requirements and also be certified with Google](../../static/assets/2-2-.png "Asia and Pacific")
 
-![](../../static/assets/3-2-.png)
+![Google allows ad promoting in the following countries as long as a relevant national competent authority licenses the provider of these products. Other local legal requirements must also be met, including leverage caps and risk warnings](../../static/assets/3-2-.png "Europe, Africa, and Middle East")
 
-![](../../static/assets/4.png)
+![Advertisers from these countries can be certified but have to meet local licensing requirements and also be certified with Google](../../static/assets/4.png "North and South America")
 
 As for the cryptocurrency exchanges, they must be correctly registered with either:
 
