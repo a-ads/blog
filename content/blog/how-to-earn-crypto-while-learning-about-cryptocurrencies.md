@@ -41,7 +41,7 @@ For instance, the popular game [Axie Infinity](https://axieinfinity.com) enables
 
 Other games like [The Sandbox](https://www.sandbox.game/en/) and [My Neighbor Alice](https://www.myneighboralice.com) offer their unique tokens, SAND, and ALICE, respectively, as rewards for players. Some games even allow players to earn NFTs (Non-Fungible Tokens) that can be sold for cryptocurrencies.
 
-![](https://lh6.googleusercontent.com/WOrfG2C7NryqHMrAPuCFXIpTNMEKeWnY28JAGZwRo9cW9ymIWvfBbsWFnXGTEOco-dHQn4Z2ZhVI4VE1iWvlqXL5cBIhbdel2ETijQnbdPpPGqh7MOVU3MLHQnTDSohY2Syx743scJ2rqjvSHjbKPNA)
+![ALICE Token](https://lh6.googleusercontent.com/WOrfG2C7NryqHMrAPuCFXIpTNMEKeWnY28JAGZwRo9cW9ymIWvfBbsWFnXGTEOco-dHQn4Z2ZhVI4VE1iWvlqXL5cBIhbdel2ETijQnbdPpPGqh7MOVU3MLHQnTDSohY2Syx743scJ2rqjvSHjbKPNA "ALICE Token")
 
 *Source: Myneighbouralice.com*
 
@@ -63,7 +63,7 @@ Learning about cryptocurrencies while earning rewards has never been easier with
 * [Nodle Cash](https://play.google.com/store/apps/details?id=io.nodle.cash)
 * [FreeAirdrop](https://play.google.com/store/apps/details?id=app.freeairdrop.io)
 
-![](https://lh6.googleusercontent.com/vDCgERy3HwesymMsEyUTzRlM47e3uFsXikrsP76klyuXgSkTK_9NWpflRjpnq3XST_iCz32kqfyfUzwWGMlER3rdvzloO0VVkah6mFLV7MF4dE3lGwVbzPiOmdBmQ01jQNTu03a7be9d6ifPIU7Kbo0)
+![Learn and Earn Crypto Programs, Learn from industry pros](https://lh6.googleusercontent.com/vDCgERy3HwesymMsEyUTzRlM47e3uFsXikrsP76klyuXgSkTK_9NWpflRjpnq3XST_iCz32kqfyfUzwWGMlER3rdvzloO0VVkah6mFLV7MF4dE3lGwVbzPiOmdBmQ01jQNTu03a7be9d6ifPIU7Kbo0 "Learn and Earn Crypto Programs, Learn from industry pros")
 
 *Source: [continuum.xyz](https://continuum.xyz/)*
 
