@@ -38,11 +38,11 @@ For example: `https://yourdomain.com/wp-admin/plugin-install.php`
 
 **Step Two:** Search for our plugin by inserting our domain name in the placeholder, as seen in the image below.
 
-![](../../static/assets/worpress-plugin-1.png)
+![A-ADS plugin on WordPress plugin store](../../static/assets/worpress-plugin-1.png "A-ADS plugin on WordPress plugin store")
 
 **Step Three:** Click the “Install Now” button, when it’s done installing, click “activate”. The result should be as shown in the image below.
 
-![](../../static/assets/worpress-plugin-2.png)
+![WordPress activate A-ADS plugin](../../static/assets/worpress-plugin-2.png "WordPress activate A-ADS plugin")
 
 ## Configuration
 
@@ -50,15 +50,15 @@ For example: `https://yourdomain.com/wp-admin/plugin-install.php`
 
 For example: `https://yourdomain.com/wp-admin/widgets.php`
 
-![](../../static/assets/worpress-plugin-3.png)
+![A-ADS Wordpress widget activation](../../static/assets/worpress-plugin-3.png "A-ADS Wordpress widget activation")
 
 **Step Five**: Select a placeholder, as seen in the image below.
 
-![](../../static/assets/worpress-plugin-4.png)
+![A-ADS Wordpress widget placement settings](../../static/assets/worpress-plugin-4.png "A-ADS Wordpress widget placement settings")
 
 **Step Six**: Configure your ad widget with ad unit ID and size, as seen in the image below.
 
-![](../../static/assets/worpress-plugin-5.png)
+![A-ADS Wordpress widget settings](../../static/assets/worpress-plugin-5.png "A-ADS Wordpress widget settings")
 
 ## Demo
 
@@ -66,7 +66,7 @@ For example: `https://yourdomain.com/wp-admin/widgets.php`
 
 See the image below.
 
-![](../../static/assets/worpress-plugin-6.jpg)
+![A-ADS Wordpress widget demo](../../static/assets/worpress-plugin-6.jpg "A-ADS Wordpress widget demo")
 
 ## Possible errors and solutions
 
