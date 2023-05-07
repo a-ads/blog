@@ -55,7 +55,7 @@ Outsourcing may sound like a great idea, but there are several reasons you'd bet
 
 When choosing, you should weigh all costs against the return on investment (ROI). Regardless of your choice, measuring the ROI gives you an idea of what your teams, whether outsourced or in-house, can achieve and if you need more help. 
 
-![](../../static/assets/full-52-.png)
+![Outsourcing](../../static/assets/full-52-.png "Outsourcing")
 
 Generally, outsourcing your digital marketing or a hybrid approach are cost-effective ways to achieve growth, save time, and enhance return on marketing investment.  
 
@@ -95,7 +95,7 @@ This strategy works well for companies that do not need to perform complicated m
 
 Usually, this approach is used by firms that try to handle most of their marketing inside the firm even if they aren't experts at them. These firms outsource only when they don't have the skills to carry out a particular task (such as designing and coding a website).
 
-![](../../static/assets/full-53-.png)
+![Some functions are outsourced](../../static/assets/full-53-.png "Some functions are outsourced")
 
 **Strategy C. Outsource specialized functions**
 
