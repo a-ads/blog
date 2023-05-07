@@ -84,7 +84,7 @@ Now, let's check what steps to take to create a hot wallet: 
 
 Paper wallets are just printed pieces of paper on which a seed phrase, a private key, and a QR code are written, in which the private key is sewn.
 
-![](https://lh5.googleusercontent.com/Nt0DIqP9H9D-lUpLm2h6_lSOtiAmMbyV6EYHuSiHPTOJYd76fDVWJ4oPyP-uwEBzG0tucJiSL17VsNNDRSpeYPS2KXD11Tf8im8sxoX1UR7Dz4lqgpe9sJKAOT9NxDV7zyGg3FYINMXHc3e8JjGeg31gc8-Xrsb8MBpeGzQr7Ig9aVjysbbjYrIrwP4JhQ)![](https://lh4.googleusercontent.com/ba3nKjVQLuIzrNkjt9m-s_gxle_YccDt4g9V14Fc8qD-Tq8VkFwKEaWA0PKeo6v78NzRtnNGFL1BTk-MBoaB-9ROe5IsF3WpIx3nqdYbLptvZ4EGNxDEU3jDK3Ad9X3FtpQP7k49m7zJEuE97E3CfL1XjHxFiO-LWsf4LwcF-iWrdPIPOaTvrU-247J_hg)
+![Paper crypto wallet](https://lh4.googleusercontent.com/ba3nKjVQLuIzrNkjt9m-s_gxle_YccDt4g9V14Fc8qD-Tq8VkFwKEaWA0PKeo6v78NzRtnNGFL1BTk-MBoaB-9ROe5IsF3WpIx3nqdYbLptvZ4EGNxDEU3jDK3Ad9X3FtpQP7k49m7zJEuE97E3CfL1XjHxFiO-LWsf4LwcF-iWrdPIPOaTvrU-247J_hg "Paper crypto wallet")
 
 Source: Bitzuma.com
 
@@ -135,7 +135,7 @@ You can also purchase cryptocurrency on the exchange using a bank card. Then the
 
 ## How to buy cryptocurrency through ATM
 
-![](https://lh5.googleusercontent.com/vYotjqQg1HA_BginfpSiRLChgwr6qPmO_yO9Gnqf5bQ9uhpnHLpSecxrZq9ZVbfaOpYKRMBmU4ce6dKX8BiNHCrubUb5pMszzYzzRohsl55wt8pko0FRDNLdAWi6_6yqZHVVf0XZgYEAh6KkERPc8D55TuafIwOXwNJwcDj0kAdqyh5rNN86juta1j-4Lw)
+![Woman using Bitcoin ATM](https://lh5.googleusercontent.com/vYotjqQg1HA_BginfpSiRLChgwr6qPmO_yO9Gnqf5bQ9uhpnHLpSecxrZq9ZVbfaOpYKRMBmU4ce6dKX8BiNHCrubUb5pMszzYzzRohsl55wt8pko0FRDNLdAWi6_6yqZHVVf0XZgYEAh6KkERPc8D55TuafIwOXwNJwcDj0kAdqyh5rNN86juta1j-4Lw "Woman using Bitcoin ATM")
 
 This method is suitable for those who do not want to understand the processes of registration, identity verification, and buying cryptocurrency online. Cryptocurrency ATMs work the same way as conventional ATMs: you must go to the device and deposit cash or insert a bank card. Crypto ATMs vary in the type of currency they support. For example, there are ATMs for Ether, Litecoin, Bitcoin Cash, and, most commonly, Bitcoin.
 
