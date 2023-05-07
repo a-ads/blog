@@ -78,7 +78,7 @@ Investing in funds is extremely popular on the stock market among investors. Fun
 
 One more way is to choose a company already connected to the crypto world and invest in it. Such companies may use or own cryptocurrencies and blockchain technologies that help to run businesses. So you can buy shares of Nvidia (NVDA), PayPal, or Square (SQ) via a broker, as these companies are public. 
 
-![](../../static/assets/full-46-.png)
+![Investing in cryptocurrency](../../static/assets/full-46-.png "Investing in cryptocurrency")
 
 If those two options are not for you, let's see what steps to take if you want to invest directly in cryptocurrency. 
 
@@ -124,7 +124,7 @@ Which one to choose is entirely up to your preferences and needs. Now, let's see
 
 Cryptocurrency gives investors many potentially cool things, such as diversification, return potential, and utility. With the help of buying crypto, investors can diversify portfolios as a way to spread risk. Some crypto projects offer a return that no bank can ever provide. And that's what appeals to investors so much. Finally, it's an investment that you can use. Investors can use crypto to pay for goods and services. 
 
-![](../../static/assets/full-44-.png)
+![Investing in cryptocurrency](../../static/assets/full-44-.png "Investing in cryptocurrency")
 
 But the pitfalls are also huge as cryptocurrency comes with a risk. It is highly volatile and often not regulated at all. There are heaps of stories about fraud and hacking. So, be aware. 
 
