@@ -86,7 +86,7 @@ They're often responsible for defining a product's vision and aligning stakehold
 
 Typical duties for a product manager in the crypto field include creating, following, and updating product roadmaps and brainstorming with stakeholders. In addition, a product manager writes feature descriptions for design and technical teams, prioritizes product features and capabilities, and creates a shared brain across larger groups to empower independent decision-making.
 
-![](../../static/assets/full-49-.png)
+![Careers in cryptocurrency (How to Get a Job in Crypto)](../../static/assets/full-49-.png "Careers in cryptocurrency (How to Get a Job in Crypto)")
 
 ### 7. Machine learning engineer 
 
