@@ -34,7 +34,7 @@ A crypto wallet is just a way to store a private key to access your cryptocurren
 
 A simple analogy to illustrate it is a plastic bank card that has no real money inside. It only opens access to a bank account.
 
-![](https://lh6.googleusercontent.com/9-7fQnk5fXBJKR-EaO22x53FMgggJWVyIXqoQpN00aBrBTBYv2l-bARRLi8BU9ZoQRR8NE5_jInSLQ5LMGatM49Upbtt7p78h_rzCCNTsCv7am0iTUOAB0m8se_CMX5kqIGIXqHq1zluIgOA3cV9qwpaEa4ONq61vX-e45fSvWxTdv9-Z28aoW_yYzEKiA)![](https://lh5.googleusercontent.com/Io8z7VzBG8jPHOaIctnKZ3t0pA1x-mBmvrMhMvOCWN4cZJUr5v5DNISatiGUxg0-7ZOQi3ZGfGTmHPluKLlJ9l3JcsMrw2l6L4ccmc0q-UyFhfA1vje8g9Kbu5agxJ9WTgx19wUGMAw1THFv2HTkD0ll6vHs5Srbn4DGB5FpyfvIQhnNkzGDlLMSpv95Hg)
+![](https://lh6.googleusercontent.com/9-7fQnk5fXBJKR-EaO22x53FMgggJWVyIXqoQpN00aBrBTBYv2l-bARRLi8BU9ZoQRR8NE5_jInSLQ5LMGatM49Upbtt7p78h_rzCCNTsCv7am0iTUOAB0m8se_CMX5kqIGIXqHq1zluIgOA3cV9qwpaEa4ONq61vX-e45fSvWxTdv9-Z28aoW_yYzEKiA)![](https://lh5.googleusercontent.com/Io8z7VzBG8jPHOaIctnKZ3t0pA1x-mBmvrMhMvOCWN4cZJUr5v5DNISatiGUxg0-7ZOQi3ZGfGTmHPluKLlJ9l3JcsMrw2l6L4ccmc0q-UyFhfA1vje8g9Kbu5agxJ9WTgx19wUGMAw1THFv2HTkD0ll6vHs5Srbn4DGB5FpyfvIQhnNkzGDlLMSpv95Hg "Trezor Hardware wallet")
 
 Source: Businessinsider
 
