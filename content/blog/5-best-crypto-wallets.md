@@ -44,7 +44,7 @@ Typically, all crypto wallets are divided into cold wallets and hot ones. This a
 
 * Hosted wallets or custodial wallets
 
-![](https://lh3.googleusercontent.com/Zfh3JgwBAo6ncwZ-7_bGcWMxSZeQYrhK959HwDgMQiTzJaRKHhfURyNvR07fbgxwCu54KNYQKN9t9luV6mvclKllB6k7axGER95Av3pgf_UNSrYuKdfIOrOrk9Kex8tfsrSgXp2Pr11H3-yvRIorzrTr7pwMl5NafPHS6MjLE8FM89JnJnTUY9DZWy9_mQ)
+![Binance crypto wallet](https://lh3.googleusercontent.com/Zfh3JgwBAo6ncwZ-7_bGcWMxSZeQYrhK959HwDgMQiTzJaRKHhfURyNvR07fbgxwCu54KNYQKN9t9luV6mvclKllB6k7axGER95Av3pgf_UNSrYuKdfIOrOrk9Kex8tfsrSgXp2Pr11H3-yvRIorzrTr7pwMl5NafPHS6MjLE8FM89JnJnTUY9DZWy9_mQ "Binance crypto wallet")
 
 *Source: Binance.com*
 
@@ -86,7 +86,7 @@ To set up a self-custody wallet, you need to do the following steps: 
 
 Cold wallets are paper wallets and hardware wallets. The last ones are considered the safest, providing better security, yet they are more complicated and expensive. 
 
-![](https://lh5.googleusercontent.com/5MCI-LwHTALmop_nEUf-H95qkeHh9_68rvaC7WfvVAj_9Rw1UOuFrFPQimFrqpYNHuSNh64I7FdXxyzfOyNad-pfydThUCUa3vYFAS4FXYh9Ux1t3CsaBrQbFj68t15iRAKpGVHxBGuYEzcHl3umDeBzOnUBs1ylVtsSeKlNgegG1FValyGtH4MKr3Ywyw)
+![Crypto Hardware wallets](https://lh5.googleusercontent.com/5MCI-LwHTALmop_nEUf-H95qkeHh9_68rvaC7WfvVAj_9Rw1UOuFrFPQimFrqpYNHuSNh64I7FdXxyzfOyNad-pfydThUCUa3vYFAS4FXYh9Ux1t3CsaBrQbFj68t15iRAKpGVHxBGuYEzcHl3umDeBzOnUBs1ylVtsSeKlNgegG1FValyGtH4MKr3Ywyw "Crypto Hardware wallets")
 
 *Source: [Nataly Gejdos](https://www.shutterstock.com/ru/g/Nataly+Gejdos "{rel='nofollow'}")*
 
@@ -98,7 +98,7 @@ How to set up a hardware wallet:
 2. Install the software.
 3. Transfer crypto to your wallet.
 
-![](https://lh3.googleusercontent.com/VEmNTObNq5cZSMjv2B5tjk8kYrKB_9Ig9su-vD-8XG1c_D9pGujbcODC5rGB6_Pbz97sdMjTddO980cE1G6gagcZrCEUOzsFfBtJ8lzTjFXcxCywqtac227hyOUEFMGncH0dwZLSjYSTrrA2QJIDWRuLkQtBl1HnG7wQm141jwfuzqjdxPLslzf2_0sR)
+![Crypto paper wallets](https://lh3.googleusercontent.com/VEmNTObNq5cZSMjv2B5tjk8kYrKB_9Ig9su-vD-8XG1c_D9pGujbcODC5rGB6_Pbz97sdMjTddO980cE1G6gagcZrCEUOzsFfBtJ8lzTjFXcxCywqtac227hyOUEFMGncH0dwZLSjYSTrrA2QJIDWRuLkQtBl1HnG7wQm141jwfuzqjdxPLslzf2_0sR "Crypto paper wallets")
 
 Paper wallets. Source: Bitcoin Wiki
 
@@ -158,7 +158,7 @@ Disadvantages 
 * Not user-friendly for newbies 
 * No customer support via chat, email, and phone
 
-![](https://lh4.googleusercontent.com/f4rRvCXqyr3neF6KXZh8P7uPxTvOERkoDCll1IiY-zvZ3TGc2oBzAht_XscqNtqSxFWvQPFbDMd78Z1jCxG9CE6Fo0gY39UN81pSGcK9v8XCZlBEekYniSpIj7tn_Nlyx1b6QyFqg73LHBwiNDiXPezXf6RKI7tU2qto2HDg4kAooE1Bu666UL2eNp1Izg)
+![Electrum Crypto Wallet](https://lh4.googleusercontent.com/f4rRvCXqyr3neF6KXZh8P7uPxTvOERkoDCll1IiY-zvZ3TGc2oBzAht_XscqNtqSxFWvQPFbDMd78Z1jCxG9CE6Fo0gY39UN81pSGcK9v8XCZlBEekYniSpIj7tn_Nlyx1b6QyFqg73LHBwiNDiXPezXf6RKI7tU2qto2HDg4kAooE1Bu666UL2eNp1Izg "Electrum Crypto Wallet")
 
 *Source: Electrum.org*
 
@@ -213,7 +213,7 @@ Disadvantages 
 * Guarda Wallet is a light wallet, which means users are not running full nodes with this software
 * No support for TREZOR or KeepKey hardware wallets
 
-![](https://lh6.googleusercontent.com/VRNRk2XP0E86LFaWO8beqPrkfstiel3haFAdt3Uc98jMToWeZklJltwcifgYYzAoXTmnotOSfmcChSMH1XiyUy3JlGmyGwIg0CrE9dPJ1YK0M3jltW5Jqji4R501_ZYVKAvXDoLZgqNHtIEN-linTrsbM5KdD54FCXSlxF_TLH98AG7-ZIO6uAQk_h9qng)
+![Guarda Crypto Wallet](https://lh6.googleusercontent.com/VRNRk2XP0E86LFaWO8beqPrkfstiel3haFAdt3Uc98jMToWeZklJltwcifgYYzAoXTmnotOSfmcChSMH1XiyUy3JlGmyGwIg0CrE9dPJ1YK0M3jltW5Jqji4R501_ZYVKAvXDoLZgqNHtIEN-linTrsbM5KdD54FCXSlxF_TLH98AG7-ZIO6uAQk_h9qng "Guarda Crypto Wallet")
 
 *Source: Guarda.com*
 
@@ -240,7 +240,7 @@ Disadvantages 
 * In case you lose your private key and recovery phrase, you can forget about your assets
 * Built-in token swap has some geo-restrictions
 
-![](https://lh4.googleusercontent.com/nIFNuXDHmKbRscrQnP2KoY8r9s44-V-y83JKj6VlE6OaMYaFpayKSlPkBUBAmu6WVW8bMBjbag6eA6StAtS55L3OVvsiKXXJQ0PK857_SZILyf98E2kGWbeU7yP7Anr3N02-Dst3U2-1sy-JvN5hMgl7Y-d_x5rDwyb26mxH_UJV1Nt7ypCYiZPcJZE_Bg)
+![Crypto.com Wallet](https://lh4.googleusercontent.com/nIFNuXDHmKbRscrQnP2KoY8r9s44-V-y83JKj6VlE6OaMYaFpayKSlPkBUBAmu6WVW8bMBjbag6eA6StAtS55L3OVvsiKXXJQ0PK857_SZILyf98E2kGWbeU7yP7Anr3N02-Dst3U2-1sy-JvN5hMgl7Y-d_x5rDwyb26mxH_UJV1Nt7ypCYiZPcJZE_Bg "Crypto.com Wallet")
 
 *Source: Crypto.com*
 
@@ -258,7 +258,7 @@ Advanced crypto investors usually prefer cold wallets, which support many crypto
 
 **Ledger Nano X** 
 
-![](https://lh5.googleusercontent.com/h5JKCSkfAbynobG7wS9OI2qxwg_Ys8QKeK_DMc2GKunNofg7DW97yEECk-Cs1dzbIZc2QlQKQkVcaK8VhcwMKA9TZN_9Tmhyn5h_ctOkhDuM5RbmTB-cAqlEmb9O86FFwKtSpyA3-qeuSQuoiNZKdEzZHSUpBgbNVkd1I_os7ilg7qMhEeBpTOdR4aoN)
+![Ledger Nano X Hardware Wallet](https://lh5.googleusercontent.com/h5JKCSkfAbynobG7wS9OI2qxwg_Ys8QKeK_DMc2GKunNofg7DW97yEECk-Cs1dzbIZc2QlQKQkVcaK8VhcwMKA9TZN_9Tmhyn5h_ctOkhDuM5RbmTB-cAqlEmb9O86FFwKtSpyA3-qeuSQuoiNZKdEzZHSUpBgbNVkd1I_os7ilg7qMhEeBpTOdR4aoN "Ledger Nano X Hardware Wallet")
 
 Advantages
 
@@ -275,7 +275,7 @@ Disadvantages 
 
 #### Trezor 
 
-![](https://lh5.googleusercontent.com/ThD6Mf4lOL04Iyvli__zcRc3D6MWUUd1zN-MaS8geSb77Gcg0FIKlLK_1QKJYoBxXD02AAsBW60T8Gk7QMjkLbPvi0QJAmGhTdDOPnveO8s3awdJ-a74ftXuSgZ3k-E8IO9iUfLdHpKQ9atOlxmbvejs6Rt00zwBoGbGSW9U3ePHR72o4w9LxtNJAwCm)
+![Trezor Hardware Wallet](https://lh5.googleusercontent.com/ThD6Mf4lOL04Iyvli__zcRc3D6MWUUd1zN-MaS8geSb77Gcg0FIKlLK_1QKJYoBxXD02AAsBW60T8Gk7QMjkLbPvi0QJAmGhTdDOPnveO8s3awdJ-a74ftXuSgZ3k-E8IO9iUfLdHpKQ9atOlxmbvejs6Rt00zwBoGbGSW9U3ePHR72o4w9LxtNJAwCm "Trezor Hardware Wallet")
 
 Advantages
 
@@ -293,7 +293,7 @@ But if you plan to send and receive funds regularly, Trezor might be slightly in
 
 **KeepKey** 
 
-![](https://lh4.googleusercontent.com/x5P7SZeP1-izwLIE2-besWW_FCxxKAHCXelg0qRxIJLDlknRnar40kmbWRgsas9LU6Tpf_pWyLEV5fj5gW_SbqDMdGf6nesWRQg-PgUkcunfrA2U_J6PZ18dLvVTRBEc9Jss0zcdw7cZS94rHidDrZNNBm1XnibVZ0osM4WJ-jGDk6a0UmUX8jR-J3Bt)
+![KeepKey Hardware Wallet](https://lh4.googleusercontent.com/x5P7SZeP1-izwLIE2-besWW_FCxxKAHCXelg0qRxIJLDlknRnar40kmbWRgsas9LU6Tpf_pWyLEV5fj5gW_SbqDMdGf6nesWRQg-PgUkcunfrA2U_J6PZ18dLvVTRBEc9Jss0zcdw7cZS94rHidDrZNNBm1XnibVZ0osM4WJ-jGDk6a0UmUX8jR-J3Bt "KeepKey Hardware Wallet")
 
 Advantages 
 
