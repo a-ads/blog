@@ -18,7 +18,7 @@ As you probably know, our default payment model is [CPD](https://a-ads.com/blog/
 
 To give our users more control over this process, we have added a new parameter for CPD campaigns — Total budget.
 
-![Total Campaign Budget for A-ADS](../../static/assets/total_budget.png "Total Campaign Budget for A-ADS")
+![Total Campaign Budget setting](../../static/assets/total_budget.png "Total Campaign Budget setting")
 
 "Total budget" is a limit of how much money the campaign can spend.
 
