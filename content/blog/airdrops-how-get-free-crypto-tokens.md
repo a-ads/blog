@@ -78,7 +78,7 @@ Characteristics: 
 * This airdrop sends crypto only to designated wallets
 * Usually, the receivers need to be familiar with the projects, like being an active member of a community or a supporter 
 
-![](../../static/assets/full-39-.png)
+![How you can get free crypto tokens](../../static/assets/full-39-.png "How you can get free crypto tokens")
 
 ## How can you get free crypto tokens
 
@@ -120,7 +120,7 @@ This one is considered one of the best airdrops in terms of effort and value. Pu
 
 This world-known crypto exchange often provides instant crypto airdrops. Binance often hosts several trading tournaments and giveaways for its users. Their promotions include a share of 90,000 BUSD, 200 NFT mystery boxes, and a prize pool worth $4,000. All you need to do not to miss your chance is follow their newsletters.
 
-![](../../static/assets/full-38-.png)
+![How you can get free crypto tokens](../../static/assets/full-38-.png "How you can get free crypto tokens")
 
 ## Are crypto airdrops safe?
 
