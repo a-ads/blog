@@ -30,7 +30,7 @@ To know how these apps work, let's first look at one of the most well-known apps
 
 As you walk, the app clocks in on your footwork on a mobile device. Every 1,000 steps are 0.95 Sweatcoins. You can cash out on Paypal, spend the coins on offers from sponsors, or buy Amazon gift cards with them.
 
-![](https://lh3.googleusercontent.com/kvEP9tMXEu4X6K_vRMVT0HCLfS9VmzDlxpi5YlKIlm4RTajwx2zBUQihSAgt6O4s42liLzg6Ff0dCCQc5h1lL_2Ld3zbRIUw9f01Jd1wyH-iMhXVbmM2lswYFo7gEPxro3PyiG8Nmvse5nngpH2C8NI)
+![Fancy 2D sneakers](https://lh3.googleusercontent.com/kvEP9tMXEu4X6K_vRMVT0HCLfS9VmzDlxpi5YlKIlm4RTajwx2zBUQihSAgt6O4s42liLzg6Ff0dCCQc5h1lL_2Ld3zbRIUw9f01Jd1wyH-iMhXVbmM2lswYFo7gEPxro3PyiG8Nmvse5nngpH2C8NI "Fancy 2D sneakers")
 
 *Source: Sweatco.in*
 
@@ -62,7 +62,7 @@ The app has no complicated features or specified advanced jargon, making it easi
 
 This app is one of the oldest crypto exchanges in the world. You can choose from 50 different cryptos, including major coins like BTC and ETH. Compared with other apps, this one maintains a relatively low-cost approach, with only 0.5% per trade. Plus, fees are reduced to 0.25% if you exceed $10,000 in monthly trading volume. Another feature is that Bitstamp's app has biometric authentication to provide security, keeping 98% of customer assets in cold storage. All of that makes trade secure.
 
-![](https://lh3.googleusercontent.com/d8VM0117rnbwZBT7bd7y0UF5P0L-QmuO2wPN0vrwklAddTb-AFscH5d9ja11nFeGBOoJHgjt66VqKleHCCZE-XaFNqJuz7cbszoptGgkMDSuMA0Uy0HScT5v2s1xlfuBIbXQ7BfzdKYOmP_oEJvc5I0)
+![Bitstamp Crypto Exchange](https://lh3.googleusercontent.com/d8VM0117rnbwZBT7bd7y0UF5P0L-QmuO2wPN0vrwklAddTb-AFscH5d9ja11nFeGBOoJHgjt66VqKleHCCZE-XaFNqJuz7cbszoptGgkMDSuMA0Uy0HScT5v2s1xlfuBIbXQ7BfzdKYOmP_oEJvc5I0 "Bitstamp Crypto Exchange")
 
 *Source: Bitstamp.net*
 
@@ -90,7 +90,7 @@ Nebeus is not just an app; it is a complete crypto ecosystem with an intuitive a
 
 What else? It is worth mentioning that Nebeus' earning programs are among the most competitive in the market right now, providing a 6.5% APY in crypto and 12.85% APY in stablecoins. It is user-friendly, with both mobile and desktop platforms. Plus, it has free crypto transfers to other Nebeus users, which is convenient. The minimum deposit depends on the selected method and could be between €0-50.
 
-![](https://lh3.googleusercontent.com/TmtDHz5w2bAc5gGt4nOr7OL_BCuUPhEjDXXiWgRLdNf38dIT9oIhjaoZ9_VnqvS8KQXwyBDnainjIU3umS2t3Cb2_K0WcRgvp04aBKNNJK4gHhnqILrDSe7lIxqkAn47hhIx4HJmChBXYITezuGEA9Y)
+![Nebeus Crypto Ecosystem](https://lh3.googleusercontent.com/TmtDHz5w2bAc5gGt4nOr7OL_BCuUPhEjDXXiWgRLdNf38dIT9oIhjaoZ9_VnqvS8KQXwyBDnainjIU3umS2t3Cb2_K0WcRgvp04aBKNNJK4gHhnqILrDSe7lIxqkAn47hhIx4HJmChBXYITezuGEA9Y "Nebeus Crypto Ecosystem")
 
 *Source: Nebeus.com*
 
@@ -110,7 +110,7 @@ This will depend on your location for getting started with the Binance app.  
 
 This app is free of charge for iOS and Android and is used as a piece of mobile news and portfolio tracking app for cryptocurrencies. Let's explore its features. First, using Blockfolio, you can import data about your crypto positions from different exchange platforms. The app has enough tools to visualize your positions, track your profit and loss over time, and much more. Second, you can set up multiple portfolios, separating your investment goals easily. The app also allows users to view real-time price charts and news.
 
-![](https://lh4.googleusercontent.com/9cRFuNIPLx9IGbWXpi7N8L8iLmnbIp88OO70vBML-24HvZrQBIDt8vUeqOXtn23jdMdVAZObAq5EyG8ehaga-4I_oo2Ka7pH8JtygdatZ2NXIKE53HuFHRUG0zOPT3Hj69Ff_ZD2pxUNv4A4vJJxZmA)
+![Blockfolio: Portfolio tracking app for cryptocurrencies](https://lh4.googleusercontent.com/9cRFuNIPLx9IGbWXpi7N8L8iLmnbIp88OO70vBML-24HvZrQBIDt8vUeqOXtn23jdMdVAZObAq5EyG8ehaga-4I_oo2Ka7pH8JtygdatZ2NXIKE53HuFHRUG0zOPT3Hj69Ff_ZD2pxUNv4A4vJJxZmA "Blockfolio: Portfolio tracking app for cryptocurrencies")
 
 *Source: Blockfolio.com*
 
@@ -118,7 +118,7 @@ This app is free of charge for iOS and Android and is used as a piece of mobile 
 
 Are you interested in buying or selling NFT? Then, it would be best if you had OpenSea, the world's largest NFT marketplace. The best thing about the OpenSea app is that it makes it easy to discover new NFTs. The app offers a personalized discovery feed that shows you the hottest new work you might like. You can also follow artists to get updates about their latest work and see related art you might be interested in.
 
-![](https://lh3.googleusercontent.com/2LAu4P4CEq4pKiExk3IzrqZhAGShZfgm7zkTwCLPapAivGE2UGghpADq8_xZ_uEdSO-7OWttfvOHKVcPwxKNpd7fXeyKHjM2aVf5r_3lli8FxkuMiTFlK7YQrr2F-mlShilXJmY0PO2x5jYdZKiPDWI)
+![OpenSea NFT Marketplace](https://lh3.googleusercontent.com/2LAu4P4CEq4pKiExk3IzrqZhAGShZfgm7zkTwCLPapAivGE2UGghpADq8_xZ_uEdSO-7OWttfvOHKVcPwxKNpd7fXeyKHjM2aVf5r_3lli8FxkuMiTFlK7YQrr2F-mlShilXJmY0PO2x5jYdZKiPDWI "OpenSea NFT Marketplace")
 
 *Source: Opensea.io*
 
