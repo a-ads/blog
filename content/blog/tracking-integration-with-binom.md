@@ -102,7 +102,7 @@ Then save your campaign.
 
 You can check the statistics on campaign performance simply by clicking “Stats”
 
-![You can check the statistics on campaign performance simply by clicking “Stats”](../../static/assets/binom7.png "You can check the statistics on campaign performance simply by clicking “Stats”")
+![Campaign performance “Stats” button](../../static/assets/binom7.png "Campaign performance “Stats” button")
 
 Statistics should look something like the image below, based on your settings: 
 
