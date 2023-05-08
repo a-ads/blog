@@ -35,7 +35,7 @@ The bounty campaigns can include the following tasks: 
 * Users can discover vulnerabilities and write their solutions 
 * If you speak other languages, you can help translate documents for development and marketing
 
-![](https://lh5.googleusercontent.com/bWXFr75dUPzm2Lbv8f6Ld3RCp0B0p_B3_kFEwkJUCi-UWshGoI0O2dzNCkIGbuegC-yg6hXXYE5dOl7uU0YYYFnA01yO3V8F5BV1WcB-XQcnVPUFnaOhTr2IrGvUV0nutPcGzFL9jkQ4vstKBek6xOyIhwIgCorVzeLFOTb7-Ct1-3Gg0LICM0WVuqXEaQ)
+![Cryptomarketcloud Bounty Programs](https://lh5.googleusercontent.com/bWXFr75dUPzm2Lbv8f6Ld3RCp0B0p_B3_kFEwkJUCi-UWshGoI0O2dzNCkIGbuegC-yg6hXXYE5dOl7uU0YYYFnA01yO3V8F5BV1WcB-XQcnVPUFnaOhTr2IrGvUV0nutPcGzFL9jkQ4vstKBek6xOyIhwIgCorVzeLFOTb7-Ct1-3Gg0LICM0WVuqXEaQ "Cryptomarketcloud Bounty Programs")
 
 **Example of a Bounty program**
 
@@ -65,7 +65,7 @@ Who are Bounty hunters according to statistics?
 
 * Statistics show that a bounty hunter's average age is between 18 and 34 years old and that most of them are male.
 
-![](https://lh3.googleusercontent.com/dPbTDMQEgkFkGx4-22UnW7AMODLbagd5ygHHPi06w4oaAYfbklH4YQp_GMvhBwTJ8tkdQgiTyHiosbslQSyvAIX4JLcbJS_kq8zeRErVZ0JYmHuoq39d2g46wuapURpepFIgbI3vwtMYaZ0kcE7qxKGpAnZ-3wFbDp-d8yxgN7-CIg8NfYLYC8ggeAVi5Q)
+![Bounty hunter's average age statistics](https://lh3.googleusercontent.com/dPbTDMQEgkFkGx4-22UnW7AMODLbagd5ygHHPi06w4oaAYfbklH4YQp_GMvhBwTJ8tkdQgiTyHiosbslQSyvAIX4JLcbJS_kq8zeRErVZ0JYmHuoq39d2g46wuapURpepFIgbI3vwtMYaZ0kcE7qxKGpAnZ-3wFbDp-d8yxgN7-CIg8NfYLYC8ggeAVi5Q "Bounty hunter's average age statistics")
 
 * More than 80% of bounty hunters participate in 1 to 10 bounty campaigns at the same time. 
 * As for their annual income, a typical bounty hunter makes around $1084 per year, which is approximately $90 per month.
@@ -105,7 +105,7 @@ This crypto bounty platform is a place where users can find simple crypto projec
 
 [Gitcoin](https://gitcoin.co)
 
-![](https://lh5.googleusercontent.com/q8Ub5gwcF45_rqr2AV3hCkBwHQNhgx0M5117r3L3rLYUrlN7gDe8E4yNFxh7OTRfuD3cJPYDxosTAmnTxXr66g61Pbqg6N3oCKPSbDczixoWxyGcTEQxhnYpg8k_Os4XHzIsucmLr1WUtiKRT_bH9rcvjg3iyJQsph765sVDB-j-Ki4Br9tFyi00YWnuCg)
+![Gitcoin crypto bounty platform](https://lh5.googleusercontent.com/q8Ub5gwcF45_rqr2AV3hCkBwHQNhgx0M5117r3L3rLYUrlN7gDe8E4yNFxh7OTRfuD3cJPYDxosTAmnTxXr66g61Pbqg6N3oCKPSbDczixoWxyGcTEQxhnYpg8k_Os4XHzIsucmLr1WUtiKRT_bH9rcvjg3iyJQsph765sVDB-j-Ki4Br9tFyi00YWnuCg "Gitcoin crypto bounty platform")
 
 Source: Gitcoin.co
 
@@ -113,9 +113,7 @@ This platform features tons of software-oriented bounties from different blockch
 
 [Bounties.network](https://bounties.network)
 
-
-
-![](https://lh4.googleusercontent.com/ki5KSu53hqS-L5bI964hz-r5C7tx5uZr1ZkUulD0PqcJmhXZUFg2G0mEcd72JAR8mzUVFvoqHfTZ6EIVXSHdF52mwCRcWHYsoyCLj2doi7xrAZbjjUciOkzQXgn-PKNLp0ocrRfkvkJEK-R2gX7ajItGPlD609S3GQTcOzOjb9ORMO5A8KcjvlkfX1p4MA)
+![Bounties.network crypto bounty platform](https://lh4.googleusercontent.com/ki5KSu53hqS-L5bI964hz-r5C7tx5uZr1ZkUulD0PqcJmhXZUFg2G0mEcd72JAR8mzUVFvoqHfTZ6EIVXSHdF52mwCRcWHYsoyCLj2doi7xrAZbjjUciOkzQXgn-PKNLp0ocrRfkvkJEK-R2gX7ajItGPlD609S3GQTcOzOjb9ORMO5A8KcjvlkfX1p4MA "Bounties.network crypto bounty platform")
 
 *Source: Bounties.network*
 
