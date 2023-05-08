@@ -41,7 +41,7 @@ Disadvantages 
 * U.S. customers can't access interest-bearing accounts
 * It only supports several coins 
 
-![](https://lh4.googleusercontent.com/D358H5OzGi2ytbCpeEpHOftt-bUjgKWdFxRc-FmbA9c0TKRGSk7ahDeInwLdK0cIf0HW_V4Sn6nld6QTHo_KiRwHU26H57isIRL8vp9amXxKfdPgjBwvRMtF9vuoEt9gMzZ4EELJQQrM5Gf01t0B7OrBfwsB6zB4iAzmYO4pZ6x5azX3Yry-vnopqiZo2A)
+![BlockFi Crypto wallet ](https://lh4.googleusercontent.com/D358H5OzGi2ytbCpeEpHOftt-bUjgKWdFxRc-FmbA9c0TKRGSk7ahDeInwLdK0cIf0HW_V4Sn6nld6QTHo_KiRwHU26H57isIRL8vp9amXxKfdPgjBwvRMtF9vuoEt9gMzZ4EELJQQrM5Gf01t0B7OrBfwsB6zB4iAzmYO4pZ6x5azX3Yry-vnopqiZo2A "BlockFi Crypto wallet ")
 
 BlockFi is a top-rated but relatively new financial service provider in crypto. This platform allows accessing crypto loans and enables users to store cryptocurrencies on its platform. Compared with AQRU, BlockFi offers 15 crypto assets in its interest accounts. BlockFi only contributes 7.5% APY for its interest accounts. BlockFi users can borrow up to 50% of their crypto collateral.
 
@@ -61,7 +61,7 @@ Disadvantages 
 * No support for Bitcoin
 * Coinbase has a history of insufficient customer support
 
-![](https://lh5.googleusercontent.com/7v99e_UsEBhX5LezM_k2Tuwgz_eJkl7Whnz-8XZW9F2zML3fQih7rxWkIhHtTe72j-BBZqfKGRRKEyqUutpRNxnG4VDT6QMTYWawXXA3KycyJOxCKE-WlQc5SwdOTgcBpVcxTwMrt9bVJIp5x8yINWS65YCJ1WrE2XQQyl6rGG_0dak3JU9Vmyv7fIEBTg)
+![Coinbase Crypto wallet](https://lh5.googleusercontent.com/7v99e_UsEBhX5LezM_k2Tuwgz_eJkl7Whnz-8XZW9F2zML3fQih7rxWkIhHtTe72j-BBZqfKGRRKEyqUutpRNxnG4VDT6QMTYWawXXA3KycyJOxCKE-WlQc5SwdOTgcBpVcxTwMrt9bVJIp5x8yINWS65YCJ1WrE2XQQyl6rGG_0dak3JU9Vmyv7fIEBTg "Coinbase Crypto wallet")
 
 Source: Coinbase.com
 
@@ -103,7 +103,7 @@ Disadvantages 
 * Higher trading fees for low-volume traders
 * In-app live support can be pretty slow
 
-![](https://lh5.googleusercontent.com/xxwuz-Nd96EqnPXu_XfaHbCv6O2156aSxeuL5zBbXjjsWMYT6NGck_owY6JhyNqIFz0-zvq9Atk8WJZCLMAnY3x9BCnYH6TLRr22TBPK1GuHo5F1DmeSRzF8-JHofqOcThtnpCTyn8Ncz2Gieo90tDtSDTnXeJOjDdTYKSn68SR4cqydatDKez3AgTotDQ)
+![Crypto.com wallet](https://lh5.googleusercontent.com/xxwuz-Nd96EqnPXu_XfaHbCv6O2156aSxeuL5zBbXjjsWMYT6NGck_owY6JhyNqIFz0-zvq9Atk8WJZCLMAnY3x9BCnYH6TLRr22TBPK1GuHo5F1DmeSRzF8-JHofqOcThtnpCTyn8Ncz2Gieo90tDtSDTnXeJOjDdTYKSn68SR4cqydatDKez3AgTotDQ "Crypto.com wallet")
 
 Source: Crypto.com
 
