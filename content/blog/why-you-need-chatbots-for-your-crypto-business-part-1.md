@@ -28,7 +28,7 @@ Chatbots are an excellent tool for automating marketing processes. From simple c
 
 Marketing chatbots are usually designed to respond to specific triggers and initiate conversations when the customer is ready to interact. It allows discussions to be more natural and more like regular consultants.
 
-![](../../static/assets/1-1-.png)
+![Chatbots Trends](../../static/assets/1-1-.png "Chatbots Trends")
 
 How can chatbots help businesses?
 
@@ -56,7 +56,7 @@ A chatbot is indispensable for start-up companies where all functions lie with o
 
 In the survey below, you can see what business owners use chatbots for:
 
-![](../../static/assets/3-1-.png)
+![Chatbots survey stats](../../static/assets/3-1-.png "Chatbots survey stats")
 
 ## What are chatbots' advantages?
 
@@ -74,7 +74,7 @@ The instant response allows users to resolve issues quickly, resulting in a posi
 
 Communication with chatbots occurs in Facebook Messenger, WhatsApp, Telegram, and others, with many users. With this communication channel, you will be able to engage your target audience worldwide.
 
-![](../../static/assets/2-1-.png)
+![Chatbots user interaction trends](../../static/assets/2-1-.png "Chatbots user interaction trends")
 
 * They attract more leads
 
