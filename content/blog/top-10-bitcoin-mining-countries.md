@@ -64,7 +64,7 @@ Again the USA. New York is handling 19,9 % of the hash rate share and is one of 
 
 Even the energy prices in the Empire State are higher than those in Texas, but nearly a third of this energy comes from renewable energy sources. So, let's put New York second on your list.
 
-![](../../static/assets/full-18-.png)
+![Device with cash back tag](../../static/assets/full-18-.png "Device with cash back tag")
 
 3. Kentucky, USA, 18.7% of America's total hash rate
 
@@ -158,7 +158,7 @@ But the only factor is that you might face some government restrictions if you d
 And at the end, I would like to warn you about places where mining is illegal.
 Many countries have decided to ban bitcoin mining and outlaw cryptocurrency altogether, including Algeria, Bangladesh, Egypt, Iraq, Morocco, Oman, Qatar, Tunisia, and, most notably, China.
 
-![](../../static/assets/full-19-.png)
+![Laptop Google search with crypto ads](../../static/assets/full-19-.png "Laptop Google search with crypto ads")
 
 Bitcoin mining hubs continue to adapt and change as countries develop different approaches to regulating and facilitating cryptocurrency and its mining. Anyway, one thing is clear. There are the requirements of a suitable bitcoin mining location, with cheap (and preferably renewable) energy at the top of the list. "Mining is location agnostic, so it can move to wherever the cheapest energy can be sourced," says McKeon.
 
