@@ -105,7 +105,7 @@ The MContent platform provides users with the opportunity to earn tokens for vie
 
 However, some customers complain about the user interface, which should be more user-friendly. 
 
-![Mcontent ](https://lh4.googleusercontent.com/h0gUo-tlEc_modUt20gfS3TE72PaDaFnKqNYdMb7bvujHU7_nWKd0AhruT9mFw8PZjweOoG3tBFErCJD_22UIMghMGOu_MFnFe_4XpF7zudFecBrw1e4Kt5Cf0rz536-PK7FGRYPGU9nBOZNVMo9rpmuO5fAYnJv22SsmDacAnRo27jhbFs3odcaixdMCQ "Mcontent ")
+![Mcontent](https://lh4.googleusercontent.com/h0gUo-tlEc_modUt20gfS3TE72PaDaFnKqNYdMb7bvujHU7_nWKd0AhruT9mFw8PZjweOoG3tBFErCJD_22UIMghMGOu_MFnFe_4XpF7zudFecBrw1e4Kt5Cf0rz536-PK7FGRYPGU9nBOZNVMo9rpmuO5fAYnJv22SsmDacAnRo27jhbFs3odcaixdMCQ "Mcontent")
 
 Watching videos may be an excellent way to earn crypto, but there are others. You can also check the following options to find the best one for you:
 
