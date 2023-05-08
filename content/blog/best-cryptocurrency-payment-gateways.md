@@ -29,7 +29,7 @@ Online payment works the same. The main difference is that a payment gateway is 
 
 Let's look at the graph that helps to understand the process better: 
 
-![](../../static/assets/full-9-.png)
+![How a Payment gateway works](../../static/assets/full-9-.png "How a Payment gateway works")
 
 **Why customers want to pay with crypto**
 
@@ -55,7 +55,7 @@ If you want a payment gateway for your business, it's wise to choose a highly se
 
 1. BitPay
 
-![](https://lh5.googleusercontent.com/df71h9krScI31wlL46kJvvxMkfFAXEY7MVmC3CHaKqs7RN89siaZaNLdoWKjdcnDfhqsCSEs3Nj7IGQWakpXHIYRArnuYlmTwoxcVbAJKf73BEtEAClBqOFl5mlsuYOvqh-VVYxWhp4tM8LhsgtsP0Ijlla2yErIPGY6_VNcdXoU3CKOyXoUUrggZ8vYqg)
+![Bitpay.com](https://lh5.googleusercontent.com/df71h9krScI31wlL46kJvvxMkfFAXEY7MVmC3CHaKqs7RN89siaZaNLdoWKjdcnDfhqsCSEs3Nj7IGQWakpXHIYRArnuYlmTwoxcVbAJKf73BEtEAClBqOFl5mlsuYOvqh-VVYxWhp4tM8LhsgtsP0Ijlla2yErIPGY6_VNcdXoU3CKOyXoUUrggZ8vYqg "Bitpay.com")
 
 Let's start with [BitPay](https://bitpay.com). This is an easy and simple payment gateway to set up and operate. The whole process has been created to make it as straightforward as possible to concentrate more on business than tech innovations. 
 
@@ -65,7 +65,7 @@ This bitcoin payment gateway offers a free cap of $1,000 worth of daily transact
 
 2. Coinbase 
 
-![](https://lh5.googleusercontent.com/aujFc3cV9kbCEgwjE-w8FwBbor2m-f__HTruwv_z0vT4m8BEOPC3bryLnRR2JynnVLrGgeTJCnTZB_c8ZYpw0gTvQ1_--3_g-9g6x0xdTSe_AHUk8L_CoM_ILtlSfTJcb9cuKmMKAsxbYJQDRKcYS7ItbuEXXvT14hn1TVsCNl7rUWo1-jA_cI-Fw0Z8Pg)
+![Coinbase.com](https://lh5.googleusercontent.com/aujFc3cV9kbCEgwjE-w8FwBbor2m-f__HTruwv_z0vT4m8BEOPC3bryLnRR2JynnVLrGgeTJCnTZB_c8ZYpw0gTvQ1_--3_g-9g6x0xdTSe_AHUk8L_CoM_ILtlSfTJcb9cuKmMKAsxbYJQDRKcYS7ItbuEXXvT14hn1TVsCNl7rUWo1-jA_cI-Fw0Z8Pg "Coinbase.com")
 
 Coinbase is one of the largest cryptocurrency exchanges, but it also offers crypto payment gateway services through Coinbase Commerce. This gateway is fast and allows merchants to receive payments securely. 
 
@@ -75,7 +75,7 @@ The exchange offers such service for free on the first $1 million of transaction
 
 3. Coingate 
 
-![](https://lh4.googleusercontent.com/MxzBx0pG4DwxNJo-_9Y4zF8PiDRMe_JMT9iQeJglkdxPYeLYAQ871waiiS5ARlXRgikggix63DaBY4bYIy7Y5beEDliWWiUFb38jEv6d8jE4c0i8RSYX5wT1MAMxI7Rif6RTUyfPM2jGCyf0TURTARrvTdHoRr-0ePVMdnuatmhQQ6aobpe86AVNsEmPfg)
+![Coingate.com](https://lh4.googleusercontent.com/MxzBx0pG4DwxNJo-_9Y4zF8PiDRMe_JMT9iQeJglkdxPYeLYAQ871waiiS5ARlXRgikggix63DaBY4bYIy7Y5beEDliWWiUFb38jEv6d8jE4c0i8RSYX5wT1MAMxI7Rif6RTUyfPM2jGCyf0TURTARrvTdHoRr-0ePVMdnuatmhQQ6aobpe86AVNsEmPfg "Coingate.com")
 
 Another good solution is [Coingate](https://coingate.com). This gateway allows merchants to accept even traditional currency payments like USD and Euros. This gateway is super user-friendly and will enable merchants to set up and monitor payments from their phones, making the process convenient. 
 
@@ -91,7 +91,7 @@ As for more bonuses, Coinsbank allows for the free transfer of currency to famil
 
 5. Shopify 
 
-![](https://lh6.googleusercontent.com/GvZi6T_StRhbm7Zq3ppL26QF8PFRX7QLtUfjJkCNu_MSLNXoY0n_LT1e9SnZPXhQVWHhqwivRfeKCx4RToLZCBI0jtba7Oc4RYZuH458rEozQa3rt4BwjJu5CbzcqcRrjdd519fgtSbDkgRBW44ZDbhW0OuvhDbXQikz5GR1OcXnz-ZFh600y6237g3wcQ)
+![Shopify.com](https://lh6.googleusercontent.com/GvZi6T_StRhbm7Zq3ppL26QF8PFRX7QLtUfjJkCNu_MSLNXoY0n_LT1e9SnZPXhQVWHhqwivRfeKCx4RToLZCBI0jtba7Oc4RYZuH458rEozQa3rt4BwjJu5CbzcqcRrjdd519fgtSbDkgRBW44ZDbhW0OuvhDbXQikz5GR1OcXnz-ZFh600y6237g3wcQ "Shopify.com")
 
 Probably everyone has heard about this brand. [Shopify](https://www.shopify.com) is one of the world's most trusted and best cryptocurrency payment gateways. It is already used by 1,000's businesses worldwide to accept payments in bitcoin and other cryptocurrencies. 
 
@@ -101,7 +101,7 @@ What about the drawbacks? Well, they occur as usual. Shopify wants merchants to 
 
 6. AlfaCoins 
 
-![](https://lh6.googleusercontent.com/TVEd7dFfeUbdcUy2_xWkQLHtFoExmx8asfGmT6wQ7CUmIj_G_hZV1nxi7JD08XOoSOhCVt7tA11ktVsl67dAXXcsSjaHmhQ4XIObSBzC34PaXkL2aTlY-1b_Iw-AA_dkMZx8LZCApYfCp4EdgcQa-GPCSlTIR1m1QJ7HGiuflMzejukZYXx8yoz8fUx36A)
+![Alfacoins.com](https://lh6.googleusercontent.com/TVEd7dFfeUbdcUy2_xWkQLHtFoExmx8asfGmT6wQ7CUmIj_G_hZV1nxi7JD08XOoSOhCVt7tA11ktVsl67dAXXcsSjaHmhQ4XIObSBzC34PaXkL2aTlY-1b_Iw-AA_dkMZx8LZCApYfCp4EdgcQa-GPCSlTIR1m1QJ7HGiuflMzejukZYXx8yoz8fUx36A "Alfacoins.com")
 
 The last on our list, but not the least important. [AlfaCoins](https://www.alfacoins.com) offers an opportunity to split payments between fiat and cryptocurrency. If merchants want to retain some bitcoin from each transaction to cash in on surging prices, this is an excellent option, as it allows them to hedge their bets without taking a significant risk. 
 
