@@ -74,7 +74,7 @@ The instant response allows users to resolve issues quickly, resulting in a posi
 
 Communication with chatbots occurs in Facebook Messenger, WhatsApp, Telegram, and others, with many users. With this communication channel, you will be able to engage your target audience worldwide.
 
-![Chatbots User Trends](../../static/assets/2-1-.png "Chatbots User Trends")
+![Chatbots user interaction trends](../../static/assets/2-1-.png "Chatbots user interaction trends")
 
 * They attract more leads
 
