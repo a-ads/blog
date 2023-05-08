@@ -45,13 +45,13 @@ The algorithm is simple:
 3. Take a quiz after the video 
 4. Get your free crypto into the Coinbase wallet 
 
-![](https://lh3.googleusercontent.com/U5bswMG0MyFtxMuYp-lOS5snpymmLyRefsGP4mI5ojDd1eabdt3bFKr5d9qCbb-jQJMPK2TKYq84njWskIqm5l3Z0NyvlzUibIsDlFEB95hCo9xl8lMIrjgOVSBWvy6j0XiIaWAQszav9p_FvV_lXG8h97zho6QDCsHZUcric80A96rFXVSZm3m0YDbnCA)
+![Coinbase Learning Center, Earn free Crypto](https://lh3.googleusercontent.com/U5bswMG0MyFtxMuYp-lOS5snpymmLyRefsGP4mI5ojDd1eabdt3bFKr5d9qCbb-jQJMPK2TKYq84njWskIqm5l3Z0NyvlzUibIsDlFEB95hCo9xl8lMIrjgOVSBWvy6j0XiIaWAQszav9p_FvV_lXG8h97zho6QDCsHZUcric80A96rFXVSZm3m0YDbnCA "Coinbase Learning Center, Earn free Crypto")
 
 2.  CoinTube App3
 
 CoinTube App by CoinTelegraph is available on the App Store and Google Play. CoinTelegraph rewards users with 10,000 satoshi (or more) worth of bitcoin when they confirm their email addresses.
 
-![](https://lh3.googleusercontent.com/uAupvsUl2b-7196p9IdKxKk8lQUjqOtFrWBe20HwxId16Ipl5raDVLqIsVdN1j_M0c0BA-Nk3XndZNKmRp_JyQfRvxI8GK1kdlX9YvKUiQ28v9Hptv2QcKfgLagmqjuK_7JTkDyB-SC8Kve6avy0hrC-ZrU7M_-Y1ofVvD3vEHK6eKVEJSRYgVUt84ZB7w)
+![CoinTube App](https://lh3.googleusercontent.com/uAupvsUl2b-7196p9IdKxKk8lQUjqOtFrWBe20HwxId16Ipl5raDVLqIsVdN1j_M0c0BA-Nk3XndZNKmRp_JyQfRvxI8GK1kdlX9YvKUiQ28v9Hptv2QcKfgLagmqjuK_7JTkDyB-SC8Kve6avy0hrC-ZrU7M_-Y1ofVvD3vEHK6eKVEJSRYgVUt84ZB7w "CoinTube App")
 
 3. Coinstar 
 
@@ -59,7 +59,7 @@ Another way to earn free cryptocurrency is by using Coinstar.
 
 Coinstar is a free Android app that allows you to earn free cryptocurrency by watching a video for up to 10,000 satoshi daily.
 
-![](https://lh4.googleusercontent.com/uXG7ckqSt5HTHnG2lesm5oVXWkMh6HJwVpjGdqqY4HhwukvPDVlUJTQMfwkzSR4Y4x3tGUVzRdfprr7cdKH8JzYCQyWO6ThvvPlfMUjW10T5B_tfKdlBm1hTR2ax9HYYnk0LDHydivD1z2eRTvWqvGGm0sBvQeMbSkmRsDw8EwKFqt6fQFVaxuA96xm_sw)
+![Coinstar App](https://lh4.googleusercontent.com/uXG7ckqSt5HTHnG2lesm5oVXWkMh6HJwVpjGdqqY4HhwukvPDVlUJTQMfwkzSR4Y4x3tGUVzRdfprr7cdKH8JzYCQyWO6ThvvPlfMUjW10T5B_tfKdlBm1hTR2ax9HYYnk0LDHydivD1z2eRTvWqvGGm0sBvQeMbSkmRsDw8EwKFqt6fQFVaxuA96xm_sw "Coinstar App")
 
 4. CoinmarketCap Learning Center
 
@@ -67,11 +67,11 @@ Coinstar is a free Android app that allows you to earn free cryptocurrency by wa
 
 The platform offers to learn more about PlasmaFinance, FIO Protocol, 1inch, Orchid, and dozens of others. As you go through these, see which tokens you think have the most potential. 
 
-![](https://lh6.googleusercontent.com/MUE6bwQxN158N8oQBMqrvsu3QaC8hbaD9jSC0MFI7s-lbE6d_M1_A2oPkGRhXxy_cljm42HQF2PKDOYu263o27H7HsGH9wV0kj8oLwx1Y4ReCzynunGCdBwCBQNC0JmU6G4O61H6-oTLfGT8AkEdE4bv0Aj1CXMmRRR0jKDKgPOAp8PEiHrE6mtOFE01-Q)
+![Perpetual Protocol](https://lh6.googleusercontent.com/MUE6bwQxN158N8oQBMqrvsu3QaC8hbaD9jSC0MFI7s-lbE6d_M1_A2oPkGRhXxy_cljm42HQF2PKDOYu263o27H7HsGH9wV0kj8oLwx1Y4ReCzynunGCdBwCBQNC0JmU6G4O61H6-oTLfGT8AkEdE4bv0Aj1CXMmRRR0jKDKgPOAp8PEiHrE6mtOFE01-Q "Perpetual Protocol")
 
 5. PlayNano Online
 
-![](https://lh6.googleusercontent.com/mX1x32_gtEleck0SLiKeBlkOCj3ZQgr0SUZfE3HHM94bDft7oB3vK5x7EXcmN97AwKqbVtWBet4eJNSkkOQwxz0jYrqBBMcb5nOe2eapFh8IuA-g63Zf3tjlp0d8qfLzVNZTI6MTFdYpHzF0i1qAoMbxSfCnaiCGOgVf7MrUyAvQGOHRhhwreojuZCb2vQ)
+![PlayNano Online](https://lh6.googleusercontent.com/mX1x32_gtEleck0SLiKeBlkOCj3ZQgr0SUZfE3HHM94bDft7oB3vK5x7EXcmN97AwKqbVtWBet4eJNSkkOQwxz0jYrqBBMcb5nOe2eapFh8IuA-g63Zf3tjlp0d8qfLzVNZTI6MTFdYpHzF0i1qAoMbxSfCnaiCGOgVf7MrUyAvQGOHRhhwreojuZCb2vQ "PlayNano Online")
 
 The [platform](https://playnano.online/watch-and-learn) selects around ten random videos and exciting facts about Nano Currency. The users need to start watching the selection of videos that explain in more detail what Nano is and what they can do with Nano.
 
@@ -79,7 +79,7 @@ Quick topics and facts about Nano Currency accompany each video. The users need 
 
 The platform is user-friendly and easy to use. 
 
-![](https://lh5.googleusercontent.com/FJV5d9Kr1-53wxhzriONmeoYUFi4mnuzksoPRGVg0rC38-1dZjRhpLmAYiXVyNrVHU1HO7rWREQBVyPBkl3B1BUCeh4-7RQcBBFrjVH9l3HWTpNCg6o54KM3IAGUdP36UyFWdGJB_OgJ6oYVho-ATOaHzgNBVzfdOEKpII-bV7AxGkZ45rejKw1LSO06MA)
+![Nano - Digital money for a modern world, YouTube thumbnail](https://lh5.googleusercontent.com/FJV5d9Kr1-53wxhzriONmeoYUFi4mnuzksoPRGVg0rC38-1dZjRhpLmAYiXVyNrVHU1HO7rWREQBVyPBkl3B1BUCeh4-7RQcBBFrjVH9l3HWTpNCg6o54KM3IAGUdP36UyFWdGJB_OgJ6oYVho-ATOaHzgNBVzfdOEKpII-bV7AxGkZ45rejKw1LSO06MA "Nano - Digital money for a modern world, YouTube thumbnail")
 
 ## What you should know about earning cryptocurrency by watching videos
 
@@ -95,7 +95,7 @@ Let's have a look at two more apps and platforms to earn free cryptocurrency: 
 
 Earncrypto is a free Android app that offers you to earn free cryptocurrency by watching. It rewards users with 10,000 satoshi daily. It also gives bonuses for inviting friends.
 
-![](https://lh4.googleusercontent.com/uYRVnNFUKK2duIIe8_ULee3gdJbjbTY1MAacUcxchKY_Of02o86v_8Uwp_7v516oSy8nigmTdgoPVeV2umPUPAFwaS8GdW_RBc3JYBD6QLC-mA6OCQwwActMG_QkW8QRmssa_s2xooa4erFwq4X3_QcBT-x9rfl4uvJBXGvG6n8OeN-fxmaB_WPQswR27g)
+![Earncrypto.com](https://lh4.googleusercontent.com/uYRVnNFUKK2duIIe8_ULee3gdJbjbTY1MAacUcxchKY_Of02o86v_8Uwp_7v516oSy8nigmTdgoPVeV2umPUPAFwaS8GdW_RBc3JYBD6QLC-mA6OCQwwActMG_QkW8QRmssa_s2xooa4erFwq4X3_QcBT-x9rfl4uvJBXGvG6n8OeN-fxmaB_WPQswR27g "Earncrypto.com")
 
 2. Mcontent 
 
@@ -105,7 +105,7 @@ The MContent platform provides users with the opportunity to earn tokens for vie
 
 However, some customers complain about the user interface, which should be more user-friendly. 
 
-![](https://lh4.googleusercontent.com/h0gUo-tlEc_modUt20gfS3TE72PaDaFnKqNYdMb7bvujHU7_nWKd0AhruT9mFw8PZjweOoG3tBFErCJD_22UIMghMGOu_MFnFe_4XpF7zudFecBrw1e4Kt5Cf0rz536-PK7FGRYPGU9nBOZNVMo9rpmuO5fAYnJv22SsmDacAnRo27jhbFs3odcaixdMCQ)
+![Mcontent ](https://lh4.googleusercontent.com/h0gUo-tlEc_modUt20gfS3TE72PaDaFnKqNYdMb7bvujHU7_nWKd0AhruT9mFw8PZjweOoG3tBFErCJD_22UIMghMGOu_MFnFe_4XpF7zudFecBrw1e4Kt5Cf0rz536-PK7FGRYPGU9nBOZNVMo9rpmuO5fAYnJv22SsmDacAnRo27jhbFs3odcaixdMCQ "Mcontent ")
 
 Watching videos may be an excellent way to earn crypto, but there are others. You can also check the following options to find the best one for you:
 
