@@ -1,68 +1,87 @@
 ---
 date: 2023-02-09T02:14:45.779Z
-title: Why you need chatbots for your crypto business. Part 2
+title: Why You Need Chatbots For Your Crypto Business. Part 2
 slug: why-you-need-chatbots-for-your-crypto-business-part-2
 tags:
   - news
 category: How to
 category_top_level:
   - News & Trends
+  - Advertisers
+  - Publishers
 author: Yulia Savushkina
 thumbnail: ../../static/assets/full-20-.png
 big_picture: ../../static/assets/short-15-.png
 popularity: "0"
-meta_title: ""
-meta_description: ""
-meta_keywords: ""
+meta_title: Why You Need Chatbots For Your Crypto Business. Part 2
+meta_description: In the second part of this article on chatbots for crypto
+  businesses, learn about the steps required to create your own chatbot, along
+  with the principles of building a successful chatbot. Discover how to set
+  targets for your chatbot, delegate tasks, choose communication channels and
+  tools, select the right platform, prepare the requirements, create a chatbot
+  personality, test the chatbot, analyze its performance, and continually
+  improve it. Explore successful chatbot examples from Adidas Women, Sephora,
+  Marriott Hotel, and KLM Royal Dutch Airlines. Also, learn about the pros and
+  cons of chatbots, including the need for serious preparation, the inability to
+  replace employees completely, and the need for constant updates. Find out
+  whether your crypto business needs a chatbot and the factors to consider when
+  making that decision. Overall, this article provides valuable insights into
+  how chatbots can help crypto businesses automate marketing processes, save
+  time and money, provide quick responses, increase engagement, attract more
+  leads, and provide data for analysis.
+meta_keywords: chatbots, crypto business, marketing automation, customer
+  service, technical support, sales funnel, audience segmentation, chatbot
+  personalities, chatbot examples, chatbot tools, chatbot development, chatbot
+  principles
 json_ld: ""
 ---
-In our previous article about chatbots here, we have written about the pros and possible cons. In the second part of the article, we will tell you in detail what steps you should take to create your own chatbot for your crypto business. We will also look at some great examples in the industry where chatbots have worked successfully. 
+In our previous article about chatbots[ here](https://a-ads.com/blog/why-you-need-chatbots-for-your-crypto-business-part-1/), we have written about the pros and possible cons. In the second part of the article, we will tell you in detail what steps you should take to create your own chatbot for your business. We will also look at some great examples in the industry where chatbots have worked successfully. 
 
-### **Does your crypto business need chatbots?** 
+### **Does Your Crypto Business Need Chatbots?** 
 
 If any of these factors are true for you, then your crypto business does need a chatbot: 
 
-![](../../static/assets/1-3-.png)
+![your crypto business does need a chatbot picture ](../../static/assets/1-3-.png "your crypto business does need a chatbot picture ")
 
 However, despite all apparent advantages, chatbots have their limitations, which may include the following: 
 
-* Serious preparation
+* **Serious preparation**
 
 Before launching any chatbot, you need to analyze the customer's needs first, write their journey, and understand what questions and at what moments they have.
 
-* Chatbots can’t replace your employees
+* **Chatbots can’t replace your employees**
 
 Even if your chatbot’s work is well-thought, it will never cover 100% of requests. If an unusual situation arises, the client will still need the help of an operator.
 
-* Chatbots need constant updates
+* **Chatbots need constant updates**
 
 You need to update the bot script if something changes in the client path. In addition, the underlying logic may not correspond to customers' real needs - you need to monitor their complaints and reactions.
 
 Before talking about the steps you need to take to create your crypto chatbot, let’s look at four main principles.
 
-## How to make a successful chatbot: four principles
+## How To Make A Successful Ahatbot: Four Principles
 
-1. Your chatbot must anticipate customer requests. 
+1. **Your chatbot must anticipate customer requests**
 
 It means the bot does not wait for the client to ask a question but finds a solution asap based on the analysis of the stage of the life path. 
 
-2. A chatbot solves customer problems.
+2. **A chatbot solves customer problems**
 
  The chatbot should offer a solution but not immediately address the problem to a support team. For example, if the ordered item is unavailable, the bot advises an alternative.
 
-3. The chatbot develops evolutionarily, going from simple to complex. 
+3. **The chatbot develops evolutionarily, going from simple to complex**
 
 First, it must learn how to solve simple issues, such as informing about the status of an order. Then you can build up complex scenarios, but it is essential to remember that in non-standard situations, the client should be able to contact the operator within seconds.
 
-4. Chatbots should constantly improve their work.
+4. **Chatbots should constantly improve their work**
 
 It makes sense to continually analyze the reply speed, find weaknesses in the logic, and update the script when the client path changes. Otherwise, the chatbot will quickly become an outdated and useless tool.
 
 Now, when you are ready to start your chatbot for your crypto business, you need to take ten steps to do it with flying colors. 
 
-## 10 steps to create a chatbot for your crypto business
+## 10 Steps To Create A Chatbot For Your Crypto Business
 
-Step 1. Set targets
+**Step 1. Set Targets**
 
 Try to answer the following questions first:
 
@@ -70,11 +89,11 @@ Try to answer the following questions first:
 * What problems can a chatbot solve in your crypto business?
 * How exactly will it solve them?
 
-Step 2. What tasks will you delegate to chatbots?
+**Step 2. What Tasks Will You Delegate To Chatbots?**
 
 Usually, chatbots are given repetitive tasks: the same type of customer service, technical support, sales by the funnel, audience segmentation, and so on. Plus, bots are also actively used for personnel management and the selection of primary candidates. You should carefully analyze the most time-consuming and routine tasks in your service or business at this stage.
 
-Step 3. Choose language and channels
+**Step 3. Choose Language And Channels**
 
 And again, start with the questions:
 
@@ -83,11 +102,11 @@ And again, start with the questions:
 * Is the number of customers in this channel who speak this language growing or decreasing?
 * Are you planning to engage with users long-term?
 
-Step 4. Choose the tools
+**Step 4. Choose The Tools**
 
 Step 4 is to list the necessary basic integrations for your chatbot. They can be a CRM, calendars, payment systems, cloud storage, or any other software you use in your company. Then, evaluate each tool according to the already familiar principles above.
 
-Step 5. Choose the platform
+**Step 5. Choose The Platform**
 
 You can use a constructor website that specializes in it to build your chatbot or hire a development team. Both options are fine, but which one to choose depends on the chatbot’s type, your business needs, budget, and time.
 
@@ -104,7 +123,7 @@ Some great platforms that can help you to create your chatbots are: 
 * [TARS Chatbot](https://hellotars.com/)
 * [Yellow ](https://yellow.ai/)
 
-Step 6. Prepare the requirements 
+**Step 6. Prepare The Requirements** 
 
 In case you choose the developers' teams, you will need the following:
 
@@ -114,7 +133,7 @@ In case you choose the developers' teams, you will need the following:
 * Discuss your participation at each stage of the work
 * Discuss communication with the developers: how often you will call up, how you will correspond, how the progress of creating a chatbot will be tracked, and so on.
 
-Step 7. Create chatbot personalities
+**Step 7. Create Chatbot Personalities**
 
 One of the most creative steps in your journey! To create a chatbot's personality, determine its communication style and dialogue structure. For that, you need to know your audience well and ask questions about your users.
 
@@ -126,7 +145,7 @@ Plus, you can analyze your FAQ section, knowledge base, and documentation. 
 
 Don’t forget about your social media.
 
-Step 8. Testing time
+**Step 8. Testing Time**
 
 When your chatbot is ready, it’s time to test its work! The questions below will help you to understand if the mechanism works well: 
 
@@ -137,38 +156,36 @@ When your chatbot is ready, it’s time to test its work! The questions below wi
 * What does the bot do when it does not understand the request? What does it answer? 
 * Are there any dead-end dialogues? 
 
-Step 9. Analysis 
+**Step 9. Analysis** 
 
 After some time, analyze the work of your chatbot by looking at some product metrics. You will need the following:
 
-* Bounce rate. Check how frequently and what questions the chatbot did not understand the user and gave answers like: "Try to rephrase your request."
-* Session Duration. Calculate the average time spent in conversation with clients. If it turns out to be too short, it will likely mean the chatbot is useless.  
-* Premature conversation termination. Learn how many users have terminated the interaction with the bot. Why?
-* Goal Achievement Rate. How many customers got their questions answered? If your bot is focused on scheduling appointments or product sales, how many consumers could sign up/purchase the product they need?
-* Customer Satisfaction. If you have a feedback feature implemented, check how many people rated the quality of your bot.
+* **Bounce rate:** Check how frequently and what questions the chatbot did not understand the user and gave answers like: "Try to rephrase your request."
+* **Session Duration:** Calculate the average time spent in conversation with clients. If it turns out to be too short, it will likely mean the chatbot is useless.  
+* **Premature conversation termination:** Learn how many users have terminated the interaction with the bot. Why?
+* **Goal Achievement Rate:** How many customers got their questions answered? If your bot is focused on scheduling appointments or product sales, how many consumers could sign up/purchase the product they need?
+* **Customer Satisfaction:** If you have a feedback feature implemented, check how many people rated the quality of your bot.
 
-Step 10. What to do next?
+**Step 10. What To Do Next?**
 
 Technology, like chatbots, develops quickly. It means you should constantly analyze and improve your chatbot.
 
 At the initial stage, it is better to create a simple bot and then add new features to it per the requests and needs of your customers.
 
-## Chatbot examples
+## Chatbot Examples
 
 Some successful chatbot examples were created and implemented by well-known companies: 
 
-1. Adidas Women: a chatbot that sends product updates 
+1. **Adidas Women:** a chatbot that sends product updates 
 
 This bot enables women to find the right products and helps them register within a conversational interface for users.
 
-2. [Sephora](https://www.chatbotguide.org/sephora-bot): improves user experience with personalized recommendations
+2. **[Sephora](https://www.chatbotguide.org/sephora-bot):** improves user experience with personalized recommendations
 
 ![](https://lh4.googleusercontent.com/HXVIaDDFstRDTMkoRnmhoP-jrOcsMrKmBbW1hyxdlzhrMAOyfiBf1h-aZu3hmdTCZZP7yQ5jZvFxicHU-2GAl42aOlitHKxBRY0Rx191DV_i--M-OhLKiJlH3bW4HLEQOnrRf2jeiUhKdTMCJu0xqME)*Source: Sephora.com*
 
-3. Marriott Hotel: Meets their customer requests effectively
+3. **Marriott Hotel:** Meets their customer requests effectively
 
 Marriott's bots help guests request essential hotel services, acting as an in-phone concierge. It helps eliminate a middleman's involvement and enables requests to be met quickly and efficiently. 
 
-4. KLM Royal Dutch Airlines is a multilingual FB bot
-
-This travel assistant is accessible 24×7, speaks multiple languages, provides real-time responses to travelers' queries, and is available on the FB Messenger app.
+4. **KLM Royal Dutch Airlines Bot:** This travel assistant is accessible 24×7, speaks multiple languages, provides real-time responses to travelers' queries, and is available on the FB Messenger app.
