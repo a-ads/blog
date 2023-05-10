@@ -1,5 +1,5 @@
 ---
-date: 2023-05-01T08:30:30.774Z
+date: 2023-05-07T08:30:30.774Z
 title: 10 Tips for Better Mobile Optimization in Crypto Advertising
 slug: 10-Tips-for-Better-Mobile-Optimization-in-Crypto-Advertising
 tags:
