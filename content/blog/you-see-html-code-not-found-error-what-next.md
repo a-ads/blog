@@ -1,6 +1,6 @@
 ---
 date: 2019-07-04T17:37:38.866Z
-title: You see "HTML code not found" error - what next?
+title: You See "HTML Code Not Found" Error - What Next?
 slug: you-see-html-code-not-found-error-what-next
 tags:
   - publisher
@@ -41,11 +41,11 @@ Your site cannot be loaded with a browser at all, e.g. it might be offline.
 
 The error appears when a website can be opened in a browser, but its source code cannot be analyzed by our bot program because of incorrect site settings. The possible reasons are as follows:
 
-* a site page keeps reloading;
-* a site has an endless page;
-* a site database is not configured;
-* a domain name is not registered;
-* a site forbids VPN, proxy, Tor, etc.
+* A site page keeps reloading
+* A site has an endless page
+* A site database is not configured
+* A domain name is not registered
+* A site forbids VPN, proxy, Tor, etc.
 
 ## Redirecting to another website
 
@@ -87,7 +87,7 @@ And see a banner:
 
 ![Correct URL example advert](../../static/assets/снимок-экрана-2019-07-08-в-1.35.29.png "Correct URL example advert")
 
-So the URL in the src attribute is correct.
+So, the URL in the src attribute is correct.
 
 Here are examples of invalid URLs:
 
@@ -127,17 +127,18 @@ If you place a floating ad that can be closed, the “Close” button should not
 
 ![Example of proper placement of a button](../../static/assets/снимок-экрана-2019-07-08-в-2.37.01.png "Example of proper placement of a button")
 
-And here is a wrong way: 
+And here is the wrong way: 
 
 ![Example of wrong placement of a button](../../static/assets/снимок-экрана-2019-07-08-в-2.37.21.png "Example of wrong placement of a button")
 
-The “Ad is not fully visible” error might also be caused by a pop-up window which appears while loading a site. Prompt, alert and confirm windows normally don't cause an error or cause another error. :)
+The "Ad is not fully visible" error might also be caused by a pop-up window that appears while loading a site. Prompt, alert, and confirm windows normally don't cause an error or cause another error. :)
+If you can avoid pop-up ads, you'd better not use them. 
 
-If you can avoid using pop-up ads, you’d better not used them at all. 
 
-One more probable reason for the error is that your banners are loaded later than your site.
+Another probable reason for the error is that your banners are loaded later than your site.
 
-If the ad unit on your site is placed correctly but doesn’t appear immediately after loading, our bot may consider it invisible, blocked by another element, inaccessible for clicks or not detected at all. In this case, please, contact our support team - we’ll fix the error.
+
+Suppose the ad unit on your site is placed correctly but doesn't appear immediately after loading. In that case, our bot may consider it invisible, blocked by another element, inaccessible for clicks, or undetected. Please get in touch with our support team in this case - we'll fix the error.
 
 ## Ad is unclickable
 
@@ -199,24 +200,24 @@ If your ad unit is a fixed size one, the banner on your site page should match a
 
 ![Size doesn’t match error](../../static/assets/размерdontmatchдва.jpg "Size doesn’t match error")
 
-To fix the error you should adjust an actual size of a banner with the requirements.The required size for your banner is present in the text of the error message (the second size of the two). The first size in the error message will be an actual size of a banner on your site.
+To fix the error, you should adjust an actual size of a banner with the requirements. The required size for your banner is present in the text of the error message (the second size of the two). The first size in the error message will be the actual size of a banner on your site.
 
 ## Cloudflare denies access
 
 ![Cloudflare denies access error](../../static/assets/cloudflare_detected.png "Cloudflare denies access error")
 
-Cloudflare prevents our bot from accessing your site. To fix this please whitelist our server IPs. You can address support to know the IPs to add.
+Cloudflare prevents our bot from accessing your site. To fix this, please whitelist our server IPs. You can address support to know the IPs to add.
 
 ## Unknown error
 
 ![Unknown error](../../static/assets/unknonerror.jpg "Unknown error")
 
-An unexpected error occurred and we cannot identify its origin. It might disappear on its own or it might remain, then you should contact our helpdesk.
+An unexpected error occurred, and we cannot identify its origin. It might disappear on its own or remain, so you should contact our helpdesk.
 
 ## Conclusion
 
-If the issue is likely to be on your side, we encourage you to find the solution before you address the support. You can run our bot after you've fixed the issue to see if the error disappeared.
+If the issue is likely on your side, we encourage you to find the solution before you address the support. You can run our bot after you've fixed the issue to see if the error has disappeared.
 
 ![Check embedded HTML code button](../../static/assets/checkcode.png "Check embedded HTML code button")
 
-If an ad unit code is placed on your site in accordance with the specified requirements, and our bot still cannot find it, please, contact our support team and we will eagerly help you.
+If an ad unit code is placed on your site by the specified requirements, and our bot still cannot find it, please, contact our support team, and we will eagerly help you.
