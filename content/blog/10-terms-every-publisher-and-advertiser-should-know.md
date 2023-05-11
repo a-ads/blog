@@ -1,6 +1,6 @@
 ---
 date: 2023-02-17T09:23:32.710Z
-title: 10 terms every Publisher and Advertiser should know
+title: 10 Terms Every Publisher And Advertiser Should Know
 slug: 10-terms-every-publisher-and-advertiser-should-know
 tags:
   - news
@@ -13,9 +13,17 @@ author: Emmanuel Olatunji
 thumbnail: ../../static/assets/full-25-.png
 big_picture: ../../static/assets/short-20-.png
 popularity: "0"
-meta_title: ""
-meta_description: ""
-meta_keywords: ""
+meta_title: 10 Terms Every Publisher And Advertiser Should Know
+meta_description: Improve your crypto marketing results with an understanding of
+  key terms like clicks, impressions, unique clicks, unique impressions, total
+  budget, daily budget, publisher, ad target, traffic, ad unit, banner
+  advertising, and more. Learn the differences between these terms and how they
+  impact your marketing campaigns. Increase engagement, optimize ad performance,
+  and monetize your traffic effectively.
+meta_keywords: crypto marketing, digital advertising, clicks, unique clicks,
+  impressions, unique impressions, total budget, daily budget, publisher, ad
+  target, traffic, ad unit, banner advertising, engagement, online marketing,
+  crypto advertising.
 json_ld: ""
 ---
 Just like all courses and subjects have terminologies, so does crypto marketing, knowing which will improve your results, whether you want to promote your project or monetize your traffic. These crypto marketing terms are similar to the general marketing terms. Let's have a look at the most popular: 
