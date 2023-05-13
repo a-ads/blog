@@ -13,6 +13,16 @@ category_top_level:
   - Publishers
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/illustration-4-2x.png
+meta_title: How are we different from other cryptocurrency advertising platforms?
+meta_description: Discover how our cryptocurrency advertising platform sets
+  itself apart from the competition. With a focus on privacy, we allow
+  publishers and advertisers to remain anonymous and in control of their
+  personal information. Our ads are also lightweight and non-intrusive, avoiding
+  the use of Javascript or cookies until clicked. Plus, our unique impression
+  system ensures that publishers can maximize their earnings. And with flexible
+  pay-per-day and pay-for-result advertising options, you can fine-tune your
+  campaign for optimal results. Join us today and experience the difference for
+  yourself.
 ---
 **We respect privacy**. First of all - we are an anonymous network. Publisher or advertiser - it is your choice how much personal information to share. As long as your activity is legit, we are OK with your incognito status. Also, our ads don't run javascript, and they don't leave cookies until you click them. 
 
