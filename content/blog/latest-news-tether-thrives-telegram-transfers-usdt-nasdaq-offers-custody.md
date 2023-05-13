@@ -13,7 +13,7 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/full.png
 big_picture: ../../static/assets/short-2-.png
 popularity: ""
-meta_title: ""
+meta_title: "Latest news: Tether Thrives, Telegram Transfers USDT, Nasdaq Offers Custody"
 meta_description: ""
 meta_keywords: ""
 json_ld: ""
