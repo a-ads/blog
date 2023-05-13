@@ -12,6 +12,14 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/undraw_social_girl_562b12обложка.png
 big_picture: ../../static/assets/undraw_social_girl_562b12квадрат.png
+meta_title: Authentication via social networks
+meta_description: Sign in or sign up with ease using social networks such as
+  Twitter, Facebook, and Google. A-ADS ensures minimal personal data is
+  recorded, with only your email address used for security confirmations and
+  notifications. Link your social network accounts to your existing A-ADS
+  account or create an anonymous account if you prefer. Experience a more
+  convenient and streamlined process on A-ADS with social network
+  authentication.
 ---
 To improve the experience of our users, we have implemented authentication via social networks.
 
