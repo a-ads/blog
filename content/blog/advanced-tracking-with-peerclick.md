@@ -13,6 +13,11 @@ category_second_level:
 author: Micheal George
 thumbnail: ../../static/assets/full-6-.png
 big_picture: ../../static/assets/short.png
+meta_title: Advanced tracking with PeerClick
+meta_description: Learn how to integrate PeerClick, a free ad tracking software,
+  with your A-ADS campaign. With our simple step-by-step instructions, you can
+  track, analyze, optimize, and scale your advertising campaigns in real-time.
+  Plus, use promo code "A-ADS" and get $50 on your balance!
 ---
 ![A-ADS logo](../../static/assets/a-ads-logo.png "A-ADS logo")
 
