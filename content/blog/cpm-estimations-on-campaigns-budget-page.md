@@ -11,6 +11,12 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/undraw_personal_finance_tqcобложка.png
 big_picture: ../../static/assets/undraw_personal_finance_tqcdквадрат.png
+meta_title: CPM estimations on campaign's budget page
+meta_description: Discover how A-ADS makes the life of advertisers easier with
+  CPM and CPC estimations visible on the campaign's payment model page. Our
+  guide explains how to use these numbers to adjust your campaign effectively
+  and ensure targeted traffic. Learn how to get actual numbers and optimize your
+  advertising budget with A-ADS.
 ---
 To make our advertisers' lives easier, we've recently implemented an interface amendment: now CPM and CPC estimations for an advertising campaign are visible on a "Campaign -> Payment model" page. So you don't need to count them manually each time you start a campaign or adjust it.
 
