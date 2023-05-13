@@ -11,8 +11,15 @@ category_top_level:
 author: Anastasia Zavershinskaya
 thumbnail: ../../static/assets/illustration-4-2x.png
 big_picture: ""
-meta_title: ""
-meta_description: ""
+meta_title: Advertise with A-ADS
+meta_description: Get your product seen by millions of viewers on thousands of
+  sites worldwide with our advertising network. With relevant traffic sources,
+  anonymous sign-up options, and the ability to pay as much as you like,
+  advertising with A-ADS is simple and effective. Our targeting options include
+  targeting by country, type of ad, and traffic sources, allowing you to adjust
+  your campaign for maximum efficiency. Create a low-budget advertising campaign
+  with wide targeting, enable goal tracking, and reward efficient traffic
+  sources to reach your campaign goals with us!
 meta_keywords: ""
 json_ld: ""
 ---
