@@ -10,6 +10,14 @@ category_top_level:
   - Guides
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/illustration-7.png
+meta_title: How do you get paid as a publisher?
+meta_description: Learn how publishers get paid and the factors that affect
+  their revenue in this comprehensive overview from A-ADS. Discover how ad unit
+  earnings are impacted by unique impressions, clicks, advertising campaigns,
+  content filters, ad unit display rate, ad unit size and location, and traffic
+  quality. Understand the pricing model based on supply and demand for traffic
+  and how it affects revenue. Finally, know that A-ADS does not accept
+  bot-generated traffic and values honest publishers.
 ---
 ## Factors that affect publishers' revenue
 
