@@ -12,8 +12,19 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/full-58-.png
 big_picture: ../../static/assets/short-32-.png
 popularity: "0"
-meta_title: ""
-meta_description: ""
+meta_title: Best ideas for crypto gifts for Christmas. What to give your crypto
+  enthusiast friends
+meta_description: Looking for the perfect gift for your crypto enthusiast
+  friends this Christmas? Look no further! We've put together a list of
+  excellent gift ideas at every price point. Consider practical gifts like
+  hardware wallets, VPN subscriptions, and a crypto price ticker. For a more
+  personalized gift, consider a personalized crypto card or a blog/newsletter
+  subscription. You can also gift a course on blockchain and crypto or a book on
+  the subject. For something more fun, consider NFT mystery boxes, crypto
+  stickers, or crypto home decorations. And if your friend is a philanthropist,
+  consider donating to non-profit organizations that accept crypto donations in
+  their name. No matter what gift you choose, remember that spending time with
+  loved ones is the most precious gift of all. Happy Holidays!
 meta_keywords: ""
 json_ld: ""
 ---
