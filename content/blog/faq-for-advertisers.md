@@ -11,6 +11,12 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/undraw_questions_75eобложка.png
 big_picture: ../../static/assets/undraw_questions_75e0квадрат.png
+meta_title: FAQ for advertisers
+meta_description: Get answers to all your questions about advertising on A-ADS
+  with our comprehensive FAQ. Learn about our accepted ad formats, how to start
+  a campaign, payment models, and more. With no minimum daily budget or deposit
+  amount, A-ADS offers flexibility and ease of use for advertisers. Contact our
+  helpdesk for further assistance and start advertising on A-ADS today!
 ---
 ## What are the accepted ad formats?
 
