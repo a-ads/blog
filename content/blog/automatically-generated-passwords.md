@@ -14,6 +14,14 @@ category_second_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/full-2-.png
 big_picture: ../../static/assets/short-17-.png
+meta_title: Automatically generated passwords
+meta_description: Find out why A-ADS is now generating unique passwords for new
+  users to prevent password reuse and hacking incidents. Learn about the
+  importance of creating strong passwords and the risks of reusing them on
+  multiple sites. Discover how A-ADS is selectively revoking old passwords and
+  providing a link to request a new one if you cannot log in with your old
+  password. Read this article to learn how to enhance your password security and
+  protect your online accounts.
 ---
 
 Many of our users tend to reuse their passwords on multiple sites. Unfortunately, sometimes such passwords get leaked and become publicly available. There have been several incidents where hackers have managed to get into other users' accounts.
