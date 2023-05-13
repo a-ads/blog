@@ -12,6 +12,13 @@ category_second_level:
 author: Yulia Savushkina
 thumbnail: ../../static/assets/full-3-.png
 big_picture: ../../static/assets/short-13-.png
+meta_title: The maximum allowed "Max CPM" is $100,000 now
+meta_description: Learn about the significance of "Max CPM" and how it functions
+  as a filter for Cost-Per-Day advertising campaigns. Discover why there is a
+  limitation for "Max CPM" and why it's essential to protect advertisers from
+  overpaying for traffic. Find out why A-ADS decided to increase the maximum
+  allowed value to $100,000 and how it benefits advertisers. Read this article
+  to get valuable insights on how to optimize your advertising campaigns.
 ---
 # What is "Max CPM"?
 
