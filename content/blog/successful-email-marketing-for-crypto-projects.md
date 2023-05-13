@@ -11,8 +11,14 @@ author: Anna Trifonova
 thumbnail: ../../static/assets/full-55-.png
 big_picture: ../../static/assets/short-30-.png
 popularity: "0"
-meta_title: ""
-meta_description: ""
+meta_title: Successful Email marketing for crypto projects
+meta_description: Discover why email marketing is a valuable strategy for
+  blockchain and crypto projects. Learn about effective email subject lines,
+  subscriber segmentation, and personalization. Explore email marketing
+  statistics and find out how to develop a successful email campaign, create
+  valuable content, optimize CTAs, and use audience segmentation. Read this
+  article to foster loyalty, educate your readers, and build a solid community
+  around your crypto project.
 meta_keywords: ""
 json_ld: ""
 ---
