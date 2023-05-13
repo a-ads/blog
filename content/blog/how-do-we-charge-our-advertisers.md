@@ -10,6 +10,18 @@ category_top_level:
   - Guides
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/illustration-8.png
+meta_title: How do we charge our advertisers?
+meta_description: Ready to start your advertising campaign, but unsure about the
+  necessary funds? With no minimum deposit required, you can start with any
+  amount worthy of a transaction fee. We recommend starting with a small daily
+  budget and testing traffic for several days before increasing it. Your balance
+  on the dashboard shows how much money you have on your account, which is
+  automatically spent to fund your campaign when it runs out of money. Money
+  from the user account is sent to campaigns in portions every 2 hours, with the
+  balance constantly changing. If you don't want your balance money sent to your
+  campaign, you can withdraw it or leave it on the account after setting the
+  campaign daily budget to zero. Plus, we offer discount coupons to long-term
+  partners, reducing fees by 50%. Start your campaign today with A-ADS!
 ---
 We don't have any minimum deposit necessary to start a campaign. You can start with anything worthy of a transaction fee.
 
