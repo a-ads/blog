@@ -40,13 +40,13 @@ One more [success story](https://www.theblock.co/post/214675/base-protocols-toke
 
 This weekend the Solana blockchain experienced [problems](https://www.bloomberg.com/news/articles/2023-02-25/solana-blockchain-hit-by-hours-long-network-slowdown-sol) that caused the network to stand up for several hours. Blockchain developers are trying to find out what exactly caused the problem and promise to tell everyone as soon as they find out. Such things have already happened before since Solana launched in 2020.
 
-![](https://lh5.googleusercontent.com/GC90Akif9qmWR_yqCNZTkVbVyZkSvdBTC-eYDoMLLY7AtKUj7rQJU2uKtuQInq2Auh3ExR-yj8U_ey0SODQnifjY2SeNjVbyzFQiJ-xSq65RBYqXX2P7deFn8Yng0TQZVS1k2OvZiNhOrTFwkwyQOa8)
+![Solana technical problems meme](https://lh5.googleusercontent.com/GC90Akif9qmWR_yqCNZTkVbVyZkSvdBTC-eYDoMLLY7AtKUj7rQJU2uKtuQInq2Auh3ExR-yj8U_ey0SODQnifjY2SeNjVbyzFQiJ-xSq65RBYqXX2P7deFn8Yng0TQZVS1k2OvZiNhOrTFwkwyQOa8 "Solana technical problems meme")
 
 *Source: Twitter* 
 
 The problem was that the validation nodes that help the blockchain operation went into "secure mode," which does not allow any new transactions to go through. It happened because there was insufficient information to ensure the transactions were valid. Without the help of other people, it was impossible to fix the problem, so the decision was made to restart the network. Such a problem already occurred in October 2022.
 
-![](https://lh3.googleusercontent.com/TQpiKAv4mwT0sl_ND7ustni_AYQPNlGsR0Oi5ERqIdjISimMI4WuZpdqwnVE3wP8--XYEGuBj9o7OkXHcCrRJ6g6SrR-id1Ba29bRGFKgS2b9u3y7GT9D3DnLa-VKhgWqYQrdGjsjMYd8mMqxDB3sIs)
+![Solana (SOL) One-Year Price Chart](https://lh3.googleusercontent.com/TQpiKAv4mwT0sl_ND7ustni_AYQPNlGsR0Oi5ERqIdjISimMI4WuZpdqwnVE3wP8--XYEGuBj9o7OkXHcCrRJ6g6SrR-id1Ba29bRGFKgS2b9u3y7GT9D3DnLa-VKhgWqYQrdGjsjMYd8mMqxDB3sIs "Solana (SOL) One-Year Price Chart")
 
 *Source: Bloomberg.com*
 
