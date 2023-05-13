@@ -12,6 +12,15 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/undraw_decide_3iwxобложка.png
 big_picture: ../../static/assets/undraw_decide_3iwxквадрат.png
+meta_title: "New features for advertisers: Start / Pause / Clone and Rename!"
+meta_description: Exciting news for our advertisers! We have added new features
+  to make managing your campaigns easier. You can now rename your campaigns and
+  clone them with the click of a button. Starting and pausing campaigns is also
+  made simple with our user dashboard or the "Campaign -> Details" page. New
+  campaigns will have a default name, but you can easily change it on the
+  "Campaign -> Details" page. The campaign ID will still be present in the URL.
+  Our aim is to make advertising with us as user-friendly as possible, and we
+  hope you find these features helpful.
 ---
 We've deployed new features for advertisers: you can now start, pause, clone, and rename your advertising campaigns.
 
