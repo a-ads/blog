@@ -13,8 +13,13 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/full.png
 big_picture: ../../static/assets/short-2-.png
 popularity: ""
-meta_title: ""
-meta_description: ""
+meta_title: "Latest news: Tether Thrives, Telegram Transfers USDT, Nasdaq Offers Custody"
+meta_description: Stay informed with the latest news in the cryptocurrency
+  world. Nasdaq plans to launch a crypto custody service for Bitcoin and
+  Ethereum, while Telegram introduces the ability to transfer USDT within its
+  messaging platform. Tether, the leading stablecoin issuer, thrives amidst
+  market challenges, anticipating significant profits and increased holdings.
+  Stay updated on industry developments and trends.
 meta_keywords: ""
 json_ld: ""
 ---
