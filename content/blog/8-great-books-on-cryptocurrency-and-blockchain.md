@@ -11,8 +11,14 @@ author: Danil Persky
 thumbnail: ../../static/assets/full-2-.png
 big_picture: ../../static/assets/short-1-.png
 popularity: "0"
-meta_title: ""
-meta_description: ""
+meta_title: 8 great books on cryptocurrency and blockchain
+meta_description: Discover the top eight books on cryptocurrency and blockchain
+  to enhance your knowledge during the holiday season. From cryptography
+  essentials to comprehensive introductions and future predictions, these books
+  cover a range of topics. Learn about the technology behind Bitcoin, the impact
+  on the financial industry, and the potential of security tokens. Whether
+  you're a beginner or seeking advanced insights, these books will expand your
+  understanding of the blockchain revolution.
 meta_keywords: ""
 json_ld: ""
 ---
