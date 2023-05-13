@@ -14,6 +14,15 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/undraw_authentication_fsn5обложка.png
 big_picture: ../../static/assets/undraw_authentication_fsn5квадрат.png
+meta_title: Anonymous accounts for unregistered users
+meta_description: Learn about the new sign-up and sign-in webpages for
+  unregistered users with our informative article. Discover how an anonymous
+  account is created automatically upon the creation of ad units and campaigns,
+  and how to manage it using the access code. Our article explains how to
+  specify email, username, and password for your unregistered account and how to
+  transition into a registered user for security reasons. Don't miss out on the
+  benefits of a registered account - read our article on anonymous accounts for
+  unregistered users today!
 ---
 We are pleased to announce that we now have new [sign-up](https://a-ads.com/user/sign_up#!access-code) and [sign-in](https://a-ads.com/user/sign_in#!access-code) webpages for those using the access code, i.e., unregistered users.
 
