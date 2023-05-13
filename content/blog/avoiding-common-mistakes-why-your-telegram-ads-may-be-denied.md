@@ -12,7 +12,7 @@ author: Yulia Savushkina
 thumbnail: blog/assets/avoiding-common-mistakes_-why-your-telegram-ads-may-be-denied.png
 big_picture: blog/assets/short-11-.png
 popularity: ""
-meta_title: ""
+meta_title: "Avoiding Common Mistakes: Why Your Telegram Ads May Be Denied"
 meta_description: ""
 meta_keywords: ""
 json_ld: ""
