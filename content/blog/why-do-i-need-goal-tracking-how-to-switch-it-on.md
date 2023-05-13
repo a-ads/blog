@@ -11,6 +11,12 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/undraw_progress_tracking_7hvkобложка.png
 big_picture: ../../static/assets/undraw_progress_tracking_7hvkква.png
+meta_title: Why do I need Goal tracking? How to switch it on?
+meta_description: Learn how to optimize your A-ADS campaign with goal tracking.
+  Enable the feature to gain valuable insights on your traffic sources and
+  exclude bad ad units. With our easy-to-follow guide, you can set up goal
+  tracking in minutes and start making data-driven decisions to boost your
+  campaign's performance. Don't miss out on this powerful tool!
 ---
 ## Why goal tracking?
 
