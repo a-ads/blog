@@ -12,6 +12,13 @@ category_second_level:
 author: Micheal George
 thumbnail: ../../static/assets/full-1-.png
 big_picture: ../../static/assets/short-12-.png
+meta_title: Tracking Integration With Binom
+meta_description: Integrate tracking with Binom, the affiliate tracker for
+  efficient traffic planning and management. Follow our step-by-step guide to
+  create a traffic source, offer, and campaign in Binom, and configure your
+  A-ADS campaign with goal tracking enabled. Check campaign performance
+  statistics and optimize your affiliate marketing for profitability in any
+  niche or country.
 ---
 ## What is Binom?
 
