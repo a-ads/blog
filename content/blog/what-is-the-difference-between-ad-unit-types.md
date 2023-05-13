@@ -11,6 +11,13 @@ category_top_level:
 category_second_level: []
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/img3.png
+meta_title: What is the difference between ad unit types?
+meta_description: Understand the difference between "Site," "App," and
+  "Affiliate" ad unit types with our comprehensive guide. Learn how each type
+  works and how they can be used to maximize your earnings potential. Whether
+  you're looking to advertise on a site or mobile app, or create affiliate links
+  for campaigns, our article has you covered. Discover the pros and cons of each
+  ad unit type and how to make the most of them.
 ---
 Most of our ad units have "**Site**" type. They are for text and graphical banners built into site code and shown at sites. Our algorithms check the ad placement of sites and enable advertisers to target them by category.  See [how to place A-ADS ad units HTML code](https://a-ads.com/blog/2019-06-17-how-to-place-an-ad-unit-code-correctly/).
 
