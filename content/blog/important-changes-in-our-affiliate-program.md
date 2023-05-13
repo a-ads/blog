@@ -13,6 +13,17 @@ category_top_level:
   - Publishers
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/illustration-2.png
+meta_title: Important changes in our affiliate program
+meta_description: Discover the latest changes to A-ADS's affiliate program and
+  how it can benefit you. In response to the evolving needs of our users, we
+  have made significant changes to our affiliate program to improve its
+  functionality. Referral relationships between affiliates and advertisers are
+  now based on both ads and user accounts created via affiliate links, ensuring
+  a more seamless and accurate process. Affiliate rewards will now be paid from
+  all advertising campaigns of referred advertisers during a six-month period
+  from their registration. These changes came into effect on May 1st, and we
+  look forward to providing you with a more comprehensive and effective
+  affiliate program.
 ---
 [Our affiliate program](https://a-ads.com/blog/2018-10-04-become-our-affiliate-partner-and-take-50-of-our-fees/) is pretty old, it has been working without a change since 2013. At that time our system was "append-only", there were no user accounts and our users had to create new anonymous ads and ad units each time they wanted to edit anything. Affiliate payouts were life-long but worked only for ads created via referral links.
 
