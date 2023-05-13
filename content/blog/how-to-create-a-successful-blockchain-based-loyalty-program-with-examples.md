@@ -12,7 +12,7 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/how-to-create-a-successful-blockchain-based-loyalty-program-with-examples.png
 big_picture: ../../static/assets/short-6-.png
 popularity: ""
-meta_title: ""
+meta_title: How to Create a Successful Blockchain-Based Loyalty Program with Examples
 meta_description: ""
 meta_keywords: ""
 json_ld: ""
