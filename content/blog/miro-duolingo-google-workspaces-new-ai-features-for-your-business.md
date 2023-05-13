@@ -11,7 +11,7 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/tools-roundups-22.03.png
 big_picture: ../../static/assets/short-13-.png
 popularity: "0"
-meta_title: ""
+meta_title: Miro, Duolingo, and Google Workspace's new AI features for your business
 meta_description: ""
 meta_keywords: ""
 json_ld: ""
