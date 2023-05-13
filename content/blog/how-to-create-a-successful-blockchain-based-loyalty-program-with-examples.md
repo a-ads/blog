@@ -13,7 +13,13 @@ thumbnail: ../../static/assets/how-to-create-a-successful-blockchain-based-loyal
 big_picture: ../../static/assets/short-6-.png
 popularity: ""
 meta_title: How to Create a Successful Blockchain-Based Loyalty Program with Examples
-meta_description: ""
+meta_description: Discover how to create a successful blockchain-based loyalty
+  program with examples. Learn key metrics to evaluate program effectiveness,
+  such as increased customer retention and engagement, higher average order
+  value, positive ROI, and customer satisfaction. Explore successful examples
+  including AirAsia BIG, Rakuten Coin, Starbucks Rewards, Binance Coin, and
+  Sephora Beauty Insider. Implement blockchain technology to enhance
+  transparency, security, and customer loyalty in your business.
 meta_keywords: ""
 json_ld: ""
 ---
