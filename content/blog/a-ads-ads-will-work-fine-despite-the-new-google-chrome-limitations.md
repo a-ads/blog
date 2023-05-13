@@ -17,6 +17,16 @@ author: Olga Ostrovskaya
 thumbnail: ../../static/assets/full-15-.png
 big_picture: ../../static/assets/short-7-.png
 popularity: "5000"
+meta_title: A-ADS ads will work fine despite the new Google Chrome limitations
+meta_description: Stay compliant with Google Chrome's new ad limitations and
+  ensure your ads are seen with A-ADS. With no JavaScript allowed, our network
+  only permits text or image ads, ensuring user CPUs are never stressed. Plus,
+  our image-based ads are limited to less than one megabyte, well below Google's
+  four-megabyte limit. Our ad delivery servers are optimized for the highest
+  possible speeds, giving you the assurance that your ads will be delivered to
+  users quickly and efficiently. As one of the most popular internet browsers,
+  compliance with Google Chrome's new limitations is crucial, and A-ADS makes it
+  easy.
 ---
 Google Chrome developers have recently <a href="https://developers.google.com/web/updates/2020/05/heavy-ad-interventions" rel="nofollow">introduced new limitations in terms of displaying ads to the user</a>. For instance, the ads that create a very high network or processor load will be blocked and never shown.
 
