@@ -11,6 +11,16 @@ category_top_level:
 author: Yulia Savushkina
 thumbnail: ../../static/assets/undraw_invest_88iw.png
 big_picture: ../../static/assets/undraw_invest_88iw-1-.png
+meta_title: How does daily budget work?
+meta_description: Looking for an advertising network that offers a unique
+  payment scheme? Our pay-per-day model allows advertisers to set a daily budget
+  and receive a share of impressions proportional to their spendings. However,
+  traffic volume and price are not fixed and depend on supply and demand. The
+  market forms the price, so there is always a trade-off between volume, price,
+  pace, and quality of traffic received. To prevent overspending, advertisers
+  can set a "Max CPM" limit. It's important to use broader targeting and lower
+  daily budgets for a more predictable and satisfying CPM. Always check campaign
+  performance estimates after making any adjustments to campaign settings.
 ---
 A-ADS default payment scheme is pay-per-day. It is quite unusual and works as follows.
 
