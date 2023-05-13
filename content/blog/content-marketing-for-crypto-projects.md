@@ -11,8 +11,19 @@ author: Anna Trifonova
 thumbnail: ../../static/assets/full-48-.png
 big_picture: ../../static/assets/short-25-.png
 popularity: "0"
-meta_title: ""
-meta_description: ""
+meta_title: Content marketing for crypto projects
+meta_description: Looking to boost your crypto project's brand visibility and
+  build a strong community? Consider implementing a content marketing strategy!
+  This involves researching, creating, publishing, and distributing valuable
+  information to attract NFT holders, investors, and community members. When
+  done well, content marketing provides value to users, raises brand visibility,
+  and builds trust. However, it's important to keep in mind digital fatigue and
+  the preferred post length of under 1,000 words. To get started, learn about
+  your target audience, define what makes your project stand out, think about
+  marketing channels and create a plan, and define metrics to measure success.
+  Don't forget to check out examples of great content marketing from various
+  companies and influencers, and remember that content marketing isn't always
+  the best fit for every business.
 meta_keywords: ""
 json_ld: ""
 ---
