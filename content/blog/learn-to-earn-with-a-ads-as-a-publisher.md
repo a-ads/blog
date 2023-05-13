@@ -10,6 +10,18 @@ category_top_level:
   - Publishers
 author: Anastasia Zavershinskaya
 thumbnail: https://stg.int.a-ads.com../../static/assets/illustration-3.png
+meta_title: Learn to earn with A-ADS as a publisher
+meta_description: Join A-ADS today and get a share of our advertising budget
+  pie! As an advertiser, you'll pay only a fixed 20% fee while the rest goes to
+  our publishers. And, if new advertisers join through your affiliate link,
+  you'll receive 50% of our fee. We're looking for genuine human traffic, so if
+  you have a website, blog or app with real visitors, we're happy to connect you
+  with our numerous advertising campaigns. Create an advertising unit in less
+  than a minute, and your account will accumulate all your ad units and
+  campaigns. With our focus on unique impressions, the more quality traffic you
+  have, the better your earning prospects. Plus, advertisers can reward ad units
+  for useful actions. Let us help you grow your web project successfully by
+  learning how to properly place A-ADS ad units on your website.
 ---
 Come on board and have a share of our sweet advertising budget pie! 
 
