@@ -14,7 +14,7 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/data-driven-advertising_-how-to-measure-the-success-of-your-crypto-campaign.png
 big_picture: ../../static/assets/short-5-.png
 popularity: ""
-meta_title: ""
+meta_title: "Data-Driven Advertising: How to Measure the Success of Your Crypto Campaign"
 meta_description: ""
 meta_keywords: ""
 json_ld: ""
