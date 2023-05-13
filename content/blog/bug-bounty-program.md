@@ -9,6 +9,19 @@ category_top_level:
   - Guides
 author: Yulia Savushkina
 thumbnail: ../../static/assets/illustration-3.png
+meta_title: Bug bounty program
+meta_description: Looking to help enhance the security of our operations? We
+  welcome security reports from professional researchers and beginners alike. To
+  ensure that your report is useful and actionable, please provide information
+  on how the vulnerability you've discovered could be used, its impact, and all
+  pertinent details. Be sure to include exact steps on how the vulnerability can
+  be exploited and how we can reproduce the issue. We'd also appreciate a
+  demonstration of the attack that won't affect our existing users. Please
+  submit the bug report via our support channels and in any language you prefer.
+  Monetary rewards will be paid in bitcoins at our discretion, and known
+  vulnerabilities listed in our Knowledge Base are not eligible. Help us find
+  flaws in our code by clicking "Report a bug" on our website, and join our Hall
+  of Fame!
 ---
 The security of our operations is our highest priority for many reasons: we're dealing with our clients’ money, we must protect our partners' privacy, and we have our own reputation at stake. Either you are a professional security researcher or just a beginner, we welcome your security reports. However we'd love them to be useful and actionable, that's why we have certain recommendations in their regard.
 
