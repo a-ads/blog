@@ -12,8 +12,16 @@ author: Anna Trifonova
 thumbnail: ../../static/assets/full-51-.png
 big_picture: ../../static/assets/short-28-.png
 popularity: "0"
-meta_title: ""
-meta_description: ""
+meta_title: Should you outsource marketing or hire your own team?
+meta_description: Deciding whether to outsource your marketing team or hire
+  in-house requires careful consideration of your business needs and goals.
+  Learn the pros and cons of outsourcing, when to consider it, and the risks
+  involved. Discover the strategies you can use, such as outsourcing specialized
+  functions or keeping all functions in-house. Understand the tasks you can
+  outsource, from content marketing to marketing analytics. Finally, ask the
+  right questions to decide whether to hire in-house or outsource, including
+  assessing your current team's strengths and weaknesses and determining the
+  best marketing strategy for your business.
 meta_keywords: ""
 json_ld: ""
 ---
