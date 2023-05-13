@@ -29,9 +29,9 @@ Mobile banner ads usually stick on the page when users browse the content. You c
 
 This piece of advice is simple: the higher the quality of your pictures, the higher the responsiveness. To achieve the best results, avoid using ads with blurry, vague, unclear images, including a border, color-inverted, or massively filtered. 
 
-![](../../static/assets/1.1.png)
+![To achieve the best results, avoid using ads with blurry, vague, unclear images, including a border, color-inverted, or massively filtered. ](../../static/assets/1.1.png "Optimal responsive ad example")
 
-![](../../static/assets/1.2.png)
+![To achieve the best results, avoid using ads with blurry, vague, unclear images, including a border, color-inverted, or massively filtered. With Logo. ](../../static/assets/1.2.png "Optimal responsive ad example")
 
 Instead, add a good logo of the advertiser's brand along with a headline or descriptive text. Moreover, formats like interstitials and video are more suitable for mobile ads than simple banner ads. 
 
@@ -43,7 +43,7 @@ Testing different banner sizes can help you find what works best for you. 
 
 Some sizes help increase ad impressions, and others achieve better CTR or an engaging user experience. Depending on the payment method used by your ad network (CPC/CPM/CPA), test out different sizes and check which one gives you the most earnings. For that, use A/B tests and compare your results. 
 
-![](../../static/assets/2.1.png)
+![3 different ad formats](../../static/assets/2.1.png "3 different ad formats")
 
 The most popular and often used banner ad sizes are medium rectangle (300×250), leaderboard (728×90), and a wide skyscraper (160×600).
 
@@ -57,9 +57,9 @@ Given this variety, it can be a good idea to experiment with different types of 
 
 A call-to-action button convinces visitors to click on the ad and leads them to the landing page. It would help if you made this button more attractive and visible to get more transfers from the ad button to the website. So users can easily find it on the ad babber, get interested in learning more information, and then go to the website.
 
-![](../../static/assets/3.1.png)
+![A call-to-action button on an ad](../../static/assets/3.1.png "A call-to-action button on an ad")
 
-![](../../static/assets/3.2.png)
+![A call-to-action button on an ad](../../static/assets/3.2.png "A call-to-action button on an ad")
 
 ### 6. Track and measure ads' results
 
