@@ -13,6 +13,15 @@ category_second_level:
 author: Micheal George
 thumbnail: ../../static/assets/full-10-.png
 big_picture: ../../static/assets/short-8-.png
+meta_title: Advanced Tracking with Voluum
+meta_description: Take your online campaign tracking to the next level with
+  Voluum's advanced analytics platform. Designed specifically for performance
+  marketers and advertisers, Voluum lets you monitor your campaigns in real-time
+  and optimize for maximum profitability. Plus, as an A-ADS user, you can take
+  advantage of up to 37% discounts on Voluum services. With easy integration
+  instructions and powerful features, including goal tracking and partner
+  parameters, Voluum is the ultimate solution for managing all your advertising
+  campaigns in one place. Follow our step-by-step guide to get started today!
 ---
 [Voluum](https://voluum.com/partner/a-ads/) is an innovative, real-time analytics platform for tracking online campaigns. The system designed by Codewise is for the use of performance marketers and individual advertisers who want to monitor the progress and profitability of their campaigns.
 
