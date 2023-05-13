@@ -10,6 +10,10 @@ category_top_level:
   - Guides
 author: Anastasia Zavershinskaya
 thumbnail: ../../static/assets/illustration-5-2x.png
+meta_title: How does our bot work for your own good
+meta_description: Discover how our bot works for your own good. Learn why it's
+  important to put the exact URL in your ad unit info, and why our bot looks for
+  ad units at your specified URLs.
 ---
 ## Why you should put the exact URL in your ad unit info.
 
