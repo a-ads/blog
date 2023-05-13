@@ -12,7 +12,8 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/tools-roundups.png
 big_picture: ../../static/assets/short-4-.png
 popularity: ""
-meta_title: ""
+meta_title: Streamline Your Workflow with These Innovative Design and Social
+  Media Platforms
 meta_description: ""
 meta_keywords: ""
 json_ld: ""
