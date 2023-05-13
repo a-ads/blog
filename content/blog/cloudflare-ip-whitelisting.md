@@ -12,6 +12,11 @@ category_second_level:
 author: Micheal George
 thumbnail: ../../static/assets/full-13-.png
 big_picture: ../../static/assets/short-3-.png
+meta_title: Cloudflare IP Whitelisting
+meta_description: Learn how to eliminate the "Cloudflare prevents our bot from
+  accessing your site" error by whitelisting our IPs in your Cloudflare account.
+  Follow these simple steps to ensure that your website can be accessed without
+  any issues and improve your site's overall security.
 ---
 If you are experiencing the “Cloudflare prevents our bot from accessing your site” error as seen in the image below.
 
