@@ -11,6 +11,14 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/undraw_investing_7u74-обложка.png
 big_picture: ../../static/assets/undraw_investing_7u74.png
+meta_title: What is CPM for my campaign?
+meta_description: Understand how CPM, or cost per thousand advertising
+  impressions, can be used as a performance indicator for your A-ADS campaign
+  with our informative article. Learn how to calculate actual CPM using the
+  spendings and number of unique impressions, and why it's not a constant value.
+  Our article also explains the uniqueness of A-ADS traffic and how to work on
+  fixed CPM terms using our CPM bids. Ensure your advertising campaign is
+  successful - read our article on CPM for your campaign today!
 ---
 Although A-ADS is not a pay-per-impression network, advertisers often regard CPM as one of the major performance indicators for their campaigns. CPM stands for cost per mille, or cost per thousand advertising impressions. You can count it using the formula:
 
