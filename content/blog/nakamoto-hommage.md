@@ -1,14 +1,26 @@
 ---
-author: Yulia Savushkina
 date: 2019-05-13T09:53:46.756Z
 title: Nakamoto Hommage
 slug: nakamoto-hommage
 tags:
   - news
 category: Stories
-thumbnail: ../../static/assets/img3.png
 category_top_level:
   - News & Trends
+author: Yulia Savushkina
+thumbnail: ../../static/assets/img3.png
+meta_title: Nakamoto Hommage
+meta_description: With the Bitcoin halving just hours away, many are curious
+  about its potential impact on the Bitcoin price and adoption. While it remains
+  to be seen, the hype around the halving has already caused a surge in Bitcoin
+  exposure in the media, leading to a recent price increase. The halving has
+  even inspired modern composer Boris Filanovsky to resume his experimental
+  musical form, "Infinite Superposition," which grows similar to the Bitcoin
+  blockchain. Filanovsky is offering to name his next iteration of the form
+  after whoever donates 125 euros on Paypal labeled "DM#7," and Bitcoin
+  donations are also welcome. While previous attempts to crowdfund the musical
+  form with Bitcoin were unsuccessful, we hope to see it continue to grow with
+  the help of the Bitcoin community.
 ---
 ## Let the music last forever!
 
