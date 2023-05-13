@@ -11,6 +11,17 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/undraw_select_option_y75iобложка.png
 big_picture: ../../static/assets/undraw_select_option_y75iквадрат.png
+meta_title: Campaign types
+meta_description: "Learn about the three payment models offered by A-ADS for
+  advertisers: CPM (cost per mille), CPA (cost per action), and CPD (cost per
+  day). While previously campaigns could mix models, A-ADS now recommends using
+  only one model per campaign for simplicity and better management. The default
+  model is CPD, which allows predictable expenses, control over which ad units
+  display your ads, and protection against fake traffic. CPM is suitable for
+  geo-targeting, but quality cannot be guaranteed. CPA and revenue sharing
+  campaigns are available to trusted advertisers who integrate with A-ADS'
+  server-to-server API. Switching models is possible before funding a campaign,
+  but not once it has started."
 ---
 ## Overview
 
