@@ -47,7 +47,7 @@ In 2022, despite the bankruptcies of major market players and the decrease in th
 
 An increase in transactions with [Avalanche-based NFTs partly drove](https://www.coindesk.com/tech/2023/02/14/avalanche-blockchain-saw-1500-transactional-growth-in-2022-nansen/) the increase in volumes. The network is recovering and ready for new projects, said research analyst Nansen. 
 
-![](https://lh4.googleusercontent.com/FG1zlP94BrlmPCKu1J3Ll2Mcby_HE88O04cMaRg6Wp9JesT_jmRVQZV7I01B5h-zC4u6cPxbGhhZ62JTVqXWg1tZvOYFla3esGueEl7tgImvixxHSkCGpR3qxCGi5-C3TSzL0_aWRcp8F74U-bEIrc0)
+![Avalanche Cumulative Tx Count](https://lh4.googleusercontent.com/FG1zlP94BrlmPCKu1J3Ll2Mcby_HE88O04cMaRg6Wp9JesT_jmRVQZV7I01B5h-zC4u6cPxbGhhZ62JTVqXWg1tZvOYFla3esGueEl7tgImvixxHSkCGpR3qxCGi5-C3TSzL0_aWRcp8F74U-bEIrc0 "Avalanche Cumulative Tx Count")
 
 ## Cardano's "Valentine" upgrades 
 
