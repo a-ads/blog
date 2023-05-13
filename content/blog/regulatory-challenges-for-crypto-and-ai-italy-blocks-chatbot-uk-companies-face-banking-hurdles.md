@@ -12,7 +12,8 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/full-2-.png
 big_picture: ../../static/assets/short-7-.png
 popularity: ""
-meta_title: ""
+meta_title: "Regulatory Challenges for Crypto and AI: Italy Blocks Chatbot, UK
+  Companies Face Banking Hurdles"
 meta_description: ""
 meta_keywords: ""
 json_ld: ""
