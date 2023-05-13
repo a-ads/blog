@@ -12,8 +12,16 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/full-12-.png
 big_picture: ../../static/assets/short-9-.png
 popularity: "0"
-meta_title: ""
-meta_description: ""
+meta_title: "Latest news: Microsoft Crypto Wallet, Coinbase Outside U.S., and
+  ChatGPT vs Labour Market"
+meta_description: Read about Microsoft's secret crypto wallet found in the Edge
+  browser, Coinbase's plan to launch a crypto exchange platform outside the US,
+  and how ChatGPT is set to change the labor market with its AI technology. The
+  wallet allows for crypto payments and DeFi and Web3 app integration, while
+  Coinbase is looking to offer a platform for global clients away from their
+  central marketplace. OpenAI CEO Sam Altman warns that ChatGPT could eliminate
+  many current jobs, but his team sees it as a "co-pilot" that can assist in any
+  field.
 meta_keywords: ""
 json_ld: ""
 ---
