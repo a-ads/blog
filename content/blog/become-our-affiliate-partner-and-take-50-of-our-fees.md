@@ -11,6 +11,16 @@ category_top_level:
   - Guides
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/illustration-2.png
+meta_title: Become our affiliate partner and take 50% of our fees!
+meta_description: Join our affiliate program and earn 50% of our fees! With
+  A-ADS, you can invite others to advertise with us and receive 10% of their
+  spending. By using a referral link and tracking cookies, you can earn
+  commissions on your referrals for 6 months after they create a campaign or
+  user account. Our payouts are transparent and can be viewed on our website.
+  Creating an affiliate ad unit is easy and can be done through our website. Any
+  ad unit can work as an affiliate link, and our affiliate ad displayed on your
+  site works as an affiliate link by default. Don't miss out on this opportunity
+  to earn money - become our affiliate partner today!
 ---
 If you invite others to advertise with A-ADS, you can count on 10% of money spent by them. When somebody follows your partner link, we use a cookie to track his activity. An advertiser is considered your referral for 6 months after he creates a campaign or a user account via your link. Our payouts are transparent and you can see them here: <https://a-ads.com/campaigns/1/goals>
 
