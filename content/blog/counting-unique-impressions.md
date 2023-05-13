@@ -11,6 +11,12 @@ category_top_level:
   - Guides
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/illustration-6.png
+meta_title: Counting unique impressions
+meta_description: Learn what we mean by "unique impressions" if you're
+  interested in becoming our publisher. Discover how our stats differ from
+  Google Analytics and why absolute numbers don't mean much. With our network,
+  your earnings depend on the share of the network-wide unique impressions you
+  generate.
 ---
 If you [want to become our publisher](https://a-ads.com/ad_units/new), you might be interested to learn what we mean by "unique impressions".
 
