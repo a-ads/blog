@@ -29,9 +29,9 @@ Mobile banner ads usually stick on the page when users browse the content. You c
 
 This piece of advice is simple: the higher the quality of your pictures, the higher the responsiveness. To achieve the best results, avoid using ads with blurry, vague, unclear images, including a border, color-inverted, or massively filtered. 
 
-![To achieve the best results, avoid using ads with blurry, vague, unclear images, including a border, color-inverted, or massively filtered. ](../../static/assets/1.1.png "Optimal responsive ad example")
+![To achieve the best results, avoid using ads with blurry, vague, unclear images, including a border, color-inverted, or massively filtered](../../static/assets/1.1.png "Optimal responsive ad example")
 
-![To achieve the best results, avoid using ads with blurry, vague, unclear images, including a border, color-inverted, or massively filtered. With Logo. ](../../static/assets/1.2.png "Optimal responsive ad example")
+![To achieve the best results, avoid using ads with blurry, vague, unclear images, including a border, color-inverted, or massively filtered. With Logo](../../static/assets/1.2.png "Optimal responsive ad example")
 
 Instead, add a good logo of the advertiser's brand along with a headline or descriptive text. Moreover, formats like interstitials and video are more suitable for mobile ads than simple banner ads. 
 
