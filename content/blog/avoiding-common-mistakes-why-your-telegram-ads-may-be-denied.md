@@ -20,7 +20,11 @@ meta_description: Learn how to avoid common mistakes that lead to ad rejection
   descriptions, and create interactive bots to ensure your ads are approved.
   Stay compliant and maximize the effectiveness of your Telegram advertising
   campaigns.
-meta_keywords: ""
+meta_keywords: Telegram, ad blocking, ad rejection, profanity, explicit content,
+  shocking content, non-certified services, plagiarism, deceptive advertising,
+  incorrect text formatting, broad or vague descriptions, repetition of words
+  and phrases, comparative or superlative degrees, advertisements of Telegram's
+  competitors, problem with the link to the channel or bot, useless bot
 json_ld: ""
 ---
 <!--StartFragment-->
