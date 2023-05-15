@@ -11,7 +11,7 @@ category_second_level:
   - How To
 author: Emmanuel Olatunji
 thumbnail: blog/assets/full.png
-big_picture: blog/assets/short5.png
+big_picture: blog/assets/short.png
 popularity: "0"
 meta_title: 4 easy steps on how to start earning as a publisher
 meta_description: Join A-ADS as a publisher and earn from our ad network by
@@ -39,7 +39,7 @@ We retain a fixed 20% fee on any advertising budget, while the rest goes to our 
 
 Now let’s check how to earn as a Publisher:
 
-### 1. Create your account
+### 1. Create Your Account
 
 Go to this page, [a-ads.com,](https://a-ads.com/) at the top right corner, click Sign up and input your email. Your password will be sent to your email then you can log in with it. 
 
@@ -59,11 +59,11 @@ Click on create an ad unit on the homepage or click [here](https://a-ads.com/ad_
 
 Placing your ad unit code on your website and blog requires a guide. Please read this on [how to place ad unit code.](https://a-ads.com/blog/how-to-place-an-ad-unit-code-correctly/)
 
-### 4. Set up your withdrawal details
+### 4. Set Up Your Withdrawal Details
 
 [﻿Сlick here](https://a-ads.com/blog/how-to-change-and-confirm-a-withdrawal-address/) and follow the instructions on how to set up your funds. 
 
-**K﻿indly note**
+**K﻿indly Note**
 
 We are not a pay-per-click or pay-per-impression network. We distribute Advertisers' budgets to ad units targeted by them concerning various metrics. 
 
