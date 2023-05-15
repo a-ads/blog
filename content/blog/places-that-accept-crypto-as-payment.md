@@ -71,6 +71,8 @@ Gift cards can be an excellent present for friends and family. Big giants, such 
 
 ![Video Games](blog/assets/pexels-rdne-stock-project-7915357.jpg "Video Games")
 
+*Source: Pexels.com*
+
 Companies like Microsoft have recently started offering games or pre-order video games and other apps for bitcoin. Others like this Minecraft Server are even using the bitcoin network to power their in-game currency. 
 
 [BitPay](http://btfreelancer.net/) is also one of the most well-known platforms that accept crypto payments. Users can buy games with bitcoin via the BitPay app by topping their cards up with funds and then buying games or gaming gift cards via any vendor that accepts BitPay at checkout.
