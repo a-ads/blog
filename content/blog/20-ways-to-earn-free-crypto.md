@@ -127,21 +127,21 @@ This famous multinational social trading platform offers new investors a $10 sig
 
 This platform works with companies that want to advertise their apps, surveys, and products. The users of Free cash can earn up to $100 or more per month if they take simple surveys on different companies and test apps. Then, the platform pays you in whichever form of currency you choose. Usually, users can expect to earn $1 per 5 to 10-minute offer and instantly cash out their crypto for PayPal, VISA cards, Bitcoin, CS: GO Skins, Amazon gift cards, and multiple other gift cards.
 
-![](../../static/assets/full-18-.png)
+![Crypto Cash Back ](../../static/assets/full-18-.png "Crypto Cash Back ")
 
 ### 11. Bitcoin Mining Pool 
 
 As mining has become way too expensive for many, users still have a chance to join Bitcoin Mining Pools, groups operated and organised by third parties to manage hash power from miners worldwide. Some popular pools are [Slush Pool](https://braiins.com/pool) or [F2pool](https://www.f2pool.com). These platforms share the resulting Bitcoin ratio to the hash power that is contributed to this pool.
 
-### 12. Bitcoin faucets
+### 12. Bitcoin Faucets
 
 For those who, due to different reasons, can not purchase crypto, they can use crypto faucets and earn some rewards. Users must complete simple tasks such as playing games or answering questions. Some popular faucet sites are [Bitcoin Aliens](https://bitcoinaliens.com), Cointiply, and Altcoins.pw.
 
-### 13. Sell goods for bitcoin
+### 13. Sell Goods For Bitcoin
 
 You have several options if you want to find customers interested in buying goods or services. First, you can use an online marketplace compatible with cryptocurrency transactions. Secondly, you can use a website that facilitates online freelancing and accepts cryptocurrency payments, for example, [XBitFreelancer.](https://xbtfreelancer.net/) But also, please be careful as there are plenty of scams and fraudulent activities.
 
-### 14. Browser and search engine rewards
+### 14. Browser And Search Engine Rewards
 
 Some search engines and browsers, such as [Brave](https://brave.com/ru/) and [Presearch,](https://presearch.com/) offer rewards in crypto if users watch ads or seek some information using these browsers. This is a relatively simple way to earn some cryptocurrency without much effort. 
 
@@ -151,7 +151,7 @@ If you stream games, create art and music, write novels, or do blogging, you can
 
 All you need to do is set up a wallet address and a QR code to receive donations in crypto.
 
-### 16. Write about products
+### 16. Write About Products
 
 For those with solid knowledge of a particular product or an industry, some companies can pay crypto for your feedback, thoughts, or blog posts. 
 
