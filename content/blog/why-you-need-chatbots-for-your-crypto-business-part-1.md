@@ -43,7 +43,7 @@ In this article, we will explain what chatbots are and what they are used for in
 
 In Part 2, we will look at successful business cases with chatbots and marketing strategies you can implement into your crypto business. 
 
-## What are chatbots?
+## What Are Chatbots?
 
 Chatbots are an excellent tool for automating marketing processes. From simple customer service bots, they differ in efficiency: instead of passive communication, they can initiate a dialogue, recommend relevant products at the right time, talk about new promotions/discounts, or reactivate "sleeping" customers. At the same time, chatbots do not need the support of a live operator-consultant, at least at the first stage of the funnel.
 
@@ -51,7 +51,7 @@ Marketing chatbots are usually designed to respond to specific triggers and init
 
 ![Chatbots Trends](../../static/assets/1-1-.png "Chatbots Trends")
 
-## How can chatbots help businesses?
+## How Can Chatbots Help Businesses?
 
 Chatbots help businesses with the following tasks: 
 
