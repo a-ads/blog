@@ -35,13 +35,13 @@ To help you make extra income, let's learn more about crypto wallets that earn i
 
 ## BlockFi Wallet 
 
-**Advantages** 
+**Advantages:**
 
 * Crypto investors can earn interest
 * Users can take out crypto-backed loans
 * Investors can buy or sell crypto directly within the app
 
-**Disadvantages** 
+**Disadvantages:** 
 
 * U.S. customers can't access interest-bearing accounts
 * It only supports several coins 
@@ -52,7 +52,7 @@ BlockFi is a top-rated but relatively new financial service provider in crypto. 
 
 ## Coinbase App Wallet -  A Non-Custodial Multicurrency Wallet  
 
-**Advantages**
+**Advantages:**
 
 * Super user-friendly interface
 * Supports over 500 crypto assets
@@ -60,7 +60,7 @@ BlockFi is a top-rated but relatively new financial service provider in crypto. 
 * Provides multi-signature and 2-factor authentication support
 * Optional cloud backups 
 
-**Disadvantages** 
+**Disadvantages:** 
 
 * Code is not open-source
 * No support for Bitcoin
@@ -78,12 +78,12 @@ Coinbase wallet is also non-custodial, which means that you can keep control ove
 
 ## Ellipal Titan Crypto Wallet
 
-**Advantages**
+**Advantages:**
 
 * You can control your private keys and backup passphrase
 * Supports 46 blockchains and thousands of tokens
 
-**Disadvantages** 
+**Disadvantages:**
 
 * Unknown for many users
 * Limited customer support
@@ -96,13 +96,13 @@ This wallet allows you to convert your coins to any supported currency without t
 
 ## Crypto.com Wallet
 
-**Advantages**
+**Advantages:**
 
 * Supports over 90 cryptocurrencies 
 * You can use a Visa card to spend your crypto and earn rewards
 * You can make interest on crypto holdings at a higher rate than the best high-yield savings accounts
 
-**Disadvantages** 
+**Disadvantages:** 
 
 * Not accessible to educational materials
 * Higher trading fees for low-volume traders
@@ -122,13 +122,13 @@ With Crypto.com's Earn program, you can make up to 14.5% per year on your deposi
 
 ## Exodus Crypto Wallet
 
-**Advantages**
+**Advantages:**
 
 * This wallets will recoup stolen assets
 * Provides educational materials 
 * Supports more than 200 cryptocurrencies
 
-**Disadvantages** 
+**Disadvantages:** 
 
 * Ethereum staking is not available
 * A bit pricey
