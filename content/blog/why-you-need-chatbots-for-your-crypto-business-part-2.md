@@ -59,7 +59,7 @@ You need to update the bot script if something changes in the client path. In ad
 
 Before talking about the steps you need to take to create your crypto chatbot, let’s look at four main principles.
 
-## How To Make A Successful Ahatbot: Four Principles
+## How To Make A Successful Chatbot: Four Principles
 
 1. **Your chatbot must anticipate customer requests**
 
