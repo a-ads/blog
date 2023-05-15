@@ -248,7 +248,7 @@ const Footer = () => {
         </div>
         {[
           'The best advertising network with a great number of crypto currencies: bitcoin, ethereum, litecoin, dogecoin, dash etc',
-          '© A-ADS 2011-2022',
+          '© A-ADS 2011-2023',
         ].map((text) => (
           <p key={text} className='w-full body-2 clr-secondary text-center'>
             {text}
