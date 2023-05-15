@@ -1,5 +1,6 @@
 const resolve = require('path').resolve
 const { createFilePath } = require('gatsby-source-filesystem')
+const _ = require('lodash')
 
 exports.onCreateWebpackConfig = ({ stage, actions }) => {
   actions.setWebpackConfig({
@@ -12,8 +13,12 @@ exports.onCreateWebpackConfig = ({ stage, actions }) => {
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
-
+  
   if (node.internal.type === 'MarkdownRemark') {
+    if (_.startsWith(node.frontmatter.thumbnail, 'blog/assets/')) {
+      node.frontmatter.thumbnail = node.frontmatter.thumbnail.replace('blog/assets/', '../../static/assets/')
+    }
+
     const slug = createFilePath({ node, getNode, basePath: 'blog' })
     createNodeField({
       node,
