@@ -7,16 +7,22 @@ tags:
 category: How to
 category_top_level:
   - News & Trends
-author: Yulia Savushkina
-thumbnail: ../../static/assets/full-12-.png
-big_picture: ../../static/assets/short-8-.png
+author: Emmanuel Olatunji
+thumbnail: blog/assets/full.png
+big_picture: blog/assets/short.png
 popularity: "0"
 meta_title: What is Decentralized finance (DeFi)? How Does DeFi Work
 meta_description: DeFi is an emerging financial technology based on secure
   distributed ledgers similar to those used by cryptocurrencies. In this
   article, more breaks down what is decentralized finance and how does it`s
   work.
-meta_keywords: ""
+meta_keywords: DeFi, decentralized finance, TradFi, traditional finance, Web 3.0
+  technology, total value locked, TVL, DeFi guide, stability, volatility, risk,
+  return, crypto investors, investing in DeFi, DeFi tokens, intermediaries,
+  crypto wallet, custodial wallet, non-custodial wallet, hot wallet, cold
+  wallet, crypto coins, DeFi protocols, ERC20 token, liquidity pools, yield
+  farming, protocols, Ethereum, trading, staking, lending, borrowing, interest,
+  reward
 json_ld: ""
 ---
 You probably heard of DeFi many times. But what exactly is DeFi in cryptocurrency? This article talks about such things as DeFi, TredFi, and other related stuff. 
@@ -33,7 +39,7 @@ Now let's look a bit closer at how DeFi works.
 
 ## How Does DeFi Work?
 
-One crucial feature of DeFi is that it works because of the code and smart contracts. As I mentioned above, you would need an intermediary to satisfy your needs in the traditional financial system. Wanna have a share in a prosperous company? You must address the stock exchange and pay the commission for their services. Need to buy something? You need to use a bank card, and the bank takes some commission for these transactions. And no one guarantees you get your loan because you may be rejected by your bank based on your credit history. 
+One crucial feature of DeFi is that it works because of the code and smart contracts. As mentioned above, you would need an intermediary to satisfy your needs in the traditional financial system. Wanna have a share in a prosperous company? You must address the stock exchange and pay the commission for their services. Need to buy something? You need to use a bank card, and the bank takes some commission for these transactions. And no one guarantees you get your loan because your bank may reject you based on your credit history. 
 
 In the DeFi crypto world, you no longer need an intermediary as the whole system is based on blockchain technology, typically Ethereum. DeFi's smart constructs allow you to borrow or lend cryptocurrency; every transaction is written in the code. DeFi also includes lending platforms, prediction markets, options, and derivatives. 
 
@@ -63,7 +69,7 @@ If you're a crypto investor, you avoid constantly changing tokens back and forth
 
 Now let's talk about the profit that you can get from DeFi. There are several options for earning passive income, such as yield farming, staking, and lending. 
 
-### Method 1. Yield farming 
+### Method 1. Yield Farming 
 
 Using existing crypto assets, yield farming, or liquidity mining in DeFi earns more cryptocurrencies. Yield farming requires investors to stake or delegate crypto assets to a smart contract-based liquidity pool. The pool then reuses the invested cryptocurrencies to provide liquidity in DeFi protocols and distributes some of the procured fees to the user as rewards. Something like a deposit in a bank. 
 
