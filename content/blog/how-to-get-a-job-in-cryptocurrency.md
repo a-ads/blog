@@ -1,13 +1,13 @@
 ---
 date: 2022-12-11T03:54:18.971Z
-title: Careers in cryptocurrency (How to Get a Job in Crypto)
+title: "Careers In Cryptocurrency: How To Get A Job In Crypto"
 slug: how-to-get-a-job-in-cryptocurrency
 tags:
   - news
 category: How to
 category_top_level:
   - News & Trends
-author: Yulia Savushkina
+author: Emmanuel Olatunji
 thumbnail: ../../static/assets/full-50-.png
 big_picture: ../../static/assets/short-27-.png
 popularity: "0"
@@ -19,7 +19,7 @@ meta_description: As cryptocurrency becomes mainstream, employers look for
 meta_keywords: ""
 json_ld: ""
 ---
-## What are cryptocurrency careers?
+## What Are Cryptocurrency Careers?
 
 Are you dreaming of working in the crypto industry and getting your salary in bitcoins? I have great news for you! Cryptocurrency careers are more popular now than you think.
 
@@ -35,7 +35,7 @@ Such companies and organizations that use or create cryptocurrency employ people
 
 ## Types of Crypto Jobs
 
-### 1. Technical writer
+### 1. Technical Writer
 
 Technical writers create content about complex technical topics in a way that's easily understood. They are like translators, from complicated technical language to a more straightforward language that people without a crypto background can understand. The responsibilities of a technical writer usually include researching the best way to present the information and working with technical professionals to ensure accuracy and comprehensibility. Technical writers give information for things like brochures, manuals, or blog articles. They often work with a project's marketing team to develop a tone of voice, brand image, or business presentations. Technical writers may also proofread and edit other writers' work.
 
@@ -43,7 +43,11 @@ Technical writers create content about complex technical topics in a way that's 
 
 Another job that doesn't require hard technical skills. A marketing manager develops an organization's marketing policies and works on marketing campaigns. They often work with advertising and promotional managers to plan events, analyze data to determine strategies, create estimates for campaign costs and potential sales and evaluate the success of marketing campaigns. Marketing managers also work with technical and financial teams when developing marketing strategies for the currency they use.
 
-### 3. Web developer 
+### 3. Web Developer 
+
+![](blog/assets/pexels-fauxels-3184657.jpg)
+
+*Source: Pexels.com*
 
 A web developer writes code for a website for both the user-facing front end and the information-supplying back end. They work on constructing a new website or maintaining and updating existing website features. A web developer's primary duties are:
 
@@ -56,7 +60,7 @@ A web developer writes code for a website for both the user-facing front end and
 
 Depending on the project, the list of responsibilities may vary, but the most popular are those above. 
 
-### 4. Data scientist 
+### 4. Data Scientist 
 
 Data scientists do magic with data. They have the skills to transform a pool of data into strategic insights that can impact a business enormously. That's why companies are rushing to hire professionals who can help do just that. 
 
@@ -72,7 +76,7 @@ Data scientists translate data into easily understandable information and result
 
 Data scientists often use statistics, programming, computer science, and research skills when performing analyses.
 
-### 5. Crypto trader 
+### 5. Crypto Trader 
 
 A cryptocurrency trader is a finance professional who uses cryptocurrencies to grow investments. The responsibilities often vary from project to project. Still, the most common include researching market opportunities and using data analysis and trading metrics to identify market inefficiencies and opportunities. They also determine how to improve risk management techniques and develop, maintain, and improve trading models and systems. 
 
@@ -86,9 +90,7 @@ They're often responsible for defining a product's vision and aligning stakehold
 
 Typical duties for a product manager in the crypto field include creating, following, and updating product roadmaps and brainstorming with stakeholders. In addition, a product manager writes feature descriptions for design and technical teams, prioritizes product features and capabilities, and creates a shared brain across larger groups to empower independent decision-making.
 
-![Careers in cryptocurrency](../../static/assets/full-49-.png "Careers in cryptocurrency")
-
-### 7. Machine learning engineer 
+### 7. Machine Learning Engineer 
 
 Interestingly, a Machine Learning Engineer is a combination of two roles in the industry, such as Data Scientist and Software engineer. That is why companies are eager to hire a Machine Learning Engineer. This is a professional who can bring the best of both worlds to the table.
 
@@ -101,7 +103,7 @@ A machine learning (ML) engineer creates artificial intelligence systems. To do 
 * Identifying differences in data distribution that affects model performance.
 * Verifying data quality
 
-### 8. Software engineer 
+### 8. Software Engineer 
 
 As the job title says, a software engineer develops software for businesses. It includes using programming languages like C++ and Python and working on blockchains, substacks, and analytical programs in the cryptocurrency industry. Other responsibilities include:
 
@@ -114,7 +116,7 @@ As the job title says, a software engineer develops software for businesses. It 
 * Document and maintain software functionality
 * Troubleshoot, debug and upgrade existing systems
 
-### 9. Account executive
+### 9. Account Executive
 
 Another business field-related job. Account executives in crypto companies manage business development and sponsorship sales. 
 
@@ -136,33 +138,35 @@ As with most other top positions in the crypto world, the research analyst shoul
 
 ## How To Start A Career In Cryptocurrency?
 
+![Start Your Career ](blog/assets/pexels-sora-shimazaki-5668869.jpg "Start Your Career ")
+
 After you have chosen the field you want to work in, let's check the steps you should take to start your career in the cryptocurrency world: 
 
-* Learn about cryptocurrency and cryptography
+* **Learn about cryptocurrency and cryptography**
 
 You can start by studying cryptography, which is the basis of cryptocurrency. The finance industry uses cryptography principles for processing payments, storing and transmitting data, data integrity, and other information security facets. When starting a career in cryptocurrency, cryptography knowledge can help you create more secure and efficient systems.
 
 Nearly all cryptocurrency exchangers have educational centres. For example, Coinbase has its [Coinbase Learning center](https://www.coinbase.com/learn), and Kraken shares some excellent [educational materials](https://www.kraken.com/learn). 
 
-* Find more about cryptocurrencies
+* **Find more about cryptocurrencies**
 
 By checking their values, structures, histories, histories, and significant proponents, get to know more about the most popular cryptocurrencies like Bitcoin, Cordano, or Ethereum. There are plenty of online resources to help you out.
 
-* Assess your skills
+* **Assess your skills**
 
 By evaluating your skill set and determining what job you want, you can choose whether to work in STEM positions like computer engineering, programming, or software development, or some business-field positions like product manager suit you better.
 
-* Pay attention to networking
+* **Pay attention to networking**
 
 Mentors can help you to learn more about the job and be prepared for it. Find a mentor to tell you more about the field you have chosen. Ask them about the job's responsibilities, salary, career opportunities, and others. 
 
 You can use professional networking sites, internet forums, or even career fairs and conferences to meet people and build your network.
 
-* Update your resume
+* **Update your resume**
 
 And finally, one of the most important things to do is to create a relevant, appealing resume. Check if you included all newly gained experiences or skills in your CR. You can also ask for the help of a career consultant to look through your resume to improve it. You can find some great CV tips on numerous YouTube channels like [this](https://www.youtube.com/watch?v=Tt08KmFfIYQ) and [this.](https://www.youtube.com/watch?v=BYUy1yvjHxE)
 
-* Apply for a job
+* **Apply for a job**
 
  You can search for a job using the most popular websites, such as Indeed, Glassdoor, or LinkedIn. Some websites focus on crypto job vacancies: 
 
