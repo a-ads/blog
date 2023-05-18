@@ -1,6 +1,6 @@
 ---
 date: 2022-12-26T17:29:55.828Z
-title: How Bounty Campaigns can help your crypto businesses grow
+title: How Bounty Campaigns Can Help Your Crypto Businesses Grow
 slug: how-bounty-campaigns-can-help-your-crypto-businesses-grow
 tags:
   - news
@@ -9,9 +9,9 @@ category_top_level:
   - News & Trends
 category_second_level:
   - How To
-author: Yulia Savushkina
-thumbnail: ../../static/assets/full.png
-big_picture: ../../static/assets/short.png
+author: Micheal George
+thumbnail: blog/assets/full.png
+big_picture: blog/assets/short.png
 popularity: "0"
 meta_title: How Bounty Campaigns can help your crypto businesses grow
 meta_description: Learn how running bounty campaigns can benefit your crypto
@@ -29,7 +29,7 @@ Know how to code and have a keen eye for bugs? You can join a bounty program, he
 
 This article explores bounty campaign strategies and statistics if you want to run them for your project. If you're going to become a bounty hunter, at the end of the article, check the most famous bounty campaign platforms.
 
-**First of all, what are Bounty Programs?**
+## **What Are Bounty Programs?**
 
 Bounty campaigns are public offers that are usually time-limited. They can contain rules, rewards conditions, and bounty tasks to promote a specified crypto project. Bounty campaigns after ICO can be used as feedback on the project's code, marketing features, and coin promotions. As for web3, bounty programs can take any form but typically be related to problems and features on a project's backlog. 
 
@@ -44,17 +44,17 @@ The bounty campaigns can include the following tasks: 
 
 ![Cryptomarketcloud Bounty Programs](https://lh5.googleusercontent.com/bWXFr75dUPzm2Lbv8f6Ld3RCp0B0p_B3_kFEwkJUCi-UWshGoI0O2dzNCkIGbuegC-yg6hXXYE5dOl7uU0YYYFnA01yO3V8F5BV1WcB-XQcnVPUFnaOhTr2IrGvUV0nutPcGzFL9jkQ4vstKBek6xOyIhwIgCorVzeLFOTb7-Ct1-3Gg0LICM0WVuqXEaQ "Cryptomarketcloud Bounty Programs")
 
-**Example of a Bounty program**
+## **Example Of A Bounty Program**
 
 The rewards for a successful task accomplishment are usually coins, coupons, or dollars and euros. 
 
 How can Bounty Campaign benefit your crypto business?
 
-1. Bounty campaigns help attract highly skilled people
+**1. Bounty campaigns help attract highly skilled people**
 
 As well as HR specialists, Bounty programs can help find talent worldwide. They allow you to test a web3 platform, review a smart contract, or find bugs. The good thing is that you don't need to hire new employees for that.
 
-2. Cut costs
+**2. Cut costs**
 
 While bounty programs attract talents, they also help businesses to cut down on various things and save money. Usually, bounty hunters are significantly less expensive than paying full-time employees. 
 
@@ -62,13 +62,13 @@ Plus, the company can reduce costs on cybersecurity. You will be less vulnerable
 
 It turns out that even the most expensive bounties are way less costly than data breaches.
 
-3. Building brand and reputation
+**3. Building brand and reputation**
 
 Well-paid bounty programs can help your brand grow and attract more skilled people to your project. 
 
 However, before starting a new campaign, let's first learn a bit more about bounty hunters. 
 
-Who are Bounty hunters according to statistics?
+### Who Are Bounty Hunters According To Statistics?
 
 * Statistics show that a bounty hunter's average age is between 18 and 34 years old and that most of them are male.
 
@@ -78,35 +78,35 @@ Who are Bounty hunters according to statistics?
 * As for their annual income, a typical bounty hunter makes around $1084 per year, which is approximately $90 per month.
 * Only 40 % of bounty hunters have the level of 1-year experience, whereas nearly 20 percent of hunters have just from 1 to 3 months of bounty campaign experience.
 
-**Marketing strategies** 
+### **Marketing Strategies** 
 
 If you want to launch your own Bounty campaign, here are several strategies for you to follow: 
 
-1. Think about the right time
+**1. Think About The Right Time**
 
 By the right time, we assume you should start your Bounty campaign 20 or 30 days before the ICO. This will give Bounty hunters an excellent opportunity to engage in marketing activities and expand the network of the ICO's supporters.
 
 The usual percentage of coins reserved for bounty is 1.5% to 3%, but it can vary depending on a project's needs. If this percentage is way low, it might encourage more people to participate. If the rate is too high, then the value of coins might suffer when bounty hunters dump their coins in large quantities in the market. 
 
-2. Think about the channels
+**2. Think About The Channels**
 
 What will be your bounty campaign channels? How are you going to reach your audience? Messaging platforms like Telegram, Facebook and Twitter, Medium, or Reddit can help immensely. 
 
-3. Think about whether the stake allocation should be proportioned rationally 
+**3. Think About Whether The Stake Allocation Should Se Proportioned Rationally** 
 
 It means you should ensure that the proportion of each stake is done, keeping in mind the popularity of that campaign. Sub-campaigns such as Facebook, Twitter, and Telegram usually see participation in great numbers, and thus, the stake allocated towards these campaigns should be more significant.
 
-4. Find a brand-loyal Bounty member
+**4. Find A Brand-Loyal Bounty Member**
 
 It is better to keep a record of all the Bounty campaign participants so that you distribute your coins at the end of the ICO to only those participants who completed the tasks they signed up for. Thus, you should hire a dedicated Bounty Campaign manager for your ICO.
 
-**Crypto platforms for bounty campaigns**
+### **Crypto Platforms For Bounty Campaigns**
 
 If you want to turn into a bounty hunter and earn some additional income, you can check the following websites: 
 
 [Bounty0x](https://bounty0x.io/)![](https://lh6.googleusercontent.com/bIhX1J78Q-Elk71_CacNTA8tyfNc9XGnUZvdL1v0oG2vpj2vHadraTmD2tFtW1dSKrnebGEQ5Spgm8rJqxRQy79q1LLO3QVdbRjLWpNrchda8YZYrJmIVmlkPSI39u1M1ZmV_z3e8KN735CSNiRUDvAjpxWeiW0N9eHWndrtGK4GQ4NB5Udluy30-0yYSA)
 
-Source: BountyOx.io
+*Source: BountyOx.io*
 
 This crypto bounty platform is a place where users can find simple crypto project bounty tasks to complete. Many bounties are posted daily for users to participate and get rewarded.
 
@@ -126,6 +126,6 @@ This platform features tons of software-oriented bounties from different blockch
 
 The Bounties.network allows users to create projects, collaborate, and get paid for doing great work in any domain.
 
-Conclusion
+### Conclusion
 
 Bounty campaigns are an excellent tool for a business to find mistakes in their code or documents without splashing out on employees. At the same time, bounty campaigns are a good source of extra income for bounty hunters as they carry little to zero risks.
