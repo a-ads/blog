@@ -58,6 +58,9 @@ const config: GatsbyConfig = {
         gtagConfig: {
           anonymize_ip: true,
         },
+        pluginConfig: {
+          delayOnRouteUpdate: 100
+        }
       },
     },
     'gatsby-plugin-image',
