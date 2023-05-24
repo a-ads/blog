@@ -64,7 +64,12 @@ const config: GatsbyConfig = {
       },
     },
     'gatsby-plugin-image',
-    'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        exclude: ['blog/about/', '/about/', 'blog/search/', '/search/', 'blog/contacts/', '/contacts/'],
+      },
+    },
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
