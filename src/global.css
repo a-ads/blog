@@ -207,3 +207,7 @@
     }
   }
 }
+
+.scroll-section {
+  overflow: scroll;
+}

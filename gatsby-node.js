@@ -13,7 +13,7 @@ exports.onCreateWebpackConfig = ({ stage, actions }) => {
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
-  
+
   if (node.internal.type === 'MarkdownRemark') {
     if (_.startsWith(node.frontmatter.thumbnail, 'blog/assets/')) {
       node.frontmatter.thumbnail = node.frontmatter.thumbnail.replace('blog/assets/', '../../static/assets/')
