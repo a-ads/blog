@@ -12,13 +12,12 @@ category_second_level:
 author: Micheal George
 thumbnail: ../../static/assets/full-7-.png
 big_picture: ../../static/assets/short-1-.png
-meta_title: A-ADS Wordpress Plugin
+meta_title: A-ADS Wordpress Plugin | A-ADS Blog
 meta_description: Learn how to use the A-ADS WordPress plugin with our
   informative article. Our step-by-step guide covers the installation and
   activation process, configuration of the ad widget, and how to demo your ad.
   We also provide solutions to possible errors you may encounter when using the
-  plugin. Ensure your advertising campaign is successful on your WordPress
-  website - read our article on the A-ADS WordPress plugin today!
+  plugin.
 ---
 Hello publishers, we’re proud to announce the release of [our WordPress plugin](https://wordpress.org/plugins/a-ads/). This article aims to show you how to use this plugin.
 
