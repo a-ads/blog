@@ -1,7 +1,7 @@
 ---
 date: 2023-05-25T08:49:01.962Z
 title: Top 10 AI Products for Marketing and Management to Enhance Efficiency
-slug: Top-10-AI-Products-for-Marketing-and-Management-to-Enhance-Efficiency
+slug: top-ten-ai-products-for-marketing-and-management-to-enhance-efficiency
 tags:
   - news
 category: How to
