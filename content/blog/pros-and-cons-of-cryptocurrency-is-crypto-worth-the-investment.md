@@ -1,7 +1,7 @@
 ---
 date: 2023-05-13T14:05:10.041Z
 title: "Pros and Cons of Cryptocurrency: Is Crypto Worth the Investment?"
-slug: Pros-and-Cons-of-Cryptocurrency-Is-Crypto-Worth-the-Investment?
+slug: pros-and-cons-of-cryptocurrency-is-crypto-worth-the-investment
 tags:
   - news
 category: How to
