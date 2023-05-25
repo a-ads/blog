@@ -64,7 +64,7 @@ Additionally, mobile-optimized advertising can improve user experience. Users ar
 
 ### The Role of Mobile Optimization in Crypto Advertising
 
-![The Role of Mobile Optimization example](blog/assets/pexels-andrea-piacquadio-920382.jpg "The Role of Mobile Optimization example")
+![The Role of Mobile Optimization example](/blog/assets/pexels-andrea-piacquadio-920382.jpg "The Role of Mobile Optimization example")
 
 *Source: Pexels.com*
 
