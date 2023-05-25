@@ -11,7 +11,7 @@ category_top_level:
   - Guides
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/illustration-6.png
-meta_title: Counting unique impressions
+meta_title: Counting unique impressions | A-ADS Blog
 meta_description: Learn what we mean by "unique impressions" if you're
   interested in becoming our publisher. Discover how our stats differ from
   Google Analytics and why absolute numbers don't mean much. With our network,
