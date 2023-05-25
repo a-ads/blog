@@ -13,13 +13,12 @@ author: Emmanuel Olatunji
 thumbnail: ../../static/assets/full-25-.png
 big_picture: ../../static/assets/short-20-.png
 popularity: "0"
-meta_title: 10 Terms Every Publisher And Advertiser Should Know
-meta_description: Improve your crypto marketing results with an understanding of
-  key terms like clicks, impressions, unique clicks, unique impressions, total
-  budget, daily budget, publisher, ad target, traffic, ad unit, banner
-  advertising, and more. Learn the differences between these terms and how they
-  impact your marketing campaigns. Increase engagement, optimize ad performance,
-  and monetize your traffic effectively.
+meta_title: 10 Terms Every Publisher And Advertiser Should Know | A-ADS Blog
+meta_description: "Improve your crypto marketing with key terms: clicks,
+  impressions, unique clicks, unique impressions, total budget, daily budget,
+  publisher, ad target, traffic, ad unit, banner advertising, and more.
+  Understand their differences and impact on campaigns. Boost engagement,
+  optimize ads, and monetize traffic effectively."
 meta_keywords: crypto marketing, digital advertising, clicks, unique clicks,
   impressions, unique impressions, total budget, daily budget, publisher, ad
   target, traffic, ad unit, banner advertising, engagement, online marketing,
