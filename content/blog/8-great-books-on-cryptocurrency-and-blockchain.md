@@ -11,14 +11,12 @@ author: Danil Persky
 thumbnail: blog/assets/full.png
 big_picture: blog/assets/short.png
 popularity: "0"
-meta_title: 8 great books on cryptocurrency and blockchain
-meta_description: Discover the top eight books on cryptocurrency and blockchain
-  to enhance your knowledge during the holiday season. From cryptography
-  essentials to comprehensive introductions and future predictions, these books
-  cover a range of topics. Learn about the technology behind Bitcoin, the impact
-  on the financial industry, and the potential of security tokens. Whether
-  you're a beginner or seeking advanced insights, these books will expand your
-  understanding of the blockchain revolution.
+meta_title: 8 Great Books On Cryptocurrency And Blockchain | A-ADS Blog
+meta_description: Discover the top 8 books on cryptocurrency and blockchain,
+  which cover a wide range of topics from cryptography essentials to
+  comprehensive introductions and future predictions. Whether you're a beginner
+  or seeking advanced insights, these books will enrich your understanding of
+  the blockchain revolution.
 meta_keywords: Christmas, New Year holidays, blockchain books, cryptocurrency
   books, blockchain technology, crypto, cryptography, Nigel Smart, Antony Lewis,
   F. Schar, A. Berentsen, A. Agashe, N. Mehta, P. Detroja, Don Tapscott, Baxter
@@ -31,7 +29,7 @@ meta_keywords: Christmas, New Year holidays, blockchain books, cryptocurrency
   cryptocurrency market
 json_ld: ""
 ---
-Christmas and New Year holidays are the most beautiful time of the year for many people. We have picked up 8 books about blockchain and cryptocurrency to read on holidays. Grab some tea and a blanket, and get ready to dive into blockchain and crypto. 
+Christmas and New Year holidays are the most beautiful time of the year for many people. We have picked up 8 books about blockchain and cryptocurrency to read on holidays. Grab some tea and a blanket, and get ready to dive into blockchain and crypto.  
 
 ## 1. Cryptography Made Simple by Nigel Smart (Information Security and Cryptography)
 
