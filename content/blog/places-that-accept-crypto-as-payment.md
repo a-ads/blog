@@ -69,7 +69,7 @@ Gift cards can be an excellent present for friends and family. Big giants, such 
 
 ### **Video Games**
 
-![Video Games](blog/assets/pexels-rdne-stock-project-7915357.jpg "Video Games")
+![Video Games](https://a-ads.com/blog/assets/pexels-rdne-stock-project-7915357.jpg "Video Games")
 
 *Source: Pexels.com*
 
