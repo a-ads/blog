@@ -11,7 +11,7 @@ author: Danil Persky
 thumbnail: ../../static/assets/full-5-.png
 big_picture: blog/assets/short.png
 popularity: "0"
-meta_title: Top DeFi Tokens to Buy | How to Buy Decentralized Finance Tokens
+meta_title: Top DeFi Tokens to Buy | How to Buy Decentralized Finance Tokens | A-ADS Blog
 meta_description: DeFi is tipped to be the next big thing in the crypto and
   blockchain technology arenas. In article, we have selected the best
   Decentralized Finance Tokens you can invest in 2023.
