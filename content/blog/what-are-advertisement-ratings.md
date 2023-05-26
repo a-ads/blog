@@ -11,15 +11,12 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/undraw_online_organizer_ofxmобложка.png
 big_picture: ../../static/assets/undraw_online_organizer_ofxmsq.png
-meta_title: What are advertisement ratings?
+meta_title: What are advertisement ratings? | A-ADS Blog
 meta_description: Understand the importance of ad ratings with our informative
   article. Learn about the different ratings available, including "NSFW,"
   "Gambling," "Investments," and "Risky," and how they impact the success of
   your advertising campaign. Discover which types of ads are typically allowed
-  on publisher sites and why ads rated as "Risky" tend to have worse
-  performance. Our article also outlines prohibited ads and what to do if you
-  believe your ad is rated inappropriately. Ensure your advertising campaign is
-  successful - read our article on advertisement ratings today!
+  on publisher sites.
 ---
 Advertising campaigns need to be approved by A-ADS moderators to get started. Ads which involve sensitive content will receive appropriate ratings.
 
