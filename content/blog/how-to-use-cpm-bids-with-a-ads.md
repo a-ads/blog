@@ -11,16 +11,10 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/undraw_revenue_3oshобложка.png
 big_picture: ../../static/assets/undraw_revenue_3oshквадрат.png
-meta_title: How to use CPM bids with A-ADS?
+meta_title: How to use CPM bids with A-ADS? | A-ADS Blog
 meta_description: Are you an A-ADS advertiser looking to use CPM bids? Although
-  CPM bids can be risky, there are some good practices to ensure success. Use
-  bids to test traffic with broad targeting, buy traffic from a few good sites
-  at a low price, or target countries with very narrow geo-targeting. Remember
-  to set your CPM bid at a reasonable price and avoid buying too many bids at
-  once. Be aware that traffic might come within an hour if the price is high or
-  be delivered slowly if the price is too low. Test traffic before paying more
-  and cancel bids if necessary to avoid wasted spending. Follow these tips to
-  effectively use CPM bids with A-ADS.
+  CPM bids can be risky, there are some good practices to ensure success. Follow
+  the tips in the article to effectively use CPM bids with A-ADS.
 ---
 Although our main payment scheme is [the daily budget](https://a-ads.com/blog/2019-08-11-how-does-daily-budget-work/), our advertisers can also use CPM bids to buy traffic. Buying bids, you pay a fixed CPM, so the risk of paying for fake traffic is higher than on the daily budget terms. 
 
