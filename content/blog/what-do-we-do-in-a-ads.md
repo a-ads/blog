@@ -13,13 +13,12 @@ category_top_level:
   - Publishers
 author: Anastasia Zavershinskaya
 thumbnail: ../../static/assets/illustration-1-2x.png
-meta_title: What do we do in A-ADS?
+meta_title: What do we do in A-ADS? | A-ADS Blog
 meta_description: Discover A-ADS, the first privacy-focused bitcoin-based
   advertising network, founded in 2011. Create your anonymous advertising
   campaign in under a minute, with no need to share your personal data. Promote
-  your crypto-related services and earn with our Pay-per-Day and Pay-for-Result
-  models. Become a publisher and take your share of the profit, or join our
-  affiliate program to earn 50% commission by attracting new advertisers.
+  your crypto-related services, become a publisher, or join our affiliate
+  program.
 ---
 A-ADS (former "Anonymous Ads") is the first privacy-focused bitcoin-based advertising network, founded in 2011. 
 
