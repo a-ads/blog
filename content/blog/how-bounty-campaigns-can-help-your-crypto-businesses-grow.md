@@ -13,15 +13,12 @@ author: Micheal George
 thumbnail: blog/assets/full.png
 big_picture: blog/assets/short.png
 popularity: "0"
-meta_title: How Bounty Campaigns can help your crypto businesses grow
+meta_title: How Bounty Campaigns can help your crypto businesses grow | A-ADS Blog
 meta_description: Learn how running bounty campaigns can benefit your crypto
   business and attract highly skilled individuals worldwide. Cut costs and
   strengthen your brand reputation while discovering flaws in your project's
   code and marketing features. Discover the different types of bounty tasks
-  available, including bug searching, translating documents, and more. Find out
-  about popular bounty campaign platforms such as Bounty0x, Gitcoin, and
-  Bounties.network. Follow our bounty campaign strategies for optimal success
-  and be sure to hire a dedicated Bounty Campaign manager for your ICO.
+  available.
 meta_keywords: ""
 json_ld: ""
 ---
