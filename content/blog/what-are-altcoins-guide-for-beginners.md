@@ -11,7 +11,7 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/full-28-.png
 big_picture: ../../static/assets/preview-4-.png
 popularity: "0"
-meta_title: What are altcoins? A guide to the cryptocurrencies beyond Bitcoin
+meta_title: What are altcoins? A guide to the cryptocurrencies beyond Bitcoin | A-ADS Blog
 meta_description: Altcoins are generally defined as all cryptocurrencies other
   than Bitcoin (BTC), which means there are a lot of them. In this article,
   learn more about altcoins and what makes them different.
