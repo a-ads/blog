@@ -34,7 +34,7 @@
   }
 
   .article .gatsby-resp-image-wrapper {
-    max-height: 500px !important;
+    /*max-height: 500px !important;*/
     overflow: hidden;
   }
 }
@@ -146,7 +146,6 @@
 
     img {
       margin-top: 1.3rem;
-      /* max-height: 496px; */
       width: 100%;
     }
 
