@@ -12,15 +12,12 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/full-10-.png
 big_picture: ../../static/assets/short-8-.png
 popularity: "0"
-meta_title: Cryptocurrency Latest News
+meta_title: Cryptocurrency Latest News for 28.02.2023 | A-ADS Blog
 meta_description: Stay updated with the latest news in the cryptocurrency world.
   Regulatory concerns arise as US regulators express dissatisfaction with
   Binance US's acquisition plans. Mastercard collaborates with web3 tech company
-  Immersve to enable crypto payments. Base Protocol token (BASE) sees a
-  significant surge in value, while Solana experiences technical problems
-  requiring a network restart. Coinbase suspends trading of Binance USD (BUSD)
-  due to non-compliance with listing standards. Stay informed about the evolving
-  cryptocurrency landscape.
+  Immersve to enable crypto payments. Coinbase suspends trading of Binance USD
+  (BUSD). More in the article.
 meta_keywords: ""
 json_ld: ""
 ---
