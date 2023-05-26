@@ -13,15 +13,12 @@ category_second_level:
 author: Micheal George
 thumbnail: ../../static/assets/full-11-.png
 big_picture: ../../static/assets/short-9-.png
-meta_title: Goal tracking integration with Google Analytics
+meta_title: Goal tracking integration with Google Analytics | A-ADS Blog
 meta_description: Learn how to integrate goal tracking with Google Analytics and
   your A-ADS campaign. With just a hosted website, GA account, and an A-ADS
   account with goal tracking enabled, you can easily measure your advertising
   ROI and track your website traffic. Follow these simple steps to complete the
-  integration, including creating a GA account, copying and pasting the tracking
-  code, enabling goal tracking in A-ADS, and more. With this integration, you
-  can track and optimize your campaign's performance to reach your advertising
-  goals.
+  integration.
 ---
 ## What is Google Analytics?
 
