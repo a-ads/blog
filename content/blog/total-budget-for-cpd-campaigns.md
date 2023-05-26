@@ -13,13 +13,12 @@ category_second_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/full-12-.png
 big_picture: ../../static/assets/short-10-.png
-meta_title: Total budget for CPD campaigns
+meta_title: Total budget for CPD campaigns | A-ADS Blog
 meta_description: Discover how the new parameter "total budget" gives users more
   control over their CPD campaigns. Our article explains how to set a limit on
   how much money a campaign can spend and how to calculate the daily budget.
   Learn how to ensure your campaign stays within budget and how to resume it
-  once the limit is reached. Don't let your advertising campaign go over budget
-  - read our article on the total budget for CPD campaigns today!
+  once the limit is reached.
 ---
 As you probably know, our default payment model is [CPD](https://a-ads.com/blog/2020-07-01-campaign-types/) (cost per day), and running CPD campaigns get automatically refilled from user balance.
 
