@@ -13,7 +13,7 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/full-27-.png
 big_picture: ../../static/assets/preview-3-.png
 popularity: "0"
-meta_title: What is staking crypto? 5 Best crypto staking platforms
+meta_title: What is staking crypto? 5 Best crypto staking platforms | A-ADS Blog
 meta_description: What Is staking, how it works, and how to get started. You’ll
   first need to read our article to get a better grasp of that.
 meta_keywords: ""
