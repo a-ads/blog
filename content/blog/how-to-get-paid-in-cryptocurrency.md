@@ -11,7 +11,7 @@ author: Micheal George
 thumbnail: ../../static/assets/full-36-.png
 big_picture: ../../static/assets/preview-5-.png
 popularity: "0"
-meta_title: How to get paid in bitcoin or another crypto
+meta_title: How To Get Paid In Bitcoin Or Another Cryptocurrency | A-ADS Blog
 meta_description: There are many reasons why you might want to get paid in
   digital currency. Let’s browse how to get paid in crypto and the legality of
   it ways.
