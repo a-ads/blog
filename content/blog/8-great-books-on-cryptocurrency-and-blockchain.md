@@ -27,15 +27,7 @@ meta_keywords: Christmas, New Year holidays, blockchain books, cryptocurrency
   revolution, future of blockchain, digital finance, security tokens,
   implications, basics of blockchain, Web 3, economy, NFTs, digital assets,
   cryptocurrency market
-json_ld: >-2
-      <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "url": "https://a-ads.com/",
-        "logo": "https://a-ads.com/assets/logo2-75096a04d96256bca99be6beccffa017286fd8f228323b4265f611eaa1b27d6a.png"
-      }
-      </script>
+json_ld: ""
 ---
 Christmas and New Year holidays are the most beautiful time of the year for many people. We have picked up 8 books about blockchain and cryptocurrency to read on holidays. Grab some tea and a blanket, and get ready to dive into blockchain and crypto.  
 
