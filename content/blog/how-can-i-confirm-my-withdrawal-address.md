@@ -13,7 +13,7 @@ category_second_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/full-14-.png
 big_picture: ../../static/assets/short-11-.png
-meta_title: How can I confirm my withdrawal address?
+meta_title: How can I confirm my withdrawal address? | A-ADS Blog
 meta_description: Learn how to confirm your withdrawal address. Discover our
   additional security measures for non-anonymous accounts with verified emails,
   and how to confirm a new withdrawal address via email. Protect your funds and
