@@ -13,14 +13,11 @@ thumbnail: ../../static/assets/tools-roundups.png
 big_picture: ../../static/assets/short-4-.png
 popularity: ""
 meta_title: Streamline Your Workflow with These Innovative Design and Social
-  Media Platforms
+  Media Platforms | A-ADS Blog
 meta_description: Discover how Canva and Radaar, powered by artificial
   intelligence, can streamline your workflow and enhance your creative work in
-  design and social media management. Explore Canva's new features like Magic
-  Design and Translate, and learn how Radaar simplifies social media management
-  with visual content planning, automatic publishing, engagement tools, and
-  collaborative reporting. Elevate your marketing and design game with these
-  innovative platforms.
+  design and social media management. Elevate your marketing and design game
+  with these innovative platforms.
 meta_keywords: marketing specialist, designer, innovative tools, creative work,
   Canva, Radaar, artificial intelligence, streamline workflow, time-saving,
   top-notch content, AI-driven design, social media management, Magic Design,
