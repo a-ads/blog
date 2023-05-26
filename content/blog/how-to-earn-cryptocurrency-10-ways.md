@@ -16,6 +16,7 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/758.png
 big_picture: ../../static/assets/759.png
 meta_title: How to earn cryptocurrency | 10 ways to earn cryptocurrency in 2023
+  | A-ADS Blog
 meta_description: Let’s browse the best ways to get some crypto coins at a
   minimum risk and even minimum effort. Such us mining, buying, staking,
   watching videos, playing games and others
