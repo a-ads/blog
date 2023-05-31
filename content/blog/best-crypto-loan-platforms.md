@@ -74,7 +74,7 @@ One of the benefits of using a crypto lending platform is that it offers greater
 
 However, crypto lending platforms also carry risks. Cryptocurrency is volatile and can fluctuate quickly, impacting the borrower's ability to repay the loan. Additionally, there is a risk of hacking or security breaches on the platform, which can lead to loss of funds.
 
-![Choosing a Cryptocurrency Lending Platform](blog/assets/pexels-alesia-kozik-6772103.jpg "Choosing a Cryptocurrency Lending Platform")
+![Choosing a Cryptocurrency Lending Platform](/blog/assets/pexels-alesia-kozik-6772103.jpg "Choosing a Cryptocurrency Lending Platform")
 
 *Source: Pexels.com*
 

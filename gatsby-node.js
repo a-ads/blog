@@ -19,6 +19,10 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       node.frontmatter.thumbnail = node.frontmatter.thumbnail.replace('blog/assets/', '../../static/assets/')
     }
 
+    if (_.startsWith(node.frontmatter.thumbnail, '/blog/assets/')) {
+      node.frontmatter.thumbnail = node.frontmatter.thumbnail.replace('/blog/assets/', '../../static/assets/')
+    }
+
     const slug = createFilePath({ node, getNode, basePath: 'blog' })
     createNodeField({
       node,

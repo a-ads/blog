@@ -9,7 +9,7 @@ backend:
 
 publish_mode: editorial_workflow
 media_folder: static/assets
-public_folder: blog/assets
+public_folder: /blog/assets
 
 collections:
   - name: blog

@@ -8,8 +8,8 @@ category: How to
 category_top_level:
   - News & Trends
 author: Anna Trifonova
-thumbnail: blog/assets/additional-15-useful-ai-products-for-business-and-freelancing.png
-big_picture: blog/assets/15-useful-ai-products-for-business-and-freelancing.png
+thumbnail: /blog/assets/additional-15-useful-ai-products-for-business-and-freelancing.png
+big_picture: /blog/assets/15-useful-ai-products-for-business-and-freelancing.png
 popularity: "0"
 meta_title: 10 Useful AI Products for Business and Freelancing
 meta_description: "Discover 10 AI products for business and freelancing that can
@@ -32,7 +32,7 @@ In this article, we will have a closer look at ten great AI tools that can be he
 
 ### 2. TMetric
 
-![TMetric allows you to prioritize and schedule tasks in advance](blog/assets/img-advantages.svg "TMetric is a user-friendly and free time-tracking system")
+![TMetric allows you to prioritize and schedule tasks in advance](/blog/assets/img-advantages.svg "TMetric is a user-friendly and free time-tracking system")
 
 *Resource: TMetric.com*
 
@@ -44,7 +44,7 @@ Need help keeping focus? This tool is for you! Stayfocusd is a web extension for
 
 ### 4. Redbooth
 
-![Redbooth is a powerful tool for day-to-day work and team project management](blog/assets/x4-timeline2x.png.pagespeed.ic.idrhoepexw.png "Redbooth is a powerful tool for day-to-day work and team project management")
+![Redbooth is a powerful tool for day-to-day work and team project management](/blog/assets/x4-timeline2x.png.pagespeed.ic.idrhoepexw.png "Redbooth is a powerful tool for day-to-day work and team project management")
 
 *Resource: Redbooth.com*
 
