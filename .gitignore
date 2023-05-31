@@ -63,5 +63,4 @@ typings/
 .cache/
 public
 yarn-error.log
-.DS_Store
-.idea/
+

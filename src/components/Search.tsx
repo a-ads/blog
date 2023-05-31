@@ -10,6 +10,12 @@ interface ISearchCtx {
   setSearchQuery: React.Dispatch<React.SetStateAction<string>>
 }
 
+interface ISearchFormProps {
+  className?: string,
+  setIsSearch?: (search: boolean) => void,
+  isSearch?: Boolean
+}
+
 const SearchQueryContext = createContext<ISearchCtx>({
   searchQuery: '',
   setSearchQuery: () => {},
@@ -29,7 +35,7 @@ const SearchQueryProvider: React.FC<{ children: React.ReactNode }> = ({
 
 const useSearchQuery = () => useContext(SearchQueryContext)
 
-const SearchBar = ({ className }: { className?: string }) => {
+const SearchBar = ({ className, setIsSearch, isSearch }: ISearchFormProps) => {
   const { searchQuery, setSearchQuery } = useSearchQuery()
 
   const debounceSearch = debounce((query) => {
@@ -43,7 +49,7 @@ const SearchBar = ({ className }: { className?: string }) => {
         e.preventDefault()
         navigate(`/search/?q=${searchQuery}`)
       }}
-      className='grow ml-auto up-phone:w-[366px]'
+      className='search-form'
     >
       <Input
         variant='contained'
@@ -53,6 +59,7 @@ const SearchBar = ({ className }: { className?: string }) => {
         className={className}
         prepend={<SearchIcon />}
       />
+      <span className="close" onClick={() => setIsSearch ? setIsSearch(!isSearch) : ''}/>
     </form>
   )
 }
