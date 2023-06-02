@@ -1,7 +1,7 @@
 ---
 date: 2023-05-16T07:03:19.116Z
 title: "Latest in Tech: Pantera Capital, Meta, and Polygon Make Headlines"
-slug: Latest-in-Tech-Pantera-Capital-Meta-and-Polygon-Make-Headlines
+slug: latest-in-tech-pantera-capital-meta-and-polygon-make-headlines
 tags:
   - news
 category: Stories
