@@ -1,7 +1,7 @@
 ---
 date: 2023-03-27T12:54:29.294Z
 title: "Latest news: Tether Thrives, Telegram Transfers USDT, Nasdaq Offers Custody"
-slug: Latest-news-Tether-Thrives-Telegram-Transfers-USDT-Nasdaq-Offers-Custody
+slug: latest-news-tether-thrives-telegram-transfers-usdt-nasdaq-offers-custody
 tags:
   - news
 category: Stories
