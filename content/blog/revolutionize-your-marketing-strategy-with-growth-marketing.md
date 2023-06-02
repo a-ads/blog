@@ -1,7 +1,7 @@
 ---
 date: 2023-05-04T08:06:37.356Z
 title: Revolutionize Your Marketing Strategy with Growth Marketing
-slug: Revolutionize-Your-Marketing-Strategy-with-Growth-Marketing
+slug: revolutionize-your-marketing-strategy-with-growth-marketing
 tags:
   - news
 category: How to
