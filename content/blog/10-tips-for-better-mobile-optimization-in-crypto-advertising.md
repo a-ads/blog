@@ -1,7 +1,7 @@
 ---
 date: 2023-05-07T08:30:30.774Z
 title: 10 Tips for Better Mobile Optimization in Crypto Advertising
-slug: 10-Tips-for-Better-Mobile-Optimization-in-Crypto-Advertising
+slug: ten-tips-for-better-mobile-optimization-in-crypto-advertising
 tags:
   - news
 category: Development
