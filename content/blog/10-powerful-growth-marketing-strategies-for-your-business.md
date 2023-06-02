@@ -14,7 +14,7 @@ author: Yulia Savushkina
 thumbnail: blog/assets/10-growth-marketing-satrategies-for-your-business.png
 big_picture: blog/assets/10-growth-myour-png.png
 popularity: "0"
-meta_title: 10 Powerful Growth Marketing Strategies for Your Business
+meta_title: 10 Powerful Growth Marketing Strategies for Your Business | A-ADS Blog
 meta_description: Discover 10 powerful growth marketing strategies to fuel your
   business's success. From content marketing to personalized email campaigns,
   social proof, and chatbots, learn how to attract new customers, increase
