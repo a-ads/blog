@@ -2,7 +2,7 @@
 date: 2023-03-30T09:42:06.237Z
 title: Streamline Your Workflow with These Innovative Design and Social Media
   Platforms
-slug: Streamline-Your-Workflow-with-These-Innovative-Design-and-Social-Media-Platforms
+slug: streamline-your-workflow-with-these-innovative-design-and-social-media-platforms
 tags:
   - news
 category: Stories
