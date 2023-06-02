@@ -1,7 +1,7 @@
 ---
 date: 2023-05-15T13:34:20.284Z
 title: 10 Powerful Growth Marketing Strategies for Your Business
-slug: 10-Powerful-Growth-Marketing-Strategies-for-Your-Business
+slug: ten-powerful-growth-marketing-strategies-for-your-business
 tags:
   - news
 category: Development
