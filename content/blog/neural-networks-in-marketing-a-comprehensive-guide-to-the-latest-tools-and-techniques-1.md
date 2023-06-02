@@ -52,7 +52,7 @@ At its core, ChatGPT is a language model that has the potential to enable neural
 
 [DALL-E 2 i](https://openai.com/product/dall-e-2)s a remarkable development from OpenAI, which harnesses the power of neural networks to generate original art from text descriptions. The resulting images resemble real paintings, and users can even upload and edit their photos using text prompts. While the neural network was initially available only by invitation, it is now accessible to everyone. 
 
-![DALL-E 2 generated images of bears under water ](/blog/assets/dallle2-theaigang-02.jpg "DALL-E 2 generated images of bears under water ")
+![DALL-E 2 generated images of bears under water ](/blog/assets/87ae4fd5-83fe-40a6-aad4-0baed491aab7.jpeg "DALL-E 2 generated images of bears under water ")
 
 *Source: theaigang.com*\
 \
