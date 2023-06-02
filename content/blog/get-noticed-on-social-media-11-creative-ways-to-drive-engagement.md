@@ -1,7 +1,7 @@
 ---
 date: 2023-05-09T09:16:44.730Z
 title: "Get Noticed on Social Media: 11 Creative Ways to Drive Engagement"
-slug: Get-Noticed-on-Social-Media-11-Creative-Ways-to-Drive-Engagement
+slug: get-noticed-on-social-media-11-creative-ways-to-drive-engagement
 tags:
   - news
 category: How to
