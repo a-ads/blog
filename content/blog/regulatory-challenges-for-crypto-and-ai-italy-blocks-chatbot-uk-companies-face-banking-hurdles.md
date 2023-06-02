@@ -2,7 +2,7 @@
 date: 2023-04-05T08:17:43.238Z
 title: "Regulatory Challenges for Crypto and AI: Italy Blocks Chatbot, UK
   Companies Face Banking Hurdles"
-slug: Regulatory-Challenges-for-Crypto-and-AI-Italy-Blocks-Chatbot-UK-Companies-Face-Banking-Hurdles
+slug: regulatory-challenges-for-crypto-and-ai-italy-blocks-chatbot-uk-companies-face-banking-hurdles
 tags:
   - news
 category: Stories
