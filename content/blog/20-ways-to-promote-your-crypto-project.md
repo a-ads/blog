@@ -38,7 +38,7 @@ When choosing the right strategy for your business, we would recommend consideri
 
 Develop a clear idea of what you want your project to achieve. Consider what money you want to earn and how this project should impact your business. 
 
-![SMART goals ](blog/assets/1.png "SMART goals ")
+![SMART goals ](/blog/assets/1.png "SMART goals ")
 
 Use SMART goals to formulate your aims in detail:
 
@@ -114,7 +114,7 @@ By answering the following questions, you can create an accurate customer avatar
 
 ### **Customer Avatar**
 
-![Customer avatar](blog/assets/2.png "Customer avatar")
+![Customer avatar](/blog/assets/2.png "Customer avatar")
 
 ### **Who Are Your Competitors?**
 
@@ -131,7 +131,7 @@ Competitor analysis gives you valuable insights about businesses in your niche, 
 
 Discuss with your team how often you would like to post your content and what channels you would use for that. A marketing calendar is a great way to plan your marketing communication via different channels. 
 
-![ Marketing Calendar Template](blog/assets/4.png "Marketing Calendar Template")
+![ Marketing Calendar Template](/blog/assets/4.png "Marketing Calendar Template")
 
 ## **6. How Will You Track The Performance?** 
 
