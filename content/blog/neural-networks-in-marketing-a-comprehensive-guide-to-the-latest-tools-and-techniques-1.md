@@ -2,8 +2,7 @@
 date: 2023-05-09T07:56:28.039Z
 title: " Neural Networks in Marketing: A Comprehensive Guide to the Latest Tools
   and Techniques"
-slug: "%20Neural-Networks-in-Marketing:-A-Comprehensive-Guide-to-the-Latest-Too\
-  ls-and-Techniques"
+slug: "neural-networks-in-marketing-a-comprehensive-guide-to-the-latest-tools-and-techniques"
 tags:
   - News
 category: Development
