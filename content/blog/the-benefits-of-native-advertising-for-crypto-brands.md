@@ -1,7 +1,7 @@
 ---
 date: 2023-04-28T07:36:01.237Z
 title: The Benefits of Native Advertising for Crypto Brands
-slug: The-Benefits-of-Native-Advertising-for-Crypto-Brands
+slug: the-benefits-of-native-advertising-for-crypto-brands
 tags:
   - news
 category: Development
