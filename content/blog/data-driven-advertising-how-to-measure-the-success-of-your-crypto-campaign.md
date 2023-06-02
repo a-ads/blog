@@ -1,7 +1,7 @@
 ---
 date: 2023-03-30T16:03:30.361Z
 title: "Data-Driven Advertising: How to Measure the Success of Your Crypto Campaign"
-slug: Data-Driven Advertising-How-to-Measure-the-Success-of-Your-Crypto-Campaign
+slug: data-driven-advertising-how-to-measure-the-success-of-your-crypto-campaign
 tags:
   - news
 category: How to
