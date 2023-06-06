@@ -43,7 +43,7 @@ const CategoryTemplate = (props: CategoryPageProps) => {
           className='mb-[70px] tablet:mb-[60px] phone:mb-12'
         />
 
-        <Banner />
+        {/*<Banner />*/}
 
         <BlogPostGrid
           posts={drop(posts, 5)}
