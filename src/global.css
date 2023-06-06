@@ -260,6 +260,25 @@
   cursor: pointer;
 }
 
+@media (min-width: 320px) {
+  .btn-load {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn-load {
+    margin-bottom: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn-load {
+    margin-bottom: 80px;
+  }
+}
+
+
 @media (min-width: 1280px) {
   .up-desktop\:hidden {
     display: none;
