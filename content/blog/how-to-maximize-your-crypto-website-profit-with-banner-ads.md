@@ -11,7 +11,7 @@ author: Micheal George
 thumbnail: ../../static/assets/full-22-.png
 big_picture: ../../static/assets/short-18-.png
 popularity: "0"
-meta_title: How Maximizing Your Crypto Website Profit with Banner Ads
+meta_title: How To Maximize Your Crypto Website Profit with Banner Ads | A-ADS Blog
 meta_description: When you launch a crypto startup, it’s safe to say that a lot
   is riding on your marketing strategy. We’ve compiled a list of best practices
   what crypto or bitcoin-related webmasters can do to maximize their profits by
