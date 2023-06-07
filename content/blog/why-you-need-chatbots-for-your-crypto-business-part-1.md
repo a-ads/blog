@@ -12,25 +12,12 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/full-16-.png
 big_picture: blog/assets/short.png
 popularity: "0"
-meta_title: Why You Need Chatbots For Your Crypto Business
-meta_description: " In today's world, more and more companies are turning to
-  remote work and process automation. From marketplaces to taxi and delivery
-  aggregators, messengers have become an integral part of the sales funnel. In
-  this article, we will explore chatbots, their uses in crypto businesses, and
-  the advantages they offer.  Marketing chatbots are an efficient tool for
-  automating customer interactions. They can initiate a dialogue, recommend
-  relevant products, and talk about promotions and discounts, all without the
-  need for live operator support. Chatbots can also share news and updates,
-  provide technical support, take orders, and allow customers to track
-  deliveries. They save businesses time and money, provide quick responses,
-  increase engagement, attract more leads, and provide valuable data for
-  analysis.  In Part 2 of this article, we will examine successful business
-  cases with chatbots and the marketing strategies that you can implement in
-  your crypto business. According to a study by Statista, 34% of users prefer to
-  interact with smart bots in online stores rather than with people. Chatbots
-  respond faster and more accurately to their requests, providing a positive
-  customer experience. Stay tuned for Part 2, where we will delve deeper into
-  chatbot marketing strategies and how they can benefit your business."
+meta_title: Why You Need Chatbots For Your Crypto Business | A-ADS Blog
+meta_description: Discover the benefits of chatbots for your crypto business.
+  Explore their uses and advantages in automating customer interactions,
+  recommending products, delivering promotions, and providing support. Save time
+  and money while increasing engagement, attracting leads, and gaining valuable
+  data.
 meta_keywords: " chatbots, crypto businesses, marketing automation, customer
   engagement, process automation, technical support, order taking, package
   tracking, appointment booking, lead generation, data analysis, customer
