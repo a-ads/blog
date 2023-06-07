@@ -11,7 +11,7 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/full-3-.png
 big_picture: ../../static/assets/short-2-.png
 popularity: "0"
-meta_title: How to promote a crypto project. Cryptocurrency Marketing
+meta_title: Legit Ways to Earn Crypto Watching Videos in 2023 | A-ADS Blog
 meta_description: We all know how valuable cryptocurrenciesare, but it becomes a
   whole lot more interesting to earn free crypto. Let's take a look at the most
   legit ways to earn cryptocurrency by watching videos.
