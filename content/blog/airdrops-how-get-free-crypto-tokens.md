@@ -14,7 +14,7 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/full-37-.png
 big_picture: ../../static/assets/short-21-.png
 popularity: "0"
-meta_title: Airdrops. How to get free crypto tokens | Beginners Guide
+meta_title: Airdrops. How to get free crypto tokens | Beginners Guide | A-ADS Blog
 meta_description: The free crypto distributions are commonly known as airdrops.
   Many crypto companies distribute free coins to their communities to increase
   their project’s visibility and stimulate trade.  In this article, you will
