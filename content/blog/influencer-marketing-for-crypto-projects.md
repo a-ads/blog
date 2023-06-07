@@ -13,13 +13,12 @@ author: Anna Trifonova
 thumbnail: ../../static/assets/full-41-.png
 big_picture: ../../static/assets/short-22-.png
 popularity: "0"
-meta_title: Influencer marketing for crypto projects
+meta_title: Influencer marketing for crypto projects | A-ADS Blog
 meta_description: Learn about the effectiveness of influencer marketing for
   crypto projects, and how to choose the right influencer for your project.
   Discover crypto influencer marketing statistics and platforms to work with,
   including YouTube and Instagram. Gain insights into the advantages and
-  drawbacks of crypto influencer marketing, and how it can increase organic
-  interest and motivate community growth.
+  drawbacks of crypto influencer marketing.
 meta_keywords: ""
 json_ld: ""
 ---
