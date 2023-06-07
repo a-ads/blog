@@ -11,14 +11,12 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/undraw_add_document_0hekобложка.png
 big_picture: ../../static/assets/undraw_add_document_0hekквадрат.png
-meta_title: How do I start? Essentials for advertisers
+meta_title: How do I start? Essentials for advertisers | A-ADS Blog
 meta_description: Create non-intrusive ad campaigns with A-ADS! Choose from our
   daily budget or CPM payment models and set your budget. We only support text
   ads and graphic banners, and never serve popunders or popups. Configure your
-  campaign and target your audience with our selection criteria. Deposit funds
-  in Bitcoin or other cryptocurrencies, with a minimum value of $15. Once your
-  campaign is approved, wait for traffic to start flowing to your site. If you
-  have any questions, please contact our support team.
+  campaign and target your audience with our selection criteria. Start
+  advertising with A-ADS!
 ---
 ## Create a campaign
 
