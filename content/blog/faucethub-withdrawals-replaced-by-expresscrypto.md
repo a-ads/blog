@@ -13,13 +13,12 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/undraw_notify_88a4обложка.png
 big_picture: ../../static/assets/undraw_notify_88a4квадрат.png
-meta_title: FaucetHub withdrawals replaced by ExpressCrypto
+meta_title: FaucetHub withdrawals replaced by ExpressCrypto | A-ADS Blog
 meta_description: Learn about the replacement of FaucetHub with ExpressCrypto
   for withdrawals. Discover how to set up new withdrawal settings and enable
   ExpressCrypto withdrawals. With no withdrawal threshold and a fixed withdrawal
   fee, ExpressCrypto offers an alternative option for withdrawing small sums of
-  money. However, exercise caution as the safety of funds sent to ExpressCrypto
-  cannot be guaranteed.
+  money.
 ---
 Since [FaucetHub](https://faucethub.io/) stops maintaining its services, we've replaced it with an alternative service - [ExpressCrypto](https://expresscrypto.io/). Thus our publishers keep the opportunity to withdraw little sums of money.
 
