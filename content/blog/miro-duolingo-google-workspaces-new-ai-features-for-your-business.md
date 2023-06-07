@@ -11,13 +11,13 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/tools-roundups-22.03.png
 big_picture: ../../static/assets/short-13-.png
 popularity: "0"
-meta_title: Miro, Duolingo, and Google Workspace's new AI features for your business
+meta_title: Miro, Duolingo, and Google Workspace's new AI features for your
+  business | A-ADS Blog
 meta_description: Discover how Miro, Duolingo, and Google Workspace are using
   the power of AI to help businesses work smarter, not harder. From Miro's AI
   beta model for content creation and Duolingo Max's AI-powered language
   learning features to Google Workspace's vision for AI-powered products like
-  Gmail, Docs, and Slides, learn how these companies are making digital tools
-  more intuitive and effective.
+  Gmail, Docs, and Slides.
 meta_keywords: ""
 json_ld: ""
 ---
