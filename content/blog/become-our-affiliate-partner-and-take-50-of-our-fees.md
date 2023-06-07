@@ -11,7 +11,7 @@ category_top_level:
   - Guides
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/illustration-2.png
-meta_title: Become our affiliate partner and take 50% of our fees!
+meta_title: Become our affiliate partner and take 50% of our fees! | A-ADS Blog
 meta_description: Join our affiliate program and earn 50% of our fees! With
   A-ADS, you can invite others to advertise with us and receive 10% of their
   spending. By using a referral link and tracking cookies, you can earn
