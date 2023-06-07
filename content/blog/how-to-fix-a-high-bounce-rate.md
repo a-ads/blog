@@ -10,12 +10,12 @@ category_top_level:
   - Guides
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/image120720192200.png
-meta_title: How to fix a high bounce rate?
+meta_title: How to fix a high bounce rate? | A-ADS Blog
 meta_description: Discover why A-ADS may show a higher bounce rate for
   advertisers compared to pay-per-click networks and learn how to measure
   conversions to ensure your advertising budget is being spent efficiently. Our
   article explores the differences between the two networks and how to assess
-  the quality of clicks, so you can make informed decisions for your business.
+  the quality of clicks.
 ---
 Sometimes our advertisers are unhappy because they see extremely high bounce rates for A-ADS traffic. Tracking systems might show a bounce rate of up to 99%, while the bounce rate for other networks might be something like 25 - 70%.
 
