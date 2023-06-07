@@ -13,7 +13,7 @@ thumbnail: blog/assets/latest-news.png
 big_picture: blog/assets/latest-news1.png
 popularity: "0"
 meta_title: "Latest News: ChatGPT Is Now Mobile, Bitcoin Payments App Expands,
-  and Microsoft Adds AI Features"
+  and Microsoft Adds AI Features | A-ADS Blog"
 meta_description: "Discover the latest news: ChatGPT goes mobile, Bitcoin
   payments app expands worldwide, and Microsoft integrates AI features into
   mobile apps. ChatGPT's iOS app launch enables convenient AI chatbot access on
