@@ -12,7 +12,8 @@ author: Emmanuel Olatunji
 thumbnail: blog/assets/get-noticed-on-social-media_-11-creative-ways-to-drive-engagement.png
 big_picture: blog/assets/short_4.png
 popularity: ""
-meta_title: "Get Noticed on Social Media: 11 Creative Ways to Drive Engagement"
+meta_title: "Get Noticed on Social Media: 11 Creative Ways to Drive Engagement |
+  A-ADS Blog"
 meta_description: Looking to grow your social media audience? Check out these 11
   creative ways to drive engagement, from using interactive content to sharing
   behind-the-scenes glimpses of your brand. Personalization, humor, and paid
