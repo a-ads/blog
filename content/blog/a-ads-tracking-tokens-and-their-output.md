@@ -13,7 +13,7 @@ category_second_level:
 author: Micheal George
 thumbnail: ../../static/assets/full-4-.png
 big_picture: ../../static/assets/short-14-.png
-meta_title: A-ADS Tracking Tokens and Their Output
+meta_title: A-ADS Tracking Tokens and Their Output | A-ADS Blog
 meta_description: Learn how to utilize tracking tokens to gain valuable insights
   into your ad performance with our informative guide. Discover the meaning
   behind our tracking tokens such as {{partner}}, {{timestamp}},
