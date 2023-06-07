@@ -13,13 +13,12 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/undraw_content_vbqoобложка.png
 big_picture: ../../static/assets/undraw_content_vbqoквадрат.png
-meta_title: We've updated the list of supported banners. How will it affect our users?
+meta_title: We've updated the list of supported banners. How will it affect our
+  users? | A-ADS Blog
 meta_description: Improve your ad campaign performance with our updated list of
   supported banner ad sizes! We've removed outdated banner sizes and added new
-  ones, so make sure to adjust your ad units' HTML code to comply. Individual
-  banners must weigh less than 700KB. Existing ad units using deprecated sizes
-  will still work, but new campaigns won't be able to use them. Don't miss out
-  on potential earnings - update your ad units now!
+  ones, so make sure to adjust your ad units' HTML code to comply. Don't miss
+  out on potential earnings - update your ad units now!
 ---
 Today we have updated the list of supported banner ad sizes because outdated banners showed insufficient performance. From now on the accepted banner sizes are: 120x60, 120x600, 125x125, 160x600, 200x200, 240x400, 250x250, 300x250, 300x600, 320x50, 320x100, 336x280, 468x60, 728x90, 970x90, 970x250. Individual banners must weigh less than 700 kilobytes.
 
