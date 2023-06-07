@@ -12,16 +12,12 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/undraw_digital_currency_qpakобложка.png
 big_picture: ../../static/assets/undraw_digital_currency_qpakквадрат.png
-meta_title: Altcoins deposits support added
+meta_title: Altcoins deposits support added | A-ADS Blog
 meta_description: A-ADS has great news for advertisers - we now support altcoin
   deposits! We accept a range of altcoins, including Ripple, Binance Coin,
   Tether, and more, with plans to add support for additional cryptocurrencies in
   the future. Please note that altcoin deposits will be automatically converted
-  to Bitcoin, our primary currency, and financial calculations will be conducted
-  in Bitcoin. There is a 3% conversion fee for altcoin deposits, as well as a
-  0.5% payment processor fee (1% for ERC20 and BEP20 tokens). Finally, keep in
-  mind that altcoin deposits may take additional time to process as they require
-  confirmation, which varies by currency.
+  to Bitcoin.
 ---
 We’re glad to inform our advertisers that we’ve implemented the support of altcoins for deposits. 
 
