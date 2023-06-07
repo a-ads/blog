@@ -9,7 +9,7 @@ category_top_level:
   - News & Trends
 author: Yulia Savushkina
 thumbnail: ../../static/assets/img3.png
-meta_title: Nakamoto Hommage
+meta_title: Nakamoto Hommage | A-ADS Blog
 meta_description: With the Bitcoin halving just hours away, many are curious
   about its potential impact on the Bitcoin price and adoption. While it remains
   to be seen, the hype around the halving has already caused a surge in Bitcoin
