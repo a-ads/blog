@@ -13,7 +13,8 @@ author: Anna Trifonova
 thumbnail: /blog/assets/crypto-startup-marketing.png
 big_picture: /blog/assets/short.png
 popularity: "0"
-meta_title: Crypto and Blockchain Start-Up Marketing Guide. How To Get Noticed In 2023
+meta_title: Crypto and Blockchain Start-Up Marketing Guide. How To Get Noticed
+  In 2023 | A-ADS Blog
 meta_description: " Discover effective marketing strategies to make your crypto
   start-up stand out in the fast-paced world of cryptocurrency. Learn how to
   attract investors, educate potential users, and build credibility in the
