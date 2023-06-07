@@ -13,7 +13,7 @@ author: Micheal George
 thumbnail: /blog/assets/what-is-crypto-marketing_.png
 big_picture: /blog/assets/short1.png
 popularity: "0"
-meta_title: What Is Crypto Marketing?
+meta_title: What Is Crypto Marketing? | A-ADS Blog
 meta_description: "Unique challenges of crypto marketing and strategies for
   success: content, branding, influencers, community, email, airdrops, bounties,
   referrals, segmentation, personalization, and optimization."
