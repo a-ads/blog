@@ -229,7 +229,13 @@ p {
 }
 
 .scroll-section {
-    overflow: scroll;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.scroll-section::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 
 .btn-redirect {
