@@ -60,14 +60,6 @@ typings/
 .DS_Store
 
 
-.idea/
-.DS_Store
-
-<<<<<<< HEAD
-=======
-
->>>>>>> db2471a8 (master - edit git ignore)
 .cache/
 public
 yarn-error.log
-
