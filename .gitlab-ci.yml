@@ -29,7 +29,7 @@ build_image_production:
     - echo 'Starting build image'
     - apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends curl tzdata awscli docker.io
     # push alert
-    - curl -X POST --data-urlencode "payload={\"channel\":\"#development\",\"username\":\"[CI::apps/blog]\",\"text\":\"${CI_COMMIT_AUTHOR% <*} has started deploying a new blog release to production with commit message '${CI_COMMIT_MESSAGE}'\", \"icon_emoji\":\":blossom:\"}" $SLACK_URL
+    - curl -X POST --data-urlencode "payload={\"channel\":\"#testchan\",\"username\":\"[CI::apps/blog]\",\"text\":\"${CI_COMMIT_AUTHOR% <*} has started deploying a new blog release to production with commit message '${CI_COMMIT_MESSAGE}'\", \"icon_emoji\":\":blossom:\"}" $SLACK_URL
 
   script:
     # build_image_commands
@@ -39,7 +39,7 @@ build_image_production:
 
 production_deploy:
   stage: deploy
-  when: manual
+  when: always
   retry: 1
   image: $REGISTRY_HOST/aads-ci-blog:production
   services:
@@ -57,7 +57,7 @@ production_deploy:
     - aws s3 cp ./public/ s3://$PROD_BUCKET/blog/ --recursive --acl public-read
     - aws s3 cp --content-type="text/vnd.yaml" --acl public-read --metadata-directive="REPLACE" s3://$PROD_BUCKET/blog/admin/config.yml s3://$PROD_BUCKET/blog/admin/config.yml 
     # push alert
-    - curl -X POST --data-urlencode "payload={\"channel\":\"#development\",\"username\":\"[CI::apps/blog]\",\"text\":\"${CI_COMMIT_AUTHOR% <*} has completed deploying a new blog release to production!\", \"icon_emoji\":\":blossom:\"}" $SLACK_URL
+    - curl -X POST --data-urlencode "payload={\"channel\":\"#testchan\",\"username\":\"[CI::apps/blog]\",\"text\":\"${CI_COMMIT_AUTHOR% <*} has completed deploying a new blog release to production!\", \"icon_emoji\":\":blossom:\"}" $SLACK_URL
 
 deploy_staging:
   stage: deploy
