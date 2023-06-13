@@ -57,7 +57,7 @@ production_deploy:
     - aws s3 cp ./public/ s3://$PROD_BUCKET/blog/ --recursive --acl public-read
     - aws s3 cp --content-type="text/vnd.yaml" --acl public-read --metadata-directive="REPLACE" s3://$PROD_BUCKET/blog/admin/config.yml s3://$PROD_BUCKET/blog/admin/config.yml 
     # push alert
-    - curl -X POST --data-urlencode "payload={\"channel\":\"#testchan\",\"username\":\"[CI::apps/blog]\",\"text\":\"${CI_COMMIT_AUTHOR% <*} has completed deploying a new blog release to production!\", \"icon_emoji\":\":blossom:\"}" $SLACK_URL
+    - DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends curl && curl -X POST --data-urlencode "payload={\"channel\":\"#testchan\",\"username\":\"[CI::apps/blog]\",\"text\":\"${CI_COMMIT_AUTHOR% <*} has completed deploying a new blog release to production!\", \"icon_emoji\":\":blossom:\"}" $SLACK_URL
 
 deploy_staging:
   stage: deploy
