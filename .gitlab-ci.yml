@@ -27,9 +27,10 @@ build_image_production:
     TMPDIR: ''
   before_script:
     - echo 'Starting build image'
+    - apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends curl tzdata awscli docker.io
     # push alert
     - curl -X POST --data-urlencode "payload={\"channel\":\"#development\",\"username\":\"[CI::apps/blog]\",\"text\":\"${CI_COMMIT_AUTHOR% <*} has started deploying a new blog release to production with commit message '${CI_COMMIT_MESSAGE}'\", \"icon_emoji\":\":blossom:\"}" $SLACK_URL
-    - apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends tzdata awscli docker.io
+
   script:
     # build_image_commands
     - eval $(aws ecr get-login --no-include-email)
