@@ -209,7 +209,7 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
 
             <article
               dangerouslySetInnerHTML={{ __html: html }}
-              className='article flow col-span-9'
+              className='article article--blog flow col-span-9'
             />
           </section>
 
