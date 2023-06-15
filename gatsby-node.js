@@ -16,11 +16,17 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
   if (node.internal.type === 'MarkdownRemark') {
     if (_.startsWith(node.frontmatter.thumbnail, 'blog/assets/')) {
-      node.frontmatter.thumbnail = node.frontmatter.thumbnail.replace('blog/assets/', '../../static/assets/')
+      node.frontmatter.thumbnail = node.frontmatter.thumbnail.replace(
+        'blog/assets/',
+        '../../static/assets/'
+      )
     }
 
     if (_.startsWith(node.frontmatter.thumbnail, '/blog/assets/')) {
-      node.frontmatter.thumbnail = node.frontmatter.thumbnail.replace('/blog/assets/', '../../static/assets/')
+      node.frontmatter.thumbnail = node.frontmatter.thumbnail.replace(
+        '/blog/assets/',
+        '../../static/assets/'
+      )
     }
 
     const slug = createFilePath({ node, getNode, basePath: 'blog' })
@@ -116,7 +122,9 @@ exports.createPages = async ({ graphql, actions }) => {
               }
               position
               description
+              #              education
             }
+            html
           }
         }
       }
@@ -214,6 +222,8 @@ exports.createPages = async ({ graphql, actions }) => {
         thumbnail: author.thumbnail,
         position: author.position,
         description: author.description,
+        // education: author.education,
+        html: author.html,
         postCount: authorBlogPostCount[author.name],
         posts: posts
           .filter(({ author: postAuthor }) => postAuthor === author.name)
