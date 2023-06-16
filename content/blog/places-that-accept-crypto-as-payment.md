@@ -8,8 +8,8 @@ category: How to
 category_top_level:
   - News & Trends
 author: Emmanuel Olatunji
-thumbnail: /blog/assets/full.png
-big_picture: /blog/assets/short.png
+thumbnail: /blog/assets/10-places.png
+big_picture: /blog/assets/10-places-_short.png
 popularity: "0"
 meta_title: 10 Places That Accept Crypto As Payment | Major Companies Who Accept
   Bitcoin | A-ADS Blog
