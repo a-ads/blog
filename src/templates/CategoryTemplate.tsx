@@ -24,17 +24,20 @@ const CategoryTemplate = (props: CategoryPageProps) => {
       <div className='pb-5 relative'>
         <section aria-label={category} className='container'>
           <h1 className='up-desktop:mt-12 mt-8 phone:mt-6 mb-3'>{category}</h1>
+          
           <div className='flex gap-8 mb-7 up-desktop:mb-10 phone:mb-6 scroll-section'>
-            {subcategories.map((subcat) => (
-              <Link
-                key={subcat}
-                text={subcat}
-                to={toCategoryLink(category, subcat)}
-                baseCn='flex-center px-8 py-4 max-w-50 clr-black rounded whitespace-nowrap bg-gradient'
-                // On active:
-                className='aria-[current="page"]:!bg-[#03a9f41a] aria-[current="page"]:!clr-blue aria-[current="page"]:font-extrabold'
-              />
-            ))}
+            {category === 'Guides' && subcategories.map((subcat) => {
+              return (
+                <Link
+                  key={subcat}
+                  text={subcat}
+                  to={toCategoryLink(category, subcat)}
+                  baseCn='flex-center px-8 py-4 max-w-50 clr-black rounded whitespace-nowrap bg-gradient'
+                  // On active:
+                  className='aria-[current="page"]:!bg-[#03a9f41a] aria-[current="page"]:!clr-blue aria-[current="page"]:font-extrabold'
+                />
+              )})
+            }
           </div>
         </section>
 

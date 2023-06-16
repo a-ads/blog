@@ -1872,13 +1872,14 @@ type MarkdownRemarkFilterListInput = {
 
 type MarkdownRemarkFrontmatter = {
   readonly author: Maybe<Scalars['String']>;
-  readonly big_picture: Maybe<File>;
+  readonly big_picture: Maybe<Scalars['String']>;
   readonly bitcointalk_link: Maybe<Scalars['String']>;
   readonly category: Maybe<Scalars['String']>;
   readonly category_second_level: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
   readonly category_top_level: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
   readonly date: Maybe<Scalars['Date']>;
   readonly description: Maybe<Scalars['String']>;
+  readonly education: Maybe<Scalars['String']>;
   readonly facebook_link: Maybe<Scalars['String']>;
   readonly json_ld: Maybe<Scalars['String']>;
   readonly meta_description: Maybe<Scalars['String']>;
@@ -1905,13 +1906,14 @@ type MarkdownRemarkFrontmatter_dateArgs = {
 
 type MarkdownRemarkFrontmatterFieldSelector = {
   readonly author: InputMaybe<FieldSelectorEnum>;
-  readonly big_picture: InputMaybe<FileFieldSelector>;
+  readonly big_picture: InputMaybe<FieldSelectorEnum>;
   readonly bitcointalk_link: InputMaybe<FieldSelectorEnum>;
   readonly category: InputMaybe<FieldSelectorEnum>;
   readonly category_second_level: InputMaybe<FieldSelectorEnum>;
   readonly category_top_level: InputMaybe<FieldSelectorEnum>;
   readonly date: InputMaybe<FieldSelectorEnum>;
   readonly description: InputMaybe<FieldSelectorEnum>;
+  readonly education: InputMaybe<FieldSelectorEnum>;
   readonly facebook_link: InputMaybe<FieldSelectorEnum>;
   readonly json_ld: InputMaybe<FieldSelectorEnum>;
   readonly meta_description: InputMaybe<FieldSelectorEnum>;
@@ -1930,13 +1932,14 @@ type MarkdownRemarkFrontmatterFieldSelector = {
 
 type MarkdownRemarkFrontmatterFilterInput = {
   readonly author: InputMaybe<StringQueryOperatorInput>;
-  readonly big_picture: InputMaybe<FileFilterInput>;
+  readonly big_picture: InputMaybe<StringQueryOperatorInput>;
   readonly bitcointalk_link: InputMaybe<StringQueryOperatorInput>;
   readonly category: InputMaybe<StringQueryOperatorInput>;
   readonly category_second_level: InputMaybe<StringQueryOperatorInput>;
   readonly category_top_level: InputMaybe<StringQueryOperatorInput>;
   readonly date: InputMaybe<DateQueryOperatorInput>;
   readonly description: InputMaybe<StringQueryOperatorInput>;
+  readonly education: InputMaybe<StringQueryOperatorInput>;
   readonly facebook_link: InputMaybe<StringQueryOperatorInput>;
   readonly json_ld: InputMaybe<StringQueryOperatorInput>;
   readonly meta_description: InputMaybe<StringQueryOperatorInput>;
@@ -1955,13 +1958,14 @@ type MarkdownRemarkFrontmatterFilterInput = {
 
 type MarkdownRemarkFrontmatterSortInput = {
   readonly author: InputMaybe<SortOrderEnum>;
-  readonly big_picture: InputMaybe<FileSortInput>;
+  readonly big_picture: InputMaybe<SortOrderEnum>;
   readonly bitcointalk_link: InputMaybe<SortOrderEnum>;
   readonly category: InputMaybe<SortOrderEnum>;
   readonly category_second_level: InputMaybe<SortOrderEnum>;
   readonly category_top_level: InputMaybe<SortOrderEnum>;
   readonly date: InputMaybe<SortOrderEnum>;
   readonly description: InputMaybe<SortOrderEnum>;
+  readonly education: InputMaybe<SortOrderEnum>;
   readonly facebook_link: InputMaybe<SortOrderEnum>;
   readonly json_ld: InputMaybe<SortOrderEnum>;
   readonly meta_description: InputMaybe<SortOrderEnum>;
@@ -2163,6 +2167,7 @@ type MdxFrontmatter = {
   readonly category_top_level: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
   readonly date: Maybe<Scalars['Date']>;
   readonly description: Maybe<Scalars['String']>;
+  readonly education: Maybe<Scalars['String']>;
   readonly facebook_link: Maybe<Scalars['String']>;
   readonly json_ld: Maybe<Scalars['String']>;
   readonly meta_description: Maybe<Scalars['String']>;
@@ -2196,6 +2201,7 @@ type MdxFrontmatterFieldSelector = {
   readonly category_top_level: InputMaybe<FieldSelectorEnum>;
   readonly date: InputMaybe<FieldSelectorEnum>;
   readonly description: InputMaybe<FieldSelectorEnum>;
+  readonly education: InputMaybe<FieldSelectorEnum>;
   readonly facebook_link: InputMaybe<FieldSelectorEnum>;
   readonly json_ld: InputMaybe<FieldSelectorEnum>;
   readonly meta_description: InputMaybe<FieldSelectorEnum>;
@@ -2221,6 +2227,7 @@ type MdxFrontmatterFilterInput = {
   readonly category_top_level: InputMaybe<StringQueryOperatorInput>;
   readonly date: InputMaybe<DateQueryOperatorInput>;
   readonly description: InputMaybe<StringQueryOperatorInput>;
+  readonly education: InputMaybe<StringQueryOperatorInput>;
   readonly facebook_link: InputMaybe<StringQueryOperatorInput>;
   readonly json_ld: InputMaybe<StringQueryOperatorInput>;
   readonly meta_description: InputMaybe<StringQueryOperatorInput>;
@@ -2246,6 +2253,7 @@ type MdxFrontmatterSortInput = {
   readonly category_top_level: InputMaybe<SortOrderEnum>;
   readonly date: InputMaybe<SortOrderEnum>;
   readonly description: InputMaybe<SortOrderEnum>;
+  readonly education: InputMaybe<SortOrderEnum>;
   readonly facebook_link: InputMaybe<SortOrderEnum>;
   readonly json_ld: InputMaybe<SortOrderEnum>;
   readonly meta_description: InputMaybe<SortOrderEnum>;
