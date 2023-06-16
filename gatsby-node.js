@@ -284,23 +284,14 @@ exports.createPages = async ({ graphql, actions }) => {
     }
     const subcats = [allAsSubcategory, ...subcategoriesWithPosts]
 
-    subcats.forEach((subcat) => {
-      if (subcat.subcategoryName === 'All') {
-        categoryPages.push({
-          path: `/categories/${category.title}/`,
-          posts: subcat.posts,
-          category: category.title,
-          meta_description: category.meta_description,
-        })
-      } else if (category.title === 'Guides') {
-        categoryPages.push({
-          path: `/categories/${subcat.subcategoryName}/`,
-          posts: subcat.posts,
-          category: category.title,
-          meta_description: category.meta_description,
-        })
-      }
-    })
+    subcats.forEach((subcat) =>
+      categoryPages.push({
+        path: `/categories/${category.title}/${subcat.subcategoryName}/`,
+        posts: subcat.posts,
+        category: category.title,
+        meta_description: category.meta_description,
+      })
+    )
   })
 
   const subcategoryNames = subcategoriesWithPosts.map(
