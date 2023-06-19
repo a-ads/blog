@@ -67,9 +67,9 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
 
   const MobileNav = useMemo(
     () => (
-      <div className='z-layout relative bg-base mt-10 container flex-center up-desktop:hidden'>
-        <SearchBar className='w-full' />
-        <nav className='absolute top-[70px] flex flex-col bg-base w-screen px-7 py-6 shadow-0'>
+      <div className='z-layout relative bg-base mt-10 flex-center up-desktop:hidden search-wrap'>
+        <SearchBar className='w-full search-form' />
+        <nav className='absolute top-[70px] flex flex-col bg-base w-screen px-7 py-6 shadow-0 navigation'>
           {NavLinks}
         </nav>
       </div>
