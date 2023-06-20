@@ -133,8 +133,11 @@ exports.createPages = async ({ graphql, actions }) => {
         edges {
           node {
             title
-            order
+            h1
+            html_title
+            breadcrumb
             meta_description
+            order
           }
         }
       }
@@ -143,8 +146,12 @@ exports.createPages = async ({ graphql, actions }) => {
         edges {
           node {
             title
-            parent_category
+            h1
+            html_title
+            breadcrumb
+            meta_description
             order
+            parent_category
           }
         }
       }
@@ -250,6 +257,7 @@ exports.createPages = async ({ graphql, actions }) => {
     ({ node }) => ({
       title: node.title,
       meta_description: node.meta_description,
+      ...node
     })
   )
   const subcategories = data.allBlogCategoriesSecondLevelYaml.edges
@@ -269,6 +277,7 @@ exports.createPages = async ({ graphql, actions }) => {
       return {
         subcategoryName: node.title,
         posts: subcategoryPosts.map(toBlogPostCardProps),
+        ...node
       }
     })
 
@@ -289,15 +298,15 @@ exports.createPages = async ({ graphql, actions }) => {
         categoryPages.push({
           path: `/categories/${category.title}/`,
           posts: subcat.posts,
-          category: category.title,
-          meta_description: category.meta_description,
+          categoryObj: category,
+          category: category.title
         })
       } else if (category.title === 'Guides') {
         categoryPages.push({
           path: `/categories/${subcat.subcategoryName}/`,
           posts: subcat.posts,
           category: category.title,
-          meta_description: category.meta_description,
+          categoryObj: subcat
         })
       }
     })
@@ -319,6 +328,7 @@ exports.createPages = async ({ graphql, actions }) => {
         category: page.category,
         subcategories: subcategoryNames,
         meta_description: page.meta_description,
+        categoryObj: page.categoryObj,
         posts: page.posts.map(toBlogPostCardProps),
       },
     })

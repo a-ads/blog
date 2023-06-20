@@ -4,8 +4,8 @@ const resolve = require('path').resolve
 const config: GatsbyConfig = {
   pathPrefix: '/blog',
   siteMetadata: {
-    title: 'A-ADS Blog',
-    description: `A-ADS is a pioneer crypto advertising network. It offers ethical privacy-aware CPA, CPD, CPM ads and accepts over 20 major crypto-currencies, including Bitcoin.`,
+    title: 'A-ADS Crypto Blog - marketing guides, tips and news to cryptocurrencies market',
+    description: 'Crypto & Bitcoin market tips and updates, mine guides, reviews and ratings for first-timers or experienced investors, and more information of cryptocurrencies.',
     image: `static/images/favicon.png`,
     siteUrl: 'https://a-ads.com',
   },

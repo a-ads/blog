@@ -115,6 +115,10 @@ collections:
     extension: yml
     fields:
       - { name: title, label: Title }
+      - { name: h1, label: H1 }
+      - { name: html_title, label: HTML Title }
+      - { name: breadcrumb, label: Breacrumb }
+      - { name: meta_description, label: Meta Description }
       - { name: order, label: order, default: '0' }
 
   - name: blog_categories_second_level
@@ -124,6 +128,10 @@ collections:
     extension: yml
     fields:
       - { name: title, label: Title }
+      - { name: h1, label: H1 }
+      - { name: html_title, label: HTML Title }
+      - { name: breadcrumb, label: Breacrumb }
+      - { name: meta_description, label: Meta Description }
       - { name: order, label: Order, default: '0' }
       - {
           name: parent_category,

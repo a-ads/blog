@@ -12,18 +12,23 @@ interface CategoryPageProps {
     subcategories: CategoriesSecondLevelNames[]
     posts: BlogPostCard[]
     meta_description: string
+    categoryObj: {
+      h1: string
+      html_title: string
+      meta_description: string
+    }
   }
 }
 
 const CategoryTemplate = (props: CategoryPageProps) => {
-  const { category, subcategories, posts, meta_description } = props.pageContext
+  const { category, subcategories, posts, categoryObj } = props.pageContext
 
   return (
     <>
-      <Seo title={category} description={meta_description} />
+      <Seo title={categoryObj.html_title} description={categoryObj.meta_description} />
       <div className='pb-5 relative'>
         <section aria-label={category} className='container'>
-          <h1 className='up-desktop:mt-12 mt-8 phone:mt-6 mb-3'>{category}</h1>
+          <h1 className='up-desktop:mt-12 mt-8 phone:mt-6 mb-3'>{categoryObj.h1}</h1>
           
           <div className='flex gap-8 mb-7 up-desktop:mb-10 phone:mb-6 scroll-section'>
             {category === 'Guides' && subcategories.map((subcat) => {

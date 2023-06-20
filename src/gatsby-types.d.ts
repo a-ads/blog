@@ -35,9 +35,13 @@ type AVIFOptions = {
 };
 
 type BlogCategoriesSecondLevelYaml = Node & {
+  readonly breadcrumb: Maybe<Scalars['String']>;
   readonly children: ReadonlyArray<Node>;
+  readonly h1: Maybe<Scalars['String']>;
+  readonly html_title: Maybe<Scalars['String']>;
   readonly id: Scalars['ID'];
   readonly internal: Internal;
+  readonly meta_description: Maybe<Scalars['String']>;
   readonly order: Maybe<Scalars['String']>;
   readonly parent: Maybe<Node>;
   readonly parent_category: Maybe<Scalars['String']>;
@@ -90,9 +94,13 @@ type BlogCategoriesSecondLevelYamlEdge = {
 };
 
 type BlogCategoriesSecondLevelYamlFieldSelector = {
+  readonly breadcrumb: InputMaybe<FieldSelectorEnum>;
   readonly children: InputMaybe<NodeFieldSelector>;
+  readonly h1: InputMaybe<FieldSelectorEnum>;
+  readonly html_title: InputMaybe<FieldSelectorEnum>;
   readonly id: InputMaybe<FieldSelectorEnum>;
   readonly internal: InputMaybe<InternalFieldSelector>;
+  readonly meta_description: InputMaybe<FieldSelectorEnum>;
   readonly order: InputMaybe<FieldSelectorEnum>;
   readonly parent: InputMaybe<NodeFieldSelector>;
   readonly parent_category: InputMaybe<FieldSelectorEnum>;
@@ -100,9 +108,13 @@ type BlogCategoriesSecondLevelYamlFieldSelector = {
 };
 
 type BlogCategoriesSecondLevelYamlFilterInput = {
+  readonly breadcrumb: InputMaybe<StringQueryOperatorInput>;
   readonly children: InputMaybe<NodeFilterListInput>;
+  readonly h1: InputMaybe<StringQueryOperatorInput>;
+  readonly html_title: InputMaybe<StringQueryOperatorInput>;
   readonly id: InputMaybe<StringQueryOperatorInput>;
   readonly internal: InputMaybe<InternalFilterInput>;
+  readonly meta_description: InputMaybe<StringQueryOperatorInput>;
   readonly order: InputMaybe<StringQueryOperatorInput>;
   readonly parent: InputMaybe<NodeFilterInput>;
   readonly parent_category: InputMaybe<StringQueryOperatorInput>;
@@ -155,9 +167,13 @@ type BlogCategoriesSecondLevelYamlGroupConnection_sumArgs = {
 };
 
 type BlogCategoriesSecondLevelYamlSortInput = {
+  readonly breadcrumb: InputMaybe<SortOrderEnum>;
   readonly children: InputMaybe<NodeSortInput>;
+  readonly h1: InputMaybe<SortOrderEnum>;
+  readonly html_title: InputMaybe<SortOrderEnum>;
   readonly id: InputMaybe<SortOrderEnum>;
   readonly internal: InputMaybe<InternalSortInput>;
+  readonly meta_description: InputMaybe<SortOrderEnum>;
   readonly order: InputMaybe<SortOrderEnum>;
   readonly parent: InputMaybe<NodeSortInput>;
   readonly parent_category: InputMaybe<SortOrderEnum>;
@@ -165,7 +181,10 @@ type BlogCategoriesSecondLevelYamlSortInput = {
 };
 
 type BlogCategoriesTopLevelYaml = Node & {
+  readonly breadcrumb: Maybe<Scalars['String']>;
   readonly children: ReadonlyArray<Node>;
+  readonly h1: Maybe<Scalars['String']>;
+  readonly html_title: Maybe<Scalars['String']>;
   readonly id: Scalars['ID'];
   readonly internal: Internal;
   readonly meta_description: Maybe<Scalars['String']>;
@@ -220,7 +239,10 @@ type BlogCategoriesTopLevelYamlEdge = {
 };
 
 type BlogCategoriesTopLevelYamlFieldSelector = {
+  readonly breadcrumb: InputMaybe<FieldSelectorEnum>;
   readonly children: InputMaybe<NodeFieldSelector>;
+  readonly h1: InputMaybe<FieldSelectorEnum>;
+  readonly html_title: InputMaybe<FieldSelectorEnum>;
   readonly id: InputMaybe<FieldSelectorEnum>;
   readonly internal: InputMaybe<InternalFieldSelector>;
   readonly meta_description: InputMaybe<FieldSelectorEnum>;
@@ -230,7 +252,10 @@ type BlogCategoriesTopLevelYamlFieldSelector = {
 };
 
 type BlogCategoriesTopLevelYamlFilterInput = {
+  readonly breadcrumb: InputMaybe<StringQueryOperatorInput>;
   readonly children: InputMaybe<NodeFilterListInput>;
+  readonly h1: InputMaybe<StringQueryOperatorInput>;
+  readonly html_title: InputMaybe<StringQueryOperatorInput>;
   readonly id: InputMaybe<StringQueryOperatorInput>;
   readonly internal: InputMaybe<InternalFilterInput>;
   readonly meta_description: InputMaybe<StringQueryOperatorInput>;
@@ -285,7 +310,10 @@ type BlogCategoriesTopLevelYamlGroupConnection_sumArgs = {
 };
 
 type BlogCategoriesTopLevelYamlSortInput = {
+  readonly breadcrumb: InputMaybe<SortOrderEnum>;
   readonly children: InputMaybe<NodeSortInput>;
+  readonly h1: InputMaybe<SortOrderEnum>;
+  readonly html_title: InputMaybe<SortOrderEnum>;
   readonly id: InputMaybe<SortOrderEnum>;
   readonly internal: InputMaybe<InternalSortInput>;
   readonly meta_description: InputMaybe<SortOrderEnum>;
@@ -2661,9 +2689,13 @@ type Query_allSitePluginArgs = {
 
 
 type Query_blogCategoriesSecondLevelYamlArgs = {
+  breadcrumb: InputMaybe<StringQueryOperatorInput>;
   children: InputMaybe<NodeFilterListInput>;
+  h1: InputMaybe<StringQueryOperatorInput>;
+  html_title: InputMaybe<StringQueryOperatorInput>;
   id: InputMaybe<StringQueryOperatorInput>;
   internal: InputMaybe<InternalFilterInput>;
+  meta_description: InputMaybe<StringQueryOperatorInput>;
   order: InputMaybe<StringQueryOperatorInput>;
   parent: InputMaybe<NodeFilterInput>;
   parent_category: InputMaybe<StringQueryOperatorInput>;
@@ -2672,7 +2704,10 @@ type Query_blogCategoriesSecondLevelYamlArgs = {
 
 
 type Query_blogCategoriesTopLevelYamlArgs = {
+  breadcrumb: InputMaybe<StringQueryOperatorInput>;
   children: InputMaybe<NodeFilterListInput>;
+  h1: InputMaybe<StringQueryOperatorInput>;
+  html_title: InputMaybe<StringQueryOperatorInput>;
   id: InputMaybe<StringQueryOperatorInput>;
   internal: InputMaybe<InternalFilterInput>;
   meta_description: InputMaybe<StringQueryOperatorInput>;

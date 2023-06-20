@@ -63,7 +63,7 @@ const IndexPage = () => {
         className='relative mb-20'
       >
         <h1 className='container large mb-10 mt-12 tablet:mt-8 phone:my-5'>
-          Crypto Marketing & Trends
+          A-ADS Crypto Blog
         </h1>
 
         <BlogPostGrid posts={posts.top} />
