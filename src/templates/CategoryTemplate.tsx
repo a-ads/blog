@@ -31,10 +31,10 @@ const CategoryTemplate = (props: CategoryPageProps) => {
           <h1 className='up-desktop:mt-12 mt-8 phone:mt-6 mb-3'>{categoryObj.h1}</h1>
           
           <div className='flex gap-8 mb-7 up-desktop:mb-10 phone:mb-6 scroll-section'>
-            {category === 'Guides' && subcategories.map((subcat) => {
+            {category === 'Guides' && subcategories.map((subcat, index) => {
               return (
                 <Link
-                  key={subcat}
+                  key={index}
                   text={subcat}
                   to={toCategoryLink(category, subcat)}
                   baseCn='flex-center px-8 py-4 max-w-50 clr-black rounded whitespace-nowrap bg-gradient'
