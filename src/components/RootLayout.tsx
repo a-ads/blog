@@ -49,13 +49,12 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
   const NavLinks = useMemo(
     () => (
       <>
-        {categoriesTopLevel.map((cat) => (
+        {categoriesTopLevel.sort((a, b) => a.order - b.order).map((cat) => (
           <Link
             key={cat.id}
             ghost
             text={cat.title}
             to={toCategoryLink(cat.title, 'all')}
-            style={{ order: cat.order }}
             baseCn='py-4 text-base leading-6 font-medium text-gray-800 whitespace-nowrap hover:clr-primary rounded-none'
             className={cat.order == 3 ? 'border-none' : 'down-desktop:border-b'} // This disables the border on the last item on mobile
             onClick={() => (isHamburgerOpen ? setIsHamburgerOpen(false) : null)}

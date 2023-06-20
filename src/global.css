@@ -274,12 +274,8 @@ p {
     margin: 0 76px;
 }
 
-.nav-block a {
-    margin-right: 36px;
-}
-
-.nav-block a:nth-child(2) {
-    margin-right: 0;
+.nav-block a + a {
+    margin-left: 36px;
 }
 
 .wrap-search svg {
@@ -382,10 +378,6 @@ p {
 
 .nav-block {
     margin: 0 76px;
-}
-
-.nav-block a {
-    margin-right: 36px;
 }
 
 .nav-block a:nth-child(2) {
