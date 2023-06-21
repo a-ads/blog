@@ -1,7 +1,7 @@
 ---
 date: 2023-05-16T07:03:19.116Z
 title: "Latest in Tech: Pantera Capital, Meta, and Polygon Make Headlines"
-slug: Latest-in-Tech-Pantera-Capital-Meta-and-Polygon-Make-Headlines
+slug: latest-in-tech-pantera-capital-meta-and-polygon-make-headlines
 tags:
   - news
 category: Stories
@@ -26,7 +26,7 @@ Pantera Capital, a well-known cryptocurrency investment fund, [has invested](htt
 
 ## **Meta Launches Advanced AI Model for Object Recognition and Masking in Images and Videos** 
 
-![ Advanced AI Model for Object Recognition](blog/assets/снимок-экрана-2023-05-16-в-10.02.43.png " Advanced AI Model for Object Recognition")
+![ Advanced AI Model for Object Recognition](/blog/assets/снимок-экрана-2023-05-16-в-10.02.43.png " Advanced AI Model for Object Recognition")
 
 *Source: ai.facebook.com*
 

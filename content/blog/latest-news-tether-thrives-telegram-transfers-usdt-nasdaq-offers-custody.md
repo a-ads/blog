@@ -1,7 +1,7 @@
 ---
 date: 2023-03-27T12:54:29.294Z
 title: "Latest news: Tether Thrives, Telegram Transfers USDT, Nasdaq Offers Custody"
-slug: Latest-news-Tether-Thrives-Telegram-Transfers-USDT-Nasdaq-Offers-Custody
+slug: latest-news-tether-thrives-telegram-transfers-usdt-nasdaq-offers-custody
 tags:
   - news
 category: Stories
@@ -13,13 +13,12 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/full.png
 big_picture: ../../static/assets/short-2-.png
 popularity: ""
-meta_title: "Latest news: Tether Thrives, Telegram Transfers USDT, Nasdaq Offers Custody"
+meta_title: "Latest news: Tether Thrives, Telegram Transfers USDT, Nasdaq Offers
+  Custody | A-ADS Blog"
 meta_description: Stay informed with the latest news in the cryptocurrency
-  world. Nasdaq plans to launch a crypto custody service for Bitcoin and
-  Ethereum, while Telegram introduces the ability to transfer USDT within its
-  messaging platform. Tether, the leading stablecoin issuer, thrives amidst
-  market challenges, anticipating significant profits and increased holdings.
-  Stay updated on industry developments and trends.
+  world. Nasdaq to launch Bitcoin and Ethereum custody service, Telegram enables
+  USDT transfers in its messaging platform, and Tether stays strong despite
+  market challenges, expecting substantial profits.
 meta_keywords: ""
 json_ld: ""
 ---

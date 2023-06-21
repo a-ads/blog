@@ -24,7 +24,7 @@ const CategoryTemplate = (props: CategoryPageProps) => {
       <div className='pb-5 relative'>
         <section aria-label={category} className='container'>
           <h1 className='up-desktop:mt-12 mt-8 phone:mt-6 mb-3'>{category}</h1>
-          <div className='flex gap-8 mb-7 up-desktop:mb-10 phone:mb-6'>
+          <div className='flex gap-8 mb-7 up-desktop:mb-10 phone:mb-6 scroll-section'>
             {subcategories.map((subcat) => (
               <Link
                 key={subcat}

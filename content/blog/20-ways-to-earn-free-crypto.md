@@ -13,7 +13,7 @@ author: Emmanuel Olatunji
 thumbnail: ../../static/assets/full-17-.png
 big_picture: blog/assets/short.png
 popularity: "0"
-meta_title: 20 Ways to Earn Free Crypto in 2022
+meta_title: 20 Ways to Earn Free Crypto in 2023 | A-ADS Blog
 meta_description: Many people that aren’t operating on a huge budget are
   constantly searching for ways to earn free crypto. Let's see how to earn free
   crypto without spending your own money.

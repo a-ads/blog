@@ -1,7 +1,7 @@
 ---
 date: 2023-05-25T08:49:01.962Z
 title: Top 10 AI Products for Marketing and Management to Enhance Efficiency
-slug: Top-10-AI-Products-for-Marketing-and-Management-to-Enhance-Efficiency
+slug: top-ten-ai-products-for-marketing-and-management-to-enhance-efficiency
 tags:
   - news
 category: How to
@@ -24,7 +24,7 @@ Artificial Intelligence has emerged as a powerful technology that can significan
 
 ### 1. WebChatGPT
 
-![WebChatGPT Screen ](blog/assets/webchatgpt-for-chrome_1.png "WebChatGPT Screen ")
+![WebChatGPT Screen ](/blog/assets/webchatgpt-for-chrome_1.png "WebChatGPT Screen ")
 
 *Resource: WebChatGPT*
 
@@ -32,7 +32,7 @@ This Chrome extension enables you to enhance the capabilities of Chat GPT by pro
 
 ### 2. Cactus AI
 
-![Cactus AI Picture ](blog/assets/maxresdefault-12.jpg.webp "Cactus AI Picture ")
+![Cactus AI Picture ](/blog/assets/maxresdefault-12.jpg.webp "Cactus AI Picture ")
 
 *Resource: Openaimaster.com*
 
@@ -40,7 +40,7 @@ Like Chat GPT, Cactus AI focuses on essay and article writing. It produces compr
 
 ### 3. Repurpose.io
 
-![ Repurpose.io creates multiple short videos](blog/assets/screenshot1-450ca763-aeda-45cd-b88f-62c420226ed1.png " Repurpose.io Creates Multiple Short Videos")
+![ Repurpose.io creates multiple short videos](/blog/assets/screenshot1-450ca763-aeda-45cd-b88f-62c420226ed1.png " Repurpose.io Creates Multiple Short Videos")
 
 *Resource: Webapphub.com*
 
@@ -52,7 +52,7 @@ For companies engaged in systematic social media marketing (SMM), Conte.ai is a 
 
 ### 5. Synthesia.io
 
-![Synthesis io video creation platform](blog/assets/62556b0c0f63294bbf9b2353_og-image-front-4-1-.png "Synthesis io video creation platform")
+![Synthesis io video creation platform](/blog/assets/62556b0c0f63294bbf9b2353_og-image-front-4-1-.png "Synthesis io video creation platform")
 
 *Resource: Synthesia.io.*
 
@@ -64,7 +64,7 @@ Combining the power of AI text generation with robust SEO software, Outranking.i
 
 ### 7. Beautiful.ai
 
-![Beautiful.ai makes stunning presentations](blog/assets/visme-vs-beautiful-ai-slide-layouts-3.jpg "Beautiful.ai makes stunning presentations")
+![Beautiful.ai makes stunning presentations](/blog/assets/visme-vs-beautiful-ai-slide-layouts-3.jpg "Beautiful.ai makes stunning presentations")
 
 *Resource: Beautiful.ai*
 

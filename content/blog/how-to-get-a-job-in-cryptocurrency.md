@@ -45,7 +45,7 @@ Another job that doesn't require hard technical skills. A marketing manager deve
 
 ### 3. Web Developer 
 
-![](blog/assets/pexels-fauxels-3184657.jpg)
+![](/blog/assets/pexels-fauxels-3184657.jpg)
 
 *Source: Pexels.com*
 
@@ -138,7 +138,7 @@ As with most other top positions in the crypto world, the research analyst shoul
 
 ## How To Start A Career In Cryptocurrency?
 
-![Start Your Career ](blog/assets/pexels-sora-shimazaki-5668869.jpg "Start Your Career ")
+![Start Your Career ](/blog/assets/pexels-sora-shimazaki-5668869.jpg "Start Your Career ")
 
 After you have chosen the field you want to work in, let's check the steps you should take to start your career in the cryptocurrency world: 
 

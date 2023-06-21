@@ -1,7 +1,7 @@
 ---
 date: 2023-05-09T09:16:44.730Z
 title: "Get Noticed on Social Media: 11 Creative Ways to Drive Engagement"
-slug: Get-Noticed-on-Social-Media-11-Creative-Ways-to-Drive-Engagement
+slug: get-noticed-on-social-media-11-creative-ways-to-drive-engagement
 tags:
   - news
 category: How to
@@ -77,7 +77,7 @@ Personalization is key to building a solid relationship with your audience on so
 
 **8. Show Behind-the-Scenes Content**
 
-![HootSuite.com, an online social aggregator planner, show their human side to always have content to share.](blog/assets/unknown_3.png "HootSuite.com, an online social aggregator planner, show their human side to always have content to share")
+![HootSuite.com, an online social aggregator planner, show their human side to always have content to share.](https://a-ads.com/blog/assets/unknown_3.png "HootSuite.com, an online social aggregator planner, show their human side to always have content to share")
 
 *Source: HootSuite.com. They’re an online social aggregator planner, so they show their human side to always have content to share.*
 
@@ -85,7 +85,7 @@ Showing behind-the-scenes content is a great way to humanize your brand and buil
 
 **9. Use Humor** 
 
-![Taco Bell use of humor on social media example ](blog/assets/unknown.png "Taco Bell use of humor on social media example ")
+![Taco Bell use of humor on social media example ](https://a-ads.com/blog/assets/unknown.png "Taco Bell use of humor on social media example ")
 
 Humor is a powerful tool for engaging with your audience on social media. It can help to make your brand more relatable and approachable. But it's important to use humor appropriately and not offend or alienate your audience.
 
@@ -99,7 +99,7 @@ Consistency and responsiveness are crucial to building a strong social media pre
 
 ### Case Study: Coca-Cola 
 
-![Coca-Cola engaging with its audience on social media exampl](blog/assets/unknown_2.png "Coca-Cola engaging with its audience on social media example")
+![Coca-Cola engaging with its audience on social media exampl](https://a-ads.com/blog/assets/unknown_2.png "Coca-Cola engaging with its audience on social media example")
 
 *Source: Marketingmag.com.au*
 

@@ -2,8 +2,7 @@
 date: 2023-05-22T12:52:36.126Z
 title: "Latest News: ChatGPT Is Now Mobile, Bitcoin Payments App Expands, and
   Microsoft Adds AI Features"
-slug: Latest
-  News-ChatGPT-Is-Now-Mobile-Bitcoin-Payments-App-Expands-and-Microsoft-Adds-AI-Features
+slug: latest-news-chatgpt-is-now-mobile-bitcoin-payments-app-expands-and-microsoft-adds-ai-features
 tags:
   - news
 category: Stories
@@ -30,7 +29,7 @@ Among the updates is the rollout of several new features for Bing, such as video
 
 ### ChatGPT Is Going Mobile
 
-![ChatGPT Is Now On Mobile ](blog/assets/im-726654.jpeg "ChatGPT Is Now On Mobile ")
+![ChatGPT Is Now On Mobile ](/blog/assets/im-726654.jpeg "ChatGPT Is Now On Mobile ")
 
 *Source: Openaimaster.com*
 

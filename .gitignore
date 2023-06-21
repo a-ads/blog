@@ -60,10 +60,6 @@ typings/
 .DS_Store
 
 
-.idea/
-.DS_Store
-
-
 .cache/
 public
 yarn-error.log

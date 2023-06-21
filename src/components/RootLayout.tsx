@@ -8,20 +8,22 @@ import 'prismjs/themes/prism.css'
 
 import { Button, Icon, Link, List, ListItem } from '@ui'
 import { SocialButton } from '@components'
-import { Horn, Wallet } from '@icons'
+import { Horn, Wallet, LogoRedirect } from '@icons'
 import { SearchQueryProvider, SearchBar } from './Search'
 import ModalRenderer from './modal/ModalRenderer'
 import { showReportBugModal, showSuggestIdeaModal } from './modal/modals'
 import { toCategoryLink } from '@utils'
 import type { SocialId } from './SocialButton'
+import SvgSearchIcon from "./icons/SearchIcon";
 
 const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false) // For mobile
+  const [isSearch, setIsSearch] = useState(false)
 
   const Hamburger = (
     <div
       aria-label='Hamburger menu'
-      className='w-8 h-8 relative cursor-pointer ml-auto mt-2 up-desktop:hidden'
+      className='w-8 h-8 relative cursor-pointer mt-2 up-desktop:hidden'
       onClick={() => setIsHamburgerOpen((prev) => !prev)}
     >
       {/* Three lines  */}
@@ -54,7 +56,7 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
             text={cat.title}
             to={toCategoryLink(cat.title, 'all')}
             style={{ order: cat.order }}
-            baseCn='py-4 body-3 whitespace-nowrap font-medium hover:clr-primary rounded-none'
+            baseCn='py-4 text-base leading-6 font-medium text-gray-800 whitespace-nowrap hover:clr-primary rounded-none'
             className={cat.order == 3 ? 'border-none' : 'down-desktop:border-b'} // This disables the border on the last item on mobile
             onClick={() => (isHamburgerOpen ? setIsHamburgerOpen(false) : null)}
           />
@@ -78,7 +80,7 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
 
   return (
     <header className='bg-base py-5 shadow-[0 40px 80px -40px rgb(0 0 0 / 10%)]'>
-      <div className='container flex gap-[7.5rem]'>
+      <div className='container flex align-middle justify-between'>
         <Link className='h-12 p-0' to='/'>
           <StaticImage
             src='../../static/images/logo.svg'
@@ -90,10 +92,25 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
             quality={100}
           />
         </Link>
+          <Link className="btn-redirect up-desktop:hidden" to={'https://a-ads.com'}>
+              <LogoRedirect/>
+              <span className="btn-text">Go to A-ADS network</span>
+          </Link>
 
-        <div className='grid grid-cols-2 gap-44 down-desktop:hidden'>
-          <nav className='flex-center body-3 gap-9'>{NavLinks}</nav>
-          <SearchBar />
+        <div className='nav-wrap down-desktop:hidden'>
+            {!isSearch && <nav className='flex-center nav-block'>{NavLinks}</nav>}
+            {isSearch &&
+              <SearchBar
+                className="search-bar"
+                setIsSearch={setIsSearch}
+                isSearch={isSearch}/>}
+          <div className="wrap-search">
+              {!isSearch && <SvgSearchIcon fill='#03A9F4' className="nav-search" onClick={() => setIsSearch(true)}/>}
+          </div>
+          <Link className="btn-redirect" to={'https://a-ads.com'}>
+              <LogoRedirect/>
+              <span className="btn-text">Go to A-ADS network</span>
+          </Link>
         </div>
 
         {Hamburger}
