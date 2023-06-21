@@ -50,8 +50,8 @@ exports.onPostBuild = async () => {
     '/contacts/',
   ]
 
-  const publicDir = './public'
-  const sitemapPath = `${publicDir}/sitemap.xml`
+  const publicDir = resolve(__dirname, 'public')
+  const sitemapPath = `${publicDir}/sitemap-0.xml`
 
   // Чтение существующего sitemap
   let sitemap = fs.readFileSync(sitemapPath, 'utf-8')
