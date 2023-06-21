@@ -59,17 +59,11 @@ const config: GatsbyConfig = {
           anonymize_ip: true,
         },
         pluginConfig: {
-          delayOnRouteUpdate: 100
-        }
+          delayOnRouteUpdate: 100,
+        },
       },
     },
     'gatsby-plugin-image',
-    {
-      resolve: 'gatsby-plugin-sitemap',
-      options: {
-        exclude: ['blog/about/', '/about/', 'blog/search/', '/search/', 'blog/contacts/', '/contacts/'],
-      },
-    },
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
