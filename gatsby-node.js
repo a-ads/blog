@@ -1,7 +1,6 @@
 const resolve = require('path').resolve
 const { createFilePath } = require('gatsby-source-filesystem')
 const _ = require('lodash')
-const fs = require('fs')
 
 exports.onCreateWebpackConfig = ({ stage, actions }) => {
   actions.setWebpackConfig({
@@ -37,33 +36,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       value: slug,
     })
   }
-}
-
-exports.onPostBuild = async () => {
-  // Список путей страниц, которые вы хотите исключить из sitemap
-  const excludedPaths = [
-    '/blog/about/',
-    '/about/',
-    '/blog/search/',
-    '/search/',
-    '/blog/contacts/',
-    '/contacts/',
-  ]
-
-  const publicDir = resolve(__dirname, 'public')
-  const sitemapPath = `${publicDir}/sitemap-0.xml`
-
-  // Чтение существующего sitemap
-  let sitemap = fs.readFileSync(sitemapPath, 'utf-8')
-
-  // Исключение страниц из sitemap
-  excludedPaths.forEach((path) => {
-    const regex = new RegExp(`<url>.*?<loc>${path}</loc>.*?</url>`, 's')
-    sitemap = sitemap.replace(regex, '')
-  })
-
-  // Запись измененного sitemap обратно
-  fs.writeFileSync(sitemapPath, sitemap, 'utf-8')
 }
 
 // We only need the full post data for the blog post page. For the blog post card we only need a subset of the data
