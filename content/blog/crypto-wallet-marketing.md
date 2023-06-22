@@ -35,11 +35,13 @@ One of the most winning strategies is to conduct surveys and in-depth interviews
 
 The next step involves defining the product's benefits from the target audience's perspective and considering any potential drawbacks. For instance, a marketing team can explore the competitive advantages that the target audience values and examine the pros and cons of the product's configuration in relation to competing products. This analysis will help to understand how competitive offerings meet the needs and address the target audience's challenges. Ultimately, the data obtained from this assessment will guide your project's future marketing activities.
 
-It’s better to collect all the results in a tabular report. At the same time, pay special attention to two points:
+It’s better to collect all the results in a tabular report. At the same time, pay special attention to three points:
 
-1. We should determine the right questions to ask respondents to gain insights into how, where, and with what offers we can effectively reach a specific target audience segment.
-2. We need to identify the critical set of features that should be available during the product's launch stage.
-3. What features do competitors have in general, and what do users want to see in this product?
+*\- We should determine the right questions to ask respondents to gain insights into how, where, and with what offers we can effectively reach a specific target audience segment.*
+
+*\- We need to identify the critical set of features that should be available during the product's launch stage.*
+
+*\- What features do competitors have in general, and what do users want to see in this product?*
 
 By adding these points and incorporating the relevant information into the tabular report, you can better understand the target audience's preferences and develop a well-informed marketing strategy.
 
@@ -81,6 +83,8 @@ In addition, you should find out where your target audience seeks information. D
 * Forums
 * YouTube
 * Personal contacts and/or business chats
+
+
 
 ### Developing an Effective Marketing Strategy and Product Positioning Based on Target Audience Research
 
