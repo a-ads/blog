@@ -1,45 +1,6 @@
 const resolve = require('path').resolve
-const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 const _ = require('lodash')
-const fs = require('fs')
-const { SitemapStream, streamToPromise } = require('sitemap')
-
-exports.onPostBuild = async ({ graphql }) => {
-  const { data } = await graphql(`
-    {
-      allSitePage {
-        nodes {
-          path
-        }
-      }
-    }
-  `)
-
-  const excludedPaths = ['/blog/contacts/', '/blog/search/', '/blog/about/'] // URL-адреса для исключения
-
-  const urls = data.allSitePage.nodes
-    .filter((node) => !excludedPaths.includes(node.path))
-    .map((node) => ({
-      url: node.path,
-    }))
-
-  const stream = new SitemapStream({
-    hostname: 'https://a-ads.com', // Замените на ваш домен
-  })
-
-  urls.forEach((url) => {
-    stream.write(url)
-  })
-
-  stream.end()
-
-  const sitemap = await streamToPromise(stream)
-  fs.writeFileSync(
-    path.join(__dirname, 'public', 'sitemap.xml'),
-    sitemap.toString()
-  )
-}
 
 exports.onCreateWebpackConfig = ({ stage, actions }) => {
   actions.setWebpackConfig({

@@ -52,38 +52,7 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        query: `
-          {
-            site {
-              siteMetadata {
-                siteUrl
-              }
-            }
-            allSitePage {
-              nodes {
-                path
-              }
-            }
-          }
-        `,
-        filter: ({
-          allSitePage,
-          site,
-        }: {
-          allSitePage: { nodes: { path: string }[] }
-          site: { siteMetadata: { siteUrl: string } }
-        }) => {
-          const excludedPaths = [
-            '/blog/about/',
-            '/blog/search/',
-            '/blog/contacts/',
-          ]
-          return allSitePage.nodes
-            .filter((node) => !excludedPaths.includes(node.path))
-            .map((node) => ({
-              url: `${site.siteMetadata.siteUrl}${node.path}`,
-            }))
-        },
+        excludes: ['/blog/about/', '/blog/search/', '/blog/contacts/'],
       },
     },
     'gatsby-plugin-react-helmet',
