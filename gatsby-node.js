@@ -2,6 +2,17 @@ const resolve = require('path').resolve
 const { createFilePath } = require('gatsby-source-filesystem')
 const _ = require('lodash')
 
+exports.onCreatePage = ({ page, actions }) => {
+  const { createPage, deletePage } = actions
+
+  // Исключение URL-адресов из sitemap
+  if (page.path === '/blog/about/' || page.path === '/blog/search/') {
+    deletePage(page)
+  } else {
+    createPage(page)
+  }
+}
+
 exports.onCreateWebpackConfig = ({ stage, actions }) => {
   actions.setWebpackConfig({
     resolve: {
