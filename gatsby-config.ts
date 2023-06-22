@@ -49,6 +49,12 @@ const config: GatsbyConfig = {
         lang: 'en',
       },
     },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: ['blog/about/', 'blog/search/', 'blog/contacts/'],
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-netlify-cms',
     {
