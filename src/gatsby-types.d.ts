@@ -4104,7 +4104,7 @@ type WebPOptions = {
 type FetchBlogPostsByPopularityQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-type FetchBlogPostsByPopularityQuery = { readonly allMarkdownRemark: { readonly nodes: ReadonlyArray<{ readonly frontmatter: { readonly category_top_level: ReadonlyArray<string | null> | null, readonly title: string | null, readonly reading_time: string | null, readonly slug: string | null, readonly thumbnail: { readonly childImageSharp: { readonly gatsbyImageData: import('gatsby-plugin-image').IGatsbyImageData } | null } | null } | null }> } };
+type FetchBlogPostsByPopularityQuery = { readonly allMarkdownRemark: { readonly nodes: ReadonlyArray<{ readonly frontmatter: { readonly category_top_level: ReadonlyArray<string | null> | null, readonly popularity: string | null, readonly title: string | null, readonly reading_time: string | null, readonly slug: string | null, readonly thumbnail: { readonly childImageSharp: { readonly gatsbyImageData: import('gatsby-plugin-image').IGatsbyImageData } | null } | null } | null }> } };
 
 type FetchTopLevelCategoriesQueryVariables = Exact<{ [key: string]: never; }>;
 

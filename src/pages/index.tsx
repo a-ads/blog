@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
-import { take, drop } from 'lodash-es'
+import { take, drop, sortBy, toInteger } from 'lodash-es'
 
 import { BlogPostGrid, Banner, Seo } from '@components'
 import '../global.css'
@@ -28,6 +28,7 @@ const IndexPage = () => {
         nodes {
           frontmatter {
             category_top_level
+            popularity
             thumbnail {
               childImageSharp {
                 gatsbyImageData(
@@ -58,9 +59,11 @@ const IndexPage = () => {
     // Grab first 5 most popular posts and the rest
     return {
       top: take(posts, 5),
+      popular: take(sortBy(posts, post => toInteger(post.popularity)).reverse(), 5),
       rest: drop(posts, 5),
     }
   }, [])
+
 
   return (
     <>
@@ -98,7 +101,7 @@ const IndexPage = () => {
       <section aria-label='Most popular' className='py-20'>
         <div className='container'>
           <h2 className='h1 mb-10'>Most popular</h2>
-          <BlogPostGrid posts={posts.top} />
+          <BlogPostGrid posts={posts.popular} />
         </div>
       </section>
 

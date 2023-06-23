@@ -55,4 +55,5 @@ interface BlogPost {
   related_posts: BlogPostCard[]
   meta_title: string
   meta_description: string
+  popularity: string
 }
