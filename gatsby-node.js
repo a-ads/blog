@@ -1,6 +1,8 @@
 const resolve = require('path').resolve
 const { createFilePath } = require('gatsby-source-filesystem')
 const _ = require('lodash')
+const fs = require('fs')
+const path = require('path')
 
 exports.onCreateWebpackConfig = ({ stage, actions }) => {
   actions.setWebpackConfig({
@@ -122,7 +124,6 @@ exports.createPages = async ({ graphql, actions }) => {
               }
               position
               description
-              #              education
             }
             html
           }
@@ -333,4 +334,17 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     })
   )
+
+  const blogPostsForAadsMainPage = JSON.parse(JSON.stringify(_.take(data.allBlogPosts.edges, 9))).map(function (post) {
+    if (post.node.frontmatter.thumbnail) {
+      post.node.frontmatter.thumbnail = `/blog` + post.node.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src;
+    }
+    if (post.node.fields.slug) {
+      post.node.fields.slug = '/blog' + post.node.fields.slug;
+    }
+    return post;
+  });
+  fs.writeFile(path.resolve('./public/main_page_blogposts_preview.json'), JSON.stringify(blogPostsForAadsMainPage), function(err) {
+    console.log(err);
+  });
 }
