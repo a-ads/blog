@@ -337,7 +337,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const blogPostsForAadsMainPage = JSON.parse(JSON.stringify(_.take(data.allBlogPosts.edges, 9))).map(function (post) {
     if (post.node.frontmatter.thumbnail) {
-      post.node.frontmatter.thumbnail = `/blog` + post.node.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src;
+      post.node.frontmatter.thumbnail = post.node.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src;
     }
     if (post.node.fields.slug) {
       post.node.fields.slug = '/blog' + post.node.fields.slug;
