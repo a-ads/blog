@@ -340,7 +340,8 @@ exports.createPages = async ({ graphql, actions }) => {
       post.node.frontmatter.thumbnail = post.node.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src;
     }
     if (post.node.fields.slug) {
-      post.node.fields.slug = '/blog' + post.node.fields.slug;
+      post.node.frontmatter.slug = '/blog/' + post.node.frontmatter.slug + '/';
+      post.node.fields.slug =  post.node.frontmatter.slug;
     }
     return post;
   });
