@@ -9,13 +9,18 @@ interface AuthorPageProps {
   pageContext: Author
 }
 
+export function Head({ pageContext: { name, description }}) {
+  return (
+    <Seo title={name} description={`Our author ${name}. ${description}`} />
+  )
+}
+
 const AuthorPage: React.FC<AuthorPageProps> = ({ pageContext }) => {
   const { name, position, description, thumbnail, postCount, posts, html } =
     pageContext
 
   return (
     <>
-      <Seo title={name} description={`Our author ${name}. ${description}`} />
       <div className='container'>
         <Breadcrumbs
           tags={['authors']}

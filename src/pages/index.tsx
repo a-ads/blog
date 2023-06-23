@@ -6,6 +6,13 @@ import { take, drop } from 'lodash-es'
 import { BlogPostGrid, Banner, Seo } from '@components'
 import '../global.css'
 
+
+export function Head() {
+  return (
+    <Seo />
+  )
+}
+
 interface IBlogPosts {
   allMarkdownRemark: {
     nodes: {
@@ -57,7 +64,6 @@ const IndexPage = () => {
 
   return (
     <>
-      <Seo />
       <section
         aria-label='Crypto Marketing & Trends'
         className='relative mb-20'

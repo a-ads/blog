@@ -20,12 +20,17 @@ interface CategoryPageProps {
   }
 }
 
+export function Head({ pageContext: { categoryObj } }) {
+  return (
+    <Seo title={categoryObj.html_title} description={categoryObj.meta_description} />
+  )
+}
+
 const CategoryTemplate = (props: CategoryPageProps) => {
   const { category, subcategories, posts, categoryObj } = props.pageContext
 
   return (
     <>
-      <Seo title={categoryObj.html_title} description={categoryObj.meta_description} />
       <div className='pb-5 relative'>
         <section aria-label={category} className='container'>
           <h1 className='up-desktop:mt-12 mt-8 phone:mt-6 mb-3'>{categoryObj.h1}</h1>

@@ -11,13 +11,18 @@ interface AuthorsPageProps {
   }
 }
 
+export function Head() {
+  return (
+    <Seo
+      title='A-ADS Authors'
+      description='Read the articles by our authors.'
+    />
+  )
+}
+
 const Authors: React.FC<AuthorsPageProps> = ({ pageContext: { authors } }) => {
   return (
     <>
-      <Seo
-        title='A-ADS Authors'
-        description='Read the articles by our authors.'
-      />
       <section className='container mb-24 phone:mb-10' aria-label='Authors'>
         <h1 className='mt-8 phone:mt-8 mb-12 phone:mb-5'>Authors</h1>
         <div className='grid grid-cols-2 gap-x-8 down-tablet:grid-cols-1'>

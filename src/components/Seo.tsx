@@ -1,5 +1,4 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
 import { graphql, useStaticQuery } from 'gatsby'
 
 const useSiteMetadata = () => {
@@ -42,19 +41,17 @@ const Seo = (props: SeoProps) => {
     url: `${siteUrl}${pathname || ``}`,
   }
 
-  return (
-    <Helmet>
-      <title>{seo.title}</title>
-      <meta name='description' content={seo.description} />
-      <meta name='image' content={seo.image} />
-      <meta name='twitter:card' content='summary_large_image' />
-      <meta name='twitter:title' content={seo.title} />
-      <meta name='twitter:url' content={seo.url} />
-      <meta name='twitter:description' content={seo.description} />
-      <meta name='twitter:image' content={seo.image} />
-      {children}
-    </Helmet>
-  )
+  return (<>
+    <title>{seo.title}</title>
+    <meta name='description' content={seo.description} />
+    <meta name='image' content={seo.image} />
+    <meta name='twitter:card' content='summary_large_image' />
+    <meta name='twitter:title' content={seo.title} />
+    <meta name='twitter:url' content={seo.url} />
+    <meta name='twitter:description' content={seo.description} />
+    <meta name='twitter:image' content={seo.image} />
+    {children}
+  </>)
 }
 
 export default Seo

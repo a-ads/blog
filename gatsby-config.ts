@@ -49,7 +49,6 @@ const config: GatsbyConfig = {
         lang: 'en',
       },
     },
-    'gatsby-plugin-react-helmet',
     'gatsby-plugin-netlify-cms',
     {
       resolve: 'gatsby-plugin-google-gtag',
@@ -64,6 +63,15 @@ const config: GatsbyConfig = {
       },
     },
     'gatsby-plugin-image',
+    {
+      resolve: 'gatsby-plugin-sharp',
+      options: {
+        defaults: {
+          quality: 100,
+        },
+      },
+    },
+    'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-plugin-sitemap',
       options: {
@@ -87,14 +95,6 @@ const config: GatsbyConfig = {
       resolve: 'gatsby-plugin-mdx',
       options: {
         extensions: ['.mdx', '.md'],
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-sharp',
-      options: {
-        defaults: {
-          quality: 100,
-        },
       },
     },
     {
@@ -133,9 +133,7 @@ const config: GatsbyConfig = {
         ],
       },
     },
-
     'gatsby-transformer-yaml',
-    'gatsby-transformer-sharp',
     {
       resolve: `gatsby-plugin-postcss`,
       options: {

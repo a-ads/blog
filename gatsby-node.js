@@ -185,7 +185,7 @@ exports.createPages = async ({ graphql, actions }) => {
       path: post.slug,
       component: resolve(`${__dirname}/src/templates/BlogPostTemplate.tsx`),
       context: {
-        post: posts.find(({ slug }) => slug === post.slug),
+        post: post,
         author: authors.find((author) => author.name === post.author),
         slug: post.slug,
         html: post.html,
