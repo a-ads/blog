@@ -12,7 +12,7 @@ category_second_level:
 author: Emmanuel Olatunji
 thumbnail: /blog/assets/full.png
 big_picture: /blog/assets/short.png
-popularity: "0"
+popularity: "2"
 meta_title: 4 Easy Steps On How To Start Earning As A Publisher | A-ADS Blog
 meta_description: Join A-ADS as a publisher and earn from our ad network by
   offering ad inventory on your website or app. Follow simple criteria to start
