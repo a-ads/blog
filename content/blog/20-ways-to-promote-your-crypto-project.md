@@ -10,7 +10,7 @@ category_top_level:
 author: Anna Trifonova
 thumbnail: ../../static/assets/full-33-.png
 big_picture: blog/assets/short.png
-popularity: "0"
+popularity: "4"
 meta_title: 20 Ways To Promote Your Crypto Project | A-ADS Blog
 meta_description: Discover effective marketing strategies to promote your crypto
   project with our comprehensive guide on crypto marketing strategy development.
