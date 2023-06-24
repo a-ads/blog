@@ -12,7 +12,7 @@ category_top_level:
 author: Emmanuel Olatunji
 thumbnail: ../../static/assets/full-25-.png
 big_picture: ../../static/assets/short-20-.png
-popularity: "0"
+popularity: "5"
 meta_title: 10 Terms Every Publisher And Advertiser Should Know | A-ADS Blog
 meta_description: "Improve your crypto marketing with key terms: clicks,
   impressions, unique clicks, unique impressions, total budget, daily budget,
