@@ -14,7 +14,7 @@ author: Emmanuel Olatunji
 thumbnail: /blog/assets/nft-crypto-marketing.png
 big_picture: /blog/assets/nft_shorts.png
 popularity: "0"
-meta_title: "NFT Crypto Marketing: How Successfully Promote Your Project"
+meta_title: "NFT Crypto Marketing: How Successfully Promote Your Project | A-ADS Blog"
 meta_description: Discover the world of NFTs and their impact on digital
   marketing. Explore effective promotion strategies such as SEO optimization,
   influencer marketing, marketplace listings, guest posting, blogging, airdrops,
