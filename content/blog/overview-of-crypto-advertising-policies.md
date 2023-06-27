@@ -14,14 +14,13 @@ author: Micheal George
 thumbnail: /blog/assets/crypto-advertising-regulations-facebook-google-amazon.png
 big_picture: /blog/assets/crypto-ad-regulations-_short.png
 popularity: "0"
-meta_title: Overview of Crypto Advertising Policies on Facebook, Google, Amazon, and TikTok
+meta_title: Overview of Crypto Advertising Policies on Facebook, Google, Amazon,
+  and TikTok | A-ADS Blog
 meta_description: Discover the latest crypto advertising policies on Facebook,
   Google, Amazon, and TikTok in this comprehensive overview. Learn about the
   recent changes allowing select instances of Web3 and crypto businesses on
   Facebook and Google, while understanding the restrictions imposed by Amazon
-  and TikTok to protect users from scams and fraudulent practices. Explore the
-  untapped possibilities and requirements for running successful crypto ad
-  campaigns on these platforms.
+  and TikTok.
 meta_keywords: ""
 json_ld: ""
 ---
