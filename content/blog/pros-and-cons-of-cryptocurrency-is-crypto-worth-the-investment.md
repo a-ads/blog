@@ -18,7 +18,7 @@ meta_description: Discover the pros and cons of cryptocurrency before deciding
   to invest. Explore the advantages, such as decentralization, privacy, lower
   transaction fees, global accessibility, and investment potential. However, be
   aware of the risks, including volatility, lack of regulation, etc. Also stay
-  informed about future trends.
+  informed about future trends
 meta_keywords: ""
 json_ld: ""
 ---
