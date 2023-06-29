@@ -57,7 +57,7 @@ const BlogPostGrid = ({
           primary
           text='Load more'
           onClick={() => setPostAmountToDisplay((prev) => prev + 5)}
-          className='body-1 !font-semibold phone:body-4 phone:h-11 w-screen h-20 mt-9 tablet:mt-12 phone:mt-8'
+          className='btn-load body-1 !font-semibold phone:body-4 phone:h-11 w-screen h-20 mt-9 tablet:mt-12 phone:mt-8'
         />
       )}
     </>

@@ -29,6 +29,15 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({
       ? `/${kebabCase(tag)}/`
       : `/categories/${kebabCase(tag)}/`
 
+  let getBreadcrumbName = (tag: string) => {
+    switch(tag) {
+    case 'Guides':
+      return 'Cryptocurrency guides'
+    default:
+      return tag
+    }
+  }
+
   return (
     <nav
       className={cn('w-full mt-8 up-desktop:mt-12 phone:mt-5', className)}
@@ -45,7 +54,7 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({
               href={i === 0 ? withPrefix('/') : withPrefix(to(tag))}
               className='hover:clr-gray-1 transition-all p-0'
             >
-              {capitalize(tag)}
+              {capitalize(getBreadcrumbName(tag))}
             </a>
           </li>
         ))}

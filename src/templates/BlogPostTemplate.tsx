@@ -7,6 +7,33 @@ import { Link, Slider } from '@ui'
 import { SocialButton, Breadcrumbs, Seo, Card, Banner } from '@components'
 import type { SocialId } from 'src/components/SocialButton'
 
+export function Head({ pageContext: { post, author } }) {
+  return (
+    <Seo title={post.meta_title} description={post.meta_description}>
+      <script type='application/ld+json'>
+        {`
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "${post.meta_title}",
+          "datePublished": "${post.date}",
+          "dateModified": "${post.date}",
+          "author": [{
+            "@type": "Person",
+            "name": "${author.name}",
+            "url": "https://a-ads.com/blog${author.slug}"
+          }],
+          "image": ["https://a-ads.com/blog/assets/${extractFilename(
+            post.thumbnail?.childImageSharp?.gatsbyImageData?.images?.fallback
+              ?.src
+          )}"]
+        }
+      `}
+      </script>
+    </Seo>
+  )
+}
+
 const extractFilename = (filePath: string) => {
   if (typeof filePath !== 'string') return ''
 
@@ -101,11 +128,19 @@ interface BlogPostPageProps {
     html: InnerHtmlString
     table_of_contents: InnerHtmlString
     related_posts: BlogPost[]
+    json_ld: ''
   }
 }
 
 const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
-  pageContext: { post, author, html, table_of_contents, related_posts },
+  pageContext: {
+    post,
+    author,
+    html,
+    table_of_contents,
+    related_posts,
+    json_ld,
+  },
 }) => {
   const breadcrumbsTags = [
     post.category_top_level?.[0],
@@ -114,28 +149,6 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
 
   return (
     <>
-      <Seo title={post.meta_title} description={post.meta_description}>
-        <script type='application/ld+json'>
-          {`
-          {
-            "@context": "https://schema.org",
-            "@type": "BlogPosting",
-            "headline": "${post.meta_title}",
-            "datePublished": "${post.date}",
-            "dateModified": "${post.date}",
-            "author": [{
-              "@type": "Person",
-              "name": "${author.name}",
-              "url": "https://a-ads.com/blog${author.slug}"
-            }],
-            "image": ["https://a-ads.com/blog/assets/${extractFilename(
-              post.thumbnail?.childImageSharp?.gatsbyImageData?.images?.fallback
-                ?.src
-            )}"]
-          }
-        `}
-        </script>
-      </Seo>
       <header
         aria-label='Blog post header'
         className='container grid grid-cols-12 gap-8 down-desktop:block'
@@ -209,7 +222,7 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
 
             <article
               dangerouslySetInnerHTML={{ __html: html }}
-              className='article flow col-span-9'
+              className='article article--blog flow col-span-9'
             />
           </section>
 

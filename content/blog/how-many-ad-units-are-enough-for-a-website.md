@@ -10,12 +10,11 @@ category_top_level:
   - Publishers
 author: Anastasia Zavershinskaya
 thumbnail: ../../static/assets/illustration-6.png
-meta_title: How many ad units are enough for a website?
+meta_title: How many ad units are enough for a website? | A-ADS Blog
 meta_description: Wondering how many ad units to place on your website? Learn
   why having one or two ad units per page is recommended to maximize unique
-  impressions and avoid displaying free affiliate ads. Excessive ad units can
-  also lead to server overload. Check out our article for more information and
-  optimize your website's ad units for better performance.
+  impressions and avoid displaying free affiliate ads. Check out our article for
+  more information and optimize your website's ad units for better performance.
 ---
 If you have several ad units on your webpage, it is most likely that the first one or two will summon all the unique impressions, and your other ad units will become inactive and display only free affiliate ads.
 

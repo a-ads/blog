@@ -13,16 +13,12 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/undraw_partying_p92d-обложка.png
 big_picture: ../../static/assets/undraw_partying_p92квадрат.png
-meta_title: FaucetPay withdrawals support added
+meta_title: FaucetPay withdrawals support added | A-ADS Blog
 meta_description: Exciting news! We have added support for FaucetPay
   withdrawals, providing our users with another micro-wallet service option in
   addition to ExpressCrypto. To use this new withdrawal option, simply register
   with FaucetPay and link your bitcoin address to the service, and then
-  configure your withdrawal on our "Finances -> Withdrawal options" page. While
-  we believe FaucetPay is a legitimate service, please note that we cannot
-  guarantee the safety of your funds there. We are thrilled to offer this new
-  withdrawal opportunity to make our service even more convenient for you. Happy
-  New Year!
+  configure your withdrawal.
 ---
 We have implemented the support of <a href="https://faucetpay.io/" rel="nofollow">FaucetPay</a> withdrawals. FaucetPay is a micro-wallet service alternative to ExpressCrypto. So now you can choose between these two.
 

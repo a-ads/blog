@@ -13,17 +13,12 @@ category_second_level:
 author: Micheal George
 thumbnail: ../../static/assets/full-4-.png
 big_picture: ../../static/assets/short-14-.png
-meta_title: A-ADS Tracking Tokens and Their Output
+meta_title: A-ADS Tracking Tokens and Their Output | A-ADS Blog
 meta_description: Learn how to utilize tracking tokens to gain valuable insights
-  into your ad performance with our informative guide. Discover the meaning
-  behind our tracking tokens such as {{partner}}, {{timestamp}},
-  {{device_type}}, {{browser_name}}, {{os_name}}, {{os_version}},
-  {{http_country_code}}, {{http_accept_language}}, {{ip_address}}, {{ad_unit}},
-  and {{banner_size}}, and how they can help you better understand your ad
-  campaigns. Get detailed explanations and examples for each token, and learn
-  how to convert Unix time to normal time using an Epoch converter. Plus, find
-  out how to use this valuable information to optimize your ad placements and
-  increase your earnings.
+  into your ad performance with this guide. Get detailed explanations and
+  examples for each token, and learn how to convert Unix time to normal time
+  using an Epoch converter. Optimize your ad placements and increase your
+  earnings.
 ---
 Firstly, info on "Goal tracking" and how to switch it on [here](https://a-ads.com/blog/2019-10-16-why-do-i-need-goal-tracking-how-to-switch-it-on/).\
 Most, or all of our tracking tokens are self-explanatory but for elaboration and easy understanding the following article will briefly explain the values of the tokens.

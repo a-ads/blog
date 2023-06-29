@@ -12,29 +12,42 @@ interface CategoryPageProps {
     subcategories: CategoriesSecondLevelNames[]
     posts: BlogPostCard[]
     meta_description: string
+    categoryObj: {
+      h1: string
+      html_title: string
+      meta_description: string
+    }
   }
 }
 
+export function Head({ pageContext: { categoryObj } }) {
+  return (
+    <Seo title={categoryObj.html_title} description={categoryObj.meta_description} />
+  )
+}
+
 const CategoryTemplate = (props: CategoryPageProps) => {
-  const { category, subcategories, posts, meta_description } = props.pageContext
+  const { category, subcategories, posts, categoryObj } = props.pageContext
 
   return (
     <>
-      <Seo title={category} description={meta_description} />
       <div className='pb-5 relative'>
         <section aria-label={category} className='container'>
-          <h1 className='up-desktop:mt-12 mt-8 phone:mt-6 mb-3'>{category}</h1>
+          <h1 className='up-desktop:mt-12 mt-8 phone:mt-6 mb-3'>{categoryObj.h1}</h1>
+          
           <div className='flex gap-8 mb-7 up-desktop:mb-10 phone:mb-6 scroll-section'>
-            {subcategories.map((subcat) => (
-              <Link
-                key={subcat}
-                text={subcat}
-                to={toCategoryLink(category, subcat)}
-                baseCn='flex-center px-8 py-4 max-w-50 clr-black rounded whitespace-nowrap bg-gradient'
-                // On active:
-                className='aria-[current="page"]:!bg-[#03a9f41a] aria-[current="page"]:!clr-blue aria-[current="page"]:font-extrabold'
-              />
-            ))}
+            {category === 'Guides' && subcategories.map((subcat, index) => {
+              return (
+                <Link
+                  key={index}
+                  text={subcat}
+                  to={toCategoryLink(category, subcat)}
+                  baseCn='flex-center px-8 py-4 max-w-50 clr-black rounded whitespace-nowrap bg-gradient'
+                  // On active:
+                  className='aria-[current="page"]:!bg-[#03a9f41a] aria-[current="page"]:!clr-blue aria-[current="page"]:font-extrabold'
+                />
+              )})
+            }
           </div>
         </section>
 
@@ -43,7 +56,7 @@ const CategoryTemplate = (props: CategoryPageProps) => {
           className='mb-[70px] tablet:mb-[60px] phone:mb-12'
         />
 
-        <Banner />
+        {/*<Banner />*/}
 
         <BlogPostGrid
           posts={drop(posts, 5)}

@@ -35,9 +35,13 @@ type AVIFOptions = {
 };
 
 type BlogCategoriesSecondLevelYaml = Node & {
+  readonly breadcrumb: Maybe<Scalars['String']>;
   readonly children: ReadonlyArray<Node>;
+  readonly h1: Maybe<Scalars['String']>;
+  readonly html_title: Maybe<Scalars['String']>;
   readonly id: Scalars['ID'];
   readonly internal: Internal;
+  readonly meta_description: Maybe<Scalars['String']>;
   readonly order: Maybe<Scalars['String']>;
   readonly parent: Maybe<Node>;
   readonly parent_category: Maybe<Scalars['String']>;
@@ -90,9 +94,13 @@ type BlogCategoriesSecondLevelYamlEdge = {
 };
 
 type BlogCategoriesSecondLevelYamlFieldSelector = {
+  readonly breadcrumb: InputMaybe<FieldSelectorEnum>;
   readonly children: InputMaybe<NodeFieldSelector>;
+  readonly h1: InputMaybe<FieldSelectorEnum>;
+  readonly html_title: InputMaybe<FieldSelectorEnum>;
   readonly id: InputMaybe<FieldSelectorEnum>;
   readonly internal: InputMaybe<InternalFieldSelector>;
+  readonly meta_description: InputMaybe<FieldSelectorEnum>;
   readonly order: InputMaybe<FieldSelectorEnum>;
   readonly parent: InputMaybe<NodeFieldSelector>;
   readonly parent_category: InputMaybe<FieldSelectorEnum>;
@@ -100,9 +108,13 @@ type BlogCategoriesSecondLevelYamlFieldSelector = {
 };
 
 type BlogCategoriesSecondLevelYamlFilterInput = {
+  readonly breadcrumb: InputMaybe<StringQueryOperatorInput>;
   readonly children: InputMaybe<NodeFilterListInput>;
+  readonly h1: InputMaybe<StringQueryOperatorInput>;
+  readonly html_title: InputMaybe<StringQueryOperatorInput>;
   readonly id: InputMaybe<StringQueryOperatorInput>;
   readonly internal: InputMaybe<InternalFilterInput>;
+  readonly meta_description: InputMaybe<StringQueryOperatorInput>;
   readonly order: InputMaybe<StringQueryOperatorInput>;
   readonly parent: InputMaybe<NodeFilterInput>;
   readonly parent_category: InputMaybe<StringQueryOperatorInput>;
@@ -155,9 +167,13 @@ type BlogCategoriesSecondLevelYamlGroupConnection_sumArgs = {
 };
 
 type BlogCategoriesSecondLevelYamlSortInput = {
+  readonly breadcrumb: InputMaybe<SortOrderEnum>;
   readonly children: InputMaybe<NodeSortInput>;
+  readonly h1: InputMaybe<SortOrderEnum>;
+  readonly html_title: InputMaybe<SortOrderEnum>;
   readonly id: InputMaybe<SortOrderEnum>;
   readonly internal: InputMaybe<InternalSortInput>;
+  readonly meta_description: InputMaybe<SortOrderEnum>;
   readonly order: InputMaybe<SortOrderEnum>;
   readonly parent: InputMaybe<NodeSortInput>;
   readonly parent_category: InputMaybe<SortOrderEnum>;
@@ -165,7 +181,10 @@ type BlogCategoriesSecondLevelYamlSortInput = {
 };
 
 type BlogCategoriesTopLevelYaml = Node & {
+  readonly breadcrumb: Maybe<Scalars['String']>;
   readonly children: ReadonlyArray<Node>;
+  readonly h1: Maybe<Scalars['String']>;
+  readonly html_title: Maybe<Scalars['String']>;
   readonly id: Scalars['ID'];
   readonly internal: Internal;
   readonly meta_description: Maybe<Scalars['String']>;
@@ -220,7 +239,10 @@ type BlogCategoriesTopLevelYamlEdge = {
 };
 
 type BlogCategoriesTopLevelYamlFieldSelector = {
+  readonly breadcrumb: InputMaybe<FieldSelectorEnum>;
   readonly children: InputMaybe<NodeFieldSelector>;
+  readonly h1: InputMaybe<FieldSelectorEnum>;
+  readonly html_title: InputMaybe<FieldSelectorEnum>;
   readonly id: InputMaybe<FieldSelectorEnum>;
   readonly internal: InputMaybe<InternalFieldSelector>;
   readonly meta_description: InputMaybe<FieldSelectorEnum>;
@@ -230,7 +252,10 @@ type BlogCategoriesTopLevelYamlFieldSelector = {
 };
 
 type BlogCategoriesTopLevelYamlFilterInput = {
+  readonly breadcrumb: InputMaybe<StringQueryOperatorInput>;
   readonly children: InputMaybe<NodeFilterListInput>;
+  readonly h1: InputMaybe<StringQueryOperatorInput>;
+  readonly html_title: InputMaybe<StringQueryOperatorInput>;
   readonly id: InputMaybe<StringQueryOperatorInput>;
   readonly internal: InputMaybe<InternalFilterInput>;
   readonly meta_description: InputMaybe<StringQueryOperatorInput>;
@@ -285,7 +310,10 @@ type BlogCategoriesTopLevelYamlGroupConnection_sumArgs = {
 };
 
 type BlogCategoriesTopLevelYamlSortInput = {
+  readonly breadcrumb: InputMaybe<SortOrderEnum>;
   readonly children: InputMaybe<NodeSortInput>;
+  readonly h1: InputMaybe<SortOrderEnum>;
+  readonly html_title: InputMaybe<SortOrderEnum>;
   readonly id: InputMaybe<SortOrderEnum>;
   readonly internal: InputMaybe<InternalSortInput>;
   readonly meta_description: InputMaybe<SortOrderEnum>;
@@ -1879,6 +1907,7 @@ type MarkdownRemarkFrontmatter = {
   readonly category_top_level: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
   readonly date: Maybe<Scalars['Date']>;
   readonly description: Maybe<Scalars['String']>;
+  readonly education: Maybe<Scalars['String']>;
   readonly facebook_link: Maybe<Scalars['String']>;
   readonly json_ld: Maybe<Scalars['String']>;
   readonly meta_description: Maybe<Scalars['String']>;
@@ -1912,6 +1941,7 @@ type MarkdownRemarkFrontmatterFieldSelector = {
   readonly category_top_level: InputMaybe<FieldSelectorEnum>;
   readonly date: InputMaybe<FieldSelectorEnum>;
   readonly description: InputMaybe<FieldSelectorEnum>;
+  readonly education: InputMaybe<FieldSelectorEnum>;
   readonly facebook_link: InputMaybe<FieldSelectorEnum>;
   readonly json_ld: InputMaybe<FieldSelectorEnum>;
   readonly meta_description: InputMaybe<FieldSelectorEnum>;
@@ -1937,6 +1967,7 @@ type MarkdownRemarkFrontmatterFilterInput = {
   readonly category_top_level: InputMaybe<StringQueryOperatorInput>;
   readonly date: InputMaybe<DateQueryOperatorInput>;
   readonly description: InputMaybe<StringQueryOperatorInput>;
+  readonly education: InputMaybe<StringQueryOperatorInput>;
   readonly facebook_link: InputMaybe<StringQueryOperatorInput>;
   readonly json_ld: InputMaybe<StringQueryOperatorInput>;
   readonly meta_description: InputMaybe<StringQueryOperatorInput>;
@@ -1962,6 +1993,7 @@ type MarkdownRemarkFrontmatterSortInput = {
   readonly category_top_level: InputMaybe<SortOrderEnum>;
   readonly date: InputMaybe<SortOrderEnum>;
   readonly description: InputMaybe<SortOrderEnum>;
+  readonly education: InputMaybe<SortOrderEnum>;
   readonly facebook_link: InputMaybe<SortOrderEnum>;
   readonly json_ld: InputMaybe<SortOrderEnum>;
   readonly meta_description: InputMaybe<SortOrderEnum>;
@@ -2163,6 +2195,7 @@ type MdxFrontmatter = {
   readonly category_top_level: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
   readonly date: Maybe<Scalars['Date']>;
   readonly description: Maybe<Scalars['String']>;
+  readonly education: Maybe<Scalars['String']>;
   readonly facebook_link: Maybe<Scalars['String']>;
   readonly json_ld: Maybe<Scalars['String']>;
   readonly meta_description: Maybe<Scalars['String']>;
@@ -2196,6 +2229,7 @@ type MdxFrontmatterFieldSelector = {
   readonly category_top_level: InputMaybe<FieldSelectorEnum>;
   readonly date: InputMaybe<FieldSelectorEnum>;
   readonly description: InputMaybe<FieldSelectorEnum>;
+  readonly education: InputMaybe<FieldSelectorEnum>;
   readonly facebook_link: InputMaybe<FieldSelectorEnum>;
   readonly json_ld: InputMaybe<FieldSelectorEnum>;
   readonly meta_description: InputMaybe<FieldSelectorEnum>;
@@ -2221,6 +2255,7 @@ type MdxFrontmatterFilterInput = {
   readonly category_top_level: InputMaybe<StringQueryOperatorInput>;
   readonly date: InputMaybe<DateQueryOperatorInput>;
   readonly description: InputMaybe<StringQueryOperatorInput>;
+  readonly education: InputMaybe<StringQueryOperatorInput>;
   readonly facebook_link: InputMaybe<StringQueryOperatorInput>;
   readonly json_ld: InputMaybe<StringQueryOperatorInput>;
   readonly meta_description: InputMaybe<StringQueryOperatorInput>;
@@ -2246,6 +2281,7 @@ type MdxFrontmatterSortInput = {
   readonly category_top_level: InputMaybe<SortOrderEnum>;
   readonly date: InputMaybe<SortOrderEnum>;
   readonly description: InputMaybe<SortOrderEnum>;
+  readonly education: InputMaybe<SortOrderEnum>;
   readonly facebook_link: InputMaybe<SortOrderEnum>;
   readonly json_ld: InputMaybe<SortOrderEnum>;
   readonly meta_description: InputMaybe<SortOrderEnum>;
@@ -2663,9 +2699,13 @@ type Query_allStaticImageArgs = {
 
 
 type Query_blogCategoriesSecondLevelYamlArgs = {
+  breadcrumb: InputMaybe<StringQueryOperatorInput>;
   children: InputMaybe<NodeFilterListInput>;
+  h1: InputMaybe<StringQueryOperatorInput>;
+  html_title: InputMaybe<StringQueryOperatorInput>;
   id: InputMaybe<StringQueryOperatorInput>;
   internal: InputMaybe<InternalFilterInput>;
+  meta_description: InputMaybe<StringQueryOperatorInput>;
   order: InputMaybe<StringQueryOperatorInput>;
   parent: InputMaybe<NodeFilterInput>;
   parent_category: InputMaybe<StringQueryOperatorInput>;
@@ -2674,7 +2714,10 @@ type Query_blogCategoriesSecondLevelYamlArgs = {
 
 
 type Query_blogCategoriesTopLevelYamlArgs = {
+  breadcrumb: InputMaybe<StringQueryOperatorInput>;
   children: InputMaybe<NodeFilterListInput>;
+  h1: InputMaybe<StringQueryOperatorInput>;
+  html_title: InputMaybe<StringQueryOperatorInput>;
   id: InputMaybe<StringQueryOperatorInput>;
   internal: InputMaybe<InternalFilterInput>;
   meta_description: InputMaybe<StringQueryOperatorInput>;
@@ -4061,7 +4104,7 @@ type WebPOptions = {
 type FetchBlogPostsByPopularityQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-type FetchBlogPostsByPopularityQuery = { readonly allMarkdownRemark: { readonly nodes: ReadonlyArray<{ readonly frontmatter: { readonly category_top_level: ReadonlyArray<string | null> | null, readonly title: string | null, readonly reading_time: string | null, readonly slug: string | null, readonly thumbnail: { readonly childImageSharp: { readonly gatsbyImageData: import('gatsby-plugin-image').IGatsbyImageData } | null } | null } | null }> } };
+type FetchBlogPostsByPopularityQuery = { readonly allMarkdownRemark: { readonly nodes: ReadonlyArray<{ readonly frontmatter: { readonly category_top_level: ReadonlyArray<string | null> | null, readonly popularity: string | null, readonly title: string | null, readonly reading_time: string | null, readonly slug: string | null, readonly thumbnail: { readonly childImageSharp: { readonly gatsbyImageData: import('gatsby-plugin-image').IGatsbyImageData } | null } | null } | null }> } };
 
 type FetchTopLevelCategoriesQueryVariables = Exact<{ [key: string]: never; }>;
 

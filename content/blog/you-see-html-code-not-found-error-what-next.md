@@ -10,7 +10,7 @@ category_top_level:
   - Guides
 author: Anastasia Zavershinskaya
 thumbnail: ../../static/assets/illustration-1-2x.png
-meta_title: You See "HTML Code Not Found" Error - What Next?
+meta_title: You See 'HTML Code Not Found' Error - What Next? | A-ADS Blog
 meta_description: Learn how to fix the "HTML code not found" error message and
   boost your earnings with A-ADS. Our guide covers common issues and possible
   fixes to ensure your ad unit is present and visible on your site. Contact our

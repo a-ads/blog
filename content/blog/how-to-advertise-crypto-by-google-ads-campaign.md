@@ -12,7 +12,7 @@ author: Anna Trifonova
 thumbnail: ../../static/assets/full-19-.png
 big_picture: ../../static/assets/short-14-.png
 popularity: "0"
-meta_title: How to advertise crypto by Google ads campaign
+meta_title: How To Advertise Crypto With Google Ads Campaign | A-ADS Blog
 meta_description: One of the best tools for promoting your cryptocurrency is
   Google Ads. Let’s browse рow to advertise crypto by Google Ads campaign and
   know what to advertise and what not to.

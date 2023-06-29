@@ -11,7 +11,8 @@ author: Micheal George
 thumbnail: ../../static/assets/full-13-.png
 big_picture: ../../static/assets/short-10-.png
 popularity: "0"
-meta_title: How to earn crypto while learning about cryptocurrencies | Beginners Guide
+meta_title: How to earn crypto while learning about cryptocurrencies | Beginners
+  Guide | A-ADS Blog
 meta_description: You may not need to buy or mine crypto to acquire some coins,
   but you do still have to give something in return. Let’s browse how to earn
   crypto while learning about cryptocurrencies and as well as what programs

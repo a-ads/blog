@@ -11,7 +11,7 @@ author: Emmanuel Olatunji
 thumbnail: blog/assets/full.png
 big_picture: blog/assets/short.png
 popularity: "0"
-meta_title: "How to Invest in Defi: A Step-by-Step Guide"
+meta_title: "How to Invest in DeFi: A Step-by-Step Guide | A-ADS Blog"
 meta_description: Decentralized finance (Defi) is looking very promising as it
   becomes more and more popular among cryptocurrency holders and investors. By
   reading our article, you will know how to invest in Defi and how it works.

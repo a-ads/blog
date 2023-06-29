@@ -12,7 +12,7 @@ category_second_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/full-5-.png
 big_picture: ../../static/assets/short-15-.png
-meta_title: How to Change and Confirm a Withdrawal Address
+meta_title: How to Change and Confirm a Withdrawal Address | A-ADS Blog
 meta_description: Learn how to change and confirm your withdrawal address on
   A-ADS. Follow our step-by-step guide to update your withdrawal options and
   receive an email confirmation. Protect your funds with our regular withdrawal

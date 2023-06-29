@@ -15,17 +15,12 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/full-23-.png
 big_picture: ../../static/assets/preview-1-.png
 popularity: "0"
-meta_title: What is a crypto Press Release and how to write it
-meta_description: Discover why press releases are a crucial component of
-  effective crypto PR services, and learn what to include in them. Press
-  releases can cover anything from product launches to industry insights, and
-  should be substantial pieces of writing that provide a hook or angle to
-  capture readers' attention. It's important to use data and visuals to support
-  claims, provide social proof, and use a multichannel approach to reach a
-  larger audience. When laying out a crypto press release, include a company
-  logo, headline, subheadline, date and location, several paragraphs of
-  expanding information, a boilerplate, and contact details. Fact-checking is
-  critical to maintaining the reputation of your project.
+meta_title: What is a crypto Press Release and how to write it | A-ADS Blog
+meta_description: Learn why press releases are vital for effective crypto PR
+  services and master the art of crafting compelling ones. The article provides
+  valuable insights on structuring a crypto press release, including essential
+  elements like company logo, captivating headlines, relevant subheadlines, date
+  etc.
 meta_keywords: ""
 json_ld: ""
 ---

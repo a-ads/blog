@@ -27,6 +27,9 @@ interface Author {
   slug: string
   postCount?: number
   posts?: BlogPostCard[]
+  twitter_link?: string
+  html?: string
+  json_ld?: string
 }
 
 type BlogPostCard = Pick<
@@ -53,4 +56,5 @@ interface BlogPost {
   related_posts: BlogPostCard[]
   meta_title: string
   meta_description: string
+  popularity: string
 }

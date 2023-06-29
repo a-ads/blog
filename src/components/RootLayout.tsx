@@ -14,7 +14,7 @@ import ModalRenderer from './modal/ModalRenderer'
 import { showReportBugModal, showSuggestIdeaModal } from './modal/modals'
 import { toCategoryLink } from '@utils'
 import type { SocialId } from './SocialButton'
-import SvgSearchIcon from "./icons/SearchIcon";
+import SvgSearchIcon from './icons/SearchIcon'
 
 const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false) // For mobile
@@ -49,13 +49,12 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
   const NavLinks = useMemo(
     () => (
       <>
-        {categoriesTopLevel.map((cat) => (
+        {categoriesTopLevel.sort((a, b) => a.order - b.order).map((cat) => (
           <Link
             key={cat.id}
             ghost
             text={cat.title}
             to={toCategoryLink(cat.title, 'all')}
-            style={{ order: cat.order }}
             baseCn='py-4 text-base leading-6 font-medium text-gray-800 whitespace-nowrap hover:clr-primary rounded-none'
             className={cat.order == 3 ? 'border-none' : 'down-desktop:border-b'} // This disables the border on the last item on mobile
             onClick={() => (isHamburgerOpen ? setIsHamburgerOpen(false) : null)}
@@ -68,9 +67,9 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
 
   const MobileNav = useMemo(
     () => (
-      <div className='z-layout relative bg-base mt-10 container flex-center up-desktop:hidden'>
-        <SearchBar className='w-full' />
-        <nav className='absolute top-[70px] flex flex-col bg-base w-screen px-7 py-6 shadow-0'>
+      <div className='z-layout relative bg-base mt-10 flex-center up-desktop:hidden search-wrap'>
+        <SearchBar className='w-full search-form' />
+        <nav className='absolute top-[70px] flex flex-col bg-base w-screen px-7 py-6 shadow-0 navigation'>
           {NavLinks}
         </nav>
       </div>
@@ -80,7 +79,7 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
 
   return (
     <header className='bg-base py-5 shadow-[0 40px 80px -40px rgb(0 0 0 / 10%)]'>
-      <div className='container flex align-middle justify-between'>
+      <div className='container flex align-middle justify-between header-mobile'>
         <Link className='h-12 p-0' to='/'>
           <StaticImage
             src='../../static/images/logo.svg'
@@ -90,26 +89,40 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
             width={90}
             height={50}
             quality={100}
+            className={'logo-img'}
           />
         </Link>
-          <Link className="btn-redirect up-desktop:hidden" to={'https://a-ads.com'}>
-              <LogoRedirect/>
-              <span className="btn-text">Go to A-ADS network</span>
-          </Link>
+        <Link
+          className='btn-redirect up-desktop:hidden'
+          to={'https://a-ads.com'}
+        >
+          <div className={'logo-btn'}>
+            <LogoRedirect />
+          </div>
+          <span className='btn-text btn-text__mobile'>Go to A-ADS network</span>
+        </Link>
 
         <div className='nav-wrap down-desktop:hidden'>
-            {!isSearch && <nav className='flex-center nav-block'>{NavLinks}</nav>}
-            {isSearch &&
-              <SearchBar
-                className="search-bar"
-                setIsSearch={setIsSearch}
-                isSearch={isSearch}/>}
-          <div className="wrap-search">
-              {!isSearch && <SvgSearchIcon fill='#03A9F4' className="nav-search" onClick={() => setIsSearch(true)}/>}
+          {!isSearch && <nav className='flex-center nav-block'>{NavLinks}</nav>}
+          {isSearch && (
+            <SearchBar
+              className='search-bar'
+              setIsSearch={setIsSearch}
+              isSearch={isSearch}
+            />
+          )}
+          <div className='wrap-search'>
+            {!isSearch && (
+              <SvgSearchIcon
+                fill='#03A9F4'
+                className='nav-search'
+                onClick={() => setIsSearch(true)}
+              />
+            )}
           </div>
-          <Link className="btn-redirect" to={'https://a-ads.com'}>
-              <LogoRedirect/>
-              <span className="btn-text">Go to A-ADS network</span>
+          <Link className='btn-redirect' to={'https://a-ads.com'}>
+            <LogoRedirect />
+            <span className='btn-text'>Go to A-ADS network</span>
           </Link>
         </div>
 

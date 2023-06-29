@@ -10,15 +10,11 @@ category_top_level:
   - Guides
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/illustration-6.png
-meta_title: How to place an ad unit code correctly?
+meta_title: How to place an ad unit code correctly? | A-ADS Blog
 meta_description: Learn how to easily embed an ad unit code into your website
-  with this helpful guide from ad.a-ads.com. Find out what an ad unit code is,
-  how to access it, and how to troubleshoot any issues you may encounter along
-  the way. Discover tips and tricks for optimizing your code placement,
-  including making sure your ad unit is present on the specified page and
-  ensuring that our bot can access your ad unit with no issues. Plus, learn how
-  to manually launch the bot and get in touch with our support team if you need
-  further assistance.
+  with this helpful guide from A-ADS. Find out what an ad unit code is, how to
+  access it, and how to troubleshoot any issues you may encounter along the way.
+  Discover tips and tricks for optimizing your code placement.
 ---
 It only takes seconds to copy-paste a provided ad unit code to your website page. You can find the code in the right-bottom corner of an ad unit’s main page, in the section called "Code for your site".
 

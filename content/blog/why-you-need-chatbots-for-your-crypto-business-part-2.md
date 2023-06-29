@@ -13,22 +13,12 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/full-20-.png
 big_picture: ../../static/assets/short-15-.png
 popularity: "0"
-meta_title: Why You Need Chatbots For Your Crypto Business. Part 2
-meta_description: In the second part of this article on chatbots for crypto
-  businesses, learn about the steps required to create your own chatbot, along
-  with the principles of building a successful chatbot. Discover how to set
-  targets for your chatbot, delegate tasks, choose communication channels and
-  tools, select the right platform, prepare the requirements, create a chatbot
-  personality, test the chatbot, analyze its performance, and continually
-  improve it. Explore successful chatbot examples from Adidas Women, Sephora,
-  Marriott Hotel, and KLM Royal Dutch Airlines. Also, learn about the pros and
-  cons of chatbots, including the need for serious preparation, the inability to
-  replace employees completely, and the need for constant updates. Find out
-  whether your crypto business needs a chatbot and the factors to consider when
-  making that decision. Overall, this article provides valuable insights into
-  how chatbots can help crypto businesses automate marketing processes, save
-  time and money, provide quick responses, increase engagement, attract more
-  leads, and provide data for analysis.
+meta_title: Why You Need Chatbots For Your Crypto Business. Part 2 | A-ADS Blog
+meta_description: "Learn how to create and implement chatbots for your crypto
+  business. Discover the essential steps: set targets, choose channels, select a
+  platform, and create a chatbot personality. Determine if chatbots are right
+  for your crypto business and their potential benefits, from automating
+  marketing to increasing engagement."
 meta_keywords: chatbots, crypto business, marketing automation, customer
   service, technical support, sales funnel, audience segmentation, chatbot
   personalities, chatbot examples, chatbot tools, chatbot development, chatbot

@@ -1,6 +1,8 @@
 const resolve = require('path').resolve
 const { createFilePath } = require('gatsby-source-filesystem')
 const _ = require('lodash')
+const fs = require('fs')
+const path = require('path')
 
 exports.onCreateWebpackConfig = ({ stage, actions }) => {
   actions.setWebpackConfig({
@@ -123,6 +125,7 @@ exports.createPages = async ({ graphql, actions }) => {
               position
               description
             }
+            html
           }
         }
       }
@@ -131,8 +134,11 @@ exports.createPages = async ({ graphql, actions }) => {
         edges {
           node {
             title
-            order
+            h1
+            html_title
+            breadcrumb
             meta_description
+            order
           }
         }
       }
@@ -141,8 +147,12 @@ exports.createPages = async ({ graphql, actions }) => {
         edges {
           node {
             title
-            parent_category
+            h1
+            html_title
+            breadcrumb
+            meta_description
             order
+            parent_category
           }
         }
       }
@@ -175,7 +185,7 @@ exports.createPages = async ({ graphql, actions }) => {
       path: post.slug,
       component: resolve(`${__dirname}/src/templates/BlogPostTemplate.tsx`),
       context: {
-        post: posts.find(({ slug }) => slug === post.slug),
+        post: post,
         author: authors.find((author) => author.name === post.author),
         slug: post.slug,
         html: post.html,
@@ -220,6 +230,8 @@ exports.createPages = async ({ graphql, actions }) => {
         thumbnail: author.thumbnail,
         position: author.position,
         description: author.description,
+        // education: author.education,
+        html: author.html,
         postCount: authorBlogPostCount[author.name],
         posts: posts
           .filter(({ author: postAuthor }) => postAuthor === author.name)
@@ -246,6 +258,7 @@ exports.createPages = async ({ graphql, actions }) => {
     ({ node }) => ({
       title: node.title,
       meta_description: node.meta_description,
+      ...node
     })
   )
   const subcategories = data.allBlogCategoriesSecondLevelYaml.edges
@@ -265,6 +278,7 @@ exports.createPages = async ({ graphql, actions }) => {
       return {
         subcategoryName: node.title,
         posts: subcategoryPosts.map(toBlogPostCardProps),
+        ...node
       }
     })
 
@@ -280,14 +294,23 @@ exports.createPages = async ({ graphql, actions }) => {
     }
     const subcats = [allAsSubcategory, ...subcategoriesWithPosts]
 
-    subcats.forEach((subcat) =>
-      categoryPages.push({
-        path: `/categories/${category.title}/${subcat.subcategoryName}/`,
-        posts: subcat.posts,
-        category: category.title,
-        meta_description: category.meta_description,
-      })
-    )
+    subcats.forEach((subcat) => {
+      if (subcat.subcategoryName === 'All') {
+        categoryPages.push({
+          path: `/categories/${category.title}/`,
+          posts: subcat.posts,
+          categoryObj: category,
+          category: category.title
+        })
+      } else if (category.title === 'Guides') {
+        categoryPages.push({
+          path: `/categories/${subcat.subcategoryName}/`,
+          posts: subcat.posts,
+          category: category.title,
+          categoryObj: subcat
+        })
+      }
+    })
   })
 
   const subcategoryNames = subcategoriesWithPosts.map(
@@ -306,8 +329,23 @@ exports.createPages = async ({ graphql, actions }) => {
         category: page.category,
         subcategories: subcategoryNames,
         meta_description: page.meta_description,
+        categoryObj: page.categoryObj,
         posts: page.posts.map(toBlogPostCardProps),
       },
     })
   )
+
+  const blogPostsForAadsMainPage = JSON.parse(JSON.stringify(_.take(data.allBlogPosts.edges, 9))).map(function (post) {
+    if (post.node.frontmatter.thumbnail) {
+      post.node.frontmatter.thumbnail = post.node.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src;
+    }
+    if (post.node.fields.slug) {
+      post.node.frontmatter.slug = '/blog/' + post.node.frontmatter.slug + '/';
+      post.node.fields.slug =  post.node.frontmatter.slug;
+    }
+    return post;
+  });
+  fs.writeFile(path.resolve('./public/main_page_blogposts_preview.json'), JSON.stringify(blogPostsForAadsMainPage), function(err) {
+    console.log(err);
+  });
 }

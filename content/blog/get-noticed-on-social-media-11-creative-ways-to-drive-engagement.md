@@ -12,15 +12,13 @@ author: Emmanuel Olatunji
 thumbnail: blog/assets/get-noticed-on-social-media_-11-creative-ways-to-drive-engagement.png
 big_picture: blog/assets/short_4.png
 popularity: ""
-meta_title: "Get Noticed on Social Media: 11 Creative Ways to Drive Engagement"
+meta_title: "Get Noticed on Social Media: 11 Creative Ways to Drive Engagement |
+  A-ADS Blog"
 meta_description: Looking to grow your social media audience? Check out these 11
   creative ways to drive engagement, from using interactive content to sharing
-  behind-the-scenes glimpses of your brand. Personalization, humor, and paid
-  social ads are all excellent tactics to engage with your audience and build
-  trust. Learn from Coca-Cola's successful social media campaigns and discover
-  how to make your brand more relatable, approachable, and valuable to your
-  audience. By implementing these tips, you can drive engagement, build brand
-  awareness, and create a strong social media presence.
+  behind-the-scenes glimpses of your brand. By implementing these tips, you can
+  drive engagement, build brand awareness, and create a strong social media
+  presence.
 meta_keywords: get noticed on social media, drive engagement, social media
   strategy, social media audience, interactive content, visuals, video, tagging,
   user-generated content, personalization, behind-the-scenes content, humor,

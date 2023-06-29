@@ -115,6 +115,7 @@ const SocialButton: React.FC<SocialButtonProps> = ({
       external
       ghost
       to={to}
+      target='_blank'
       className={cn(className, {
         'body-3 gap-2 font-primary': withText,
       })}
