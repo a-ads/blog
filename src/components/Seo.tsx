@@ -27,7 +27,7 @@ interface SeoProps {
 }
 
 const Seo = (props: SeoProps) => {
-  const { title, description, pathname, children, json_ld } = props
+  const { title, description, pathname, children } = props
   const {
     title: defaultTitle,
     description: defaultDescription,
@@ -52,7 +52,6 @@ const Seo = (props: SeoProps) => {
       <meta name='twitter:url' content={seo.url} />
       <meta name='twitter:description' content={seo.description} />
       <meta name='twitter:image' content={seo.image} />
-      {json_ld && <script type='application/ld+json'>{json_ld}</script>}
       {children}
     </>
   )
