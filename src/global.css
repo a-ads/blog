@@ -532,3 +532,7 @@ h6#experience,
 .text-contrast {
     color: #6b7174;
 }
+
+.name-latest {
+    @apply h1 font-secondary;
+}
