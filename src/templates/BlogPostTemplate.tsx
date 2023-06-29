@@ -128,11 +128,19 @@ interface BlogPostPageProps {
     html: InnerHtmlString
     table_of_contents: InnerHtmlString
     related_posts: BlogPost[]
+    json_ld: ''
   }
 }
 
 const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
-  pageContext: { post, author, html, table_of_contents, related_posts },
+  pageContext: {
+    post,
+    author,
+    html,
+    table_of_contents,
+    related_posts,
+    json_ld,
+  },
 }) => {
   const breadcrumbsTags = [
     post.category_top_level?.[0],

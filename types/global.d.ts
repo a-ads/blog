@@ -29,6 +29,7 @@ interface Author {
   posts?: BlogPostCard[]
   twitter_link?: string
   html?: string
+  json_ld?: string
 }
 
 type BlogPostCard = Pick<

@@ -23,10 +23,11 @@ interface SeoProps {
   description?: string
   pathname?: string
   children?: React.ReactNode
+  json_ld?: string
 }
 
 const Seo = (props: SeoProps) => {
-  const { title, description, pathname, children } = props
+  const { title, description, pathname, children, json_ld } = props
   const {
     title: defaultTitle,
     description: defaultDescription,
@@ -41,17 +42,20 @@ const Seo = (props: SeoProps) => {
     url: `${siteUrl}${pathname || ``}`,
   }
 
-  return (<>
-    <title>{seo.title}</title>
-    <meta name='description' content={seo.description} />
-    <meta name='image' content={seo.image} />
-    <meta name='twitter:card' content='summary_large_image' />
-    <meta name='twitter:title' content={seo.title} />
-    <meta name='twitter:url' content={seo.url} />
-    <meta name='twitter:description' content={seo.description} />
-    <meta name='twitter:image' content={seo.image} />
-    {children}
-  </>)
+  return (
+    <>
+      <title>{seo.title}</title>
+      <meta name='description' content={seo.description} />
+      <meta name='image' content={seo.image} />
+      <meta name='twitter:card' content='summary_large_image' />
+      <meta name='twitter:title' content={seo.title} />
+      <meta name='twitter:url' content={seo.url} />
+      <meta name='twitter:description' content={seo.description} />
+      <meta name='twitter:image' content={seo.image} />
+      {json_ld && <script type='application/ld+json'>{json_ld}</script>}
+      {children}
+    </>
+  )
 }
 
 export default Seo
