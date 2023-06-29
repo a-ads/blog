@@ -528,3 +528,7 @@ h6#experience,
 .search-form {
     width: 100%;
 }
+
+.name-latest {
+    @apply h1 font-secondary;
+}

@@ -9,10 +9,8 @@ interface AuthorPageProps {
   pageContext: Author
 }
 
-export function Head({ pageContext: { name, description }}) {
-  return (
-    <Seo title={name} description={`Our author ${name}. ${description}`} />
-  )
+export function Head({ pageContext: { name, description } }) {
+  return <Seo title={name} description={`${description}`} />
 }
 
 const AuthorPage: React.FC<AuthorPageProps> = ({ pageContext }) => {
@@ -34,7 +32,7 @@ const AuthorPage: React.FC<AuthorPageProps> = ({ pageContext }) => {
             className='flex-shrink-0 rounded-full author-img'
           />
           <div className='flex flex-col w-3/4 up-md:pl-8'>
-            <span className='h1'>{name}</span>
+            <h1 className='h1'>{name}</h1>
             <p className='body-1 !font-semibold font-secondary mt-2 mb-5 clr-secondary'>
               {position}
             </p>
@@ -59,7 +57,7 @@ const AuthorPage: React.FC<AuthorPageProps> = ({ pageContext }) => {
         aria-label={`${name}'s latest articles`}
         className='container mb-14'
       >
-        <h1 className='mt-11'>{name}'s latest articles</h1>
+        <h2 className='mt-11 name-latest'>{name}'s latest articles</h2>
         <BlogPostGrid posts={posts!} className='mt-8' />
       </section>
       <BlogPostGrid posts={drop(posts!, 5)} className='container' canLoadMore />
