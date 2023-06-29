@@ -10,7 +10,11 @@ interface AuthorPageProps {
 }
 
 export function Head({ pageContext: { name, description, json_ld } }) {
-  return <Seo title={name} description={`${description}`} json_ld={json_ld} />
+  return (
+    <Seo title={name} description={`${description}`}>
+      {json_ld && <script type='application/ld+json'>{json_ld}</script>}
+    </Seo>
+  )
 }
 
 const AuthorPage: React.FC<AuthorPageProps> = ({ pageContext }) => {
