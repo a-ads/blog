@@ -4,6 +4,15 @@ const _ = require('lodash')
 const fs = require('fs')
 const path = require('path')
 
+exports.onCreatePage = async ({ page, actions }) => {
+  const { createPage } = actions
+
+  if (page.path.match(/^\/$/)) {
+    page.matchPath = '/*'
+    createPage(page)
+  }
+}
+
 exports.onCreateWebpackConfig = ({ stage, actions }) => {
   actions.setWebpackConfig({
     resolve: {

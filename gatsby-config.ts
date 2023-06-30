@@ -4,8 +4,10 @@ const resolve = require('path').resolve
 const config: GatsbyConfig = {
   pathPrefix: '/blog',
   siteMetadata: {
-    title: 'A-ADS Crypto Blog - marketing guides, tips and news to cryptocurrencies market',
-    description: 'Crypto & Bitcoin market tips and updates, mine guides, reviews and ratings for first-timers or experienced investors, and more information of cryptocurrencies.',
+    title:
+      'A-ADS Crypto Blog - marketing guides, tips and news to cryptocurrencies market',
+    description:
+      'Crypto & Bitcoin market tips and updates, mine guides, reviews and ratings for first-timers or experienced investors, and more information of cryptocurrencies.',
     image: `static/images/favicon.png`,
     siteUrl: 'https://a-ads.com',
   },
@@ -58,8 +60,8 @@ const config: GatsbyConfig = {
           anonymize_ip: true,
         },
         pluginConfig: {
-          delayOnRouteUpdate: 100
-        }
+          delayOnRouteUpdate: 100,
+        },
       },
     },
     'gatsby-plugin-image',
@@ -124,11 +126,11 @@ const config: GatsbyConfig = {
           },
           `gatsby-remark-autolink-headers`,
           {
-            resolve: "gatsby-remark-external-links",
+            resolve: 'gatsby-remark-external-links',
             options: {
-              target: "_blank",
-              rel: "noopener nofollow"
-            }
+              target: '_blank',
+              rel: 'noopener nofollow',
+            },
           },
         ],
       },

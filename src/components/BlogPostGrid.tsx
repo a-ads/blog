@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import cn from 'classnames'
 import { uniqueId } from 'lodash-es'
-
-import { Button } from '@ui'
 import { Card } from '@components'
+import Pagination from './ui/pagination'
+import { Helmet } from 'react-helmet'
+import { useLocation } from '@reach/router'
 
 type BlogPostGridProps = {
   posts: BlogPostCard[]
@@ -11,6 +12,9 @@ type BlogPostGridProps = {
   canLoadMore?: boolean
   span?: number[] // Indexes of posts to span across the grid
   className?: string
+  header?: string
+  blogPostGrid?: boolean
+  setBlogPostGrid?: (blogPostGrid: boolean) => void
 }
 
 const BlogPostGrid = ({
@@ -19,45 +23,104 @@ const BlogPostGrid = ({
   canLoadMore,
   span = [0],
   className,
-  ...props
+  header,
+  blogPostGrid,
+  setBlogPostGrid,
 }: BlogPostGridProps) => {
-  const [postAmountToDisplay, setPostAmountToDisplay] = useState(amount)
+  const location = useLocation()
+  const queryParams = new URLSearchParams(location.search)
+  const initialPage = parseInt(queryParams.get('page') || '1', 10)
+
+  const [currentPage, setCurrentPage] = useState(initialPage - 1)
+  const [canonicalLink, setCanonicalLink] = useState('')
+  const [currentPageItems, setCurrentPageItems] = useState(() => {
+    const currentPageParam = queryParams.get('page') || '1'
+
+    const currentPage = currentPageParam
+      ? parseInt(currentPageParam, 10) - 1
+      : 0
+    const offset = currentPage * amount
+    return posts.slice(offset, offset + amount)
+  })
 
   if (posts.length <= 0) {
     return null
   }
 
-  const hasDisplayedAllPosts = postAmountToDisplay >= posts.length
+  const pageCount = Math.ceil(posts.length / amount)
+
+  useEffect(() => {
+    const currentPageParam = queryParams.get('page')
+    const currentPage = currentPageParam
+      ? parseInt(currentPageParam, 10) - 1
+      : 0
+    const offset = currentPage * amount
+    setCurrentPageItems(posts.slice(offset, offset + amount))
+  }, [])
+
+  const handlePageChange = (selectedPage: { selected: number }) => {
+    setCurrentPageItems(() => {
+      const offset = selectedPage.selected * amount
+      return posts.slice(offset, offset + amount)
+    })
+
+    if (blogPostGrid) {
+      queryParams.set('page', String(selectedPage.selected + 1))
+
+      if (typeof window !== 'undefined') {
+        const updatedUrl = `${location.pathname}?${queryParams.toString()}`
+        window.history.pushState(null, '', updatedUrl)
+      }
+    }
+
+    const updatedCanonicalLink = `${location.origin}${location.pathname}?page=${
+      selectedPage.selected + 1
+    }`
+    setCanonicalLink(updatedCanonicalLink)
+    setCurrentPage(selectedPage.selected + 1)
+  }
+
+  useEffect(() => {
+    if (setBlogPostGrid) {
+      setBlogPostGrid(true)
+
+      if (typeof window !== 'undefined') {
+        const linkElement = document.querySelector('link[rel="canonical"]')
+        if (linkElement) {
+          linkElement.setAttribute('href', canonicalLink)
+        }
+      }
+    }
+  }, [currentPage])
 
   return (
     <>
+      <Helmet>
+        {blogPostGrid && <title>{`${header} - page ${currentPage}`}</title>}
+      </Helmet>
       <div
         className={cn(
           'container grid up-lg:grid-cols-3 gap-8 grid-cols-2 down-tablet:grid-cols-1',
           className
         )}
-        {...props}
       >
-        {posts.map(
-          (post, i) =>
-            i < postAmountToDisplay && (
-              <Card
-                key={uniqueId()}
-                className={cn('mb-8 phone:mb-0', {
-                  'col-span-2 down-tablet:col-span-1 down-tablet:w-full':
-                    span.includes(i),
-                })}
-                {...post}
-              />
-            )
-        )}
+        {currentPageItems &&
+          currentPageItems?.map((post, i) => (
+            <Card
+              key={uniqueId()}
+              className={cn('mb-8 phone:mb-0', {
+                'col-span-2 down-tablet:col-span-1 down-tablet:w-full':
+                  span.includes(i),
+              })}
+              {...post}
+            />
+          ))}
       </div>
-      {canLoadMore && !hasDisplayedAllPosts && (
-        <Button
-          primary
-          text='Load more'
-          onClick={() => setPostAmountToDisplay((prev) => prev + 5)}
-          className='btn-load body-1 !font-semibold phone:body-4 phone:h-11 w-screen h-20 mt-9 tablet:mt-12 phone:mt-8'
+      {canLoadMore && (
+        <Pagination
+          onPageChange={handlePageChange}
+          pageCount={pageCount}
+          initialPage={initialPage - 1}
         />
       )}
     </>
