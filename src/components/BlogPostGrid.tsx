@@ -3,6 +3,8 @@ import cn from 'classnames'
 import { uniqueId } from 'lodash-es'
 import { Card } from '@components'
 import Pagination from './ui/pagination'
+import { Helmet } from 'react-helmet'
+import { graphql, useStaticQuery } from 'gatsby'
 
 type BlogPostGridProps = {
   posts: BlogPostCard[]
@@ -19,6 +21,8 @@ const BlogPostGrid = ({
   span = [0],
   className,
 }: BlogPostGridProps) => {
+  const [title, setTitle] = useState('')
+  const [currentPage, setCurrentPage] = useState(1)
   const [canonicalLink, setCanonicalLink] = useState('')
   const [currentPageItems, setCurrentPageItems] = useState(() => {
     const currentPageParam = new URLSearchParams(window.location.search).get(
@@ -59,6 +63,8 @@ const BlogPostGrid = ({
       window.location.pathname
     }?page=${selectedPage.selected + 1}`
     setCanonicalLink(updatedCanonicalLink)
+
+    setCurrentPage(selectedPage.selected + 1)
   }
 
   useEffect(() => {
@@ -68,12 +74,33 @@ const BlogPostGrid = ({
     }
   }, [canonicalLink])
 
+  const data = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `)
+
+  const pageTitle = data.site.siteMetadata.title
+
+  useEffect(() => {
+    currentPage > 1
+      ? setTitle(`${pageTitle} - Page ${currentPage}`)
+      : setTitle(pageTitle)
+  }, [currentPage, pageTitle, title])
+
   if (posts.length <= 0) {
     return null
   }
 
   return (
     <>
+      <Helmet>
+        <title data-gatsby-head='true'>{title}</title>
+      </Helmet>
       <div
         className={cn(
           'container grid up-lg:grid-cols-3 gap-8 grid-cols-2 down-tablet:grid-cols-1',
