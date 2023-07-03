@@ -3,9 +3,8 @@ import cn from 'classnames'
 import { uniqueId } from 'lodash-es'
 import { Card } from '@components'
 import Pagination from './ui/pagination'
-import { navigate, useLocation } from '@reach/router'
 import { Helmet } from 'react-helmet'
-import { graphql, useStaticQuery } from 'gatsby'
+import { useLocation } from '@reach/router'
 
 type BlogPostGridProps = {
   posts: BlogPostCard[]
@@ -13,6 +12,7 @@ type BlogPostGridProps = {
   canLoadMore?: boolean
   span?: number[] // Indexes of posts to span across the grid
   className?: string
+  header?: string
 }
 
 const BlogPostGrid = ({
@@ -21,61 +21,73 @@ const BlogPostGrid = ({
   canLoadMore,
   span = [0],
   className,
+  header,
 }: BlogPostGridProps) => {
   const location = useLocation()
   const queryParams = new URLSearchParams(location.search)
   const initialPage = parseInt(queryParams.get('page') || '1', 10)
+
   const [currentPage, setCurrentPage] = useState(initialPage - 1)
-  const [title, setTitle] = useState('')
+  const [canonicalLink, setCanonicalLink] = useState('')
+  const [currentPageItems, setCurrentPageItems] = useState(() => {
+    const currentPageParam = queryParams.get('page') || '1'
 
-  const pageCount = Math.ceil(posts.length / amount)
-
-  const handlePageClick = ({ selected }: { selected: number }) => {
-    setCurrentPage(selected)
-    navigate(`?page=${selected + 1}`)
-  }
-
-  const offset = currentPage * amount
-  const currentItems = posts.slice(offset, offset + amount)
-
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          title
-          siteUrl
-        }
-      }
-    }
-  `)
-
-  if (typeof window !== 'undefined') {
-    const titleElement = document.querySelector(
-      'title[data-gatsby-head="true"]'
-    )
-    const pageTitle = titleElement?.textContent
-
-    useEffect(() => {
-      if (titleElement) {
-        setTitle(`${pageTitle} - page ${currentPage + 1}`)
-      }
-    }, [currentPage, pageTitle])
-  }
-
-  const pathSegments = 'blog/categories/how-to'
-  const canonicalUrl = `${
-    data.site.siteMetadata.siteUrl
-  }/${pathSegments}/page/${currentPage + 1}`
+    const currentPage = currentPageParam
+      ? parseInt(currentPageParam, 10) - 1
+      : 0
+    const offset = currentPage * amount
+    return posts.slice(offset, offset + amount)
+  })
 
   if (posts.length <= 0) {
     return null
   }
 
+  const pageCount = Math.ceil(posts.length / amount)
+
+  useEffect(() => {
+    const currentPageParam = queryParams.get('page')
+    const currentPage = currentPageParam
+      ? parseInt(currentPageParam, 10) - 1
+      : 0
+    const offset = currentPage * amount
+    setCurrentPageItems(posts.slice(offset, offset + amount))
+  }, [])
+
+  const handlePageChange = (selectedPage: { selected: number }) => {
+    setCurrentPageItems(() => {
+      const offset = selectedPage.selected * amount
+      return posts.slice(offset, offset + amount)
+    })
+
+    queryParams.set('page', String(selectedPage.selected + 1))
+
+    if (typeof window !== 'undefined') {
+      const updatedUrl = `${location.pathname}?${queryParams.toString()}`
+      window.history.pushState(null, '', updatedUrl)
+    }
+
+    const updatedCanonicalLink = `${location.origin}${location.pathname}?page=${
+      selectedPage.selected + 1
+    }`
+
+    setCanonicalLink(updatedCanonicalLink)
+    setCurrentPage(selectedPage.selected + 1)
+  }
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const linkElement = document.querySelector('link[rel="canonical"]')
+      if (linkElement) {
+        linkElement.setAttribute('href', canonicalLink)
+      }
+    }
+  }, [canonicalLink])
+
   return (
     <>
       <Helmet>
-        <title>{title}</title>
-        <link rel='canonical' href={canonicalUrl} />
+        <title data-gatsby-head='true'>{`${header} - page ${currentPage}`}</title>
       </Helmet>
       <div
         className={cn(
@@ -83,22 +95,23 @@ const BlogPostGrid = ({
           className
         )}
       >
-        {currentItems.map((post, i) => (
-          <Card
-            key={uniqueId()}
-            className={cn('mb-8 phone:mb-0', {
-              'col-span-2 down-tablet:col-span-1 down-tablet:w-full':
-                span.includes(i),
-            })}
-            {...post}
-          />
-        ))}
+        {currentPageItems &&
+          currentPageItems?.map((post, i) => (
+            <Card
+              key={uniqueId()}
+              className={cn('mb-8 phone:mb-0', {
+                'col-span-2 down-tablet:col-span-1 down-tablet:w-full':
+                  span.includes(i),
+              })}
+              {...post}
+            />
+          ))}
       </div>
       {canLoadMore && (
         <Pagination
-          initialPage={initialPage - 1}
-          onPageChange={handlePageClick}
+          onPageChange={handlePageChange}
           pageCount={pageCount}
+          initialPage={initialPage - 1}
         />
       )}
     </>
