@@ -49,14 +49,18 @@ const BlogPostGrid = ({
     }
   `)
 
-  const titleElement = document.querySelector('title[data-gatsby-head="true"]')
-  const pageTitle = titleElement?.textContent
+  if (typeof window !== 'undefined') {
+    const titleElement = document.querySelector(
+      'title[data-gatsby-head="true"]'
+    )
+    const pageTitle = titleElement?.textContent
 
-  useEffect(() => {
-    if (titleElement) {
-      setTitle(`${pageTitle} - page ${currentPage + 1}`)
-    }
-  }, [currentPage, pageTitle])
+    useEffect(() => {
+      if (titleElement) {
+        setTitle(`${pageTitle} - page ${currentPage + 1}`)
+      }
+    }, [currentPage, pageTitle])
+  }
 
   const pathSegments = 'blog/categories/how-to'
   const canonicalUrl = `${
