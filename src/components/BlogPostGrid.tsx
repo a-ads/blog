@@ -3,6 +3,7 @@ import cn from 'classnames'
 import { uniqueId } from 'lodash-es'
 import { Card } from '@components'
 import Pagination from './ui/pagination'
+import { navigate, useLocation } from '@reach/router'
 import { Helmet } from 'react-helmet'
 import { graphql, useStaticQuery } from 'gatsby'
 
@@ -21,75 +22,41 @@ const BlogPostGrid = ({
   span = [0],
   className,
 }: BlogPostGridProps) => {
+  const location = useLocation()
+  const queryParams = new URLSearchParams(location.search)
+  const initialPage = parseInt(queryParams.get('page') || '1', 10)
+  const [currentPage, setCurrentPage] = useState(initialPage - 1)
   const [title, setTitle] = useState('')
-  const [currentPage, setCurrentPage] = useState(1)
-  const [canonicalLink, setCanonicalLink] = useState('')
-  const [currentPageItems, setCurrentPageItems] = useState(() => {
-    const currentPageParam = new URLSearchParams(window.location.search).get(
-      'page'
-    )
-    const currentPage = currentPageParam
-      ? parseInt(currentPageParam, 10) - 1
-      : 0
-    const offset = currentPage * amount
-    return posts.slice(offset, offset + amount)
-  })
 
   const pageCount = Math.ceil(posts.length / amount)
 
-  useEffect(() => {
-    const queryParams = new URLSearchParams(window.location.search)
-    const currentPageParam = queryParams.get('page')
-    const currentPage = currentPageParam
-      ? parseInt(currentPageParam, 10) - 1
-      : 0
-    const offset = currentPage * amount
-    setCurrentPageItems(posts.slice(offset, offset + amount))
-  }, [])
-
-  const handlePageChange = (selectedPage: { selected: number }) => {
-    setCurrentPageItems(() => {
-      const offset = selectedPage.selected * amount
-      return posts.slice(offset, offset + amount)
-    })
-
-    const queryParams = new URLSearchParams(window.location.search)
-    queryParams.set('page', String(selectedPage.selected + 1))
-
-    const updatedUrl = `${window.location.pathname}?${queryParams.toString()}`
-    window.history.pushState(null, '', updatedUrl)
-
-    const updatedCanonicalLink = `${window.location.origin}${
-      window.location.pathname
-    }?page=${selectedPage.selected + 1}`
-    setCanonicalLink(updatedCanonicalLink)
-
-    setCurrentPage(selectedPage.selected + 1)
+  const handlePageClick = ({ selected }: { selected: number }) => {
+    setCurrentPage(selected)
+    navigate(`?page=${selected + 1}`)
   }
 
-  useEffect(() => {
-    const linkElement = document.querySelector('link[rel="canonical"]')
-    if (linkElement) {
-      linkElement.setAttribute('href', canonicalLink)
-    }
-  }, [canonicalLink])
+  const offset = currentPage * amount
+  const currentItems = posts.slice(offset, offset + amount)
 
   const data = useStaticQuery(graphql`
     query {
       site {
         siteMetadata {
           title
+          siteUrl
         }
       }
     }
   `)
 
   const pageTitle = data.site.siteMetadata.title
+  const pathSegments = 'blog/categories/how-to'
+  const canonicalUrl = `${
+    data.site.siteMetadata.siteUrl
+  }/${pathSegments}/page/${currentPage + 1}`
 
   useEffect(() => {
-    currentPage > 1
-      ? setTitle(`${pageTitle} - Page ${currentPage}`)
-      : setTitle(pageTitle)
+    setTitle(`Page ${currentPage + 1}`)
   }, [currentPage, pageTitle, title])
 
   if (posts.length <= 0) {
@@ -99,7 +66,9 @@ const BlogPostGrid = ({
   return (
     <>
       <Helmet>
-        <title data-gatsby-head='true'>{title}</title>
+        <title data-gatsby-head='true'>{pageTitle + ' ' + title}</title>
+        <title>{pageTitle + ' ' + title}</title>
+        <link rel='canonical' href={canonicalUrl} />
       </Helmet>
       <div
         className={cn(
@@ -107,7 +76,7 @@ const BlogPostGrid = ({
           className
         )}
       >
-        {currentPageItems.map((post, i) => (
+        {currentItems.map((post, i) => (
           <Card
             key={uniqueId()}
             className={cn('mb-8 phone:mb-0', {
@@ -119,7 +88,11 @@ const BlogPostGrid = ({
         ))}
       </div>
       {canLoadMore && (
-        <Pagination onPageChange={handlePageChange} pageCount={pageCount} />
+        <Pagination
+          initialPage={initialPage - 1}
+          onPageChange={handlePageClick}
+          pageCount={pageCount}
+        />
       )}
     </>
   )

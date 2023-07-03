@@ -2,9 +2,20 @@ import React, { memo } from 'react'
 import ReactPaginate from 'react-paginate'
 import './pagination.css'
 
-const Pagination = ({ onPageChange, pageCount }: any) => {
+interface IPaginationProps {
+  onPageChange: (selectedItem: { selected: number }) => void
+  pageCount: number
+  initialPage: number
+}
+
+const Pagination = ({
+  onPageChange,
+  pageCount,
+  initialPage,
+}: IPaginationProps) => {
   return (
     <ReactPaginate
+      initialPage={initialPage}
       pageCount={pageCount}
       marginPagesDisplayed={2}
       pageRangeDisplayed={2}
