@@ -4,6 +4,15 @@ const _ = require('lodash')
 const fs = require('fs')
 const path = require('path')
 
+exports.onCreatePage = async ({ page, actions }) => {
+  const { createPage } = actions
+
+  if (page.path.match(/^\/$/)) {
+    page.matchPath = '/*'
+    createPage(page)
+  }
+}
+
 exports.onCreateWebpackConfig = ({ stage, actions }) => {
   actions.setWebpackConfig({
     resolve: {
@@ -258,7 +267,7 @@ exports.createPages = async ({ graphql, actions }) => {
     ({ node }) => ({
       title: node.title,
       meta_description: node.meta_description,
-      ...node
+      ...node,
     })
   )
   const subcategories = data.allBlogCategoriesSecondLevelYaml.edges
@@ -278,7 +287,7 @@ exports.createPages = async ({ graphql, actions }) => {
       return {
         subcategoryName: node.title,
         posts: subcategoryPosts.map(toBlogPostCardProps),
-        ...node
+        ...node,
       }
     })
 
@@ -300,14 +309,14 @@ exports.createPages = async ({ graphql, actions }) => {
           path: `/categories/${category.title}/`,
           posts: subcat.posts,
           categoryObj: category,
-          category: category.title
+          category: category.title,
         })
       } else if (category.title === 'Guides') {
         categoryPages.push({
           path: `/categories/${subcat.subcategoryName}/`,
           posts: subcat.posts,
           category: category.title,
-          categoryObj: subcat
+          categoryObj: subcat,
         })
       }
     })
@@ -335,17 +344,24 @@ exports.createPages = async ({ graphql, actions }) => {
     })
   )
 
-  const blogPostsForAadsMainPage = JSON.parse(JSON.stringify(_.take(data.allBlogPosts.edges, 9))).map(function (post) {
+  const blogPostsForAadsMainPage = JSON.parse(
+    JSON.stringify(_.take(data.allBlogPosts.edges, 9))
+  ).map(function (post) {
     if (post.node.frontmatter.thumbnail) {
-      post.node.frontmatter.thumbnail = post.node.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src;
+      post.node.frontmatter.thumbnail =
+        post.node.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src
     }
     if (post.node.fields.slug) {
-      post.node.frontmatter.slug = '/blog/' + post.node.frontmatter.slug + '/';
-      post.node.fields.slug =  post.node.frontmatter.slug;
+      post.node.frontmatter.slug = '/blog/' + post.node.frontmatter.slug + '/'
+      post.node.fields.slug = post.node.frontmatter.slug
     }
-    return post;
-  });
-  fs.writeFile(path.resolve('./public/main_page_blogposts_preview.json'), JSON.stringify(blogPostsForAadsMainPage), function(err) {
-    console.log(err);
-  });
+    return post
+  })
+  fs.writeFile(
+    path.resolve('./public/main_page_blogposts_preview.json'),
+    JSON.stringify(blogPostsForAadsMainPage),
+    function (err) {
+      console.log(err)
+    }
+  )
 }
