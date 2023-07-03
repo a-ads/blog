@@ -49,15 +49,19 @@ const BlogPostGrid = ({
     }
   `)
 
-  const pageTitle = data.site.siteMetadata.title
+  const titleElement = document.querySelector('title[data-gatsby-head="true"]')
+  const pageTitle = titleElement?.textContent
+
+  useEffect(() => {
+    if (titleElement) {
+      setTitle(`${pageTitle} - page ${currentPage + 1}`)
+    }
+  }, [currentPage, pageTitle])
+
   const pathSegments = 'blog/categories/how-to'
   const canonicalUrl = `${
     data.site.siteMetadata.siteUrl
   }/${pathSegments}/page/${currentPage + 1}`
-
-  useEffect(() => {
-    setTitle(`Page ${currentPage + 1}`)
-  }, [currentPage, pageTitle, title])
 
   if (posts.length <= 0) {
     return null
@@ -66,8 +70,7 @@ const BlogPostGrid = ({
   return (
     <>
       <Helmet>
-        <title data-gatsby-head='true'>{pageTitle + ' ' + title}</title>
-        <title>{pageTitle + ' ' + title}</title>
+        <title>{title}</title>
         <link rel='canonical' href={canonicalUrl} />
       </Helmet>
       <div
