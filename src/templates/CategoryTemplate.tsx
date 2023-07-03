@@ -66,6 +66,7 @@ const CategoryTemplate = (props: CategoryPageProps) => {
 
         <BlogPostGrid
           posts={[...take(posts, 5), ...drop(posts, 5)]}
+          header={categoryObj.h1}
           canLoadMore
           className='mt-20 mb-20'
         />
