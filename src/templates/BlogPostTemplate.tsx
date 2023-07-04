@@ -186,7 +186,7 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
                   <span className='h4 font-secondary font-semibold'>
                     {author.name}
                   </span>
-                  <span className='clr-secondary body-3'>
+                  <span className='text-contrast clr-secondary body-3'>
                     {author.position}
                   </span>
                 </div>

@@ -231,7 +231,7 @@ const Footer = () => {
                 text: name,
                 ghost: true,
                 className:
-                  'clr-secondary body-2 font-primary hover:clr-gray-3 mb-3',
+                  'text-contrast clr-secondary body-2 font-primary hover:clr-gray-3 mb-3',
               }
               const buttonProps = { onClick }
               const linkProps = { to, external: true }
@@ -278,7 +278,7 @@ const Footer = () => {
               </Fragment>
             ))}
           </div>
-          <span className='body-3 !font-bold clr-gray-4'>
+          <span className='text-contrast body-3 !font-bold clr-gray-4'>
             {getFormattedDate()}
           </span>
         </div>
@@ -286,7 +286,10 @@ const Footer = () => {
           'The best advertising network with a great number of crypto currencies: bitcoin, ethereum, litecoin, dogecoin, dash etc',
           '© A-ADS 2011-2023',
         ].map((text) => (
-          <p key={text} className='w-full body-2 clr-secondary text-center'>
+          <p
+            key={text}
+            className='w-full body-2 clr-secondary text-center text-contrast'
+          >
             {text}
           </p>
         ))}
