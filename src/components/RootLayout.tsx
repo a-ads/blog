@@ -2,7 +2,6 @@ import React, { useState, useMemo, Fragment } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import cn from 'classnames'
-import { kebabCase } from 'lodash-es'
 import { utcToZonedTime, format } from 'date-fns-tz'
 import 'prismjs/themes/prism.css'
 
@@ -49,17 +48,23 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
   const NavLinks = useMemo(
     () => (
       <>
-        {categoriesTopLevel.sort((a, b) => a.order - b.order).map((cat) => (
-          <Link
-            key={cat.id}
-            ghost
-            text={cat.title}
-            to={toCategoryLink(cat.title, 'all')}
-            baseCn='py-4 text-base leading-6 font-medium text-gray-800 whitespace-nowrap hover:clr-primary rounded-none'
-            className={cat.order == 3 ? 'border-none' : 'down-desktop:border-b'} // This disables the border on the last item on mobile
-            onClick={() => (isHamburgerOpen ? setIsHamburgerOpen(false) : null)}
-          />
-        ))}
+        {categoriesTopLevel
+          .sort((a, b) => a.order - b.order)
+          .map((cat) => (
+            <Link
+              key={cat.id}
+              ghost
+              text={cat.title}
+              to={toCategoryLink(cat.title, 'all')}
+              baseCn='py-4 text-base leading-6 font-medium text-gray-800 whitespace-nowrap hover:clr-primary rounded-none'
+              className={
+                cat.order == 3 ? 'border-none' : 'down-desktop:border-b'
+              } // This disables the border on the last item on mobile
+              onClick={() =>
+                isHamburgerOpen ? setIsHamburgerOpen(false) : null
+              }
+            />
+          ))}
       </>
     ),
     [isHamburgerOpen]
@@ -225,7 +230,7 @@ const Footer = () => {
                 text: name,
                 ghost: true,
                 className:
-                  'clr-secondary body-2 font-primary hover:clr-gray-3 mb-3',
+                  'text-contrast clr-secondary body-2 font-primary hover:clr-gray-3 mb-3',
               }
               const buttonProps = { onClick }
               const linkProps = { to, external: true }
@@ -272,7 +277,7 @@ const Footer = () => {
               </Fragment>
             ))}
           </div>
-          <span className='body-3 !font-bold clr-gray-4'>
+          <span className='text-contrast body-3 !font-bold clr-gray-4'>
             {getFormattedDate()}
           </span>
         </div>
@@ -280,7 +285,10 @@ const Footer = () => {
           'The best advertising network with a great number of crypto currencies: bitcoin, ethereum, litecoin, dogecoin, dash etc',
           '© A-ADS 2011-2023',
         ].map((text) => (
-          <p key={text} className='w-full body-2 clr-secondary text-center'>
+          <p
+            key={text}
+            className='w-full body-2 clr-secondary text-center text-contrast'
+          >
             {text}
           </p>
         ))}
