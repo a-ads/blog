@@ -70,7 +70,7 @@ const TableOfContents = ({
         {toc && (
           <div
             aria-label='Table of contents'
-            className='mt-3 [&>ul]:flex [&>ul]:flex-col [&>ul]:gap-2 [&>ul]:body-4 [&>ul]:clr-blue'
+            className='hover-link-blue mt-3 [&>ul]:flex [&>ul]:flex-col [&>ul]:gap-2 [&>ul]:body-4 [&>ul]:clr-blue'
             dangerouslySetInnerHTML={{ __html: toc }}
           />
         )}
@@ -97,7 +97,7 @@ const TableOfContents = ({
               primary
               text='Start now'
               to='https://a-ads.com/campaigns/new'
-              className='w-full h-12'
+              className='hover-link w-full h-12'
             />
           </div>
           <StaticImage

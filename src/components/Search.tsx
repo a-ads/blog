@@ -11,8 +11,8 @@ interface ISearchCtx {
 }
 
 interface ISearchFormProps {
-  className?: string,
-  setIsSearch?: (search: boolean) => void,
+  className?: string
+  setIsSearch?: (search: boolean) => void
   isSearch?: Boolean
 }
 
@@ -42,6 +42,16 @@ const SearchBar = ({ className, setIsSearch, isSearch }: ISearchFormProps) => {
     setSearchQuery(query)
   }, 500)
 
+  const [isFocused, setIsFocused] = useState(false)
+
+  const handleFocus = () => {
+    setIsFocused(true)
+  }
+
+  const handleBlur = () => {
+    setIsFocused(false)
+  }
+
   return (
     <form
       role='search'
@@ -49,7 +59,7 @@ const SearchBar = ({ className, setIsSearch, isSearch }: ISearchFormProps) => {
         e.preventDefault()
         navigate(`/search/?q=${searchQuery}`)
       }}
-      className='search-form'
+      className={isFocused ? 'search-form active' : 'search-form'}
     >
       <Input
         variant='contained'
@@ -57,9 +67,14 @@ const SearchBar = ({ className, setIsSearch, isSearch }: ISearchFormProps) => {
         onChange={(e) => debounceSearch(e.target.value)}
         baseCn='bg-gray-7'
         className={className}
+        handleFocus={handleFocus}
+        handleBlur={handleBlur}
         prepend={<SearchIcon />}
       />
-      <span className="close" onClick={() => setIsSearch ? setIsSearch(!isSearch) : ''}/>
+      <span
+        className='close'
+        onClick={() => (setIsSearch ? setIsSearch(!isSearch) : '')}
+      />
     </form>
   )
 }

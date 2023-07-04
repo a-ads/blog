@@ -120,7 +120,7 @@ const SocialButton: React.FC<SocialButtonProps> = ({
       target='_blank'
       title={title}
       className={cn(className, {
-        'body-3 gap-2 font-primary': withText,
+        'body-3 gap-2 font-primary hover-social': withText,
       })}
       aria-label='Social media button'
       {...props}
