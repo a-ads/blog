@@ -8,6 +8,7 @@ import type { ComposeButtonClassnames } from '../button'
 export type CustomLinkProps = {
   text?: string
   external?: boolean
+  title?: string
 } & GatsbyLinkProps<{}> &
   ComposeButtonClassnames
 
@@ -23,6 +24,7 @@ const CustomLink = forwardRef(
       className,
       baseCn,
       to,
+      title,
       ...props
     }: CustomLinkProps,
     ref: React.Ref<HTMLAnchorElement>
@@ -40,7 +42,7 @@ const CustomLink = forwardRef(
     }
 
     return external ? (
-      <a href={to} {...p}>
+      <a href={to} title={title} {...p}>
         {children}
       </a>
     ) : (
