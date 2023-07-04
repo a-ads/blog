@@ -263,6 +263,7 @@ const Footer = () => {
               <Fragment key={socialId}>
                 <SocialButton
                   socialId={socialId}
+                  title={socialId}
                   className={cn('icon-hover', {
                     'down-tablet:hidden': i > 2 && !canSeeMoreSocials, // Initially display only three buttons on mobile
                   })}
