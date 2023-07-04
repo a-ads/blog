@@ -49,17 +49,23 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
   const NavLinks = useMemo(
     () => (
       <>
-        {categoriesTopLevel.sort((a, b) => a.order - b.order).map((cat) => (
-          <Link
-            key={cat.id}
-            ghost
-            text={cat.title}
-            to={toCategoryLink(cat.title, 'all')}
-            baseCn='py-4 text-base leading-6 font-medium text-gray-800 whitespace-nowrap hover:clr-primary rounded-none'
-            className={cat.order == 3 ? 'border-none' : 'down-desktop:border-b'} // This disables the border on the last item on mobile
-            onClick={() => (isHamburgerOpen ? setIsHamburgerOpen(false) : null)}
-          />
-        ))}
+        {categoriesTopLevel
+          .sort((a, b) => a.order - b.order)
+          .map((cat) => (
+            <Link
+              key={cat.id}
+              ghost
+              text={cat.title}
+              to={toCategoryLink(cat.title, 'all')}
+              baseCn='hover-social py-4 text-base leading-6 font-medium text-gray-800 white space-nowrap hover:clr-primary rounded-none'
+              className={
+                cat.order == 3 ? 'border-none' : 'down-desktop:border-b'
+              } // This disables the border on the last item on mobile
+              onClick={() =>
+                isHamburgerOpen ? setIsHamburgerOpen(false) : null
+              }
+            />
+          ))}
       </>
     ),
     [isHamburgerOpen]
@@ -257,7 +263,7 @@ const Footer = () => {
               <Fragment key={socialId}>
                 <SocialButton
                   socialId={socialId}
-                  className={cn({
+                  className={cn('icon-hover', {
                     'down-tablet:hidden': i > 2 && !canSeeMoreSocials, // Initially display only three buttons on mobile
                   })}
                 />
@@ -266,7 +272,7 @@ const Footer = () => {
                     ghost
                     text='See more'
                     onClick={() => setCanSeeMoreSocials(!canSeeMoreSocials)}
-                    className='hidden down-tablet:inline-flex clr-blue font-normal font-primary'
+                    className='icon-hover hidden down-tablet:inline-flex clr-blue font-normal font-primary'
                   />
                 )}
               </Fragment>
@@ -360,7 +366,7 @@ const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 to={`https://a-ads.com/${
                   i === 0 ? 'campaigns/new' : 'ad_units/new'
                 }`}
-                className='w-4/6 mt-auto down-desktop:w-full'
+                className='hover-link w-4/6 mt-auto down-desktop:w-full'
               >
                 Become {i === 0 ? 'an advertiser' : 'a publisher'}
               </Link>

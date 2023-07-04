@@ -25,9 +25,9 @@ const Slider: React.FC<SliderProps> = ({ children, className, ...props }) => {
 
     setButtons(
       <div className='absolute top-20 right-[1rem]'>
-        <div className='flex justify-end gap-7 mb-10'>
+        <div className='hover-slider flex justify-end gap-7 mb-10'>
           <Button {...arrowProps} onClick={() => current.slickPrev()}>
-            <Chevron className='' />
+            <Chevron />
           </Button>
           <Button {...arrowProps} onClick={() => current.slickNext()}>
             <Chevron className='rotate-180' />

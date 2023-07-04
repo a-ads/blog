@@ -50,7 +50,7 @@ const CategoryTemplate = (props: CategoryPageProps) => {
                     to={toCategoryLink(category, subcat)}
                     baseCn='flex-center px-8 py-4 max-w-50 clr-black rounded whitespace-nowrap bg-gradient'
                     // On active:
-                    className='aria-[current="page"]:!bg-[#03a9f41a] aria-[current="page"]:!clr-blue aria-[current="page"]:font-extrabold'
+                    className='hover-btn aria-[current="page"]:!bg-[#03a9f41a] aria-[current="page"]:!clr-blue aria-[current="page"]:font-extrabold'
                   />
                 )
               })}
