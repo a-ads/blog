@@ -9,6 +9,8 @@ export type InputProps = {
   prepend?: React.ReactNode
   append?: React.ReactNode
   inputCn?: string
+  handleFocus: () => void
+  handleBlur: () => void
 } & DefaultProps &
   JSX.IntrinsicElements['input']
 
@@ -22,6 +24,8 @@ const Input = forwardRef(
       className,
       baseCn,
       inputCn,
+      handleFocus,
+      handleBlur,
       ...props
     }: InputProps,
     ref: React.Ref<HTMLInputElement>
@@ -42,6 +46,8 @@ const Input = forwardRef(
           className={cn(styles.input, 'body-3', inputCn)}
           autoComplete='off'
           ref={inputRef}
+          onFocus={handleFocus}
+          onBlur={handleBlur}
           {...props}
         />
         {append && <div className={styles.preappend}>{append}</div>}

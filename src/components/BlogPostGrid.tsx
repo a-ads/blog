@@ -43,7 +43,7 @@ const BlogPostGrid = ({
             i < postAmountToDisplay && (
               <Card
                 key={uniqueId()}
-                className={cn('mb-8 phone:mb-0', {
+                className={cn('mb-8 phone:mb-0 hover-card', {
                   'col-span-2 down-tablet:col-span-1 down-tablet:w-full':
                     span.includes(i),
                 })}
