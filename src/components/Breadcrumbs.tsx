@@ -30,11 +30,11 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({
       : `/categories/${kebabCase(tag)}/`
 
   let getBreadcrumbName = (tag: string) => {
-    switch(tag) {
-    case 'Guides':
-      return 'Cryptocurrency guides'
-    default:
-      return tag
+    switch (tag) {
+      case 'Guides':
+        return 'Cryptocurrency guides'
+      default:
+        return tag
     }
   }
 
@@ -52,7 +52,7 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({
             {/* First tag i === 0 is a link to the home page - blog */}
             <a
               href={i === 0 ? withPrefix('/') : withPrefix(to(tag))}
-              className='hover:clr-gray-1 transition-all p-0'
+              className='text-contrast hover:clr-gray-1 transition-all p-0'
             >
               {capitalize(getBreadcrumbName(tag))}
             </a>
