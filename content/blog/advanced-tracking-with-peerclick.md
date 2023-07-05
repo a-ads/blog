@@ -11,7 +11,7 @@ category_top_level:
 category_second_level:
   - How To
 author: Micheal George
-thumbnail: ../../static/assets/full-6-.png
+thumbnail: /blog/assets/peerclick_featured.png
 big_picture: ../../static/assets/short.png
 meta_title: Advanced Tracking with PeerClick | A-ADS Blog
 meta_description: Learn how to integrate PeerClick, a free ad tracking software,
