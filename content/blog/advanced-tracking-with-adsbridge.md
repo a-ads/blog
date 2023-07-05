@@ -11,7 +11,7 @@ category_top_level:
 category_second_level:
   - How To
 author: Micheal George
-thumbnail: /blog/assets/adsbridge-square.png
+thumbnail: /blog/assets/adsbridge-featured.png
 big_picture: ../../static/assets/short-16-.png
 meta_title: Advanced Tracking with AdsBridge | A-ADS Blog
 meta_description: Track your affiliate marketing campaigns like a pro with
