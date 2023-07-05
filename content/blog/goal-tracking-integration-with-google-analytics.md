@@ -11,8 +11,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Micheal George
-thumbnail: ../../static/assets/full-11-.png
-big_picture: ../../static/assets/short-9-.png
+thumbnail: /blog/assets/goal-tracking-integration-with-google-analytic-logo-main.png
+big_picture: /blog/assets/goal-tracking-integration-plus-google-analytic-logo-square.png
 meta_title: Goal tracking integration with Google Analytics | A-ADS Blog
 meta_description: Learn how to integrate goal tracking with Google Analytics and
   your A-ADS campaign. With just a hosted website, GA account, and an A-ADS
