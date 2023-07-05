@@ -13,7 +13,8 @@ type BlogPostGridProps = {
   span?: number[] // Indexes of posts to span across the grid
   className?: string
   header?: string
-  subcategories: string[]
+  blogPostGrid?: boolean
+  setBlogPostGrid?: (blogPostGrid: boolean) => void
 }
 
 const BlogPostGrid = ({
@@ -23,7 +24,8 @@ const BlogPostGrid = ({
   span = [0],
   className,
   header,
-  subcategories,
+  blogPostGrid,
+  setBlogPostGrid,
 }: BlogPostGridProps) => {
   const location = useLocation()
   const queryParams = new URLSearchParams(location.search)
@@ -62,42 +64,39 @@ const BlogPostGrid = ({
       return posts.slice(offset, offset + amount)
     })
 
-    subcategories.map((category) => {
-      if (
-        location.pathname.includes(category) ||
-        location.pathname.includes('guides')
-      ) {
-        queryParams.set('page', String(selectedPage.selected + 1))
+    if (blogPostGrid) {
+      queryParams.set('page', String(selectedPage.selected + 1))
 
-        if (typeof window !== 'undefined') {
-          const updatedUrl = `${location.pathname}?${queryParams.toString()}`
-          window.history.pushState(null, '', updatedUrl)
-        }
+      if (typeof window !== 'undefined') {
+        const updatedUrl = `${location.pathname}?${queryParams.toString()}`
+        window.history.pushState(null, '', updatedUrl)
       }
-    })
+    }
 
     const updatedCanonicalLink = `${location.origin}${location.pathname}?page=${
       selectedPage.selected + 1
     }`
-
     setCanonicalLink(updatedCanonicalLink)
-
     setCurrentPage(selectedPage.selected + 1)
   }
 
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const linkElement = document.querySelector('link[rel="canonical"]')
-      if (linkElement) {
-        linkElement.setAttribute('href', canonicalLink)
+    if (setBlogPostGrid) {
+      setBlogPostGrid(true)
+
+      if (typeof window !== 'undefined') {
+        const linkElement = document.querySelector('link[rel="canonical"]')
+        if (linkElement) {
+          linkElement.setAttribute('href', canonicalLink)
+        }
       }
     }
-  }, [canonicalLink])
+  }, [currentPage])
 
   return (
     <>
       <Helmet>
-        <title>{`${header} - page ${currentPage}`}</title>
+        {blogPostGrid && <title>{`${header} - page ${currentPage}`}</title>}
       </Helmet>
       <div
         className={cn(

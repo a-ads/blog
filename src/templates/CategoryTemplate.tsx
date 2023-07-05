@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import { take, drop } from 'lodash-es'
 
@@ -31,6 +31,7 @@ export function Head({ pageContext: { categoryObj } }) {
 
 const CategoryTemplate = (props: CategoryPageProps) => {
   const { category, subcategories, posts, categoryObj } = props.pageContext
+  const [blogPostGrid, setBlogPostGrid] = useState(false)
 
   return (
     <>
@@ -50,7 +51,7 @@ const CategoryTemplate = (props: CategoryPageProps) => {
                     to={toCategoryLink(category, subcat)}
                     baseCn='flex-center px-8 py-4 max-w-50 clr-black rounded whitespace-nowrap bg-gradient'
                     // On active:
-                    className='hover-btn aria-[current="page"]:!bg-[#03a9f41a] aria-[current="page"]:!clr-blue aria-[current="page"]:font-extrabold'
+                    className='aria-[current="page"]:!bg-[#03a9f41a] aria-[current="page"]:!clr-blue aria-[current="page"]:font-extrabold'
                   />
                 )
               })}
@@ -67,7 +68,8 @@ const CategoryTemplate = (props: CategoryPageProps) => {
         <BlogPostGrid
           posts={[...take(posts, 5), ...drop(posts, 5)]}
           header={categoryObj.h1}
-          subcategories={subcategories}
+          blogPostGrid={blogPostGrid}
+          setBlogPostGrid={setBlogPostGrid}
           canLoadMore
           className='mt-20 mb-20'
         />
