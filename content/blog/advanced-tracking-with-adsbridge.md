@@ -11,8 +11,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Micheal George
-thumbnail: ../../static/assets/full-16-.png
-big_picture: ../../static/assets/short-16-.png
+thumbnail: /blog/assets/adsbridge-featured.png
+big_picture: /blog/assets/adsbridge-square.png
 meta_title: Advanced Tracking with AdsBridge | A-ADS Blog
 meta_description: Track your affiliate marketing campaigns like a pro with
   AdsBridge! As a tracking solution built for media buyers, affiliate marketers,

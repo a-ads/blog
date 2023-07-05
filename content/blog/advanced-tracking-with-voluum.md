@@ -11,8 +11,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Micheal George
-thumbnail: ../../static/assets/full-10-.png
-big_picture: ../../static/assets/short-8-.png
+thumbnail: /blog/assets/voluum______________feature.png
+big_picture: /blog/assets/voluum______________square.png
 meta_title: Advanced Tracking with Voluum | A-ADS Blog
 meta_description: Take your online campaign tracking to the next level with
   Voluum's advanced analytics platform. Designed specifically for performance
