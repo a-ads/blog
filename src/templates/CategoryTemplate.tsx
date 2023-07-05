@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import { take, drop } from 'lodash-es'
 
@@ -31,6 +31,7 @@ export function Head({ pageContext: { categoryObj } }) {
 
 const CategoryTemplate = (props: CategoryPageProps) => {
   const { category, subcategories, posts, categoryObj } = props.pageContext
+  const [blogPostGrid, setBlogPostGrid] = useState(false)
 
   return (
     <>
@@ -67,7 +68,8 @@ const CategoryTemplate = (props: CategoryPageProps) => {
         <BlogPostGrid
           posts={[...take(posts, 5), ...drop(posts, 5)]}
           header={categoryObj.h1}
-          subcategories={subcategories}
+          blogPostGrid={blogPostGrid}
+          setBlogPostGrid={setBlogPostGrid}
           canLoadMore
           className='mt-20 mb-20'
         />
