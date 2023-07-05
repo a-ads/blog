@@ -22,7 +22,10 @@ interface CategoryPageProps {
 
 export function Head({ pageContext: { categoryObj } }) {
   return (
-    <Seo title={categoryObj.html_title} description={categoryObj.meta_description} />
+    <Seo
+      title={categoryObj.html_title}
+      description={categoryObj.meta_description}
+    />
   )
 }
 
@@ -33,21 +36,25 @@ const CategoryTemplate = (props: CategoryPageProps) => {
     <>
       <div className='pb-5 relative'>
         <section aria-label={category} className='container'>
-          <h1 className='up-desktop:mt-12 mt-8 phone:mt-6 mb-3'>{categoryObj.h1}</h1>
-          
+          <h1 className='up-desktop:mt-12 mt-8 phone:mt-6 mb-3'>
+            {categoryObj.h1}
+          </h1>
+
           <div className='flex gap-8 mb-7 up-desktop:mb-10 phone:mb-6 scroll-section'>
-            {category === 'Guides' && subcategories.map((subcat, index) => {
-              return (
-                <Link
-                  key={index}
-                  text={subcat}
-                  to={toCategoryLink(category, subcat)}
-                  baseCn='flex-center px-8 py-4 max-w-50 clr-black rounded whitespace-nowrap bg-gradient'
-                  // On active:
-                  className='aria-[current="page"]:!bg-[#03a9f41a] aria-[current="page"]:!clr-blue aria-[current="page"]:font-extrabold'
-                />
-              )})
-            }
+            {category === 'Guides'
+              ? subcategories.map((subcat, index) => {
+                  return (
+                    <Link
+                      key={index}
+                      text={subcat}
+                      to={toCategoryLink(category, subcat)}
+                      baseCn='flex-center px-8 py-4 max-w-50 clr-black rounded whitespace-nowrap bg-gradient'
+                      // On active:
+                      className='aria-[current="page"]:!bg-[#03a9f41a] aria-[current="page"]:!clr-blue aria-[current="page"]:font-extrabold'
+                    />
+                  )
+                })
+              : null}
           </div>
         </section>
 
