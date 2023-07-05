@@ -10,7 +10,7 @@ category_top_level:
 category_second_level:
   - How To
 author: Micheal George
-thumbnail: ../../static/assets/full-1-.png
+thumbnail: /blog/assets/binom750х400-1.png
 big_picture: ../../static/assets/short-12-.png
 meta_title: Tracking Integration With Binom | A-ADS Blog
 meta_description: Integrate tracking with Binom, the affiliate tracker for
