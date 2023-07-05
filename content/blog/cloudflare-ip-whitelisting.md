@@ -10,8 +10,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Micheal George
-thumbnail: ../../static/assets/full-13-.png
-big_picture: ../../static/assets/short-3-.png
+thumbnail: /blog/assets/cloudflare-whitelisting-featured.png
+big_picture: /blog/assets/cloudflare-whitelisting-square.png
 meta_title: Cloudflare IP Whitelisting | A-ADS Blog
 meta_description: Learn how to eliminate the "Cloudflare prevents our bot from
   accessing your site" error by whitelisting our IPs in your Cloudflare account.
