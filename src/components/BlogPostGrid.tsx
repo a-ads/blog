@@ -13,6 +13,7 @@ type BlogPostGridProps = {
   span?: number[] // Indexes of posts to span across the grid
   className?: string
   header?: string
+  subcategories: string[]
 }
 
 const BlogPostGrid = ({
@@ -22,6 +23,7 @@ const BlogPostGrid = ({
   span = [0],
   className,
   header,
+  subcategories,
 }: BlogPostGridProps) => {
   const location = useLocation()
   const queryParams = new URLSearchParams(location.search)
@@ -60,18 +62,26 @@ const BlogPostGrid = ({
       return posts.slice(offset, offset + amount)
     })
 
-    queryParams.set('page', String(selectedPage.selected + 1))
+    subcategories.map((category) => {
+      if (
+        location.pathname.includes(category) ||
+        location.pathname.includes('guides')
+      ) {
+        queryParams.set('page', String(selectedPage.selected + 1))
 
-    if (typeof window !== 'undefined') {
-      const updatedUrl = `${location.pathname}?${queryParams.toString()}`
-      window.history.pushState(null, '', updatedUrl)
-    }
+        if (typeof window !== 'undefined') {
+          const updatedUrl = `${location.pathname}?${queryParams.toString()}`
+          window.history.pushState(null, '', updatedUrl)
+        }
+      }
+    })
 
     const updatedCanonicalLink = `${location.origin}${location.pathname}?page=${
       selectedPage.selected + 1
     }`
 
     setCanonicalLink(updatedCanonicalLink)
+
     setCurrentPage(selectedPage.selected + 1)
   }
 
@@ -87,7 +97,7 @@ const BlogPostGrid = ({
   return (
     <>
       <Helmet>
-        <title data-gatsby-head='true'>{`${header} - page ${currentPage}`}</title>
+        <title>{`${header} - page ${currentPage}`}</title>
       </Helmet>
       <div
         className={cn(
