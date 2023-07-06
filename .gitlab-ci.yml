@@ -61,7 +61,7 @@ production_deploy:
 
 
 build_image_staging:
-  stage: biuld
+  stage: build
   when: always
   retry: 1
   image: ubuntu:22.04
