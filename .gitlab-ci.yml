@@ -59,28 +59,10 @@ production_deploy:
     # push alert
     - DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends curl && curl -X POST --data-urlencode "payload={\"channel\":\"#testchan\",\"username\":\"[CI::apps/blog]\",\"text\":\"${CI_COMMIT_AUTHOR% <*} has completed deploying a new blog release to production!\", \"icon_emoji\":\":blossom:\"}" $SLACK_URL
 
-deploy_staging:
-  stage: deploy
-  when: manual
-  retry: 1
-  image: $REGISTRY_HOST/aads-ci-blog:staging
-  services:
-    - $REGISTRY_HOST/aads-ci-blog:staging
-  only:
-    - staging
-  before_script:
-    - echo 'Starting deploy to staging'
-  script:
-    # deploy_staging_commands
-    - cd /data
-    - node_modules/.bin/gatsby clean
-    - node_modules/.bin/gatsby build --prefix-paths
-    - aws s3 cp ./public/ s3://$STAGE_BUCKET/blog/ --recursive --acl public-read
-    - aws s3 cp --content-type="text/vnd.yaml" --acl public-read --metadata-directive="REPLACE" s3://$STAGE_BUCKET/blog/admin/config.yml s3://$STAGE_BUCKET/blog/admin/config.yml
 
 build_image_staging:
-  stage: deploy
-  when: manual
+  stage: biuld
+  when: always
   retry: 1
   image: ubuntu:22.04
   services:
@@ -100,6 +82,26 @@ build_image_staging:
     - docker build --tag $REGISTRY_HOST/aads-ci-blog:staging .
     - docker push $REGISTRY_HOST/aads-ci-blog:staging
 
+
+
+deploy_staging:
+  stage: deploy
+  when: always
+  retry: 1
+  image: $REGISTRY_HOST/aads-ci-blog:staging
+  services:
+    - $REGISTRY_HOST/aads-ci-blog:staging
+  only:
+    - staging
+  before_script:
+    - echo 'Starting deploy to staging'
+  script:
+    # deploy_staging_commands
+    - cd /data
+    - node_modules/.bin/gatsby clean
+    - node_modules/.bin/gatsby build --prefix-paths
+    - aws s3 cp ./public/ s3://$STAGE_BUCKET/blog/ --recursive --acl public-read
+    - aws s3 cp --content-type="text/vnd.yaml" --acl public-read --metadata-directive="REPLACE" s3://$STAGE_BUCKET/blog/admin/config.yml s3://$STAGE_BUCKET/blog/admin/config.yml
 
 
 
