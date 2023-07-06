@@ -119,6 +119,7 @@ const SocialButton: React.FC<SocialButtonProps> = ({
       to={to}
       target='_blank'
       title={title}
+      rel='noopener nofollow'
       className={cn(className, {
         'body-3 gap-2 font-primary hover-social': withText,
       })}
