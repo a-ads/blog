@@ -93,7 +93,6 @@ export type SocialButtonProps = {
   withText?: boolean
   customText?: string
   className?: string
-  title?: string
   [key: string]: unknown
 }
 
@@ -102,7 +101,6 @@ const SocialButton: React.FC<SocialButtonProps> = ({
   withText,
   customText,
   className,
-  title,
   ...props
 }) => {
   const {
@@ -118,9 +116,9 @@ const SocialButton: React.FC<SocialButtonProps> = ({
       ghost
       to={to}
       target='_blank'
-      title={title}
+      rel='noopener nofollow'
       className={cn(className, {
-        'body-3 gap-2 font-primary hover-social': withText,
+        'body-3 gap-2 font-primary': withText,
       })}
       aria-label='Social media button'
       {...props}
