@@ -7,8 +7,14 @@ const path = require('path')
 exports.onCreatePage = async ({ page, actions }) => {
   const { createPage } = actions
 
-  if (page.path.match(/^\/$/)) {
-    page.matchPath = '/*'
+  // if (page.path.match(/^\/$/)) {
+  //   page.matchPath = '/*'
+  //   createPage(page)
+  // }
+
+  if (page.path.match(/^\/404/)) {
+    page.matchPath = '/404/*'
+
     createPage(page)
   }
 }
