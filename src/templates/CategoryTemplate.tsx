@@ -5,7 +5,6 @@ import { take, drop } from 'lodash-es'
 import { Link } from '@ui'
 import { Banner, BlogPostGrid, Seo } from '@components'
 import { toCategoryLink } from '@utils'
-import { useLocation } from '@reach/router'
 
 interface CategoryPageProps {
   pageContext: {
@@ -33,9 +32,6 @@ export function Head({ pageContext: { categoryObj } }) {
 const CategoryTemplate = (props: CategoryPageProps) => {
   const { category, subcategories, posts, categoryObj } = props.pageContext
   const [blogPostGrid, setBlogPostGrid] = useState(false)
-  const location = useLocation()
-
-  console.log(location.pathname, 'location')
 
   return (
     <>
@@ -46,7 +42,7 @@ const CategoryTemplate = (props: CategoryPageProps) => {
           </h1>
 
           <div className='flex gap-8 mb-7 up-desktop:mb-10 phone:mb-6 scroll-section'>
-            {location.pathname.includes('guides')
+            {category === 'Guides'
               ? subcategories.map((subcat, index) => {
                   return (
                     <Link
