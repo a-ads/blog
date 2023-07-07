@@ -5,6 +5,7 @@ import { take, drop } from 'lodash-es'
 import { Link } from '@ui'
 import { Banner, BlogPostGrid, Seo } from '@components'
 import { toCategoryLink } from '@utils'
+import { useLocation } from '@reach/router'
 
 interface CategoryPageProps {
   pageContext: {
@@ -32,6 +33,9 @@ export function Head({ pageContext: { categoryObj } }) {
 const CategoryTemplate = (props: CategoryPageProps) => {
   const { category, subcategories, posts, categoryObj } = props.pageContext
   const [blogPostGrid, setBlogPostGrid] = useState(false)
+  const location = useLocation()
+
+  console.log(location.pathname, 'location')
 
   return (
     <>
@@ -42,19 +46,20 @@ const CategoryTemplate = (props: CategoryPageProps) => {
           </h1>
 
           <div className='flex gap-8 mb-7 up-desktop:mb-10 phone:mb-6 scroll-section'>
-            {category === 'Guides' &&
-              subcategories.map((subcat, index) => {
-                return (
-                  <Link
-                    key={index}
-                    text={subcat}
-                    to={toCategoryLink(category, subcat)}
-                    baseCn='flex-center px-8 py-4 max-w-50 clr-black rounded whitespace-nowrap bg-gradient'
-                    // On active:
-                    className='aria-[current="page"]:!bg-[#03a9f41a] aria-[current="page"]:!clr-blue aria-[current="page"]:font-extrabold'
-                  />
-                )
-              })}
+            {location.pathname.includes('guides')
+              ? subcategories.map((subcat, index) => {
+                  return (
+                    <Link
+                      key={index}
+                      text={subcat}
+                      to={toCategoryLink(category, subcat)}
+                      baseCn='flex-center px-8 py-4 max-w-50 clr-black rounded whitespace-nowrap bg-gradient'
+                      // On active:
+                      className='aria-[current="page"]:!bg-[#03a9f41a] aria-[current="page"]:!clr-blue aria-[current="page"]:font-extrabold'
+                    />
+                  )
+                })
+              : null}
           </div>
         </section>
 
