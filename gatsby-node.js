@@ -92,6 +92,7 @@ exports.createPages = async ({ graphql, actions }) => {
               meta_description
               title
               slug
+              json_ld
             }
             html
             tableOfContents

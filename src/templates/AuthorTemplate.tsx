@@ -12,7 +12,7 @@ interface AuthorPageProps {
 export function Head({ pageContext: { name, description, json_ld } }) {
   return (
     <Seo title={name} description={`${description}`}>
-      {json_ld && <script type='application/ld+json'>{json_ld}</script>}
+      {json_ld && <script type='application/ld+json' dangerouslySetInnerHTML={{__html: json_ld}} />}
     </Seo>
   )
 }
