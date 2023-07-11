@@ -75,7 +75,7 @@ const config: GatsbyConfig = {
     {
       resolve: 'gatsby-plugin-sitemap',
       options: {
-        exclude: ['blog/about/', '/about/', 'blog/search/', '/search/', 'blog/contacts/', '/contacts/'],
+        excludes: ['blog/about/', '/about/', 'blog/search/', '/search/', 'blog/contacts/', '/contacts/'],
       },
     },
     {
