@@ -221,9 +221,9 @@ const Footer = () => {
             aria-label={title}
             className='flex flex-col up-desktop:w-1/5 min-w-[230px] mb-8'
           >
-            <h3 className='body-1 mb-3 clr-blue !font-secondary !font-bold w-full'>
+            <h4 className='body-1 mb-3 clr-blue !font-secondary !font-bold w-full'>
               {title}
-            </h3>
+            </h4>
             {items.map(({ name, to, onClick }) => {
               let props = {
                 key: name,
@@ -379,9 +379,9 @@ const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       </div>
       <section aria-label='Ask us any questions'>
         <div className='container border-b w-11/12 pt-14 pb-8 flex-center flex-col gap-7'>
-          <h2 className='h1 down-tablet:w-full'>
+          <h3 className='h1 down-tablet:w-full'>
             <span className='clr-blue'>Ask us</span> any questions
-          </h2>
+          </h3>
           <div className='flex-center w-full gap-x-20 gap-y-4 down-tablet:flex-col down-tablet:items-start'>
             {(['tg', 'fbmessenger', 'support'] as SocialId[]).map(
               (socialId) => (
