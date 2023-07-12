@@ -4,8 +4,8 @@ const resolve = require('path').resolve
 const config: GatsbyConfig = {
   pathPrefix: '/blog',
   siteMetadata: {
-    title: 'A-ADS Blog',
-    description: `A-ADS is a pioneer crypto advertising network. It offers ethical privacy-aware CPA, CPD, CPM ads and accepts over 20 major crypto-currencies, including Bitcoin.`,
+    title: 'A-ADS Crypto Blog - marketing guides, tips and news to cryptocurrencies market',
+    description: 'Crypto & Bitcoin market tips and updates, mine guides, reviews and ratings for first-timers or experienced investors, and more information of cryptocurrencies.',
     image: `static/images/favicon.png`,
     siteUrl: 'https://a-ads.com',
   },
@@ -65,11 +65,26 @@ const config: GatsbyConfig = {
           anonymize_ip: true,
         },
         pluginConfig: {
-          delayOnRouteUpdate: 100,
-        },
+          delayOnRouteUpdate: 100
+        }
       },
     },
     'gatsby-plugin-image',
+    {
+      resolve: 'gatsby-plugin-sharp',
+      options: {
+        defaults: {
+          quality: 100,
+        },
+      },
+    },
+    'gatsby-transformer-sharp',
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        excludes: ['blog/about/', '/about/', 'blog/search/', '/search/', 'blog/contacts/', '/contacts/'],
+      },
+    },
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -87,14 +102,6 @@ const config: GatsbyConfig = {
       resolve: 'gatsby-plugin-mdx',
       options: {
         extensions: ['.mdx', '.md'],
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-sharp',
-      options: {
-        defaults: {
-          quality: 100,
-        },
       },
     },
     {
@@ -123,12 +130,17 @@ const config: GatsbyConfig = {
             },
           },
           `gatsby-remark-autolink-headers`,
+          {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_blank",
+              rel: "noopener nofollow"
+            }
+          },
         ],
       },
     },
-
     'gatsby-transformer-yaml',
-    'gatsby-transformer-sharp',
     {
       resolve: `gatsby-plugin-postcss`,
       options: {

@@ -8,28 +8,31 @@ import { SocialButton, Breadcrumbs, Seo, Card, Banner } from '@components'
 import type { SocialId } from 'src/components/SocialButton'
 
 export function Head({ pageContext: { post, author } }) {
+
   return (
     <Seo title={post.meta_title} description={post.meta_description}>
-      <script type='application/ld+json'>
-        {`
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": "${post.meta_title}",
-          "datePublished": "${post.date}",
-          "dateModified": "${post.date}",
-          "author": [{
-            "@type": "Person",
-            "name": "${author.name}",
-            "url": "https://a-ads.com/blog${author.slug}"
-          }],
-          "image": ["https://a-ads.com/blog/assets/${extractFilename(
-            post.thumbnail?.childImageSharp?.gatsbyImageData?.images?.fallback
-              ?.src
-          )}"]
-        }
-      `}
-      </script>
+      {post.json_ld ? 
+        <script type='application/ld+json' dangerouslySetInnerHTML={{__html: post.json_ld}} />
+      :
+        <script type='application/ld+json'>
+          {`{
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "${post.meta_title}",
+            "datePublished": "${post.date}",
+            "dateModified": "${post.date}",
+            "author": [{
+              "@type": "Person",
+              "name": "${author.name}",
+              "url": "https://a-ads.com/blog${author.slug}"
+            }],
+            "image": ["https://a-ads.com/blog/assets/${extractFilename(
+              post.thumbnail?.childImageSharp?.gatsbyImageData?.images?.fallback
+                ?.src
+            )}"]
+          }`}
+        </script>
+      }
     </Seo>
   )
 }
