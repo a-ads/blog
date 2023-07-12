@@ -379,9 +379,9 @@ const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       </div>
       <section aria-label='Ask us any questions'>
         <div className='container border-b w-11/12 pt-14 pb-8 flex-center flex-col gap-7'>
-          <h2 className='h1 down-tablet:w-full'>
+          <h3 className='h1 down-tablet:w-full'>
             <span className='clr-blue'>Ask us</span> any questions
-          </h2>
+          </h3>
           <div className='flex-center w-full gap-x-20 gap-y-4 down-tablet:flex-col down-tablet:items-start'>
             {(['tg', 'fbmessenger', 'support'] as SocialId[]).map(
               (socialId) => (
