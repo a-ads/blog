@@ -2,7 +2,6 @@ import React, { useState, useMemo, Fragment } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import cn from 'classnames'
-import { kebabCase } from 'lodash-es'
 import { utcToZonedTime, format } from 'date-fns-tz'
 import 'prismjs/themes/prism.css'
 
