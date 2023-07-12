@@ -46,6 +46,7 @@ const Seo = (props: SeoProps) => {
     <>
       <title>{seo.title}</title>
       <meta name='description' content={seo.description} />
+      <meta name='robots' content='max-image-preview:large' />
       <meta name='image' content={seo.image} />
       <meta name='twitter:card' content='summary_large_image' />
       <meta name='twitter:title' content={seo.title} />
