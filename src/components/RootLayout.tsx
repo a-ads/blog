@@ -56,7 +56,7 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
               ghost
               text={cat.title}
               to={toCategoryLink(cat.title, 'all')}
-              baseCn='hover-social py-4 text-base leading-6 font-medium text-gray-800 white space-nowrap hover:clr-primary rounded-none'
+              baseCn='py-4 text-base leading-6 font-medium text-gray-800 whitespace-nowrap hover:clr-primary rounded-none'
               className={
                 cat.order == 3 ? 'border-none' : 'down-desktop:border-b'
               } // This disables the border on the last item on mobile
@@ -221,9 +221,9 @@ const Footer = () => {
             aria-label={title}
             className='flex flex-col up-desktop:w-1/5 min-w-[230px] mb-8'
           >
-            <h4 className='body-1 mb-3 clr-blue !font-secondary !font-bold w-full'>
+            <h3 className='body-1 mb-3 clr-blue !font-secondary !font-bold w-full'>
               {title}
-            </h4>
+            </h3>
             {items.map(({ name, to, onClick }) => {
               let props = {
                 key: name,
@@ -263,7 +263,7 @@ const Footer = () => {
                 <SocialButton
                   socialId={socialId}
                   title={socialId}
-                  className={cn('icon-hover', {
+                  className={cn({
                     'down-tablet:hidden': i > 2 && !canSeeMoreSocials, // Initially display only three buttons on mobile
                   })}
                 />
@@ -272,7 +272,7 @@ const Footer = () => {
                     ghost
                     text='See more'
                     onClick={() => setCanSeeMoreSocials(!canSeeMoreSocials)}
-                    className='icon-hover hidden down-tablet:inline-flex clr-blue font-normal font-primary'
+                    className='hidden down-tablet:inline-flex clr-blue font-normal font-primary'
                   />
                 )}
               </Fragment>
@@ -358,7 +358,7 @@ const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
               className='w-1/2 max-w-[564px] down-tablet:w-full pt-5 pb-8 px-10 down-desktop:px-6 flex flex-col bg-base rounded-lg shadow-[0px 40px 80px -40px rgba(0, 0, 0, 0.1)]'
             >
               <Icon i={icon} className='h-16 w-16' />
-              <h3 className='mt-8 mb-5'>{title}</h3>
+              <h2 className='mt-8 mb-5'>{title}</h2>
               <List className='flex-col gap-3 mb-10' bulleted>
                 {listItems.map((item) => (
                   <ListItem key={item} text={item} />
@@ -369,7 +369,7 @@ const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 to={`https://a-ads.com/${
                   i === 0 ? 'campaigns/new' : 'ad_units/new'
                 }`}
-                className='hover-link w-4/6 mt-auto down-desktop:w-full'
+                className='w-4/6 mt-auto down-desktop:w-full'
               >
                 Become {i === 0 ? 'an advertiser' : 'a publisher'}
               </Link>
@@ -379,9 +379,9 @@ const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       </div>
       <section aria-label='Ask us any questions'>
         <div className='container border-b w-11/12 pt-14 pb-8 flex-center flex-col gap-7'>
-          <h3 className='h1 down-tablet:w-full'>
+          <h2 className='h1 down-tablet:w-full'>
             <span className='clr-blue'>Ask us</span> any questions
-          </h3>
+          </h2>
           <div className='flex-center w-full gap-x-20 gap-y-4 down-tablet:flex-col down-tablet:items-start'>
             {(['tg', 'fbmessenger', 'support'] as SocialId[]).map(
               (socialId) => (
