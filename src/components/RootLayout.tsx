@@ -358,7 +358,7 @@ const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
               className='w-1/2 max-w-[564px] down-tablet:w-full pt-5 pb-8 px-10 down-desktop:px-6 flex flex-col bg-base rounded-lg shadow-[0px 40px 80px -40px rgba(0, 0, 0, 0.1)]'
             >
               <Icon i={icon} className='h-16 w-16' />
-              <h3 className='mt-8 mb-5'>{title}</h3>
+              <h2 className='mt-8 mb-5'>{title}</h2>
               <List className='flex-col gap-3 mb-10' bulleted>
                 {listItems.map((item) => (
                   <ListItem key={item} text={item} />
