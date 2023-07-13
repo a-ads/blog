@@ -8,14 +8,39 @@ import { SocialButton, Breadcrumbs, Seo, Card, Banner } from '@components'
 import type { SocialId } from 'src/components/SocialButton'
 
 export function Head({ pageContext: { post, author } }) {
-
   return (
     <Seo title={post.meta_title} description={post.meta_description}>
-      {post.json_ld ? 
-        <script type='application/ld+json' dangerouslySetInnerHTML={{__html: post.json_ld}} />
-      :
+      {post.json_ld ? (
         <script type='application/ld+json'>
-          {`{
+          {`[${post.json_ld},
+          {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Blog",
+            "item": "https://a-ads.com/blog/"
+            },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "${post.category_top_level[0]}",
+            "item": "https://a-ads.com/blog/categories/${
+              post.category_top_level[0]
+            }/"
+            },{
+            "@type": "ListItem",
+            "position": 3,
+            "name": ${post?.category_second_level?.[0] || ''}
+            "item": "https://a-ads.com/blog/categories/${
+              post?.category_second_level?.[0] || ''
+            }/"
+            }]
+          }]`}
+        </script>
+      ) : (
+        <script type='application/ld+json'>
+          {`[{
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "${post.meta_title}",
@@ -30,9 +55,33 @@ export function Head({ pageContext: { post, author } }) {
               post.thumbnail?.childImageSharp?.gatsbyImageData?.images?.fallback
                 ?.src
             )}"]
-          }`}
+          },
+          {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Blog",
+            "item": "https://a-ads.com/blog/"
+            },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "${post.category_top_level[0]}",
+            "item": "https://a-ads.com/blog/categories/${
+              post.category_top_level[0]
+            }/"
+            },{
+            "@type": "ListItem",
+            "position": 3,
+            "name": ${post.category_second_level[0]}
+            "item": "https://a-ads.com/blog/categories/${
+              post.category_second_level[0]
+            }/"
+            }]
+          }]`}
         </script>
-      }
+      )}
     </Seo>
   )
 }
@@ -70,7 +119,7 @@ const TableOfContents = ({
         {toc && (
           <div
             aria-label='Table of contents'
-            className='hover-link-blue mt-3 [&>ul]:flex [&>ul]:flex-col [&>ul]:gap-2 [&>ul]:body-4 [&>ul]:clr-blue'
+            className='mt-3 [&>ul]:flex [&>ul]:flex-col [&>ul]:gap-2 [&>ul]:body-4 [&>ul]:clr-blue'
             dangerouslySetInnerHTML={{ __html: toc }}
           />
         )}
@@ -97,7 +146,7 @@ const TableOfContents = ({
               primary
               text='Start now'
               to='https://a-ads.com/campaigns/new'
-              className='hover-link w-full h-12'
+              className='w-full h-12'
             />
           </div>
           <StaticImage
