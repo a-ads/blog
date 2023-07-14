@@ -15,7 +15,7 @@ education: >-
 
   **Anna collaborates daily with content creators to develop marketing collateral, such as product descriptions, presentations, sales materials, and website content. She also ensures that product features are effectively communicated to both technical and non-technical audiences.**
 ---
-###### Experience:
+###### Experience: 
 
 As a Marketing Product Manager of A-ADS, works at the intersection of product development, marketing, and sales. The broad responsibility is to develop and implement a marketing strategy roadmap for the A-ADS ad network. Anna plans out, guides, and takes accountability for marketing campaigns, strategies, and other marketing-related initiatives.
 
