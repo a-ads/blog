@@ -100,11 +100,13 @@ json_ld: >-
 
   {
 
-  "@type": "Organization",
+  "@type": "EducationalOrganization",
 
   "name": "Higher School of Economics",
 
-  "@id":"https://www.wikidata.org/wiki/Q1959511"
+  "@id":"https://www.wikidata.org/wiki/Q1959511",
+
+  "sameAs": "https://www.hse.ru/"
 
   }
 
