@@ -74,9 +74,9 @@ export function Head({ pageContext: { post, author } }) {
             },{
             "@type": "ListItem",
             "position": 3,
-            "name": ${post.category_second_level[0]}
+            "name": ${post.category_second_level?.[0]}
             "item": "https://a-ads.com/blog/categories/${
-              post.category_second_level[0]
+              post.category_second_level?.[0]
             }/"
             }]
           }]`}
