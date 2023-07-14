@@ -74,9 +74,9 @@ export function Head({ pageContext: { post, author } }) {
             },{
             "@type": "ListItem",
             "position": 3,
-            "name": ${post.category_second_level[0]}
+            "name": ${post.category_second_level?.[0]}
             "item": "https://a-ads.com/blog/categories/${
-              post.category_second_level[0]
+              post.category_second_level?.[0]
             }/"
             }]
           }]`}
@@ -119,7 +119,7 @@ const TableOfContents = ({
         {toc && (
           <div
             aria-label='Table of contents'
-            className='hover-link-blue mt-3 [&>ul]:flex [&>ul]:flex-col [&>ul]:gap-2 [&>ul]:body-4 [&>ul]:clr-blue'
+            className='mt-3 [&>ul]:flex [&>ul]:flex-col [&>ul]:gap-2 [&>ul]:body-4 [&>ul]:clr-blue'
             dangerouslySetInnerHTML={{ __html: toc }}
           />
         )}
@@ -146,7 +146,7 @@ const TableOfContents = ({
               primary
               text='Start now'
               to='https://a-ads.com/campaigns/new'
-              className='hover-link w-full h-12'
+              className='w-full h-12'
             />
           </div>
           <StaticImage
