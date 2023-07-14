@@ -18,7 +18,7 @@ json_ld: >-
 
   "headline":"Yulia Savushkina",
 
-  "description": "Our author Yulia Savushkina. Explores effective crypto advertising strategies and blockchain technology opportunities for different products and projects",
+  "description": "Explores effective crypto advertising strategies and blockchain technology opportunities for different products and projects",
 
   "url": "https://a-ads.com/blog/authors/yulia-savushkina/",
 
