@@ -89,6 +89,11 @@ json_ld: >-
         "@type": "Thing",
         "name": "marketing strategy",
         "@id": "https://www.wikidata.org/wiki/Q1363963"
+      },
+      {
+        "@type": "Thing",
+        "name": "customer service",
+        "@id": "https://www.wikidata.org/wiki/Q1060653"
       }
       ]
   }
