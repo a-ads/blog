@@ -19,7 +19,7 @@ type BlogPostGridProps = {
 
 const BlogPostGrid = ({
   posts = [],
-  amount = 5,
+  amount = 20,
   canLoadMore,
   span = [0],
   className,
@@ -93,6 +93,10 @@ const BlogPostGrid = ({
     }
   }, [currentPage])
 
+  const hrefBuilder = () => {
+    return `${location.origin}${location.pathname}?page=${currentPage}`
+  }
+
   return (
     <>
       <Helmet>
@@ -121,6 +125,7 @@ const BlogPostGrid = ({
           onPageChange={handlePageChange}
           pageCount={pageCount}
           initialPage={initialPage - 1}
+          hrefBuilder={hrefBuilder}
         />
       )}
     </>

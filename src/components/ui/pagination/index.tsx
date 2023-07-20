@@ -4,6 +4,7 @@ import './pagination.css'
 
 interface IPaginationProps {
   onPageChange: (selectedItem: { selected: number }) => void
+  hrefBuilder: () => void
   pageCount: number
   initialPage: number
 }
@@ -12,6 +13,7 @@ const Pagination = ({
   onPageChange,
   pageCount,
   initialPage,
+  hrefBuilder,
 }: IPaginationProps) => {
   return (
     <ReactPaginate
@@ -22,6 +24,7 @@ const Pagination = ({
       onPageChange={onPageChange}
       containerClassName={'pagination'}
       activeClassName={'active'}
+      hrefBuilder={hrefBuilder}
       nextLabel=' >'
       previousLabel='< '
       breakLabel='...'
