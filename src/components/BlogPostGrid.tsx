@@ -2,9 +2,8 @@ import React, { useEffect, useState } from 'react'
 import cn from 'classnames'
 import { uniqueId } from 'lodash-es'
 import { Card } from '@components'
+import Pagination from './ui/pagination'
 import { Helmet } from 'react-helmet'
-import '../components/ui/pagination/pagination.css'
-import { Link, navigate } from 'gatsby'
 import { useLocation } from '@reach/router'
 
 type BlogPostGridProps = {
@@ -29,77 +28,74 @@ const BlogPostGrid = ({
   setBlogPostGrid,
 }: BlogPostGridProps) => {
   const location = useLocation()
-  const [canonicalLink, setCanonicalLink] = useState(
-    `${location.origin}${location.pathname}`
-  )
-  const searchParams = new URLSearchParams(location.search)
-  const currentPage = parseInt(searchParams.get('page') as string) || 1
+  const queryParams = new URLSearchParams(location.search)
+  const initialPage = parseInt(queryParams.get('page') || '1', 10)
 
-  const indexOfLastBlog = currentPage * amount
-  const indexOfFirstBlog = indexOfLastBlog - amount
-  const currentBlogs = posts.slice(indexOfFirstBlog, indexOfLastBlog)
+  const [currentPage, setCurrentPage] = useState(initialPage - 1)
+  const [canonicalLink, setCanonicalLink] = useState('')
+  const [currentPageItems, setCurrentPageItems] = useState(() => {
+    const currentPageParam = queryParams.get('page') || '1'
 
-  const totalPages = Math.ceil(posts.length / amount)
-  const maxDisplayPages = 5
+    const currentPage = currentPageParam
+      ? parseInt(currentPageParam, 10) - 1
+      : 0
+    const offset = currentPage * amount
+    return posts.slice(offset, offset + amount)
+  })
 
-  const pageNumbers = Array.from(
-    { length: Math.ceil(posts.length / amount) },
-    (_, index) => index + 1
-  )
+  if (posts.length <= 0) {
+    return null
+  }
 
-  const displayPageNumbers = (() => {
-    if (totalPages <= maxDisplayPages) {
-      return Array.from({ length: totalPages }, (_, index) => index + 1)
-    } else {
-      const middlePage = Math.floor(maxDisplayPages / 2)
-      if (currentPage <= middlePage) {
-        return Array.from(
-          { length: maxDisplayPages - 1 },
-          (_, index) => index + 1
-        )
-      } else if (currentPage >= totalPages - middlePage) {
-        return Array.from(
-          { length: maxDisplayPages - 1 },
-          (_, index) => totalPages - maxDisplayPages + 2 + index
-        )
-      } else {
-        return Array.from(
-          { length: maxDisplayPages - 2 },
-          (_, index) => currentPage - middlePage + index
-        )
+  const pageCount = Math.ceil(posts.length / amount)
+
+  useEffect(() => {
+    const currentPageParam = queryParams.get('page')
+    const currentPage = currentPageParam
+      ? parseInt(currentPageParam, 10) - 1
+      : 0
+    const offset = currentPage * amount
+    setCurrentPageItems(posts.slice(offset, offset + amount))
+  }, [])
+
+  const handlePageChange = (selectedPage: { selected: number }) => {
+    setCurrentPageItems(() => {
+      const offset = selectedPage.selected * amount
+      return posts.slice(offset, offset + amount)
+    })
+
+    if (blogPostGrid) {
+      queryParams.set('page', String(selectedPage.selected + 1))
+
+      if (typeof window !== 'undefined') {
+        const updatedUrl = `${location.pathname}?${queryParams.toString()}`
+        window.history.pushState(null, '', updatedUrl)
       }
     }
-  })()
 
-  const goToPage = (page: number) => {
-    if (page === 1) {
-      navigate(`${location.origin}${location.pathname}`, { replace: true })
-    } else if (page >= 1 && page <= totalPages) {
-      navigate(`${location.origin}${location.pathname}?page=${page}`)
-    }
+    const updatedCanonicalLink = `${location.origin}${location.pathname}?page=${
+      selectedPage.selected + 1
+    }`
+    setCanonicalLink(updatedCanonicalLink)
+    setCurrentPage(selectedPage.selected + 1)
   }
 
   useEffect(() => {
     if (setBlogPostGrid) {
       setBlogPostGrid(true)
-    }
 
-    if (currentPage > 1) {
-      setCanonicalLink(
-        `${location.origin}${location.pathname}?page=${currentPage}`
-      )
-    } else {
-      setCanonicalLink(`${location.origin}${location.pathname}`)
-    }
-
-    if (typeof window !== 'undefined') {
-      const linkElement = document.querySelector('link[rel="canonical"]')
-      console.log(linkElement, 'linkElement')
-      if (linkElement) {
-        linkElement.setAttribute('href', canonicalLink)
+      if (typeof window !== 'undefined') {
+        const linkElement = document.querySelector('link[rel="canonical"]')
+        if (linkElement) {
+          linkElement.setAttribute('href', canonicalLink)
+        }
       }
     }
-  }, [currentPage, canonicalLink])
+  }, [currentPage])
+
+  const hrefBuilder = () => {
+    return `${location.origin}${location.pathname}?page=${currentPage}`
+  }
 
   return (
     <>
@@ -112,8 +108,8 @@ const BlogPostGrid = ({
           className
         )}
       >
-        {currentBlogs &&
-          currentBlogs?.map((post, i) => (
+        {currentPageItems &&
+          currentPageItems?.map((post, i) => (
             <Card
               key={uniqueId()}
               className={cn('mb-8 phone:mb-0 hover-card', {
@@ -124,39 +120,13 @@ const BlogPostGrid = ({
             />
           ))}
       </div>
-      {displayPageNumbers.length > 1 && (
-        <ul className='pagination'>
-          <button
-            onClick={() => goToPage(currentPage - 1)}
-            disabled={currentPage === 1}
-          >
-            {'<'}
-          </button>
-          {canLoadMore &&
-            displayPageNumbers.map((number) => {
-              return (
-                <li className={currentPage === number ? 'active' : ''}>
-                  <Link
-                    to={
-                      number === 1
-                        ? `${location.origin}${location.pathname}`
-                        : `${location.origin}${location.pathname}?page=${number}`
-                    }
-                    key={number}
-                    className={currentPage === number ? 'active' : ''}
-                  >
-                    {number}
-                  </Link>
-                </li>
-              )
-            })}
-          <button
-            onClick={() => goToPage(currentPage + 1)}
-            disabled={currentPage === pageNumbers.length}
-          >
-            {'>'}
-          </button>
-        </ul>
+      {canLoadMore && (
+        <Pagination
+          onPageChange={handlePageChange}
+          pageCount={pageCount}
+          initialPage={initialPage - 1}
+          hrefBuilder={hrefBuilder}
+        />
       )}
     </>
   )
