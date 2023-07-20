@@ -19,7 +19,7 @@ type BlogPostGridProps = {
 
 const BlogPostGrid = ({
   posts = [],
-  amount = 5,
+  amount = 20,
   canLoadMore,
   span = [0],
   className,
@@ -93,6 +93,10 @@ const BlogPostGrid = ({
     }
   }, [currentPage])
 
+  const hrefBuilder = () => {
+    return `${location.origin}${location.pathname}?page=${currentPage}`
+  }
+
   return (
     <>
       <Helmet>
@@ -108,7 +112,7 @@ const BlogPostGrid = ({
           currentPageItems?.map((post, i) => (
             <Card
               key={uniqueId()}
-              className={cn('mb-8 phone:mb-0', {
+              className={cn('mb-8 phone:mb-0 hover-card', {
                 'col-span-2 down-tablet:col-span-1 down-tablet:w-full':
                   span.includes(i),
               })}
@@ -121,6 +125,7 @@ const BlogPostGrid = ({
           onPageChange={handlePageChange}
           pageCount={pageCount}
           initialPage={initialPage - 1}
+          hrefBuilder={hrefBuilder}
         />
       )}
     </>
