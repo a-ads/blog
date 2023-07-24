@@ -10,8 +10,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Micheal George
-thumbnail: blog/assets/full.png
-big_picture: blog/assets/short.png
+thumbnail: /blog/assets/full-how-bounty-campaigns.png
+big_picture: /blog/assets/short-how-bounty-campaigns.png
 popularity: "0"
 meta_title: How Bounty Campaigns can help your crypto businesses grow | A-ADS Blog
 meta_description: Learn how running bounty campaigns can benefit your crypto
