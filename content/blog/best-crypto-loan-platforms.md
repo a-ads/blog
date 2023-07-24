@@ -8,8 +8,8 @@ category: Stories
 category_top_level:
   - News & Trends
 author: Micheal George
-thumbnail: /blog/assets/full-5-.png
-big_picture: /blog/assets/short-4-.png
+thumbnail: /blog/assets/full-crypto-loan.png
+big_picture: /blog/assets/short-crypto-loan.png
 popularity: "0"
 meta_title: 3 Best Crypto Loan Platforms | How to Get a Crypto Loan | A-ADS Blog
 meta_description: Did you know that your idle cryptocurrency in your wallet
