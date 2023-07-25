@@ -39,7 +39,7 @@ There are several vital reasons why brands use NFTs in today's digital landscape
 
 ### 1. Brands Can Enter A New Market And Build A Community
 
-![NBA Top Shot NFT](/blog/assets/nba-top-shot_press-collectibles_.png "NBA Top Shot NFT")
+![NBA Top Shot NFT](/blog/assets/nba-top-shot_press-collectibles_.jpg "NBA Top Shot NFT")
 
 *Source: nbatopshot.com*
 
@@ -66,8 +66,6 @@ NFTs offer a fresh perspective on the event industry by serving as digital coupo
 ### 5. Embracing The Metaverse
 
 For businesses, releasing NFTs is a gateway to establishing a presence in the metaverse and increasing their visibility and reputation within virtual worlds. 
-
-
 
 ## NFTs Promotion Strategies 
 
