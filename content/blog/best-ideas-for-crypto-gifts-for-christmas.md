@@ -111,7 +111,7 @@ Pick out your gift from one of the largest [NFT marketplaces](https://nft.binanc
 
 Crypto stickers are a great way to give your friend the perfect introduction to the world of crypto. Whether they're blockchain and crypto fanatics or just an average laptop user, let them deck out their tech, notebooks, skateboard, or anything else with these fantastic [crypto stickers](https://www.redbubble.com/shop/crypto+stickers). You can pick up a set on [Redbubble,](https://www.redbubble.com/shop/crypto+stickers) [Etsy,](https://www.etsy.com/market/crypto_sticker) or [fiverr](https://www.fiverr.com/gigs/crypto-stickers).
 
-![Crypto Stickers](/blog/assets/снимок-экрана-2023-05-18-в-11.14.11.png "Crypto Stickers")
+![Crypto Stickers](/blog/assets/2023-05-18-111411.jpg "Crypto Stickers")
 
 *Source: Etsy.com*
 
