@@ -30,7 +30,7 @@ Previous week we wrote about growth marketing and how it can help your business 
 
 It is one of the most effective growth marketing strategies. You can inform, educate, and interest your audience by creating a lead-generating content marketing strategy. You can do this through blog posts, eBooks, online courses, videos, and more. The goal is to demonstrate your expertise, authenticate your business, build trust with your audience, and drive traffic to your website, where you can convert them into leads and customers. 
 
-![Airbnb Magazine](/blog/assets/снимок-экрана-2023-05-15-в-16.33.51.png "Airbnb Magazine")
+![Airbnb Magazine](/blog/assets/2023-05-15-163351.jpg "Airbnb Magazine")
 
 Source: tinyhouseblog.com
 
