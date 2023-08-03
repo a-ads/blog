@@ -13,7 +13,7 @@ author: Olga Ostrovskaya
 thumbnail: /blog/assets/full.png
 big_picture: /blog/assets/short.png
 meta_title: Counting unique impressions | A-ADS Blog
-meta_description: Learn what we mean by "unique impressions" if you're
+meta_description: Learn what we mean by "globally unique impressions" if you're
   interested in becoming our publisher. Discover how our stats differ from
   Google Analytics and why absolute numbers don't mean much. With our network,
   your earnings depend on the share of the network-wide unique impressions you
