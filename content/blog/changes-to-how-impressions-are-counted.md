@@ -18,7 +18,9 @@ meta_description: ""
 meta_keywords: ""
 json_ld: ""
 ---
-According to the latest updates in our advertising network, "Impressions" defaults to "All impressions." Globally unique impressions are now called "guImpressions." The same goes for clicks: "Clicks" means "All clicks," and "guClicks" means globally unique clicks. It's important to note that the number of globally unique impressions determines a publisher's earnings, so there have been no changes in the earnings logic.
+
+
+According to the latest updates in our advertising network, "Impressions" defaults to "all impressions." "Globally unique impressions" are now called "guImpressions." The same goes for clicks: "clicks" means "all clicks," and "guClicks" means "globally unique clicks". It's important to note that the number of globally unique impressions determines a publisher's earnings, so there have been no changes in the earnings logic.
 
 **How are globally unique impressions counted?**
 
