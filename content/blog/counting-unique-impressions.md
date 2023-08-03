@@ -19,7 +19,7 @@ meta_description: Learn what we mean by "globally unique impressions" if you're
   your earnings depend on the share of the network-wide unique impressions you
   generate.
 ---
-If you are our client or just think of becoming one, you might be interested to learn what we mean by "globally unique impressions" (impressions), "globally unique clicks" (guClicks), and "globally unique CPM" (CPM).
+If you are our client or just think of becoming one, you might be interested to learn what we mean by "globally unique impressions" (guImpressions), "globally unique clicks" (guClicks), and "globally unique CPM" (CPM)
 
 **Globally unique impression (guImpressions)**
 
