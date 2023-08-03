@@ -10,7 +10,7 @@ category_top_level:
   - Publishers
   - Guides
 author: Olga Ostrovskaya
-thumbnail: /blog/assets/full.png
+thumbnail: /blog/assets/full-2-.png
 big_picture: /blog/assets/short.png
 meta_title: Counting unique impressions | A-ADS Blog
 meta_description: Learn what we mean by "globally unique impressions" if you're
