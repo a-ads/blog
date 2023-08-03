@@ -18,11 +18,7 @@ const SearchPage: React.FC<SearchPageProps> = ({
   location,
 }) => {
   let { searchQuery } = useSearchQuery()
-  const params = new Proxy(new URLSearchParams(location.search), {
-    get: (searchParams, prop) => searchParams.get(prop),
-  });
-
-  searchQuery ||= params.q as string
+  searchQuery ||= location.search as string
 
   const fuse = new Fuse(posts, {
     keys: ['title', 'author', 'excerpt', 'tags'],
