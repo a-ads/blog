@@ -73,7 +73,7 @@ The more you have, the better your earning prospects as long as your traffic is 
 
 **We do not guarantee earnings as earnings are based on the factors listed below:**
 
-\- Number of unique impressions
+\- Number of [unique impressions](https://a-ads.com/blog/counting-unique-impressions/)
 
 \- Number of unique clicks
 
