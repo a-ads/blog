@@ -27,7 +27,7 @@ Traffic volume and price are not fixed and depend on supply and demand. Please s
 
 **Example 1. Monopsony**
 
-First, let’s assume that you are the only advertiser who targets ad units which give 10 000 unique impressions a day.
+First, let’s assume that you are the only advertiser who targets ad units which give 10 000 [unique impressions](https://a-ads.com/blog/counting-unique-impressions/) a day.
 
 If you set your daily budget to $10 in bitcoins, then your actual CPM would be 1 000 * $10 / 10 000 impressions = $1 per mille, which seems reasonable.
 
