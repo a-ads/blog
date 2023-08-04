@@ -27,4 +27,4 @@ If you count actual CPM for different periods, you’ll see that it’s not cons
 
 By the way, our unique impressions are different from what you’re used to because [we measure visitor uniqueness in the scope of the whole network](https://a-ads.com/blog/2018-10-04-counting-unique-impressions/). So the total amount of the traffic you receive will hopefully exceed your expectations.
 
-And there’s one more option. If you still want to work on fixed CPM terms, you can use our CPM bids. Our helpdesk will gladly help you start using the option.
+And there’s one more option. If you still want to work on fixed CPM terms, you can use our [CPM bids](https://a-ads.com/blog/how-to-use-cpm-bids-with-a-ads/). Our helpdesk will gladly help you start using the option.
