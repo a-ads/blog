@@ -119,7 +119,7 @@ Since Google banned or restricted crypto-related businesses from advertising thr
 
 So, let me tell you about our Publishers' advantages. Firstly, it takes less than a minute to become a publisher! You should go to our website and follow three steps:
 
-1. Fill out the ad unit creation form to get HTML code. It's pretty simple!
+1. Fill out the [ad unit](https://a-ads.com/blog/how-to-place-an-ad-unit-code-correctly/) creation form to get HTML code. It's pretty simple!
 2. Insert it on your website.
 3. Wait for your earnings!
 
