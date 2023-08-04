@@ -26,7 +26,7 @@ Content marketing is another viral marketing strategy. So, a crypto project can 
 
 We can describe content marketing as researching, creating, publishing, and distributing valuable information to your target audience to attract NFT holders, investors, and community members.
 
-Crypto marketing also helps its audience conduct research and navigate cryptocurrency and NFT markets. 
+[Crypto marketing](https://a-ads.com/blog/what-is-crypto-marketing/) also helps its audience conduct research and navigate cryptocurrency and NFT markets. 
 
 **What are the benefits of content marketing?**
 
