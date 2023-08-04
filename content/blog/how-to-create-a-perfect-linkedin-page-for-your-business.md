@@ -10,8 +10,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Emmanuel Olatunji
-thumbnail: /blog/assets/linkedin.png
-big_picture: /blog/assets/linkedin_shorts.png
+thumbnail: ../../static/assets/linkedin.png
+big_picture: ../../static/assets/linkedin_shorts.png
 popularity: "0"
 meta_title: "How To Create A Perfect LinkedIn Page For Your Business "
 meta_description: Maximize your LinkedIn impact with our step-by-step guide!
