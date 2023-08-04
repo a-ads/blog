@@ -38,7 +38,7 @@ If you want to advertise a crypto-related business, you might be interested in t
 
 ## What are the available payment models?
 
-Our main payment model is a daily budget. [CPM bids](https://a-ads.com/blog/2020-03-11-how-to-use-cpm-bids-with-a-ads/) are also available, but the daily budget is preferable.
+Our main payment model is a daily budget. [CPM bids](https://a-ads.com/blog/how-to-use-cpm-bids-with-a-ads/) are also available, but the daily budget is preferable.
 
 ## Is there a minimum daily budget?
 
