@@ -32,7 +32,7 @@ So, what is the primary goal of DeFi? We all know that the crypto market is high
 
 The purpose of DeFi is to decrease the risks and find the balance between volatility and return. Crypto projects can offer enormous yields, sometimes hundreds and thousands %. But no one is sure that investors will not lose all their money within a second. That's where DeFi helps to eliminate the risk of losing everything at once. As for the profit, the historical rate of return for DeFi investments has been around 5-20%. These facts make DeFi so appealing to crypto investors.
 
-In this article, you will learn how to start investing in DeFi crypto and how to use DeFi. We will also look closely at the best [DeFi tokens to buy](https://a-ads.com/blog/top-defi-tokens-to-buy/). 
+In this article, you will learn how to start investing in DeFi crypto and how to use DeFi. We will also look closely at the [best DeFi tokens to buy](https://a-ads.com/blog/top-defi-tokens-to-buy/). 
 
 ## How to Invest in De-Fi
 
