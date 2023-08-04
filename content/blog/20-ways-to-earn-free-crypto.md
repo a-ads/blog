@@ -37,7 +37,7 @@ This article will explore twenty easy ways to earn free crypto without much prep
 
 ### 1. Signing Up With An Exchange
 
-Several crypto exchanges reward their new clients with free coins if they sign up as a client. This option is the easiest and safest on our list and, honestly, the quickest to get. For example, Gemini gives $25 BTC to new UK users who trade $100 in the first three days.
+Several crypto exchanges reward their new clients with [free bitcoins](https://a-ads.com/blog/how-to-earn-free-bitcoins-best-ways/) or altcoins if they sign up as a client. This option is the easiest and safest on our list and, honestly, the quickest to get. For example, Gemini gives $25 BTC to new UK users who trade $100 in the first three days.
 
 The most popular exchange platform that offers free crypto are:
 
