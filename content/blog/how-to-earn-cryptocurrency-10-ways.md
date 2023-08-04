@@ -143,7 +143,7 @@ Maybe this is not an obvious way, but definitely one of the easiest to try! You 
 
 Heaps of platforms facilitate freelancing through blockchain technology. Most don't have any costs or transaction fees, so freelancers receive precisely what the employer pays.
 
-Feeling uncertain about receiving your paycheck in crypto due to volatility? No worries! You can always opt for a more stable cryptocurrency. You can start your crypto freelance career with such places as CryptoGrind, BlockLancer, BitGigs Earn, and others. 
+Feeling uncertain about receiving your paycheck in crypto due to volatility? No worries! You can always opt for a more stable cryptocurrency. You can start your crypto freelance career with such places as CryptoGrind, BlockLancer, BitGigs Earn, and others and [get paid in bitcoin](https://a-ads.com/blog/how-to-get-paid-in-cryptocurrency/). 
 
 ### 10. Use cryptocurrency and payment platforms
 
