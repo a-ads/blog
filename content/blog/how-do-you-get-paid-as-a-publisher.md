@@ -44,7 +44,7 @@ The ad unit owner might forbid any of the following advertising categories: NSFW
 
 ### **Ad unit display rate**
 
-Our bot checks whether the [ad unit is present](https://a-ads.com/blog/2019-06-17-how-to-place-an-ad-unit-code-correctly/) at the specified URL and is accessible. It does so several times a day. If the bot can access the ad unit only once every two attempts, then the display rate is 50%.
+Our bot checks whether the [ad unit is present](https://a-ads.com/blog/how-to-place-an-ad-unit-code-correctly/) at the specified URL and is accessible. It does so several times a day. If the bot can access the ad unit only once every two attempts, then the display rate is 50%.
 
 ### **Size and location of an ad unit on a website page**
 
