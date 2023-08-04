@@ -122,7 +122,7 @@ Telegram, for instance, hosts numerous channels dedicated to blockchain and cryp
 * WOLFX Signals
 * My Crypto Paradise
 
-Plus, many startup-focused websites offer advertising options. For example, platforms like Coinhunt feature a dedicated "Promoted Coins'' section where you can purchase ad space to showcase your project.
+Plus, many startup-focused websites offer advertising options. For example, platforms like Coinhunt feature a dedicated "Promoted Coins'' section where you can purchase [ad](https://a-ads.com) space to showcase your project.
 
 In countries where it is permissible, you may even consider outdoor advertising. Cryptocurrency projects have been known to advertise directly on the streets, with notable examples like SHIBA INU ads displayed in prominent locations such as Times Square in the United States.
 
