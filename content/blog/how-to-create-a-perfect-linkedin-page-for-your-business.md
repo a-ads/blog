@@ -49,8 +49,6 @@ Here are the basic steps every marketing team should take first:
 * Download our checklist to follow the guidelines listed
 * Now let's dive into some details on how to make the best LinkedIn page for your company.
 
-
-
 ## Homepage 
 
 ![A-ADS LinkedIn homepage](/blog/assets/снимок-экрана-2023-08-03-в-16.19.35.png "A-ADS LinkedIn homepage")
@@ -60,8 +58,6 @@ Here are the basic steps every marketing team should take first:
 ### Add Basic Information On Your Home Page
 
 When launching your page, pay attention to the impact you want to provide for visitors to your LinkedIn profile. Your profile picture is the first thing people who search for your company on LinkedIn will see, so make a good impression. Company pages with profile pictures are visited six times more than those without.
-
-
 
 ### Complete Specified Information
 
@@ -96,13 +92,9 @@ When crafting your profile, highlighting accomplishments is crucial to capturing
 ### Remember: 
 
 1. If the important information can be publicized, share it proudly.
-
 2. Tell about successful collaborations, sales figures, and the number of contracts you've won.
-
 3. Quantify your accomplishments to showcase your track record of success.
-
 4. Add some statistics to your profile, telling about excellent results achieved by your clients, and add their names, if possible, to build credibility and trust.
-
 5. Mention your ongoing projects and endeavors to give potential customers insight into your current focus. Explain your strategies to increase sales, showing your proactive approach toward future growth and success.
 
 ## Add Product Page
@@ -135,8 +127,6 @@ Invite your connections to follow you and grow that audience. There are several 
 * You can join groups with the same interests as you. Engage in group discussions by commenting and posting your expertise, making you noticeable to potential employers and recruiters. While you can join up to 50 groups, focusing on fewer allows you to invest more time and effort in building meaningful connections.
 * Connect with decision-makers in your target market. Thoroughly review company profiles and reach out to executives of those companies. By establishing connections with key players, you position yourself within vital industry networks, including recruiters seeking individuals with your skill set.
 * Aim for 350-500 Contacts. Experts recommend aiming for around 350-500 meaningful contacts on LinkedIn. This number strikes a balance between having a substantial network and ensuring you remain relevant to industry circles. Quality connections outweigh sheer quantity, so prioritize building relationships that offer value to both parties.
-
-
 
 ## Content Matters 
 
@@ -174,7 +164,7 @@ In addition to videos, you can showcase your brand and ideas by directly uploadi
 
 Add up three relevant hashtags on your page. By doing so, your posts will appear in tag feeds, increasing visibility and reaching a broader audience.
 
-## FQA
+## FAQ
 
 **What is LinkedIn, and why is it relevant for crypto marketing?**
 
@@ -212,10 +202,11 @@ Quality content and insightful reviews are important if you want to build a prod
 
 ### References: 
 
-1. LinkedIn Help Center: The official LinkedIn Help Center provides comprehensive guides, tips, and tutorials on creating and optimizing your LinkedIn company page. Link: https://www.linkedin.com/help/linkedin
-
-2. LinkedIn Marketing Solutions Blog: The LinkedIn Marketing Solutions Blog offers insights, best practices, and success stories related to LinkedIn marketing and company pages. Link: https://business.linkedin.com/marketing-solutions/blog
-
-3. Social Media Examiner - How to Use LinkedIn to Grow Your Business: This article by Social Media Examiner covers various LinkedIn strategies to grow your business, including optimizing your company page. Link: <https://www.socialmediaexaminer.com/how-to-use-linkedin-to-grow-your-business/> 
-
-4. LinkedIn and Business. Link: [LinkedIn Product Pages](https://business.linkedin.com/content/dam/me/business/en-us/marketing-solutions/cx/2022/namer-pdfs/linkedin-product-pages-faqs-v2.pdf)
+1. LinkedIn Help Center: The official LinkedIn Help Center provides comprehensive guides, tips, and tutorials on creating and optimizing your LinkedIn company page. 
+Link: <https://www.linkedin.com/help/linkedin>
+2. LinkedIn Marketing Solutions Blog: The LinkedIn Marketing Solutions Blog offers insights, best practices, and success stories related to LinkedIn marketing and company pages. 
+Link: <https://business.linkedin.com/marketing-solutions/blog>
+3. Social Media Examiner - How to Use LinkedIn to Grow Your Business: This article by Social Media Examiner covers various LinkedIn strategies to grow your business, including optimizing your company page. 
+Link: <https://www.socialmediaexaminer.com/how-to-use-linkedin-to-grow-your-business/> 
+4. LinkedIn and Business. 
+Link: [LinkedIn Product Pages](https://business.linkedin.com/content/dam/me/business/en-us/marketing-solutions/cx/2022/namer-pdfs/linkedin-product-pages-faqs-v2.pdf)
