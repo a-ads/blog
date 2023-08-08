@@ -214,7 +214,7 @@ Edison Research: "The Infinite Dial 2022," \
 Nielsen: "Podcasting Today," \
 <https://www.nielsen.com/us/en/insights/report/2022/podcasting-today/>
 
-The Guardian: "Audible revolution," 
+The Guardian: "Audible revolution," \
 <https://www.theguardian.com/media/2004/feb/12/broadcasting.digitalmedia>
 
 Harvard Business Review: "Podcasts Grow More Popular. So Do Podcast Ads," \
