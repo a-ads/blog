@@ -208,20 +208,20 @@ Once you get the hang of the podcast-creating process, making it can be both gra
 
 #### References:
 
-Edison Research: "The Infinite Dial 2022," 
+Edison Research: "The Infinite Dial 2022," \
 <https://www.edisonresearch.com/the-infinite-dial-2022/>
 
-Nielsen: "Podcasting Today," 
+Nielsen: "Podcasting Today," \
 <https://www.nielsen.com/us/en/insights/report/2022/podcasting-today/>
 
 The Guardian: "Audible revolution," 
 <https://www.theguardian.com/media/2004/feb/12/broadcasting.digitalmedia>
 
-Harvard Business Review: "Podcasts Grow More Popular. So Do Podcast Ads," 
+Harvard Business Review: "Podcasts Grow More Popular. So Do Podcast Ads," \
 <https://hbr.org/2018/06/podcasts-grow-more-popular-so-do-podcast-ads>
 
-Forbes: "Why Podcasting Matters For Entrepreneurs And Their Brands," 
+Forbes: "Why Podcasting Matters For Entrepreneurs And Their Brands," \
 <https://www.forbes.com/sites/michelleguillaumin/2020/07/14/why-podcasting-matters-for-entrepreneurs-and-their-brands/>
 
-Entrepreneur: "How Podcasting Helped Grow My Business by 550% in 1 Year," 
+Entrepreneur: "How Podcasting Helped Grow My Business by 550% in 1 Year,"\
 <https://www.entrepreneur.com/article/365855>
