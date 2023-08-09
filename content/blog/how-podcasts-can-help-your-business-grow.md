@@ -64,7 +64,7 @@ Now, let’s also check the advantages and disadvantages of podcast format:
 
 ## How Marketers Can Use Podcasts
 
-Podcasting in a great additional marketing tool that can:
+Podcasting is a great additional marketing tool that can:
 
 **Expands a brand's target audience:** People discover podcasts based on their interests or through recommendations, leading them to learn more about the company behind the episodes. As a result, listeners are enticed to visit the company's website, generating new leads.
 
