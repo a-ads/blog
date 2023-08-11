@@ -27,7 +27,7 @@ Ad unit earnings are affected by many factors, including the following:
 
 ### Number of unique impressions
 
-Please, mind that we've got an [alternative way](https://a-ads.com/blog/2018-10-04-counting-unique-impressions/) of counting unique impressions. We count as unique globally unique impressions which means that a single IP address will be counted as unique only once every 24 hours when the visitor encounters any of our banners on any of our publishers’ websites. It isn't counted as unique again during this interval no matter how many banners the visitor subsequently sees and what websites he visits. So, our numbers of unique impressions will be much lower than those reported by other networks or tracking tools for the same traffic.
+Please, mind that we've got an [alternative way](https://a-ads.com/blog/2018-10-04-counting-unique-impressions/) of counting unique impressions. We count as unique globally [unique impressions](https://a-ads.com/blog/counting-unique-impressions/) which means that a single IP address will be counted as unique only once every 24 hours when the visitor encounters any of our banners on any of our publishers’ websites. It isn't counted as unique again during this interval no matter how many banners the visitor subsequently sees and what websites he visits. So, our numbers of unique impressions will be much lower than those reported by other networks or tracking tools for the same traffic.
 
 ### **Number of unique clicks**
 
@@ -44,7 +44,7 @@ The ad unit owner might forbid any of the following advertising categories: NSFW
 
 ### **Ad unit display rate**
 
-Our bot checks whether the [ad unit is present](https://a-ads.com/blog/2019-06-17-how-to-place-an-ad-unit-code-correctly/) at the specified URL and is accessible. It does so several times a day. If the bot can access the ad unit only once every two attempts, then the display rate is 50%.
+Our bot checks whether the [ad unit is present](https://a-ads.com/blog/how-to-place-an-ad-unit-code-correctly/) at the specified URL and is accessible. It does so several times a day. If the bot can access the ad unit only once every two attempts, then the display rate is 50%.
 
 ### **Size and location of an ad unit on a website page**
 

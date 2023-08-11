@@ -92,7 +92,7 @@ Determine how much money you want to spend on short-term and long-term strategie
 
 * **Use Social Platforms To Search For Influencers Manually**
 
-You can use Google to find listicles of the best crypto influencers. Another way is = to work with a crypto marketing agency to develop, manage and monitor your entire influencer campaign.
+You can use Google to find listicles of the best crypto influencers. Another way is = to work with a [crypto marketing](https://a-ads.com/blog/what-is-crypto-marketing/) agency to develop, manage and monitor your entire influencer campaign.
 
 * **Check The Audience Of The Chosen Influencer**
 

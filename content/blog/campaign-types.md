@@ -63,4 +63,4 @@ Until you fund your campaign, you can switch from CPD to CPM, and vice versa, bu
 
 A CPM campaign can only have one active bid, changing the CPM campaign to CPD will result in canceling it.
 
-Editing a running CPM bid will result in its cancellation, creation of a new one, and automatic return of the unused money, which may take a few minutes.
+Editing a running [CPM bid](https://a-ads.com/blog/how-to-use-cpm-bids-with-a-ads/) will result in its cancellation, creation of a new one, and automatic return of the unused money, which may take a few minutes.

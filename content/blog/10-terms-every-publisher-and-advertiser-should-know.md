@@ -49,9 +49,9 @@ A unique impression is the first time a user sees an ad within a 24-hour timespa
 
 If a consumer notices your ad three times within 24 hours, the second and third impressions will not count as unique until the next 24 hours.
 
-Unique impressions are vital because they can help marketing teams and publishers pinpoint the value of ad unit space and ad set. Unique impressions are one of the best ways to evaluate the eCPM or the effective cost per thousand ad impressions.
+Unique impressions are vital because they can help marketing teams and publishers pinpoint the value of [ad unit](https://a-ads.com/blog/how-to-place-an-ad-unit-code-correctly/) space and ad set. Unique impressions are one of the best ways to evaluate the eCPM or the effective cost per thousand ad impressions.
 
-Unique impressions also let you know who is visiting your ads and how often, and this information can provide you with real insight into who exists within your target audience. 
+[Unique impressions](https://a-ads.com/blog/counting-unique-impressions/) also let you know who is visiting your ads and how often, and this information can provide you with real insight into who exists within your target audience. 
 
 ## 5. TOTAL BUDGET & DAILY BUDGET
 

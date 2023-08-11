@@ -141,7 +141,7 @@ For example, for email marketing, the key indicators will be open rate (how many
 
 **Takeaways:**
 
-* Plan a long-term crypto marketing strategy and fill it with effective tactics
+* Plan a long-term [crypto marketing strategy](https://a-ads.com/blog/what-is-crypto-marketing/) and fill it with effective tactics
 * Use a data-driven approach and fact-checking in your marketing communications to remain a trusted source among your audience
 * Concentrate on developing trust 
 * Use SMART goals when developing your marketing plan
