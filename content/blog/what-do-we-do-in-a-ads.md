@@ -24,7 +24,7 @@ A-ADS (former "Anonymous Ads") is the first privacy-focused bitcoin-based advert
 
 ## Crypto advertising made easier
 
-It takes less than a minute to start your anonymous advertising campaign or create an anonymous ad unit. Your personal data is safe - we simply don’t need it.
+It takes less than a minute to start your anonymous advertising campaign or create an anonymous [ad unit](https://a-ads.com/blog/how-to-place-an-ad-unit-code-correctly/). Your personal data is safe - we simply don’t need it.
 
 We bring you an extensive selection of traffic sources which are perfect for promotion of ICOs, FinTech crypto-related services, crypto-exchanges and Trading, Cloud Mining, Gaming, Gambling and Blockchain projects.
 

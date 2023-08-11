@@ -119,7 +119,7 @@ Since Google banned or restricted crypto-related businesses from advertising thr
 
 So, let me tell you about our Publishers' advantages. Firstly, it takes less than a minute to become a publisher! You should go to our website and follow three steps:
 
-1. Fill out the ad unit creation form to get HTML code. It's pretty simple!
+1. Fill out the [ad unit](https://a-ads.com/blog/how-to-place-an-ad-unit-code-correctly/) creation form to get HTML code. It's pretty simple!
 2. Insert it on your website.
 3. Wait for your earnings!
 
@@ -143,7 +143,7 @@ Maybe this is not an obvious way, but definitely one of the easiest to try! You 
 
 Heaps of platforms facilitate freelancing through blockchain technology. Most don't have any costs or transaction fees, so freelancers receive precisely what the employer pays.
 
-Feeling uncertain about receiving your paycheck in crypto due to volatility? No worries! You can always opt for a more stable cryptocurrency. You can start your crypto freelance career with such places as CryptoGrind, BlockLancer, BitGigs Earn, and others. 
+Feeling uncertain about receiving your paycheck in crypto due to volatility? No worries! You can always opt for a more stable cryptocurrency. You can start your crypto freelance career with such places as CryptoGrind, BlockLancer, BitGigs Earn, and others and [get paid in bitcoin](https://a-ads.com/blog/how-to-get-paid-in-cryptocurrency/). 
 
 ### 10. Use cryptocurrency and payment platforms
 

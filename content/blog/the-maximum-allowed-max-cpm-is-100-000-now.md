@@ -33,7 +33,7 @@ However, when multiple big advertisers compete for a single site, they may raise
 
 Due to the way [how we measure traffic](https://a-ads.com/blog/2018-10-04-counting-unique-impressions/), one IP address can generate only one unique impression per day. So if there are multiple ad units on the same page, the first one will get most of the unique impressions, and the last one may appear to have an insanely high CPM.
 
-It appears that some advertisers are ready to pay over $10,000 per thousand of unique impressions on such ad units, so we decided to increase the maximum allowed value to $100,000.
+It appears that some advertisers are ready to pay over $10,000 per thousand of [unique impressions](https://a-ads.com/blog/counting-unique-impressions/) on such ad units, so we decided to increase the maximum allowed value to $100,000.
 
 # Why is there even a limitation for "Max CPM"?
 

@@ -22,7 +22,7 @@ meta_description: Learn about the replacement of FaucetHub with ExpressCrypto
 ---
 Since [FaucetHub](https://faucethub.io/) stops maintaining its services, we've replaced it with an alternative service - [ExpressCrypto](https://expresscrypto.io/). Thus our publishers keep the opportunity to withdraw little sums of money.
 
-If you used FaucetHub, please, set new withdrawal settings. You can enable ExpressCrypto withdrawals in your user or ad unit withdrawal settings. 
+If you used FaucetHub, please, set new withdrawal settings. You can enable ExpressCrypto withdrawals in your user or [ad unit](https://a-ads.com/blog/how-to-place-an-ad-unit-code-correctly/) withdrawal settings. 
 
 ![ExpressCrypto withdrawal option](../../static/assets/screenshot-4-.png "ExpressCrypto withdrawal option")
 

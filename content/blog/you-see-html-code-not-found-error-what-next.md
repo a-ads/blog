@@ -139,9 +139,7 @@ And here is the wrong way:
 The "Ad is not fully visible" error might also be caused by a pop-up window that appears while loading a site. Prompt, alert, and confirm windows normally don't cause an error or cause another error. :)
 If you can avoid pop-up ads, you'd better not use them. 
 
-
 Another probable reason for the error is that your banners are loaded later than your site.
-
 
 Suppose the ad unit on your site is placed correctly but doesn't appear immediately after loading. In that case, our bot may consider it invisible, blocked by another element, inaccessible for clicks, or undetected. Please get in touch with our support team in this case - we'll fix the error.
 
@@ -201,7 +199,7 @@ The minimum allowed size for an adaptive ad unit is 120x25 px. If a banner on yo
 
 ![Size doesn’t match error](../../static/assets/размерdontmatch.jpg "Size doesn’t match error")
 
-If your ad unit is a fixed size one, the banner on your site page should match ad unit exact size, else you’ll get an error message:
+If your [ad unit](https://a-ads.com/blog/how-to-place-an-ad-unit-code-correctly/) is a fixed size one, the banner on your site page should match ad unit exact size, else you’ll get an error message:
 
 ![Size doesn’t match error](../../static/assets/размерdontmatchдва.jpg "Size doesn’t match error")
 

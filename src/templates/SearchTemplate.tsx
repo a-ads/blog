@@ -3,7 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Fuse from 'fuse.js'
 import type { PageProps } from 'gatsby'
 
-import { BlogPostGrid, Banner, Seo } from '@components'
+import { BlogPostGridLoadMore, Banner, Seo } from '@components'
 import { useSearchQuery } from '../components/Search'
 
 interface SearchPageProps {
@@ -39,7 +39,7 @@ const SearchPage: React.FC<SearchPageProps> = ({
             <small className='clr-secondary'>
               {results.length} article{results.length === 1 ? '' : 's'} found
             </small>
-            <BlogPostGrid
+            <BlogPostGridLoadMore
               posts={results.map((result) => ({
                 ...(result as { item: BlogPostCard }).item,
                 key: result.refIndex,

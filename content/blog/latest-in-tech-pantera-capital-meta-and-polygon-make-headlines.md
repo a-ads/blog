@@ -27,7 +27,7 @@ Pantera Capital, a well-known cryptocurrency investment fund, [has invested](htt
 
 ## **Meta Launches Advanced AI Model for Object Recognition and Masking in Images and Videos** 
 
-![ Advanced AI Model for Object Recognition](/blog/assets/снимок-экрана-2023-05-16-в-10.02.43.png " Advanced AI Model for Object Recognition")
+![ Advanced AI Model for Object Recognition](/blog/assets/2023-05-16-100243.jpg " Advanced AI Model for Object Recognition")
 
 *Source: ai.facebook.com*
 
