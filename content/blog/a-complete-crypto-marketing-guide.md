@@ -1,7 +1,7 @@
 ---
 date: 2023-08-10T15:19:42.872Z
 title: "A Complete Crypto Marketing Guide "
-slug: "a-complete-crypto-marketing-guide "
+slug: a-complete-crypto-marketing-guide
 tags:
   - news
 category: How to
