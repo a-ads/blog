@@ -204,9 +204,12 @@ Quality content and insightful reviews are important if you want to build a prod
 
 1. LinkedIn Help Center: The official LinkedIn Help Center provides comprehensive guides, tips, and tutorials on creating and optimizing your LinkedIn company page.\
 Link: <https://www.linkedin.com/help/linkedin>
+
 2. LinkedIn Marketing Solutions Blog: The LinkedIn Marketing Solutions Blog offers insights, best practices, and success stories related to LinkedIn marketing and company pages.\
 Link: <https://business.linkedin.com/marketing-solutions/blog>
+
 3. Social Media Examiner - How to Use LinkedIn to Grow Your Business: This article by Social Media Examiner covers various LinkedIn strategies to grow your business, including optimizing your company page.\
 Link: <https://www.socialmediaexaminer.com/how-to-use-linkedin-to-grow-your-business/>
+
 4. LinkedIn and Business.\
 Link: [LinkedIn Product Pages](https://business.linkedin.com/content/dam/me/business/en-us/marketing-solutions/cx/2022/namer-pdfs/linkedin-product-pages-faqs-v2.pdf)
