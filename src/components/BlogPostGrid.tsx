@@ -59,25 +59,40 @@ const BlogPostGrid = ({
   }, [])
 
   const handlePageChange = (selectedPage: { selected: number }) => {
-    setCurrentPageItems(() => {
-      const offset = selectedPage.selected * amount
-      return posts.slice(offset, offset + amount)
-    })
+    const newPage = selectedPage.selected + 1
 
-    if (blogPostGrid) {
-      queryParams.set('page', String(selectedPage.selected + 1))
-
+    // Обновляем URL и каноническую ссылку только если страница не первая
+    if (newPage > 1) {
+      queryParams.set('page', String(newPage))
       if (typeof window !== 'undefined') {
         const updatedUrl = `${location.pathname}?${queryParams.toString()}`
         window.history.pushState(null, '', updatedUrl)
       }
+
+      const updatedCanonicalLink = `${location.origin}${location.pathname}?page=${newPage}`
+      setCanonicalLink(updatedCanonicalLink)
+    } else {
+      queryParams.delete('page')
+      if (typeof window !== 'undefined') {
+        const updatedUrl = `${location.pathname}${
+          queryParams.toString() ? '?' + queryParams.toString() : ''
+        }`
+        window.history.pushState(null, '', updatedUrl)
+      }
+
+      const updatedCanonicalLink = `${location.origin}${location.pathname}`
+      setCanonicalLink(updatedCanonicalLink)
     }
 
-    const updatedCanonicalLink = `${location.origin}${location.pathname}?page=${
-      selectedPage.selected + 1
-    }`
-    setCanonicalLink(updatedCanonicalLink)
-    setCurrentPage(selectedPage.selected + 1)
+    const offset = selectedPage.selected * amount
+
+    if (typeof window !== 'undefined') {
+      window.scrollTo(0, 0)
+    }
+
+    setCurrentPageItems(posts.slice(offset, offset + amount))
+
+    setCurrentPage(newPage)
   }
 
   useEffect(() => {
@@ -94,7 +109,11 @@ const BlogPostGrid = ({
   }, [currentPage])
 
   const hrefBuilder = () => {
-    return `${location.origin}${location.pathname}?page=${currentPage}`
+    if (currentPage === 1) {
+      return `${location.origin}${location.pathname}`
+    } else {
+      return `${location.origin}${location.pathname}?page=${currentPage}`
+    }
   }
 
   return (
