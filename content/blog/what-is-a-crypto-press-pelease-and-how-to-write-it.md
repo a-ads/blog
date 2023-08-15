@@ -65,7 +65,7 @@ The more places you can publish your PR, the bigger audience you reach. 
 
 You can send your PR directly to journalists and influencers, who may publish it or write it up in an article. Or you can submit it to press release distribution services and platforms.
 
-
+Read more about marketing strategies in our[ Complete Crypto Marketing Guide. ](https://a-ads.com/blog/a-complete-crypto-marketing-guide/)
 
 ## How to Lay Out a Crypto Press Release
 
@@ -134,8 +134,6 @@ You can send your PR directly to journalists and influencers, who may publish it
 **Important Takeaway:**
 
 Your press releases need to be carefully fact-checked. Any statement you make in your crypto PR must be complete and accurate. It is crucial for a project's reputation.
-
-
 
 **More About Crypto Marketing:** 
 
