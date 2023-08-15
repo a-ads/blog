@@ -54,16 +54,16 @@ json_ld: >-
       "datePublished": "2023-08-10",
       "dateModified": "2023-08-10",
       "citation": [
-      "<p>Edison Research: The Infinite Dial 2022, <a href=&quot;https://www.edisonresearch.com/the-infinite-dial-2022/&quot; target=&quot;_blank&quot; rel=&quot;noopener nofollow&quot;>https://www.edisonresearch.com/the-infinite-dial-2022/</a></p>",
-      "<p>Nielsen: Podcasting Today, <a href=&quot;https://www.nielsen.com/us/en/insights/report/2022/podcasting-today/&quot; target=&quot;_blank&quot; rel=&quot;noopener nofollow&quot;>https://www.nielsen.com/us/en/insights/report/2022/podcasting-today/</a></p>",
-      "<p>Campaign Monitor Blog - <a href=&quot;https://www.campaignmonitor.com/blog/&quot; target=&quot;_blank&quot; rel=&quot;noopener nofollow&quot;>https://www.campaignmonitor.com/blog/</a></p>",
-      "<p>HubSpot Blog - Email Marketing - <a href=&quot;https://blog.hubspot.com/marketing/topic/email-marketing&quot; target=&quot;_blank&quot; rel=&quot;noopener nofollow&quot;>https://blog.hubspot.com/marketing/topic/email-marketing</a></p>",
-      "<p>Mailchimp Resources- <a href=&quot;https://mailchimp.com/resources/&quot; target=&quot;_blank&quot; rel=&quot;noopener nofollow&quot;>https://mailchimp.com/resources/</a></p>",
-      "<p>Intercom Blog- <a href=&quot;https://www.intercom.com/blog/&quot; target=&quot;_blank&quot; rel=&quot;noopener nofollow&quot;>https://www.intercom.com/blog/</a></p>",
-      "<p>MobileMonkey Blog- <a href=&quot;https://www.mobilemonkey.com/blog/&quot; target=&quot;_blank&quot; rel=&quot;noopener nofollow&quot;>https://www.mobilemonkey.com/blog/</a></p>",
-      "<p>Investopedia How to Earn Passive Income Through Crypto - <a href=&quot;https://www.investopedia.com/passive-income-through-crypto-6386333&quot; target=&quot;_blank&quot; rel=&quot;noopener nofollow&quot;>https://www.investopedia.com/passive-income-through-crypto-6386333</a></p>",
-      "<p>E. Jerome McCarthy. <a href=&quot;https://hdl.handle.net/2027/inu.30000041584743&quot; target=&quot;_blank&quot; rel=&quot;noopener nofollow&quot;>Basic Marketing: A Managerial Approach</a>, Page vi. R.D. Irwin, 1960.</p>",
-      "<p>Investopedia: Cryptocurrency Airdrop: What Is It and How Does It Work, link: <a href=&quot;https://www.investopedia.com/terms/a/airdrop-cryptocurrency.asp&quot; target=&quot;_blank&quot; rel=&quot;noopener nofollow&quot;>https://www.investopedia.com/terms/a/airdrop-cryptocurrency.asp</a></p>"  
+      "<p>Edison Research: The Infinite Dial 2022, https://www.edisonresearch.com/the-infinite-dial-2022/</p>",
+      "<p>Nielsen: Podcasting Today, https://www.nielsen.com/us/en/insights/report/2022/podcasting-today/</p>",
+      "<p>Campaign Monitor Blog - https://www.campaignmonitor.com/blog/</a></p>",
+      "<p>HubSpot Blog - Email Marketing - https://blog.hubspot.com/marketing/topic/email-marketing</p>",
+      "<p>Mailchimp Resources- https://mailchimp.com/resources/</p>",
+      "<p>Intercom Blog- https://www.intercom.com/blog/</p>",
+      "<p>MobileMonkey Blog- https://www.mobilemonkey.com/blog/</p>",
+      "<p>Investopedia How to Earn Passive Income Through Crypto - https://www.investopedia.com/passive-income-through-crypto-6386333</p>",
+      "<p>E. Jerome McCarthy. Basic Marketing: A Managerial Approach, Page vi. R.D. Irwin, 1960.</p>",
+      "<p>Investopedia: Cryptocurrency Airdrop: What Is It and How Does It Work, link: https://www.investopedia.com/terms/a/airdrop-cryptocurrency.asp</p>"  
       ],
       "mainEntity": {
       "@type": "FAQPage",
