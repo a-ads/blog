@@ -118,9 +118,7 @@ Research the agency or influencer and make sure they are respected and ethical. 
 
 You can also work with Podcasts platforms, TikTok, Twitter, and others.
 
-**Read more about marketing strategies in our[ Complete Crypro Marketing Guide. ](https://a-ads.com/blog/a-complete-crypto-marketing-guide/)**
-
-
+**Read more about marketing strategies in our[ Complete Crypto Marketing Guide. ](https://a-ads.com/blog/a-complete-crypto-marketing-guide/)**
 
 #### **FQA** 
 
