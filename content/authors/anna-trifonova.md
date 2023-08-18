@@ -147,7 +147,7 @@ json_ld: >-
 
   ]
 ---
-###### Experience: 
+## Experience: 
 
 As a Marketing Product Manager of A-ADS, works at the intersection of product development, marketing, and sales. The broad responsibility is to develop and implement a marketing strategy roadmap for the A-ADS ad network. Anna plans out, guides, and takes accountability for marketing campaigns, strategies, and other marketing-related initiatives.
 
