@@ -58,17 +58,17 @@ Statistics show that 46% of smartphone users prefer to receive communications fr
 
 ![email marketing stats: how often consumers check email](https://lh6.googleusercontent.com/61etYLA0Oh3TLowt-dJpe2G9vi5bTxZ_eO8gOw6gHWu1NOq-Y-JugkRzdIBKD9UAbyJ2kfipOiznS4O5UlN9oAM1HFDjbEXLTK4A6cJdBd8WiqBopnsMvr6BNgQl6Ck2BDPAQLbb45E7881MEQCQ22JM_urqLtDLs1KlXbHZVaWUwUZGQ6Nzgx2AX_IqeA "email marketing stats: how often consumers check email")
 
-### **What Are The Benefits Of Email Marketing For Crypto Projects?** 
+### **What Are The Benefits Of Email Marketing For Crypto Projects?**
 
-1. **It is your own channel of communication** 
+**1. It is your own channel of communication** 
 
 Social media accounts can be blocked within seconds, while email is an open communication channel that social media doesn't own. 
 
-2. **You can choose the format you like** 
+**2. You can choose the format you like** 
 
 With email, a crypto startup can send content in a format that is convenient for them, such as text, graphics, videos, or GIFs. 
 
-3. **Not everyone is on social media or platforms like Discord or Slack**
+**3. Not everyone is on social media or platforms like Discord or Slack**
 
 But most likely, every person uses email. 
 
@@ -142,25 +142,27 @@ Check the best email marketing platforms to choose the one that suits you best. 
 * [GetResponse](https://www.getresponse.com)
 * [EmailOctopus](https://emailoctopus.com)
 
+Read more about marketing strategies in our[ Complete Crypto Marketing Guide. ](https://a-ads.com/blog/a-complete-crypto-marketing-guide/)
+
 ### Email Marketing Types With Examples
 
-1. **Welcome email** 
+**1. Welcome email** 
 
 A welcome email is a great way to start your journey with a new customer. This is the first email subscribers receive after signing up to be on a list. Statistically, 8 out of 10 people will open a welcome email ([GetResponse](https://www.getresponse.com/resources/reports/email-marketing-benchmarks#location-industry), 2020). 
 
-2. **Onboarding emails** 
+**2. Onboarding emails** 
 
 These emails aim to educate subscribers about how to use a product effectively. The instructions should be clear, detailed, and easy to follow. 
 
 The aim should be to get users' results and feedback after using the product, so they stick and spread the word to their family and friends. 
 
-3. **Information about features and updates**
+**3. Information about features and updates**
 
 This type of email tells about the product features, informs them how it will benefit them, and how to use it. 
 
 The user may discover a feature that will make them stick to the platform or upgrade their plan. 
 
-4. **Newsletters** 
+**4. Newsletters** 
 
 Newsletters are a perfect way to inform an audience. You can use newsletters to educate and entertain users. By choosing topics the readers want to know more about, a crypto company can have an audience looking forward to their newsletters.
 
@@ -168,7 +170,7 @@ Newsletters are a perfect way to inform an audience. You can use newsletters to 
 
 If you link the blog or website in the newsletters, it will help you to increase your web traffic. 
 
-5. **Referral email** 
+**5. Referral email** 
 
 This type of email helps a crypto project incentivize its existing customers to introduce their family, friends, or people they know. Generally, people are more likely to buy something when referred by a trusted friend. 
 
@@ -179,3 +181,29 @@ This type of email helps a crypto project incentivize its existing customers to 
 3. Segment your mailing list based on the users' language.
 4. Develop a corporate template and create a welcome email flow.
 5. Create valuable and educational content.
+
+**More About Crypto Marketing:** 
+
+[Influencer Marketing For Crypto Projects ](https://a-ads.com/blog/influencer-marketing-for-crypto-projects/)
+
+[Crypto ICO Marketing: Strategies for Success in the Crypto World](https://a-ads.com/blog/crypto-ico-marketing/)
+
+[Content marketing for crypto projects](https://a-ads.com/blog/%D1%81ontent-marketing-for-crypto-projects/)
+
+[A Step-by-Step Guide to Direct Messaging in Crypto Marketing ](https://a-ads.com/blog/a-step-by-step-guide-to-direct-messaging-in-crypto-marketing/)
+
+[11 Innovative Methods to Boost Engagement through Social Media](https://a-ads.com/blog/get-noticed-on-social-media-11-creative-ways-to-drive-engagement/)
+
+[Top 10 AI Products for Marketing and Management to Boost Efficiency](https://a-ads.com/blog/top-ten-ai-products-for-marketing-and-management-to-enhance-efficiency/)
+
+[How Podcasts Can Help Your Business Grow](https://a-ads.com/blog/How-Podcasts-Can-Help-Your-Business-Grow/)
+
+[How To Create A Perfect LinkedIn Page For Your Business.](https://a-ads.com/blog/how-to-create-a-perfect-linkedin-page-for-your-business/)
+
+[What is a crypto Press Release and how to write it?](https://a-ads.com/blog/what-is-a-crypto-press-pelease-and-how-to-write-it/)
+
+[SEO Strategies For Your Crypto Business.](https://a-ads.com/blog/SEO-Strategies-for-Your-Crypto-Business%20/)
+
+[Neural Networks in Marketing: A Comprehensive Guide to the Latest Tools and Techniques](https://a-ads.com/blog/neural-networks-in-marketing-a-comprehensive-guide-to-the-latest-tools-and-techniques/)
+
+1.
