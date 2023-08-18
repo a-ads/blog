@@ -116,7 +116,7 @@ json_ld: >-
 
   ]
 ---
-###### Experience: 
+## Experience: 
 
 Olga is a skilled Data Analyst with a strong background in handling complex datasets and extracting valuable insights. She has a proven track record of applying statistical techniques and data visualization tools to analyze data and drive data-driven decision-making. With SQL and database management expertise, Olga efficiently collects, cleans, and manipulates data from various sources to make A-ADS business strategies more effective. 
 
