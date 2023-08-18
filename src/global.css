@@ -448,7 +448,7 @@ p {
     margin-bottom: 20px;
 }
 
-.author-description h6,
+.author-description h2,
 h6#education,
 h6#experience,
 #education,
@@ -570,10 +570,10 @@ a.icon-hover:active svg {
     background: #049BE0 !important;
 }
 
-.name-latest {
-    @apply h1 font-secondary;
-}
-
 .text-contrast {
     color: #6b7174;
+}
+
+.name-latest {
+    @apply h1 font-secondary;
 }
