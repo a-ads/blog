@@ -102,11 +102,11 @@ json_ld: >-
 
   ]
 ---
-###### Education:
+## Education:
 
 National Diploma (Banking and Finance. B. Sc Economics Education)
 
-###### Experience:
+## Experience:
 
 Emmanuel, a Support Manager at A-ADS, is a dedicated professional who excels in providing exceptional customer support while leveraging his expertise in advertising and marketing. With his unique skill set, Emmanuel is crucial in elevating customer satisfaction and sharing valuable marketing insights. 
 
