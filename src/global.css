@@ -570,10 +570,10 @@ a.icon-hover:active svg {
     background: #049BE0 !important;
 }
 
-.text-contrast {
-    color: #6b7174;
-}
-
 .name-latest {
     @apply h1 font-secondary;
+}
+
+.text-contrast {
+    color: #6b7174;
 }
