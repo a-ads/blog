@@ -1900,7 +1900,7 @@ type MarkdownRemarkFilterListInput = {
 
 type MarkdownRemarkFrontmatter = {
   readonly author: Maybe<Scalars['String']>;
-  readonly big_picture: Maybe<Scalars['String']>;
+  readonly big_picture: Maybe<File>;
   readonly bitcointalk_link: Maybe<Scalars['String']>;
   readonly category: Maybe<Scalars['String']>;
   readonly category_second_level: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
@@ -1934,7 +1934,7 @@ type MarkdownRemarkFrontmatter_dateArgs = {
 
 type MarkdownRemarkFrontmatterFieldSelector = {
   readonly author: InputMaybe<FieldSelectorEnum>;
-  readonly big_picture: InputMaybe<FieldSelectorEnum>;
+  readonly big_picture: InputMaybe<FileFieldSelector>;
   readonly bitcointalk_link: InputMaybe<FieldSelectorEnum>;
   readonly category: InputMaybe<FieldSelectorEnum>;
   readonly category_second_level: InputMaybe<FieldSelectorEnum>;
@@ -1960,7 +1960,7 @@ type MarkdownRemarkFrontmatterFieldSelector = {
 
 type MarkdownRemarkFrontmatterFilterInput = {
   readonly author: InputMaybe<StringQueryOperatorInput>;
-  readonly big_picture: InputMaybe<StringQueryOperatorInput>;
+  readonly big_picture: InputMaybe<FileFilterInput>;
   readonly bitcointalk_link: InputMaybe<StringQueryOperatorInput>;
   readonly category: InputMaybe<StringQueryOperatorInput>;
   readonly category_second_level: InputMaybe<StringQueryOperatorInput>;
@@ -1986,7 +1986,7 @@ type MarkdownRemarkFrontmatterFilterInput = {
 
 type MarkdownRemarkFrontmatterSortInput = {
   readonly author: InputMaybe<SortOrderEnum>;
-  readonly big_picture: InputMaybe<SortOrderEnum>;
+  readonly big_picture: InputMaybe<FileSortInput>;
   readonly bitcointalk_link: InputMaybe<SortOrderEnum>;
   readonly category: InputMaybe<SortOrderEnum>;
   readonly category_second_level: InputMaybe<SortOrderEnum>;
@@ -2188,7 +2188,7 @@ type MdxFilterListInput = {
 
 type MdxFrontmatter = {
   readonly author: Maybe<Scalars['String']>;
-  readonly big_picture: Maybe<File>;
+  readonly big_picture: Maybe<Scalars['String']>;
   readonly bitcointalk_link: Maybe<Scalars['String']>;
   readonly category: Maybe<Scalars['String']>;
   readonly category_second_level: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
@@ -2222,7 +2222,7 @@ type MdxFrontmatter_dateArgs = {
 
 type MdxFrontmatterFieldSelector = {
   readonly author: InputMaybe<FieldSelectorEnum>;
-  readonly big_picture: InputMaybe<FileFieldSelector>;
+  readonly big_picture: InputMaybe<FieldSelectorEnum>;
   readonly bitcointalk_link: InputMaybe<FieldSelectorEnum>;
   readonly category: InputMaybe<FieldSelectorEnum>;
   readonly category_second_level: InputMaybe<FieldSelectorEnum>;
@@ -2248,7 +2248,7 @@ type MdxFrontmatterFieldSelector = {
 
 type MdxFrontmatterFilterInput = {
   readonly author: InputMaybe<StringQueryOperatorInput>;
-  readonly big_picture: InputMaybe<FileFilterInput>;
+  readonly big_picture: InputMaybe<StringQueryOperatorInput>;
   readonly bitcointalk_link: InputMaybe<StringQueryOperatorInput>;
   readonly category: InputMaybe<StringQueryOperatorInput>;
   readonly category_second_level: InputMaybe<StringQueryOperatorInput>;
@@ -2274,7 +2274,7 @@ type MdxFrontmatterFilterInput = {
 
 type MdxFrontmatterSortInput = {
   readonly author: InputMaybe<SortOrderEnum>;
-  readonly big_picture: InputMaybe<FileSortInput>;
+  readonly big_picture: InputMaybe<SortOrderEnum>;
   readonly bitcointalk_link: InputMaybe<SortOrderEnum>;
   readonly category: InputMaybe<SortOrderEnum>;
   readonly category_second_level: InputMaybe<SortOrderEnum>;
