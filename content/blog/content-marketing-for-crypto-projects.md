@@ -130,3 +130,5 @@ A great NFT tracker [Nonfungible](https://nonfungible.com/news)
 * 71% of users said they viewed a blog post during their buying journey.
 * Larger businesses typically have their content team, and most companies at least have a content strategy in place.
 * But content marketing only makes sense for some businesses. So, you'll need to determine whether your business can benefit from content marketing.
+
+**Read more about marketing strategies in our[ Complete Crypto Marketing Guide. ](https://a-ads.com/blog/a-complete-crypto-marketing-guide/)**
