@@ -108,7 +108,7 @@ json_ld: >-
 
   ]
 ---
-###### Experience:
+## Experience:
 
 As a Support Manager at A-ADS, Anastasia is a vital force behind ensuring exceptional customer support and driving customer success. With a keen interest in technology and marketing, Anastasia seamlessly combines her passion for both fields to deliver outstanding service and enhance the overall user experience.
 
