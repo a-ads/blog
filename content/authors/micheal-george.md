@@ -132,15 +132,15 @@ json_ld: >-
 
   ]
 ---
-###### Education: 
+## Education: 
 
 University: Atlantic International University 
 
-###### Specialization: 
+## Specialization: 
 
 International Relations
 
-###### Experience: 
+## Experience: 
 
 Michael, as the Analytics & Marketing Manager at A-ADS, takes charge of marketing management, data analytics, tracking, and integration to propel the company's growth. In his capacity as an Analytics & Marketing Manager, Michael utilizes his strong analytical skills to extract meaningful insights from data. By leveraging advanced analytics tools and techniques, he uncovers key trends, identifies opportunities, and provides actionable recommendations to enhance marketing performance. 
 
