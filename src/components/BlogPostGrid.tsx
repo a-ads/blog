@@ -61,6 +61,7 @@ const BlogPostGrid = ({
   const handlePageChange = (selectedPage: { selected: number }) => {
     const newPage = selectedPage.selected + 1
 
+    // Обновляем URL и каноническую ссылку только если страница не первая
     if (newPage > 1) {
       queryParams.set('page', String(newPage))
       if (typeof window !== 'undefined') {
@@ -107,7 +108,7 @@ const BlogPostGrid = ({
     }
   }, [currentPage])
 
-  const hrefBuilder = () => {
+  const hrefBuilder = (currentPage: number) => {
     if (currentPage === 1) {
       return `${location.origin}${location.pathname}`
     } else {
@@ -144,6 +145,7 @@ const BlogPostGrid = ({
           pageCount={pageCount}
           initialPage={initialPage - 1}
           hrefBuilder={hrefBuilder}
+          currentPage={currentPage}
         />
       )}
     </>
