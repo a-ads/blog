@@ -108,7 +108,7 @@ const BlogPostGrid = ({
     }
   }, [currentPage])
 
-  const hrefBuilder = () => {
+  const hrefBuilder = (currentPage: number) => {
     if (currentPage === 1) {
       return `${location.origin}${location.pathname}`
     } else {
@@ -145,6 +145,7 @@ const BlogPostGrid = ({
           pageCount={pageCount}
           initialPage={initialPage - 1}
           hrefBuilder={hrefBuilder}
+          currentPage={currentPage}
         />
       )}
     </>
