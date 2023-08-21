@@ -61,7 +61,6 @@ const BlogPostGrid = ({
   const handlePageChange = (selectedPage: { selected: number }) => {
     const newPage = selectedPage.selected + 1
 
-    // Обновляем URL и каноническую ссылку только если страница не первая
     if (newPage > 1) {
       queryParams.set('page', String(newPage))
       if (typeof window !== 'undefined') {
