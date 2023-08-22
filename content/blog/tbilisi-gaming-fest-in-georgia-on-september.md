@@ -13,7 +13,7 @@ author: Micheal George
 thumbnail: /blog/assets/tgf.png
 big_picture: /blog/assets/tgf_2.png
 popularity: "0"
-meta_title: Don't Miss Tbilisi Gaming Fest in Georgia on September 15, 2023
+meta_title: Don't Miss Tbilisi Gaming Fest in Georgia on September 15, 2023 | A-ADS Blog
 meta_description: Experience the ultimate gaming event at Tbilisi Gaming Fest on
   Sep 15, 2023! Discover business opportunities, cutting-edge technology, and
   entertainment in one dynamic conference. Use promo code for 20% off tickets.
