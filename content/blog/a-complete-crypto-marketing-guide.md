@@ -13,7 +13,7 @@ author: Anna Trifonova
 thumbnail: /blog/assets/a-complete-crypto-marketing-guide.png
 big_picture: /blog/assets/34_shorts.png
 popularity: "0"
-meta_title: "A Complete Crypto Marketing Guide "
+meta_title: A Complete Crypto Marketing Guide | A-ADS Blog
 meta_description: "Explore the world of Crypto Marketing: From educating about
   blockchain to building a strong brand, and leveraging influencers for your
   project's success. Uncover strategies, challenges, and success stories in this
