@@ -13,8 +13,9 @@ author: Danil Persky
 thumbnail: /blog/assets/full-1-.png
 big_picture: /blog/assets/short-1-.png
 popularity: "0"
-meta_title: ""
-meta_description: ""
+meta_title: Changes to how impressions are counted in the A-ADS advertising
+  network | A-ADS Blog
+meta_description: News on how impressions are counted in the A-ADS advertising network.
 meta_keywords: ""
 json_ld: ""
 ---
