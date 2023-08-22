@@ -13,7 +13,7 @@ author: Danil Persky
 thumbnail: /blog/assets/direct-messaging.png
 big_picture: /blog/assets/direct-messaging_shorts.png
 popularity: "0"
-meta_title: A Step-by-Step Guide to Direct Messaging in Crypto Marketing
+meta_title: A Step-by-Step Guide to Direct Messaging in Crypto Marketing | A-ADS Blog
 meta_description: Enhance crypto project visibility with Direct Messaging.
   Tailored outreach for personalized engagement, amplifying connections and
   promoting offerings. Explore direct marketing strategies, benefits, and
