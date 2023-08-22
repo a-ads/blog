@@ -1,4 +1,4 @@
-import React, { memo } from 'react'
+import React from 'react'
 import ReactPaginate from 'react-paginate'
 import './pagination.css'
 
@@ -34,4 +34,4 @@ const Pagination = ({
   )
 }
 
-export default memo(Pagination)
+export default Pagination
