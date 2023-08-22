@@ -63,8 +63,6 @@ Imagine having an informal chat with a well-known crypto figure. This type of in
 
 Suppose you're investigating something big in the crypto world. This interview requires careful prep. You aim to uncover hidden facts that shed light on a specific issue. 
 
-
-
 ## How to Make your Interview Work 
 
 ![How to Make your Interview Work](/blog/assets/как-интервью-помогает-развивать-бизнес-и-привлекает-внимание-к-проекту.png "How to Make your Interview Work")
@@ -102,8 +100,6 @@ The trick is to keep your email **short and informative**. Busy folks don't have
 Give them a quick idea of who you are so they know you're trustworthy. Point them to where they can see your work to judge its quality and decide if it matches their style.
 
 Also, show them some **love.** This is something people often forget. Drop a line like, "I really liked that part in your video," or "That line in your last blog post was spot-on." It helps them see that you're genuinely interested in their content and not just trying to use them to reach more people.
-
-
 
 **Here's an example of what you could say:**
 
@@ -148,13 +144,9 @@ Hosting an interview is like being a tour guide through a fascinating conversati
 
 Having a list of questions is great, but don't be afraid to let the conversation flow naturally. If something interesting comes up, explore it.
 
-
-
 ### Question Examples for Crypto Influencers
 
 ![Write Questions For Influencers ](/blog/assets/письмо1.png "Write Questions For Influencers ")
-
-
 
 Here is a simple plan and question ideas that you can use when preparing for an interview:
 
@@ -195,8 +187,6 @@ Here is a simple plan and question ideas that you can use when preparing for an 
 * *What is your vision for the future of cryptocurrencies and blockchain technology? Where do you see the industry in the next 5-10 years?*
 * *How can businesses play a role in shaping a positive and inclusive future for the crypto ecosystem?*
 
-
-
 ### Choosing Between In-Person or Online Interview 
 
 **1. In-person Interview** 
@@ -210,8 +200,6 @@ These days, a lot of interviews happen over Zoom or other online platforms. The 
 And here's a lesson we've learned the hard way – listen closely if you're planning to repurpose that audio later, like in a course or a blog post. Clear audio is your golden ticket. To achieve that, you've got to find a place where your voice is the show's star, without any distracting background noise.
 
 So, the setting matters whether you're meeting face-to-face or chatting online. Think cozy for in-person talks and quiet for virtual ones. After all, the right surroundings can make your interview shine!
-
-
 
 ## Repurpose Interviews
 
@@ -233,8 +221,6 @@ Blog Posts:** One interview session can sprout not just one but three captivatin
 **E-books or Guides:** Compile a collection of interviews around a specific theme and create an e-book or guide. It's like packaging valuable insights into a neat, downloadable package.
 
 **Email Newsletter:** Share snippets, key learnings, or teaser clips with your email subscribers. It's a great way to keep them engaged and excited about your content.
-
-
 
 ## Advantages and Challenges of Interviews 
 
@@ -290,8 +276,6 @@ Here's a short checklist to help you prepare for an interview:
 14. Show appreciation for their time and insights.
 15. Consider how the interview can be used across platforms.
 
-
-
 In summary, the art of interviewing influencers in the crypto space involves thoughtful outreach, meticulous preparation, engaging question crafting, and creative repurposing of content. By mastering these aspects, you can use the potential of interviews to enhance your brand's authority, educate your audience, and create lasting connections within the crypto community.
 
 
@@ -320,20 +304,17 @@ In summary, the art of interviewing influencers in the crypto space involves tho
 
 [SEO Strategies For Your Crypto Business.](https://a-ads.com/blog/SEO-Strategies-for-Your-Crypto-Business%20/)
 
-
-
 #### **References:** 
 
-1. "The Art of the Interview" by Lawrence Grobel
+"The Art of the Interview" by Lawrence Grobel
 
-2. "How to Conduct an Interview" - The New York Times: https://www.nytimes.com/2013/09/09/business/media/how-to-conduct-an-interview.html
+"How to Conduct an Interview" - The New York Times: https://www.nytimes.com/2013/09/09/business/media/how-to-conduct-an-interview.html
 
-3. "The Art of the Interview" - Harvard Business Review- Link: https://hbr.org/2018/11/the-art-of-the-interview
+"The Art of the Interview" - Harvard Business Review- Link: https://hbr.org/2018/11/the-art-of-the-interview
 
-4. "Interviewing Techniques and Tips" - Mind Tools - Link: https://www.mindtools.com/CommSkll/InterviewingTechniques.htm
+"Interviewing Techniques and Tips" - Mind Tools - Link: https://www.mindtools.com/CommSkll/InterviewingTechniques.htm
 
-#### \
-FAQ 
+**FAQ** 
 
 ***What is the significance of conducting interviews in crypto marketing?***
 
@@ -359,8 +340,6 @@ FAQ 
 
 *Networking: Building relationships through interviews opens doors for collaboration, partnerships, and expanding your crypto network.*
 
-
-
 ***What are the key elements of a successful crypto interview?***
 
 *The key elements of a successful crypto interview are:*
@@ -384,8 +363,6 @@ FAQ 
 *9. Establishing a trustworthy environment that encourages candid responses.*
 
 *10. Sharing the interview effectively across platforms to maximize reach and engagement.*
-
-
 
 ***What are some potential topics for crypto interviews?***
 
