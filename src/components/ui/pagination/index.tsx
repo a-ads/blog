@@ -1,6 +1,7 @@
 import React, { memo } from 'react'
 import ReactPaginate from 'react-paginate'
 import './pagination.css'
+import 'main.css'
 
 interface IPaginationProps {
   onPageChange: (selectedItem: { selected: number }) => void
