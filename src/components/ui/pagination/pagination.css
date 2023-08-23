@@ -1,6 +1,7 @@
 .pagination {
   display: flex;
   justify-content: center;
+  align-items: center;
   list-style: none;
   padding: 0;
   margin: 50px 0;
@@ -12,7 +13,14 @@
   cursor: pointer;
 }
 
-.pagination li a {
+.pagination button:disabled {
+  opacity: 0.5;
+}
+
+
+.pagination li a,
+.pagination button {
+  line-height: 24px;
   color: #333;
   text-decoration: none;
   padding: 8px 12px;
