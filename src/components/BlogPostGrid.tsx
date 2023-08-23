@@ -5,6 +5,7 @@ import { Card } from '@components'
 import { Helmet } from 'react-helmet'
 import '../components/ui/pagination/pagination.css'
 import { Link, navigate } from 'gatsby'
+import { useLocation } from '@reach/router'
 
 type BlogPostGridProps = {
   posts: BlogPostCard[]
@@ -19,7 +20,7 @@ type BlogPostGridProps = {
 
 const BlogPostGrid = ({
   posts = [],
-  amount = 4,
+  amount = 20,
   canLoadMore,
   span = [0],
   className,
@@ -27,6 +28,7 @@ const BlogPostGrid = ({
   blogPostGrid,
   setBlogPostGrid,
 }: BlogPostGridProps) => {
+  const location = useLocation()
   const searchParams = new URLSearchParams(location.search)
   const currentPage = parseInt(searchParams.get('page') as string) || 1
 
