@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import cn from 'classnames'
 import { uniqueId } from 'lodash-es'
 import { Card } from '@components'
-import Pagination from './ui/pagination'
 import { Helmet } from 'react-helmet'
-import { useLocation } from '@reach/router'
+import '../components/ui/pagination/pagination.css'
+import { Link, navigate } from 'gatsby'
 
 type BlogPostGridProps = {
   posts: BlogPostCard[]
@@ -19,7 +19,7 @@ type BlogPostGridProps = {
 
 const BlogPostGrid = ({
   posts = [],
-  amount = 20,
+  amount = 4,
   canLoadMore,
   span = [0],
   className,
@@ -27,108 +27,64 @@ const BlogPostGrid = ({
   blogPostGrid,
   setBlogPostGrid,
 }: BlogPostGridProps) => {
-  const location = useLocation()
-  const queryParams = new URLSearchParams(location.search)
-  const initialPage = parseInt(queryParams.get('page') || '1', 10)
+  const searchParams = new URLSearchParams(location.search)
+  const currentPage = parseInt(searchParams.get('page') as string) || 1
 
-  const [currentPage, setCurrentPage] = useState(initialPage - 1)
-  const [canonicalLink, setCanonicalLink] = useState('')
-  const [currentPageItems, setCurrentPageItems] = useState(() => {
-    const currentPageParam = queryParams.get('page') || '1'
+  const indexOfLastBlog = currentPage * amount
+  const indexOfFirstBlog = indexOfLastBlog - amount
+  const currentBlogs = posts.slice(indexOfFirstBlog, indexOfLastBlog)
 
-    const currentPage = currentPageParam
-      ? parseInt(currentPageParam, 10) - 1
-      : 0
-    const offset = currentPage * amount
-    return posts.slice(offset, offset + amount)
-  })
+  const totalPages = Math.ceil(posts.length / amount)
+  const maxDisplayPages = 5
 
-  if (posts.length <= 0) {
-    return null
-  }
+  const pageNumbers = Array.from(
+    { length: Math.ceil(posts.length / amount) },
+    (_, index) => index + 1
+  )
 
-  const pageCount = Math.ceil(posts.length / amount)
-
-  useEffect(() => {
-    const currentPageParam = queryParams.get('page')
-    const currentPage = currentPageParam
-      ? parseInt(currentPageParam, 10) - 1
-      : 0
-    const offset = currentPage * amount
-    setCurrentPageItems(posts.slice(offset, offset + amount))
-  }, [])
-
-  const handlePageChange = (selectedPage: { selected: number }) => {
-    const newPage = selectedPage.selected + 1
-
-    // Обновляем URL и каноническую ссылку только если страница не первая
-    if (newPage > 1) {
-      queryParams.set('page', String(newPage))
-      if (typeof window !== 'undefined') {
-        const updatedUrl = `${location.pathname}?${queryParams.toString()}`
-        window.history.pushState(null, '', updatedUrl)
-      }
-
-      const updatedCanonicalLink = `${location.origin}${location.pathname}?page=${newPage}`
-      setCanonicalLink(updatedCanonicalLink)
+  const displayPageNumbers = (() => {
+    if (totalPages <= maxDisplayPages) {
+      return Array.from({ length: totalPages }, (_, index) => index + 1)
     } else {
-      queryParams.delete('page')
-      if (typeof window !== 'undefined') {
-        const updatedUrl = `${location.pathname}${
-          queryParams.toString() ? '?' + queryParams.toString() : ''
-        }`
-        window.history.pushState(null, '', updatedUrl)
-      }
-
-      const updatedCanonicalLink = `${location.origin}${location.pathname}`
-      setCanonicalLink(updatedCanonicalLink)
-    }
-
-    const offset = selectedPage.selected * amount
-
-    if (typeof window !== 'undefined') {
-      window.scrollTo(0, 0)
-    }
-
-    setCurrentPageItems(posts.slice(offset, offset + amount))
-
-    setCurrentPage(newPage)
-  }
-
-  useEffect(() => {
-    if (setBlogPostGrid) {
-      setBlogPostGrid(true)
-
-      if (typeof window !== 'undefined') {
-        const linkElement = document.querySelector('link[rel="canonical"]')
-        if (linkElement) {
-          linkElement.setAttribute('href', canonicalLink)
-        }
+      const middlePage = Math.floor(maxDisplayPages / 2)
+      if (currentPage <= middlePage) {
+        return Array.from(
+          { length: maxDisplayPages - 1 },
+          (_, index) => index + 1
+        )
+      } else if (currentPage >= totalPages - middlePage) {
+        return Array.from(
+          { length: maxDisplayPages - 1 },
+          (_, index) => totalPages - maxDisplayPages + 2 + index
+        )
+      } else {
+        return Array.from(
+          { length: maxDisplayPages - 2 },
+          (_, index) => currentPage - middlePage + index
+        )
       }
     }
-  }, [currentPage])
+  })()
 
-  const hrefBuilder = (page: number) => {
+  const goToPage = (page: number) => {
     if (page === 1) {
-      return `${location.origin}${location.pathname}`
-    } else {
-      return `${location.origin}${location.pathname}?page=${page}`
+      navigate('', { replace: true })
+    } else if (page >= 1 && page <= totalPages) {
+      navigate(`?page=${page}`)
     }
   }
 
   return (
     <>
-      <Helmet>
-        {blogPostGrid && <title>{`${header} - page ${currentPage}`}</title>}
-      </Helmet>
+      <Helmet>{<title>{`${header} - page ${currentPage}`}</title>}</Helmet>
       <div
         className={cn(
           'container grid up-lg:grid-cols-3 gap-8 grid-cols-2 down-tablet:grid-cols-1',
           className
         )}
       >
-        {currentPageItems &&
-          currentPageItems?.map((post, i) => (
+        {currentBlogs &&
+          currentBlogs?.map((post, i) => (
             <Card
               key={uniqueId()}
               className={cn('mb-8 phone:mb-0 hover-card', {
@@ -139,15 +95,32 @@ const BlogPostGrid = ({
             />
           ))}
       </div>
-      {canLoadMore && (
-        <Pagination
-          onPageChange={handlePageChange}
-          pageCount={pageCount}
-          initialPage={initialPage - 1}
-          hrefBuilder={() => hrefBuilder(currentPage + 1)}
-          currentPage={currentPage}
-        />
-      )}
+      <ul className='pagination'>
+        <button
+          onClick={() => goToPage(currentPage - 1)}
+          disabled={currentPage === 1}
+        >
+          {'<'}
+        </button>
+        {canLoadMore &&
+          displayPageNumbers.map((number) => (
+            <li className={currentPage === number ? 'active' : ''}>
+              <Link
+                to={number === 1 ? '' : `?page=${number}`}
+                key={number}
+                className={currentPage === number ? 'active' : ''}
+              >
+                {number}
+              </Link>
+            </li>
+          ))}
+        <button
+          onClick={() => goToPage(currentPage + 1)}
+          disabled={currentPage === pageNumbers.length}
+        >
+          {'>'}
+        </button>
+      </ul>
     </>
   )
 }
