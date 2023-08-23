@@ -19,7 +19,7 @@ type BlogPostGridProps = {
 
 const BlogPostGrid = ({
   posts = [],
-  amount = 4,
+  amount = 20,
   canLoadMore,
   span = [0],
   className,
