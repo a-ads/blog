@@ -123,12 +123,14 @@ const BlogPostGrid = ({
           ))}
       </div>
       <ul className='pagination'>
-        <button
-          onClick={() => goToPage(currentPage - 1)}
-          disabled={currentPage === 1}
-        >
-          {'<'}
-        </button>
+        {displayPageNumbers.length > 1 && (
+          <button
+            onClick={() => goToPage(currentPage - 1)}
+            disabled={currentPage === 1}
+          >
+            {'<'}
+          </button>
+        )}
         {canLoadMore &&
           displayPageNumbers.map((number) => {
             return (
@@ -147,12 +149,14 @@ const BlogPostGrid = ({
               </li>
             )
           })}
-        <button
-          onClick={() => goToPage(currentPage + 1)}
-          disabled={currentPage === pageNumbers.length}
-        >
-          {'>'}
-        </button>
+        {displayPageNumbers.length > 1 && (
+          <button
+            onClick={() => goToPage(currentPage + 1)}
+            disabled={currentPage === pageNumbers.length}
+          >
+            {'>'}
+          </button>
+        )}
       </ul>
     </>
   )
