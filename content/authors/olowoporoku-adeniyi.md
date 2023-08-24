@@ -1,6 +1,6 @@
 ---
 name: Olowoporoku Adeniyi
-image: /blog/assets/2023-08-23-15.32.09.jpg
+thumbnail: /blog/assets/2023-08-23-15.32.09.jpg
 position: A-ADS reviewer
 description: Olowoporoku ''Crypto Evangelist'' Adeniyi is a crypto educator,
   content creator, and analyst who is a news reporter for NewsBTC.
