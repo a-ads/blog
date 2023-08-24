@@ -9,7 +9,7 @@ category_top_level:
   - Guides
   - Publishers
 author: Anastasia Zavershinskaya
-thumbnail: https://stg.int.a-ads.com../../static/assets/illustration-3.png
+thumbnail: /blog/assets/learn-to-earn.jpg
 meta_title: Learn to earn with A-ADS as a publisher | A-ADS Blog
 meta_description: Join A-ADS today and get a share of our advertising budget
   pie! We're looking for genuine human traffic, so if you have a website, blog
