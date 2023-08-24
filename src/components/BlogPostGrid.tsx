@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import cn from 'classnames'
 import { uniqueId } from 'lodash-es'
 import { Card } from '@components'
@@ -29,6 +29,9 @@ const BlogPostGrid = ({
   setBlogPostGrid,
 }: BlogPostGridProps) => {
   const location = useLocation()
+  const [canonicalLink, setCanonicalLink] = useState(
+    `${location.origin}${location.pathname}`
+  )
   const searchParams = new URLSearchParams(location.search)
   const currentPage = parseInt(searchParams.get('page') as string) || 1
 
@@ -70,15 +73,37 @@ const BlogPostGrid = ({
 
   const goToPage = (page: number) => {
     if (page === 1) {
-      navigate('', { replace: true })
+      navigate(`${location.origin}${location.pathname}`, { replace: true })
     } else if (page >= 1 && page <= totalPages) {
-      navigate(`?page=${page}`)
+      navigate(`${location.origin}${location.pathname}?page=${page}`)
     }
   }
 
+  useEffect(() => {
+    if (setBlogPostGrid) {
+      setBlogPostGrid(true)
+      if (currentPage > 1) {
+        setCanonicalLink(
+          `${location.origin}${location.pathname}?page=${currentPage}`
+        )
+      } else {
+        setCanonicalLink(`${location.origin}${location.pathname}`)
+      }
+
+      if (typeof window !== 'undefined') {
+        const linkElement = document.querySelector('link[rel="canonical"]')
+        if (linkElement) {
+          linkElement.setAttribute('href', canonicalLink)
+        }
+      }
+    }
+  }, [currentPage, canonicalLink])
+
   return (
     <>
-      <Helmet>{<title>{`${header} - page ${currentPage}`}</title>}</Helmet>
+      <Helmet>
+        {blogPostGrid && <title>{`${header} - page ${currentPage}`}</title>}
+      </Helmet>
       <div
         className={cn(
           'container grid up-lg:grid-cols-3 gap-8 grid-cols-2 down-tablet:grid-cols-1',
@@ -105,17 +130,23 @@ const BlogPostGrid = ({
           {'<'}
         </button>
         {canLoadMore &&
-          displayPageNumbers.map((number) => (
-            <li className={currentPage === number ? 'active' : ''}>
-              <Link
-                to={number === 1 ? '' : `?page=${number}`}
-                key={number}
-                className={currentPage === number ? 'active' : ''}
-              >
-                {number}
-              </Link>
-            </li>
-          ))}
+          displayPageNumbers.map((number) => {
+            return (
+              <li className={currentPage === number ? 'active' : ''}>
+                <Link
+                  to={
+                    number === 1
+                      ? `${location.origin}${location.pathname}`
+                      : `${location.origin}${location.pathname}?page=${number}`
+                  }
+                  key={number}
+                  className={currentPage === number ? 'active' : ''}
+                >
+                  {number}
+                </Link>
+              </li>
+            )
+          })}
         <button
           onClick={() => goToPage(currentPage + 1)}
           disabled={currentPage === pageNumbers.length}
