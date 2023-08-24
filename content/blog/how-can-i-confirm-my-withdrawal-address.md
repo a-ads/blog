@@ -11,7 +11,7 @@ category_top_level:
 category_second_level:
   - How To
 author: Olga Ostrovskaya
-thumbnail: ../../static/assets/full-14-.png
+thumbnail: /blog/assets/full.png
 big_picture: ../../static/assets/short-11-.png
 meta_title: How can I confirm my withdrawal address? | A-ADS Blog
 meta_description: Learn how to confirm your withdrawal address. Discover our
