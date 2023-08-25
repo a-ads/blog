@@ -162,6 +162,9 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
     return item.slug !== duplicateArticles
   })
 
+  console.log(location.pathname, 'location.pathname')
+  console.log(location, 'location')
+
   return (
     <>
       <header
