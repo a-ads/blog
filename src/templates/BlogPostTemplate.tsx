@@ -156,14 +156,18 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
   const location = useLocation()
 
   const notDuplicateArrayPosts = related_posts.filter((item) => {
-    const duplicateArticles = decodeURIComponent(
-      location.pathname.replace(/\//g, '')
-    )
-    return item.slug !== duplicateArticles
+    const fullPath = location.pathname
+    let afterBlog
+
+    if (location.pathname.includes('/blog')) {
+      afterBlog = fullPath.substring(fullPath.indexOf('/blog') + '/blog'.length)
+    } else {
+      afterBlog = fullPath
+    }
+    return item.slug !== decodeURIComponent(afterBlog.replace(/\//g, ''))
   })
 
-  console.log(location.pathname, 'location.pathname')
-  console.log(location, 'location')
+  console.log(notDuplicateArrayPosts, 'notDuplicateArrayPosts')
 
   return (
     <>
