@@ -6,14 +6,17 @@ import cn from 'classnames'
 import { Link, Slider } from '@ui'
 import { SocialButton, Breadcrumbs, Seo, Card, Banner } from '@components'
 import type { SocialId } from 'src/components/SocialButton'
+import { useLocation } from '@reach/router'
 
 export function Head({ pageContext: { post, author } }) {
-
   return (
     <Seo title={post.meta_title} description={post.meta_description}>
-      {post.json_ld ? 
-        <script type='application/ld+json' dangerouslySetInnerHTML={{__html: post.json_ld}} />
-      :
+      {post.json_ld ? (
+        <script
+          type='application/ld+json'
+          dangerouslySetInnerHTML={{ __html: post.json_ld }}
+        />
+      ) : (
         <script type='application/ld+json'>
           {`{
             "@context": "https://schema.org",
@@ -32,7 +35,7 @@ export function Head({ pageContext: { post, author } }) {
             )}"]
           }`}
         </script>
-      }
+      )}
     </Seo>
   )
 }
@@ -150,6 +153,15 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
     post.category_second_level?.[0],
   ].filter(Boolean) as string[]
 
+  const location = useLocation()
+
+  const notDuplicateArrayPosts = related_posts.filter((item) => {
+    const duplicateArticles = decodeURIComponent(
+      location.pathname.replace(/\//g, '')
+    )
+    return item.slug !== duplicateArticles
+  })
+
   return (
     <>
       <header
@@ -256,7 +268,7 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
             Also read related articles
           </span>
           <Slider>
-            {related_posts.map((relatedPost) => (
+            {notDuplicateArrayPosts.map((relatedPost) => (
               // Hacky way to insert gaps between cards
               <div>
                 <Card
