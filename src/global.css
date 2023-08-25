@@ -109,17 +109,15 @@ ol li:not(:only-child) {
     counter-increment: item;
     display: table-row;
 
-&
-::before {
-    content: counter(item) '.';
-    text-align: left;
-    display: table-cell;
-    width: 3rem;
-    padding-inline: 1rem 0.3rem;
-    float: left;
-}
-
-}
+    &::before {
+        content: counter(item) '.';
+        text-align: left;
+        display: table-cell;
+        width: 3rem;
+        padding-inline: 1rem 0.3rem;
+        float: left;
+    }
+  }
 }
 
 .flow {
@@ -448,7 +446,7 @@ p {
     margin-bottom: 20px;
 }
 
-.author-description h2,
+.author-description h6,
 h6#education,
 h6#experience,
 #education,
@@ -570,10 +568,16 @@ a.icon-hover:active svg {
     background: #049BE0 !important;
 }
 
+.text-contrast {
+    color: #6b7174;
+}
+
 .name-latest {
     @apply h1 font-secondary;
 }
 
-.text-contrast {
-    color: #6b7174;
+.flow p > a  {
+    max-width: 320px;
+    overflow: hidden;
+    word-break: break-all;
 }
