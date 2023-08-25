@@ -29,7 +29,7 @@ const Authors: React.FC<AuthorsPageProps> = ({ pageContext: { authors } }) => {
           {authors.map((author) => (
             <Link
               key={author.slug}
-              to={author.postCount ? author.slug : '/authors'}
+              to={author.slug}
               className='flex items-center justify-start gap-6 mb-10 down-tablet:w-full p-0'
             >
               <GatsbyImage

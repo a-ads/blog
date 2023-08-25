@@ -109,17 +109,15 @@ ol li:not(:only-child) {
     counter-increment: item;
     display: table-row;
 
-&
-::before {
-    content: counter(item) '.';
-    text-align: left;
-    display: table-cell;
-    width: 3rem;
-    padding-inline: 1rem 0.3rem;
-    float: left;
-}
-
-}
+    &::before {
+        content: counter(item) '.';
+        text-align: left;
+        display: table-cell;
+        width: 3rem;
+        padding-inline: 1rem 0.3rem;
+        float: left;
+    }
+  }
 }
 
 .flow {
@@ -576,4 +574,10 @@ a.icon-hover:active svg {
 
 .text-contrast {
     color: #6b7174;
+}
+
+.flow p > a  {
+    max-width: 320px;
+    overflow: hidden;
+    word-break: break-all;
 }
