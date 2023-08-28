@@ -14,7 +14,7 @@ export function Head({ pageContext: { post, author } }) {
     <Seo
       title={post.meta_title}
       description={post.meta_description}
-      pathname={`/blog${location.pathname}`}
+      pathname={`${location.origin}${location.pathname}`}
     >
       {post.json_ld ? (
         <script type='application/ld+json'>
@@ -107,13 +107,15 @@ const TableOfContents = ({
   className?: string
 }) => {
   const location = useLocation()
+
+  console.log(`${location.origin}${location.pathname}`, 'pathname')
   return (
     <nav className={cn('relative toc-gatsby-config', className)}>
       <div className='up-desktop:sticky top-0 left-0 down-desktop:mt-8 down-desktop:mb-10 phone:my-7'>
         {/* Social buttons row */}
         <header className='flex items-end gap-8 down-desktop:hidden h-[6rem] mb-7'>
           <ShareButtons
-            url={`https://a-ads.com/blog${location.pathname}`}
+            url={`https://a-ads.com/${location.origin}${location.pathname}`}
             text={''}
           />
         </header>
