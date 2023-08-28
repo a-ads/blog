@@ -25,7 +25,14 @@ json_ld: >-2
         "@type": "BlogPosting",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://a-ads.com/blog/a-complete-crypto-marketing-guide/"
+          "@id": "https://a-ads.com/blog/a-complete-crypto-marketing-guide/",
+          "reviewedBy": [
+     {
+  	  "@type": "Person",
+  	  "name": "Olowoporoku Adeniyi",
+  	  "url": "https://a-ads.com/blog/authors/olowoporoku-adeniyi/"
+     }
+     ]
         },
         "headline": "A Complete Crypto Marketing Guide",
         "description": "Crypto marketing involves promoting cryptocurrencies and related projects to attract investors, users, and enthusiasts. However, marketing in the crypto space comes with unique challenges and opportunities. Building trust, transparency, and credibility is paramount in this industry, as it is often taken with some skepticism. This article will look at successful marketing campaign strategies and examples.",
