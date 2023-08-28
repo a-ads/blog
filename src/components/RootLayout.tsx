@@ -294,7 +294,7 @@ const Footer = () => {
           </p>
         ))}
       </div>
-      <div className='text-center text-gray-400 text-xs'>version: 12</div>
+      <div className='text-center text-gray-400 text-xs'>version: 13</div>
     </footer>
   )
 }
