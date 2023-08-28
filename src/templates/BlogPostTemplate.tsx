@@ -6,10 +6,16 @@ import cn from 'classnames'
 import { Link, Slider } from '@ui'
 import { Breadcrumbs, Seo, Card, Banner } from '@components'
 import ShareButtons from '../components/ShareButtons'
+import { useLocation } from '@reach/router'
 
 export function Head({ pageContext: { post, author } }) {
+  const location = useLocation()
   return (
-    <Seo title={post.meta_title} description={post.meta_description}>
+    <Seo
+      title={post.meta_title}
+      description={post.meta_description}
+      pathname={`/blog${location.pathname}`}
+    >
       {post.json_ld ? (
         <script
           type='application/ld+json'
@@ -53,13 +59,16 @@ const TableOfContents = ({
   toc: InnerHtmlString
   className?: string
 }) => {
-  const url = typeof window !== 'undefined' ? window.location.href : ''
+  const location = useLocation()
   return (
     <nav className={cn('relative toc-gatsby-config', className)}>
       <div className='up-desktop:sticky top-0 left-0 down-desktop:mt-8 down-desktop:mb-10 phone:my-7'>
         {/* Social buttons row */}
         <header className='flex items-end gap-8 down-desktop:hidden h-[6rem] mb-7'>
-          <ShareButtons url={url} text={''} />
+          <ShareButtons
+            url={`https://a-ads.com/blog${location.pathname}`}
+            text={''}
+          />
         </header>
 
         {/* If it's a short article, then the table of contents isn't passed  */}
