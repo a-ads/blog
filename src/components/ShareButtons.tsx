@@ -3,26 +3,8 @@ import {
   FacebookShareButton,
   TwitterShareButton,
   LinkedinShareButton,
-  TwitterIcon,
-  FacebookIcon,
-  LinkedinIcon,
 } from 'react-share'
-import { Btc, Envelope, Fb, Linkedin, Twitter } from '@icons'
-
-export const socials = {
-  twitter: {
-    to: 'https://twitter.com/aads_network',
-    icon: <Twitter />,
-  },
-  fb: {
-    to: 'https://www.facebook.com/aads.network/',
-    icon: <Fb />,
-  },
-  linkedin: {
-    to: 'https://www.linkedin.com/company/81936734/admin/',
-    icon: <Linkedin />,
-  },
-}
+import { Fb, Linkedin, Twitter } from '@icons'
 
 interface ShareButtonsProps {
   url: string
