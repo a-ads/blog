@@ -49,11 +49,9 @@ const extractFilename = (filePath: string) => {
 const TableOfContents = ({
   toc,
   className,
-  text,
 }: {
   toc: InnerHtmlString
   className?: string
-  text: string
 }) => {
   const url = typeof window !== 'undefined' ? window.location.href : ''
   return (
@@ -61,10 +59,7 @@ const TableOfContents = ({
       <div className='up-desktop:sticky top-0 left-0 down-desktop:mt-8 down-desktop:mb-10 phone:my-7'>
         {/* Social buttons row */}
         <header className='flex items-end gap-8 down-desktop:hidden h-[6rem] mb-7'>
-          <ShareButtons url={url} text={'test'} />
-          {/*{(['twitter', 'fb', 'btc'] as SocialId[]).map((socialId) => (*/}
-          {/*  <SocialButton key={socialId} socialId={socialId} />*/}
-          {/*))}*/}
+          <ShareButtons url={url} text={''} />
         </header>
 
         {/* If it's a short article, then the table of contents isn't passed  */}
@@ -180,7 +175,6 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
       <main className='relative pb-20'>
         <div className='container grid grid-cols-12 gap-8 down-desktop:block'>
           <TableOfContents
-            text={html}
             toc={table_of_contents}
             className='col-span-3 down-desktop:hidden'
           />
