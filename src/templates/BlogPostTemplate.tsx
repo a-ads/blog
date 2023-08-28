@@ -4,11 +4,13 @@ import { kebabCase } from 'lodash-es'
 import cn from 'classnames'
 
 import { Link, Slider } from '@ui'
-import { SocialButton, Breadcrumbs, Seo, Card, Banner } from '@components'
+import { Breadcrumbs, Seo, Card, Banner } from '@components'
+import ShareButtons from '../components/ShareButtons'
 import type { SocialId } from 'src/components/SocialButton'
 import { useLocation } from '@reach/router'
 
 export function Head({ pageContext: { post, author } }) {
+
   return (
     <Seo title={post.meta_title} description={post.meta_description}>
       {post.json_ld ? (
@@ -100,15 +102,15 @@ const TableOfContents = ({
 }: {
   toc: InnerHtmlString
   className?: string
-}) => (
-  <nav className={cn('relative toc-gatsby-config', className)}>
-    <div className='up-desktop:sticky top-0 left-0 down-desktop:mt-8 down-desktop:mb-10 phone:my-7'>
-      {/* Social buttons row */}
-      <header className='flex items-end gap-8 down-desktop:hidden h-[6rem] mb-7'>
-        {(['twitter', 'fb', 'btc'] as SocialId[]).map((socialId) => (
-          <SocialButton key={socialId} socialId={socialId} />
-        ))}
-      </header>
+}) => {
+  const url = typeof window !== 'undefined' ? window.location.href : ''
+  return (
+    <nav className={cn('relative toc-gatsby-config', className)}>
+      <div className='up-desktop:sticky top-0 left-0 down-desktop:mt-8 down-desktop:mb-10 phone:my-7'>
+        {/* Social buttons row */}
+        <header className='flex items-end gap-8 down-desktop:hidden h-[6rem] mb-7'>
+          <ShareButtons url={url} text={''} />
+        </header>
 
       {/* If it's a short article, then the table of contents isn't passed  */}
       {toc && (

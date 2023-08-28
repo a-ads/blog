@@ -16,8 +16,6 @@ Adeniyi is a lover of financial freedom and preaches the ideals of crypto to pro
 
 Adeniyi's an avid lover of football and a Man City supporter. He also owns tokens spread across different crypto ecosystem. You can follow him on twitter @crypevangelist or find his youtube channel for more analysis.
 
-
-
 M﻿ore about Adeniyi:
 
 [Y﻿ouTube](https://www.youtube.com/@thecryptoevangelist7004) 
@@ -25,3 +23,7 @@ M﻿ore about Adeniyi:
 [T﻿elegram](https://t.me/thecryptoevangelist)
 
 [L﻿inkedIn](https://www.linkedin.com/in/adeniyi-olowoporoku-/)
+
+[T﻿witter](https://twitter.com/crypevangelist)
+
+[F﻿acebook](https://www.facebook.com/olowoporoku.adeniyi/)
