@@ -17,13 +17,36 @@ export function Head({ pageContext: { post, author } }) {
       pathname={`/blog${location.pathname}`}
     >
       {post.json_ld ? (
-        <script
-          type='application/ld+json'
-          dangerouslySetInnerHTML={{ __html: post.json_ld }}
-        />
+        <script type='application/ld+json'>
+          {`[${post.json_ld},
+          {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Blog",
+            "item": "https://a-ads.com/blog/"
+            },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "${post.category_top_level[0]}",
+            "item": "https://a-ads.com/blog/categories/${
+              post.category_top_level[0]
+            }/"
+            },{
+            "@type": "ListItem",
+            "position": 3,
+            "name": ${post?.category_second_level?.[0] || ''}
+            "item": "https://a-ads.com/blog/categories/${
+              post?.category_second_level?.[0] || ''
+            }/"
+            }]
+          }]`}
+        </script>
       ) : (
         <script type='application/ld+json'>
-          {`{
+          {`[{
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "${post.meta_title}",
@@ -38,7 +61,31 @@ export function Head({ pageContext: { post, author } }) {
               post.thumbnail?.childImageSharp?.gatsbyImageData?.images?.fallback
                 ?.src
             )}"]
-          }`}
+          },
+          {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Blog",
+            "item": "https://a-ads.com/blog/"
+            },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "${post.category_top_level[0]}",
+            "item": "https://a-ads.com/blog/categories/${
+              post.category_top_level[0]
+            }/"
+            },{
+            "@type": "ListItem",
+            "position": 3,
+            "name": ${post.category_second_level?.[0]}
+            "item": "https://a-ads.com/blog/categories/${
+              post.category_second_level?.[0]
+            }/"
+            }]
+          }]`}
         </script>
       )}
     </Seo>
@@ -164,6 +211,20 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
     post.category_second_level?.[0],
   ].filter(Boolean) as string[]
 
+  const location = useLocation()
+
+  const notDuplicateArrayPosts = related_posts.filter((item) => {
+    const fullPath = location.pathname
+    let afterBlog
+
+    if (location.pathname.includes('/blog')) {
+      afterBlog = fullPath.substring(fullPath.indexOf('/blog') + '/blog'.length)
+    } else {
+      afterBlog = fullPath
+    }
+    return item.slug !== decodeURIComponent(afterBlog.replace(/\//g, ''))
+  })
+
   return (
     <>
       <header
@@ -270,7 +331,7 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
             Also read related articles
           </span>
           <Slider>
-            {related_posts.map((relatedPost) => (
+            {notDuplicateArrayPosts.map((relatedPost) => (
               // Hacky way to insert gaps between cards
               <div>
                 <Card
