@@ -1,47 +1,25 @@
 import React from 'react'
 import { getImage, GatsbyImage, StaticImage } from 'gatsby-plugin-image'
-import { kebabCase } from 'lodash-es'
+import { get, kebabCase } from 'lodash-es'
 import cn from 'classnames'
 
 import { Link, Slider } from '@ui'
 import { SocialButton, Breadcrumbs, Seo, Card, Banner } from '@components'
 import type { SocialId } from 'src/components/SocialButton'
-import { useLocation } from '@reach/router'
+import ShareButtons from '../components/ShareButtons'
 
 export function Head({ pageContext: { post, author } }) {
+  console.log(post, 'postpostpostpostpostpost')
   return (
     <Seo title={post.meta_title} description={post.meta_description}>
       {post.json_ld ? (
-        <script type='application/ld+json'>
-          {`[${post.json_ld},
-          {
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [{
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Blog",
-            "item": "https://a-ads.com/blog/"
-            },{
-            "@type": "ListItem",
-            "position": 2,
-            "name": "${post.category_top_level[0]}",
-            "item": "https://a-ads.com/blog/categories/${
-              post.category_top_level[0]
-            }/"
-            },{
-            "@type": "ListItem",
-            "position": 3,
-            "name": ${post?.category_second_level?.[0] || ''}
-            "item": "https://a-ads.com/blog/categories/${
-              post?.category_second_level?.[0] || ''
-            }/"
-            }]
-          }]`}
-        </script>
+        <script
+          type='application/ld+json'
+          dangerouslySetInnerHTML={{ __html: post.json_ld }}
+        />
       ) : (
         <script type='application/ld+json'>
-          {`[{
+          {`{
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "${post.meta_title}",
@@ -56,31 +34,7 @@ export function Head({ pageContext: { post, author } }) {
               post.thumbnail?.childImageSharp?.gatsbyImageData?.images?.fallback
                 ?.src
             )}"]
-          },
-          {
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [{
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Blog",
-            "item": "https://a-ads.com/blog/"
-            },{
-            "@type": "ListItem",
-            "position": 2,
-            "name": "${post.category_top_level[0]}",
-            "item": "https://a-ads.com/blog/categories/${
-              post.category_top_level[0]
-            }/"
-            },{
-            "@type": "ListItem",
-            "position": 3,
-            "name": ${post.category_second_level?.[0]}
-            "item": "https://a-ads.com/blog/categories/${
-              post.category_second_level?.[0]
-            }/"
-            }]
-          }]`}
+          }`}
         </script>
       )}
     </Seo>
@@ -97,72 +51,80 @@ const extractFilename = (filePath: string) => {
 const TableOfContents = ({
   toc,
   className,
+  text,
 }: {
   toc: InnerHtmlString
   className?: string
-}) => (
-  <nav className={cn('relative toc-gatsby-config', className)}>
-    <div className='up-desktop:sticky top-0 left-0 down-desktop:mt-8 down-desktop:mb-10 phone:my-7'>
-      {/* Social buttons row */}
-      <header className='flex items-end gap-8 down-desktop:hidden h-[6rem] mb-7'>
-        {(['twitter', 'fb', 'btc'] as SocialId[]).map((socialId) => (
-          <SocialButton key={socialId} socialId={socialId} />
-        ))}
-      </header>
+  text: string
+}) => {
+  const url = typeof window !== 'undefined' ? window.location.href : ''
+  return (
+    <nav className={cn('relative toc-gatsby-config', className)}>
+      <div className='up-desktop:sticky top-0 left-0 down-desktop:mt-8 down-desktop:mb-10 phone:my-7'>
+        {/* Social buttons row */}
+        <header className='flex items-end gap-8 down-desktop:hidden h-[6rem] mb-7'>
+          <ShareButtons url={url} text={'test'} />
+          {/*{(['twitter', 'fb', 'btc'] as SocialId[]).map((socialId) => (*/}
+          {/*  <SocialButton key={socialId} socialId={socialId} />*/}
+          {/*))}*/}
+        </header>
 
-      {/* If it's a short article, then the table of contents isn't passed  */}
-      {toc && (
-        <span className='h5 clr-black font-semibold'>Read in the article:</span>
-      )}
-
-      <div className='up-desktop:overflow-y-auto up-desktop:max-h-screen scroll-smooth'>
-        {/* Same here  */}
+        {/* If it's a short article, then the table of contents isn't passed  */}
         {toc && (
-          <div
-            aria-label='Table of contents'
-            className='hover-link-blue mt-3 [&>ul]:flex [&>ul]:flex-col [&>ul]:gap-2 [&>ul]:body-4 [&>ul]:clr-blue'
-            dangerouslySetInnerHTML={{ __html: toc }}
-          />
+          <span className='h5 clr-black font-semibold'>
+            Read in the article:
+          </span>
         )}
-        <div
-          aria-label='Banner'
-          className={cn('relative down-desktop:hidden', {
-            'mt-6': Boolean(toc),
-          })}
-        >
-          <div className='flex flex-col gap-4 z-1 relative p-7'>
-            <StaticImage
-              src='../../static/images/banners/banner-logo.png'
-              alt='Logo'
-              width={70}
-              height={18}
-              layout='fixed'
-              placeholder='blurred'
+
+        <div className='up-desktop:overflow-y-auto up-desktop:max-h-screen scroll-smooth'>
+          {/* Same here  */}
+          {toc && (
+            <div
+              aria-label='Table of contents'
+              className='hover-link-blue mt-3 [&>ul]:flex [&>ul]:flex-col [&>ul]:gap-2 [&>ul]:body-4 [&>ul]:clr-blue'
+              dangerouslySetInnerHTML={{ __html: toc }}
             />
-            <span className='clr-white font-bold text-[22px] font-secondary'>
-              Promote your crypto project with us!
-            </span>
-            <Link
-              external
-              primary
-              text='Start now'
-              to='https://a-ads.com/campaigns/new'
-              className='hover-link w-full h-12'
+          )}
+          <div
+            aria-label='Banner'
+            className={cn('relative down-desktop:hidden', {
+              'mt-6': Boolean(toc),
+            })}
+          >
+            <div className='flex flex-col gap-4 z-1 relative p-7'>
+              <StaticImage
+                src='../../static/images/banners/banner-logo.png'
+                alt='Logo'
+                width={70}
+                height={18}
+                layout='fixed'
+                placeholder='blurred'
+              />
+              <span className='clr-white font-bold text-[22px] font-secondary'>
+                Promote your crypto project with us!
+              </span>
+              <Link
+                external
+                primary
+                text='Start now'
+                to='https://a-ads.com/campaigns/new'
+                className='hover-link w-full h-12'
+              />
+            </div>
+            <StaticImage
+              src='../../static/images/banners/small-banner.jpg'
+              alt='Banner'
+              layout='fullWidth'
+              placeholder='blurred'
+              className='!absolute top-0 left-0 w-full h-full'
+              imgStyle={{ zIndex: -1 }}
             />
           </div>
-          <StaticImage
-            src='../../static/images/banners/small-banner.jpg'
-            alt='Banner'
-            layout='fullWidth'
-            placeholder='blurred'
-            className='!absolute top-0 left-0 w-full h-full'
-            imgStyle={{ zIndex: -1 }}
-          />
         </div>
       </div>
-    </div>
-  </nav>
-)
+    </nav>
+  )
+}
 
 interface BlogPostPageProps {
   pageContext: {
@@ -200,21 +162,7 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
     post.category_second_level?.[0],
   ].filter(Boolean) as string[]
 
-  const location = useLocation()
-
-  const notDuplicateArrayPosts = related_posts.filter((item) => {
-    const fullPath = location.pathname
-    let afterBlog
-
-    if (location.pathname.includes('/blog')) {
-      afterBlog = fullPath.substring(fullPath.indexOf('/blog') + '/blog'.length)
-    } else {
-      afterBlog = fullPath
-    }
-    return item.slug !== decodeURIComponent(afterBlog.replace(/\//g, ''))
-  })
-
-  console.log(notDuplicateArrayPosts, 'notDuplicateArrayPosts')
+  console.log(html, 'html')
 
   return (
     <>
@@ -236,6 +184,7 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
       <main className='relative pb-20'>
         <div className='container grid grid-cols-12 gap-8 down-desktop:block'>
           <TableOfContents
+            text={html}
             toc={table_of_contents}
             className='col-span-3 down-desktop:hidden'
           />
@@ -322,7 +271,7 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
             Also read related articles
           </span>
           <Slider>
-            {notDuplicateArrayPosts.map((relatedPost) => (
+            {related_posts.map((relatedPost) => (
               // Hacky way to insert gaps between cards
               <div>
                 <Card
