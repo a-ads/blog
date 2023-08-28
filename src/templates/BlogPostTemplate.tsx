@@ -6,11 +6,9 @@ import cn from 'classnames'
 import { Link, Slider } from '@ui'
 import { Breadcrumbs, Seo, Card, Banner } from '@components'
 import ShareButtons from '../components/ShareButtons'
-import type { SocialId } from 'src/components/SocialButton'
 import { useLocation } from '@reach/router'
 
 export function Head({ pageContext: { post, author } }) {
-
   return (
     <Seo title={post.meta_title} description={post.meta_description}>
       {post.json_ld ? (
@@ -112,59 +110,62 @@ const TableOfContents = ({
           <ShareButtons url={url} text={''} />
         </header>
 
-      {/* If it's a short article, then the table of contents isn't passed  */}
-      {toc && (
-        <span className='h5 clr-black font-semibold'>Read in the article:</span>
-      )}
-
-      <div className='up-desktop:overflow-y-auto up-desktop:max-h-screen scroll-smooth'>
-        {/* Same here  */}
+        {/* If it's a short article, then the table of contents isn't passed  */}
         {toc && (
-          <div
-            aria-label='Table of contents'
-            className='hover-link-blue mt-3 [&>ul]:flex [&>ul]:flex-col [&>ul]:gap-2 [&>ul]:body-4 [&>ul]:clr-blue'
-            dangerouslySetInnerHTML={{ __html: toc }}
-          />
+          <span className='h5 clr-black font-semibold'>
+            Read in the article:
+          </span>
         )}
-        <div
-          aria-label='Banner'
-          className={cn('relative down-desktop:hidden', {
-            'mt-6': Boolean(toc),
-          })}
-        >
-          <div className='flex flex-col gap-4 z-1 relative p-7'>
-            <StaticImage
-              src='../../static/images/banners/banner-logo.png'
-              alt='Logo'
-              width={70}
-              height={18}
-              layout='fixed'
-              placeholder='blurred'
+
+        <div className='up-desktop:overflow-y-auto up-desktop:max-h-screen scroll-smooth'>
+          {/* Same here  */}
+          {toc && (
+            <div
+              aria-label='Table of contents'
+              className='hover-link-blue mt-3 [&>ul]:flex [&>ul]:flex-col [&>ul]:gap-2 [&>ul]:body-4 [&>ul]:clr-blue'
+              dangerouslySetInnerHTML={{ __html: toc }}
             />
-            <span className='clr-white font-bold text-[22px] font-secondary'>
-              Promote your crypto project with us!
-            </span>
-            <Link
-              external
-              primary
-              text='Start now'
-              to='https://a-ads.com/campaigns/new'
-              className='hover-link w-full h-12'
+          )}
+          <div
+            aria-label='Banner'
+            className={cn('relative down-desktop:hidden', {
+              'mt-6': Boolean(toc),
+            })}
+          >
+            <div className='flex flex-col gap-4 z-1 relative p-7'>
+              <StaticImage
+                src='../../static/images/banners/banner-logo.png'
+                alt='Logo'
+                width={70}
+                height={18}
+                layout='fixed'
+                placeholder='blurred'
+              />
+              <span className='clr-white font-bold text-[22px] font-secondary'>
+                Promote your crypto project with us!
+              </span>
+              <Link
+                external
+                primary
+                text='Start now'
+                to='https://a-ads.com/campaigns/new'
+                className='hover-link w-full h-12'
+              />
+            </div>
+            <StaticImage
+              src='../../static/images/banners/small-banner.jpg'
+              alt='Banner'
+              layout='fullWidth'
+              placeholder='blurred'
+              className='!absolute top-0 left-0 w-full h-full'
+              imgStyle={{ zIndex: -1 }}
             />
           </div>
-          <StaticImage
-            src='../../static/images/banners/small-banner.jpg'
-            alt='Banner'
-            layout='fullWidth'
-            placeholder='blurred'
-            className='!absolute top-0 left-0 w-full h-full'
-            imgStyle={{ zIndex: -1 }}
-          />
         </div>
       </div>
-    </div>
-  </nav>
-)
+    </nav>
+  )
+}
 
 interface BlogPostPageProps {
   pageContext: {
@@ -215,8 +216,6 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
     }
     return item.slug !== decodeURIComponent(afterBlog.replace(/\//g, ''))
   })
-
-  console.log(notDuplicateArrayPosts, 'notDuplicateArrayPosts')
 
   return (
     <>
