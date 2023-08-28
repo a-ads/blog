@@ -82,19 +82,21 @@ const BlogPostGrid = ({
   useEffect(() => {
     if (setBlogPostGrid) {
       setBlogPostGrid(true)
-      if (currentPage > 1) {
-        setCanonicalLink(
-          `${location.origin}${location.pathname}?page=${currentPage}`
-        )
-      } else {
-        setCanonicalLink(`${location.origin}${location.pathname}`)
-      }
+    }
 
-      if (typeof window !== 'undefined') {
-        const linkElement = document.querySelector('link[rel="canonical"]')
-        if (linkElement) {
-          linkElement.setAttribute('href', canonicalLink)
-        }
+    if (currentPage > 1) {
+      setCanonicalLink(
+        `${location.origin}${location.pathname}?page=${currentPage}`
+      )
+    } else {
+      setCanonicalLink(`${location.origin}${location.pathname}`)
+    }
+
+    if (typeof window !== 'undefined') {
+      const linkElement = document.querySelector('link[rel="canonical"]')
+      console.log(linkElement, 'linkElement')
+      if (linkElement) {
+        linkElement.setAttribute('href', canonicalLink)
       }
     }
   }, [currentPage, canonicalLink])
