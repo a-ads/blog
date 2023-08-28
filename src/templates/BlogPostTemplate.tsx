@@ -1,15 +1,13 @@
 import React from 'react'
 import { getImage, GatsbyImage, StaticImage } from 'gatsby-plugin-image'
-import { get, kebabCase } from 'lodash-es'
+import { kebabCase } from 'lodash-es'
 import cn from 'classnames'
 
 import { Link, Slider } from '@ui'
-import { SocialButton, Breadcrumbs, Seo, Card, Banner } from '@components'
-import type { SocialId } from 'src/components/SocialButton'
+import { Breadcrumbs, Seo, Card, Banner } from '@components'
 import ShareButtons from '../components/ShareButtons'
 
 export function Head({ pageContext: { post, author } }) {
-  console.log(post, 'postpostpostpostpostpost')
   return (
     <Seo title={post.meta_title} description={post.meta_description}>
       {post.json_ld ? (
@@ -161,8 +159,6 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
     post.category_top_level?.[0],
     post.category_second_level?.[0],
   ].filter(Boolean) as string[]
-
-  console.log(html, 'html')
 
   return (
     <>
