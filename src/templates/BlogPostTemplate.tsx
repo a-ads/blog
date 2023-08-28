@@ -6,18 +6,44 @@ import cn from 'classnames'
 import { Link, Slider } from '@ui'
 import { Breadcrumbs, Seo, Card, Banner } from '@components'
 import ShareButtons from '../components/ShareButtons'
+import type { SocialId } from 'src/components/SocialButton'
+import { useLocation } from '@reach/router'
 
 export function Head({ pageContext: { post, author } }) {
+
   return (
     <Seo title={post.meta_title} description={post.meta_description}>
       {post.json_ld ? (
-        <script
-          type='application/ld+json'
-          dangerouslySetInnerHTML={{ __html: post.json_ld }}
-        />
+        <script type='application/ld+json'>
+          {`[${post.json_ld},
+          {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Blog",
+            "item": "https://a-ads.com/blog/"
+            },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "${post.category_top_level[0]}",
+            "item": "https://a-ads.com/blog/categories/${
+              post.category_top_level[0]
+            }/"
+            },{
+            "@type": "ListItem",
+            "position": 3,
+            "name": ${post?.category_second_level?.[0] || ''}
+            "item": "https://a-ads.com/blog/categories/${
+              post?.category_second_level?.[0] || ''
+            }/"
+            }]
+          }]`}
+        </script>
       ) : (
         <script type='application/ld+json'>
-          {`{
+          {`[{
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "${post.meta_title}",
@@ -32,7 +58,31 @@ export function Head({ pageContext: { post, author } }) {
               post.thumbnail?.childImageSharp?.gatsbyImageData?.images?.fallback
                 ?.src
             )}"]
-          }`}
+          },
+          {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Blog",
+            "item": "https://a-ads.com/blog/"
+            },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "${post.category_top_level[0]}",
+            "item": "https://a-ads.com/blog/categories/${
+              post.category_top_level[0]
+            }/"
+            },{
+            "@type": "ListItem",
+            "position": 3,
+            "name": ${post.category_second_level?.[0]}
+            "item": "https://a-ads.com/blog/categories/${
+              post.category_second_level?.[0]
+            }/"
+            }]
+          }]`}
         </script>
       )}
     </Seo>
@@ -62,62 +112,59 @@ const TableOfContents = ({
           <ShareButtons url={url} text={''} />
         </header>
 
-        {/* If it's a short article, then the table of contents isn't passed  */}
-        {toc && (
-          <span className='h5 clr-black font-semibold'>
-            Read in the article:
-          </span>
-        )}
+      {/* If it's a short article, then the table of contents isn't passed  */}
+      {toc && (
+        <span className='h5 clr-black font-semibold'>Read in the article:</span>
+      )}
 
-        <div className='up-desktop:overflow-y-auto up-desktop:max-h-screen scroll-smooth'>
-          {/* Same here  */}
-          {toc && (
-            <div
-              aria-label='Table of contents'
-              className='hover-link-blue mt-3 [&>ul]:flex [&>ul]:flex-col [&>ul]:gap-2 [&>ul]:body-4 [&>ul]:clr-blue'
-              dangerouslySetInnerHTML={{ __html: toc }}
-            />
-          )}
+      <div className='up-desktop:overflow-y-auto up-desktop:max-h-screen scroll-smooth'>
+        {/* Same here  */}
+        {toc && (
           <div
-            aria-label='Banner'
-            className={cn('relative down-desktop:hidden', {
-              'mt-6': Boolean(toc),
-            })}
-          >
-            <div className='flex flex-col gap-4 z-1 relative p-7'>
-              <StaticImage
-                src='../../static/images/banners/banner-logo.png'
-                alt='Logo'
-                width={70}
-                height={18}
-                layout='fixed'
-                placeholder='blurred'
-              />
-              <span className='clr-white font-bold text-[22px] font-secondary'>
-                Promote your crypto project with us!
-              </span>
-              <Link
-                external
-                primary
-                text='Start now'
-                to='https://a-ads.com/campaigns/new'
-                className='hover-link w-full h-12'
-              />
-            </div>
+            aria-label='Table of contents'
+            className='hover-link-blue mt-3 [&>ul]:flex [&>ul]:flex-col [&>ul]:gap-2 [&>ul]:body-4 [&>ul]:clr-blue'
+            dangerouslySetInnerHTML={{ __html: toc }}
+          />
+        )}
+        <div
+          aria-label='Banner'
+          className={cn('relative down-desktop:hidden', {
+            'mt-6': Boolean(toc),
+          })}
+        >
+          <div className='flex flex-col gap-4 z-1 relative p-7'>
             <StaticImage
-              src='../../static/images/banners/small-banner.jpg'
-              alt='Banner'
-              layout='fullWidth'
+              src='../../static/images/banners/banner-logo.png'
+              alt='Logo'
+              width={70}
+              height={18}
+              layout='fixed'
               placeholder='blurred'
-              className='!absolute top-0 left-0 w-full h-full'
-              imgStyle={{ zIndex: -1 }}
+            />
+            <span className='clr-white font-bold text-[22px] font-secondary'>
+              Promote your crypto project with us!
+            </span>
+            <Link
+              external
+              primary
+              text='Start now'
+              to='https://a-ads.com/campaigns/new'
+              className='hover-link w-full h-12'
             />
           </div>
+          <StaticImage
+            src='../../static/images/banners/small-banner.jpg'
+            alt='Banner'
+            layout='fullWidth'
+            placeholder='blurred'
+            className='!absolute top-0 left-0 w-full h-full'
+            imgStyle={{ zIndex: -1 }}
+          />
         </div>
       </div>
-    </nav>
-  )
-}
+    </div>
+  </nav>
+)
 
 interface BlogPostPageProps {
   pageContext: {
@@ -154,6 +201,22 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
     post.category_top_level?.[0],
     post.category_second_level?.[0],
   ].filter(Boolean) as string[]
+
+  const location = useLocation()
+
+  const notDuplicateArrayPosts = related_posts.filter((item) => {
+    const fullPath = location.pathname
+    let afterBlog
+
+    if (location.pathname.includes('/blog')) {
+      afterBlog = fullPath.substring(fullPath.indexOf('/blog') + '/blog'.length)
+    } else {
+      afterBlog = fullPath
+    }
+    return item.slug !== decodeURIComponent(afterBlog.replace(/\//g, ''))
+  })
+
+  console.log(notDuplicateArrayPosts, 'notDuplicateArrayPosts')
 
   return (
     <>
@@ -261,7 +324,7 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
             Also read related articles
           </span>
           <Slider>
-            {related_posts.map((relatedPost) => (
+            {notDuplicateArrayPosts.map((relatedPost) => (
               // Hacky way to insert gaps between cards
               <div>
                 <Card
