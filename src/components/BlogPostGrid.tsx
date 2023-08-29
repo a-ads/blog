@@ -3,9 +3,9 @@ import cn from 'classnames'
 import { uniqueId } from 'lodash-es'
 import { Card } from '@components'
 import { Helmet } from 'react-helmet'
-import '../components/ui/pagination/pagination.css'
-import { Link, navigate } from 'gatsby'
+import { navigate } from 'gatsby'
 import { useLocation } from '@reach/router'
+import Pagination from './ui/pagination'
 
 type BlogPostGridProps = {
   posts: BlogPostCard[]
@@ -29,15 +29,23 @@ const BlogPostGrid = ({
   setBlogPostGrid,
 }: BlogPostGridProps) => {
   const location = useLocation()
+  const [currentBlogs, setCurrentBlogs] = useState<BlogPostCard[]>([])
   const [canonicalLink, setCanonicalLink] = useState(
     `${location.origin}${location.pathname}`
   )
   const searchParams = new URLSearchParams(location.search)
   const currentPage = parseInt(searchParams.get('page') as string) || 1
 
-  const indexOfLastBlog = currentPage * amount
-  const indexOfFirstBlog = indexOfLastBlog - amount
-  const currentBlogs = posts.slice(indexOfFirstBlog, indexOfLastBlog)
+  useEffect(() => {
+    const indexOfLastBlog = currentPage * amount
+    const indexOfFirstBlog = indexOfLastBlog - amount
+
+    if (posts.length <= amount) {
+      setCurrentBlogs(posts)
+    } else {
+      setCurrentBlogs(posts.slice(indexOfFirstBlog, indexOfLastBlog))
+    }
+  }, [currentPage, posts])
 
   const totalPages = Math.ceil(posts.length / amount)
   const maxDisplayPages = 5
@@ -101,6 +109,12 @@ const BlogPostGrid = ({
     }
   }, [currentPage, canonicalLink])
 
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      window.scrollTo(0, 0)
+    }
+  }, [currentPage])
+
   return (
     <>
       <Helmet>
@@ -124,40 +138,13 @@ const BlogPostGrid = ({
             />
           ))}
       </div>
-      {displayPageNumbers.length > 1 && (
-        <ul className='pagination'>
-          <button
-            onClick={() => goToPage(currentPage - 1)}
-            disabled={currentPage === 1}
-          >
-            {'<'}
-          </button>
-          {canLoadMore &&
-            displayPageNumbers.map((number) => {
-              return (
-                <li className={currentPage === number ? 'active' : ''}>
-                  <Link
-                    to={
-                      number === 1
-                        ? `${location.origin}${location.pathname}`
-                        : `${location.origin}${location.pathname}?page=${number}`
-                    }
-                    key={number}
-                    className={currentPage === number ? 'active' : ''}
-                  >
-                    {number}
-                  </Link>
-                </li>
-              )
-            })}
-          <button
-            onClick={() => goToPage(currentPage + 1)}
-            disabled={currentPage === pageNumbers.length}
-          >
-            {'>'}
-          </button>
-        </ul>
-      )}
+      <Pagination
+        goToPage={goToPage}
+        displayPageNumbers={displayPageNumbers}
+        canLoadMore={canLoadMore}
+        pageNumbers={pageNumbers}
+        currentPage={currentPage}
+      />
     </>
   )
 }
