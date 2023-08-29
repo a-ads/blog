@@ -42,29 +42,21 @@ const CategoryTemplate = (props: CategoryPageProps) => {
           </h1>
 
           <div className='flex gap-8 mb-7 up-desktop:mb-10 phone:mb-6 scroll-section'>
-            {category === 'Guides'
-              ? subcategories.map((subcat, index) => {
-                  return (
-                    <Link
-                      key={index}
-                      text={subcat}
-                      to={toCategoryLink(category, subcat)}
-                      baseCn='flex-center px-8 py-4 max-w-50 clr-black rounded whitespace-nowrap bg-gradient'
-                      // On active:
-                      className='hover-btn aria-[current="page"]:!bg-[#03a9f41a] aria-[current="page"]:!clr-blue aria-[current="page"]:font-extrabold'
-                    />
-                  )
-                })
-              : null}
+            {category === 'Guides' &&
+              subcategories.map((subcat, index) => {
+                return (
+                  <Link
+                    key={index}
+                    text={subcat}
+                    to={toCategoryLink(category, subcat)}
+                    baseCn='flex-center px-8 py-4 max-w-50 clr-black rounded whitespace-nowrap bg-gradient'
+                    // On active:
+                    className='hover-btn aria-[current="page"]:!bg-[#03a9f41a] aria-[current="page"]:!clr-blue aria-[current="page"]:font-extrabold'
+                  />
+                )
+              })}
           </div>
         </section>
-
-        {/*<BlogPostGrid*/}
-        {/*  posts={take(posts, 5)}*/}
-        {/*  className='mb-[70px] tablet:mb-[60px] phone:mb-12'*/}
-        {/*/>*/}
-
-        {/*<Banner />*/}
 
         <BlogPostGrid
           posts={[...take(posts, 5), ...drop(posts, 5)]}
