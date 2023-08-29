@@ -2,13 +2,21 @@ import React from 'react'
 import './pagination.css'
 import { Link } from 'gatsby'
 
+interface IPropsPagination {
+  goToPage: (page: number) => void
+  displayPageNumbers: number[]
+  canLoadMore?: boolean
+  pageNumbers: number[]
+  currentPage: number
+}
+
 const Pagination = ({
   goToPage,
   displayPageNumbers,
   canLoadMore,
   pageNumbers,
   currentPage,
-}: any) => {
+}: IPropsPagination) => {
   return (
     <>
       {displayPageNumbers.length > 1 && (
