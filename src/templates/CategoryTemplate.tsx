@@ -59,13 +59,6 @@ const CategoryTemplate = (props: CategoryPageProps) => {
           </div>
         </section>
 
-        {/*<BlogPostGrid*/}
-        {/*  posts={take(posts, 5)}*/}
-        {/*  className='mb-[70px] tablet:mb-[60px] phone:mb-12'*/}
-        {/*/>*/}
-
-        {/*<Banner />*/}
-
         <BlogPostGrid
           posts={[...take(posts, 5), ...drop(posts, 5)]}
           header={categoryObj.h1}
