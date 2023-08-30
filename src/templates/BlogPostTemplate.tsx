@@ -9,15 +9,23 @@ import ShareButtons from '../components/ShareButtons'
 import { useLocation } from '@reach/router'
 
 export function Head({ pageContext: { post, author } }) {
-  console.log(getImage(author.thumbnail)!, 'getImage(author.thumbnail)!')
+  const imageUrl = getImage(author.thumbnail)
   const location = useLocation()
 
   return (
     <Seo
       title={post.meta_title}
       description={post.meta_description}
-      pathname={`${location.origin}${location.pathname}`}
+      img={imageUrl?.placeholder?.fallback}
+      pathname={`${location.pathname}`}
     >
+      <meta property='og:title' content={post.meta_title} />
+      <meta property='og:image' content={imageUrl?.placeholder?.fallback} />
+      <meta
+        property='og:url'
+        content={`${location.origin}${location.pathname}`}
+      />
+      <meta property='og:type' content='website' />
       {post.json_ld ? (
         <script
           type='application/ld+json'
