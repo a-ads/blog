@@ -10,6 +10,7 @@ import { useLocation } from '@reach/router'
 
 export function Head({ pageContext: { post, author } }) {
   const location = useLocation()
+
   return (
     <Seo
       title={post.meta_title}
@@ -107,16 +108,13 @@ const TableOfContents = ({
   className?: string
 }) => {
   const location = useLocation()
-
-  console.log(`${location.pathname}`, 'pathname')
-  console.log(`${location.origin}`, 'origin')
   return (
     <nav className={cn('relative toc-gatsby-config', className)}>
       <div className='up-desktop:sticky top-0 left-0 down-desktop:mt-8 down-desktop:mb-10 phone:my-7'>
         {/* Social buttons row */}
         <header className='flex items-end gap-8 down-desktop:hidden h-[6rem] mb-7'>
           <ShareButtons
-            url={`https://a-ads.com${location.pathname}`}
+            url={`${location.origin}${location.pathname}`}
             text={''}
           />
         </header>
