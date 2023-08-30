@@ -24,10 +24,11 @@ interface SeoProps {
   pathname?: string
   children?: React.ReactNode
   json_ld?: string
+  img?: string
 }
 
 const Seo = (props: SeoProps) => {
-  const { title, description, pathname, children } = props
+  const { title, description, pathname, children, img } = props
   const {
     title: defaultTitle,
     description: defaultDescription,
@@ -38,7 +39,7 @@ const Seo = (props: SeoProps) => {
   const seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
-    image: `${siteUrl}${image}`,
+    image: img ? img : `${siteUrl}${image}`,
     url: `${siteUrl}${pathname || ``}`,
   }
 
