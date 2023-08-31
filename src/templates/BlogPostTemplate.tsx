@@ -23,7 +23,7 @@ export function Head({ pageContext: { post, author } }) {
       <meta property='og:image' content={imageUrl?.placeholder?.fallback} />
       <meta
         property='og:url'
-        content={`${location.origin}${location.pathname}`}
+        content={`https://a-ads.com/blog${location.pathname}`}
       />
       <meta property='og:type' content='website' />
       {post.json_ld ? (
@@ -76,7 +76,7 @@ const TableOfContents = ({
         {/* Social buttons row */}
         <header className='flex items-end gap-8 down-desktop:hidden h-[6rem] mb-7'>
           <ShareButtons
-            url={`${location.origin}${location.pathname}`}
+            url={`https://a-ads.com/blog${location.pathname}`}
             text={''}
           />
         </header>
