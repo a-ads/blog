@@ -11,17 +11,25 @@ import { useLocation } from '@reach/router'
 export function Head({ pageContext: { post, author } }) {
   const imageUrl = getImage(post.thumbnail)
   const location = useLocation()
+  console.log(`${imageUrl?.images?.fallback?.src}`, 'asdasd')
+  console.log(`${location.origin}`, 'origin')
+  console.log(`${location.pathname}`, 'pathname')
+
   return (
     <Seo
       title={post.meta_title}
       description={post.meta_description}
-      img={`https://a-ads.com${imageUrl?.images?.fallback?.src}`}
+      img={`${location.origin}${imageUrl?.images?.fallback?.src}`}
       // pathname={`${location.pathname}`}
     >
+      <meta
+        name='twitter:image'
+        content={`${location.origin}${imageUrl?.images?.fallback?.src}`}
+      />
       <meta property='og:title' content={post.meta_title} />
       <meta
         property='og:image'
-        content={`https://a-ads.com${imageUrl?.images?.fallback?.src}`}
+        content={`${location.origin}${imageUrl?.images?.fallback?.src}`}
       />
       <meta
         property='og:url'
