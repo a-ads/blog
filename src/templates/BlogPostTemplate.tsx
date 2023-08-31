@@ -9,18 +9,20 @@ import type { SocialId } from 'src/components/SocialButton'
 import { useLocation } from '@reach/router'
 
 export function Head({ pageContext: { post, author } }) {
-  const imageUrl = getImage(author.thumbnail)
+  const imageUrl = getImage(post.thumbnail)
   const location = useLocation()
-
   return (
     <Seo
       title={post.meta_title}
       description={post.meta_description}
-      img={imageUrl?.placeholder?.fallback}
+      img={`https://a-ads.com/blog${imageUrl?.images?.fallback?.src}`}
       pathname={`${location.pathname}`}
     >
       <meta property='og:title' content={post.meta_title} />
-      <meta property='og:image' content={imageUrl?.placeholder?.fallback} />
+      <meta
+        property='og:image'
+        content={`https://a-ads.com/blog${imageUrl?.images?.fallback?.src}`}
+      />
       <meta
         property='og:url'
         content={`${location.origin}${location.pathname}`}
