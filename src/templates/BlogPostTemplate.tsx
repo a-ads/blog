@@ -6,14 +6,32 @@ import cn from 'classnames'
 import { Link, Slider } from '@ui'
 import { SocialButton, Breadcrumbs, Seo, Card, Banner } from '@components'
 import type { SocialId } from 'src/components/SocialButton'
+import { useLocation } from '@reach/router'
 
 export function Head({ pageContext: { post, author } }) {
+  const imageUrl = getImage(author.thumbnail)
+  const location = useLocation()
 
   return (
-    <Seo title={post.meta_title} description={post.meta_description}>
-      {post.json_ld ? 
-        <script type='application/ld+json' dangerouslySetInnerHTML={{__html: post.json_ld}} />
-      :
+    <Seo
+      title={post.meta_title}
+      description={post.meta_description}
+      img={imageUrl?.placeholder?.fallback}
+      pathname={`${location.pathname}`}
+    >
+      <meta property='og:title' content={post.meta_title} />
+      <meta property='og:image' content={imageUrl?.placeholder?.fallback} />
+      <meta
+        property='og:url'
+        content={`${location.origin}${location.pathname}`}
+      />
+      <meta property='og:type' content='website' />
+      {post.json_ld ? (
+        <script
+          type='application/ld+json'
+          dangerouslySetInnerHTML={{ __html: post.json_ld }}
+        />
+      ) : (
         <script type='application/ld+json'>
           {`{
             "@context": "https://schema.org",
@@ -32,7 +50,7 @@ export function Head({ pageContext: { post, author } }) {
             )}"]
           }`}
         </script>
-      }
+      )}
     </Seo>
   )
 }
