@@ -16,7 +16,7 @@ export function Head({ pageContext: { post, author } }) {
       title={post.meta_title}
       description={post.meta_description}
       img={`https://a-ads.com${imageUrl?.images?.fallback?.src}`}
-      pathname={`${location.pathname}`}
+      // pathname={`${location.pathname}`}
     >
       <meta property='og:title' content={post.meta_title} />
       <meta
