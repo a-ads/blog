@@ -11,9 +11,6 @@ import { useLocation } from '@reach/router'
 export function Head({ pageContext: { post, author } }) {
   const imageUrl = getImage(post.thumbnail)
   const location = useLocation()
-  console.log(`${imageUrl?.images?.fallback?.src}`, 'asdasd')
-  console.log(`${location.origin}`, 'origin')
-  console.log(`${location.pathname}`, 'pathname')
 
   return (
     <Seo
@@ -36,11 +33,12 @@ export function Head({ pageContext: { post, author } }) {
         content={`https://a-ads.com${location.pathname}`}
       />
       <meta property='og:type' content='website' />
+      
+
       {post.json_ld ? (
         <script
           type='application/ld+json'
-          dangerouslySetInnerHTML={{ __html: post.json_ld }}
-        />
+        >{post.json_ld}</script>
       ) : (
         <script type='application/ld+json'>
           {`{
