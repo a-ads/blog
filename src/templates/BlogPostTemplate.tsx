@@ -9,56 +9,30 @@ import ShareButtons from '../components/ShareButtons'
 import { useLocation } from '@reach/router'
 
 export function Head({ pageContext: { post, author } }) {
-  const imageUrl = getImage(post.thumbnail)
   const location = useLocation()
   return (
     <Seo
       title={post.meta_title}
       description={post.meta_description}
-      img={`https://a-ads.com${imageUrl?.images?.fallback?.src}`}
+      img={'https://a-ads.com/blog/images/logo.png'}
       // pathname={`${location.pathname}`}
     >
       <meta property='og:title' content={post.meta_title} />
       <meta
         property='og:image'
-        content={`https://a-ads.com${imageUrl?.images?.fallback?.src}`}
+        content={'https://a-ads.com/blog/images/logo.png'}
       />
       <meta
         property='og:url'
         content={`https://a-ads.com${location.pathname}`}
       />
       <meta property='og:type' content='website' />
+
       {post.json_ld ? (
-        <script type='application/ld+json'>
-          {`[${post.json_ld},
-          {
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [{
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Blog",
-            "item": "https://a-ads.com/blog/"
-            },{
-            "@type": "ListItem",
-            "position": 2,
-            "name": "${post.category_top_level[0]}",
-            "item": "https://a-ads.com/blog/categories/${
-              post.category_top_level[0]
-            }/"
-            },{
-            "@type": "ListItem",
-            "position": 3,
-            "name": ${post?.category_second_level?.[0] || ''}
-            "item": "https://a-ads.com/blog/categories/${
-              post?.category_second_level?.[0] || ''
-            }/"
-            }]
-          }]`}
-        </script>
+        <script type='application/ld+json'>{post.json_ld}</script>
       ) : (
         <script type='application/ld+json'>
-          {`[{
+          {`{
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": "${post.meta_title}",
@@ -73,31 +47,7 @@ export function Head({ pageContext: { post, author } }) {
               post.thumbnail?.childImageSharp?.gatsbyImageData?.images?.fallback
                 ?.src
             )}"]
-          },
-          {
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [{
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Blog",
-            "item": "https://a-ads.com/blog/"
-            },{
-            "@type": "ListItem",
-            "position": 2,
-            "name": "${post.category_top_level[0]}",
-            "item": "https://a-ads.com/blog/categories/${
-              post.category_top_level[0]
-            }/"
-            },{
-            "@type": "ListItem",
-            "position": 3,
-            "name": ${post.category_second_level?.[0]}
-            "item": "https://a-ads.com/blog/categories/${
-              post.category_second_level?.[0]
-            }/"
-            }]
-          }]`}
+          }`}
         </script>
       )}
     </Seo>
@@ -125,7 +75,7 @@ const TableOfContents = ({
         {/* Social buttons row */}
         <header className='flex items-end gap-8 down-desktop:hidden h-[6rem] mb-7'>
           <ShareButtons
-            url={`https://a-ads.com${location.pathname}`}
+            url={`https://a-ads.com/blog${location.pathname}`}
             text={''}
           />
         </header>
@@ -222,20 +172,6 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
     post.category_top_level?.[0],
     post.category_second_level?.[0],
   ].filter(Boolean) as string[]
-
-  const location = useLocation()
-
-  const notDuplicateArrayPosts = related_posts.filter((item) => {
-    const fullPath = location.pathname
-    let afterBlog
-
-    if (location.pathname.includes('/blog')) {
-      afterBlog = fullPath.substring(fullPath.indexOf('/blog') + '/blog'.length)
-    } else {
-      afterBlog = fullPath
-    }
-    return item.slug !== decodeURIComponent(afterBlog.replace(/\//g, ''))
-  })
 
   return (
     <>
@@ -343,7 +279,7 @@ const BlogPostTemplate: React.FC<BlogPostPageProps> = ({
             Also read related articles
           </span>
           <Slider>
-            {notDuplicateArrayPosts.map((relatedPost) => (
+            {related_posts.map((relatedPost) => (
               // Hacky way to insert gaps between cards
               <div>
                 <Card
