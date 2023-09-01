@@ -9,14 +9,25 @@ import ShareButtons from '../components/ShareButtons'
 import { useLocation } from '@reach/router'
 
 export function Head({ pageContext: { post, author } }) {
+  const imageUrl = getImage(post.thumbnail)
   const location = useLocation()
-
   return (
     <Seo
       title={post.meta_title}
       description={post.meta_description}
+      img={`https://a-ads.com/blog${imageUrl?.images?.fallback?.src}`}
       pathname={`${location.pathname}`}
     >
+      <meta property='og:title' content={post.meta_title} />
+      <meta
+        property='og:image'
+        content={`https://a-ads.com/blog${imageUrl?.images?.fallback?.src}`}
+      />
+      <meta
+        property='og:url'
+        content={`https://a-ads.com/blog${location.pathname}`}
+      />
+      <meta property='og:type' content='website' />
       {post.json_ld ? (
         <script type='application/ld+json'>
           {`[${post.json_ld},
@@ -114,7 +125,7 @@ const TableOfContents = ({
         {/* Social buttons row */}
         <header className='flex items-end gap-8 down-desktop:hidden h-[6rem] mb-7'>
           <ShareButtons
-            url={`${location.origin}${location.pathname}`}
+            url={`https://a-ads.com/blog${location.pathname}`}
             text={''}
           />
         </header>
