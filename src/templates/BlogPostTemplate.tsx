@@ -15,17 +15,17 @@ export function Head({ pageContext: { post, author } }) {
     <Seo
       title={post.meta_title}
       description={post.meta_description}
-      img={`https://a-ads.com/blog${imageUrl?.images?.fallback?.src}`}
-      pathname={`${location.pathname}`}
+      img={`https://a-ads.com${imageUrl?.images?.fallback?.src}`}
+      // pathname={`${location.pathname}`}
     >
       <meta property='og:title' content={post.meta_title} />
       <meta
         property='og:image'
-        content={`https://a-ads.com/blog${imageUrl?.images?.fallback?.src}`}
+        content={`https://a-ads.com${imageUrl?.images?.fallback?.src}`}
       />
       <meta
         property='og:url'
-        content={`https://a-ads.com/blog${location.pathname}`}
+        content={`https://a-ads.com${location.pathname}`}
       />
       <meta property='og:type' content='website' />
       {post.json_ld ? (
