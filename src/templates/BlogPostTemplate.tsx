@@ -1,16 +1,15 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React from 'react'
 import { getImage, GatsbyImage, StaticImage } from 'gatsby-plugin-image'
 import { kebabCase } from 'lodash-es'
 import cn from 'classnames'
 
 import { Link, Slider } from '@ui'
-import { SocialButton, Breadcrumbs, Seo, Card, Banner } from '@components'
-import type { SocialId } from 'src/components/SocialButton'
+import { Breadcrumbs, Seo, Card, Banner } from '@components'
+import ShareButtons from '../components/ShareButtons'
 import { useLocation } from '@reach/router'
 
 export function Head({ pageContext: { post, author } }) {
   const location = useLocation()
-
   return (
     <Seo
       title={post.meta_title}
@@ -69,14 +68,16 @@ const TableOfContents = ({
   toc: InnerHtmlString
   className?: string
 }) => {
+  const location = useLocation()
   return (
     <nav className={cn('relative toc-gatsby-config', className)}>
       <div className='up-desktop:sticky top-0 left-0 down-desktop:mt-8 down-desktop:mb-10 phone:my-7'>
         {/* Social buttons row */}
-        <header className='flex items-end gap-8 down-desktop:hidden h-[4rem] mb-7'>
-          {(['twitter', 'fb', 'btc'] as SocialId[]).map((socialId) => (
-            <SocialButton key={socialId} socialId={socialId} />
-          ))}
+        <header className='flex items-end gap-8 down-desktop:hidden h-[6rem] mb-7'>
+          <ShareButtons
+            url={`${location.origin}${location.pathname}`}
+            text={''}
+          />
         </header>
 
         {/* If it's a short article, then the table of contents isn't passed  */}
@@ -86,7 +87,7 @@ const TableOfContents = ({
           </span>
         )}
 
-        <div className='aside-article up-desktop:overflow-y-auto up-desktop:max-h-screen scroll-smooth'>
+        <div className='up-desktop:overflow-y-auto up-desktop:max-h-screen scroll-smooth'>
           {/* Same here  */}
           {toc && (
             <div
