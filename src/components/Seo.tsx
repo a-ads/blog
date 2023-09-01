@@ -43,8 +43,6 @@ const Seo = (props: SeoProps) => {
     url: `${siteUrl}${pathname || ``}`,
   }
 
-  console.log(seo.image, 'eo.image')
-
   return (
     <>
       <title>{seo.title}</title>

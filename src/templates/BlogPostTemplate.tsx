@@ -2,7 +2,6 @@ import React from 'react'
 import { getImage, GatsbyImage, StaticImage } from 'gatsby-plugin-image'
 import { kebabCase } from 'lodash-es'
 import cn from 'classnames'
-import logoImg from 'images/logo.png'
 
 import { Link, Slider } from '@ui'
 import { SocialButton, Breadcrumbs, Seo, Card, Banner } from '@components'
@@ -16,11 +15,11 @@ export function Head({ pageContext: { post, author } }) {
     <Seo
       title={post.meta_title}
       description={post.meta_description}
-      img={logoImg}
+      img={'/blog/images/logo.png'}
       // pathname={`${location.pathname}`}
     >
       <meta property='og:title' content={post.meta_title} />
-      <meta property='og:image' content={logoImg} />
+      <meta property='og:image' content={'/blog/images/logo.png'} />
       <meta
         property='og:url'
         content={`https://a-ads.com${location.pathname}`}
