@@ -125,7 +125,7 @@ const TableOfContents = ({
         {/* Social buttons row */}
         <header className='flex items-end gap-8 down-desktop:hidden h-[6rem] mb-7'>
           <ShareButtons
-            url={`https://a-ads.com/blog${location.pathname}`}
+            url={`https://a-ads.com${location.pathname}`}
             text={''}
           />
         </header>
