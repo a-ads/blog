@@ -2,6 +2,7 @@ import React from 'react'
 import { getImage, GatsbyImage, StaticImage } from 'gatsby-plugin-image'
 import { kebabCase } from 'lodash-es'
 import cn from 'classnames'
+import logoImg from 'images/logo.png'
 
 import { Link, Slider } from '@ui'
 import { SocialButton, Breadcrumbs, Seo, Card, Banner } from '@components'
@@ -9,25 +10,17 @@ import type { SocialId } from 'src/components/SocialButton'
 import { useLocation } from '@reach/router'
 
 export function Head({ pageContext: { post, author } }) {
-  const imageUrl = getImage(post.thumbnail)
   const location = useLocation()
 
   return (
     <Seo
       title={post.meta_title}
       description={post.meta_description}
-      img={`https://a-ads.com${imageUrl?.images?.fallback?.src}`}
+      img={logoImg}
       // pathname={`${location.pathname}`}
     >
-      <meta
-        name='twitter:image'
-        content={`https://a-ads.com${imageUrl?.images?.fallback?.src}`}
-      />
       <meta property='og:title' content={post.meta_title} />
-      <meta
-        property='og:image'
-        content={`https://a-ads.com${imageUrl?.images?.fallback?.src}`}
-      />
+      <meta property='og:image' content={logoImg} />
       <meta
         property='og:url'
         content={`https://a-ads.com${location.pathname}`}
