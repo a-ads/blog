@@ -29,7 +29,7 @@ build_image_production:
     - echo 'Starting build image'
     - apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends curl tzdata awscli docker.io
     # push alert
-    - curl -X POST --data-urlencode "payload={\"channel\":\"#testchan\",\"username\":\"[CI::apps/blog]\",\"text\":\"${CI_COMMIT_AUTHOR% <*} has started deploying a new blog release to production with commit message '${CI_COMMIT_MESSAGE}'\", \"icon_emoji\":\":blossom:\"}" $SLACK_URL
+    - curl -X POST --data-urlencode "payload={\"channel\":\"#alerts-blog\",\"username\":\"[CI::apps/blog]\",\"text\":\"${CI_COMMIT_AUTHOR% <*} has started deploying a new blog release to production with commit message '${CI_COMMIT_MESSAGE}'\", \"icon_emoji\":\":blossom:\"}" $SLACK_URL
 
   script:
     # build_image_commands
@@ -57,7 +57,7 @@ production_deploy:
     - aws s3 cp ./public/ s3://$PROD_BUCKET/blog/ --recursive --acl public-read
     - aws s3 cp --content-type="text/vnd.yaml" --acl public-read --metadata-directive="REPLACE" s3://$PROD_BUCKET/blog/admin/config.yml s3://$PROD_BUCKET/blog/admin/config.yml 
     # push alert
-    - DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends curl && curl -X POST --data-urlencode "payload={\"channel\":\"#testchan\",\"username\":\"[CI::apps/blog]\",\"text\":\"${CI_COMMIT_AUTHOR% <*} has completed deploying a new blog release to production!\", \"icon_emoji\":\":blossom:\"}" $SLACK_URL
+    - DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends curl && curl -X POST --data-urlencode "payload={\"channel\":\"#alerts-blog\",\"username\":\"[CI::apps/blog]\",\"text\":\"${CI_COMMIT_AUTHOR% <*} has completed deploying a new blog release to production!\", \"icon_emoji\":\":blossom:\"}" $SLACK_URL
 
 
 build_image_staging:
@@ -75,7 +75,8 @@ build_image_staging:
     TMPDIR: ''
   before_script:
     - echo 'Starting build image'
-    - apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends tzdata awscli docker.io
+    - apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends curl tzdata awscli docker.io
+    - curl -X POST --data-urlencode "payload={\"channel\":\"#alerts-blog\",\"username\":\"[CI::apps/blog]\",\"text\":\"${CI_COMMIT_AUTHOR% <*} has started deploying a new blog release to stagins with commit message '${CI_COMMIT_MESSAGE}'\", \"icon_emoji\":\":blossom:\"}" $SLACK_URL
   script:
     # build_image_commands
     - eval $(aws ecr get-login --no-include-email)
@@ -102,7 +103,7 @@ deploy_staging:
     - node_modules/.bin/gatsby build --prefix-paths
     - aws s3 cp ./public/ s3://$STAGE_BUCKET/blog/ --recursive --acl public-read
     - aws s3 cp --content-type="text/vnd.yaml" --acl public-read --metadata-directive="REPLACE" s3://$STAGE_BUCKET/blog/admin/config.yml s3://$STAGE_BUCKET/blog/admin/config.yml
-
+    - DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends curl && curl -X POST --data-urlencode "payload={\"channel\":\"#alerts-blog\",\"username\":\"[CI::apps/blog]\",\"text\":\"${CI_COMMIT_AUTHOR% <*} has completed deploying a new blog release to staging!\", \"icon_emoji\":\":blossom:\"}" $SLACK_URL
 
 
     # # deploy_staging_commands
