@@ -40,24 +40,33 @@ See also [our article about Goal tracking](https://a-ads.com/blog/2019-10-16-why
 
 1. Create a traffic source (TS) element in Voluum. Voluum provides you with the A-ADS traffic source template, so you can use it and skip most of the manual setup. To use this template, perform the following steps:
 
-   * Go to the Traffic sources tab.
-     Click the New traffic source button.
-     ![](../../static/assets/15f5f1a36e61b0.png)
-   * Select the A-ADS template from the list of available templates.
-   * Click the Next button. The New traffic source form will appear.
-   * You can change or adjust (if necessary) any option in the New traffic     source form. Once you are done, click the Save button.
+   \- Go to the Traffic Sources tab
+
+   \- Click the New Traffic Source button
+
+   ![traffic source button](/blog/assets/15f5f1a36e61b0.png "1. traffic source button")
+
+   \- Select the A-ADS template from the list of available templates
+
+   \- Click the Next button. The New traffic source form will appear
+
+   \- You can change or adjust (if necessary) any option in the New traffic source form. Once you are done, click the Save button.
 
 ![Configure new traffic source](../../static/assets/ts-source.png "Configure new traffic source")
 
-2. Create an offer element. Read the Creating an Offer Element article [here](https://doc.voluum.com/en/adding_offer.html), to learn how to do that.
-3. (Optionally) Create a lander element. Read the Create a Lander Element article [here](https://doc.voluum.com/en/adding_simple_lander.html), to learn more.
-4. Create a campaign in Voluum with your earlier created traffic source element. If you don't know how to create a campaign in Voluum, find out [here](https://doc.voluum.com/en/create_simple_campaign.html).
-5. Log into your A-ADS account.
-6. Enable Goal tracking for your campaign at A-ADS as seen in the image below, if you don't have a campaign you can create one [here](https://a-ads.com/campaigns/new).
+
+
+1. Create an offer element. Read the Creating an Offer Element article [here](https://doc.voluum.com/en/adding_offer.html) to learn how to do that.
+2. (Optionally) Create a lander element. Read the Create a Lander Element article [here](https://doc.voluum.com/en/adding_simple_lander.html) to learn more.
+3. Create a campaign in Voluum with your earlier created traffic source element. If you need to learn how to create a campaign in Voluum, find out [here](https://doc.voluum.com/en/create_simple_campaign.html).
+4. Log into your A-ADS account.
+5. Enable Goal tracking for your campaign at A-ADS, as seen in the image below. If you don't have a campaign, you can create one [here](https://a-ads.com/campaigns/new).
+
+
 
 ![Goal tracking](../../static/assets/screenshot_from_2020-09-23_16-56-06.png "Goal tracking")
 
-You'll probably want to use the `partner` parameter to track the traffic source that brought a visitor to your site, and you can also use more parameters available for tracking. You can add them too.
+6. You'll probably want to use the partner parameter to track the traffic source that brought a visitor to your site, and you can also use more parameters available for tracking. You can add them, too.
 
 ![Goal tracking parameters](../../static/assets/screenshot_from_2020-09-23_16-58-55.png "Goal tracking parameters")
 
@@ -74,3 +83,11 @@ Suffix parameters/token in A-ADS and TS parameters/token in Voluum are correlate
 7. If you use redirect tracking, please, set your campaign URL as your Voluum campaign URL, remove the "?", and everything after.
 
 All done!
+
+**You Also May Like:**
+
+1.[FAQ for Advertisers](https://a-ads.com/blog/faq-for-advertisers/)
+
+2. [Advanced tracking with PeerClick](https://a-ads.com/blog/advanced-tracking-with-peerclick/)
+
+3. [10 Tips for Better Mobile Optimization in Crypto Advertising](https://a-ads.com/blog/ten-tips-for-better-mobile-optimization-in-crypto-advertising/)
