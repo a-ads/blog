@@ -2,9 +2,19 @@ import React from 'react'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { drop } from 'lodash-es'
 
-import { Banner, BlogPostGrid, Breadcrumbs, Seo } from '@components'
+import {
+  Banner,
+  BlogPostGrid,
+  Breadcrumbs,
+  Seo,
+  SocialButton,
+} from '@components'
 import { Icon } from '@ui'
 import { Pen } from '@icons'
+import SvgFb from '../components/icons/Fb'
+import SvgLinkedin from '../components/icons/Linkedin'
+import SvgTwitter from '../components/icons/Twitter'
+import { SocialId } from '../components/SocialButton'
 interface AuthorPageProps {
   pageContext: Author
 }
@@ -18,8 +28,23 @@ export function Head({ pageContext: { name, description, json_ld } }) {
 }
 
 const AuthorPage: React.FC<AuthorPageProps> = ({ pageContext }) => {
-  const { name, position, description, thumbnail, postCount, posts, html } =
-    pageContext
+  const {
+    name,
+    position,
+    description,
+    thumbnail,
+    postCount,
+    posts,
+    html,
+    twitter_link,
+    facebook_link,
+    linkedin_link,
+  } = pageContext
+  const socialBtn = [
+    { name: 'fb', to: facebook_link },
+    { name: 'twitter', to: twitter_link },
+    { name: 'linkedin', to: linkedin_link },
+  ]
 
   return (
     <>
@@ -30,11 +55,29 @@ const AuthorPage: React.FC<AuthorPageProps> = ({ pageContext }) => {
           omitCategoriesRoutePrefix
         />
         <div className='flex gap-x-8 gap-y-6 down-tablet:flex-wrap'>
-          <GatsbyImage
-            image={getImage(thumbnail)!}
-            alt={name}
-            className='flex-shrink-0 rounded-full author-img'
-          />
+          <aside className='aside'>
+            <GatsbyImage
+              image={getImage(thumbnail)!}
+              alt={name}
+              className='flex-shrink-0 rounded-full author-img'
+            />
+            <div className='social-net'>
+              {socialBtn.map((socialId, i) => {
+                return (
+                  socialId.to && (
+                    <SocialButton
+                      className='social-icon'
+                      key={i}
+                      icon={socialId.name}
+                      to={socialId.to}
+                      // @ts-ignore
+                      socialId={socialId.name}
+                    />
+                  )
+                )
+              })}
+            </div>
+          </aside>
           <div className='flex flex-col w-3/4 up-md:pl-8'>
             <h1 className='h1'>{name}</h1>
             <p className='body-1 !font-semibold font-secondary mt-2 mb-5 clr-secondary'>

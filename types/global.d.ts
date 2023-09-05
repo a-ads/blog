@@ -28,6 +28,8 @@ interface Author {
   postCount?: number
   posts?: BlogPostCard[]
   twitter_link?: string
+  facebook_link?: string
+  linkedin_link?: string
   html?: string
   json_ld?: string
 }
