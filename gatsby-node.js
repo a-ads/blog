@@ -134,6 +134,9 @@ exports.createPages = async ({ graphql, actions }) => {
               }
               position
               description
+              facebook_link
+              twitter_link
+              linkedin_link
               json_ld
             }
             html
@@ -242,6 +245,9 @@ exports.createPages = async ({ graphql, actions }) => {
         position: author.position,
         description: author.description,
         // education: author.education,
+        facebook_link: author.facebook_link || '',
+        twitter_link: author.twitter_link || '',
+        linkedin_link: author?.linkedin_link || '',
         html: author.html,
         json_ld: author.json_ld,
         postCount: authorBlogPostCount[author.name],

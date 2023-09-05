@@ -180,7 +180,7 @@ collections:
       - { name: position, label: Position }
       - { name: description, label: Description, widget: string }
       - { name: body, label: body, widget: markdown }
-      - { name: 'twitter_link', label: Twitter link, required: false }
-      - { name: 'facebook_link', label: Facebook link, required: false }
-      - { name: 'bitcointalk_link', label: Bitcointalk link, required: false }
+      - { name: twitter_link, label: Twitter, required: false }
+      - { name: facebook_link, label: Facebook, required: false }
+      - { name: linkedin_link, label: Linkedin, required: false }
       - { name: json_ld, widget: 'text', label: Json ld, required: false, default: '', }

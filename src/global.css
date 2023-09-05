@@ -575,18 +575,12 @@ a.icon-hover:active svg {
     background: #049BE0 !important;
 }
 
-.name-latest {
-    @apply h1 font-secondary;
-}
-
 .text-contrast {
     color: #6b7174;
 }
 
-.flow p > a  {
-    max-width: 320px;
-    overflow: hidden;
-    word-break: break-all;
+.name-latest {
+    @apply h1 font-secondary;
 }
 
 .flow p > a  {
@@ -595,4 +589,26 @@ a.icon-hover:active svg {
     word-break: break-all;
 }
 
+.social-net {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
 
+.social-icon {
+    width: 36px;
+    height: 36px;
+    background: #03A9F4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 18px;
+    transition: opacity 0.3s;
+}
+
+.social-svg {
+    width: 32px;
+    height: 32px;
+}
