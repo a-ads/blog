@@ -462,6 +462,13 @@ h6#experience,
     text-transform: capitalize;
 }
 
+.author-description a {
+    color: #57C1F1;
+    margin-bottom: -12px;
+    display: block;
+    font-size: 18px;
+}
+
 .author-img {
     border-radius: 50%;
     max-height: 266px;
@@ -581,3 +588,5 @@ a.icon-hover:active svg {
     overflow: hidden;
     word-break: break-all;
 }
+
+
