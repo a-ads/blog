@@ -5,6 +5,7 @@ position: Support Manager
 description: Provides customer support, enhances network communication
   strategies, looks for new ways to improve product usability
 twitter_link: https://twitter.com/
+linkedin_link: https://twitter.com/
 json_ld: >-
   [
 
