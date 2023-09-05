@@ -446,7 +446,7 @@ p {
     margin-bottom: 20px;
 }
 
-.author-description h6,
+.author-description h2,
 h6#education,
 h6#experience,
 #education,
@@ -460,6 +460,13 @@ h6#experience,
 
     margin-top: 20px;
     text-transform: capitalize;
+}
+
+.author-description a {
+    color: #57C1F1;
+    margin-bottom: -12px;
+    display: block;
+    font-size: 18px;
 }
 
 .author-img {
