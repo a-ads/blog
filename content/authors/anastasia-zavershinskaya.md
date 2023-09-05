@@ -5,7 +5,7 @@ twitter_link: https://twitter.com/
 thumbnail: ../../static/assets/img_1241.jpg
 description: Provides customer support, enhances network communication
   strategies, looks for new ways to improve product usability
-facebook_link: https://www.facebook.com/
+facebook_link: ""
 linkedin_link: https://www.linkedin.com
 json_ld: >-
   [
