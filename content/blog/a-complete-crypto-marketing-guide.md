@@ -72,7 +72,7 @@ json_ld: >-2
         "<p>E. Jerome McCarthy. \"<a href=\"https://hdl.handle.net/2027/inu.30000041584743\">Basic Marketing: A Managerial Approach</a>,\" Page vi. R.D. Irwin, 1960.</p>",
         "<p>Investopedia: “Cryptocurrency Airdrop: What Is It and How Does It Work”, link: <a href=\"https://www.investopedia.com/terms/a/airdrop-cryptocurrency.asp\">https://www.investopedia.com/terms/a/airdrop-cryptocurrency.asp</a></p>"
         ],
-        "mainEntity": {
+        "hasPart": {
         "@type": "FAQPage",
         "mainEntity": [{
           "@type": "Question",
