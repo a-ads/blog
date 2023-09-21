@@ -10,7 +10,7 @@ category_top_level:
 category_second_level:
   - How To
 author: Micheal George
-thumbnail: /blog/assets/full-15-.png
+thumbnail: /blog/assets/full-1-.png
 big_picture: ../../static/assets/short-1-.png
 meta_title: A-ADS Wordpress Plugin | A-ADS Blog
 meta_description: Learn how to use the A-ADS WordPress plugin with our
