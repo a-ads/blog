@@ -36,8 +36,8 @@ const Pagination = ({
                   <Link
                     to={
                       number === 1
-                        ? `${location.origin}${location.pathname}`
-                        : `${location.origin}${location.pathname}?page=${number}`
+                        ? `${location.pathname}`
+                        : `${location.pathname}?page=${number}`
                     }
                     key={number}
                     className={currentPage === number ? 'active' : ''}
