@@ -732,7 +732,7 @@ Investopedia [defines](https://www.investopedia.com/terms/a/airdrop-cryptocurren
 
 Not so often, but still, several projects give away NFTs instead of regular crypto. Also, some projects distribute crypto without even asking to complete any tasks. In contrast, others try to motivate users to participate in sharing posts or do other stuff to promote a project. 
 
-Sometimes, the airdrops can be sent only to wallets collaborating with the project before a specific date. For example, 1INCH and Uniswap provide the most popular airdrops of this kind. 
+Sometimes, the [airdrops](https://a-ads.com/blog/what-is-a-crypto-airdrop-meaning-types-and-how-does-it-work/) can be sent only to wallets collaborating with the project before a specific date. For example, 1INCH and Uniswap provide the most popular airdrops of this kind. 
 
 There are several types of airdrops, which you can choose from: 
 
