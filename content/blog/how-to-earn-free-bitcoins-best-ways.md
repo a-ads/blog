@@ -123,7 +123,7 @@ When one of your items is sold, you can receive the proceeds from the sale in bi
 
 Airdrops are another no-risk way to earn free bitcoin without living at home. When a new cryptocurrency wishes to market its project to the broader markets, it will often 'airdrop' tokens to those that join its community.
 
-In other words, you can earn free digital tokens simply by signing up for an upcoming airdrop – of which there are many. If the project in question becomes successful – you stand the chance of being able to swap your free airdropped tokens into bitcoin via an exchange.
+In other words, you can earn free digital tokens simply by signing up for an upcoming [crypto airdrop](https://a-ads.com/blog/what-is-a-crypto-airdrop-meaning-types-and-how-does-it-work/) – of which there are many. If the project in question becomes successful – you stand the chance of being able to swap your free airdropped tokens into bitcoin via an exchange.
 
 ### Best Platforms for Earning Free Bitcoin
 
