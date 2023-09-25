@@ -36,7 +36,7 @@ Hello publishers, we’re proud to announce the release of [our WordPress plugin
 
 ## Installation and activation
 
-**Step One:** Visit your WP(WordPress) store
+**Step One:** Visit your WP(WordPress) store.
 
 Visit the WordPress plugin store in your WP setup.
 
