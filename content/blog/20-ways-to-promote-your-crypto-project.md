@@ -33,7 +33,7 @@ Among all marketing strategies to promote a crypto business, we have chosen the 
 1. [Influence Marketing ](https://a-ads.com/blog/influencer-marketing-for-crypto-projects/)
 2. [Email Marketing ](https://a-ads.com/blog/successful-email-marketing-for-crypto-projects/)
 3. PPC, Banner Ads, and Display Advertising 
-4. [Do Airdrops ](https://a-ads.com/blog/airdrops-how-get-free-crypto-tokens/)
+4. [Do Airdrops ](https://a-ads.com/blog/what-is-a-crypto-airdrop-meaning-types-and-how-does-it-work/)
 5. Building Crypto Community 
 6. [Use Social Media ](https://a-ads.com/blog/get-noticed-on-social-media-11-creative-ways-to-drive-engagement/)
 7. [Bounty Campaigns](https://a-ads.com/blog/how-bounty-campaigns-can-help-your-crypto-businesses-grow/)
