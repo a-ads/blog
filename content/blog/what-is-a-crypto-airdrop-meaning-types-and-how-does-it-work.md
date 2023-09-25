@@ -17,7 +17,7 @@ author: Micheal George
 thumbnail: /blog/assets/what-is-a-crypto-airdrop_-meaning-types-and-how-does-it-work_.png
 big_picture: /blog/assets/what-is-a-crypto-airdrop_-meaning-types-and-how-does-it-work_short_.png
 popularity: "0"
-meta_title: "What is a Crypto Airdrop: Meaning, Types, and How Does It Work?"
+meta_title: "What is a Crypto Airdrop: Meaning, Types, and How Does It Work? | A-ADS Blog"
 meta_description: "Discover the world of Crypto Airdrops: Learn what they are,
   how they work, and explore various types. From Holder Airdrops to Education
   Airdrops, find out how to get free crypto tokens and uncover unclaimed
@@ -493,7 +493,7 @@ In many countries, airdrops of cryptocurrency tokens are considered taxable even
 
 [A Complete Crypto Marketing Guide](https://a-ads.com/blog/a-complete-crypto-marketing-guide/)
 
-[Crypto to Fiat Guid](https://a-ads.com/blog/crypto-to-fiat-guide/)e
+[Crypto to Fiat Guide](https://a-ads.com/blog/crypto-to-fiat-guide/)
 
 [How Podcasts Can Help Your Business Grow](https://a-ads.com/blog/How-Podcasts-Can-Help-Your-Business-Grow/)
 
