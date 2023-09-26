@@ -40,7 +40,7 @@ You can use this guide if you have two ad units of different sizes and want to s
 </div>
 ```
 
-3. Finally, you should insert the script that will show the ad based on the user's screen size:
+3. Finally, you should insert the script that will show the ad based on the user's screen size :
 
 ```html
 <script>
