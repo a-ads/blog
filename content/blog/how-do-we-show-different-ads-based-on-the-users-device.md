@@ -16,7 +16,7 @@ author: Danil Persky
 thumbnail: /blog/assets/how-to-show-different-ads-based-on-user-s-device_.png
 big_picture: /blog/assets/how-to-show-different-ads-based-on-user-s-device_short.png
 popularity: "0"
-meta_title: How do we Show Different Ads Based on the User's Device?  Dynamical
+meta_title: How do we Show Different Ads Based on the User's Device? Dynamical
   Ad Unit Inserting
 meta_description: You can use this guide if you have two ad units of different
   sizes and want to show a particular banner based on your visitors' screen.
