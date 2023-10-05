@@ -1,4 +1,4 @@
-FROM node:lts-bullseye
+FROM node:bookworm
 
 COPY ./ /data/
 
@@ -16,7 +16,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     && node_modules/.bin/gatsby build --prefix-paths --verbose \
     && npm cache clean --force
 
-FROM node:lts-bullseye-slim
+FROM node:bookworm-slim
 
 RUN export DEBIAN_FRONTEND=noninteractive \
    && apt-get --allow-releaseinfo-change update \
