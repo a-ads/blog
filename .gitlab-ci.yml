@@ -72,7 +72,7 @@ deploy_staging:
     - curl -X POST --data-urlencode "payload={\"channel\":\"#alerts-blog\",\"username\":\"[CI::apps/blog]\",\"text\":\"${CI_COMMIT_AUTHOR% <*} has started deploying a new blog release to staging with commit message '${CI_COMMIT_MESSAGE}'\", \"icon_emoji\":\":blossom:\"}" $SLACK_URL
   script:
     # Build commands
-    - cd /data
+    # - cd /data
     - npm install npm@8.19.3 -g --loglevel verbose
     - npm install --legacy-peer-deps --loglevel verbose
     - node_modules/.bin/gatsby clean
