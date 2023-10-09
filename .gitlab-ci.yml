@@ -16,7 +16,7 @@ build_image_production:
   stage: build
   when: always
   retry: 1
-  image: node:bookworm
+  image: ubuntu:22.04
   services:
     - docker:dind
   only:
@@ -63,7 +63,7 @@ deploy_staging:
   stage: deploy
   when: always
   retry: 1
-  image: ubuntu:22.04
+  image: node:bookworm
   only:
     - staging
   before_script:
