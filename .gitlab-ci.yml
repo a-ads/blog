@@ -62,7 +62,7 @@ production_deploy:
 deploy_staging:
   stage: deploy
   when: always
-  retry: 1
+  retry: 0
   image: node:alpine
   only:
     - staging
@@ -75,7 +75,8 @@ deploy_staging:
     # Build commands
     - npm install npm@8.19.3 -g --loglevel verbose
     - npm install --legacy-peer-deps --loglevel verbose
-    - node_modules/.bin/gatsby clean
+    - npx update-browserslist-db@latest
+    # - node_modules/.bin/gatsby clean
     - node_modules/.bin/gatsby build --prefix-paths
     # Deploy commands
     - aws s3 cp ./public/ s3://$STAGE_BUCKET/blog/ --recursive --acl public-read
