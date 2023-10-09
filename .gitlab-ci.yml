@@ -63,16 +63,16 @@ deploy_staging:
   stage: deploy
   when: always
   retry: 1
-  image: node:bookworm
+  image: node:alpine
   only:
     - staging
   before_script:
     - echo 'Starting deploy to staging'
-    - apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends curl tzdata awscli nodejs npm
+    - apk --no-cache add curl tzdata python3 py3-pip build-base
+    - pip3 install awscli
     - curl -X POST --data-urlencode "payload={\"channel\":\"#alerts-blog\",\"username\":\"[CI::apps/blog]\",\"text\":\"${CI_COMMIT_AUTHOR% <*} has started deploying a new blog release to staging with commit message '${CI_COMMIT_MESSAGE}'\", \"icon_emoji\":\":blossom:\"}" $SLACK_URL
   script:
     # Build commands
-    # - cd /data
     - npm install npm@8.19.3 -g --loglevel verbose
     - npm install --legacy-peer-deps --loglevel verbose
     - node_modules/.bin/gatsby clean
@@ -81,6 +81,7 @@ deploy_staging:
     - aws s3 cp ./public/ s3://$STAGE_BUCKET/blog/ --recursive --acl public-read
     - aws s3 cp --content-type="text/vnd.yaml" --acl public-read --metadata-directive="REPLACE" s3://$STAGE_BUCKET/blog/admin/config.yml s3://$STAGE_BUCKET/blog/admin/config.yml
     - curl -X POST --data-urlencode "payload={\"channel\":\"#alerts-blog\",\"username\":\"[CI::apps/blog]\",\"text\":\"${CI_COMMIT_AUTHOR% <*} has completed deploying a new blog release to staging!\", \"icon_emoji\":\":blossom:\"}" $SLACK_URL
+
 
 # build_image_staging:
 #   stage: build
