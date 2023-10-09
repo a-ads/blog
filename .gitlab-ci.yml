@@ -16,7 +16,7 @@ build_image_production:
   stage: build
   when: always
   retry: 1
-  image: ubuntu:22.04
+  image: node:bookworm
   services:
     - docker:dind
   only:
