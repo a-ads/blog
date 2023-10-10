@@ -75,8 +75,7 @@ deploy_staging:
     # Build commands
     - npm install npm@8.19.3 -g --loglevel verbose
     - npm install --legacy-peer-deps --loglevel verbose
-    - npx update-browserslist-db@latest
-    # - node_modules/.bin/gatsby clean
+    - node_modules/.bin/gatsby clean
     - node_modules/.bin/gatsby build --prefix-paths
     # Deploy commands
     - aws s3 cp ./public/ s3://$STAGE_BUCKET/blog/ --recursive --acl public-read
