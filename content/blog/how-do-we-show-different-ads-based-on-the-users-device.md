@@ -79,4 +79,4 @@ You can use this guide if you have two ad units of different sizes and want to s
 </script>
 ```
 
-4. Done! Now, you can check it using different devices!
+4. Done! Now, you can check it using different devices!!
