@@ -18,7 +18,7 @@ meta_description: Learn how to integrate PeerClick, a free ad tracking software,
   with your A-ADS campaign. With our simple step-by-step instructions, you can
   track, analyze, optimize, and scale your advertising campaigns in real-time.
   Plus, use promo code "A-ADS" and get $50 on your balance!
-json_ld: |+
+json_ld: |
   {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -35,7 +35,7 @@ json_ld: |+
   },{
   "@type": "ListItem",
   "position": 3,
-  "name": "How to"
+  "name": "How to",
   "item": "https://a-ads.com/blog/categories/how-to/"
   }]
   }
