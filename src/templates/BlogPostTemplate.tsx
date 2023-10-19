@@ -8,7 +8,7 @@ import { SocialButton, Breadcrumbs, Seo, Card, Banner } from '@components'
 import type { SocialId } from 'src/components/SocialButton'
 import { useLocation } from '@reach/router'
 
-export function Head({ pageContext: { post, author } }) {
+export function Head({ pageContext: { post, author } }: any) {
   const location = useLocation()
 
   return (
@@ -16,7 +16,6 @@ export function Head({ pageContext: { post, author } }) {
       title={post.meta_title}
       description={post.meta_description}
       img={'https://a-ads.com/blog/images/logo.png'}
-      // pathname={`${location.pathname}`}
     >
       <meta property='og:title' content={post.meta_title} />
       <meta
