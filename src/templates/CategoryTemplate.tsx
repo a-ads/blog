@@ -20,7 +20,7 @@ interface CategoryPageProps {
   }
 }
 
-export function Head({ pageContext: { categoryObj } }) {
+export function Head({ pageContext: { categoryObj } }: any) {
   return (
     <Seo
       title={categoryObj.html_title}
@@ -58,7 +58,6 @@ const CategoryTemplate = (props: CategoryPageProps) => {
               : null}
           </div>
         </section>
-
         <BlogPostGrid
           posts={[...take(posts, 5), ...drop(posts, 5)]}
           header={categoryObj.h1}
@@ -67,9 +66,7 @@ const CategoryTemplate = (props: CategoryPageProps) => {
           canLoadMore
           className='mt-20 mb-20'
         />
-
         <Banner variant='promote' />
-
         {/* Background image  */}
         <StaticImage
           src='../../static/images/backgrounds/left.png'

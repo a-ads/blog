@@ -206,9 +206,7 @@ This type of email helps a crypto project incentivize its existing customers to 
 
 [Neural Networks in Marketing: A Comprehensive Guide to the Latest Tools and Techniques](https://a-ads.com/blog/neural-networks-in-marketing-a-comprehensive-guide-to-the-latest-tools-and-techniques/)
 
-
-
-### FQA 
+### FQA
 
 ***Is email marketing still effective for crypto projects?***
 
@@ -260,9 +258,7 @@ This type of email helps a crypto project incentivize its existing customers to 
 
 ***Which types of emails work well for crypto projects?***
 
-*Types of emails that work well for crypto projects include project updates, educational content, market analysis, investment opportunities, webinars, exclusive content, community engagement, technical updates, security tips, event announcements, user testimonials, regulatory compliance updates, airdrop announcements, new feature introductions, predictions and analysis, user onboarding guides, partnership announcements, celebratory emails, feedback solicitation emails, and holiday greetings.*
-
-
+*Types of emails that work well for crypto projects include project updates, educational content, market analysis, investment opportunities, webinars, exclusive content, community engagement, technical updates, security tips, event announcements, user testimonials, regulatory compliance updates, [airdrop](https://a-ads.com/blog/what-is-a-crypto-airdrop-meaning-types-and-how-does-it-work/) announcements, new feature introductions, predictions and analysis, user onboarding guides, partnership announcements, celebratory emails, feedback solicitation emails, and holiday greetings.*
 
 **References:**
 

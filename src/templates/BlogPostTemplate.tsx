@@ -8,14 +8,13 @@ import { Breadcrumbs, Seo, Card, Banner } from '@components'
 import ShareButtons from '../components/ShareButtons'
 import { useLocation } from '@reach/router'
 
-export function Head({ pageContext: { post, author } }) {
+export function Head({ pageContext: { post, author } }: any) {
   const location = useLocation()
   return (
     <Seo
       title={post.meta_title}
       description={post.meta_description}
       img={'https://a-ads.com/blog/images/logo.png'}
-      // pathname={`${location.pathname}`}
     >
       <meta property='og:title' content={post.meta_title} />
       <meta

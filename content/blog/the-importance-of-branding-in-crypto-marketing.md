@@ -156,7 +156,7 @@ Now, let's talk about some of these promotion tools that you can use for your cr
 
 **Co-branding:** Brands team up with other brands for incredible projects.
 
-To learn more about different crypto marketing strategies, read [“A Complete Crypto Marketing Guide”.](https://a-ads.com/blog/a-complete-crypto-marketing-guide/)
+To learn more about different [crypto marketing strategies](https://a-ads.com/blog/a-complete-crypto-marketing-guide/), read [“A Complete Crypto Marketing Guide”.](https://a-ads.com/blog/a-complete-crypto-marketing-guide/)
 
 ### Crafting a Distinctive Brand Identity for Crypto Companies
 

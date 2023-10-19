@@ -163,9 +163,12 @@ const Banner: React.FC<BannerProps> = ({ variant = 'discover' }) => {
   return (
     <ArtDirectedBackground variant={variant}>
       <div
-        className={cn('flex items-center clr-base min-h-[325px] w-screen', {
-          'up-sm:pl-[40vw]': variant === 'promote',
-        })}
+        className={cn(
+          'main-banner flex items-center clr-base min-h-[325px] w-screen',
+          {
+            'up-sm:pl-[40vw]': variant === 'promote',
+          }
+        )}
       >
         <div className='flex flex-col justify-center container'>
           <span className='h2'>{title}</span>
