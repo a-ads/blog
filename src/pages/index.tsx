@@ -6,11 +6,8 @@ import { take, drop, sortBy, toInteger } from 'lodash-es'
 import { BlogPostGrid, Banner, Seo } from '@components'
 import '../global.css'
 
-
 export function Head() {
-  return (
-    <Seo />
-  )
+  return <Seo />
 }
 
 interface IBlogPosts {
@@ -59,18 +56,17 @@ const IndexPage = () => {
     // Grab first 5 most popular posts and the rest
     return {
       top: take(posts, 5),
-      popular: take(sortBy(posts, post => toInteger(post.popularity)).reverse(), 5),
+      popular: take(
+        sortBy(posts, (post) => toInteger(post.popularity)).reverse(),
+        5
+      ),
       rest: drop(posts, 5),
     }
   }, [])
 
-
   return (
     <>
-      <section
-        aria-label='Crypto Marketing & Trends'
-        className='relative mb-20'
-      >
+      <section aria-label='Crypto Marketing & Trends' className='relative mb-5'>
         <h1 className='container large mb-10 mt-12 tablet:mt-8 phone:my-5'>
           A-ADS Crypto Blog
         </h1>

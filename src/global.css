@@ -612,11 +612,3 @@ a.icon-hover:active svg {
     width: 32px;
     height: 32px;
 }
-
-#discover:after {
-    background-position: 100%;
-}
-
-#discover:before {
-    background-position: 100%;
-}
