@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { getImage, GatsbyImage, StaticImage } from 'gatsby-plugin-image'
 import { kebabCase } from 'lodash-es'
 import cn from 'classnames'
@@ -68,69 +68,73 @@ const TableOfContents = ({
 }: {
   toc: InnerHtmlString
   className?: string
-}) => (
-  <nav className={cn('relative toc-gatsby-config', className)}>
-    <div className='up-desktop:sticky top-0 left-0 down-desktop:mt-8 down-desktop:mb-10 phone:my-7'>
-      {/* Social buttons row */}
-      <header className='flex items-end gap-8 down-desktop:hidden h-[6rem] mb-7'>
-        {(['twitter', 'fb', 'btc'] as SocialId[]).map((socialId) => (
-          <SocialButton key={socialId} socialId={socialId} />
-        ))}
-      </header>
+}) => {
+  return (
+    <nav className={cn('relative toc-gatsby-config', className)}>
+      <div className='up-desktop:sticky top-0 left-0 down-desktop:mt-8 down-desktop:mb-10 phone:my-7'>
+        {/* Social buttons row */}
+        <header className='flex items-end gap-8 down-desktop:hidden h-[4rem] mb-7'>
+          {(['twitter', 'fb', 'btc'] as SocialId[]).map((socialId) => (
+            <SocialButton key={socialId} socialId={socialId} />
+          ))}
+        </header>
 
-      {/* If it's a short article, then the table of contents isn't passed  */}
-      {toc && (
-        <span className='h5 clr-black font-semibold'>Read in the article:</span>
-      )}
-
-      <div className='up-desktop:overflow-y-auto up-desktop:max-h-screen scroll-smooth'>
-        {/* Same here  */}
+        {/* If it's a short article, then the table of contents isn't passed  */}
         {toc && (
-          <div
-            aria-label='Table of contents'
-            className='hover-link-blue mt-3 [&>ul]:flex [&>ul]:flex-col [&>ul]:gap-2 [&>ul]:body-4 [&>ul]:clr-blue'
-            dangerouslySetInnerHTML={{ __html: toc }}
-          />
+          <span className='h5 clr-black font-semibold'>
+            Read in the article:
+          </span>
         )}
-        <div
-          aria-label='Banner'
-          className={cn('relative down-desktop:hidden', {
-            'mt-6': Boolean(toc),
-          })}
-        >
-          <div className='flex flex-col gap-4 z-1 relative p-7'>
-            <StaticImage
-              src='../../static/images/banners/banner-logo.png'
-              alt='Logo'
-              width={70}
-              height={18}
-              layout='fixed'
-              placeholder='blurred'
+
+        <div className='aside-article up-desktop:overflow-y-auto up-desktop:max-h-screen scroll-smooth'>
+          {/* Same here  */}
+          {toc && (
+            <div
+              aria-label='Table of contents'
+              className='hover-link-blue mt-3 [&>ul]:flex [&>ul]:flex-col [&>ul]:gap-2 [&>ul]:body-4 [&>ul]:clr-blue'
+              dangerouslySetInnerHTML={{ __html: toc }}
             />
-            <span className='clr-white font-bold text-[22px] font-secondary'>
-              Promote your crypto project with us!
-            </span>
-            <Link
-              external
-              primary
-              text='Start now'
-              to='https://a-ads.com/campaigns/new'
-              className='hover-link w-full h-12'
+          )}
+          <div
+            aria-label='Banner'
+            className={cn('relative down-desktop:hidden', {
+              'mt-6': Boolean(toc),
+            })}
+          >
+            <div className='flex flex-col gap-4 z-1 relative p-7'>
+              <StaticImage
+                src='../../static/images/banners/banner-logo.png'
+                alt='Logo'
+                width={70}
+                height={18}
+                layout='fixed'
+                placeholder='blurred'
+              />
+              <span className='clr-white font-bold text-[22px] font-secondary'>
+                Promote your crypto project with us!
+              </span>
+              <Link
+                external
+                primary
+                text='Start now'
+                to='https://a-ads.com/campaigns/new'
+                className='hover-link w-full h-12'
+              />
+            </div>
+            <StaticImage
+              src='../../static/images/banners/small-banner.jpg'
+              alt='Banner'
+              layout='fullWidth'
+              placeholder='blurred'
+              className='!absolute top-0 left-0 w-full h-full'
+              imgStyle={{ zIndex: -1 }}
             />
           </div>
-          <StaticImage
-            src='../../static/images/banners/small-banner.jpg'
-            alt='Banner'
-            layout='fullWidth'
-            placeholder='blurred'
-            className='!absolute top-0 left-0 w-full h-full'
-            imgStyle={{ zIndex: -1 }}
-          />
         </div>
       </div>
-    </div>
-  </nav>
-)
+    </nav>
+  )
+}
 
 interface BlogPostPageProps {
   pageContext: {
