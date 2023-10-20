@@ -86,7 +86,7 @@ const TableOfContents = ({
           </span>
         )}
 
-        <div className='up-desktop:overflow-y-auto up-desktop:max-h-screen scroll-smooth'>
+        <div className='aside-article up-desktop:overflow-y-auto up-desktop:max-h-screen scroll-smooth'>
           {/* Same here  */}
           {toc && (
             <div

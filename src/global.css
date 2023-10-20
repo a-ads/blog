@@ -612,3 +612,7 @@ a.icon-hover:active svg {
     width: 32px;
     height: 32px;
 }
+
+.aside-article {
+    height: 650px;
+}
