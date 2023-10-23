@@ -145,9 +145,18 @@ const variants = {
     button: (
       <Link
         secondary
+        target='_blank'
         text='Get a referral link'
-        to='https://a-ads.com/blog/become-our-affiliate-partner-and-take-50-of-our-fees/'
-        className='hover-btn max-w-[287px] mt-6'
+        to={`https://a-ads.com/users/${344064}/referral_program/`}
+        className='banner-btn referral-link hover-btn max-w-[287px] mt-6'
+      />
+    ),
+    secondBtn: (
+      <Link
+        target='_blank'
+        text='Learn more'
+        to='https://a-ads.com/crypto-referral-program/'
+        className='banner-btn learn-more mt-6'
       />
     ),
   },
@@ -158,19 +167,22 @@ type BannerProps = {
 }
 
 const Banner: React.FC<BannerProps> = ({ variant = 'discover' }) => {
-  const { title, subtitle, button } = variants[variant]
+  const { title, subtitle, button, secondBtn } = variants[variant]
 
   return (
     <ArtDirectedBackground variant={variant}>
       <div
         className={cn('flex items-center clr-base min-h-[325px] w-screen', {
-          'up-sm:pl-[40vw]': variant === 'promote',
+          'up-md-x:pl-[40vw]': variant === 'promote',
         })}
       >
         <div className='flex flex-col justify-center container'>
           <span className='h2'>{title}</span>
           <span className='body-3 phone:body-5'>{subtitle}</span>
-          {button}
+          <div className='btns-banner'>
+            {button}
+            {secondBtn}
+          </div>
         </div>
       </div>
     </ArtDirectedBackground>
