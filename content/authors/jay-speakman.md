@@ -7,7 +7,7 @@ description: Technology writer, talks about defi, nfts, bitcoin, blockchain, and
 linkedin_link: https://www.linkedin.com/in/jayspeakman/
 json_ld: ""
 ---
-## Experience:
+## Experience: 
 
 Jay Speakman is a User Experience Designer and Content Writer who brings design thinking to their writing by always keeping the reader and client top of mind in providing both with a memorable experience. \
 \
