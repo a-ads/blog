@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import BackgroundImage from 'gatsby-background-image'
 import cn from 'classnames'
@@ -7,6 +7,7 @@ import { Link } from '@ui'
 
 // This component renders an optimized background image with art direction (different images for different screen sizes)
 // Replace with Gatsby Static Image in the future todo
+
 const ArtDirectedBackground: React.FC<{
   children: React.ReactNode
   variant: BannerProps['variant']
@@ -168,6 +169,30 @@ type BannerProps = {
 
 const Banner: React.FC<BannerProps> = ({ variant = 'discover' }) => {
   const { title, subtitle, button, secondBtn } = variants[variant]
+
+  const [currentUser, setCurrentUser] = useState(null)
+
+  useEffect(() => {
+    // Отправляем GET-запрос на '/api/v1/current_user'
+    fetch('https://a-ads.com/api/v1/current_user')
+      .then((response) => {
+        console.log(response, 'response')
+        if (!response.ok) {
+          throw new Error('Network response was not ok')
+        }
+        return response.json()
+      })
+      .then((data) => {
+        // Обработка успешного ответа от сервера
+        setCurrentUser(data)
+      })
+      .catch((error) => {
+        // Обработка ошибки
+        console.error('Ошибка при получении данных:', error)
+      })
+  }, [])
+
+  console.log(currentUser, 'currentUser')
 
   return (
     <ArtDirectedBackground variant={variant}>
