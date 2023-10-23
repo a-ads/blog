@@ -15,11 +15,11 @@ Jay writes for organizations that need to define and differentiate themselves bu
 \
 Jay is adept at researching the pain-points felt by specific demographics and then tailoring content that speaks to them, including an effective CTA.
 
-**Features WriterFeatures Writer:** BeInCrypto · FreelanceBeInCrypto [](https://www.linkedin.com/search/results/all/?keywords=JSpeakman+Content)
+**Features Writer:** BeInCrypto · FreelanceBeInCrypto [](https://www.linkedin.com/search/results/all/?keywords=JSpeakman+Content)
 
-**User Experience WriterUser Experience Writer:** JSpeakman Content 
+**User Experience Writer:** JSpeakman Content 
 
-**User Experience ResearcherUser Experience Researcher:** Mockplus 
+**User Experience Researcher:** Mockplus 
 
 [L﻿inkedIn](https://www.linkedin.com/in/jayspeakman/)
 
