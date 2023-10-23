@@ -613,6 +613,8 @@ a.icon-hover:active svg {
     height: 32px;
 }
 
-.aside-article {
-    height: 650px;
+@media (min-width: 1280px) {
+    .aside-article {
+        height: 650px;
+    }
 }

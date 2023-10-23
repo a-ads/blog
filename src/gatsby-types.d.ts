@@ -1909,6 +1909,7 @@ type MarkdownRemarkFrontmatter = {
   readonly description: Maybe<Scalars['String']>;
   readonly education: Maybe<Scalars['String']>;
   readonly facebook_link: Maybe<Scalars['String']>;
+  readonly image: Maybe<Scalars['String']>;
   readonly json_ld: Maybe<Scalars['String']>;
   readonly linkedin_link: Maybe<Scalars['String']>;
   readonly meta_description: Maybe<Scalars['String']>;
@@ -1944,6 +1945,7 @@ type MarkdownRemarkFrontmatterFieldSelector = {
   readonly description: InputMaybe<FieldSelectorEnum>;
   readonly education: InputMaybe<FieldSelectorEnum>;
   readonly facebook_link: InputMaybe<FieldSelectorEnum>;
+  readonly image: InputMaybe<FieldSelectorEnum>;
   readonly json_ld: InputMaybe<FieldSelectorEnum>;
   readonly linkedin_link: InputMaybe<FieldSelectorEnum>;
   readonly meta_description: InputMaybe<FieldSelectorEnum>;
@@ -1971,6 +1973,7 @@ type MarkdownRemarkFrontmatterFilterInput = {
   readonly description: InputMaybe<StringQueryOperatorInput>;
   readonly education: InputMaybe<StringQueryOperatorInput>;
   readonly facebook_link: InputMaybe<StringQueryOperatorInput>;
+  readonly image: InputMaybe<StringQueryOperatorInput>;
   readonly json_ld: InputMaybe<StringQueryOperatorInput>;
   readonly linkedin_link: InputMaybe<StringQueryOperatorInput>;
   readonly meta_description: InputMaybe<StringQueryOperatorInput>;
@@ -1998,6 +2001,7 @@ type MarkdownRemarkFrontmatterSortInput = {
   readonly description: InputMaybe<SortOrderEnum>;
   readonly education: InputMaybe<SortOrderEnum>;
   readonly facebook_link: InputMaybe<SortOrderEnum>;
+  readonly image: InputMaybe<SortOrderEnum>;
   readonly json_ld: InputMaybe<SortOrderEnum>;
   readonly linkedin_link: InputMaybe<SortOrderEnum>;
   readonly meta_description: InputMaybe<SortOrderEnum>;
@@ -2201,6 +2205,7 @@ type MdxFrontmatter = {
   readonly description: Maybe<Scalars['String']>;
   readonly education: Maybe<Scalars['String']>;
   readonly facebook_link: Maybe<Scalars['String']>;
+  readonly image: Maybe<Scalars['String']>;
   readonly json_ld: Maybe<Scalars['String']>;
   readonly linkedin_link: Maybe<Scalars['String']>;
   readonly meta_description: Maybe<Scalars['String']>;
@@ -2236,6 +2241,7 @@ type MdxFrontmatterFieldSelector = {
   readonly description: InputMaybe<FieldSelectorEnum>;
   readonly education: InputMaybe<FieldSelectorEnum>;
   readonly facebook_link: InputMaybe<FieldSelectorEnum>;
+  readonly image: InputMaybe<FieldSelectorEnum>;
   readonly json_ld: InputMaybe<FieldSelectorEnum>;
   readonly linkedin_link: InputMaybe<FieldSelectorEnum>;
   readonly meta_description: InputMaybe<FieldSelectorEnum>;
@@ -2263,6 +2269,7 @@ type MdxFrontmatterFilterInput = {
   readonly description: InputMaybe<StringQueryOperatorInput>;
   readonly education: InputMaybe<StringQueryOperatorInput>;
   readonly facebook_link: InputMaybe<StringQueryOperatorInput>;
+  readonly image: InputMaybe<StringQueryOperatorInput>;
   readonly json_ld: InputMaybe<StringQueryOperatorInput>;
   readonly linkedin_link: InputMaybe<StringQueryOperatorInput>;
   readonly meta_description: InputMaybe<StringQueryOperatorInput>;
@@ -2290,6 +2297,7 @@ type MdxFrontmatterSortInput = {
   readonly description: InputMaybe<SortOrderEnum>;
   readonly education: InputMaybe<SortOrderEnum>;
   readonly facebook_link: InputMaybe<SortOrderEnum>;
+  readonly image: InputMaybe<SortOrderEnum>;
   readonly json_ld: InputMaybe<SortOrderEnum>;
   readonly linkedin_link: InputMaybe<SortOrderEnum>;
   readonly meta_description: InputMaybe<SortOrderEnum>;
