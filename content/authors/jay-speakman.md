@@ -1,6 +1,6 @@
 ---
 name: Jay Speakman
-image: /blog/assets/jay.webp
+image: /blog/assets/jay.png
 position: A-ADS reviewer
 description: Technology writer, talks about defi, nfts, bitcoin, blockchain, and
   cryptocurrency
@@ -15,7 +15,7 @@ Jay writes for organizations that need to define and differentiate themselves bu
 \
 Jay is adept at researching the pain-points felt by specific demographics and then tailoring content that speaks to them, including an effective CTA.
 
-**Features WriterFeatures Writer:** [BeInCrypto](https://beincrypto.com/) · FreelanceBeInCrypto [](https://www.linkedin.com/search/results/all/?keywords=JSpeakman+Content)
+**Features WriterFeatures Writer:** BeInCrypto · FreelanceBeInCrypto [](https://www.linkedin.com/search/results/all/?keywords=JSpeakman+Content)
 
 **User Experience WriterUser Experience Writer:** JSpeakman Content 
 
