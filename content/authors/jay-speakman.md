@@ -1,6 +1,6 @@
 ---
 name: Jay Speakman
-image: /blog/assets/jay.png
+thumbnail: ../../static/assets/jay.png
 position: A-ADS reviewer
 description: Technology writer, talks about defi, nfts, bitcoin, blockchain, and
   cryptocurrency
