@@ -113,64 +113,59 @@ const ArtDirectedBackground: React.FC<{
   )
 }
 
-const variants = {
-  discover: {
-    title: (
-      <>
-        Discover value <br className='up-desktop:hidden' /> of crypto ads
-      </>
-    ),
-    subtitle: (
-      <>
-        Boost your crypto project or earn <br className='up-desktop:hidden' />
-        bitcoin on your traffic
-      </>
-    ),
-    button: (
-      <Link
-        secondary
-        external
-        text='Become a partner'
-        to='https://a-ads.com/campaigns/new'
-        className='hover-btn max-w-[287px] mt-6'
-      />
-    ),
-  },
-  promote: {
-    title: (
-      <>
-        Promote A-ADS <br className='up-phone:hidden' /> and earn crypto
-      </>
-    ),
-    subtitle: 'Get up to 10% of referred advertisers’ spedings',
-    button: (
-      <Link
-        secondary
-        target='_blank'
-        text='Get a referral link'
-        to={`https://a-ads.com/users/${344064}/referral_program/`}
-        className='banner-btn referral-link hover-btn max-w-[287px] mt-6'
-      />
-    ),
-    secondBtn: (
-      <Link
-        target='_blank'
-        text='Learn more'
-        to='https://a-ads.com/crypto-referral-program/'
-        className='banner-btn learn-more mt-6'
-      />
-    ),
-  },
-}
+const Banner = ({ variant = 'discover' }: any) => {
+  const [userId, setUserId] = useState('')
+  const variants: any = {
+    discover: {
+      title: (
+        <>
+          Discover value <br className='up-desktop:hidden' /> of crypto ads
+        </>
+      ),
+      subtitle: (
+        <>
+          Boost your crypto project or earn <br className='up-desktop:hidden' />
+          bitcoin on your traffic
+        </>
+      ),
+      button: (
+        <Link
+          secondary
+          external
+          text='Become a partner'
+          to='https://a-ads.com/campaigns/new'
+          className='hover-btn max-w-[287px] mt-6'
+        />
+      ),
+    },
+    promote: {
+      title: (
+        <>
+          Promote A-ADS <br className='up-phone:hidden' /> and earn crypto
+        </>
+      ),
+      subtitle: 'Get up to 10% of referred advertisers’ spedings',
+      button: (
+        <Link
+          secondary
+          target='_blank'
+          text='Get a referral link'
+          to={`https://a-ads.com/users/${userId}/referral_program/`}
+          className='banner-btn referral-link hover-btn max-w-[287px] mt-6'
+        />
+      ),
+      secondBtn: (
+        <Link
+          target='_blank'
+          text='Learn more'
+          to='https://a-ads.com/crypto-referral-program/'
+          className='banner-btn learn-more mt-6'
+        />
+      ),
+    },
+  }
 
-type BannerProps = {
-  variant?: keyof typeof variants
-}
-
-const Banner: React.FC<BannerProps> = ({ variant = 'discover' }) => {
   const { title, subtitle, button, secondBtn } = variants[variant]
-
-  const [currentUser, setCurrentUser] = useState(null)
 
   useEffect(() => {
     fetch('/api/v1/current_user')
@@ -180,15 +175,13 @@ const Banner: React.FC<BannerProps> = ({ variant = 'discover' }) => {
         }
         return response.json()
       })
-      .then((data) => {
-        console.log(data, 'data')
+      .then(({ data }) => {
+        setUserId(data.id)
       })
       .catch((error) => {
         console.error('Fetch error:', error)
       })
   }, [])
-
-  // console.log(currentUser, 'currentUser')
 
   return (
     <ArtDirectedBackground variant={variant}>
@@ -202,7 +195,7 @@ const Banner: React.FC<BannerProps> = ({ variant = 'discover' }) => {
           <span className='body-3 phone:body-5'>{subtitle}</span>
           <div className='btns-banner'>
             {button}
-            {secondBtn}
+            {userId !== '' ? secondBtn : null}
           </div>
         </div>
       </div>
