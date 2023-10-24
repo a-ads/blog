@@ -34,11 +34,7 @@ const Pagination = ({
               return (
                 <li className={currentPage === number ? 'active' : ''}>
                   <Link
-                    to={
-                      number === 1
-                        ? `${location.pathname}`
-                        : `${location.pathname}?page=${number}`
-                    }
+                    to={number === 1 ? `` : `?page=${number}`}
                     key={number}
                     className={currentPage === number ? 'active' : ''}
                   >
