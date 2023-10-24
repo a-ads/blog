@@ -613,8 +613,43 @@ a.icon-hover:active svg {
     height: 32px;
 }
 
-@media (min-width: 1280px) {
-    .aside-article {
-        height: 650px;
+.btns-banner {
+    display: flex;
+    align-items: center;
+}
+
+.banner-btn {
+    max-width: 280px;
+    width: 100%;
+    text-align: center;
+}
+
+.learn-more {
+    border-radius: 4px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.01);
+    box-shadow: 0 11px 30px -13px rgba(18, 16, 28, 0.25);
+    margin-left: 18px;
+
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    transition: opacity .3s;
+}
+
+.learn-more:hover {
+    opacity: 0.7;
+    box-shadow: 0 11px 30px -13px rgba(18, 16, 28, 0.25);
+}
+
+@media (max-width: 768px) {
+    .btns-banner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .learn-more {
+        margin-top: 9px;
+        margin-left: 0;
     }
 }
