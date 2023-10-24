@@ -173,26 +173,22 @@ const Banner: React.FC<BannerProps> = ({ variant = 'discover' }) => {
   const [currentUser, setCurrentUser] = useState(null)
 
   useEffect(() => {
-    // Отправляем GET-запрос на '/api/v1/current_user'
-    fetch('https://a-ads.com/api/v1/current_user')
+    fetch('/api/v1/current_user')
       .then((response) => {
-        console.log(response, 'response')
         if (!response.ok) {
           throw new Error('Network response was not ok')
         }
         return response.json()
       })
       .then((data) => {
-        // Обработка успешного ответа от сервера
-        setCurrentUser(data)
+        console.log(data, 'data')
       })
       .catch((error) => {
-        // Обработка ошибки
-        console.error('Ошибка при получении данных:', error)
+        console.error('Fetch error:', error)
       })
   }, [])
 
-  console.log(currentUser, 'currentUser')
+  // console.log(currentUser, 'currentUser')
 
   return (
     <ArtDirectedBackground variant={variant}>
