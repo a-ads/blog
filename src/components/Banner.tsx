@@ -194,8 +194,8 @@ const Banner = ({ variant = 'discover' }: any) => {
           <span className='h2'>{title}</span>
           <span className='body-3 phone:body-5'>{subtitle}</span>
           <div className='btns-banner'>
-            {button}
-            {userId !== '' ? secondBtn : null}
+            {userId !== '' ? button : null}
+            {secondBtn}
           </div>
         </div>
       </div>
