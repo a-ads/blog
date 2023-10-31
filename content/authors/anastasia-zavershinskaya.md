@@ -6,7 +6,7 @@ thumbnail: ../../static/assets/img_1241.jpg
 description: Provides customer support, enhances network communication
   strategies, looks for new ways to improve product usability
 facebook_link: ""
-linkedin_link: ""
+linkedin_link: https://www.linkedin.com/in/anastasia-zavershinskaya-758478106/
 json_ld: >-
   [
 
