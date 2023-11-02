@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import BackgroundImage from 'gatsby-background-image'
 import cn from 'classnames'
@@ -7,6 +7,7 @@ import { Link } from '@ui'
 
 // This component renders an optimized background image with art direction (different images for different screen sizes)
 // Replace with Gatsby Static Image in the future todo
+
 const ArtDirectedBackground: React.FC<{
   children: React.ReactNode
   variant: BannerProps['variant']
@@ -112,65 +113,90 @@ const ArtDirectedBackground: React.FC<{
   )
 }
 
-const variants = {
-  discover: {
-    title: (
-      <>
-        Discover value <br className='up-desktop:hidden' /> of crypto ads
-      </>
-    ),
-    subtitle: (
-      <>
-        Boost your crypto project or earn <br className='up-desktop:hidden' />
-        bitcoin on your traffic
-      </>
-    ),
-    button: (
-      <Link
-        secondary
-        external
-        text='Become a partner'
-        to='https://a-ads.com/campaigns/new'
-        className='hover-btn max-w-[287px] mt-6'
-      />
-    ),
-  },
-  promote: {
-    title: (
-      <>
-        Promote A-ADS <br className='up-phone:hidden' /> and earn crypto
-      </>
-    ),
-    subtitle: 'Get up to 10% of referred advertisers’ spedings',
-    button: (
-      <Link
-        secondary
-        text='Get a referral link'
-        to='https://a-ads.com/blog/become-our-affiliate-partner-and-take-50-of-our-fees/'
-        className='hover-btn max-w-[287px] mt-6'
-      />
-    ),
-  },
-}
+const Banner = ({ variant = 'discover' }: any) => {
+  const [userId, setUserId] = useState('')
+  const variants: any = {
+    discover: {
+      title: (
+        <>
+          Discover value <br className='up-desktop:hidden' /> of crypto ads
+        </>
+      ),
+      subtitle: (
+        <>
+          Boost your crypto project or earn <br className='up-desktop:hidden' />
+          bitcoin on your traffic
+        </>
+      ),
+      button: (
+        <Link
+          secondary
+          external
+          text='Become a partner'
+          to='https://a-ads.com/campaigns/new'
+          className='hover-btn max-w-[287px] mt-6'
+        />
+      ),
+    },
+    promote: {
+      title: (
+        <>
+          Promote A-ADS <br className='up-phone:hidden' /> and earn crypto
+        </>
+      ),
+      subtitle: 'Get up to 10% of referred advertisers’ spedings',
+      button: (
+        <Link
+          secondary
+          target='_blank'
+          text='Get a referral link'
+          to={`https://a-ads.com/users/${userId}/referral_program/`}
+          className='banner-btn referral-link hover-btn max-w-[287px] mt-6'
+        />
+      ),
+      secondBtn: (
+        <Link
+          target='_blank'
+          text='Learn more'
+          to='https://a-ads.com/crypto-referral-program/'
+          className='banner-btn learn-more mt-6'
+        />
+      ),
+    },
+  }
 
-type BannerProps = {
-  variant?: keyof typeof variants
-}
+  const { title, subtitle, button, secondBtn } = variants[variant]
 
-const Banner: React.FC<BannerProps> = ({ variant = 'discover' }) => {
-  const { title, subtitle, button } = variants[variant]
+  useEffect(() => {
+    fetch('/api/v1/current_user')
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok')
+        }
+        return response.json()
+      })
+      .then(({ data }) => {
+        setUserId(data.id)
+      })
+      .catch((error) => {
+        console.error('Fetch error:', error)
+      })
+  }, [])
 
   return (
     <ArtDirectedBackground variant={variant}>
       <div
         className={cn('flex items-center clr-base min-h-[325px] w-screen', {
-          'up-sm:pl-[40vw]': variant === 'promote',
+          'up-md-x:pl-[40vw]': variant === 'promote',
         })}
       >
         <div className='flex flex-col justify-center container'>
           <span className='h2'>{title}</span>
           <span className='body-3 phone:body-5'>{subtitle}</span>
-          {button}
+          <div className='btns-banner'>
+            {userId !== '' ? button : null}
+            {secondBtn}
+          </div>
         </div>
       </div>
     </ArtDirectedBackground>

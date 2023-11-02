@@ -15,6 +15,7 @@ module.exports = {
       'up-md': { min: '913px' },
       'down-md': { max: '539px' },
       'up-sm': { min: '551px' },
+      'up-md-x': { min: '768px' },
       'down-sm': { max: '324px' },
       'up-desktop': { min: '1281px' },
       'down-desktop': { max: '1279px' },

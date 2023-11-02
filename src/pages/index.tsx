@@ -6,11 +6,8 @@ import { take, drop, sortBy, toInteger } from 'lodash-es'
 import { BlogPostGrid, Banner, Seo } from '@components'
 import '../global.css'
 
-
 export function Head() {
-  return (
-    <Seo />
-  )
+  return <Seo />
 }
 
 interface IBlogPosts {
@@ -59,11 +56,14 @@ const IndexPage = () => {
     // Grab first 5 most popular posts and the rest
     return {
       top: take(posts, 5),
-      popular: take(sortBy(posts, post => toInteger(post.popularity)).reverse(), 5),
+      popular: take(
+        sortBy(posts, (post) => toInteger(post.popularity)).reverse(),
+        5
+      ),
       rest: drop(posts, 5),
     }
   }, [])
-
+  data
 
   return (
     <>
