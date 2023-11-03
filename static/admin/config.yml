@@ -2,6 +2,7 @@ backend:
   name: github
   repo: a-ads/blog
   site_domain: chipper-syrniki-3ec99f.netlify.app
+  base_url: https://auth.nubes.ge
 
 publish_mode: editorial_workflow
 media_folder: static/assets
