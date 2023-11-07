@@ -114,7 +114,7 @@ ol li:not(:only-child) {
         text-align: left;
         display: table-cell;
         width: 3rem;
-        padding-inline: 1rem 0.3rem;
+        /*padding-inline: 1rem 0.3rem;*/
         float: left;
     }
   }
@@ -476,6 +476,25 @@ h6#experience,
 
 .article--blog li {
     display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 0 35px;
+    position: relative;
+}
+
+.article--blog li:before {
+    content: '\2022';
+    color: #03a9f4;
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: inline-block;
+    width: 1em;
+    margin-right: 0.5rem;
+    position: absolute;
+    left: 0;
+}
+
+.article--blog li p {
+    width: 100%;
 }
 
 .navigation {
@@ -655,4 +674,14 @@ a.icon-hover:active svg {
         margin-top: 9px;
         margin-left: 0;
     }
+}
+
+@media (min-width: 1280px) {
+    .aside-article {
+        height: 650px;
+    }
+}
+
+iframe {
+    max-width: 100%;
 }
