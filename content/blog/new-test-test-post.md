@@ -1,7 +1,7 @@
 ---
 date: 2023-11-07T10:24:59.515Z
-title: New test TEST post
-slug: new-test-test-post
+title: New test TEST post Проверяю как работает
+slug: new-test-test-post-latest_rbkv
 tags:
   - news
 category: Development
@@ -11,8 +11,8 @@ category_second_level:
   - Altcoins
   - How To
 author: Anastasia Zavershinskaya
-thumbnail: /blog/assets/5epp6ripi8wh4ckpvpspzj.jpg
-big_picture: /blog/assets/5epp6ripi8wh4ckpvpspzj.jpg
+thumbnail: /blog/assets/20230827-img_0904-3.jpg
+big_picture: /blog/assets/20230827-img_0904-2.jpg
 popularity: "0"
 meta_title: ""
 meta_description: ""
