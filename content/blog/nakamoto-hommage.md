@@ -8,7 +8,8 @@ category: Stories
 category_top_level:
   - News & Trends
 author: Yulia Savushkina
-thumbnail: ../../static/assets/img3.png
+thumbnail: /blog/assets/nakamoto_hommage.png
+big_picture: /blog/assets/nakamoto_hommage_square.png
 meta_title: Nakamoto Hommage | A-ADS Blog
 meta_description: With the Bitcoin halving just hours away, many are curious
   about its potential impact on the Bitcoin price and adoption. While it remains
