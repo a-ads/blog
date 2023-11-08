@@ -221,7 +221,7 @@ Binance is a major player in trading cryptocurrencies, and TravelbyBit is a well
 
 ## How to Evaluate the Effectiveness of Brand Promotion
 
-![Evaluation of the Effectiveness of Brand Promotion](/blog/assets/как-оценить-успешность-маркетинговой-кампании.png "Evaluation of the Effectiveness of Brand Promotion")
+![Evaluation of the Effectiveness of Brand Promotion](/blog/assets/companyevaluation.jpg "Evaluation of the Effectiveness of Brand Promotion")
 
 You can use **2 types of metrics.** The first is general metrics, usually used to analyze overall promotion. The second is metrics for each promotion tool. They are used to evaluate the effectiveness of individual campaigns.
 
