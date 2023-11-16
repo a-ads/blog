@@ -11,4 +11,5 @@ BRANCH="${USER_SET_BRANCH:-$DETECTED_BRANCH}"
 # the netlify config from the netlify-cms-config and overwrite
 # the branch setting.
 # yes | cp -rf ./netlify-cms-config.yml ./static/admin/config.yml
+echo "Branch: $BRANCH"
 sed -i -e "s|NETLIFY_CMS_BRANCH|$BRANCH|g" ./static/admin/config.yml
