@@ -662,3 +662,11 @@ a.icon-hover:active svg {
         height: 650px;
     }
 }
+
+#discover:after {
+    background-position: 100%;
+}
+
+#discover:before {
+    background-position: 100%;
+}

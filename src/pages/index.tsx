@@ -67,10 +67,7 @@ const IndexPage = () => {
 
   return (
     <>
-      <section
-        aria-label='Crypto Marketing & Trends'
-        className='relative mb-20'
-      >
+      <section aria-label='Crypto Marketing & Trends' className='relative'>
         <h1 className='container large mb-10 mt-12 tablet:mt-8 phone:my-5'>
           A-ADS Crypto Blog
         </h1>
