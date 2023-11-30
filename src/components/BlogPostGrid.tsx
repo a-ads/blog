@@ -122,7 +122,7 @@ const BlogPostGrid = ({
       </Helmet>
       <div
         className={cn(
-          'container grid up-lg:grid-cols-3 gap-8 grid-cols-2 down-tablet:grid-cols-1',
+          'grid up-lg:grid-cols-3 gap-8 grid-cols-2 down-tablet:grid-cols-1',
           className
         )}
       >
