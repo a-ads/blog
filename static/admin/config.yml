@@ -1,11 +1,8 @@
 backend:
-  name: gitlab
-  repo: lev/blog
-  base_url: https://gitlab0.int.a-ads.com
-  api_root: https://gitlab0.int.a-ads.com/api/v4
-  auth_endpoint: oauth/authorize
-  auth_type: pkce
-  app_id: 52373d0f5426390b5ac3bbe0ee0ebe0dba2242f8b03173558db165149c314997
+  name: github
+  repo: a-ads/blog
+  branch: NETLIFY_CMS_BRANCH
+  site_domain: a-ads-blog.netlify.app
 
 publish_mode: editorial_workflow
 media_folder: static/assets
