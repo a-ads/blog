@@ -34,6 +34,9 @@ Hello publishers, we’re proud to announce the release of [our WordPress plugin
 * A complete WordPress installation
 * An A-ADS account
 
+**Compatibility Update:** Our WordPress Plugin currently works with older WordPress versions (*widget-based* or *Classic Widgets*), not with the latest block editor. We're actively working on compatibility for the latest updates. Thank you for your understanding.
+
+
 ## Installation and activation
 
 **Step One:** Visit your WP(WordPress) store.
