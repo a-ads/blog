@@ -1,8 +1,6 @@
 backend:
   name: github
   repo: a-ads/blog
-  branch: NETLIFY_CMS_BRANCH
-  site_domain: a-ads-blog.netlify.app
 
 publish_mode: editorial_workflow
 media_folder: static/assets

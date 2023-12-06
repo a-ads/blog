@@ -221,9 +221,9 @@ const Footer = () => {
             aria-label={title}
             className='flex flex-col up-desktop:w-1/5 min-w-[230px] mb-8'
           >
-            <h4 className='body-1 mb-3 clr-blue !font-secondary !font-bold w-full'>
+            <h3 className='body-1 mb-3 clr-blue !font-secondary !font-bold w-full'>
               {title}
-            </h4>
+            </h3>
             {items.map(({ name, to, onClick }) => {
               let props = {
                 key: name,
@@ -294,6 +294,7 @@ const Footer = () => {
           </p>
         ))}
       </div>
+      <div className='text-center text-gray-400 text-xs'>version: 23</div>
     </footer>
   )
 }

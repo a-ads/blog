@@ -93,7 +93,7 @@ One more great way for NFT promotion is to maintain an informative blog. This st
 
 ### Do Airdrops
 
-Consider conducting an airdrop campaign to promote your NFT-based project. [Airdrops](https://a-ads.com/blog/what-is-a-crypto-airdrop-meaning-types-and-how-does-it-work/) involve distributing coins or tokens to cryptocurrency wallets in exchange for users sharing news about your virtual currency. This approach taps into the community's desire to earn more cryptocurrency and can generate buzz around your NFT project and increase brand exposure and social media sharing.
+Consider conducting an airdrop campaign to promote your NFT-based project. Airdrops involve distributing coins or tokens to cryptocurrency wallets in exchange for users sharing news about your virtual currency. This approach taps into the community's desire to earn more cryptocurrency and can generate buzz around your NFT project and increase brand exposure and social media sharing.
 
 ### Develop PR (Public Relations)
 
@@ -121,6 +121,8 @@ Overall, NFTs have opened up exciting opportunities for brands and businesses to
 8. [Get Noticed on Social Media: 11 Creative Ways to Drive Engagement](https://a-ads.com/blog/get-noticed-on-social-media-11-creative-ways-to-drive-engagement/)
 9. [10 Tips for Better Mobile Optimization in Crypto Advertising](https://a-ads.com/blog/ten-tips-for-better-mobile-optimization-in-crypto-advertising/)
 10. [The Benefits of Native Advertising for Crypto Brands](https://a-ads.com/blog/the-benefits-of-native-advertising-for-crypto-brands/)
+
+
 
 **FQA** 
 
@@ -160,6 +162,8 @@ Overall, NFTs have opened up exciting opportunities for brands and businesses to
 ***What is the future of NFT marketing?***
 
 *We think that the future of NFT marketing holds continued growth, with increased mainstream adoption, innovative use cases beyond art, and further integration into entertainment, gaming, and virtual experiences.*
+
+
 
 **References:** 
 

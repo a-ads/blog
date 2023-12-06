@@ -113,7 +113,7 @@ json_ld: >-
 
   ]
 ---
-## Experience:
+###### Experience:
 
 Adeniyi has an extensive background in the crypto niche and has covered the blockchain space since 2017. He has held several events in the past and written articles ranging from technical analysis to oped pieces.
 

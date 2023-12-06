@@ -13,8 +13,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "typecheck": "tsc --noEmit",
-    "prebuild": "chmod +x ./prebuild.sh && ./prebuild.sh"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@hookform/error-message": "^2.0.1",

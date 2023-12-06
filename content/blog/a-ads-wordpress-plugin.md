@@ -10,8 +10,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Micheal George
-thumbnail: /blog/assets/full-1-.png
-big_picture: ../../static/assets/short-1-.png
+thumbnail: /blog/assets/wordpress-full.png
+big_picture: /blog/assets/wordpress-short.png
 meta_title: A-ADS Wordpress Plugin | A-ADS Blog
 meta_description: Learn how to use the A-ADS WordPress plugin with our
   informative article. Our step-by-step guide covers the installation and
@@ -34,12 +34,9 @@ Hello publishers, we’re proud to announce the release of [our WordPress plugin
 * A complete WordPress installation
 * An A-ADS account
 
-**Compatibility Update:** Our WordPress Plugin currently works with older WordPress versions (*widget-based* or *Classic Widgets*), not with the latest block editor. We're actively working on compatibility for the latest updates. Thank you for your understanding.
-
-
 ## Installation and activation
 
-**Step One:** Visit your WP(WordPress) store.
+**Step One:** Visit your WP(WordPress) store
 
 Visit the WordPress plugin store in your WP setup.
 

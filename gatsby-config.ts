@@ -51,6 +51,13 @@ const config: GatsbyConfig = {
         lang: 'en',
       },
     },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        excludes: ['/blog/about/', '/blog/search/', '/blog/contacts/'],
+      },
+    },
+    'gatsby-plugin-react-helmet',
     'gatsby-plugin-netlify-cms',
     {
       resolve: 'gatsby-plugin-google-gtag',

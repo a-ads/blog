@@ -1,12 +1,12 @@
 ---
 name: Anastasia Zavershinskaya
 position: Support Manager
-twitter_link: ""
+twitter_link: https://twitter.com/
 thumbnail: ../../static/assets/img_1241.jpg
 description: Provides customer support, enhances network communication
   strategies, looks for new ways to improve product usability
-facebook_link: ""
-linkedin_link: https://www.linkedin.com/in/anastasia-zavershinskaya-758478106/
+facebook_link: https://www.facebook.com/
+linkedin_link: https://www.linkedin.com
 json_ld: >-
   [
 
@@ -110,7 +110,7 @@ json_ld: >-
 
   ]
 ---
-###### Experience:
+## Experience:
 
 As a Support Manager at A-ADS, Anastasia is a vital force behind ensuring exceptional customer support and driving customer success. With a keen interest in technology and marketing, Anastasia seamlessly combines her passion for both fields to deliver outstanding service and enhance the overall user experience.
 
