@@ -25,4 +25,4 @@ According to the latest updates in our advertising network, "Impressions" defaul
 
 Each unique IP address within the A-ADS network is counted as a globally unique impression once every 24 hours. It means that when a visitor, represented by a single IP, views our ads on any of our publishing sites for the first time, it creates a unique impression. Throughout the rest of the day, regardless of the sites or pages they visit, or the ads they see, this visitor's IP will not generate any additional [unique impressions](https://a-ads.com/blog/counting-unique-impressions/).
 
-Therefore, to calculate earnings for publishers, only globally unique impressions are considered. But, in order to make the metrics presentation convenient for all clients, our network displays all impressions as well.
+To calculate earnings for publishers, only globally unique impressions are considered. But, in order to make the metrics presentation convenient for all clients, our network displays all impressions as well.
