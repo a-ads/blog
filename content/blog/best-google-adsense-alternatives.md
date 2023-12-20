@@ -68,6 +68,8 @@ AdSense operates on an auction-based system, where advertisers bid for ad space 
 
 Some website owners find interstitial and vignette ads obnoxious or disruptive to the user experience. These types of ads may negatively impact the overall user satisfaction of the website.
 
+![](/blog/assets/разработка-стратегии-продвижения-бренда.png)
+
 Taking into consideration all the pros and cons of AdSense, publishers should explore other options beyond AdSense, not only as a replacement but as a complement to optimize ad revenue. 
 
 In this article, we’ll discuss why you prefer a different ad network for your site. Then, we’ll explore the best ad networks outside of AdSense you can use to quickly begin monetizing your blog.
@@ -158,6 +160,8 @@ Why is Mediavine a better alternative than AdSense? 
 * MediaVine also offers exclusive features like header bidding, which allows multiple ad partners to compete at once – providing increased competition among buyers resulting in higher CPM rates (cost-per-thousand impressions) for publishers who use this feature. Plus, they offer access to a wide range of high-quality demand sources from major brands, including the Amazon Associates program & Microsoft Advertising Exchange.
 
 Finally, unlike some other platforms out there today – setting up an account with Medaivne is a free & simple process: no need to wait long periods of time before getting approved either.
+
+![](/blog/assets/как-оценить-успешность-маркетинговой-кампании.jpg)
 
 ### 4. Media.net
 
