@@ -38,19 +38,19 @@ See also [our article about Goal tracking](https://a-ads.com/blog/2019-10-16-why
 
 ## Let's start!
 
-1. Create a traffic source (TS) element in Voluum. Voluum provides you with the A-ADS traffic source template, so you can use it and skip most of the manual setup. To use this template, perform the following steps:
+Create a traffic source (TS) element in Voluum. Voluum provides you with the A-ADS traffic source template, so you can use it and skip most of the manual setup. To use this template, perform the following steps:
 
-   Step 1. Go to the Traffic Sources tab
+Step 1. Go to the Traffic Sources tab
 
-   Step 2. Click the New Traffic Source button
+Step 2. Click the New Traffic Source button 
 
-   ![traffic source button](/blog/assets/15f5f1a36e61b0.png "1. traffic source button")
+![traffic source button](/blog/assets/15f5f1a36e61b0.png "1. traffic source button")
 
-   Step 3. Select the A-ADS template from the list of available templates
+Step 3. Select the A-ADS template from the list of available templates
 
-   Step 4. Click the Next button. The New traffic source form will appear
+Step 4. Click the Next button. The New traffic source form will appear
 
-   Step 5. You can change or adjust (if necessary) any option in the New traffic source form. Once you are done, click the Save button.
+Step 5. You can change or adjust (if necessary) any option in the New traffic source form. Once you are done, click the Save button.
 
 ![Configure new traffic source](../../static/assets/ts-source.png "Configure new traffic source")
 
