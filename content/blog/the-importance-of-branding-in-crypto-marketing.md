@@ -71,29 +71,14 @@ To do this the right way, you need a clear plan. This plan helps you know when a
 
 Creating this plan is the seventh step in building your crypto brand. But before you start planning, you need to do these things:
 
-* **Research and Analysis**
+1. **Research and Analysis.** Study the market, know who your customers are, and check out your competition. This helps you understand your brand better.
 
-  Study the market, know who your customers are, and check out your competition. This helps you understand your brand better.
 
-* **Positioning**
-
-  Figure out where your brand fits in people's minds compared to other similar things.
-
-* **Brand Message**
-
-   Make a strong and clear message that tells people why your brand is special.
-
-* **Brand Platform**
-
-  Create a plan that includes everything about your brand, from what it stands for to what it offers.
-
-* **Brand Strategy**
-
-  Plan how your brand will grow and change over time.
-
-* **Brand Identity**
-
-  Design your brand's appearance, including things like the logo and packaging.
+2. **Positioning.** Figure out where your brand fits in people's minds compared to other similar things.
+3. **Brand Message.** Make a strong and clear message that tells people why your brand is special.
+4. **Brand Platform.** Create a plan that includes everything about your brand, from what it stands for to what it offers.
+5. **Brand Strategy.** Plan how your brand will grow and change over time.
+6. **Brand Identity.** Design your brand's appearance, including things like the logo and packaging.
 
 ### Creating a Great Brand Strategy
 
