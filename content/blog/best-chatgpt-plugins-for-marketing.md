@@ -1,7 +1,7 @@
 ---
 date: 2024-01-02T08:24:50.970Z
 title: 10 Best ChatGPT Plugins For Marketing
-slug: Best-ChatGPT-Plugins-For-Marketing
+slug: best-chatgpt-plugins-for-marketing
 tags:
   - news
 category: Development
