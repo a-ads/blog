@@ -19,9 +19,7 @@ meta_description: Learn how to change and confirm your withdrawal address on
   suspension, and withdraw directly to a BTC address or use FaucetPay for
   instant withdrawals
 ---
-A-ADS strives to be as secure as possible, so we have enabled the measures to protect withdrawal changes via an email. This how-to describes how it can be done precisely.
-
-1. Start with visiting the “Withdrawal options” page, which can be found at “Finances >> Withdrawal options”, it should look like the image below:
+To start, visit the “Withdrawal Options” page, this can be found by navigating to “Finances >> Withdrawal options”, it should look like the image below:
 
 ![Change withdrawal address](../../static/assets/withdrawal-change-1.png "Change withdrawal address")
 
@@ -32,12 +30,12 @@ Note: You can withdraw directly to a BTC address, or use FaucetPay; The withdraw
 3. Input either 
 
  • A valid “Withdrawal address”, or\
- • An existing address at FaucetPay (which must be registered in advance)
+ • An existing FaucetPay address
 
-4. When withdrawing to a direct BTC address, you cannot set a “Withdrawal threshold” to less than 0.001 BTC.
+4. When withdrawing directly to a BTC address, the minimum “Withdrawal threshold” is 0.001 BTC.
 5. Enter your password or access code.
 
-Note: If you don’t have any means of authentication, probably because you used a social account to register, please use the email connected to your social account on [A-ADS password reset form](https://a-ads.com/user/password/new).
+Note: If you don’t have any means of authentication, probably because you used a social media account upon registration, please use the email connected to your social account on [A-ADS password reset form](https://a-ads.com/user/password/new).
 
 6. Click “Update withdrawal settings”, then click “OK” in the confirmation message:
 
@@ -51,10 +49,14 @@ Note: If you don’t have any means of authentication, probably because you used
 
 ![withdrawal address change email confirmation](../../static/assets/withdrawal-change-3.png "withdrawal address change email confirmation")
 
-Make sure to check all your folders, including “Spam” if you don’t find our email in your inbox. Alternatively you can search e-mails by A-ADS.
+Make sure to check all your folders, including “Spam” if you don’t find our email in your inbox. Alternatively, you can search e-mails by A-ADS.
 
 9. Please, click the button, “Click to confirm”. At the destination page, you should see an event like in the image below:
 
 ![Withdrawal address sucessfully confirmed](../../static/assets/withdrawal-change-4.png "Withdrawal address sucessfully confirmed")
 
-Note: Once your withdrawal option is confirmed, **withdrawals will be suspended for three days, as a regular measure to protect your funds**.
+Note: If your withdrawal changes we will freeze all subsequent withdrawals until you confirm the new address via email. If it were not you who changed the address, then you would have a better chance to prevent the loss of your funds.
+
+After confirmation, **withdrawals will be suspended for three days, as a regular measure to protect your funds**.
+
+With this, you have successfully changed and confirmed your withdrawal address.
