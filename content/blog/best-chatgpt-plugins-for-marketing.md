@@ -51,9 +51,9 @@ The ten best ChatGPT plugins are: 
 9. Questmate 
 10.  Vilsa
 
+Let's take a closer look at each plugin in detail.
 
-
-1. ## AskYourPDF
+## 1. AskYourPDF
 
 This plugin allows you to generate PDF documents by asking ChatGPT questions. It can be helpful in creating marketing materials, reports, or informational content. 
 
@@ -148,7 +148,7 @@ The key features include: 
 * The plugin can be used for various purposes, such as presentations, social media posts, or personal projects.
 * Visla seamlessly integrates with ChatGPT, allowing users to initiate video creation directly within the ChatGPT environment.
 
-### Takeaways: 
+### Takeaways
 
 * There are various ChatGPT plugins available for marketers, categorized into different areas such as search engine optimization (SEO), pay-per-click advertising (PPC), content marketing, and social media marketing.
 * OpenAI is actively developing and expanding the ChatGPT plugin ecosystem. They encourage third-party integrations and aim to make plugins more integral to daily tasks, bringing practicality and convenience to users.
@@ -157,7 +157,7 @@ The key features include: 
 
 ## FAQ 
 
-1. ### How do I install a ChatGPT plugin?
+### How do I install a ChatGPT plugin?
 
 To install a ChatGPT plugin, you can follow these general steps:
 
@@ -165,7 +165,7 @@ To install a ChatGPT plugin, you can follow these general steps:
 2. You will find a list of available ChatGPT plugins in the plugin store. Browse through the plugins and select the one you want to install. Click the "Install" button next to the plugin to initiate the installation process.
 3. Once the plugin is installed, you can access it from the same menu where you found the plugin store. The installed plugins should be listed there. Simply select the plugin you want to use, and it will be activated for your chat session.
 
-### 2. Are ChatGPT plugins free?
+### Are ChatGPT plugins free?
 
 While some ChatGPT plugins may be free, many plugins may require a subscription or payment to access their full functionality. The availability and cost of plugins can vary depending on the specific plugin and the policies the developers set.
 
