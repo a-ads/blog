@@ -33,6 +33,7 @@ Note: You can withdraw directly to a BTC address, or use FaucetPay; The withdraw
  • An existing FaucetPay address
 
 4. When withdrawing directly to a BTC address, the minimum “Withdrawal threshold” is 0.001 BTC.
+
 5. Enter your password or access code.
 
 Note: If you don’t have any means of authentication, probably because you used a social media account upon registration, please use the email connected to your social account on [A-ADS password reset form](https://a-ads.com/user/password/new).
