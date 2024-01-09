@@ -6,6 +6,8 @@ variables:
   DOCKER_DRIVER: overlay2
   SSH_PORT: 10115
   TMPDIR: /tmp
+  app_id: 7d34a8d2ad6a87c2d50562d1a46f3a0c6d879765dc5d89a954593452bef0f12c
+  branch: 2949/Frontend-Blog-Normalize-blog-slug
 
 
 stages:
