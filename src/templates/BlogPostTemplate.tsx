@@ -10,6 +10,7 @@ import { useLocation } from '@reach/router'
 
 export function Head({ pageContext: { post, author } }) {
   const location = useLocation()
+
   return (
     <Seo
       title={post.meta_title}
