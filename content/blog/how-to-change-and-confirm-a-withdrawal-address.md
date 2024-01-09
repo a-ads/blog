@@ -29,9 +29,9 @@ Note: You can withdraw directly to a BTC address, or use FaucetPay; The withdraw
 
 3. Input either 
 
-\    • A valid “Withdrawal address”, or
+   • A valid “Withdrawal address”, or
 
-\    • An existing FaucetPay address
+   • An existing FaucetPay address
 
 4. When withdrawing directly to a BTC address, the minimum “Withdrawal threshold” is 0.001 BTC.
 5. Enter your password or access code.
