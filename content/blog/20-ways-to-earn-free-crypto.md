@@ -1,6 +1,6 @@
 ---
 date: 2023-02-09T07:08:04.814Z
-title: 20 Ways to Earn Free Crypto in 2023
+title: 20 Ways to Earn Free Crypto in 2024
 slug: 20-ways-to-earn-free-crypto
 tags:
   - news
