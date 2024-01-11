@@ -1,6 +1,6 @@
 ---
 date: 2022-12-02T11:23:54.571Z
-title: 5 Best Crypto Wallets of 2023
+title: 5 Best Crypto Wallets of 2024
 slug: 5-best-crypto-wallets
 tags:
   - news
