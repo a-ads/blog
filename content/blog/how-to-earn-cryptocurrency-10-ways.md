@@ -1,6 +1,6 @@
 ---
 date: 2022-11-02T06:22:05.453Z
-title: How to Earn Cryptocurrency in 2023 - Top 10 Proven Methods
+title: How to Earn Cryptocurrency in 2024 - Top 10 Proven Methods
 slug: how-to-earn-cryptocurrency-10 ways
 tags:
   - news
