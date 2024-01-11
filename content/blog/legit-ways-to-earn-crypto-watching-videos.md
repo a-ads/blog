@@ -1,6 +1,6 @@
 ---
 date: 2023-01-09T09:37:13.527Z
-title: Legit Ways to Earn Crypto Watching Videos in 2023
+title: Legit Ways to Earn Crypto Watching Videos in 2024
 slug: legit-ways-to-earn-crypto-watching-videos
 tags:
   - news
