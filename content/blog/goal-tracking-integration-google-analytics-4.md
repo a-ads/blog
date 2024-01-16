@@ -35,7 +35,7 @@ Google Analytics lets you measure your advertising ROI as well as track your vid
 
 Please note, steps one to four are to be ignored if you already use GA.
 
-1. Go to<> <https://analytics.google.com/>
+1. Go to <https://analytics.google.com/>
 
 ![](https://lh7-us.googleusercontent.com/tVcQ2iYKQeoCKf-z4QPgQHyA1Y1eHYdH8_fhqhkcWLTjNNT2-jcCYFxNaX6MsFBcHQ_G7STfeOEHWf5Vi_xlH50K1I4-G5SmJ78OSL-8mVR14wl0lIoTk8NwoBWagMAEbwGULkPMB0moESv6vgoCmd4)
 
