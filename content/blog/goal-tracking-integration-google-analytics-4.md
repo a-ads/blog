@@ -29,6 +29,8 @@ Google Analytics lets you measure your advertising ROI as well as track your vid
 3. A-ADS Account
 4. A-ADS campaign with goal tracking enabled
 
+
+
 ## Let’s start!
 
 Please note, steps one to four are to be ignored if you already use GA.
