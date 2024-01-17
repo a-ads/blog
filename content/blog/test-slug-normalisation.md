@@ -1,7 +1,7 @@
 ---
 date: 2024-01-17T16:04:18.468Z
 title: "test slug normalisation "
-slug: test-slug-normalisation
+slug: " test- slug- normalisation "
 tags:
   - news
 category: How to
