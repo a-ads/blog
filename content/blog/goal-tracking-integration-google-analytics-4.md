@@ -33,27 +33,31 @@ Google Analytics lets you measure your advertising ROI as well as track your vid
 
 Please note, steps one to four are to be ignored if you already use GA.
 
-1. Go to  [](https://analytics.google.com/)[analytics.google.com](https://analytics.google.com/) ﻿
+Go to  [](https://analytics.google.com/)[analytics.google.com](https://analytics.google.com/) ﻿
 
 ![](https://lh7-us.googleusercontent.com/tVcQ2iYKQeoCKf-z4QPgQHyA1Y1eHYdH8_fhqhkcWLTjNNT2-jcCYFxNaX6MsFBcHQ_G7STfeOEHWf5Vi_xlH50K1I4-G5SmJ78OSL-8mVR14wl0lIoTk8NwoBWagMAEbwGULkPMB0moESv6vgoCmd4)
 
-2. Click “Set up for free”.
-3. Fill the form, and click the “Create” button.
+Click “Set up for free”.
+
+Fill the form, and click the “Create” button.
 
 ![](https://lh7-us.googleusercontent.com/z3awPjHrqjmwEtVuSwR0rXRwSML7t02dRMMhJ43lAzTjYJYp8vgDUTGebruVdyN0bsaHDkmbK2g0EI4Wkfdoet5M2yN2X8Kc0wbanTgZL_VOLoMUA3yw8UFiFjlVG3ljCmBxWvbZMpNfizStPw7M02I)
 
-4. Copy and paste the tracking code into your website
-5. Go to [](https://a-ads.com/)[a-ads.com](https://a-ads.com/)
-6. Create a new campaign, or go to your existing campaign’s dashboard
-7. Enable goal tracking, as seen in the image below
+Copy and paste the tracking code into your website.
+
+Go to ﻿﻿[a-ads.com](https://a-ads.com/).
+
+Create a new campaign, or go to your existing campaign’s dashboard.
+
+Enable goal tracking, as seen in the image below.
 
 ![](https://lh7-us.googleusercontent.com/Sf4-RKa4F5XBDJpXU9yOygRhOvF6JdLYbLse6M1rMMY3KTN8BFAI36z1nsiz2Mhd0uoJakyfLredXEdArMAc56lH1M6Cd401jY2F5RyF3II7AZJU9OTEPX8OhzQin8IYdIdp0Ne5DLGuvvEEOROH7Ao)
 
-8. Change the default suffix to “?utm_source=A-ADS&utm_medium=Banner&utm_campaign=MyCampaignName&utm_term={{partner}}”,  as seen in the image below.
+Change the default suffix to “?utm_source=A-ADS&utm_medium=Banner&utm_campaign=MyCampaignName&utm_term={{partner}}”,  as seen in the image below.
 
 ![](https://lh7-us.googleusercontent.com/gavcwM67l4mom14uOCrefu6_OmvxNAJqiAA_ahQhsP9JEtiHKyF_MdXrFXoTXQsuVNeyuxCsg6FYFN-ot-alsWThV-2kBFfnYf2i97GFmoole3JF83jwem3Jg5UC3wk7xNjf6hYr8ZprkR_gG1dU_8Y)
 
-The breakdown of the Suffix :
+The breakdown of the Suffix:
 
 Utm_source = A-ADS
 
@@ -63,7 +67,7 @@ Utm_Campaign = MyCampaignName
 
 Utm_term = {{partner}}
 
-9. After your A-ADS campaign starts running and has generated clicks, go to “Advertising>>All Channels” of your GA dashboard. The data should look something like this:
+After your A-ADS campaign starts running and has generated clicks, go to “Advertising>>All Channels” of your GA dashboard. The data should look something like this:
 
 ![](https://lh7-us.googleusercontent.com/qcLrhuKCmV5Yp7Gg97hyLS3QjoSGqVGB8OZngcOA87j7CnZKZc3A-abIUCAcKCGoaQXk_7K3FQz50M-lcAKltH64bNVc2VVto15Mwyso9zZO1Mb50Fx-QTwE5WHEc2PbgZX8FBSXHE8U070j52PEj7Q)
 
