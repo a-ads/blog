@@ -29,13 +29,11 @@ Google Analytics lets you measure your advertising ROI as well as track your vid
 3. A-ADS Account
 4. A-ADS campaign with goal tracking enabled
 
-
-
 ## Let’s start!
 
 Please note, steps one to four are to be ignored if you already use GA.
 
-1. Go to <https://analytics.google.com/>
+1. Go to[analytics.google.com](https://analytics.google.com/) ﻿
 
 ![](https://lh7-us.googleusercontent.com/tVcQ2iYKQeoCKf-z4QPgQHyA1Y1eHYdH8_fhqhkcWLTjNNT2-jcCYFxNaX6MsFBcHQ_G7STfeOEHWf5Vi_xlH50K1I4-G5SmJ78OSL-8mVR14wl0lIoTk8NwoBWagMAEbwGULkPMB0moESv6vgoCmd4)
 
@@ -45,7 +43,7 @@ Please note, steps one to four are to be ignored if you already use GA.
 ![](https://lh7-us.googleusercontent.com/z3awPjHrqjmwEtVuSwR0rXRwSML7t02dRMMhJ43lAzTjYJYp8vgDUTGebruVdyN0bsaHDkmbK2g0EI4Wkfdoet5M2yN2X8Kc0wbanTgZL_VOLoMUA3yw8UFiFjlVG3ljCmBxWvbZMpNfizStPw7M02I)
 
 4. Copy and paste the tracking code into your website
-5. Go to <https://a-ads.com/> 
+5. Go to [](https://a-ads.com/)[a-ads.com](https://a-ads.com/)
 6. Create a new campaign, or go to your existing campaign’s dashboard
 7. Enable goal tracking, as seen in the image below
 
