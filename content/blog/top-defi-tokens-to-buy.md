@@ -1,6 +1,6 @@
 ---
 date: 2023-01-16T14:53:03.824Z
-title: Top DeFi Tokens to Buy in 2023
+title: Top DeFi Tokens to Buy in 2024
 slug: top-defi-tokens-to-buy
 tags:
   - news

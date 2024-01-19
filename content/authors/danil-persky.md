@@ -74,7 +74,7 @@ json_ld: >-
         "@type": "Thing",
         "name": "customer support",
         "@id": "https://www.wikidata.org/wiki/Q5196479"
-      }
+      },
       {
         "@type": "Thing",
         "name": "content creation",

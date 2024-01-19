@@ -1,6 +1,6 @@
 ---
 date: 2023-01-20T19:28:34.328Z
-title: Best Cryptocurrency Payment Gateways in 2023
+title: Best Cryptocurrency Payment Gateways in 2024
 slug: best-cryptocurrency-payment-gateways
 tags:
   - news

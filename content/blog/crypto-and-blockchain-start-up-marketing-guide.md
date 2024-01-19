@@ -1,6 +1,6 @@
 ---
 date: 2023-06-07T10:31:29.173Z
-title: Crypto and Blockchain Start-Up Marketing Guide. How To Get Noticed In 2023
+title: Crypto and Blockchain Start-Up Marketing Guide. How To Get Noticed In 2024
 slug: crypto-and-blockchain-start-up-marketing-guide
 tags:
   - news

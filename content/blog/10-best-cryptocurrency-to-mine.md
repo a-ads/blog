@@ -1,6 +1,6 @@
 ---
 date: 2022-08-26T03:35:15.701Z
-title: 10 Best Cryptocurrency to mine 2023
+title: 10 Best Cryptocurrency to mine 2024
 slug: 10-best-cryptocurrency-to-mine
 tags:
   - news

@@ -9,11 +9,11 @@ export interface CardProps extends BlogPostCard {
 }
 
 const absoluteSlug = (slug: string) => {
-  if (slug.startsWith('/')) {
-    return slug.toLowerCase().trim()
-  }
-  return `/${slug.toLowerCase().trim()}`
-}
+  const normalizedSlug = slug.replace(/\s/g, '');
+  return normalizedSlug.startsWith('/')
+      ? normalizedSlug.toLowerCase()
+      : `/${normalizedSlug.toLowerCase()}`;
+};
 
 const Card: React.FC<CardProps> = ({
   title,
