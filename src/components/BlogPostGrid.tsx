@@ -81,9 +81,9 @@ const BlogPostGrid = ({
 
   const goToPage = (page: number) => {
     if (page === 1) {
-      navigate(`${location.origin}`, { replace: true })
+      navigate(`/`, { replace: true })
     } else if (page >= 1 && page <= totalPages) {
-      navigate(`${location.origin}?page=${page}`)
+      navigate(`?page=${page}`)
     }
   }
 
