@@ -102,7 +102,6 @@ const BlogPostGrid = ({
 
     if (typeof window !== 'undefined') {
       const linkElement = document.querySelector('link[rel="canonical"]')
-      console.log(linkElement, 'linkElement')
       if (linkElement) {
         linkElement.setAttribute('href', canonicalLink)
       }

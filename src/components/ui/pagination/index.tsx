@@ -1,7 +1,6 @@
 import React from 'react'
 import './pagination.css'
 import { Link } from 'gatsby'
-import { useLocation } from '@reach/router'
 
 interface IPropsPagination {
   goToPage: (page: number) => void
@@ -18,7 +17,7 @@ const Pagination = ({
   pageNumbers,
   currentPage,
 }: IPropsPagination) => {
-  const location = useLocation()
+
   return (
     <>
       {displayPageNumbers.length > 1 && (
@@ -36,8 +35,8 @@ const Pagination = ({
                   <Link
                     to={
                       number === 1
-                        ? `${location.pathname}`
-                        : `${location.pathname}?page=${number}`
+                        ? `/`
+                        : `?page=${number}`
                     }
                     key={number}
                     className={currentPage === number ? 'active' : ''}
