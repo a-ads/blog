@@ -37,7 +37,7 @@ const Pagination = ({
                     to={
                       number === 1
                         ? `${location.pathname}`
-                        : `${location.pathname}?page=${number}`
+                        : `?page=${number}`
                     }
                     key={number}
                     className={currentPage === number ? 'active' : ''}
