@@ -31,7 +31,7 @@ const BlogPostGrid = ({
   const location = useLocation()
   const [currentBlogs, setCurrentBlogs] = useState<BlogPostCard[]>([])
   const [canonicalLink, setCanonicalLink] = useState(
-    `${location.origin}${location.pathname}`
+    `${location.origin}`
   )
   const searchParams = new URLSearchParams(location.search)
   const currentPage = parseInt(searchParams.get('page') as string) || 1
@@ -81,9 +81,9 @@ const BlogPostGrid = ({
 
   const goToPage = (page: number) => {
     if (page === 1) {
-      navigate(`/`, { replace: true })
+      navigate(`${location.origin}${location.pathname}`, { replace: true })
     } else if (page >= 1 && page <= totalPages) {
-      navigate(`?page=${page}`)
+      navigate(`${location.origin}${location.pathname}?page=${page}`)
     }
   }
 
@@ -94,10 +94,10 @@ const BlogPostGrid = ({
 
     if (currentPage > 1) {
       setCanonicalLink(
-        `${location.origin}${location.pathname}?page=${currentPage}`
+        `${location.origin}?page=${currentPage}`
       )
     } else {
-      setCanonicalLink(`${location.origin}${location.pathname}`)
+      setCanonicalLink(`${location.origin}`)
     }
 
     if (typeof window !== 'undefined') {
