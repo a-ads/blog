@@ -137,13 +137,13 @@ const BlogPostGrid = ({
             />
           ))}
       </div>
-      {/*<Pagination*/}
-      {/*  goToPage={goToPage}*/}
-      {/*  displayPageNumbers={displayPageNumbers}*/}
-      {/*  canLoadMore={canLoadMore}*/}
-      {/*  pageNumbers={pageNumbers}*/}
-      {/*  currentPage={currentPage}*/}
-      {/*/>*/}
+      <Pagination
+        goToPage={goToPage}
+        displayPageNumbers={displayPageNumbers}
+        canLoadMore={canLoadMore}
+        pageNumbers={pageNumbers}
+        currentPage={currentPage}
+      />
     </>
   )
 }
