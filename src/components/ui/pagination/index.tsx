@@ -36,7 +36,7 @@ const Pagination = ({
                   <Link
                     to={
                       number === 1
-                        ? `${location.pathname}`
+                        ? `/`
                         : `?page=${number}`
                     }
                     key={number}
