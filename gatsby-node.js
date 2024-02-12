@@ -364,6 +364,7 @@ exports.createPages = async ({ graphql, actions }) => {
       post.node.frontmatter.slug = '/blog/' + post.node.frontmatter.slug + '/'
       post.node.fields.slug = post.node.frontmatter.slug
     }
+    post.node.html = ''
     return post
   })
   fs.writeFile(
