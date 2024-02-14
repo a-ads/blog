@@ -88,9 +88,9 @@ If you encounter difficulties or still do not receive the second email after the
 
 They will help you throughout the process and resolve the issue promptly.
 
-After two days, your new withdrawal method will become active, and you can go to the Finance => My Finance page and click Withdraw all funds.
+After two days, your new withdrawal method will become active, and you can go to the **Finance** => **My Finance** page and click **Withdraw all funds**.
 
-![](https://lh7-us.googleusercontent.com/l-1heaDy4R3dVbKGIJJQMglGFox0J4znHu6Ep9l8I-IGMOhiW-bDtHMEAdqKqgR4Li7YFd8Tk6G--nUKeu7aUvK5akT_6GdS0AsteWCvlb7Lm1Kq2eK6leTtJdJpmU-hNqlY7gE4eoGC2mWwE7lGO4Q)
+![]()
 
 In a couple of seconds, the funds will be in your wallet.
 
