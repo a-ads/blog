@@ -16,7 +16,7 @@ meta_description: ""
 meta_keywords: ""
 json_ld: ""
 ---
-This article will explore BTC-Lightning and how you can withdraw Bitcoin from A-ADS in just 1 second using the Lightning Network.
+This article will explore Lightning Network and how you can withdraw Bitcoin from A-ADS in just 1 second using the Lightning.
 
 ## What is Lightning Network?
 
