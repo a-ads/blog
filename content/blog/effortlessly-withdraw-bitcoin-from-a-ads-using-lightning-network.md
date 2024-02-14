@@ -106,7 +106,7 @@ If you start a wallet in CoinCorner, you can order an NFC card from them to purc
 
 Here, you can find a map with markings of places where they accept Lightning as payment: <https://btcmap.org/>.
 
-### Takeaways: 
+### Takeaways
 
 1. The Lightning Network is a cutting-edge technological solution designed to address the challenge of slow transaction speed on the Bitcoin blockchain. By implementing off-chain transactions, the Lightning Network aims to significantly improve the speed and efficiency of Bitcoin transactions.
 2. By bypassing the reliance on a centralized intermediary, the Lightning Network streamlines transaction routing and reduces the associated delays and costs. 
