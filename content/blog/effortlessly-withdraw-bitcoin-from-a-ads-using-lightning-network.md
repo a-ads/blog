@@ -46,7 +46,7 @@ With the help of the Lightning Network, users can make transactions in as little
 
 * **Low cost of transactions** 
 
-The average cost of a Lightning Network transaction is around one satoshi, which is approximately 0.006 rubles.
+The average cost of a Lightning Network transaction is around one satoshi.
 
 * **High anonymity of transactions** 
 
