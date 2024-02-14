@@ -58,7 +58,8 @@ If you don't have a wallet that supports LNURL payRequest or Lightning Address, 
 \
 You can find a list of wallets that support Lightning Addresses here https://github.com/andrerfneves/lightning-address
 
-Here is a list of wallets that support LNURL payRequest - https://github.com/lnurl/luds?tab=readme-ov-file#lnurl-documents\
+Here is a list of wallets that support LNURL payRequest - https://github.com/lnurl/luds?tab=readme-ov-file#lnurl-documents
+
 Now that you have your Lightning wallet ready let's move on to the next steps for withdrawing funds from A-ADS:
 
 Click on the Finance section in the top menu of the site. 
