@@ -27,6 +27,7 @@ interface Author {
   slug: string
   postCount?: number
   posts?: BlogPostCard[]
+  postsHeader?: BlogPostCard[]
   twitter_link?: string
   facebook_link?: string
   linkedin_link?: string

@@ -11,10 +11,11 @@ type BlogPostGridProps = {
   posts: BlogPostCard[]
   amount?: number
   canLoadMore?: boolean
-  span?: number[] // Indexes of posts to span across the grid
+  span?: number[]
   className?: string
   header?: string
   blogPostGrid?: boolean
+  isPagination?: boolean
   setBlogPostGrid?: (blogPostGrid: boolean) => void
 }
 
@@ -27,6 +28,7 @@ const BlogPostGrid = ({
   header,
   blogPostGrid,
   setBlogPostGrid,
+  isPagination = true
 }: BlogPostGridProps) => {
   const location = useLocation()
   const [currentBlogs, setCurrentBlogs] = useState<BlogPostCard[]>([])
@@ -45,7 +47,7 @@ const BlogPostGrid = ({
     } else {
       setCurrentBlogs(posts.slice(indexOfFirstBlog, indexOfLastBlog))
     }
-  }, [currentPage, posts])
+  }, [currentPage])
 
   const totalPages = Math.ceil(posts.length / amount)
   const maxDisplayPages = 5
@@ -137,13 +139,13 @@ const BlogPostGrid = ({
             />
           ))}
       </div>
-      <Pagination
-        goToPage={goToPage}
-        displayPageNumbers={displayPageNumbers}
-        canLoadMore={canLoadMore}
-        pageNumbers={pageNumbers}
-        currentPage={currentPage}
-      />
+      {isPagination && <Pagination
+          goToPage={goToPage}
+          displayPageNumbers={displayPageNumbers}
+          canLoadMore={canLoadMore}
+          pageNumbers={pageNumbers}
+          currentPage={currentPage}
+      />}
     </>
   )
 }
