@@ -10,7 +10,7 @@ category_top_level:
   - Publishers
   - Advertisers
 author: Yulia Savushkina
-thumbnail: ../../static/assets/full.png
+thumbnail: /blog/assets/a-ads-customer-support.png
 big_picture: ../../static/assets/short-2-.png
 popularity: ""
 meta_title: "Latest news: Tether Thrives, Telegram Transfers USDT, Nasdaq Offers

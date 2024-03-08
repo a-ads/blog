@@ -25,8 +25,6 @@ One of the primary benefits of remote work is the cost savings it offers. When f
 
 Let's explore them in more detail.
 
-
-
 ## The Advantages of Remote Work
 
 ![The Advantages of Remote Work](/blog/assets/remote-work-advantages.png "The Advantages of Remote Work")
@@ -105,8 +103,6 @@ Here are some ways to make your remote work setup better:
 
 **Do Finger Exercises:** Try simple finger exercises to help you focus better on your work. These exercises can help refresh your mind and bring back your focus.
 
-
-
 ### Problem 2: Feeling Tired Emotionally
 
 When working from home, there's a unique challenge called emotional tiredness. Without being in an office, we miss out on the small things like faces, gestures, and being close to others that help our brains understand conversations. This can make us feel stressed because we're social creatures who enjoy talking in person and seeing emotions. Even small things like a boss's little smile can make us feel good. These tiny interactions are important for our happiness.
@@ -174,10 +170,18 @@ Even if working from home has problems, many people still like it. Remember that
 **\
 References and Useful Links:**
 
-**"Remote Work Benefits and Challenges: Tips for Employers and Employees"** - Provides insights into the benefits and challenges of remote work for both sides, with practical tips for effective implementation. Link: https://www.shrm.org/resourcesandtools/hr-topics/technology/pages/remote-work-benefits-challenges.aspx
+**"Remote Work Benefits and Challenges: Tips for Employers and Employees"** - Provides insights into the benefits and challenges of remote work for both sides, with practical tips for effective implementation. 
 
-**"Remote Work Best Practices: How to Stay Productive and Sane"** - Offers actionable advice on managing the physical and emotional challenges of remote work while maintaining productivity and well-being. Link: https://www.inc.com/guides/2010/05/effective-remote-working.html
+Link: https://www.shrm.org/resourcesandtools/hr-topics/technology/pages/remote-work-benefits-challenges.aspx
 
-**"Remote Work Transition: A Comprehensive Guide for Employers"** - A guide for employers on effectively transitioning to remote work, including strategies for maintaining team productivity and overcoming common challenges. Link: https://www.flexjobs.com/employer-blog/remote-work-transition-guide/
+**"Remote Work Best Practices: How to Stay Productive and Sane"** - Offers actionable advice on managing the physical and emotional challenges of remote work while maintaining productivity and well-being. 
 
-**"The Psychological Impact of Remote Work"** - Explores the psychological aspects of remote work, its impact on emotional well-being, and strategies to address emotional tiredness and feelings of isolation. Link: https://www.apa.org/monitor/2021/03/remote-work-psychological
+Link: https://www.inc.com/guides/2010/05/effective-remote-working.html
+
+**"Remote Work Transition: A Comprehensive Guide for Employers"** - A guide for employers on effectively transitioning to remote work, including strategies for maintaining team productivity and overcoming common challenges. 
+
+Link: https://www.flexjobs.com/employer-blog/remote-work-transition-guide/
+
+**"The Psychological Impact of Remote Work"** - Explores the psychological aspects of remote work, its impact on emotional well-being, and strategies to address emotional tiredness and feelings of isolation. 
+
+Link: https://www.apa.org/monitor/2021/03/remote-work-psychological
