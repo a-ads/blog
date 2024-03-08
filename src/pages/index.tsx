@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import React, {useMemo, useState} from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import { take, drop, sortBy, toInteger } from 'lodash-es'
@@ -47,23 +47,19 @@ const IndexPage = () => {
     }
   `)
 
-  const posts = useMemo(() => {
+  const { top, popular, rest } = useMemo(() => {
     const posts = data.allMarkdownRemark.nodes
-      // Remove frontmatter key
       .map((node) => node.frontmatter)
-      // Remove posts without title - how the hell did they get there? todo
       .filter((post) => post.title)
-    // Grab first 5 most popular posts and the rest
     return {
-      top: take(posts, 5),
+      top: take(posts, posts.length - 1),
       popular: take(
         sortBy(posts, (post) => toInteger(post.popularity)).reverse(),
         5
       ),
       rest: drop(posts, 5),
     }
-  }, [])
-  data
+  }, [data])
 
   return (
     <>
@@ -72,7 +68,7 @@ const IndexPage = () => {
           A-ADS Crypto Blog
         </h1>
 
-        <BlogPostGrid posts={posts.top} />
+        <BlogPostGrid posts={top} amount={5} isPagination={false}/>
 
         {/* Background images  */}
         <StaticImage
@@ -93,12 +89,12 @@ const IndexPage = () => {
 
       <Banner />
 
-      <BlogPostGrid posts={posts.rest} canLoadMore className='mt-20' />
+      <BlogPostGrid posts={rest} canLoadMore className='mt-20' />
 
       <section aria-label='Most popular' className='py-20'>
         <div className='container'>
           <h2 className='h1 mb-10'>Most popular</h2>
-          <BlogPostGrid posts={posts.popular} />
+          <BlogPostGrid posts={popular} />
         </div>
       </section>
 

@@ -31,7 +31,7 @@ const Pagination = ({
           {canLoadMore &&
             displayPageNumbers.map((number: any) => {
               return (
-                <li className={currentPage === number ? 'active' : ''}>
+                <li key={number} className={currentPage === number ? 'active' : ''}>
                   <Link
                     to={
                       number === 1
