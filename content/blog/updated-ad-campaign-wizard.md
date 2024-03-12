@@ -9,37 +9,38 @@ category_top_level:
   - News & Trends
   - Advertisers
 author: Anna Trifonova
-thumbnail: /blog/assets/marketplace.png
-big_picture: /blog/assets/short.png
+thumbnail: /blog/assets/marketplace-1-.png
+big_picture: /blog/assets/short-1-.png
 popularity: "0"
 meta_title: ""
 meta_description: ""
 meta_keywords: ""
 json_ld: ""
 ---
-We are excited to announce that we have updated our campaign creation wizard! The beta version of the interface is now available, and you can create a campaign in it right away. [Create campaign](https://a-ads.com/beta/campaigns/new/)
+We are excited to announce that we have updated our campaign creation wizard! The beta version of the interface is now available, and you can create a campaign in it right away. 
+
+[Create campaign](https://a-ads.com/beta/campaigns/new/)
 
 What's new?
 
-Convenient addition of websites to targeting directly in the campaign wizard
+* Convenient addition of websites to targeting directly in the campaign wizard
 
 ![](https://lh7-us.googleusercontent.com/lAgsIZD8gGJkLfZjzJLeaZQGbsT3qSL4YU8tyL3aPv3fuqNdhugq20ET7R5PR93G5tmqR91yjbD4bfe1mZTv9xMIBT795tVtpsJXhYnhs3C5DQR2UefKMuwcfrdSi51A6AUD77iyssEqtOHHIqr3ObI)
 
-Ability to target only specific ad units or all ad units of the selected website
+* Ability to target only specific ad units or all ad units of the selected website
 
 ![](https://lh7-us.googleusercontent.com/71otuBVDHQilLqzW4rUSxLiswX5PTPfY9_SCeXRV0zGBPlyw0LWylEaRyvKlgsUYxRTNp8RhehiG8yYFHs-EHQUpdXe6WSEhmeFsyqnsL15gM5Of0vPLywxtEvR3pPqgGozH46IErEMDHvTD24rF0ck)
 
-Easy selection of daily advertising budget in BTC and USD
+* Easy selection of daily advertising budget in BTC and USD
 
 ![](https://lh7-us.googleusercontent.com/vu6hJIkA1TlP2H4RNFDKJG1BAlOUdg44lZdol61D3LEnXuZmife_HNPNyKJDAaq9myzlLwefdF2hj9VO1kWyOMsUQUt6B8ifLquLD3giTrL9VC-G4TvH0UYB59AEDd5RKV7uYzha05H5Wg7MU3Y8wLw)
 
-Option to add the "Show banners only" feature when creating a campaign![](https://lh7-us.googleusercontent.com/s4Bz7_7Ca62mkZ_HBc41uJLVjydqPcmzbKM8jfs9vnxi_ThkiEIQJhGk6gdvXIQWpVpvjVqGOsdY6GhqJnLfwHthxpG0CXTYHMvqYbhWhXkXq5nvZzY7S5OngJfH05pmgIa9U76xnnHVRogrmLxOH8Y)
+* Option to add the "Show banners only" feature when creating a campaign![](https://lh7-us.googleusercontent.com/s4Bz7_7Ca62mkZ_HBc41uJLVjydqPcmzbKM8jfs9vnxi_ThkiEIQJhGk6gdvXIQWpVpvjVqGOsdY6GhqJnLfwHthxpG0CXTYHMvqYbhWhXkXq5nvZzY7S5OngJfH05pmgIa9U76xnnHVRogrmLxOH8Y)
+* Advanced calculator for expected traffic metrics, including your share of spending on the site/ad unit compared to other advertisers' spending
 
-Advanced calculator for expected traffic metrics, including your share of spending on the site/ad unit compared to other advertisers' spending
+![](https://lh7-us.googleusercontent.com/BE7fCEgNENOm673zWVjvUCeSChjPWYFiHV21H7WhkjMF2iBfalRgQexCuPfIDwtcx4O8Oq7wRhx3bqJrA4WIlxjaYORzrrhtU3o19YjMyUcWXcEjpKHnhQX_cMgZn0m3qISasp4s4hPrbInrhIDdlyc)
 
-![](https://lh7-us.googleusercontent.com/rgH76hM3Ea1aznrjGmJxdTl05a4Ng10-5ENi2VjGB3N8Ojs-VFhwSm5Od72ud1F8NHkaEpH5l40EtltYJfQpzDE4vLyZ9HwdpTT2XtLGFNLCocvoo_MaHMRK1QCyI0FqenguQHeS1gc5MgRnej2PgKo)
-
-In the new wizard, you also see a preview of the updated design of text ads
+* In the new wizard, you also see a preview of the updated design of text ads
 
 ![](https://lh7-us.googleusercontent.com/NPGA-1Zkl_5SQWnyn6jf5Y9mymYXwYBbjEhM-ralpWoEZrDuiBzLoEW0D6xB1ReiRVGiSJC3nao-MSJ-GNYcak2Ew8LFZxDcl-NiPaAvIwK-c4Ki5QumM3KlbqOxz2yb91OQ1daDOpvtjJsE2JvmiQk)
 
