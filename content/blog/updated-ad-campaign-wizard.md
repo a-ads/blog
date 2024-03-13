@@ -35,7 +35,11 @@ What's new?
 
 ![](https://lh7-us.googleusercontent.com/vu6hJIkA1TlP2H4RNFDKJG1BAlOUdg44lZdol61D3LEnXuZmife_HNPNyKJDAaq9myzlLwefdF2hj9VO1kWyOMsUQUt6B8ifLquLD3giTrL9VC-G4TvH0UYB59AEDd5RKV7uYzha05H5Wg7MU3Y8wLw)
 
-* Option to add the "Show banners only" feature when creating a campaign![](https://lh7-us.googleusercontent.com/s4Bz7_7Ca62mkZ_HBc41uJLVjydqPcmzbKM8jfs9vnxi_ThkiEIQJhGk6gdvXIQWpVpvjVqGOsdY6GhqJnLfwHthxpG0CXTYHMvqYbhWhXkXq5nvZzY7S5OngJfH05pmgIa9U76xnnHVRogrmLxOH8Y)
+* Option to add the "Show banners only" feature when creating a campaign
+
+  ![](https://lh7-us.googleusercontent.com/tDMbBQ4Pa0SZ3ORcMpNMDu8Xd0SmGMFkjUogtI-JHAtM4Ssw8FgB1sm9OqYI8Dha4jNnzGA8RZP8hT9NgsSJOa1lVDqT3vSjnCv2exnF0w06mzSEkclNqKNhYGoBsloTKVC_xRJufU64TfWJREKrWYM)
+
+
 * Advanced calculator for expected traffic metrics, including your share of spending on the site/ad unit compared to other advertisers' spending
 
 ![](https://lh7-us.googleusercontent.com/BE7fCEgNENOm673zWVjvUCeSChjPWYFiHV21H7WhkjMF2iBfalRgQexCuPfIDwtcx4O8Oq7wRhx3bqJrA4WIlxjaYORzrrhtU3o19YjMyUcWXcEjpKHnhQX_cMgZn0m3qISasp4s4hPrbInrhIDdlyc)
