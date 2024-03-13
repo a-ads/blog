@@ -17,7 +17,7 @@ meta_description: ""
 meta_keywords: ""
 json_ld: ""
 ---
-We are excited to announce that we have updated our campaign creation wizard! The beta version of the interface is now available, and you can create a campaign in it right away. 
+We are excited to announce that we have updated our campaign creation wizard! The beta version of the interface is now available, and you can create a campaign in it right away:
 
 [Create campaign](https://a-ads.com/beta/campaigns/new/)
 
