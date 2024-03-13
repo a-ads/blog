@@ -37,8 +37,7 @@ What's new?
 
 * Option to add the "Show banners only" feature when creating a campaign
 
-  ![](https://lh7-us.googleusercontent.com/tDMbBQ4Pa0SZ3ORcMpNMDu8Xd0SmGMFkjUogtI-JHAtM4Ssw8FgB1sm9OqYI8Dha4jNnzGA8RZP8hT9NgsSJOa1lVDqT3vSjnCv2exnF0w06mzSEkclNqKNhYGoBsloTKVC_xRJufU64TfWJREKrWYM)
-
+![](/blog/assets/pasted-image-0.png)
 
 * Advanced calculator for expected traffic metrics, including your share of spending on the site/ad unit compared to other advertisers' spending
 
