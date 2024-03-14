@@ -374,4 +374,42 @@ exports.createPages = async ({ graphql, actions }) => {
       console.log(err)
     }
   )
+
+  const blogPosts2 = JSON.parse(
+    JSON.stringify(data.allBlogPosts.edges)
+  ).map(function (post) {
+    if (post.node.frontmatter.thumbnail) {
+      post.node.frontmatter.thumbnail =
+        post.node.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src
+    }
+    if (post.node.fields.slug) {
+      post.node.frontmatter.slug = '/blog/' + post.node.frontmatter.slug + '/'
+      post.node.fields.slug = post.node.frontmatter.slug
+    }
+    post.node.html = ''
+    return post
+  })
+
+  const specificBlogPostsUrls = [
+    '/blog/a-closer-look-at-a-ads-customer-support/',
+    '/blog/pros-and-cons-of-remote-work-finding-the-right-balance/',
+    '/blog/how-to-get-a-job-in-cryptocurrency/'
+  ]
+
+  const specificBlogPosts = blogPosts2.filter(function (post) {
+    return specificBlogPostsUrls.includes(post.node.frontmatter.slug)
+  })
+
+  const test = _.take(_.uniqWith(
+    _.take(specificBlogPosts.concat(blogPosts2), 12),
+    _.isEqual
+  ), 9)
+
+  fs.writeFile(
+    path.resolve('./public/main_page_blogposts_preview_2.json'),
+    JSON.stringify(test),
+    function (err) {
+      console.log(err)
+    }
+  )
 }
