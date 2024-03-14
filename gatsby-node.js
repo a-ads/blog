@@ -400,14 +400,14 @@ exports.createPages = async ({ graphql, actions }) => {
     return specificBlogPostsUrls.includes(post.node.frontmatter.slug)
   })
 
-  const test = _.take(_.uniqWith(
+  const specificBlogPostsProcessed = _.take(_.uniqWith(
     _.take(specificBlogPosts.concat(blogPosts2), 12),
     _.isEqual
   ), 9)
 
   fs.writeFile(
-    path.resolve('./public/main_page_blogposts_preview_2.json'),
-    JSON.stringify(test),
+    path.resolve('./public/extra_blogposts_preview.json'),
+    JSON.stringify(specificBlogPostsProcessed),
     function (err) {
       console.log(err)
     }
