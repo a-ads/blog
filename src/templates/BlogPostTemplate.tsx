@@ -88,7 +88,7 @@ const TableOfContents = ({
           </span>
         )}
 
-        <div className='up-desktop:overflow-y-auto up-desktop:max-h-screen scroll-smooth'>
+        <div className='up-desktop:overflow-y-auto up-desktop:max-h-screen scroll-smooth aside-article'>
           {/* Same here  */}
           {toc && (
             <div
@@ -103,7 +103,7 @@ const TableOfContents = ({
               'mt-6': Boolean(toc),
             })}
           >
-            <div className='flex flex-col gap-4 z-1 relative p-7'>
+            <div className='flex flex-col gap-4 z-1 relative p-7 aside-image'>
               <StaticImage
                 src='../../static/images/banners/banner-logo.png'
                 alt='Logo'
