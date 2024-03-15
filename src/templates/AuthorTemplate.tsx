@@ -105,7 +105,7 @@ const AuthorPage: React.FC<AuthorPageProps> = ({ pageContext }) => {
         className='container mb-14'
       >
         <h2 className='mt-11 name-latest'>{name}'s latest articles</h2>
-        <BlogPostGrid posts={posts!} className='mt-8' />
+        <BlogPostGrid posts={posts!} isPagination={false} className='mt-8' />
       </section>
       <BlogPostGrid posts={drop(posts!, 5)} className='container' canLoadMore />
       <div className='mb-20 tablet:mb-15 phone:mb-10' />
