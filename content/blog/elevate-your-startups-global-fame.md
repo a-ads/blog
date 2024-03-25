@@ -31,19 +31,19 @@ By collaborating with A-ADS, startups can access a spectrum of advertising optio
 
 By partnering with A-ADS, startups can get several benefits, which include:
 
-1. Access to a Crypto-Interested Audience
+1. **Access to a Crypto-Interested Audience**
 
 A-ADS has a network of publishers, many of whom are actively engaged in blockchain projects. This ensures exposure to an audience with a keen interest in cryptocurrencies.
 
-2. Diverse Ad Formats
+2. **Diverse Ad Formats**
 
 While special terms apply to Cost Per Day (CPD) banner ads, startups can explore a range of alternative offers available in the A-ADS Marketplace.
 
-3. Global Targeting Capabilities 
+3. **Global Targeting Capabilities** 
 
 Whether seeking a worldwide audience or specific demographic targets, A-ADS offers precise targeting options tailored to each business's unique characteristics.
 
-4. Transparent Performance Metrics
+4. **Transparent Performance Metrics**
 
 Leveraging a data-driven approach, startups can gauge the performance of their campaigns through comprehensive statistics available on the user dashboard.
 
@@ -55,19 +55,19 @@ A-ADS collaborates with esteemed industry publishers, including Poocoin, Dexscre
 
 In addition to the advertising opportunities, the A-ADS platform offers several distinct advantages for startups, including:
 
-1. Crypto Deposits and Payouts
+1. **Crypto Deposits and Payouts**
 
 Clients can seamlessly transact using a variety of popular cryptocurrencies and tokens, with the added potential to earn bitcoin through a swift withdrawal process.
 
-2. Self-Served Solution
+2. **Self-Served Solution**
 
 A-ADS offers a simple and automated process, saving valuable time by reducing the need for extensive communication with publishers.
 
-3. Rapid Moderation Service
+3. **Rapid Moderation Service**
 
 The platform quickly reviews ads to prevent scams, usually approving them within minutes.
 
-4. Dedicated 24/7 Support
+4. **Dedicated 24/7 Support**
 
 A committed Support Team is available 24/7 to offer prompt assistance and ensure a highly satisfying user experience.
 
