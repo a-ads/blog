@@ -8,7 +8,7 @@ import { Breadcrumbs, Seo, Card, Banner } from '@components'
 import ShareButtons from '../components/ShareButtons'
 import { useLocation } from '@reach/router'
 
-export function Head({ pageContext: { post, author } }) {
+export function Head({ pageContext: { post, author } }: any) {
   const location = useLocation()
 
   return (
