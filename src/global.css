@@ -109,15 +109,17 @@ ol li:not(:only-child) {
     counter-increment: item;
     display: table-row;
 
-    &::before {
-        content: counter(item) '.';
-        text-align: left;
-        display: table-cell;
-        width: 3rem;
-        padding-inline: 1rem 0.3rem;
-        float: left;
-    }
-  }
+&
+::before {
+    content: counter(item) '.';
+    text-align: left;
+    display: table-cell;
+    width: 3rem;
+    padding-inline: 1rem 0.3rem;
+    float: left;
+}
+
+}
 }
 
 .flow {
@@ -239,7 +241,7 @@ p {
 .btn-redirect {
     background: #03A9F4;
     box-shadow: 0 11px 30px -13px rgba(18, 16, 28, 0.25);
-    border-radius: 4px;
+    border-radius: 50px;
 
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -247,13 +249,13 @@ p {
     font-size: 16px;
     color: #FFFFFF;
 
-    max-width: 274px;
+    max-width: 218px;
     width: 100%;
     padding: 2px 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 10px;
+    margin: 0;
     min-height: 56px;
     transition: background-color 0.3s ease;
 }
@@ -266,10 +268,6 @@ p {
 .btn-redirect:active {
     background: #049BE0;
     box-shadow: 0 11px 30px -13px rgba(18, 16, 28, 0.25);
-}
-
-.btn-text {
-    margin-left: 15px;
 }
 
 .nav-wrap {
@@ -379,7 +377,12 @@ p {
 }
 
 .nav-block {
-    margin: 0 76px;
+    margin: 0 81px 0 45px;
+}
+
+.nav-search {
+    width: 26px;
+    height: 26px;
 }
 
 .nav-block a:nth-child(2) {
@@ -388,6 +391,14 @@ p {
 
 .wrap-search svg {
     cursor: pointer;
+}
+
+.header {
+    align-items: center;
+}
+
+.header-content {
+    padding: 16px 0;
 }
 
 @media (max-width: 500px) {
@@ -409,13 +420,13 @@ p {
     }
 
     .logo-img {
-        width: 50px !important;
-        height: 28px !important;
+        width: 80px !important;
+        height: 27px !important;
     }
 
     .logo-img img {
-        width: 50px;
-        height: 28px;
+        width: 80px;
+        height: 27px;
     }
 
     .header-mobile {
@@ -551,6 +562,7 @@ h6#experience,
 .hover-slider button {
     transition: 0.3s ease-in;
 }
+
 .hover-slider button:hover {
     background: #FFF;
     transition: 0.3s ease-in-out;
@@ -583,7 +595,7 @@ a.icon-hover:active svg {
     @apply h1 font-secondary;
 }
 
-.flow p > a  {
+.flow p > a {
     max-width: 320px;
     overflow: hidden;
     word-break: break-all;

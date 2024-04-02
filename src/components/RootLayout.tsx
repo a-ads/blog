@@ -83,16 +83,16 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
   )
 
   return (
-    <header className='bg-base py-5 shadow-[0 40px 80px -40px rgb(0 0 0 / 10%)]'>
-      <div className='container flex align-middle justify-between header-mobile'>
+    <header className='bg-base shadow-[0 40px 80px -40px rgb(0 0 0 / 10%)] header-content'>
+      <div className='container flex align-middle justify-between header-mobile header'>
         <Link className='h-12 p-0' to='/'>
           <StaticImage
             src='../../static/images/logo.svg'
             alt='logo'
             placeholder='blurred'
             layout='fixed'
-            width={90}
-            height={50}
+            width={131}
+            height={44}
             quality={100}
             className={'logo-img'}
           />
@@ -101,9 +101,6 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
           className='btn-redirect up-desktop:hidden'
           to={'https://a-ads.com'}
         >
-          <div className={'logo-btn'}>
-            <LogoRedirect />
-          </div>
           <span className='btn-text btn-text__mobile'>Go to A-ADS network</span>
         </Link>
 
@@ -126,7 +123,6 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
             )}
           </div>
           <Link className='btn-redirect' to={'https://a-ads.com'}>
-            <LogoRedirect />
             <span className='btn-text'>Go to A-ADS network</span>
           </Link>
         </div>
