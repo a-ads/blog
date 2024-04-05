@@ -87,7 +87,7 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
       <div className='container flex align-middle justify-between header-mobile header'>
         <Link className='h-12 p-0' to='/'>
           <StaticImage
-            src='../../static/images/logo.svg'
+            src='../../static/images/logo.png'
             alt='logo'
             placeholder='blurred'
             layout='fixed'
