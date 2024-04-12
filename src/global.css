@@ -401,6 +401,10 @@ p {
     padding: 16px 0;
 }
 
+.link-logo {
+    min-height: auto;
+}
+
 @media (max-width: 500px) {
     .btn-redirect {
         max-width: 147px;
@@ -422,11 +426,6 @@ p {
     .logo-img {
         width: 80px !important;
         height: 27px !important;
-    }
-
-    .logo-img img {
-        width: 80px;
-        height: 27px;
     }
 
     .header-mobile {

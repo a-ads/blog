@@ -1,19 +1,19 @@
 import React, { useState, useMemo, Fragment } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import { StaticImage } from 'gatsby-plugin-image'
 import cn from 'classnames'
 import { utcToZonedTime, format } from 'date-fns-tz'
 import 'prismjs/themes/prism.css'
 
 import { Button, Icon, Link, List, ListItem } from '@ui'
 import { SocialButton } from '@components'
-import { Horn, Wallet, LogoRedirect } from '@icons'
+import { Horn, Wallet } from '@icons'
 import { SearchQueryProvider, SearchBar } from './Search'
 import ModalRenderer from './modal/ModalRenderer'
 import { showReportBugModal, showSuggestIdeaModal } from './modal/modals'
 import { toCategoryLink } from '@utils'
 import type { SocialId } from './SocialButton'
 import SvgSearchIcon from './icons/SearchIcon'
+import SiteLogo from "./icons/SiteLogo";
 
 const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false) // For mobile
@@ -22,7 +22,7 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
   const Hamburger = (
     <div
       aria-label='Hamburger menu'
-      className='w-8 h-8 relative cursor-pointer mt-2 up-desktop:hidden'
+      className='w-8 h-7 relative cursor-pointer up-desktop:hidden'
       onClick={() => setIsHamburgerOpen((prev) => !prev)}
     >
       {/* Three lines  */}
@@ -35,7 +35,7 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
             classname,
             // Classes for each line in the open state
             {
-              'odd:top-[18px] first:rotate-[135deg]': isHamburgerOpen,
+              'odd:top-[12px] first:rotate-[135deg]': isHamburgerOpen,
               'even:opacity-0 even:left-[-60px]': isHamburgerOpen,
               'last:rotate-[-135deg]': isHamburgerOpen,
             }
@@ -85,17 +85,8 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
   return (
     <header className='bg-base shadow-[0 40px 80px -40px rgb(0 0 0 / 10%)] header-content'>
       <div className='container flex align-middle justify-between header-mobile header'>
-        <Link className='h-12 p-0' to='/'>
-          <StaticImage
-            src='../../static/images/logo.svg'
-            alt='logo'
-            placeholder='blurred'
-            layout='fixed'
-            width={131}
-            height={44}
-            quality={100}
-            className={'logo-img'}
-          />
+        <Link className='p-0 link-logo' to='/'>
+          <SiteLogo className={'logo-img'}/>
         </Link>
         <Link
           className='btn-redirect up-desktop:hidden'
