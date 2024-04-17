@@ -183,7 +183,7 @@ const Footer = () => {
             title: 'Company',
             items: [
               { name: 'Blog', to: 'https://a-ads.com/blog/' },
-              { name: 'About us', to: 'https://a-ads.com/about_us' },
+              { name: 'About us', to: 'https://a-ads.com/about-us' },
               { name: 'Contacts', to: 'https://a-ads.com/contact_us' },
             ],
           },

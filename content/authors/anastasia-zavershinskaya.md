@@ -45,7 +45,7 @@ json_ld: >-
           "https://a-ads.com/assets/A-ads-logo-9f20c608e2a6cab649175cec3c3976253264542bc7b570a5de64eb3e206b5935.svg",
           "https://a-ads.com/assets/white-logo-7d7ddcdf6524fe36de88a5de9e76e6c6a6401b5e78910c27c1f0e7213cdc97bb.svg"
           ],
-  	  "publishingPrinciples": "https://a-ads.com/about_us"
+  	  "publishingPrinciples": "https://a-ads.com/about-us"
       }
   },
 

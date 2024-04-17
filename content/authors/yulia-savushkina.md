@@ -66,7 +66,7 @@ json_ld: >-
 
   ],
 
-  "publishingPrinciples": "https://a-ads.com/about_us"
+  "publishingPrinciples": "https://a-ads.com/about-us"
 
   }
 
