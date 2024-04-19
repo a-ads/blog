@@ -61,3 +61,14 @@ interface BlogPost {
   meta_description: string
   popularity: string
 }
+
+declare module '*.module.scss' {
+  const content: { [className: string]: string };
+  export = content;
+}
+
+// Если вы также используете обычные SCSS файлы (не модули)
+declare module '*.scss' {
+  const content: any;
+  export default content;
+}
