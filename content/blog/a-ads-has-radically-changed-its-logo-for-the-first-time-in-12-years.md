@@ -18,8 +18,6 @@ json_ld: ""
 ---
 The rebranding features a simple company name inscription with an 'A' in a circle instead of the well-known mustache icon.
 
-![](/blog/assets/screenshot-9-.png)
-
 The original A-ADS logo debuted in 2011 alongside the network's launch, emphasizing anonymity as the primary value proposition. Hence, the logo depicted "Mr. Anonymity," aligning with the company's full name, Anonymous Ads. 
 
 Over the years, the logo underwent minor changes in color and font. Below, you can compare the two A-ADS logos.
@@ -31,6 +29,8 @@ Over the years, the logo underwent minor changes in color and font. Below, you c
 Now, the logo emphasizes the first letter A, which encompasses several meanings characterizing the company: it might be Alternative, Artificial, Augmented, Advanced, Automated, still Anonymous and some other connotations. 
 
 "We don't want to limit ourselves by choosing just one meaning, because A-ADS is really so much more. We're not just an advertising network. We provide publishers with the opportunity to attract new advertisers to their site, earning by bringing advertisers into the network. We also offer an automated service for publishers to manage advertising and provide manual ad moderation when necessary. In other words, we offer more services and opportunities than the typical advertising network," continues the marketer.
+
+![](/blog/assets/screenshot-9-.png)
 
 It was also decided to encircle the first letter A, considering how people are subconsciously accustomed to processing information. In our everyday lives, A stands for an excellent grade; it's the first letter of the alphabet, closely associated with being number one. Number one in the market.
 
