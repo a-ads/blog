@@ -8,7 +8,7 @@ category: Stories
 category_top_level:
   - News & Trends
 author: Anna Trifonova
-thumbnail: /blog/assets/the-new-look- of-a-ads_blog.png
+thumbnail: /blog/assets/the-new-look- of-a-ads_blog-1-.png
 big_picture: /blog/assets/the-new-look- of-a-ads_short.png
 popularity: "0"
 meta_title: ""
