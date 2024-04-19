@@ -1,7 +1,7 @@
 ---
 date: 2023-08-07T11:47:20.003Z
 title: How Podcasts Can Help Your Business Grow
-slug: How-Podcasts-Can-Help-Your-Business-Grow
+slug: how-podcasts-can-help-your-business-grow
 tags:
   - news
 category: How to

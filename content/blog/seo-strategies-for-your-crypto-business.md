@@ -1,7 +1,7 @@
 ---
 date: 2023-08-03T11:16:42.465Z
-title: "SEO Strategies For Your Crypto Business "
-slug: "SEO-Strategies-for-Your-Crypto-Business "
+title: "SEO Strategies For Your Crypto Business"
+slug: "seo-strategies-for-your-crypto-business"
 tags:
   - news
 category: How to

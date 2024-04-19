@@ -1,7 +1,7 @@
 ---
 date: 2023-01-11T09:55:53.071Z
 title: 5 Crypto Wallets That Earn Interest In 2024
-slug: 5-Crypto-Wallets-That-Earn-Interest-In-2023
+slug: 5-crypto-wallets-that-earn-interest-in-2023
 tags:
   - news
 category: Stories

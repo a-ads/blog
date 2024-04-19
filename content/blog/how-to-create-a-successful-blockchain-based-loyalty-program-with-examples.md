@@ -1,7 +1,7 @@
 ---
 date: 2023-03-31T11:03:11.310Z
 title: How to Create a Successful Blockchain-Based Loyalty Program with Examples
-slug: How-to-Create-a-Successful-Blockchain-Based-Loyalty-Program with Examples
+slug: how-to-create-a-successful-blockchain-based-loyalty-program-with-examples
 tags:
   - news
 category: How to

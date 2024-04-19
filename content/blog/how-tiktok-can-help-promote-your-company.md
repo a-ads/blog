@@ -1,7 +1,7 @@
 ---
 date: 2023-03-23T11:57:54.597Z
 title: How TikTok Can Help Promote Your Company
-slug: How-TikTok-can-help-promote-your-company
+slug: how-tiktok-can-help-promote-your-company
 tags:
   - news
 category: How to
