@@ -11,15 +11,11 @@ import {
 } from '@components'
 import { Icon } from '@ui'
 import { Pen } from '@icons'
-import SvgFb from '../components/icons/Fb'
-import SvgLinkedin from '../components/icons/Linkedin'
-import SvgTwitter from '../components/icons/Twitter'
-import { SocialId } from '../components/SocialButton'
 interface AuthorPageProps {
   pageContext: Author
 }
 
-export function Head({ pageContext: { name, description, json_ld } }) {
+export function Head({ pageContext: { name, description, json_ld } }: any) {
   return (
     <Seo title={name} description={`${description}`}>
       {json_ld && <script type='application/ld+json'>{json_ld}</script>}

@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 import { take, drop, sortBy, toInteger } from 'lodash-es'
 
 import { BlogPostGrid, Banner, Seo } from '@components'
-import '../global.css'
+import '../global.scss'
 
 export function Head() {
   return <Seo />

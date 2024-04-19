@@ -187,6 +187,13 @@ const config: GatsbyConfig = {
         },
       },
     },
+    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-plugin-postcss',
+      options: {
+        postCssPlugins: [require('tailwindcss')],
+      },
+    },
   ],
 }
 
