@@ -30,7 +30,7 @@ Now, the logo emphasizes the first letter A, which encompasses several meanings 
 
 "We don't want to limit ourselves by choosing just one meaning, because A-ADS is really so much more. We're not just an advertising network. We provide publishers with the opportunity to attract new advertisers to their site, earning by bringing advertisers into the network. We also offer an automated service for publishers to manage advertising and provide manual ad moderation when necessary. In other words, we offer more services and opportunities than the typical advertising network," continues the marketer.
 
-![](/blog/assets/screenshot-9-.png)
+![](/blog/assets/the-new-look- of-a-ads_blog-2-.png)
 
 It was also decided to encircle the first letter A, considering how people are subconsciously accustomed to processing information. In our everyday lives, A stands for an excellent grade; it's the first letter of the alphabet, closely associated with being number one. Number one in the market.
 
