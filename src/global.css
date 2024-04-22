@@ -629,6 +629,11 @@ a.icon-hover:active svg {
     align-items: center;
 }
 
+.banner-text {
+    display: inline-block;
+    margin-bottom: 11px;
+}
+
 .banner-btn {
     max-width: 280px;
     width: 100%;
