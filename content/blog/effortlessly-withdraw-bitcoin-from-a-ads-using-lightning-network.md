@@ -56,9 +56,7 @@ Lightning transactions are not stored anywhere, which makes it difficult to dete
 
 If you don't have a wallet that supports LNURL payRequest or Lightning Address, you will need to obtain one. Currently, there are various mobile applications available for creating a Lightning wallet.\
 \
-You can find a list of wallets that support Lightning Addresses here https://github.com/andrerfneves/lightning-address
-
-Here is a list of wallets that support LNURL payRequest - https://github.com/lnurl/luds?tab=readme-ov-file#lnurl-documents
+You can find a list of wallets that support Lightning Addresses [here](https://lightningaddress.com/#providers).
 
 Now that you have your Lightning wallet ready let's move on to the next steps for withdrawing funds from A-ADS:
 
