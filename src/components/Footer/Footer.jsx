@@ -52,7 +52,7 @@ const sections = [
         content: [
             <a href='https://a-ads.com/about-us/'>About us</a>,
             <a href='https://a-ads.com/team/'>Our Team</a>,
-            <a href='/' target='_blank' rel='noreferrer'>
+            <a href='/blog' target='_blank' rel='noreferrer'>
                 Blog
             </a>
         ],
