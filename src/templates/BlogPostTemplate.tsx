@@ -104,15 +104,7 @@ const TableOfContents = ({
             })}
           >
             <div className='flex flex-col gap-4 z-1 relative p-7 aside-image'>
-              <StaticImage
-                src='../../static/images/banners/banner-logo.png'
-                alt='Logo'
-                width={70}
-                height={18}
-                layout='fixed'
-                placeholder='blurred'
-              />
-              <span className='clr-white font-bold text-[22px] font-secondary'>
+              <span className='banner-text clr-white font-bold text-[22px] font-secondary'>
                 Promote your crypto project with us!
               </span>
               <Link
