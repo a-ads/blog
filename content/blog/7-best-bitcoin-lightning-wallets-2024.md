@@ -1,7 +1,7 @@
 ---
 date: 2024-04-26T02:49:51.727Z
 title: 7 Best Bitcoin Lightning Wallets 2024
-slug: 7-best-bitcoin-lightning-wallets-2024  
+slug: 7-best-bitcoin-lightning-wallets-2024
 tags:
   - news
 category: Stories
