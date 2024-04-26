@@ -8,8 +8,8 @@ category: Stories
 category_top_level:
   - Publishers
 author: Yulia Savushkina
-thumbnail: ""
-big_picture: ""
+thumbnail: /blog/assets/7-best-bitcoin-lightning-wallets-2024-blog.png
+big_picture: /blog/assets/7-best-bitcoin-lightning-wallets-2024-short.png
 popularity: "0"
 meta_title: ""
 meta_description: ""
