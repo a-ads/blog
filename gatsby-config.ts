@@ -8,7 +8,7 @@ const config: GatsbyConfig = {
       'A-ADS Crypto Blog - marketing guides, tips and news to cryptocurrencies market',
     description:
       'Crypto & Bitcoin market tips and updates, mine guides, reviews and ratings for first-timers or experienced investors, and more information of cryptocurrencies.',
-    image: `static/images/favicon.png`,
+    image: `/blog/images/logo.svg`,
     siteUrl: 'https://a-ads.com',
   },
   graphqlTypegen: true,
