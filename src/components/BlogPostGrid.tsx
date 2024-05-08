@@ -19,16 +19,16 @@ type BlogPostGridProps = {
 }
 
 const BlogPostGrid = ({
-                        posts = [],
-                        amount = 20,
-                        canLoadMore,
-                        span = [0],
-                        className,
-                        header,
-                        blogPostGrid,
-                        setBlogPostGrid,
-                        isPagination = true
-                      }: BlogPostGridProps) => {
+  posts = [],
+  amount = 20,
+  canLoadMore,
+  span = [0],
+  className,
+  header,
+  blogPostGrid,
+  setBlogPostGrid,
+  isPagination = true
+}: BlogPostGridProps) => {
   const location = useLocation()
   const [currentBlogs, setCurrentBlogs] = useState<BlogPostCard[]>([])
   const [headers, setHeaders] = useState('')
