@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React, {useEffect, useState} from 'react'
 import cn from 'classnames'
-import { uniqueId } from 'lodash-es'
-import { Card } from '@components'
-import { Helmet } from 'react-helmet'
-import { navigate } from 'gatsby'
-import { useLocation } from '@reach/router'
+import {uniqueId} from 'lodash-es'
+import {Card, Seo} from '@components'
+import {navigate} from 'gatsby'
+import {useLocation} from '@reach/router'
 import Pagination from './ui/pagination'
 
 type BlogPostGridProps = {
@@ -20,18 +19,19 @@ type BlogPostGridProps = {
 }
 
 const BlogPostGrid = ({
-  posts = [],
-  amount = 20,
-  canLoadMore,
-  span = [0],
-  className,
-  header,
-  blogPostGrid,
-  setBlogPostGrid,
-  isPagination = true
-}: BlogPostGridProps) => {
+                        posts = [],
+                        amount = 20,
+                        canLoadMore,
+                        span = [0],
+                        className,
+                        header,
+                        blogPostGrid,
+                        setBlogPostGrid,
+                        isPagination = true
+                      }: BlogPostGridProps) => {
   const location = useLocation()
   const [currentBlogs, setCurrentBlogs] = useState<BlogPostCard[]>([])
+  const [headers, setHeaders] = useState('')
   const [canonicalLink, setCanonicalLink] = useState(
     `${location.origin}${location.pathname}`
   )
@@ -53,28 +53,28 @@ const BlogPostGrid = ({
   const maxDisplayPages = 5
 
   const pageNumbers = Array.from(
-    { length: Math.ceil(posts.length / amount) },
+    {length: Math.ceil(posts.length / amount)},
     (_, index) => index + 1
   )
 
   const displayPageNumbers = (() => {
     if (totalPages <= maxDisplayPages) {
-      return Array.from({ length: totalPages }, (_, index) => index + 1)
+      return Array.from({length: totalPages}, (_, index) => index + 1)
     } else {
       const middlePage = Math.floor(maxDisplayPages / 2)
       if (currentPage <= middlePage) {
         return Array.from(
-          { length: maxDisplayPages - 1 },
+          {length: maxDisplayPages - 1},
           (_, index) => index + 1
         )
       } else if (currentPage >= totalPages - middlePage) {
         return Array.from(
-          { length: maxDisplayPages - 1 },
+          {length: maxDisplayPages - 1},
           (_, index) => totalPages - maxDisplayPages + 2 + index
         )
       } else {
         return Array.from(
-          { length: maxDisplayPages - 2 },
+          {length: maxDisplayPages - 2},
           (_, index) => currentPage - middlePage + index
         )
       }
@@ -83,7 +83,7 @@ const BlogPostGrid = ({
 
   const goToPage = (page: number) => {
     if (page === 1) {
-      navigate(`${location.origin}${location.pathname}`, { replace: true })
+      navigate(`${location.origin}${location.pathname}`, {replace: true})
     } else if (page >= 1 && page <= totalPages) {
       navigate(`${location.origin}${location.pathname}?page=${page}`)
     }
@@ -98,8 +98,10 @@ const BlogPostGrid = ({
       setCanonicalLink(
         `${location.origin}${location.pathname}?page=${currentPage}`
       )
+      setHeaders(`${header} - page ${currentPage}`)
     } else {
       setCanonicalLink(`${location.origin}${location.pathname}`)
+      setHeaders('')
     }
 
     if (typeof window !== 'undefined') {
@@ -118,9 +120,7 @@ const BlogPostGrid = ({
 
   return (
     <>
-      <Helmet>
-        {blogPostGrid && <title>{`${header} - page ${currentPage}`}</title>}
-      </Helmet>
+      {blogPostGrid && <Seo title={headers}/>}
       <div
         className={cn(
           'container grid up-lg:grid-cols-3 gap-8 grid-cols-2 down-tablet:grid-cols-1',
@@ -140,11 +140,11 @@ const BlogPostGrid = ({
           ))}
       </div>
       {isPagination && <Pagination
-          goToPage={goToPage}
-          displayPageNumbers={displayPageNumbers}
-          canLoadMore={canLoadMore}
-          pageNumbers={pageNumbers}
-          currentPage={currentPage}
+        goToPage={goToPage}
+        displayPageNumbers={displayPageNumbers}
+        canLoadMore={canLoadMore}
+        pageNumbers={pageNumbers}
+        currentPage={currentPage}
       />}
     </>
   )
