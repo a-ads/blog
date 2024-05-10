@@ -3,6 +3,16 @@ const { createFilePath } = require('gatsby-source-filesystem')
 const _ = require('lodash')
 const fs = require('fs')
 const path = require('path')
+let drop, toInteger, sortBy, take;
+
+import('lodash-es').then(({ drop: d, toInteger: ti, sortBy: sb, take: tk }) => {
+  drop = d;
+  toInteger = ti;
+  sortBy = sb;
+  take = tk;
+}).catch(error => console.error('Failed to load lodash-es:', error));
+
+const POST_PER_PAGE = 20
 
 exports.onCreatePage = async ({ page, actions }) => {
   const { createPage } = actions
@@ -192,6 +202,19 @@ exports.createPages = async ({ graphql, actions }) => {
       ...rest,
     }
   })
+
+  // IndexPage
+  const pageNumb = Math.ceil(posts.length / POST_PER_PAGE)
+  for(let index = 0; index <= pageNumb; index++) {
+    createPage({
+      path: index === 0 ? `/index.html` : `/index${index}.html`,
+      component: resolve(`${__dirname}/src/templates/index.tsx`),
+      context: {
+        title: `A-ADS Crypto Blog - marketing guides, tips and news to cryptocurrencies market ${index}`,
+        post: []
+      },
+    })
+  }
 
   // Blog Post Pages
   posts.forEach((post) => {

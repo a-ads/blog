@@ -6,7 +6,8 @@ import { take, drop, sortBy, toInteger } from 'lodash-es'
 import { BlogPostGrid, Banner, Seo } from '@components'
 import '../global.scss'
 
-export function Head() {
+export function Head({pageContext} : any) {
+  console.log(pageContext, 'pageContext');
   return <Seo />
 }
 
@@ -18,49 +19,8 @@ interface IBlogPosts {
   }
 }
 
-const IndexPage = () => {
-  const data: IBlogPosts = useStaticQuery(graphql`
-    query FetchBlogPostsByPopularity {
-      allMarkdownRemark(filter: {}, sort: { frontmatter: { date: DESC } }) {
-        nodes {
-          frontmatter {
-            category_top_level
-            popularity
-            thumbnail {
-              childImageSharp {
-                gatsbyImageData(
-                  blurredOptions: { width: 100 }
-                  placeholder: BLURRED
-                  quality: 100
-                  layout: FULL_WIDTH
-                  transformOptions: { cropFocus: CENTER }
-                  aspectRatio: 1.7
-                )
-              }
-            }
-            title
-            reading_time
-            slug
-          }
-        }
-      }
-    }
-  `)
-
-  const { top, popular, rest } = useMemo(() => {
-    const posts = data.allMarkdownRemark.nodes
-      .map((node) => node.frontmatter)
-      .filter((post) => post.title)
-    return {
-      top: take(posts, posts.length - 1),
-      popular: take(
-        sortBy(posts, (post) => toInteger(post.popularity)).reverse(),
-        5
-      ),
-      rest: drop(posts, 5),
-    }
-  }, [data])
-
+const IndexPage = (props: any) => {
+  console.log(props, 'props');
   return (
     <>
       <section aria-label='Crypto Marketing & Trends' className='relative'>
@@ -68,7 +28,7 @@ const IndexPage = () => {
           A-ADS Crypto Blog
         </h1>
 
-        <BlogPostGrid posts={top} amount={5} isPagination={false}/>
+        <BlogPostGrid posts={[]} amount={5} isPagination={false}/>
 
         {/* Background images  */}
         <StaticImage
@@ -89,12 +49,12 @@ const IndexPage = () => {
 
       <Banner />
 
-      <BlogPostGrid posts={rest} canLoadMore className='mt-20' />
+      <BlogPostGrid posts={[]} canLoadMore className='mt-20' />
 
       <section aria-label='Most popular' className='py-20'>
         <div className='container'>
           <h2 className='h1 mb-10'>Most popular</h2>
-          <BlogPostGrid posts={popular} />
+          <BlogPostGrid posts={[]} />
         </div>
       </section>
 
