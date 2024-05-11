@@ -4,6 +4,8 @@ const _ = require('lodash')
 const fs = require('fs')
 const path = require('path')
 
+const POST_PER_PAGE = 20
+
 exports.onCreatePage = async ({ page, actions }) => {
   const { createPage } = actions
 
@@ -68,6 +70,30 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const { data, errors } = await graphql(`
     {
+      indexPostsCustom: allMarkdownRemark(filter: {}, sort: { frontmatter: { date: DESC } }) {
+          nodes {
+              frontmatter {
+                  category_top_level
+                  popularity
+                  thumbnail {
+                      childImageSharp {
+                          gatsbyImageData(
+                              blurredOptions: { width: 100 }
+                              placeholder: BLURRED
+                              quality: 100
+                              layout: FULL_WIDTH
+                              transformOptions: { cropFocus: CENTER }
+                              aspectRatio: 1.7
+                          )
+                      }
+                  }
+                  title
+                  reading_time
+                  slug
+              }
+          }
+      },
+        
       allBlogPosts: allMarkdownRemark(
         sort: { frontmatter: { date: DESC } }
         filter: { fileAbsolutePath: { regex: "/^.*/content/blog/.*.md$/" } }
@@ -192,6 +218,24 @@ exports.createPages = async ({ graphql, actions }) => {
       ...rest,
     }
   })
+
+  const postsIndex = data.indexPostsCustom.nodes
+    .map((node) => node.frontmatter)
+    .filter((post) => post.title)
+
+  // IndexPage
+  const pageNumb = Math.ceil(posts.length / POST_PER_PAGE)
+
+  for(let index = 0; index <= pageNumb; index++) {
+    createPage({
+      path: index === 0 ? `/` : `/index${index}/`,
+      component: resolve(`${__dirname}/src/templates/CustomIndex.tsx`),
+      context: {
+        title: `A-ADS Crypto Blog - marketing guides, tips and news to cryptocurrencies market ${index === 0 ? '' : 'page ' + index}`,
+        post: postsIndex
+      },
+    })
+  }
 
   // Blog Post Pages
   posts.forEach((post) => {

@@ -1,65 +1,31 @@
 import React, {useMemo, useState} from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import { take, drop, sortBy, toInteger } from 'lodash-es'
 
 import { BlogPostGrid, Banner, Seo } from '@components'
 import '../global.scss'
 
-export function Head() {
-  return <Seo />
+export function Head({ pageContext: { title } }: any) {
+  return (
+    <Seo title={title}/>
+  )
 }
 
-interface IBlogPosts {
-  allMarkdownRemark: {
-    nodes: {
-      frontmatter: BlogPost
-    }[]
-  }
-}
 
-const IndexPage = () => {
-  const data: IBlogPosts = useStaticQuery(graphql`
-    query FetchBlogPostsByPopularity {
-      allMarkdownRemark(filter: {}, sort: { frontmatter: { date: DESC } }) {
-        nodes {
-          frontmatter {
-            category_top_level
-            popularity
-            thumbnail {
-              childImageSharp {
-                gatsbyImageData(
-                  blurredOptions: { width: 100 }
-                  placeholder: BLURRED
-                  quality: 100
-                  layout: FULL_WIDTH
-                  transformOptions: { cropFocus: CENTER }
-                  aspectRatio: 1.7
-                )
-              }
-            }
-            title
-            reading_time
-            slug
-          }
-        }
-      }
-    }
-  `)
+const IndexPage = ({pageContext}: any) => {
+  const {post, title} = pageContext
+  const [blogPostGrid, setBlogPostGrid] = useState(false)
 
   const { top, popular, rest } = useMemo(() => {
-    const posts = data.allMarkdownRemark.nodes
-      .map((node) => node.frontmatter)
-      .filter((post) => post.title)
     return {
-      top: take(posts, posts.length - 1),
+      top: take(post, post.length - 1),
       popular: take(
-        sortBy(posts, (post) => toInteger(post.popularity)).reverse(),
+        sortBy(post, (post) => toInteger(post.popularity)).reverse(),
         5
       ),
-      rest: drop(posts, 5),
+      rest: drop(post, 5),
     }
-  }, [data])
+  }, [post])
 
   return (
     <>
@@ -67,7 +33,7 @@ const IndexPage = () => {
         <h1 className='container large mb-10 mt-12 tablet:mt-8 phone:my-5'>
           A-ADS Crypto Blog
         </h1>
-
+         {/* @ts-ignore */}
         <BlogPostGrid posts={top} amount={5} isPagination={false}/>
 
         {/* Background images  */}
@@ -89,7 +55,14 @@ const IndexPage = () => {
 
       <Banner />
 
-      <BlogPostGrid posts={rest} canLoadMore className='mt-20' />
+      <BlogPostGrid
+        /*@ts-ignore*/
+        posts={rest}
+        header={title}
+        blogPostGrid={blogPostGrid}
+        setBlogPostGrid={setBlogPostGrid}
+        canLoadMore className='mt-20'
+      />
 
       <section aria-label='Most popular' className='py-20'>
         <div className='container'>

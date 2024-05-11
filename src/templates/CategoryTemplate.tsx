@@ -20,7 +20,7 @@ interface CategoryPageProps {
   }
 }
 
-export function Head({ pageContext: { categoryObj } }) {
+export function Head({ pageContext: { categoryObj } }: any) {
   return (
     <Seo
       title={categoryObj.html_title}

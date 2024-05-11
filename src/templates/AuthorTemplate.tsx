@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { drop } from 'lodash-es'
 
@@ -41,6 +41,8 @@ const AuthorPage: React.FC<AuthorPageProps> = ({ pageContext }) => {
     { name: 'twitter', to: twitter_link },
     { name: 'linkedin', to: linkedin_link },
   ]
+
+  const [blogPostGrid, setBlogPostGrid] = useState(false)
 
   return (
     <>
@@ -103,7 +105,14 @@ const AuthorPage: React.FC<AuthorPageProps> = ({ pageContext }) => {
         <h2 className='mt-11 name-latest'>{name}'s latest articles</h2>
         <BlogPostGrid posts={posts!} isPagination={false} className='mt-8' />
       </section>
-      <BlogPostGrid posts={drop(posts!, 5)} className='container' canLoadMore />
+      <BlogPostGrid
+        posts={drop(posts!, 5)}
+        header={name}
+        blogPostGrid={blogPostGrid}
+        setBlogPostGrid={setBlogPostGrid}
+        className='container'
+        canLoadMore
+      />
       <div className='mb-20 tablet:mb-15 phone:mb-10' />
       <Banner variant='promote' />
     </>
