@@ -228,10 +228,10 @@ exports.createPages = async ({ graphql, actions }) => {
 
   for(let index = 0; index <= pageNumb; index++) {
     createPage({
-      path: index === 0 ? `/` : `/index${index}/`,
+      path: index === 0 ? `/` : `index${index}.html`,
       component: resolve(`${__dirname}/src/templates/CustomIndex.tsx`),
       context: {
-        title: `A-ADS Crypto Blog - marketing guides, tips and news to cryptocurrencies market ${index === 0 ? '' : 'page ' + index}`,
+        title: `A-ADS Crypto Blog - marketing guides, tips and news to cryptocurrencies market ${index === 0 ? '' : 'page=' + index}`,
         post: postsIndex
       },
     })
