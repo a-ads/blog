@@ -5,6 +5,7 @@ import {Card, Seo} from '@components'
 import {navigate} from 'gatsby'
 import {useLocation} from '@reach/router'
 import Pagination from './ui/pagination'
+import {Helmet} from "react-helmet";
 
 type BlogPostGridProps = {
   posts: BlogPostCard[]

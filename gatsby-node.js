@@ -3,14 +3,6 @@ const { createFilePath } = require('gatsby-source-filesystem')
 const _ = require('lodash')
 const fs = require('fs')
 const path = require('path')
-let drop, toInteger, sortBy, take;
-
-import('lodash-es').then(({ drop: d, toInteger: ti, sortBy: sb, take: tk }) => {
-  drop = d;
-  toInteger = ti;
-  sortBy = sb;
-  take = tk;
-}).catch(error => console.error('Failed to load lodash-es:', error));
 
 const POST_PER_PAGE = 20
 
@@ -78,6 +70,30 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const { data, errors } = await graphql(`
     {
+      indexPostsCustom: allMarkdownRemark(filter: {}, sort: { frontmatter: { date: DESC } }) {
+          nodes {
+              frontmatter {
+                  category_top_level
+                  popularity
+                  thumbnail {
+                      childImageSharp {
+                          gatsbyImageData(
+                              blurredOptions: { width: 100 }
+                              placeholder: BLURRED
+                              quality: 100
+                              layout: FULL_WIDTH
+                              transformOptions: { cropFocus: CENTER }
+                              aspectRatio: 1.7
+                          )
+                      }
+                  }
+                  title
+                  reading_time
+                  slug
+              }
+          }
+      },
+        
       allBlogPosts: allMarkdownRemark(
         sort: { frontmatter: { date: DESC } }
         filter: { fileAbsolutePath: { regex: "/^.*/content/blog/.*.md$/" } }
@@ -203,15 +219,20 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   })
 
+  const postsIndex = data.indexPostsCustom.nodes
+    .map((node) => node.frontmatter)
+    .filter((post) => post.title)
+
   // IndexPage
   const pageNumb = Math.ceil(posts.length / POST_PER_PAGE)
+
   for(let index = 0; index <= pageNumb; index++) {
     createPage({
-      path: index === 0 ? `/index.html` : `/index${index}.html`,
-      component: resolve(`${__dirname}/src/templates/index.tsx`),
+      path: index === 0 ? `/` : `/index${index}/`,
+      component: resolve(`${__dirname}/src/templates/CustomIndex.tsx`),
       context: {
-        title: `A-ADS Crypto Blog - marketing guides, tips and news to cryptocurrencies market ${index}`,
-        post: []
+        title: `A-ADS Crypto Blog - marketing guides, tips and news to cryptocurrencies market ${index === 0 ? '' : 'page ' + index}`,
+        post: postsIndex
       },
     })
   }
