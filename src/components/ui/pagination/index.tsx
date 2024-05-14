@@ -20,59 +20,50 @@ const Pagination = ({
                     }: IPropsPagination) => {
   const location = useLocation();
 
-  console.log(location, 'location');
-
-  const getPathForPage = (page: number) => {
-    const basePath = location.pathname.replace(/\/index\d*\.html$/, '');
-    if (page === 1) {
-      return basePath || '/';
+  const getNextPageUrl = (pageNumber: number) => {
+    if (pageNumber === 1) {
+      return '/';
     } else {
-      return `${basePath}/index${page}.html`;
+      const currentPageIndex = location.pathname.lastIndexOf('index');
+      if (currentPageIndex !== -1) {
+        return `${location.pathname.slice(0, currentPageIndex)}/index${pageNumber}.html`;
+      } else {
+        return `${location.pathname}/index${pageNumber}.html`;
+      }
     }
   };
 
   return (
     <>
       {displayPageNumbers.length > 1 && (
-        <ul className='pagination'>
-          <li>
-            <Link
-              to={getPathForPage(currentPage - 1)}
-              onClick={() => goToPage(currentPage - 1)}
-              className={currentPage === 1 ? 'disabled' : ''}
-            >
-              {'<'}
-            </Link>
-          </li>
-          {canLoadMore && displayPageNumbers.map((number: number) => {
-            const isCurrentPage = currentPage === number;
-            const pagePath = getPathForPage(number);
-
-            return (
-              <li key={number} className={isCurrentPage ? 'active' : ''}>
-                <Link
-                  to={pagePath}
-                  key={number}
-                  className={isCurrentPage ? 'active' : ''}
-                >
-                  {number}
-                </Link>
-              </li>
-            );
-          })}
-          <li>
-            <Link
-              to={getPathForPage(currentPage + 1)}
-              onClick={() => goToPage(currentPage + 1)}
-              className={currentPage === pageNumbers.length ? 'disabled' : ''}
-            >
-              {'>'}
-            </Link>
-          </li>
+        <ul className="pagination">
+          <button onClick={() => goToPage(currentPage - 1)} disabled={currentPage === 1}>
+            {'<'}
+          </button>
+          {canLoadMore &&
+            displayPageNumbers.map((number: any) => {
+              return (
+                <li key={number} className={currentPage === number ? 'active' : ''}>
+                  <Link
+                    to={getNextPageUrl(number)}
+                    key={number}
+                    className={currentPage === number ? 'active' : ''}
+                  >
+                    {number}
+                  </Link>
+                </li>
+              );
+            })}
+          <button
+            onClick={() => goToPage(currentPage + 1)}
+            disabled={currentPage === pageNumbers.length}
+          >
+            {'>'}
+          </button>
         </ul>
       )}
     </>
   );
-}
+};
 
 export default Pagination;
