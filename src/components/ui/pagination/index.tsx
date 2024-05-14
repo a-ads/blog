@@ -23,10 +23,11 @@ const Pagination = ({
   console.log(location, 'location');
 
   const getPathForPage = (page: number) => {
+    const basePath = location.pathname.replace(/\/index\d*\.html$/, '');
     if (page === 1) {
-      return location.pathname.replace(/\/index\d*\.html$/, '/') || '/';
+      return basePath || '/';
     } else {
-      return location.pathname.replace(/\/index\d*\.html$/, '') + `/index${page}.html`;
+      return `${basePath}/index${page}.html`;
     }
   };
 
