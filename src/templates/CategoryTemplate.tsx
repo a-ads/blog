@@ -20,10 +20,10 @@ interface CategoryPageProps {
   }
 }
 
-export function Head({ pageContext: { categoryObj } }: any) {
+export function Head({ pageContext: { categoryObj, title } }: any) {
   return (
     <Seo
-      title={categoryObj.html_title}
+      title={title}
       description={categoryObj.meta_description}
     />
   )
@@ -32,7 +32,8 @@ export function Head({ pageContext: { categoryObj } }: any) {
 const CategoryTemplate = (props: CategoryPageProps) => {
   const { category, subcategories, posts, categoryObj } = props.pageContext
   const [blogPostGrid, setBlogPostGrid] = useState(false)
-
+// Documents/job.nosync/A-ADS.nosync/blog
+  console.log(props, 'props')
   return (
     <>
       <div className='pb-5 relative'>

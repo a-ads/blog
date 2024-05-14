@@ -118,6 +118,8 @@ const BlogPostGrid = ({
     }
   }, [currentPage])
 
+  console.log(currentPage, 'currentPage');
+
   return (
     <>
       {blogPostGrid && <Seo title={headers}/>}

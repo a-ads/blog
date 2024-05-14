@@ -6,7 +6,6 @@ import { BlogPostGrid, Banner, Seo } from '@components'
 import '../global.scss'
 
 export function Head({ pageContext: { title } }: any) {
-  console.log(title, 'title');
   return (
     <Seo title={title}/>
   )
