@@ -22,8 +22,8 @@ const Pagination = ({
 
   const getPageNumber = (number: number) => {
     return number === 1
-      ? `${path}`
-      : `${path}index${number}.html?page=${number}`;
+      ? path
+      : `${path?.replace(/index\d*\.html/g, '')}index${number}.html?page=${number}`;
   }
 
   return (
