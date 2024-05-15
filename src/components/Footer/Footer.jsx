@@ -185,7 +185,7 @@ const Footer = () => {
                             <a className="copy__item" href='https://a-ads.com/terms_of_service'>Terms of Service</a>
                             <a className="copy__item" href='https://a-ads.com/privacy_policy'>Privacy Policy</a>
                         </div>
-                        <p>version 6</p>
+                        <p>version 7</p>
                     </div>
                 </div>
             </div>

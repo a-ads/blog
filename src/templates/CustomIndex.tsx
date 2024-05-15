@@ -12,10 +12,11 @@ export function Head({ pageContext: { title } }: any) {
 }
 
 
-const IndexPage = ({pageContext}: any) => {
-  const {post, title} = pageContext
+const IndexPage = (props: any) => {
+  const {post, title} = props.pageContext
   const [blogPostGrid, setBlogPostGrid] = useState(false)
-
+  const {path} = props
+  console.log(path, 'path');
   const { top, popular, rest } = useMemo(() => {
     return {
       top: take(post, post.length - 1),
@@ -61,6 +62,7 @@ const IndexPage = ({pageContext}: any) => {
         header={title}
         blogPostGrid={blogPostGrid}
         setBlogPostGrid={setBlogPostGrid}
+        path={path}
         canLoadMore className='mt-20'
       />
 

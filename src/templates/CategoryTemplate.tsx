@@ -32,8 +32,8 @@ export function Head({ pageContext: { categoryObj, title } }: any) {
 const CategoryTemplate = (props: CategoryPageProps) => {
   const { category, subcategories, posts, categoryObj } = props.pageContext
   const [blogPostGrid, setBlogPostGrid] = useState(false)
-// Documents/job.nosync/A-ADS.nosync/blog
-  console.log(props, 'props')
+  const {path} = props
+
   return (
     <>
       <div className='pb-5 relative'>
@@ -66,6 +66,7 @@ const CategoryTemplate = (props: CategoryPageProps) => {
           blogPostGrid={blogPostGrid}
           setBlogPostGrid={setBlogPostGrid}
           canLoadMore
+          path={path}
           className='mt-20 mb-20'
         />
 

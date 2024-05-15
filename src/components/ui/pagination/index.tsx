@@ -1,7 +1,6 @@
 import React from 'react';
 import './pagination.css';
 import { Link } from 'gatsby';
-import { useLocation } from '@reach/router';
 
 interface IPropsPagination {
   goToPage: (page: number) => void
@@ -9,6 +8,7 @@ interface IPropsPagination {
   canLoadMore?: boolean
   pageNumbers: number[]
   currentPage: number
+  path: string
 }
 
 const Pagination = ({
@@ -17,18 +17,13 @@ const Pagination = ({
   canLoadMore,
   pageNumbers,
   currentPage,
+  path
 }: IPropsPagination) => {
 
   const getPageNumber = (number: number) => {
-    const location = useLocation();
-    const pathPrefix = location.pathname !== '/' ? location.pathname : '';
-
-    // Remove any previous /indexN.html segment from the pathPrefix
-    const cleanPathPrefix = pathPrefix.replace(/\/index\d*\.html/g, '');
-    console.log(location.pathname, 'location.pathname');
     return number === 1
-      ? `${cleanPathPrefix}`
-      : `${cleanPathPrefix}/index${number}.html?page=${number}`;
+      ? `${path}`
+      : `/${path}index${number}.html?page=${number}`;
   }
 
   return (

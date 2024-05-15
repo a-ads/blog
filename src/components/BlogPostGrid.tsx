@@ -16,6 +16,7 @@ type BlogPostGridProps = {
   blogPostGrid?: boolean
   isPagination?: boolean
   setBlogPostGrid?: (blogPostGrid: boolean) => void
+  path?: string
 }
 
 const BlogPostGrid = ({
@@ -27,7 +28,8 @@ const BlogPostGrid = ({
   header,
   blogPostGrid,
   setBlogPostGrid,
-  isPagination = true
+  isPagination = true,
+  path
 }: BlogPostGridProps) => {
   const location = useLocation()
   const [currentBlogs, setCurrentBlogs] = useState<BlogPostCard[]>([])
@@ -147,6 +149,7 @@ const BlogPostGrid = ({
         canLoadMore={canLoadMore}
         pageNumbers={pageNumbers}
         currentPage={currentPage}
+        path={path}
       />}
     </>
   )
