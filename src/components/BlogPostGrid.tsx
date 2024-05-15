@@ -38,7 +38,7 @@ const BlogPostGrid = ({
   )
   const searchParams = new URLSearchParams(location.search)
   const currentPage = parseInt(searchParams.get('page') as string) || 1
-
+  const pathPage = `${location.origin}${location.pathname}`
 
   useEffect(() => {
     const indexOfLastBlog = currentPage * amount
@@ -84,8 +84,7 @@ const BlogPostGrid = ({
   })()
 
   const goToPage = (page: any) => {
-    // console.log(page, 'page');
-    const pathPage = `${location.origin}${location.pathname}`
+    console.log(page, 'page')
     if (page === 1) {
       navigate(pathPage.replace(/index\d*\.html/g, ''), {replace: true})
     } else if (page >= 1 && page <= totalPages) {
