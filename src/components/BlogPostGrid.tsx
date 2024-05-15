@@ -84,6 +84,7 @@ const BlogPostGrid = ({
   })()
 
   const goToPage = (page: any) => {
+    console.log(page, 'page');
     if (page === 1) {
       navigate(pathPage.replace(/index\d*\.html/g, ''), {replace: true})
     } else if (page >= 1 && page <= totalPages) {
