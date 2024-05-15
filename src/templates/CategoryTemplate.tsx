@@ -6,20 +6,6 @@ import { Link } from '@ui'
 import { Banner, BlogPostGrid, Seo } from '@components'
 import { toCategoryLink } from '@utils'
 
-interface CategoryPageProps {
-  pageContext: {
-    category: CategoriesTopLevelNames
-    subcategories: CategoriesSecondLevelNames[]
-    posts: BlogPostCard[]
-    meta_description: string
-    categoryObj: {
-      h1: string
-      html_title: string
-      meta_description: string
-    }
-  }
-}
-
 export function Head({ pageContext: { categoryObj, title } }: any) {
   return (
     <Seo
@@ -29,7 +15,7 @@ export function Head({ pageContext: { categoryObj, title } }: any) {
   )
 }
 
-const CategoryTemplate = (props: CategoryPageProps) => {
+const CategoryTemplate = (props: any) => {
   const { category, subcategories, posts, categoryObj } = props.pageContext
   const [blogPostGrid, setBlogPostGrid] = useState(false)
   const {path} = props
@@ -44,7 +30,7 @@ const CategoryTemplate = (props: CategoryPageProps) => {
 
           <div className='flex gap-8 mb-7 up-desktop:mb-10 phone:mb-6 scroll-section'>
             {category === 'Guides'
-              ? subcategories.map((subcat, index) => {
+              ? subcategories.map((subcat: any, index: number) => {
                   return (
                     <Link
                       key={index}
@@ -61,6 +47,7 @@ const CategoryTemplate = (props: CategoryPageProps) => {
         </section>
 
         <BlogPostGrid
+          // @ts-ignore
           posts={[...take(posts, 5), ...drop(posts, 5)]}
           header={categoryObj.h1}
           blogPostGrid={blogPostGrid}

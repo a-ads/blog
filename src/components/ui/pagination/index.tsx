@@ -8,7 +8,7 @@ interface IPropsPagination {
   canLoadMore?: boolean
   pageNumbers: number[]
   currentPage: number
-  path: string
+  path?: string
 }
 
 const Pagination = ({
@@ -23,7 +23,7 @@ const Pagination = ({
   const getPageNumber = (number: number) => {
     return number === 1
       ? `${path}`
-      : `/${path}index${number}.html?page=${number}`;
+      : `${path}index${number}.html?page=${number}`;
   }
 
   return (
