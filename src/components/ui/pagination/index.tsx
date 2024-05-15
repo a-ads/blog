@@ -22,9 +22,11 @@ const Pagination = ({
 
   const getPageNumber = (number: number) => {
     return number === 1
-      ? path
-      : `${path?.replace(/index\d*\.html/g, '')}index${number}.html?page=${number}`;
+      ? path?.replace(/index\d*\.html/g, '')
+      : `${path?.replace(/index\d*\.html/g, '')}index${number - 1}.html?page=${number}`;
   }
+
+  console.log(currentPage, 'currentPage');
 
   return (
     <>
@@ -43,7 +45,7 @@ const Pagination = ({
                   <Link
                     to={getPageNumber(number)}
                     key={number}
-                    className={currentPage === number ? 'active' : ''}
+                    className={currentPage === (number) ? 'active' : ''}
                   >
                     {number}
                   </Link>
