@@ -33,12 +33,12 @@ const BlogPostGrid = ({
 }: BlogPostGridProps) => {
   const location = useLocation()
   const [currentBlogs, setCurrentBlogs] = useState<BlogPostCard[]>([])
-  const [headers, setHeaders] = useState('')
   const [canonicalLink, setCanonicalLink] = useState(
     `${location.origin}${location.pathname}`
   )
   const searchParams = new URLSearchParams(location.search)
   const currentPage = parseInt(searchParams.get('page') as string) || 1
+  const pathPage = `${location.origin}${location.pathname}`
 
   useEffect(() => {
     const indexOfLastBlog = currentPage * amount
@@ -84,9 +84,8 @@ const BlogPostGrid = ({
   })()
 
   const goToPage = (page: any) => {
-    const pathPage = `${location.origin}${location.pathname}`
     if (page === 1) {
-      navigate(pathPage, {replace: true})
+      navigate(pathPage.replace(/index\d*\.html/g, ''), {replace: true})
     } else if (page >= 1 && page <= totalPages) {
       navigate(`${pathPage.replace(/index\d*\.html/g, '')}index${page - 1}.html?page=${page}`)
     }
@@ -101,10 +100,8 @@ const BlogPostGrid = ({
       setCanonicalLink(
         `${location.origin}${location.pathname}?page=${currentPage}`
       )
-      setHeaders(`${header} - page ${currentPage}`)
     } else {
       setCanonicalLink(`${location.origin}${location.pathname}`)
-      setHeaders('')
     }
 
     if (typeof window !== 'undefined') {
