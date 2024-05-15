@@ -1,40 +1,31 @@
-import React from 'react';
-import './pagination.css';
-import { Link } from 'gatsby';
-import { useLocation } from '@reach/router';
+import React from 'react'
+import './pagination.css'
+import { Link } from 'gatsby'
 
 interface IPropsPagination {
-  goToPage: (page: number) => void;
-  displayPageNumbers: number[];
-  canLoadMore?: boolean;
-  pageNumbers: number[];
-  currentPage: number;
+  goToPage: (page: number) => void
+  displayPageNumbers: number[]
+  canLoadMore?: boolean
+  pageNumbers: number[]
+  currentPage: number
 }
 
 const Pagination = ({
-                      goToPage,
-                      displayPageNumbers,
-                      canLoadMore,
-                      pageNumbers,
-                      currentPage,
-                    }: IPropsPagination) => {
-  const location = useLocation();
-
-  const getCurrentPageUrl = (pageNumber: number) => {
-    const currentPagePath = location.pathname.endsWith('/') ? location.pathname.slice(0, -1) : location.pathname;
-    const basePath = currentPagePath.replace(/\/$/, '');
-    if (pageNumber === 1) {
-      return basePath || '/';
-    } else {
-      return `${basePath}/index${pageNumber}.html`;
-    }
-  };
+  goToPage,
+  displayPageNumbers,
+  canLoadMore,
+  pageNumbers,
+  currentPage,
+}: IPropsPagination) => {
 
   return (
     <>
       {displayPageNumbers.length > 1 && (
-        <ul className="pagination">
-          <button onClick={() => goToPage(currentPage - 1)} disabled={currentPage === 1}>
+        <ul className='pagination'>
+          <button
+            onClick={() => goToPage(currentPage - 1)}
+            disabled={currentPage === 1}
+          >
             {'<'}
           </button>
           {canLoadMore &&
@@ -42,14 +33,14 @@ const Pagination = ({
               return (
                 <li key={number} className={currentPage === number ? 'active' : ''}>
                   <Link
-                    to={getCurrentPageUrl(number)}
+                    to={`/${number === 1 ? '' : `index${number}.html`}`}
                     key={number}
                     className={currentPage === number ? 'active' : ''}
                   >
                     {number}
                   </Link>
                 </li>
-              );
+              )
             })}
           <button
             onClick={() => goToPage(currentPage + 1)}
@@ -60,7 +51,7 @@ const Pagination = ({
         </ul>
       )}
     </>
-  );
-};
+  )
+}
 
-export default Pagination;
+export default Pagination
