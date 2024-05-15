@@ -22,7 +22,9 @@ const Pagination = ({
   const getPageNumber = (number: number) => {
     const location = useLocation();
     const pathPrefix = location.pathname !== '/' ? location.pathname : '';
-    const cleanPathPrefix = pathPrefix.replace(/\/index\d+\.html/g, '');
+
+    // Remove any previous /indexN.html segment from the pathPrefix
+    const cleanPathPrefix = pathPrefix.replace(/\/index\d*\.html/g, '');
 
     return number === 1
       ? `${cleanPathPrefix}`
