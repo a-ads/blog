@@ -25,7 +25,7 @@ const Pagination = ({
 
     // Remove any previous /indexN.html segment from the pathPrefix
     const cleanPathPrefix = pathPrefix.replace(/\/index\d*\.html/g, '');
-
+    console.log(location.pathname, 'location.pathname');
     return number === 1
       ? `${cleanPathPrefix}`
       : `${cleanPathPrefix}/index${number}.html?page=${number}`;
