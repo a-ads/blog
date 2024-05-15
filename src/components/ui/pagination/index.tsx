@@ -20,16 +20,12 @@ const Pagination = ({
                     }: IPropsPagination) => {
   const location = useLocation();
 
-  const getNextPageUrl = (pageNumber: number) => {
+  const getCurrentPageUrl = (pageNumber: number) => {
+    const currentPagePath = location.pathname.endsWith('/') ? location.pathname.slice(0, -1) : location.pathname;
     if (pageNumber === 1) {
-      return '/';
+      return currentPagePath || '/';
     } else {
-      const currentPageIndex = location.pathname.lastIndexOf('index');
-      if (currentPageIndex !== -1) {
-        return `${location.pathname.slice(0, currentPageIndex)}/index${pageNumber}.html`;
-      } else {
-        return `${location.pathname}/index${pageNumber}.html`;
-      }
+      return `${currentPagePath}/index${pageNumber}.html`;
     }
   };
 
@@ -45,7 +41,7 @@ const Pagination = ({
               return (
                 <li key={number} className={currentPage === number ? 'active' : ''}>
                   <Link
-                    to={getNextPageUrl(number)}
+                    to={getCurrentPageUrl(number)}
                     key={number}
                     className={currentPage === number ? 'active' : ''}
                   >
