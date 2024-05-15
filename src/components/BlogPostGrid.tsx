@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import cn from 'classnames'
 import {uniqueId} from 'lodash-es'
-import {Card, Seo} from '@components'
+import {Card} from '@components'
 import {navigate} from 'gatsby'
 import {useLocation} from '@reach/router'
 import Pagination from './ui/pagination'
@@ -38,7 +38,7 @@ const BlogPostGrid = ({
   )
   const searchParams = new URLSearchParams(location.search)
   const currentPage = parseInt(searchParams.get('page') as string) || 1
-  const pathPage = `${location.origin}${location.pathname}`
+
 
   useEffect(() => {
     const indexOfLastBlog = currentPage * amount
@@ -84,7 +84,8 @@ const BlogPostGrid = ({
   })()
 
   const goToPage = (page: any) => {
-    console.log(page, 'page');
+    // console.log(page, 'page');
+    const pathPage = `${location.origin}${location.pathname}`
     if (page === 1) {
       navigate(pathPage.replace(/index\d*\.html/g, ''), {replace: true})
     } else if (page >= 1 && page <= totalPages) {
