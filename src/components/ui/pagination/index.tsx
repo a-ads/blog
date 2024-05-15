@@ -22,10 +22,11 @@ const Pagination = ({
 
   const getCurrentPageUrl = (pageNumber: number) => {
     const currentPagePath = location.pathname.endsWith('/') ? location.pathname.slice(0, -1) : location.pathname;
+    const basePath = currentPagePath.replace(/\/$/, '');
     if (pageNumber === 1) {
-      return currentPagePath || '/';
+      return basePath || '/';
     } else {
-      return `${currentPagePath}/index${pageNumber}.html`;
+      return `${basePath}/index${pageNumber}.html`;
     }
   };
 
