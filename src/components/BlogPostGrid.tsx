@@ -83,11 +83,12 @@ const BlogPostGrid = ({
     }
   })()
 
-  const goToPage = (page: number) => {
+  const goToPage = (page: any) => {
+    const pathPage = `${location.origin}${location.pathname}`
     if (page === 1) {
-      navigate(`${location.origin}${location.pathname}`, {replace: true})
+      navigate(pathPage, {replace: true})
     } else if (page >= 1 && page <= totalPages) {
-      navigate(`${location.origin}${location.pathname}?page=${page}`)
+      navigate(`${pathPage.replace(/index\d*\.html/g, '')}index${page - 1}.html?page=${page}`)
     }
   }
 
@@ -124,7 +125,7 @@ const BlogPostGrid = ({
 
   return (
     <>
-      {blogPostGrid && <Seo title={headers}/>}
+      {/*{blogPostGrid && <Seo title={headers}/>}*/}
       <div
         className={cn(
           'container grid up-lg:grid-cols-3 gap-8 grid-cols-2 down-tablet:grid-cols-1',

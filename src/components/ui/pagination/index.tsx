@@ -1,6 +1,6 @@
 import React from 'react';
 import './pagination.css';
-import { Link } from 'gatsby';
+import {Link, navigate} from 'gatsby';
 
 interface IPropsPagination {
   goToPage: (page: number) => void
@@ -22,7 +22,7 @@ const Pagination = ({
 
   const getPageNumber = (number: number) => {
     return number === 1
-      ? path?.replace(/index\d*\.html/g, '')
+      ? `${path?.replace(/index\d*\.html/g, '')}`
       : `${path?.replace(/index\d*\.html/g, '')}index${number - 1}.html?page=${number}`;
   }
 
@@ -45,7 +45,7 @@ const Pagination = ({
                   <Link
                     to={getPageNumber(number)}
                     key={number}
-                    className={currentPage === (number) ? 'active' : ''}
+                    className={currentPage === number ? 'active' : ''}
                   >
                     {number}
                   </Link>
