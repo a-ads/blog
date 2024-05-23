@@ -99,7 +99,7 @@ These AI tools can help you streamline some operations, boost productivity, and 
 
 [11 Innovative Methods to Boost Engagement through Social Media](https://a-ads.com/blog/get-noticed-on-social-media-11-creative-ways-to-drive-engagement/)
 
-[How Podcasts Can Help Your Business Grow](https://a-ads.com/blog/How-Podcasts-Can-Help-Your-Business-Grow/)
+[How Podcasts Can Help Your Business Grow](https://a-ads.com/blog/how-podcasts-can-help-your-business-grow/)
 
 [How To Create A Perfect LinkedIn Page For Your Business.](https://a-ads.com/blog/how-to-create-a-perfect-linkedin-page-for-your-business/)
 
