@@ -76,7 +76,7 @@ One example of social proof is the use of customer reviews on e-commerce sites l
 
 ### 9. Create an Affiliate Program
 
-An affiliate program is a marketing strategy where businesses pay affiliates a commission for promoting their product or service. It’s a cost-effective way to expand your marketing reach and generate new leads and sales. You can set up an affiliate program on your website, offer commission rates for successful referrals, and provide affiliates with marketing materials to help them promote your product or service. One example of a successful affiliate program is the one offered by Dropbox, which rewards users with free storage for successful referrals. Another great example is the A-ADS [affiliate program](https://a-ads.com/ru/affiliate_programs).
+An affiliate program is a marketing strategy where businesses pay affiliates a commission for promoting their product or service. It’s a cost-effective way to expand your marketing reach and generate new leads and sales. You can set up an affiliate program on your website, offer commission rates for successful referrals, and provide affiliates with marketing materials to help them promote your product or service. One example of a successful affiliate program is the one offered by Dropbox, which rewards users with free storage for successful referrals. Another great example is the A-ADS [affiliate program](https://a-ads.com/crypto-affiliate-program/).
 
 ### 10. Leverage Chatbots for Customer Support
 
