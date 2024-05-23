@@ -149,7 +149,7 @@ Your press releases need to be carefully fact-checked. Any statement you make in
 
 [Top 10 AI Products for Marketing and Management to Boost Efficiency](https://a-ads.com/blog/top-ten-ai-products-for-marketing-and-management-to-enhance-efficiency/)
 
-[How Podcasts Can Help Your Business Grow](https://a-ads.com/blog/How-Podcasts-Can-Help-Your-Business-Grow/)
+[How Podcasts Can Help Your Business Grow](https://a-ads.com/blog/how-podcasts-can-help-your-business-grow/)
 
 [How To Create A Perfect LinkedIn Page For Your Business.](https://a-ads.com/blog/how-to-create-a-perfect-linkedin-page-for-your-business/)
 
