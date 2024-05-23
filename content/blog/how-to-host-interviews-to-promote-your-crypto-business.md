@@ -1,7 +1,7 @@
 ---
 date: 2023-08-22T10:20:42.713Z
 title: How to Host Interviews to Promote Your Crypto Business
-slug: "how-to-host-interviews-to-promote-your-crypto-business"
+slug: how-to-host-interviews-to-promote-your-crypto-business
 tags:
   - news
 category: How to
@@ -294,7 +294,7 @@ In summary, the art of interviewing influencers in the crypto space involves tho
 
 [11 Innovative Methods to Boost Engagement through Social Media](https://a-ads.com/blog/get-noticed-on-social-media-11-creative-ways-to-drive-engagement/)
 
-[How Podcasts Can Help Your Business Grow](https://a-ads.com/blog/How-Podcasts-Can-Help-Your-Business-Grow/)
+[How Podcasts Can Help Your Business Grow](https://a-ads.com/blog/how-podcasts-can-help-your-business-grow/)
 
 [How To Create A Perfect LinkedIn Page For Your Business.](https://a-ads.com/blog/how-to-create-a-perfect-linkedin-page-for-your-business/)
 
