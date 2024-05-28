@@ -19,10 +19,6 @@ meta_description: Our list of the best cryptocurrencies to mine or the most
 meta_keywords: ""
 json_ld: ""
 ---
-**T﻿EST *T﻿EST* `T﻿EST`** !!!
-
-![](/blog/assets/2023-07-20-14_47_01-wildberries-модный-интернет-магазин.png)
-
 Still, deeply regret not investing in Bitcoin earlier? Relax. We all feel it from time to time. You have some options to deal with this feeling, such as crying yourself to sleep every night until you feel better or checking out other promising coins on the market.
 
 Our new article below is about the best crypto to mine in 2023. But before that, let's just quickly check what cryptocurrency is. 
