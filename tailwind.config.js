@@ -23,6 +23,7 @@ module.exports = {
       'down-tablet': { max: '767px' },
       'up-phone': { min: '421px' },
       'down-phone': { max: '299px' },
+      'up-xl': { min: '1200px' },
       phone: { min: '300px', max: '420px' },
       tablet: { min: '768px', max: '820px' },
       sm: { min: '325px', max: '550px' },
