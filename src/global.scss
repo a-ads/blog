@@ -684,3 +684,104 @@ a.icon-hover:active svg {
 #discover:before {
   background-position: 100%;
 }
+
+.banner-title {
+  font-family: $font-3;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  display: block;
+  position: relative;
+  margin-top: 16px;
+  margin-bottom: 2px;
+
+  &:before {
+    position: absolute;
+    content: 'NEW!';
+    top: -20px;
+    left: 0;
+    border-radius: 29.6px;
+    background: linear-gradient(102deg, #38BBF6 -4.71%, #8F87BD 93.32%);
+    width: 40px;
+    height: 19px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.banner-subtitle {
+  font-family: $font-4;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.banner-btn {
+  min-height: 44px;
+  color: $primary-color;
+  font-family: $font-3;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+  border-radius: 2.154px;
+  margin-top: 20px;
+  max-width: 306px;
+}
+
+@media (max-width: 1200px) {
+  .banner-title {
+    font-family: $font-3;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 4px;
+  }
+
+  .banner-subtitle {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .banner-btn {
+    min-height: 44px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 14px;
+    max-width: 233px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .banner-subtitle {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .banner-btn {
+    min-height: 34px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 14px;
+    max-width: 180px;
+  }
+
+  #discover {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 510px) {
+  #discover:after {
+    background-position: bottom;
+  }
+
+  #discover:before {
+    background-position: bottom;
+  }
+}

@@ -22,7 +22,7 @@ const ArtDirectedBackground: React.FC<{
     graphql`
       query {
         discoverDesktop: file(
-          relativePath: { eq: "banners/discover/desktop.png" }
+          relativePath: { eq: "banners/discover/promo.png" }
         ) {
           childImageSharp {
             fluid(maxWidth: 4160, quality: 100) {
@@ -31,7 +31,7 @@ const ArtDirectedBackground: React.FC<{
           }
         }
         discoverTablet: file(
-          relativePath: { eq: "banners/discover/tablet.jpg" }
+          relativePath: { eq: "banners/discover/tablet.png" }
         ) {
           childImageSharp {
             fluid(maxWidth: 900, quality: 100) {
@@ -40,7 +40,7 @@ const ArtDirectedBackground: React.FC<{
           }
         }
         discoverPhone: file(
-          relativePath: { eq: "banners/discover/phone.jpg" }
+          relativePath: { eq: "banners/discover/mobile.png" }
         ) {
           childImageSharp {
             fluid(maxWidth: 450, quality: 100) {
@@ -85,7 +85,7 @@ const ArtDirectedBackground: React.FC<{
     },
     {
       ...discoverPhone.childImageSharp.fluid,
-      media: `(max-width: 767px)`,
+      media: `(max-width: 510px)`,
     },
   ]
 
@@ -115,23 +115,22 @@ const ArtDirectedBackground: React.FC<{
 const variants = {
   discover: {
     title: (
-      <>
-        Discover value <br className='up-desktop:hidden' /> of crypto ads
-      </>
+      <span className='banner-title'>
+        Advertise your project on Marketplace
+      </span>
     ),
     subtitle: (
-      <>
-        Boost your crypto project or earn <br className='up-desktop:hidden' />
-        bitcoin on your traffic
-      </>
+      <span className='banner-subtitle'>
+        Distribute press releases, articles, social media posts, and ad videos safe and easily
+      </span>
     ),
     button: (
       <Link
         secondary
         external
-        text='Become a partner'
-        to='https://a-ads.com/campaigns/new'
-        className='hover-btn max-w-[287px] mt-6'
+        text='Explore Marketplace'
+        to='https://a-ads.com/marketplace/'
+        className='hover-btn banner-btn max-w-[287px] mt-6'
       />
     ),
   },
@@ -162,11 +161,11 @@ const Banner: React.FC<BannerProps> = ({ variant = 'discover' }) => {
 
   return (
     <ArtDirectedBackground variant={variant}>
-      <div
-        className={cn('flex items-center clr-base min-h-[325px] w-screen', {
-          'up-sm:pl-[40vw]': variant === 'promote',
-        })}
-      >
+      <div className={cn('flex items-center clr-base w-screen', {
+        'min-h-[325px] up-sm:pl-[40vw]': variant === 'promote',
+        'min-h-[198px]': variant !== 'promote',
+        'up-xl:min-h-[260px]': variant !== 'promote'
+      })}>
         <div className='flex flex-col justify-center container'>
           <span className='h2'>{title}</span>
           <span className='body-3 phone:body-5'>{subtitle}</span>
