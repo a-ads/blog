@@ -252,7 +252,7 @@ The choice of metrics also depends on the goals. For example, if the goal is to 
 
 [Content marketing for crypto projects](https://a-ads.com/blog/%D1%81ontent-marketing-for-crypto-projects/)
 
-[How Podcasts Can Help Your Business Grow](https://a-ads.com/blog/How-Podcasts-Can-Help-Your-Business-Grow/)
+[How Podcasts Can Help Your Business Grow](https://a-ads.com/blog/how-podcasts-can-help-your-business-grow/)
 
 [How To Create A Perfect LinkedIn Page For Your Business.](https://a-ads.com/blog/how-to-create-a-perfect-linkedin-page-for-your-business/)
 

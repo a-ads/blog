@@ -3,10 +3,6 @@ name: Yulia Savushkina
 position: Digital Marketing Specialist
 twitter_link: ""
 thumbnail: ../../static/assets/111.jpg
-description: Explores effective crypto advertising strategies and blockchain
-  technology opportunities for different products and projects
-facebook_link: ""
-bitcointalk_link: ""
 json_ld: >-
   [
 
@@ -72,7 +68,7 @@ json_ld: >-
 
   },
 
-  "about": {
+  "mainEntity": {
 
   "@type": "Person",
 
@@ -261,6 +257,10 @@ json_ld: >-
   }
 
   ]
+bitcointalk_link: ""
+description: Explores effective crypto advertising strategies and blockchain
+  technology opportunities for different products and projects
+facebook_link: ""
 ---
 ## Education: 
 

@@ -46,7 +46,7 @@ json_ld: >-
       }
   },
 
-  "about": {
+  "mainEntity": {
 
   "@type": "Person",
 

@@ -99,7 +99,7 @@ In the realm of affiliate marketing, you'll encounter two main types of affiliat
 
 **Resale:** This type involves affiliates who buy your product in bulk at a special price and then proceed to sell it on their own.
 
-**Referral:** With this approach, partners collaborate to boost your sales. They showcase links to your products on their websites and offer their customers incentives from your brand. Sales growth happens by driving more specific visitors to your website. These visitors then turn into potential customers, eventually converting into actual sales. Check out the [A-ADS Referral program](<https://a-ads.com/ru/affiliate_programs>). 
+**Referral:** With this approach, partners collaborate to boost your sales. They showcase links to your products on their websites and offer their customers incentives from your brand. Sales growth happens by driving more specific visitors to your website. These visitors then turn into potential customers, eventually converting into actual sales. Check out the [A-ADS Referral program](<https://a-ads.com/crypto-affiliate-program/>). 
 
 The choice between these referral methods depends on the advertising channels and their specific formats. These methods can include:
 
@@ -236,7 +236,7 @@ For example, imagine you're promoting a decentralized finance (DeFi) platform th
 
 [Content marketing for crypto projects](https://a-ads.com/blog/%D1%81ontent-marketing-for-crypto-projects/)
 
-[How Podcasts Can Help Your Business Grow](https://a-ads.com/blog/How-Podcasts-Can-Help-Your-Business-Grow/)
+[How Podcasts Can Help Your Business Grow](https://a-ads.com/blog/how-podcasts-can-help-your-business-grow/)
 
 [How To Create A Perfect LinkedIn Page For Your Business.](https://a-ads.com/blog/how-to-create-a-perfect-linkedin-page-for-your-business/)
 

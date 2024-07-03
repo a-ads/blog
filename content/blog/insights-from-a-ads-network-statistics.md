@@ -55,4 +55,4 @@ You Might Also Find Interesting:**
 
 [Crypto ICO Marketing: Strategies for Success in the Crypto World](https://a-ads.com/blog/crypto-ico-marketing/)
 
-[SEO Strategies For Your Crypto Business.](https://a-ads.com/blog/SEO-Strategies-for-Your-Crypto-Business%20/)
+[SEO Strategies For Your Crypto Business.](https://a-ads.com/blog/seo-strategies-for-your-crypto-business/)
