@@ -9,8 +9,8 @@ category_top_level:
   - Advertisers
   - Publishers
 author: Anna Trifonova
-thumbnail: ""
-big_picture: ""
+thumbnail: /blog/assets/what-is-solana_-a-simple-guide-to-understanding-how-it-works.png
+big_picture: /blog/assets/what-is-solana_-a-simple-guide-to-understanding-how-it-works-1-.png
 popularity: "0"
 meta_title: What is Solana? A Simple Guide to Understanding How It Works
 meta_description: Solana (SOL) is a cryptocurrency that aims to enhance and
