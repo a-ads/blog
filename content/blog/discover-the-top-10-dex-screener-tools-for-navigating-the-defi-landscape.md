@@ -1,5 +1,5 @@
 ---
-date: 2024-07-04T07:04:27.887Z
+date: 2024-06-18T07:04:27.887Z
 title: Discover the Top 10 DEX Screener Tools for Navigating the DeFi Landscape
 slug: discover-the-top-10-dex-screener-tools-for-navigating-the-defi-landscape
 tags:
@@ -8,8 +8,8 @@ category: How to
 category_top_level:
   - Advertisers
 author: Anastasia Zavershinskaya
-thumbnail: ""
-big_picture: ""
+thumbnail: /blog/assets/1-discover-the-top-10-dex-screener-tools.png
+big_picture: /blog/assets/discover-the-top-10-dex-screener-tools.png
 popularity: "0"
 meta_title: Discover the Top 10 DEX Screener Tools for Navigating the DeFi Landscape
 meta_description: Discover the Top 10 DEX Screener Tools for Navigating the DeFi
