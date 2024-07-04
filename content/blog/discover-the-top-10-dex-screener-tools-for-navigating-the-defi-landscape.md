@@ -59,6 +59,8 @@ For example, suppose we want to know the most active trading pair on the Uniswap
 
 The only downside of DEX Screener is that it's limited to decentralized exchanges and doesn't show information about other kinds of DeFi protocols like Maker or Compound.
 
+*If you want to advertise your project on [DEX Screener](https://a-ads.com/campaigns/new/?source_id=2182334&source_type=ad_unit&partner=2182334), you can do it through AADS by following this link*
+
 ## 2. Poocoin
 
 Poocoin is a cryptocurrency price tracking and analysis platform that provides real-time price monitoring for a wide range of cryptocurrencies, from established giants like Bitcoin and Ethereum to up-and-coming altcoins. But Poocoin goes beyond just price tracking. It offers a comprehensive suite of tools and features that empower users to dive deeper into cryptanalysis.
@@ -69,6 +71,8 @@ For those looking to manage their crypto portfolios effectively, Poocoin offers 
 
 Poocoin's integration with the Binance Smart Chain (BSC) has further enhanced its appeal. Users can seamlessly track prices and execute trades on the BSC, contributing to a streamlined and efficient user experience. This integration has solidified Poocoin's position as a go-to tool for those operating within the BSC ecosystem.
 
+*If you want to advertise your project on* [Poocoin](https://a-ads.com/campaigns/new/?source_id=1604690&source_type=ad_unit&partner=1604690)*, you can do it through AADS by following this link*
+
 ## 3. Apespace
 
 One of Apespace's great features is its ability to provide users exclusive access to token launches and investment opportunities. Through strategic partnerships and collaborations, Apespace offers early-stage investment opportunities that are not easily accessible to the general public. This gives investors a chance to get in on the ground floor of promising projects, potentially reaping significant rewards as these projects grow and mature. 
@@ -76,6 +80,8 @@ One of Apespace's great features is its ability to provide users exclusive acces
 The platform is also designed with user-friendliness, ensuring that even crypto-world newcomers can navigate it easily. Users can track their portfolios, set alerts, and execute trades hassle-free. 
 
 Security is another top priority for Apespace. The platform employs effective security measures to protect user assets and personal information and ensures that investments are safe and secure. 
+
+*If you want to advertise your project on* [Apespace](https://a-ads.com/campaigns/new/?source_id=2236166&source_type=ad_unit&partner=2236166)*, you can do it through AADS by following this link*
 
 ## 4. DefiLlama
 
