@@ -85,7 +85,7 @@ Once investors acquire SOL tokens, storing them in a crypto wallet is advisable.
 
 SOL tokens serve several purposes and have diverse use cases. They can be utilized for peer-to-peer payments and trading activities and act as incentives for securing the Solana network as a validator.
 
-### Key Takeaways:
+### Key Takeaways
 
 * Solana is a blockchain platform specifically built to support decentralized and scalable applications.
 * Solana boasts significantly higher transaction processing capabilities and lower transaction fees than rival blockchains like Ethereum.
@@ -109,8 +109,8 @@ SOL tokens have multiple use cases, including peer-to-peer payments and trading.
 
 Like all cryptocurrencies, investing in Solana carries risks. Cryptocurrencies are highly volatile and speculative investment vehicles. Investors should carefully consider their financial situation and consult a financial advisor before investing in Solana or any other cryptocurrency.
 
-#### Resources: 
+#### Resources
 
-* Solana. "A Solana Cluster."
-* Etherscan. "[The Ethereum Blockchain Explorer](https://etherscan.io/)."
-* CoinMarketCap.com. "[Today'sCryptocurrency Prices by Market Cap](https://coinmarketcap.com/coins/)**."**
+* Solana "[A Solana Cluster](https://docs.solana.com/cluster/overview)"
+* Etherscan "[The Ethereum Blockchain Explorer](https://etherscan.io/)"
+* CoinMarketCap.com "[Today'sCryptocurrency Prices by Market Cap](https://coinmarketcap.com/coins/)**"**
