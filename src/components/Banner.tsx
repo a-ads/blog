@@ -130,7 +130,7 @@ const variants = {
         secondary
         external
         text='Become a partner'
-        to='https://a-ads.com/campaigns/new'
+        to='https://aads.com/campaigns/new'
         className='hover-btn max-w-[287px] mt-6'
       />
     ),
@@ -146,7 +146,7 @@ const variants = {
       <Link
         secondary
         text='Get a referral link'
-        to='https://a-ads.com/blog/become-our-affiliate-partner-and-take-50-of-our-fees/'
+        to='https://aads.com/blog/become-our-affiliate-partner-and-take-50-of-our-fees/'
         className='hover-btn max-w-[287px] mt-6'
       />
     ),

@@ -14,31 +14,31 @@ const sections = [
     {
         title: 'Advertising',
         content: [
-            <a href='https://a-ads.com/advertise'>Banner advertising</a>,
-            <a href='https://a-ads.com/marketplace/advertiser/'>Content ad publication</a>,
-            <a href='https://a-ads.com/crypto-affiliate-program/'>Affiliate program</a>,
+            <a href='https://aads.com/advertise'>Banner advertising</a>,
+            <a href='https://aads.com/marketplace/advertiser/'>Content ad publication</a>,
+            <a href='https://aads.com/crypto-affiliate-program/'>Affiliate program</a>,
         ],
     },
     {
         title: 'Earning',
         content: [
-            <a href='https://a-ads.com/earn/'>Banner ad traffic monetization</a>,
-            <a href='https://a-ads.com/marketplace/publisher/'>Earning from ad publication</a>,
-            <a href='https://a-ads.com/crypto-referral-program/'>Referral program</a>,
+            <a href='https://aads.com/earn/'>Banner ad traffic monetization</a>,
+            <a href='https://aads.com/marketplace/publisher/'>Earning from ad publication</a>,
+            <a href='https://aads.com/crypto-referral-program/'>Referral program</a>,
         ],
     },
     {
         title: 'Collaborations',
         content: [
-            <a href='https://a-ads.com/advertising-agencies/'>Marketing agencies</a>,
+            <a href='https://aads.com/advertising-agencies/'>Marketing agencies</a>,
             <a target='_blank' href='/blog/elevate-your-startups-global-fame/'>Startups</a>,
-            <a href='https://a-ads.com/bug-bounty/'>Bug bounty program</a>,
+            <a href='https://aads.com/bug-bounty/'>Bug bounty program</a>,
         ],
     },
     {
         title: 'Service',
         content: [
-            <a href='https://a-ads.com/statistics/'>Network Statistics</a>,
+            <a href='https://aads.com/statistics/'>Network Statistics</a>,
             <a href='https://status.a-ads.com/en/' target='_blank' rel='noreferrer'>
                 System Status
             </a>,
@@ -50,8 +50,8 @@ const sections = [
     {
         title: 'Company',
         content: [
-            <a href='https://a-ads.com/about-us/'>About us</a>,
-            <a href='https://a-ads.com/team/'>Our Team</a>,
+            <a href='https://aads.com/about-us/'>About us</a>,
+            <a href='https://aads.com/team/'>Our Team</a>,
             <a href='/blog' target='_blank' rel='noreferrer'>
                 Blog
             </a>
@@ -182,8 +182,8 @@ const Footer = () => {
                         <div className="language-select"/>
                         <div className="copy">
                             <span className="copy__item">© A-ADS 2011-{currentYear}</span>
-                            <a className="copy__item" href='https://a-ads.com/terms_of_service'>Terms of Service</a>
-                            <a className="copy__item" href='https://a-ads.com/privacy_policy'>Privacy Policy</a>
+                            <a className="copy__item" href='https://aads.com/terms_of_service'>Terms of Service</a>
+                            <a className="copy__item" href='https://aads.com/privacy_policy'>Privacy Policy</a>
                         </div>
                     </div>
                 </div>

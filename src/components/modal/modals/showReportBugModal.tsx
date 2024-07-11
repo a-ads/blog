@@ -20,7 +20,7 @@ export const showReportBugModal = () => {
                 external
                 ghost
                 text='Bug Bounty Program'
-                to='https://a-ads.com/blog/bug-bounty-program/'
+                to='https://aads.com/blog/bug-bounty-program/'
                 className='clr-blue'
               />
             </p>
