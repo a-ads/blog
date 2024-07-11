@@ -129,7 +129,7 @@ const variants = {
         secondary
         external
         text='Explore Marketplace'
-        to='https://a-ads.com/marketplace/'
+        to='https://aads.com/marketplace/'
         className='hover-btn banner-btn max-w-[287px] mt-6'
       />
     ),
@@ -145,7 +145,7 @@ const variants = {
       <Link
         secondary
         text='Get a referral link'
-        to='https://a-ads.com/blog/become-our-affiliate-partner-and-take-50-of-our-fees/'
+        to='https://aads.com/blog/become-our-affiliate-partner-and-take-50-of-our-fees/'
         className='hover-btn max-w-[287px] mt-6'
       />
     ),

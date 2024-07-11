@@ -9,7 +9,7 @@ const config: GatsbyConfig = {
     description:
       'Crypto & Bitcoin market tips and updates, mine guides, reviews and ratings for first-timers or experienced investors, and more information of cryptocurrencies.',
     image: `static/images/favicon.ico`,
-    siteUrl: 'https://a-ads.com',
+    siteUrl: 'https://aads.com',
   },
   graphqlTypegen: true,
   plugins: [
@@ -96,7 +96,7 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://a-ads.com/blog/`,
+        siteUrl: `https://aads.com/blog/`,
         stripQueryString: true,
       },
     },

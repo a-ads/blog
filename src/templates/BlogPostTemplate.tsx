@@ -15,17 +15,17 @@ export function Head({ pageContext: { post, author } }: any) {
     <Seo
       title={post.meta_title}
       description={post.meta_description}
-      img={'https://a-ads.com/blog/images/logo.png'}
+      img={'https://aads.com/blog/images/logo.png'}
       // pathname={`${location.pathname}`}
     >
       <meta property='og:title' content={post.meta_title} />
       <meta
         property='og:image'
-        content={'https://a-ads.com/blog/images/logo.png'}
+        content={'https://aads.com/blog/images/logo.png'}
       />
       <meta
         property='og:url'
-        content={`https://a-ads.com${location.pathname}`}
+        content={`https://aads.com${location.pathname}`}
       />
       <meta property='og:type' content='website' />
 
@@ -42,9 +42,9 @@ export function Head({ pageContext: { post, author } }: any) {
             "author": [{
               "@type": "Person",
               "name": "${author.name}",
-              "url": "https://a-ads.com/blog${author.slug}"
+              "url": "https://aads.com/blog${author.slug}"
             }],
-            "image": ["https://a-ads.com/blog/assets/${extractFilename(
+            "image": ["https://aads.com/blog/assets/${extractFilename(
               post.thumbnail?.childImageSharp?.gatsbyImageData?.images?.fallback
                 ?.src
             )}"]
@@ -76,7 +76,7 @@ const TableOfContents = ({
         {/* Social buttons row */}
         <header className='flex items-end gap-8 down-desktop:hidden h-[6rem] mb-7'>
           <ShareButtons
-            url={`https://a-ads.com${location.pathname}`}
+            url={`https://aads.com${location.pathname}`}
             text={''}
           />
         </header>
@@ -111,7 +111,7 @@ const TableOfContents = ({
                 external
                 primary
                 text='Start now'
-                to='https://a-ads.com/campaigns/new'
+                to='https://aads.com/campaigns/new'
                 className='hover-link w-full h-12'
               />
             </div>
