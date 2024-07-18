@@ -45,7 +45,11 @@ Among the first lineup of speakers are:
 ![](/blog/assets/16x9-banner-bl-october-2024-eng.png)
 
 **\
-Blockchain Life 2024 is set to take place on October 22-23 in UAE, Dubai, Festival Arena. The forum will feature a diverse range of panel discussions, keynote presentations, as well as networking opportunities and the largest crypto expo with over 200 booths.****\
-A new feature of this forum is simultaneous translation of speeches into more than 70 languages ​​of the world. This option is absolutely free and is already included in the ticket.****\
-To secure your spot at Blockchain Life 2024 with a 10% discount and meet us at the event use promo code "AADS"****\
-For more information please visit: <https://blockchain-life.com/>**
+Blockchain Life 2024 is set to take place on October 22-23 in UAE, Dubai, Festival Arena. The forum will feature a diverse range of panel discussions, keynote presentations, as well as networking opportunities and the largest crypto expo with over 200 booths.**
+
+\
+A new feature of this forum is simultaneous translation of speeches into more than 70 languages ​​of the world. This option is absolutely free and is already included in the ticket.
+
+**\
+To secure your spot at Blockchain Life 2024 with a 10% discount and meet us at the event use promo code "AADS"**\
+For more information please visit: <https://blockchain-life.com/>
