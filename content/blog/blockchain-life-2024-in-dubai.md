@@ -9,8 +9,8 @@ category: How to
 category_top_level:
   - News & Trends
 author: Anna Trifonova
-thumbnail: ""
-big_picture: ""
+thumbnail: /blog/assets/what-is-solana_-a-simple-guide-to-understanding-how-it-works-4-.png
+big_picture: /blog/assets/what-is-solana_-a-simple-guide-to-understanding-how-it-works-5-.png
 popularity: "0"
 meta_title: ""
 meta_description: ""
