@@ -9,8 +9,8 @@ category: Stories
 category_top_level:
   - Advertisers
 author: Anna Trifonova
-thumbnail: /blog/assets/introducing-the-enhanced-referral-link-building-interface-for-your-convenience.png
-big_picture: /blog/assets/how-to-show-different-ads-based-on-user-s-device_.png
+thumbnail: /blog/assets/how-to-take-your-video-marketing-strategy-to-the-next-level_-guide-of-video-promotion-in-2024-cover.png
+big_picture: /blog/assets/how-to-take-your-video-marketing-strategy-to-the-next-level_-guide-of-video-promotion-in-2024-short.png
 popularity: "0"
 meta_title: "How to Take Your Video Marketing Strategy to the Next Level: Guide
   of Video Promotion in 2024"
