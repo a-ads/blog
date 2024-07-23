@@ -45,7 +45,7 @@ At AADS, we strive to make it easy for you to contact us for assistance or guida
 
 The most convenient and instantaneous way to contact our support team is through our Live Chat feature on the aads.com website. With just a few clicks, you can access real-time assistance from our knowledgeable representatives, empowering you to find the answers you seek swiftly.
 
-Alternatively, you can reach out to us via email at [support@a-ads.com](mailto:support@a-ads.com), allowing for a more detailed discussion of your requirements.
+Alternatively, you can reach out to us via email at [support@aads.com](mailto:support@aads.com), allowing for a more detailed discussion of your requirements.
 
 For those who prefer the convenience of messaging platforms, we offer the option to interact with our Telegram bot or send us a message through our Facebook group. Our team is readily available on these platforms to address your inquiries promptly, ensuring a seamless and efficient communication experience.
 
