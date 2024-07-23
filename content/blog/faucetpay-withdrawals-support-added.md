@@ -13,7 +13,7 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/undraw_partying_p92d-обложка.png
 big_picture: ../../static/assets/undraw_partying_p92квадрат.png
-meta_title: FaucetPay withdrawals support added | A-ADS Blog
+meta_title: FaucetPay withdrawals support added | AADS Blog
 meta_description: Exciting news! We have added support for FaucetPay
   withdrawals, providing our users with another micro-wallet service option in
   addition to ExpressCrypto. To use this new withdrawal option, simply register

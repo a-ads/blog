@@ -14,7 +14,7 @@ author: Olga Ostrovskaya
 thumbnail: ../../static/assets/undraw_content_vbqoобложка.png
 big_picture: ../../static/assets/undraw_content_vbqoквадрат.png
 meta_title: We've updated the list of supported banners. How will it affect our
-  users? | A-ADS Blog
+  users? | AADS Blog
 meta_description: Improve your ad campaign performance with our updated list of
   supported banner ad sizes! We've removed outdated banner sizes and added new
   ones, so make sure to adjust your ad units' HTML code to comply. Don't miss

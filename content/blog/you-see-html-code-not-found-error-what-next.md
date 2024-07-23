@@ -10,9 +10,9 @@ category_top_level:
   - Guides
 author: Anastasia Zavershinskaya
 thumbnail: ../../static/assets/illustration-1-2x.png
-meta_title: You See 'HTML Code Not Found' Error - What Next? | A-ADS Blog
+meta_title: You See 'HTML Code Not Found' Error - What Next? | AADS Blog
 meta_description: Learn how to fix the "HTML code not found" error message and
-  boost your earnings with A-ADS. Our guide covers common issues and possible
+  boost your earnings with AADS. Our guide covers common issues and possible
   fixes to ensure your ad unit is present and visible on your site. Contact our
   support team for further assistance.
 ---
@@ -58,7 +58,7 @@ The error appears when a website can be opened in a browser, but its source code
 
 An ad unit must be present on the URL specified for it on the ad unit page. You get the “Redirecting to another website” error, if this URL redirects to some other domain. 
 
-To fix the error you can either remove redirect, or change the URL of the ad unit on the ad unit page at a-ads.com. You can edit the ad unit URL via the link on the ad unit page:
+To fix the error you can either remove redirect, or change the URL of the ad unit on the ad unit page at aads.com. You can edit the ad unit URL via the link on the ad unit page:
 
 ![Edit the ad unit URL](../../static/assets/editpage.png "Edit the ad unit URL")
 
@@ -153,7 +153,7 @@ A banner must be clickable. A click must lead to the advertised site. If nothing
 
 ![Invalid domain errror](../../static/assets/111invaliddomain.jpg "Invalid domain errror")
 
-The src attribute must contain one of a-ads.com domains. On the moment two domains are allowed: ad.a-ads.com and acceptable.a-ads.com . If the src attribute contains any other domain, you’ll get this message.
+The src attribute must contain one of aads.com domains. On the moment two domains are allowed: ad.a-ads.com and acceptable.a-ads.com . If the src attribute contains any other domain, you’ll get this message.
 
 ## Empty data-aa
 
@@ -199,7 +199,7 @@ The minimum allowed size for an adaptive ad unit is 120x25 px. If a banner on yo
 
 ![Size doesn’t match error](../../static/assets/размерdontmatch.jpg "Size doesn’t match error")
 
-If your [ad unit](https://a-ads.com/blog/how-to-place-an-ad-unit-code-correctly/) is a fixed size one, the banner on your site page should match ad unit exact size, else you’ll get an error message:
+If your [ad unit](https://aads.com/blog/how-to-place-an-ad-unit-code-correctly/) is a fixed size one, the banner on your site page should match ad unit exact size, else you’ll get an error message:
 
 ![Size doesn’t match error](../../static/assets/размерdontmatchдва.jpg "Size doesn’t match error")
 

@@ -10,9 +10,9 @@ category_top_level:
   - Guides
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/illustration-6.png
-meta_title: How to place an ad unit code correctly? | A-ADS Blog
+meta_title: How to place an ad unit code correctly? | AADS Blog
 meta_description: Learn how to easily embed an ad unit code into your website
-  with this helpful guide from A-ADS. Find out what an ad unit code is, how to
+  with this helpful guide from AADS. Find out what an ad unit code is, how to
   access it, and how to troubleshoot any issues you may encounter along the way.
   Discover tips and tricks for optimizing your code placement.
 ---

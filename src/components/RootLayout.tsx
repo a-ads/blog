@@ -92,9 +92,9 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
         </Link>
         <Link
           className='btn-redirect up-desktop:hidden'
-          to={'https://a-ads.com'}
+          to={'https://aads.com'}
         >
-          <span className='btn-text btn-text__mobile'>Go to A-ADS network</span>
+          <span className='btn-text btn-text__mobile'>Go to AADS network</span>
         </Link>
 
         <div className='nav-wrap down-desktop:hidden'>
@@ -115,8 +115,8 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
               />
             )}
           </div>
-          <Link className='btn-redirect' to={'https://a-ads.com'}>
-            <span className='btn-text'>Go to A-ADS network</span>
+          <Link className='btn-redirect' to={'https://aads.com'}>
+            <span className='btn-text'>Go to AADS network</span>
           </Link>
         </div>
 
@@ -196,7 +196,7 @@ const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
               </List>
               <Link
                 primary
-                to={`https://a-ads.com/${
+                to={`https://aads.com/${
                   i === 0 ? 'campaigns/new' : 'ad_units/new'
                 }`}
                 className='hover-link w-4/6 mt-auto down-desktop:w-full'

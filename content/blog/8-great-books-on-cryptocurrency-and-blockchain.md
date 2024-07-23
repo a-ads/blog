@@ -11,7 +11,7 @@ author: Danil Persky
 thumbnail: blog/assets/full.png
 big_picture: blog/assets/short.png
 popularity: "0"
-meta_title: 8 Great Books On Cryptocurrency And Blockchain | A-ADS Blog
+meta_title: 8 Great Books On Cryptocurrency And Blockchain | AADS Blog
 meta_description: Discover the top 8 books on cryptocurrency and blockchain,
   which cover a wide range of topics from cryptography essentials to
   comprehensive introductions and future predictions. Whether you're a beginner
@@ -31,15 +31,15 @@ json_ld: >-2
       {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "url": "https://a-ads.com/",
-        "logo": "https://a-ads.com/assets/logo2-75096a04d96256bca99be6beccffa017286fd8f228323b4265f611eaa1b27d6a.png"
+        "url": "https://aads.com/",
+        "logo": "https://aads.com/assets/logo2-75096a04d96256bca99be6beccffa017286fd8f228323b4265f611eaa1b27d6a.png"
       }
 ---
 Christmas and New Year holidays are the most beautiful time of the year for many people. We have picked up 8 books about blockchain and cryptocurrency to read on holidays. Grab some tea and a blanket, and get ready to dive into blockchain and crypto.  
 
 ## 1. Cryptography Made Simple by Nigel Smart (Information Security and Cryptography)
 
-![Cryptography Made Simple by Nigel Smart](https://a-ads.com/blog/assets/%D1%81%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA-%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0-2023-05-15-%D0%B2-14.53.46.png "Cryptography Made Simple by  Nigel Smart")
+![Cryptography Made Simple by Nigel Smart](https://aads.com/blog/assets/%D1%81%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA-%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0-2023-05-15-%D0%B2-14.53.46.png "Cryptography Made Simple by  Nigel Smart")
 
 *Source: Amazon.com*
 
@@ -54,7 +54,7 @@ In the blockchain, cryptography is a key player, which secures the transactions 
 
 ## 2. The Basics of Bitcoins and Blockchains by Antony Lewis
 
-![The Basics of Bitcoins and Blockchains by Antony Lewis](https://a-ads.com/blog/assets/снимок-экрана-2023-05-15-в-14.57.43.png "The Basics of Bitcoins and Blockchains by Antony Lewis")
+![The Basics of Bitcoins and Blockchains by Antony Lewis](https://aads.com/blog/assets/снимок-экрана-2023-05-15-в-14.57.43.png "The Basics of Bitcoins and Blockchains by Antony Lewis")
 
 *Source: Amazon.com*
 
@@ -69,7 +69,7 @@ Antony Lewis has almost a decade of experience in Bitcoin and blockchain technol
 
 ### 3. Bitcoin, Blockchain, and Cryptoassets: A Comprehensive Introduction by F. Schar and  A. Berentsen 
 
-![Bitcoin, Blockchain, and Cryptoassets: A Comprehensive Introduction by F. Schar and  A. Berentsen](https://a-ads.com/blog/assets/снимок-экрана-2023-05-15-в-14.58.41.png "Bitcoin, Blockchain, and Cryptoassets: A Comprehensive Introduction by F. Schar and  A. Berentsen")
+![Bitcoin, Blockchain, and Cryptoassets: A Comprehensive Introduction by F. Schar and  A. Berentsen](https://aads.com/blog/assets/снимок-экрана-2023-05-15-в-14.58.41.png "Bitcoin, Blockchain, and Cryptoassets: A Comprehensive Introduction by F. Schar and  A. Berentsen")
 
 *Source: Amazon.com*
 
@@ -83,7 +83,7 @@ This book is a great introductory work about cryptocurrencies and blockchain tec
 
 ## 4. Blockchain Bubble or Revolution: The Future of Bitcoin, Blockchains, and Cryptocurrencies by A. Agashe, N. Mehta, and P. Detroja
 
-![Blockchain Bubble or Revolution: The Future of Bitcoin, Blockchains, and Cryptocurrencies](https://a-ads.com/blog/assets/снимок-экрана-2023-05-15-в-15.00.08.png "Blockchain Bubble or Revolution: The Future of Bitcoin, Blockchains, and Cryptocurrencies")
+![Blockchain Bubble or Revolution: The Future of Bitcoin, Blockchains, and Cryptocurrencies](https://aads.com/blog/assets/снимок-экрана-2023-05-15-в-15.00.08.png "Blockchain Bubble or Revolution: The Future of Bitcoin, Blockchains, and Cryptocurrencies")
 
 **Why read:** 
 
@@ -95,7 +95,7 @@ This book is a great introductory work about cryptocurrencies and blockchain tec
 
 ## 5. Blockchain Revolution: How the Technology Behind Bitcoin and Other Cryptocurrencies Is Changing the World By Don Tapscott 
 
-![Blockchain Revolution: How the Technology Behind Bitcoin and Other Cryptocurrencies Is Changing the World By Don Tapscott](https://a-ads.com/blog/assets/снимок-экрана-2023-05-15-в-15.01.16.png "Blockchain Revolution: How the Technology Behind Bitcoin and Other Cryptocurrencies Is Changing the World By Don Tapscott")
+![Blockchain Revolution: How the Technology Behind Bitcoin and Other Cryptocurrencies Is Changing the World By Don Tapscott](https://aads.com/blog/assets/снимок-экрана-2023-05-15-в-15.01.16.png "Blockchain Revolution: How the Technology Behind Bitcoin and Other Cryptocurrencies Is Changing the World By Don Tapscott")
 
 *Source: Amazon.com*
 
@@ -109,7 +109,7 @@ This brilliant book sheds light on where blockchain technologies might take us o
 
 ## 6. Digital Finance: Security Tokens and Unlocking the Real Potential of Blockchain by Baxter Hines
 
-![Digital Finance: Security Tokens and Unlocking the Real Potential of Blockchain](https://a-ads.com/blog/assets/снимок-экрана-2023-05-15-в-15.03.57.png "Digital Finance: Security Tokens and Unlocking the Real Potential of Blockchain")
+![Digital Finance: Security Tokens and Unlocking the Real Potential of Blockchain](https://aads.com/blog/assets/снимок-экрана-2023-05-15-в-15.03.57.png "Digital Finance: Security Tokens and Unlocking the Real Potential of Blockchain")
 
 Written by Baxter Hines, Digital Finance is a detailed look into the effects of blockchain and cryptocurrency on the financial industry. The book dissects the blockchain revolution and posits that "security tokens" will unlock the real potential of blockchain technology.
 
@@ -122,7 +122,7 @@ Written by Baxter Hines, Digital Finance is a detailed look into the effects of 
 
 ## 7. Basics of Blockchain: A guide for building literacy in the economics, technology, and business of blockchain by Tom Serres
 
-![Basics of Blockchain](https://a-ads.com/blog/assets/снимок-экрана-2023-05-15-в-15.04.53.png "Basics of Blockchain")
+![Basics of Blockchain](https://aads.com/blog/assets/снимок-экрана-2023-05-15-в-15.04.53.png "Basics of Blockchain")
 
 *Source: Amazon.com*
 
@@ -137,7 +137,7 @@ The Basics of blockchain is a study of the technology, how it works, and its imp
 
 ## 7. The Truth About Crypto: A Practical, Easy-to-Understand Guide to Bitcoin, Blockchain, NFTs, and Other Digital Assets by Rick Edelman
 
-![The Truth About Crypto: A Practical, Easy-to-Understand Guide to Bitcoin, Blockchain, NFTs,](https://a-ads.com/blog/assets/снимок-экрана-2023-05-15-в-15.07.42.png "The Truth About Crypto: A Practical, Easy-to-Understand Guide to Bitcoin, Blockchain, NFTs,")
+![The Truth About Crypto: A Practical, Easy-to-Understand Guide to Bitcoin, Blockchain, NFTs,](https://aads.com/blog/assets/снимок-экрана-2023-05-15-в-15.07.42.png "The Truth About Crypto: A Practical, Easy-to-Understand Guide to Bitcoin, Blockchain, NFTs,")
 
 This book is an inclusive guide to the world of crypto. 
 
@@ -148,7 +148,7 @@ This book is an inclusive guide to the world of crypto. 
 
 ## Bonus: Cryptocurrency All-in-One For Dummies
 
-![Cryptocurrency All-in-One For Dummies](https://a-ads.com/blog/assets/снимок-экрана-2023-05-15-в-15.08.41.png "Cryptocurrency All-in-One For Dummies")
+![Cryptocurrency All-in-One For Dummies](https://aads.com/blog/assets/снимок-экрана-2023-05-15-в-15.08.41.png "Cryptocurrency All-in-One For Dummies")
 
 This book is a classic one among all the books about crypto.
 

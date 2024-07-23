@@ -11,7 +11,7 @@ author: Emmanuel Olatunji
 thumbnail: blog/assets/full.png
 big_picture: blog/assets/short.png
 popularity: "0"
-meta_title: What is Decentralized finance (DeFi)? How Does DeFi Work | A-ADS Blog
+meta_title: What is Decentralized finance (DeFi)? How Does DeFi Work | AADS Blog
 meta_description: DeFi is an emerging financial technology based on secure
   distributed ledgers similar to those used by cryptocurrencies. In this
   article, more breaks down what is decentralized finance and how does it`s

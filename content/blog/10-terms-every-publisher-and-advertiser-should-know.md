@@ -13,7 +13,7 @@ author: Emmanuel Olatunji
 thumbnail: ../../static/assets/full-25-.png
 big_picture: ../../static/assets/short-20-.png
 popularity: "5"
-meta_title: 10 Terms Every Publisher And Advertiser Should Know | A-ADS Blog
+meta_title: 10 Terms Every Publisher And Advertiser Should Know | AADS Blog
 meta_description: "Improve your crypto marketing with key terms: clicks,
   impressions, unique clicks, unique impressions, total budget, daily budget,
   publisher, ad target, traffic, ad unit, banner advertising, and more.
@@ -49,9 +49,9 @@ A unique impression is the first time a user sees an ad within a 24-hour timespa
 
 If a consumer notices your ad three times within 24 hours, the second and third impressions will not count as unique until the next 24 hours.
 
-Unique impressions are vital because they can help marketing teams and publishers pinpoint the value of [ad unit](https://a-ads.com/blog/how-to-place-an-ad-unit-code-correctly/) space and ad set. Unique impressions are one of the best ways to evaluate the eCPM or the effective cost per thousand ad impressions.
+Unique impressions are vital because they can help marketing teams and publishers pinpoint the value of [ad unit](https://aads.com/blog/how-to-place-an-ad-unit-code-correctly/) space and ad set. Unique impressions are one of the best ways to evaluate the eCPM or the effective cost per thousand ad impressions.
 
-[Unique impressions](https://a-ads.com/blog/counting-unique-impressions/) also let you know who is visiting your ads and how often, and this information can provide you with real insight into who exists within your target audience. 
+[Unique impressions](https://aads.com/blog/counting-unique-impressions/) also let you know who is visiting your ads and how often, and this information can provide you with real insight into who exists within your target audience.
 
 ## 5. TOTAL BUDGET & DAILY BUDGET
 
@@ -85,13 +85,13 @@ Pages that are more engaging convert more. 
 
 These are codes publishers integrate into apps and web pages to display ads to users to monetize their traffic.
 
-There are many different kinds of ad units, including banner ads, interstitial ads, rewarded video ads, offerwall ads, and playable ads. Each ad unit looks and behaves differently. At A-ADS, we offer banner ads only.
+There are many different kinds of ad units, including banner ads, interstitial ads, rewarded video ads, offerwall ads, and playable ads. Each ad unit looks and behaves differently. At AADS, we offer banner ads only.
 
 ## 10. BANNER ADVERTISING
 
 Banner advertising refers to using a rectangular graphic display that stretches across the top, bottom, or sides of a web page to display ads to the webpage traffic. 
 
-The banner advert can also be a text advert. At A-ADS, we have both features your advert can show as text and banner.
+The banner advert can also be a text advert. At AADS, we have both features your advert can show as text and banner.
 
 Banner ads are image-based rather than text-based, and this is one of the most popular forms of online advertising, which is perceived to be attractive and more engaging.
 

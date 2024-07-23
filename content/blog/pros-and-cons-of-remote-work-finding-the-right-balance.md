@@ -13,7 +13,7 @@ author: Olga Ostrovskaya
 thumbnail: /blog/assets/remote-work.png
 big_picture: /blog/assets/remote-work_2.png
 popularity: "0"
-meta_title: "Pros and Cons of Remote Work: Finding the Right Balance | A-ADS Blog"
+meta_title: "Pros and Cons of Remote Work: Finding the Right Balance | AADS Blog"
 meta_description: Discover the holistic advantages of remote work beyond cost
   savings. Explore the enhanced productivity, comfortable work environment,
   access to prominent companies, and more. Learn how both employees and
@@ -45,7 +45,7 @@ In general, remote work goes beyond mere financial savings. It gives employees t
 
 ![Pros and cons of remote work ](/blog/assets/222.png "Pros and cons of remote work ")
 
-*What A-ADS employees say*
+*What AADS employees say*
 
 ### What are the Advantages of Remote Work for Employers?
 
@@ -119,7 +119,7 @@ Going to and from the office is a way to transition from home to work mode and b
 
 ![Remote work solutions](/blog/assets/remote-work-advantages_2.png "Remote work solutions")
 
-*What A-ADS employees say*
+*What AADS employees say*
 
 ### Problem 3: Having Trouble Staying Focused
 

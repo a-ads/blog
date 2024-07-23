@@ -13,14 +13,14 @@ category_second_level:
 author: Micheal George
 thumbnail: /blog/assets/adsbridge-featured.png
 big_picture: /blog/assets/adsbridge-square.png
-meta_title: Advanced Tracking with AdsBridge | A-ADS Blog
+meta_title: Advanced Tracking with AdsBridge | AADS Blog
 meta_description: Track your affiliate marketing campaigns like a pro with
   AdsBridge! As a tracking solution built for media buyers, affiliate marketers,
   and marketing agencies, AdsBridge provides intelligent traffic monetization
   and access to top optimization tools. Follow our integration instructions to
   get started!
 ---
-![A-ADS logo](../../static/assets/a-ads-logo.png "A-ADS logo")
+![AADS logo](../../static/assets/a-ads-logo.png "AADS logo")
 
 # in collaboration with
 
@@ -35,8 +35,8 @@ meta_description: Track your affiliate marketing campaigns like a pro with
 **Prerequisites:**
 
 * AdsBridge account
-* A-ADS account
-* A-ADS campaign with goal tracking enabled
+* AADS account
+* AADS campaign with goal tracking enabled
 
 **Let's begin!**
 
@@ -60,20 +60,20 @@ meta_description: Track your affiliate marketing campaigns like a pro with
 
 ![AdsBridge: New campaign created](../../static/assets/adsbridge3-campaign-created.png "AdsBridge: New campaign created")
 
-**Note**: Use your AdsBridge campaign link as your A-ADS campaign link, without the “?” and everything after.
+**Note**: Use your AdsBridge campaign link as your AADS campaign link, without the “?” and everything after.
 
 Also, if you did not create a landing page you can use AdsBridge “direct link”, as seen in the image below:
 
 ![AdsBridge “direct link"](../../static/assets/adsbridge4-directlink.png "AdsBridge “direct link\"")
 
-5. Log into your A-ADS account.
-6. Enable Goal tracking for your campaign at A-ADS as seen in the image below, if you don't have a campaign you can create one [here](https://a-ads.com/campaigns/new).
+5. Log into your AADS account.
+6. Enable Goal tracking for your campaign at AADS as seen in the image below, if you don't have a campaign you can create one [here](https://aads.com/campaigns/new).
 
-![A-ADS: Goal Tracking](../../static/assets/adsbridge51-goaltracking.png "A-ADS: Goal Tracking")
+![AADS: Goal Tracking](../../static/assets/adsbridge51-goaltracking.png "AADS: Goal Tracking")
 
-7. Update your A-ADS campaign’s “Goal Tracking” “Suffix” with your AdsBridge’s campaign link, only everything after, and including the “?”, or simply by picking the necessary tokens below the place holder, they will be added to the “suffix”, then save your campaign.
+7. Update your AADS campaign’s “Goal Tracking” “Suffix” with your AdsBridge’s campaign link, only everything after, and including the “?”, or simply by picking the necessary tokens below the place holder, they will be added to the “suffix”, then save your campaign.
 
-![A-ADS: Goal Tracking Suffix](../../static/assets/adsbridge52-goaltracking.png "A-ADS: Goal Tracking Suffix")
+![AADS: Goal Tracking Suffix](../../static/assets/adsbridge52-goaltracking.png "AADS: Goal Tracking Suffix")
 
 8. You can check the statistics on campaign performance with three simple steps as seen below:
 

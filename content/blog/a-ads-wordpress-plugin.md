@@ -1,6 +1,6 @@
 ---
 date: 2021-01-13T12:29:22.860Z
-title: A-ADS Wordpress Plugin
+title: AADS Wordpress Plugin
 slug: a-ads-wordpress-plugin
 tags:
   - publisher
@@ -12,8 +12,8 @@ category_second_level:
 author: Micheal George
 thumbnail: /blog/assets/wordpress-full.png
 big_picture: /blog/assets/wordpress-short.png
-meta_title: A-ADS Wordpress Plugin | A-ADS Blog
-meta_description: Learn how to use the A-ADS WordPress plugin with our
+meta_title: AADS Wordpress Plugin | AADS Blog
+meta_description: Learn how to use the AADS WordPress plugin with our
   informative article. Our step-by-step guide covers the installation and
   activation process, configuration of the ad widget, and how to demo your ad.
   We also provide solutions to possible errors you may encounter when using the
@@ -32,7 +32,7 @@ Hello publishers, we’re proud to announce the release of [our WordPress plugin
 
 * A hosted registered domain
 * A complete WordPress installation
-* An A-ADS account
+* An AADS account
 
 ## Installation and activation
 
@@ -44,27 +44,27 @@ For example: `https://yourdomain.com/wp-admin/plugin-install.php`
 
 **Step Two:** Search for our plugin by inserting our domain name in the placeholder, as seen in the image below.
 
-![A-ADS plugin on WordPress plugin store](../../static/assets/worpress-plugin-1.png "A-ADS plugin on WordPress plugin store")
+![AADS plugin on WordPress plugin store](../../static/assets/worpress-plugin-1.png "AADS plugin on WordPress plugin store")
 
 **Step Three:** Click the “Install Now” button, when it’s done installing, click “activate”. The result should be as shown in the image below.
 
-![WordPress activate A-ADS plugin](../../static/assets/worpress-plugin-2.png "WordPress activate A-ADS plugin")
+![WordPress activate AADS plugin](../../static/assets/worpress-plugin-2.png "WordPress activate AADS plugin")
 
 ## Configuration
 
-**Step Four**: Visit your WP widget control panel, you should see our widget listed as “A-ADS Widget”. Then click the drop-down arrow, as seen in the image below.
+**Step Four**: Visit your WP widget control panel, you should see our widget listed as “AADS Widget”. Then click the drop-down arrow, as seen in the image below.
 
 For example: `https://yourdomain.com/wp-admin/widgets.php`
 
-![A-ADS Wordpress widget activation](../../static/assets/worpress-plugin-3.png "A-ADS Wordpress widget activation")
+![AADS Wordpress widget activation](../../static/assets/worpress-plugin-3.png "AADS Wordpress widget activation")
 
 **Step Five**: Select a placeholder, as seen in the image below.
 
-![A-ADS Wordpress widget placement settings](../../static/assets/worpress-plugin-4.png "A-ADS Wordpress widget placement settings")
+![AADS Wordpress widget placement settings](../../static/assets/worpress-plugin-4.png "AADS Wordpress widget placement settings")
 
 **Step Six**: Configure your ad widget with ad unit ID and size, as seen in the image below.
 
-![A-ADS Wordpress widget settings](../../static/assets/worpress-plugin-5.png "A-ADS Wordpress widget settings")
+![AADS Wordpress widget settings](../../static/assets/worpress-plugin-5.png "AADS Wordpress widget settings")
 
 ## Demo
 
@@ -72,11 +72,11 @@ For example: `https://yourdomain.com/wp-admin/widgets.php`
 
 See the image below.
 
-![A-ADS Wordpress widget demo](../../static/assets/worpress-plugin-6.jpg "A-ADS Wordpress widget demo")
+![AADS Wordpress widget demo](../../static/assets/worpress-plugin-6.jpg "AADS Wordpress widget demo")
 
 ## Possible errors and solutions
 
-1. If you don’t have an A-ADS ad unit, this plugin will **not** generate any income for you. You can create one [here](https://a-ads.com/ad_units/new).
+1. If you don’t have an AADS ad unit, this plugin will **not** generate any income for you. You can create one [here](https://aads.com/ad_units/new).
 2. If you don’t see the banner/text ad, it could simply mean that the selected placeholder doesn’t exist yet, due to your content or type of content. Fix by placing the banner/text ad in a different placeholder.
 
 For instance, if you put the ad widget in “Left Sidebar”, and you didn’t see the banner/text ad at the specified placeholder, just place the ad widget in a different placeholder. E.G “Right Sidebar”, or “Footer”, or any other placeholder that exists.

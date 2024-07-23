@@ -13,7 +13,7 @@ thumbnail: ../../static/assets/full-12-.png
 big_picture: ../../static/assets/short-9-.png
 popularity: "0"
 meta_title: "Latest news: Microsoft Crypto Wallet, Coinbase Outside U.S., and
-  ChatGPT vs Labour Market | A-ADS Blog"
+  ChatGPT vs Labour Market | AADS Blog"
 meta_description: Read about Microsoft's secret crypto wallet found in the Edge
   browser, Coinbase's plan to launch a crypto exchange platform outside the US,
   and how ChatGPT is set to change the labor market with its AI technology. Stay

@@ -17,7 +17,7 @@ meta_title: Crypto to Fiat Guide
 meta_description: Learn how to deposit cryptocurrency into fiat using Changelly
   through our comprehensive guide. Initiate deposits, choose payment providers,
   and follow step-by-step instructions for a seamless process. Contact us for
-  support. A-ADS - Your crypto-to-fiat solution.
+  support. AADS - Your crypto-to-fiat solution.
 meta_keywords: ""
 json_ld: ""
 ---
@@ -31,7 +31,7 @@ Welcome to the Crypto to Fiat Guide, designed for advertisers who prefer making 
 
 **1. Initiating the Deposit**
 
-To begin, log in to your A-ADS account and select "Deposit funds."\
+To begin, log in to your AADS account and select "Deposit funds."\
 💡Let’s say we’d like to deposit BTC
 
 ![Initiating the Deposit](/blog/assets/screenshot_1.png "Initiating the Deposit")
@@ -56,7 +56,7 @@ Open your web browser and visit [Changelly](https://changelly.com/). On the Chan
 
 **4. Choosing Fiat and Crypto**
 
-At this point, you need to select the fiat currency you wish to use for payment and the cryptocurrency you're depositing (the same one chosen in the A-ADS deposit window). 
+At this point, you need to select the fiat currency you wish to use for payment and the cryptocurrency you're depositing (the same one chosen in the AADS deposit window).
 
 \
 💡 For instance, if you're depositing BTC and have copied the BTC address, choose BTC. In this example, we'll be buying BTC in USD.
@@ -75,7 +75,7 @@ At this point, you need to select the fiat currency you wish to use for payment 
 \
 **6. Entering Address and Payment Information**
 
-Paste the address copied from the A-ADS deposit funds window into the designated field and click "Buy." 
+Paste the address copied from the AADS deposit funds window into the designated field and click "Buy."
 
 ![Entering Address and Payment Information](/blog/assets/screenshot_6.png "Entering Address and Payment Information")
 
@@ -113,13 +113,13 @@ Your payment request should now be under review for approval.
 
 Wait till the fund are processed in your account
 
-💡 Usually, deposits sent to A-ADS are processed within an hour.
+💡 Usually, deposits sent to AADS are processed within an hour.
 
 ![Processing and Waiting](/blog/assets/screenshot_11.png "Processing and Waiting")
 
 
 
-Congratulations! You've successfully completed the process of depositing fiat into your A-ADS account. You may check the status of your deposit on Finances => Deposits page.
+Congratulations! You've successfully completed the process of depositing fiat into your AADS account. You may check the status of your deposit on Finances => Deposits page.
 
 ![ The Process of Depositing Fiat is Completed ](/blog/assets/screenshot_12.png " The Process of Depositing Fiat is Completed ")
 

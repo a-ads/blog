@@ -13,7 +13,7 @@ thumbnail: ../../static/assets/full-58-.png
 big_picture: ../../static/assets/short-32-.png
 popularity: "0"
 meta_title: Best ideas for crypto gifts for Christmas. What to give your crypto
-  enthusiast friends | A-ADS Blog
+  enthusiast friends | AADS Blog
 meta_description: Check out our list of the best crypto gift ideas for Christmas
   at various price points and surprise your crypto enthusiast friends. From
   practical options like hardware wallets and VPN subscriptions to personalized

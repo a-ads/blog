@@ -11,7 +11,7 @@ author: Danil Persky
 thumbnail: ../../static/assets/full-5-.png
 big_picture: blog/assets/short.png
 popularity: "0"
-meta_title: Top DeFi Tokens to Buy | How to Buy Decentralized Finance Tokens | A-ADS Blog
+meta_title: Top DeFi Tokens to Buy | How to Buy Decentralized Finance Tokens | AADS Blog
 meta_description: DeFi is tipped to be the next big thing in the crypto and
   blockchain technology arenas. In article, we have selected the best
   Decentralized Finance Tokens you can invest in 2023.
@@ -44,7 +44,7 @@ When choosing a wallet, think about such factors as accessibility and compatibil
 
 Most big crypto exchanges like Coinbase or Binance offer their wallets. They are available as a mobile app and browser extension.
 
-We have written a useful guide on how to choose a crypto wallet [here](https://a-ads.com/blog/5-best-crypto-wallets/).
+We have written a useful guide on how to choose a crypto wallet [here](https://aads.com/blog/5-best-crypto-wallets/).
 
 ### **Step 2: Choose a Wallet username**
 

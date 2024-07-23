@@ -12,7 +12,7 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/full-10-.png
 big_picture: ../../static/assets/short-8-.png
 popularity: "0"
-meta_title: Cryptocurrency Latest News for 28.02.2023 | A-ADS Blog
+meta_title: Cryptocurrency Latest News for 28.02.2023 | AADS Blog
 meta_description: Stay updated with the latest news in the cryptocurrency world.
   Regulatory concerns arise as US regulators express dissatisfaction with
   Binance US's acquisition plans. Mastercard collaborates with web3 tech company

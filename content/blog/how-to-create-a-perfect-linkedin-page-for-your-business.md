@@ -51,9 +51,9 @@ Here are the basic steps every marketing team should take first:
 
 ## Homepage 
 
-![A-ADS LinkedIn homepage](/blog/assets/снимок-экрана-2023-08-03-в-16.19.35.png "A-ADS LinkedIn homepage")
+![AADS LinkedIn homepage](/blog/assets/снимок-экрана-2023-08-03-в-16.19.35.png "A-ADS LinkedIn homepage")
 
-*Example of [A-ADS LinkedIn ](https://www.linkedin.com/company/aads-network/)Homepage* 
+*Example of [AADS LinkedIn ](https://www.linkedin.com/company/aads-network/)Homepage*
 
 ### Add Basic Information On Your Home Page
 
@@ -61,9 +61,9 @@ When launching your page, pay attention to the impact you want to provide for vi
 
 ### Complete Specified Information
 
-![A-ADS LinkedIn Overview Page](/blog/assets/снимок-экрана-2023-08-03-в-16.19.48.png "A-ADS LinkedIn Overview Page")
+![AADS LinkedIn Overview Page](/blog/assets/снимок-экрана-2023-08-03-в-16.19.48.png "AADS LinkedIn Overview Page")
 
-*Example of [A-ADS LinkedIn page](https://www.linkedin.com/company/aads-network/)*
+*Example of [AADS LinkedIn page](https://www.linkedin.com/company/aads-network/)*
 
 Edit the introductory information in the details to create a company page. The page preview shows how the page looks when you add content.
 
@@ -130,9 +130,9 @@ Invite your connections to follow you and grow that audience. There are several 
 
 ## Content Matters 
 
-![A-ADS LinkedIn Posts](/blog/assets/снимок-экрана-2023-08-03-в-16.20.54.png "A-ADS LinkedIn Posts")
+![AADS LinkedIn Posts](/blog/assets/снимок-экрана-2023-08-03-в-16.20.54.png "AADS LinkedIn Posts")
 
-*Example of [A-ADS LinkedIn page](https://www.linkedin.com/company/aads-network/)*
+*Example of [AADS LinkedIn page](https://www.linkedin.com/company/aads-network/)*
 
 It is always a good idea to start with a welcome post. It is a great way to introduce your company. Continue to complement your page with a custom button, a content post, and relevant hashtags.
 
@@ -152,7 +152,7 @@ With the publishing feature, you can go beyond a typical social media post and c
 
 ### Add Bright Images
 
-LinkedIn reveals that including images in your posts can double the number of comments you receive. LinkedIn suggests experimenting with image collages or collections of 3-4 pictures in a single post to enhance this rate further. At A-ADS, we have created a unique company style for every picture we post. 
+LinkedIn reveals that including images in your posts can double the number of comments you receive. LinkedIn suggests experimenting with image collages or collections of 3-4 pictures in a single post to enhance this rate further. At AADS, we have created a unique company style for every picture we post.
 
 ### Add Short Videos
 
@@ -164,7 +164,7 @@ In addition to videos, you can showcase your brand and ideas by directly uploadi
 
 Add up three relevant hashtags on your page. By doing so, your posts will appear in tag feeds, increasing visibility and reaching a broader audience.
 
-**Read more about marketing strategies in our[ Complete Crypto Marketing Guide. ](https://a-ads.com/blog/a-complete-crypto-marketing-guide/)**
+**Read more about marketing strategies in our[ Complete Crypto Marketing Guide. ](https://aads.com/blog/a-complete-crypto-marketing-guide/)**
 
 ## FAQ
 
@@ -204,27 +204,27 @@ Quality content and insightful reviews are important if you want to build a prod
 
    **More About Crypto Marketing:** 
 
-   [Influencer Marketing For Crypto Projects ](https://a-ads.com/blog/influencer-marketing-for-crypto-projects/)
+   [Influencer Marketing For Crypto Projects ](https://aads.com/blog/influencer-marketing-for-crypto-projects/)
 
-   [Crypto ICO Marketing: Strategies for Success in the Crypto World](https://a-ads.com/blog/crypto-ico-marketing/)
+   [Crypto ICO Marketing: Strategies for Success in the Crypto World](https://aads.com/blog/crypto-ico-marketing/)
 
-   [Content marketing for crypto projects](https://a-ads.com/blog/%D1%81ontent-marketing-for-crypto-projects/)
+   [Content marketing for crypto projects](https://aads.com/blog/%D1%81ontent-marketing-for-crypto-projects/)
 
-   [A Step-by-Step Guide to Direct Messaging in Crypto Marketing ](https://a-ads.com/blog/a-step-by-step-guide-to-direct-messaging-in-crypto-marketing/)
+   [A Step-by-Step Guide to Direct Messaging in Crypto Marketing ](https://aads.com/blog/a-step-by-step-guide-to-direct-messaging-in-crypto-marketing/)
 
-   [11 Innovative Methods to Boost Engagement through Social Media](https://a-ads.com/blog/get-noticed-on-social-media-11-creative-ways-to-drive-engagement/)
+   [11 Innovative Methods to Boost Engagement through Social Media](https://aads.com/blog/get-noticed-on-social-media-11-creative-ways-to-drive-engagement/)
 
-   [Top 10 AI Products for Marketing and Management to Boost Efficiency](https://a-ads.com/blog/top-ten-ai-products-for-marketing-and-management-to-enhance-efficiency/)
+   [Top 10 AI Products for Marketing and Management to Boost Efficiency](https://aads.com/blog/top-ten-ai-products-for-marketing-and-management-to-enhance-efficiency/)
 
-   [How Podcasts Can Help Your Business Grow](https://a-ads.com/blog/how-podcasts-can-help-your-business-grow/)
+   [How Podcasts Can Help Your Business Grow](https://aads.com/blog/how-podcasts-can-help-your-business-grow/)
 
-   [Successful Email Marketing For Crypto Projects.](https://a-ads.com/blog/successful-email-marketing-for-crypto-projects/)
+   [Successful Email Marketing For Crypto Projects.](https://aads.com/blog/successful-email-marketing-for-crypto-projects/)
 
-   [What is a crypto Press Release and how to write it?](https://a-ads.com/blog/what-is-a-crypto-press-pelease-and-how-to-write-it/)
+   [What is a crypto Press Release and how to write it?](https://aads.com/blog/what-is-a-crypto-press-pelease-and-how-to-write-it/)
 
-   [SEO Strategies For Your Crypto Business.](https://a-ads.com/blog/SEO-Strategies-for-Your-Crypto-Business%20/)
+   [SEO Strategies For Your Crypto Business.](https://aads.com/blog/SEO-Strategies-for-Your-Crypto-Business%20/)
 
-   [Neural Networks in Marketing: A Comprehensive Guide to the Latest Tools and Techniques](https://a-ads.com/blog/neural-networks-in-marketing-a-comprehensive-guide-to-the-latest-tools-and-techniques/)
+   [Neural Networks in Marketing: A Comprehensive Guide to the Latest Tools and Techniques](https://aads.com/blog/neural-networks-in-marketing-a-comprehensive-guide-to-the-latest-tools-and-techniques/)
 
 References: 
 

@@ -12,7 +12,7 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/full-16-.png
 big_picture: blog/assets/short.png
 popularity: "0"
-meta_title: Why You Need Chatbots For Your Crypto Business | A-ADS Blog
+meta_title: Why You Need Chatbots For Your Crypto Business | AADS Blog
 meta_description: Discover the benefits of chatbots for your crypto business.
   Explore their uses and advantages in automating customer interactions,
   recommending products, delivering promotions, and providing support. Save time

@@ -13,7 +13,7 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/full-20-.png
 big_picture: ../../static/assets/short-15-.png
 popularity: "0"
-meta_title: Why You Need Chatbots For Your Crypto Business. Part 2 | A-ADS Blog
+meta_title: Why You Need Chatbots For Your Crypto Business. Part 2 | AADS Blog
 meta_description: "Learn how to create and implement chatbots for your crypto
   business. Discover the essential steps: set targets, choose channels, select a
   platform, and create a chatbot personality. Determine if chatbots are right
@@ -25,7 +25,7 @@ meta_keywords: chatbots, crypto business, marketing automation, customer
   principles
 json_ld: ""
 ---
-In our previous article about chatbots[ here](https://a-ads.com/blog/why-you-need-chatbots-for-your-crypto-business-part-1/), we have written about the pros and possible cons. In the second part of the article, we will tell you in detail what steps you should take to create your own chatbot for your business. We will also look at some great examples in the industry where chatbots have worked successfully. 
+In our previous article about chatbots[ here](https://aads.com/blog/why-you-need-chatbots-for-your-crypto-business-part-1/), we have written about the pros and possible cons. In the second part of the article, we will tell you in detail what steps you should take to create your own chatbot for your business. We will also look at some great examples in the industry where chatbots have worked successfully.
 
 ### **Does Your Crypto Business Need Chatbots?** 
 

@@ -21,7 +21,7 @@ meta_description: Boost ROI with PeerClick 4 iGaming! Maximize ad efficiency &
 meta_keywords: ""
 json_ld: ""
 ---
-At A-ADS, we are always looking for innovative and simplified solutions. Today, we are glad to introduce our esteemed and long-standing partner, PeerClick, with whom we have forged a successful partnership. The seamless integration with PeerClick empowers our clients to track their campaigns with unparalleled efficiency and precision.
+At AADS, we are always looking for innovative and simplified solutions. Today, we are glad to introduce our esteemed and long-standing partner, PeerClick, with whom we have forged a successful partnership. The seamless integration with PeerClick empowers our clients to track their campaigns with unparalleled efficiency and precision.
 
 Everybody knows that in the world of affiliate marketing, there is no worse sin than not tracking your campaigns.📊 
 
@@ -44,7 +44,7 @@ Get custom solutions tailored to your needs and a dedicated team who will suppor
 \
 **Get access** to our traffic connections & insider recommendations on where to buy the best iGaming traffic for various geos.
 
-📣 Peerclick grants all **A-ADS** users **FREE BASIC PLAN 3** mln events for 1 month + you will be able to set up **FREE CLOAKING** for all campaign* to pass moderation in traffic sources!
+📣 Peerclick grants all **AADS** users **FREE BASIC PLAN 3** mln events for 1 month + you will be able to set up **FREE CLOAKING** for all campaign* to pass moderation in traffic sources!
 
   👉 All you need to do is[ register](https://trk.peerclick.com/15GjdS?manager=ap&source=A-ADS&promo=A-ADS23&language=en) with coupon code **A-ADS23** 👈
 

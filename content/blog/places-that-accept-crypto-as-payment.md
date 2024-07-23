@@ -12,7 +12,7 @@ thumbnail: /blog/assets/10-places.png
 big_picture: /blog/assets/10-places-_short.png
 popularity: "0"
 meta_title: 10 Places That Accept Crypto As Payment | Major Companies Who Accept
-  Bitcoin | A-ADS Blog
+  Bitcoin | AADS Blog
 meta_description: Discover 10 places and major companies that embrace
   cryptocurrency as a form of payment. Explore the growing trend of Bitcoin
   acceptance and find out where you can use your digital currency to purchase
@@ -53,7 +53,7 @@ Gift cards can be an excellent present for friends and family. Big giants, such 
 
 ### **Video Games**
 
-![Video Games](https://a-ads.com/blog/assets/pexels-rdne-stock-project-7915357.jpg "Video Games")
+![Video Games](https://aads.com/blog/assets/pexels-rdne-stock-project-7915357.jpg "Video Games")
 
 *Source: Pexels.com*
 

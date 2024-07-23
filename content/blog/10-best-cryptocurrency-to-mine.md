@@ -11,7 +11,7 @@ category_top_level:
 author: Yulia Savushkina
 thumbnail: ../../static/assets/753.png
 big_picture: ../../static/assets/low-cpm-to-advertisese.png
-meta_title: 10 Best cryptocurrency to mine 2023 | What is crypto mining? | A-ADS Blog
+meta_title: 10 Best cryptocurrency to mine 2023 | What is crypto mining? | AADS Blog
 meta_description: Our list of the best cryptocurrencies to mine or the most
   profitable coins to mine that you can start mining in 2023. In addition, we
   will look at how to choose the best coin to mine and what it will take to mine

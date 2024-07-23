@@ -12,11 +12,11 @@ category_second_level:
 author: Micheal George
 thumbnail: /blog/assets/binom750х400-1.png
 big_picture: ../../static/assets/short-12-.png
-meta_title: Tracking Integration With Binom | A-ADS Blog
+meta_title: Tracking Integration With Binom | AADS Blog
 meta_description: Integrate tracking with Binom, the affiliate tracker for
   efficient traffic planning and management. Follow our step-by-step guide to
   create a traffic source, offer, and campaign in Binom, and configure your
-  A-ADS campaign with goal tracking enabled.
+  AADS campaign with goal tracking enabled.
 ---
 ## What is Binom?
 
@@ -28,9 +28,9 @@ meta_description: Integrate tracking with Binom, the affiliate tracker for
 
 ● Binom account 
 
-● A-ADS account 
+● AADS account
 
-● A-ADS campaign with goal tracking enable 
+● AADS campaign with goal tracking enable
 
 **Let's start!** 
 
@@ -42,7 +42,7 @@ Click the “Create” button
 
 Click the “Load from template” button 
 
-Then, search and click “A-ADS” 
+Then, search and click “AADS”
 
 ![Create new traffic source in Binom](../../static/assets/binom1.png "Create new traffic source in Binom")
 
@@ -74,24 +74,24 @@ Go to the “Campaigns” tab
 
 Click the “Create” button 
 
-Fill out the form as applies to you with the A-ADS traffic source, and the offer that you created earlier
+Fill out the form as applies to you with the AADS traffic source, and the offer that you created earlier
 
 ![Creating campaign in Binom with earlier created traffic source and offer](../../static/assets/binom4.png "Creating campaign in Binom with earlier created traffic source and offer")
 
-**5. Log into your A-ADS account.** 
+**5. Log into your AADS account.**
 
-**6. Enable Goal tracking for your campaign at A-ADS as seen in the image below, if you don't have a  campaign you can create one** **[here](https://a-ads.com/campaigns/new).** 
+**6. Enable Goal tracking for your campaign at AADS as seen in the image below, if you don't have a  campaign you can create one** **[here](https://aads.com/campaigns/new).**
 
-![A-ADS Goal Tracking](../../static/assets/binom5.png "A-ADS Goal Tracking")
+![AADS Goal Tracking](../../static/assets/binom5.png "AADS Goal Tracking")
 
-**7. Configure your A-ADS campaign.**
+**7. Configure your AADS campaign.**
 
 \
-Set your A-ADS campaign ad link to your Binom campaign URL without the “?” and everything after it.
+Set your AADS campaign ad link to your Binom campaign URL without the “?” and everything after it.
 
 For example: http://tracker.binomsite.com/click.php?key=jsu8xyskjply0it1oim4
 
-Then set your A-ADS campaign’s "Goal Tracking" "suffix" to the “?” and everything after.
+Then set your AADS campaign’s "Goal Tracking" "suffix" to the “?” and everything after.
 
 For example:
 
@@ -101,7 +101,7 @@ For example:
 
 As seen in the image below:
 
-![A-ADS Goal Tracking Suffix](../../static/assets/binom6.png "A-ADS Goal Tracking Suffix")
+![AADS Goal Tracking Suffix](../../static/assets/binom6.png "AADS Goal Tracking Suffix")
 
 Then save your campaign.
 

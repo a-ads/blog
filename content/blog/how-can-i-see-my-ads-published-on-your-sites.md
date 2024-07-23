@@ -11,12 +11,12 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/undraw_searching_p5uxf.png
 big_picture: ../../static/assets/undraw_searching_p5uxsq.png
-meta_title: How can I see my ads published on your sites? | A-ADS Blog
-meta_description: Find out how to locate your ad on A-ADS publishers' sites and
+meta_title: How can I see my ads published on your sites? | AADS Blog
+meta_description: Find out how to locate your ad on AADS publishers' sites and
   check your campaign's traffic sources. Learn about the probabilistic process
   of ad selection and how to find your campaign and its percentage of traffic.
   Read this article to get valuable insights on how to see your ads published on
-  A-ADS sites.
+  AADS sites.
 ---
 Unfortunately, it is not easy to locate your ad on our publishers’ sites, because the process of ad selection is probabilistic.
 

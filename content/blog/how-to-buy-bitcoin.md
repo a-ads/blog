@@ -11,7 +11,7 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/full-54-.png
 big_picture: ../../static/assets/short-29-.png
 popularity: "0"
-meta_title: How To Buy Bitcoin | Step By Step Guide | A-ADS Blog
+meta_title: How To Buy Bitcoin | Step By Step Guide | AADS Blog
 meta_description: While cryptocurrency market began life as a payments network,
   Bitcoin has evolved into an investment asset.  Learn how to get started as a
   new crypto investor and how to buy Bitcoin in 2022.

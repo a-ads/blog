@@ -10,9 +10,9 @@ category_top_level:
   - Guides
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/illustration-7.png
-meta_title: How do you get paid as a publisher? | A-ADS Blog
+meta_title: How do you get paid as a publisher? | AADS Blog
 meta_description: Learn how publishers get paid and the factors that affect
-  their revenue in this comprehensive overview from A-ADS. Discover how ad unit
+  their revenue in this comprehensive overview from AADS. Discover how ad unit
   earnings are impacted by unique impressions, clicks, advertising campaigns,
   content filters, ad unit display rate, ad unit size and location, and traffic
   quality.
@@ -27,7 +27,7 @@ Ad unit earnings are affected by many factors, including the following:
 
 ### Number of unique impressions
 
-Please, mind that we've got an [alternative way](https://a-ads.com/blog/2018-10-04-counting-unique-impressions/) of counting unique impressions. We count as unique globally [unique impressions](https://a-ads.com/blog/counting-unique-impressions/) which means that a single IP address will be counted as unique only once every 24 hours when the visitor encounters any of our banners on any of our publishers’ websites. It isn't counted as unique again during this interval no matter how many banners the visitor subsequently sees and what websites he visits. So, our numbers of unique impressions will be much lower than those reported by other networks or tracking tools for the same traffic.
+Please, mind that we've got an [alternative way](https://aads.com/blog/2018-10-04-counting-unique-impressions/) of counting unique impressions. We count as unique globally [unique impressions](https://aads.com/blog/counting-unique-impressions/) which means that a single IP address will be counted as unique only once every 24 hours when the visitor encounters any of our banners on any of our publishers’ websites. It isn't counted as unique again during this interval no matter how many banners the visitor subsequently sees and what websites he visits. So, our numbers of unique impressions will be much lower than those reported by other networks or tracking tools for the same traffic.
 
 ### **Number of unique clicks**
 
@@ -36,7 +36,7 @@ Unique clicks certainly affect your earnings but not that much - it just allows 
 ### **Advertising campaigns which target your ad unit**
 
 Here comes the impact of language, geolocation, ad unit dimensions, categories defined for the website.\
-Remember: our daily budget [varies greatly](https://a-ads.com/blog/2019-08-11-how-does-daily-budget-work/) from day to day as advertising campaigns come and go. We cannot promise or predict that your ad unit will match the category, language, banner sizes, budget, etc. of currently running ads.
+Remember: our daily budget [varies greatly](https://aads.com/blog/2019-08-11-how-does-daily-budget-work/) from day to day as advertising campaigns come and go. We cannot promise or predict that your ad unit will match the category, language, banner sizes, budget, etc. of currently running ads.
 
 ### **Content filters defined for the ad unit**
 
@@ -44,7 +44,7 @@ The ad unit owner might forbid any of the following advertising categories: NSFW
 
 ### **Ad unit display rate**
 
-Our bot checks whether the [ad unit is present](https://a-ads.com/blog/how-to-place-an-ad-unit-code-correctly/) at the specified URL and is accessible. It does so several times a day. If the bot can access the ad unit only once every two attempts, then the display rate is 50%.
+Our bot checks whether the [ad unit is present](https://aads.com/blog/how-to-place-an-ad-unit-code-correctly/) at the specified URL and is accessible. It does so several times a day. If the bot can access the ad unit only once every two attempts, then the display rate is 50%.
 
 ### **Size and location of an ad unit on a website page**
 

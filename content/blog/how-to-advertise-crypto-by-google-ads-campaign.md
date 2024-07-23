@@ -12,7 +12,7 @@ author: Anna Trifonova
 thumbnail: ../../static/assets/full-19-.png
 big_picture: ../../static/assets/short-14-.png
 popularity: "0"
-meta_title: How To Advertise Crypto With Google Ads Campaign | A-ADS Blog
+meta_title: How To Advertise Crypto With Google Ads Campaign | AADS Blog
 meta_description: One of the best tools for promoting your cryptocurrency is
   Google Ads. Let’s browse рow to advertise crypto by Google Ads campaign and
   know what to advertise and what not to.
@@ -20,7 +20,7 @@ meta_keywords: bitcoin ads, cryptocurrency ads, Google Ads restrictions, crypto
   project promotion, allowed crypto advertisements, licensed crypto wallet,
   restricted crypto ads, Google Ads policies, certification requirements,
   optimizing keywords, negative keywords, high-quality ads, Quality Score,
-  marketing strategy, A-ADS advertising services
+  marketing strategy, AADS advertising services
 json_ld: ""
 ---
 Running bitcoin ads, or ads of cryptocurrencies, exchanges, and crypto wallets, is often challenging as Google often bans crypto products. Their platform requires you to follow the policies and rules. Moreover, certain countries and companies' restrictions worldwide make running Google Ads tough but still possible. 
@@ -98,4 +98,4 @@ In short, Quality Score estimates the quality of your ads and the landing pages 
 
 And one more, before launching an advertising campaign for a crypto project, first, make sure you have a marketing strategy because the needs and goals of your project will determine the type of paid-for advertising the project should choose to invest in.
 
-Google Ads are one of many ways to advertise your crypto business. A-ADS provides advertising services for crypto companies bringing publishers and advertisers from all over the world together. [Check our page](https://a-ads.com/) and run your first ad campaign in 3 easy steps.
+Google Ads are one of many ways to advertise your crypto business. AADS provides advertising services for crypto companies bringing publishers and advertisers from all over the world together. [Check our page](https://aads.com/) and run your first ad campaign in 3 easy steps.

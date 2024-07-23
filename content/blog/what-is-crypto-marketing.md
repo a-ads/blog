@@ -13,7 +13,7 @@ author: Micheal George
 thumbnail: /blog/assets/what-is-crypto-marketing_.png
 big_picture: /blog/assets/short1.png
 popularity: "0"
-meta_title: What Is Crypto Marketing? | A-ADS Blog
+meta_title: What Is Crypto Marketing? | AADS Blog
 meta_description: "Unique challenges of crypto marketing and strategies for
   success: content, branding, influencers, community, email, airdrops, bounties,
   referrals, segmentation, personalization, and optimization."
@@ -99,7 +99,7 @@ The most significant advantage of email marketing is that you don't depend on th
 
 ### 6. Hold Cryptocurrency Airdrops
 
-To distribute your cryptocurrency token, give away free tokens in exchange for registering on the platform or simply as a reward for belonging to the community. This marketing strategy is called [Airdrop](https://a-ads.com/blog/what-is-a-crypto-airdrop-meaning-types-and-how-does-it-work/), and it really helps to build a loyal community. The first customers will become your most loyal supporters due to the special attitude, and also an important resource for spreading the word about your project: the first customers can benefit financially from the popularity of the token.
+To distribute your cryptocurrency token, give away free tokens in exchange for registering on the platform or simply as a reward for belonging to the community. This marketing strategy is called [Airdrop](https://aads.com/blog/what-is-a-crypto-airdrop-meaning-types-and-how-does-it-work/), and it really helps to build a loyal community. The first customers will become your most loyal supporters due to the special attitude, and also an important resource for spreading the word about your project: the first customers can benefit financially from the popularity of the token.
 
 ### 7. Launch Bounty Campaigns
 

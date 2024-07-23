@@ -11,11 +11,11 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/undraw_adjustments_p22m.png
 big_picture: ../../static/assets/undraw_adjustments_p22msq.png
-meta_title: Can I show banners only, not text ads? | A-ADS Blog
-meta_description: Looking to show only banner ads on A-ADS? Learn how to enable
+meta_title: Can I show banners only, not text ads? | AADS Blog
+meta_description: Looking to show only banner ads on AADS? Learn how to enable
   the "show banners only" option on your campaign dashboard and add multiple
   banner sizes for maximum coverage. Check out our article for more details and
-  start displaying your banner ads on A-ADS today!
+  start displaying your banner ads on AADS today!
 ---
 Yes, you can. To do that, you need to enable the "show banners only" option. At the campaign web page the checkbox "Show banners only":
 

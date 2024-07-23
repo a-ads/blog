@@ -13,7 +13,7 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/full-17-.png
 big_picture: ../../static/assets/preview.png
 popularity: "0"
-meta_title: Top 10 Bitcoin Mining Countries in 2023 | A-ADS Blog
+meta_title: Top 10 Bitcoin Mining Countries in 2023 | AADS Blog
 meta_description: Cryptocurrencies continue to be a promising investment for
   many. Let’s browse the best countries which are favourites fo prospective
   crypto-miners and that have flexible rules and an abundance of cheap energy

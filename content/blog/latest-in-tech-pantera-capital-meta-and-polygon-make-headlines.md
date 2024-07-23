@@ -12,7 +12,7 @@ thumbnail: blog/assets/12.png
 big_picture: blog/assets/latest-in-tech_-pantera-capital-meta-and-polygon-make-headlines.png
 popularity: "0"
 meta_title: "Latest in Tech: Pantera Capital, Meta, and Polygon Make Headlines |
-  A-ADS Blog"
+  AADS Blog"
 meta_description: Pantera Capital invests $22.5M in M^ZERO Labs, revolutionizing
   institutional asset allocation. Meta launches an advanced AI model for object
   recognition and masking. Polygon emerges as the second-largest gaming

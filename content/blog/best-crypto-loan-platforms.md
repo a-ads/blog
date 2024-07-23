@@ -11,7 +11,7 @@ author: Micheal George
 thumbnail: /blog/assets/full-crypto-loan.png
 big_picture: /blog/assets/short-crypto-loan.png
 popularity: "0"
-meta_title: 3 Best Crypto Loan Platforms | How to Get a Crypto Loan | A-ADS Blog
+meta_title: 3 Best Crypto Loan Platforms | How to Get a Crypto Loan | AADS Blog
 meta_description: Did you know that your idle cryptocurrency in your wallet
   could get you passive income? Let’s browse at the list of the best platforms
   where you can lend crypto coins and how it works.

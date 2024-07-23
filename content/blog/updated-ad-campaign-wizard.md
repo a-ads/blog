@@ -19,7 +19,7 @@ json_ld: ""
 ---
 We are excited to announce that we have updated our campaign creation wizard! The beta version of the interface is now available, and you can create a campaign in it right away:
 
-[Create campaign](https://a-ads.com/beta/campaigns/new/)
+[Create campaign](https://aads.com/beta/campaigns/new/)
 
 What's new?
 
@@ -47,4 +47,4 @@ What's new?
 
 ![](https://lh7-us.googleusercontent.com/NPGA-1Zkl_5SQWnyn6jf5Y9mymYXwYBbjEhM-ralpWoEZrDuiBzLoEW0D6xB1ReiRVGiSJC3nao-MSJ-GNYcak2Ew8LFZxDcl-NiPaAvIwK-c4Ki5QumM3KlbqOxz2yb91OQ1daDOpvtjJsE2JvmiQk)
 
-We hope that campaign creation will now be even more convenient and visually appealing! [Create campaign in new wizard!](https://a-ads.com/beta/campaigns/new/)
+We hope that campaign creation will now be even more convenient and visually appealing! [Create campaign in new wizard!](https://aads.com/beta/campaigns/new/)

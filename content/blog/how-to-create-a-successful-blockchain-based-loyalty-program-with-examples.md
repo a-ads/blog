@@ -13,7 +13,7 @@ thumbnail: ../../static/assets/how-to-create-a-successful-blockchain-based-loyal
 big_picture: ../../static/assets/short-6-.png
 popularity: ""
 meta_title: How to Create a Successful Blockchain-Based Loyalty Program with
-  Examples | A-ADS Blog
+  Examples | AADS Blog
 meta_description: Discover how to create a successful blockchain-based loyalty
   program. Learn key metrics to evaluate program effectiveness, such as
   increased customer retention and engagement, higher average order value,

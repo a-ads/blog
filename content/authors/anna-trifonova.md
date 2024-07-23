@@ -5,9 +5,9 @@ position: Product Marketing Manager
 description: Specializes in describing product features and how it works from a
   marketing perspectives
 education: >-
-  As a Marketing Product Manager of A-ADS, works at the intersection of product
+  As a Marketing Product Manager of AADS, works at the intersection of product
   development, marketing, and sales. The broad responsibility is to develop and
-  implement a marketing strategy roadmap for the A-ADS ad network. 
+  implement a marketing strategy roadmap for the AADS ad network.
 
 
   **Anna plans out, guides, and takes accountability for marketing campaigns, strategies, and other marketing-related initiatives. In addition, Anna develops and executes effective marketing strategies to drive product adoption, increase brand awareness, and achieve business objectives. She also manages the marketing team and collaborates with cross-functional teams to align the product roadmap with marketing initiatives.** 
@@ -27,32 +27,32 @@ json_ld: >-
 
   "description": "Specializes in describing product features and how it works from a marketing perspectives",
 
-  "url": "https://a-ads.com/blog/authors/anna-trifonova/",
+  "url": "https://aads.com/blog/authors/anna-trifonova/",
 
-  "@id": "https://a-ads.com/blog/authors/anna-trifonova/#ProfilePage",
+  "@id": "https://aads.com/blog/authors/anna-trifonova/#ProfilePage",
 
   "inLanguage":"en-US",
       "isPartOf": {
         "@type":"WebSite",
-        "name":"Crypto & Bitcoin advertising Network | A-ADS",
-        "url":"https://a-ads.com/",
-        "@id":"https://a-ads.com/#WebSite",
+        "name":"Crypto & Bitcoin advertising Network | AADS",
+        "url":"https://aads.com/",
+        "@id":"https://aads.com/#WebSite",
         "publisher": {
           "@type":"Organization",
-          "name":"A-ADS",
-          "url":"https://a-ads.com/",
-          "@id":"https://a-ads.com/#Organization",   
+          "name":"AADS",
+          "url":"https://aads.com/",
+          "@id":"https://aads.com/#Organization",
           "logo": {
           "@type": "ImageObject",
-          "url": "https://a-ads.com/assets/A-ads-logo-9f20c608e2a6cab649175cec3c3976253264542bc7b570a5de64eb3e206b5935.svg",
+          "url": "https://aads.com/assets/A-ads-logo-9f20c608e2a6cab649175cec3c3976253264542bc7b570a5de64eb3e206b5935.svg",
           "width": 708,
           "height": 188
       },
   	    "image": [
-          "https://a-ads.com/assets/A-ads-logo-9f20c608e2a6cab649175cec3c3976253264542bc7b570a5de64eb3e206b5935.svg",
-          "https://a-ads.com/assets/white-logo-7d7ddcdf6524fe36de88a5de9e76e6c6a6401b5e78910c27c1f0e7213cdc97bb.svg"
+          "https://aads.com/assets/A-ads-logo-9f20c608e2a6cab649175cec3c3976253264542bc7b570a5de64eb3e206b5935.svg",
+          "https://aads.com/assets/white-logo-7d7ddcdf6524fe36de88a5de9e76e6c6a6401b5e78910c27c1f0e7213cdc97bb.svg"
           ],
-  	  "publishingPrinciples": "https://a-ads.com/about-us"
+  	  "publishingPrinciples": "https://aads.com/about-us"
       }
   },
 
@@ -60,17 +60,17 @@ json_ld: >-
 
   "@type": "Person",
 
-  "mainEntityOfPage": "https://a-ads.com/blog/authors/anna-trifonova/",
+  "mainEntityOfPage": "https://aads.com/blog/authors/anna-trifonova/",
 
   "name": "Anna Trifonova",
 
-  "url": "https://a-ads.com/blog/authors/anna-trifonova/",
+  "url": "https://aads.com/blog/authors/anna-trifonova/",
 
-  "@id": "https://a-ads.com/blog/authors/anna-trifonova/#Person",
+  "@id": "https://aads.com/blog/authors/anna-trifonova/#Person",
 
-  "description": "As a Marketing Product Manager of A-ADS, works at the intersection of product development, marketing, and sales. The broad responsibility is to develop and implement a marketing strategy roadmap for the A-ADS ad network. Anna plans out, guides, and takes accountability for marketing campaigns, strategies, and other marketing-related initiatives. In addition, Anna develops and executes effective marketing strategies to drive product adoption, increase brand awareness, and achieve business objectives. She also manages the marketing team and collaborates with cross-functional teams to align the product roadmap with marketing initiatives. Anna collaborates daily with content creators to develop marketing collateral, such as product descriptions, presentations, sales materials, and website content. She also ensures that product features are effectively communicated to both technical and non-technical audiences.",
+  "description": "As a Marketing Product Manager of AADS, works at the intersection of product development, marketing, and sales. The broad responsibility is to develop and implement a marketing strategy roadmap for the AADS ad network. Anna plans out, guides, and takes accountability for marketing campaigns, strategies, and other marketing-related initiatives. In addition, Anna develops and executes effective marketing strategies to drive product adoption, increase brand awareness, and achieve business objectives. She also manages the marketing team and collaborates with cross-functional teams to align the product roadmap with marketing initiatives. Anna collaborates daily with content creators to develop marketing collateral, such as product descriptions, presentations, sales materials, and website content. She also ensures that product features are effectively communicated to both technical and non-technical audiences.",
 
-  "worksFor": {"@id":"https://a-ads.com/#Organization"},
+  "worksFor": {"@id":"https://aads.com/#Organization"},
 
   "jobTitle": "Product Marketing Manager",
 
@@ -149,6 +149,6 @@ json_ld: >-
 ---
 ## Experience: 
 
-As a Marketing Product Manager of A-ADS, works at the intersection of product development, marketing, and sales. The broad responsibility is to develop and implement a marketing strategy roadmap for the A-ADS ad network. Anna plans out, guides, and takes accountability for marketing campaigns, strategies, and other marketing-related initiatives.
+As a Marketing Product Manager of AADS, works at the intersection of product development, marketing, and sales. The broad responsibility is to develop and implement a marketing strategy roadmap for the AADS ad network. Anna plans out, guides, and takes accountability for marketing campaigns, strategies, and other marketing-related initiatives.
 
 In addition, Anna develops and executes effective marketing strategies to drive product adoption, increase brand awareness, and achieve business objectives. She also manages the marketing team and collaborates with cross-functional teams to align the product roadmap with marketing initiatives. Anna collaborates daily with content creators to develop marketing collateral, such as product descriptions, presentations, sales materials, and website content. She also ensures that product features are effectively communicated to both technical and non-technical audiences.
