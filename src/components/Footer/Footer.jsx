@@ -39,7 +39,7 @@ const sections = [
         title: 'Service',
         content: [
             <a href='https://aads.com/statistics/'>Network Statistics</a>,
-            <a href='https://status.aads.com/en/' target='_blank' rel='noreferrer'>
+            <a href='https://status.a-ads.com/en/' target='_blank' rel='noreferrer'>
                 System Status
             </a>,
             <a href='https://help.a-ads.com/en/'>
