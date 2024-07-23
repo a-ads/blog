@@ -1,6 +1,6 @@
 ---
 date: 2021-03-15T08:23:02.309Z
-title: A-ADS Tracking Tokens and Their Output
+title: AADS Tracking Tokens and Their Output
 slug: a-ads-tracking-tokens-and-their-output
 tags:
   - advertiser
@@ -13,14 +13,14 @@ category_second_level:
 author: Micheal George
 thumbnail: /blog/assets/tracking_tokens_featured.png
 big_picture: /blog/assets/tracking_tokens_square.png
-meta_title: A-ADS Tracking Tokens and Their Output | A-ADS Blog
+meta_title: AADS Tracking Tokens and Their Output | AADS Blog
 meta_description: Learn how to utilize tracking tokens to gain valuable insights
   into your ad performance with this guide. Get detailed explanations and
   examples for each token, and learn how to convert Unix time to normal time
   using an Epoch converter. Optimize your ad placements and increase your
   earnings.
 ---
-Firstly, info on "Goal tracking" and how to switch it on [here](https://a-ads.com/blog/2019-10-16-why-do-i-need-goal-tracking-how-to-switch-it-on/).\
+Firstly, info on "Goal tracking" and how to switch it on [here](https://aads.com/blog/2019-10-16-why-do-i-need-goal-tracking-how-to-switch-it-on/).\
 Most, or all of our tracking tokens are self-explanatory but for elaboration and easy understanding the following article will briefly explain the values of the tokens.
 
 \* `{{partner}}`

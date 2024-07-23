@@ -10,11 +10,11 @@ category_top_level:
   - Guides
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/illustration-8.png
-meta_title: How do we charge our advertisers? | A-ADS Blog
+meta_title: How do we charge our advertisers? | AADS Blog
 meta_description: Ready to start your advertising campaign, but unsure about the
   necessary funds?  No minimum deposit required. Test traffic, increase budget,
   and monitor your account balance. Long-term partners enjoy 50% fee reduction
-  with exclusive coupons. Kickstart your campaign today with A-ADS!
+  with exclusive coupons. Kickstart your campaign today with AADS!
 ---
 We don't have any minimum deposit necessary to start a campaign. You can start with anything worthy of a transaction fee.
 

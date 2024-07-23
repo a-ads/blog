@@ -14,7 +14,7 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/tik-tok-videos-25.03-1-.png
 big_picture: ../../static/assets/short-1-.png
 popularity: ""
-meta_title: How TikTok Can Help Promote Your Company | A-ADS Blog
+meta_title: How TikTok Can Help Promote Your Company | AADS Blog
 meta_description: " Discover the power of TikTok for promoting your company and
   reaching younger audiences. Explore popular video formats, learn valuable
   recommendations, and leverage collaborations with influencers. Enhance your

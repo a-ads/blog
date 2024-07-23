@@ -12,11 +12,11 @@ category_second_level:
 author: Yulia Savushkina
 thumbnail: ../../static/assets/full-3-.png
 big_picture: ../../static/assets/short-13-.png
-meta_title: The maximum allowed Max CPM is $100,000 now | A-ADS Blog
+meta_title: The maximum allowed Max CPM is $100,000 now | AADS Blog
 meta_description: Learn about the significance of "Max CPM" and how it functions
   as a filter for Cost-Per-Day advertising campaigns. Discover why there is a
   limitation for "Max CPM" and why it's essential to protect advertisers from
-  overpaying for traffic. Find out why A-ADS decided to increase the maximum
+  overpaying for traffic. Find out why AADS decided to increase the maximum
   allowed value to $100,000.
 ---
 # What is "Max CPM"?
@@ -31,9 +31,9 @@ However, when multiple big advertisers compete for a single site, they may raise
 
 `Max CPM` is not the traffic price - it is a filter. If you do not want to filter out ad units by CPM, you can set it to the maximum allowed value.
 
-Due to the way [how we measure traffic](https://a-ads.com/blog/2018-10-04-counting-unique-impressions/), one IP address can generate only one unique impression per day. So if there are multiple ad units on the same page, the first one will get most of the unique impressions, and the last one may appear to have an insanely high CPM.
+Due to the way [how we measure traffic](https://aads.com/blog/2018-10-04-counting-unique-impressions/), one IP address can generate only one unique impression per day. So if there are multiple ad units on the same page, the first one will get most of the unique impressions, and the last one may appear to have an insanely high CPM.
 
-It appears that some advertisers are ready to pay over $10,000 per thousand of [unique impressions](https://a-ads.com/blog/counting-unique-impressions/) on such ad units, so we decided to increase the maximum allowed value to $100,000.
+It appears that some advertisers are ready to pay over $10,000 per thousand of [unique impressions](https://aads.com/blog/counting-unique-impressions/) on such ad units, so we decided to increase the maximum allowed value to $100,000.
 
 # Why is there even a limitation for "Max CPM"?
 

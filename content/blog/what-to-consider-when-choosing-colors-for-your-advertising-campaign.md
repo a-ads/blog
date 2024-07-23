@@ -8,8 +8,8 @@ category: How to
 category_top_level:
   - Advertisers
 author: Yulia Savushkina
-thumbnail: /blog/assets/full.png
-big_picture: /blog/assets/how-to-show-different-ads-based-on-user-s-device_-2-.png
+thumbnail: /blog/assets/what-to-consider-when-choosing-colors-for-your-advertising-сampaign-cover.png
+big_picture: /blog/assets/what-to-consider-when-choosing-colors-for-your-advertising-сampaign-short.png
 popularity: "0"
 meta_title: What to Consider When Choosing Colors for Your Advertising Campaign
 meta_description: Learn how Entrepreneurs Can Use Color Psychology for Their

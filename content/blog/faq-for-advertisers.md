@@ -11,12 +11,12 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: /blog/assets/fqa.png
 big_picture: /blog/assets/fqa_shorts.png
-meta_title: FAQ for advertisers | A-ADS Blog
-meta_description: Get answers to all your questions about advertising on A-ADS
+meta_title: FAQ for advertisers | AADS Blog
+meta_description: Get answers to all your questions about advertising on AADS
   with our comprehensive FAQ. Learn about our accepted ad formats, how to start
   a campaign, payment models, and more. With no minimum daily budget or deposit
-  amount, A-ADS offers flexibility and ease of use for advertisers. Start
-  advertising on A-ADS today!
+  amount, AADS offers flexibility and ease of use for advertisers. Start
+  advertising on AADS today!
 ---
 ## What are The Accepted Ad Formats?
 
@@ -34,11 +34,11 @@ To start, please create a campaign. Most campaign settings are available on a ca
 
 ### How to Advertise on Crypto Sites?
 
-If you want to advertise a crypto-related business, you might be interested in the following categories: Bitcoin, Earning online, and possibly Business and Finance. You can choose them on your "Campaign -> Traffic sources -> Selection Criteria" page. The full list of publishing websites is available in the [catalog](https://a-ads.com/catalog).
+If you want to advertise a crypto-related business, you might be interested in the following categories: Bitcoin, Earning online, and possibly Business and Finance. You can choose them on your "Campaign -> Traffic sources -> Selection Criteria" page. The full list of publishing websites is available in the [catalog](https://aads.com/catalog).
 
 ### What are the Available Payment Models?
 
-Our main payment model is a daily budget. [CPM bids](https://a-ads.com/blog/how-to-use-cpm-bids-with-a-ads/) are also available, but the daily budget is preferable.
+Our main payment model is a daily budget. [CPM bids](https://aads.com/blog/how-to-use-cpm-bids-with-a-ads/) are also available, but the daily budget is preferable.
 
 ### Is there a Minimum Daily Budget?
 
@@ -58,14 +58,14 @@ We hope this FAQ helps you to start. Never doubt addressing our helpdesk - we ar
 
 **Learn More About Crypto and Crypto Marketing:** 
 
-[Content marketing for crypto projects](https://a-ads.com/blog/%D1%81ontent-marketing-for-crypto-projects/)
+[Content marketing for crypto projects](https://aads.com/blog/%D1%81ontent-marketing-for-crypto-projects/)
 
-[How Podcasts Can Help Your Business Grow](https://a-ads.com/blog/How-Podcasts-Can-Help-Your-Business-Grow/)
+[How Podcasts Can Help Your Business Grow](https://aads.com/blog/How-Podcasts-Can-Help-Your-Business-Grow/)
 
-[How To Create A Perfect LinkedIn Page For Your Business.](https://a-ads.com/blog/how-to-create-a-perfect-linkedin-page-for-your-business/)
+[How To Create A Perfect LinkedIn Page For Your Business.](https://aads.com/blog/how-to-create-a-perfect-linkedin-page-for-your-business/)
 
-[Successful Email Marketing For Crypto Projects.](https://a-ads.com/blog/successful-email-marketing-for-crypto-projects/)
+[Successful Email Marketing For Crypto Projects.](https://aads.com/blog/successful-email-marketing-for-crypto-projects/)
 
-[What is a crypto Press Release and how to write it?](https://a-ads.com/blog/what-is-a-crypto-press-pelease-and-how-to-write-it/)
+[What is a crypto Press Release and how to write it?](https://aads.com/blog/what-is-a-crypto-press-pelease-and-how-to-write-it/)
 
-[](https://a-ads.com/blog/SEO-Strategies-for-Your-Crypto-Business%20/)
+[SEO Strategies For Your Crypto Business](https://aads.com/blog/seo-strategies-for-your-crypto-business/)

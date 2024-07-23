@@ -11,15 +11,15 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/undraw_select_option_y75iобложка.png
 big_picture: ../../static/assets/undraw_select_option_y75iквадрат.png
-meta_title: Campaign types | A-ADS Blog
+meta_title: Campaign types | AADS Blog
 meta_description: "Campaign types - learn about the three payment models offered
-  by A-ADS for advertisers: CPM (cost per mille), CPA (cost per action), and CPD
-  (cost per day). A-ADS recommends using only one payment model per campaign for
+  by AADS for advertisers: CPM (cost per mille), CPA (cost per action), and CPD
+  (cost per day). AADS recommends using only one payment model per campaign for
   simplicity and better management. "
 ---
 ## Overview
 
-A-ADS offers three payment models: CPM (cost per mille), CPA (cost per action), and CPD (cost per day).
+AADS offers three payment models: CPM (cost per mille), CPA (cost per action), and CPD (cost per day).
 
 We used to allow mixing all of them in a single campaign, but for the sake of simplicity and better campaign management, we decided to move away from this approach.
 
@@ -39,7 +39,7 @@ We recommend this payment model because it has several advantages:
 * you control which ad units display your ads (and [you can check it](https://help.a-ads.com/en/article/how-can-i-see-my-ads-published-on-your-sites-y58ovh/));
 * you don’t pay for fake traffic: publishers can’t deplete your budgets by faking impressions, and your competitors - by clicking your ads.
 
-The major drawback of this payment model is the limited targeting capabilities, so it is most suitable for global advertising campaigns. Please see a more detailed explanation of CPD campaigns [here](https://a-ads.com/blog/2019-08-11-how-does-daily-budget-work/).
+The major drawback of this payment model is the limited targeting capabilities, so it is most suitable for global advertising campaigns. Please see a more detailed explanation of CPD campaigns [here](https://aads.com/blog/2019-08-11-how-does-daily-budget-work/).
 
 ### **Cost per mille**
 
@@ -47,7 +47,7 @@ CPM (cost per mille) is probably the oldest payment model in the field of online
 
 We recommend using this model only if you really need geo-targeting and carefully select the ad units for your campaign because we can not guarantee the quality of ad impressions.
 
-Please note that traffic for CPM-campaigns is counted less strictly than for CPD-campaigns: we measure its uniqueness in the scope of a campaign (not the whole network). Read more about CPM campaigns [here](https://a-ads.com/blog/2020-03-11-how-to-use-cpm-bids-with-a-ads/).
+Please note that traffic for CPM-campaigns is counted less strictly than for CPD-campaigns: we measure its uniqueness in the scope of a campaign (not the whole network). Read more about CPM campaigns [here](https://aads.com/blog/2020-03-11-how-to-use-cpm-bids-with-a-ads/).
 
 ### **Cost per action**
 
@@ -63,4 +63,4 @@ Until you fund your campaign, you can switch from CPD to CPM, and vice versa, bu
 
 A CPM campaign can only have one active bid, changing the CPM campaign to CPD will result in canceling it.
 
-Editing a running [CPM bid](https://a-ads.com/blog/how-to-use-cpm-bids-with-a-ads/) will result in its cancellation, creation of a new one, and automatic return of the unused money, which may take a few minutes.
+Editing a running [CPM bid](https://aads.com/blog/how-to-use-cpm-bids-with-a-ads/) will result in its cancellation, creation of a new one, and automatic return of the unused money, which may take a few minutes.

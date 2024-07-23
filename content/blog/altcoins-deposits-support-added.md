@@ -12,8 +12,8 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/undraw_digital_currency_qpakобложка.png
 big_picture: ../../static/assets/undraw_digital_currency_qpakквадрат.png
-meta_title: Altcoins deposits support added | A-ADS Blog
-meta_description: A-ADS has great news for advertisers - we now support altcoin
+meta_title: Altcoins deposits support added | AADS Blog
+meta_description: AADS has great news for advertisers - we now support altcoin
   deposits! We accept a range of altcoins, including Ripple, Binance Coin,
   Tether, and more, with plans to add support for additional cryptocurrencies in
   the future. Please note that altcoin deposits will be automatically converted

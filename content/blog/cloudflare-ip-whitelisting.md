@@ -12,7 +12,7 @@ category_second_level:
 author: Micheal George
 thumbnail: /blog/assets/cloudflare-whitelisting-featured.png
 big_picture: /blog/assets/cloudflare-whitelisting-square.png
-meta_title: Cloudflare IP Whitelisting | A-ADS Blog
+meta_title: Cloudflare IP Whitelisting | AADS Blog
 meta_description: Learn how to eliminate the "Cloudflare prevents our bot from
   accessing your site" error by whitelisting our IPs in your Cloudflare account.
   Follow these simple steps to ensure that your website can be accessed without
@@ -32,7 +32,7 @@ In order to eliminate this error, follow these steps below.
 
 ![Cloudflare IP access rules](../../static/assets/cloudflare.png "Cloudflare IP access rules")
 
-4. Under “IP Access Rules”, add the IP addresses that you received from A-ADS support team.
+4. Under “IP Access Rules”, add the IP addresses that you received from AADS support team.
 
 Note : If you don’t have any of our bots IP’s, please contact our support.
 

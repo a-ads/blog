@@ -1,7 +1,7 @@
 ---
 name: Olowoporoku Adeniyi
 thumbnail: /blog/assets/2023-08-23-15.32.09.jpg
-position: A-ADS reviewer
+position: AADS reviewer
 description: Olowoporoku ''Crypto Evangelist'' Adeniyi is a crypto educator,
   content creator, and analyst who is a news reporter for NewsBTC.
 twitter_link: https://twitter.com/crypevangelist
@@ -19,32 +19,32 @@ json_ld: >-
 
   "description": "Olowoporoku 'Crypto Evangelist' Adeniyi is a crypto educator, content creator, and analyst who is a news reporter for NewsBTC.",
 
-  "url": "https://a-ads.com/blog/authors/olowoporoku-adeniyi/",
+  "url": "https://aads.com/blog/authors/olowoporoku-adeniyi/",
 
-  "@id": "https://a-ads.com/blog/authors/olowoporoku-adeniyi/#ProfilePage",
+  "@id": "https://aads.com/blog/authors/olowoporoku-adeniyi/#ProfilePage",
 
   "inLanguage":"en-US",
       "isPartOf": {
         "@type":"WebSite",
-        "name":"Crypto & Bitcoin advertising Network | A-ADS",
-        "url":"https://a-ads.com/",
-        "@id":"https://a-ads.com/#WebSite",
+        "name":"Crypto & Bitcoin advertising Network | AADS",
+        "url":"https://aads.com/",
+        "@id":"https://aads.com/#WebSite",
         "publisher": {
           "@type":"Organization",
-          "name":"A-ADS",
-          "url":"https://a-ads.com/",
-          "@id":"https://a-ads.com/#Organization",   
+          "name":"AADS",
+          "url":"https://aads.com/",
+          "@id":"https://aads.com/#Organization",
           "logo": {
           "@type": "ImageObject",
-          "url": "https://a-ads.com/assets/A-ads-logo-9f20c608e2a6cab649175cec3c3976253264542bc7b570a5de64eb3e206b5935.svg",
+          "url": "https://aads.com/assets/A-ads-logo-9f20c608e2a6cab649175cec3c3976253264542bc7b570a5de64eb3e206b5935.svg",
           "width": 708,
           "height": 188
       },
   	    "image": [
-          "https://a-ads.com/assets/A-ads-logo-9f20c608e2a6cab649175cec3c3976253264542bc7b570a5de64eb3e206b5935.svg",
-          "https://a-ads.com/assets/white-logo-7d7ddcdf6524fe36de88a5de9e76e6c6a6401b5e78910c27c1f0e7213cdc97bb.svg"
+          "https://aads.com/assets/A-ads-logo-9f20c608e2a6cab649175cec3c3976253264542bc7b570a5de64eb3e206b5935.svg",
+          "https://aads.com/assets/white-logo-7d7ddcdf6524fe36de88a5de9e76e6c6a6401b5e78910c27c1f0e7213cdc97bb.svg"
           ],
-  	  "publishingPrinciples": "https://a-ads.com/about-us"
+  	  "publishingPrinciples": "https://aads.com/about-us"
       }
   },
 
@@ -52,13 +52,13 @@ json_ld: >-
 
   "@type": "Person",
 
-  "mainEntityOfPage": "https://a-ads.com/blog/authors/olowoporoku-adeniyi/",
+  "mainEntityOfPage": "https://aads.com/blog/authors/olowoporoku-adeniyi/",
 
   "name": "Olowoporoku Adeniyi",
 
-  "url": "https://a-ads.com/blog/authors/olowoporoku-adeniyi/",
+  "url": "https://aads.com/blog/authors/olowoporoku-adeniyi/",
 
-  "@id": "https://a-ads.com/blog/authors/olowoporoku-adeniyi/#Person",
+  "@id": "https://aads.com/blog/authors/olowoporoku-adeniyi/#Person",
 
   "description": "Adeniyi has an extensive background in the crypto niche and has covered the blockchain space since 2017. He has held several events in the past and written articles ranging from technical analysis to oped pieces. Adeniyi is a lover of financial freedom and preaches the ideals of crypto to promote remittance payment that can help developing countries close the financial inclusivity gap. Adeniyi's an avid lover of football and a Man City supporter. He also owns tokens spread across different crypto ecosystem. You can follow him on twitter @crypevangelist or find his youtube channel for more analysis.",
 
@@ -76,9 +76,9 @@ json_ld: >-
 
   ],
 
-  "worksFor": {"@id":"https://a-ads.com/#Organization"},
+  "worksFor": {"@id":"https://aads.com/#Organization"},
 
-  "jobTitle": "A-ADS reviewer",
+  "jobTitle": "AADS reviewer",
 
   "knowsAbout":[
         {

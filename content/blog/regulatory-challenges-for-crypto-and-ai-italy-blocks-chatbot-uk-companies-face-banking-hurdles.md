@@ -13,7 +13,7 @@ thumbnail: ../../static/assets/full-2-.png
 big_picture: ../../static/assets/short-7-.png
 popularity: ""
 meta_title: "Regulatory Challenges for Crypto and AI: Italy Blocks Chatbot, UK
-  Companies Face Banking Hurdles | A-ADS Blog"
+  Companies Face Banking Hurdles | AADS Blog"
 meta_description: Learn about the regulatory challenges faced by the crypto and
   AI industries in Italy, Hong Kong, and the UK. Stay updated on the evolving
   regulatory landscape impacting these industries.

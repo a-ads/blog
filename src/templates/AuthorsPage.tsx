@@ -14,7 +14,7 @@ interface AuthorsPageProps {
 export function Head() {
   return (
     <Seo
-      title='A-ADS Authors'
+      title='AADS Authors'
       description='Read the articles by our authors.'
     />
   )

@@ -12,9 +12,9 @@ category_second_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/full-5-.png
 big_picture: ../../static/assets/short-15-.png
-meta_title: How to Change and Confirm a Withdrawal Address | A-ADS Blog
+meta_title: How to Change and Confirm a Withdrawal Address | AADS Blog
 meta_description: Learn how to change and confirm your withdrawal address on
-  A-ADS. Follow our step-by-step guide to update your withdrawal options and
+  AADS. Follow our step-by-step guide to update your withdrawal options and
   receive an email confirmation. Protect your funds with our regular withdrawal
   suspension, and withdraw directly to a BTC address or use FaucetPay for
   instant withdrawals
@@ -36,7 +36,7 @@ Note: You can withdraw directly to a BTC address, or use FaucetPay; The withdraw
 4. When withdrawing directly to a BTC address, the minimum “Withdrawal threshold” is 0.001 BTC.
 5. Enter your password or access code.
 
-Note: If you don’t have any means of authentication, probably because you used a social media account upon registration, please use the email connected to your social account on [A-ADS password reset form](https://a-ads.com/user/password/new).
+Note: If you don’t have any means of authentication, probably because you used a social media account upon registration, please use the email connected to your social account on [AADS password reset form](https://aads.com/user/password/new).
 
 6. Click “Update withdrawal settings”, then click “OK” in the confirmation message:
 
@@ -46,11 +46,11 @@ Note: If you don’t have any means of authentication, probably because you used
 
 ![Withdrawal address sucessfully updated](../../static/assets/withdrawal-change-2.png "Withdrawal address sucessfully updated")
 
-8. Check the mailbox connected to your account, you should find an email from A-ADS with contents like this:
+8. Check the mailbox connected to your account, you should find an email from AADS with contents like this:
 
 ![withdrawal address change email confirmation](../../static/assets/withdrawal-change-3.png "withdrawal address change email confirmation")
 
-Make sure to check all your folders, including “Spam” if you don’t find our email in your inbox. Alternatively, you can search e-mails by A-ADS.
+Make sure to check all your folders, including “Spam” if you don’t find our email in your inbox. Alternatively, you can search e-mails by AADS.
 
 9. Please, click the button, “Click to confirm”. At the destination page, you should see an event like in the image below:
 

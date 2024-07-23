@@ -12,7 +12,7 @@ thumbnail: ../../static/assets/full-30-.png
 big_picture: ../../static/assets/short-18-.png
 popularity: "0"
 meta_title: 5 Places to Earn Interest on Crypto - How to Earn Interest on
-  Cryptocurrency | A-ADS Blog
+  Cryptocurrency | AADS Blog
 meta_description: Looking to earn interest on Bitcoin, Ethereum, or other
   cryptocurrencies? We’ll show you the 5 places to earn interest on
   cryptocurrency in 2022.

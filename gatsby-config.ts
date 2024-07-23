@@ -5,7 +5,7 @@ const config: GatsbyConfig = {
   pathPrefix: '/blog',
   siteMetadata: {
     title:
-      'A-ADS Crypto Blog - marketing guides, tips and news to cryptocurrencies market',
+      'AADS Crypto Blog - marketing guides, tips and news to cryptocurrencies market',
     description:
       'Crypto & Bitcoin market tips and updates, mine guides, reviews and ratings for first-timers or experienced investors, and more information of cryptocurrencies.',
     image: `static/images/favicon.ico`,

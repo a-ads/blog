@@ -11,7 +11,7 @@ author: Anna Trifonova
 thumbnail: ../../static/assets/full-48-.png
 big_picture: ../../static/assets/short-25-.png
 popularity: "0"
-meta_title: Content marketing for crypto projects | A-ADS Blog
+meta_title: Content marketing for crypto projects | AADS Blog
 meta_description: Boost your crypto project's brand visibility and community by
   implementing a content marketing strategy. Research, create, publish, and
   distribute valuable information to attract NFT holders, investors, and
@@ -26,7 +26,7 @@ Content marketing is another viral marketing strategy. So, a crypto project can 
 
 We can describe content marketing as researching, creating, publishing, and distributing valuable information to your target audience to attract NFT holders, investors, and community members.
 
-[Crypto marketing](https://a-ads.com/blog/what-is-crypto-marketing/) also helps its audience conduct research and navigate cryptocurrency and NFT markets. 
+[Crypto marketing](https://aads.com/blog/what-is-crypto-marketing/) also helps its audience conduct research and navigate cryptocurrency and NFT markets.
 
 **What are the benefits of content marketing?**
 
@@ -131,4 +131,4 @@ A great NFT tracker [Nonfungible](https://nonfungible.com/news)
 * Larger businesses typically have their content team, and most companies at least have a content strategy in place.
 * But content marketing only makes sense for some businesses. So, you'll need to determine whether your business can benefit from content marketing.
 
-**Read more about marketing strategies in our[ Complete Crypto Marketing Guide. ](https://a-ads.com/blog/a-complete-crypto-marketing-guide/)**
+**Read more about marketing strategies in our[ Complete Crypto Marketing Guide. ](https://aads.com/blog/a-complete-crypto-marketing-guide/)**

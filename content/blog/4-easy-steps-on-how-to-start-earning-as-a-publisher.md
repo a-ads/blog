@@ -13,8 +13,8 @@ author: Emmanuel Olatunji
 thumbnail: /blog/assets/full.png
 big_picture: /blog/assets/short.png
 popularity: "2"
-meta_title: 4 Easy Steps On How To Start Earning As A Publisher | A-ADS Blog
-meta_description: Join A-ADS as a publisher and earn from our ad network by
+meta_title: 4 Easy Steps On How To Start Earning As A Publisher | AADS Blog
+meta_description: Join AADS as a publisher and earn from our ad network by
   offering ad inventory on your website or app. Follow simple criteria to start
   earning.
 meta_keywords: crypto advertising, ad network, publisher, monetization, genuine
@@ -28,9 +28,9 @@ Before we proceed with the steps, I'd like to explain the meaning of being a Pub
 
 **A Publisher is an individual who owns digital content or audience, including apps or websites.** When the owner offers up space within the property for external ads, also known as ad inventory, it becomes an Ad Publisher.
 
-The main reason why Publishers offer space on websites or apps is for monetization. Publishers will then receive income when advertisements are shown on their websites. If you want to earn with [A-ADS](http://a.ads.com) as a Publisher, you must follow the steps and meet the criteria.
+The main reason why Publishers offer space on websites or apps is for monetization. Publishers will then receive income when advertisements are shown on their websites. If you want to earn with [AADS](http://a.ads.com) as a Publisher, you must follow the steps and meet the criteria.
 
-Here is the two-criteria checklist to pass before you can be a Publisher on A-ADS: 
+Here is the two-criteria checklist to pass before you can be a Publisher on AADS:
 
 1. You need to have a website or an application audience or traffic
 2. You need to have genuine traffic. We do not accept fake traffic
@@ -41,13 +41,13 @@ Now let’s check how to earn as a Publisher:
 
 ### 1. Create Your Account
 
-Go to this page, [a-ads.com,](https://a-ads.com/) at the top right corner, click Sign up and input your email. Your password will be sent to your email then you can log in with it. 
+Go to this page, [aads.com,](https://aads.com/) at the top right corner, click Sign up and input your email. Your password will be sent to your email then you can log in with it.
 
 ### 2. Create an Ad Unit
 
 Creating an ad unit takes only a few minutes. Here you get the code embedded in the website or application. 
 
-Click on create an ad unit on the homepage or click [here](https://a-ads.com/ad_units/new).
+Click on create an ad unit on the homepage or click [here](https://aads.com/ad_units/new).
 
 **Step 1.** Select the ad unit type, which can either be a website or an application, according to what you have.
 
@@ -57,23 +57,23 @@ Click on create an ad unit on the homepage or click [here](https://a-ads.com/ad_
 
 ### 3. Place your Ad Unit code
 
-Placing your ad unit code on your website and blog requires a guide. Please read this on [how to place ad unit code.](https://a-ads.com/blog/how-to-place-an-ad-unit-code-correctly/)
+Placing your ad unit code on your website and blog requires a guide. Please read this on [how to place ad unit code.](https://aads.com/blog/how-to-place-an-ad-unit-code-correctly/)
 
 ### 4. Set Up Your Withdrawal Details
 
-[﻿Сlick here](https://a-ads.com/blog/how-to-change-and-confirm-a-withdrawal-address/) and follow the instructions on how to set up your funds. 
+[﻿Сlick here](https://aads.com/blog/how-to-change-and-confirm-a-withdrawal-address/) and follow the instructions on how to set up your funds.
 
 **K﻿indly Note**
 
 We are not a pay-per-click or pay-per-impression network. We distribute Advertisers' budgets to ad units targeted by them concerning various metrics. 
 
-The one thing that helps to earn with us is [a "unique impression."](https://a-ads.com/blog/2018-10-04-counting-unique-impressions/) 
+The one thing that helps to earn with us is [a "unique impression."](https://aads.com/blog/2018-10-04-counting-unique-impressions/)
 
 The more you have, the better your earning prospects as long as your traffic is good. Advertisers can also reward ad units for beneficial actions performed by their visitors.
 
 **We do not guarantee earnings as earnings are based on the factors listed below:**
 
-\- Number of [unique impressions](https://a-ads.com/blog/counting-unique-impressions/)
+\- Number of [unique impressions](https://aads.com/blog/counting-unique-impressions/)
 
 \- Number of unique clicks
 

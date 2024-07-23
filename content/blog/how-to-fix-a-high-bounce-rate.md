@@ -10,18 +10,18 @@ category_top_level:
   - Guides
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/image120720192200.png
-meta_title: How to fix a high bounce rate? | A-ADS Blog
-meta_description: Discover why A-ADS may show a higher bounce rate for
+meta_title: How to fix a high bounce rate? | AADS Blog
+meta_description: Discover why AADS may show a higher bounce rate for
   advertisers compared to pay-per-click networks and learn how to measure
   conversions to ensure your advertising budget is being spent efficiently. Our
   article explores the differences between the two networks and how to assess
   the quality of clicks.
 ---
-Sometimes our advertisers are unhappy because they see extremely high bounce rates for A-ADS traffic. Tracking systems might show a bounce rate of up to 99%, while the bounce rate for other networks might be something like 25 - 70%.
+Sometimes our advertisers are unhappy because they see extremely high bounce rates for AADS traffic. Tracking systems might show a bounce rate of up to 99%, while the bounce rate for other networks might be something like 25 - 70%.
 
 
 
-This difference is due to the fact that A-ADS is not a pay-per-click network: advertisers pay a fixed daily budget and get a share of all the targeted traffic. Since advertisers don’t pay for clicks, there is no need to filter them. Bad clicks may increase the bounce rate, but the absolute quantity of good clicks won’t become any smaller, they will keep their place!
+This difference is due to the fact that AADS is not a pay-per-click network: advertisers pay a fixed daily budget and get a share of all the targeted traffic. Since advertisers don’t pay for clicks, there is no need to filter them. Bad clicks may increase the bounce rate, but the absolute quantity of good clicks won’t become any smaller, they will keep their place!
 
 
 

@@ -94,7 +94,7 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
           className='btn-redirect up-desktop:hidden'
           to={'https://aads.com'}
         >
-          <span className='btn-text btn-text__mobile'>Go to A-ADS network</span>
+          <span className='btn-text btn-text__mobile'>Go to AADS network</span>
         </Link>
 
         <div className='nav-wrap down-desktop:hidden'>
@@ -116,7 +116,7 @@ const Header = ({ categoriesTopLevel }: { categoriesTopLevel: Categories }) => {
             )}
           </div>
           <Link className='btn-redirect' to={'https://aads.com'}>
-            <span className='btn-text'>Go to A-ADS network</span>
+            <span className='btn-text'>Go to AADS network</span>
           </Link>
         </div>
 

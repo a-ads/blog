@@ -12,7 +12,7 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: /blog/assets/full-2-.png
 big_picture: /blog/assets/short.png
-meta_title: Counting unique impressions | A-ADS Blog
+meta_title: Counting unique impressions | AADS Blog
 meta_description: Learn what we mean by "globally unique impressions" if you're
   interested in becoming our publisher. Discover how our stats differ from
   Google Analytics and why absolute numbers don't mean much. With our network,
@@ -25,7 +25,7 @@ If you are our client or just think of becoming one, you might be interested to 
 
 * An IP address can create only 1 globally unique impression within the entire network in 24 hours. It means that if a visitor hasn't seen our ads in the past 24 hours, their impression will be considered globally unique. Moreover, the same visitor won't generate another globally unique impression within the same day, regardless of the sites they visit or the ads they see.
 * If there are several ad units on one page, only one of them will receive a globally unique impression upon page load (the one which loads first).
-* Also, if your [ad unit](https://a-ads.com/blog/how-to-place-an-ad-unit-code-correctly/) is of type "Site," then only impressions that go from the site domain or its subdomains will be considered globally unique.
+* Also, if your [ad unit](https://aads.com/blog/how-to-place-an-ad-unit-code-correctly/) is of type "Site," then only impressions that go from the site domain or its subdomains will be considered globally unique.
 
 This makes our stats incompatible with Google Analytics or any other web visitor counting services. Our numbers will always be less for the same traffic.
 

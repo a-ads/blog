@@ -11,13 +11,13 @@ category_top_level:
 author: Yulia Savushkina
 thumbnail: ../../static/assets/undraw_invest_88iw.png
 big_picture: ../../static/assets/undraw_invest_88iw-1-.png
-meta_title: How does daily budget work? | A-ADS Blog
+meta_title: How does daily budget work? | AADS Blog
 meta_description: Looking for an advertising network that offers a unique
   payment scheme? Our pay-per-day model allows advertisers to set a daily budget
   and receive a share of impressions proportional to their spendings. Learn more
   in our guide.
 ---
-A-ADS default payment scheme is pay-per-day. It is quite unusual and works as follows.
+AADS default payment scheme is pay-per-day. It is quite unusual and works as follows.
 
 Advertisers set their targeting parameters and specify a daily budget - the amount of money they want to spend every day.
 
@@ -27,7 +27,7 @@ Traffic volume and price are not fixed and depend on supply and demand. Please s
 
 **Example 1. Monopsony**
 
-First, let’s assume that you are the only advertiser who targets ad units which give 10 000 [unique impressions](https://a-ads.com/blog/counting-unique-impressions/) a day.
+First, let’s assume that you are the only advertiser who targets ad units which give 10 000 [unique impressions](https://aads.com/blog/counting-unique-impressions/) a day.
 
 If you set your daily budget to $10 in bitcoins, then your actual CPM would be 1 000 * $10 / 10 000 impressions = $1 per mille, which seems reasonable.
 
@@ -41,7 +41,7 @@ If new advertisers enter the market with the same targeting and pay $10 in total
 
 That’s how the market forms the price.
 
-You can set the “[Max CPM](https://a-ads.com/blog/the-maximum-allowed-max-cpm-is-100-000-now/)” to prevent the whole expenditure of your daily budget in case if the price goes too high.
+You can set the “[Max CPM](https://aads.com/blog/the-maximum-allowed-max-cpm-is-100-000-now/)” to prevent the whole expenditure of your daily budget in case if the price goes too high.
 
 There is always a trade-off between volume, price, pace, and quality of the traffic you receive.
 
@@ -57,7 +57,7 @@ Just don’t do like this unless you set the “Max CPM” limit!
 
 **Conclusions**
 
-Remember that A-ADS is not a pay-per-impression, neither pay-per-click advertising network.
+Remember that AADS is not a pay-per-impression, neither pay-per-click advertising network.
 
 Use broader targeting and lower daily budget to get a more predictable and satisfying CPM.
 

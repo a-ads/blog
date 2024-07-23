@@ -26,8 +26,8 @@ Google Analytics lets you measure your advertising ROI as well as track your vid
 
 1. A hosted website
 2. GA account
-3. A-ADS Account
-4. A-ADS campaign with goal tracking enabled
+3. AADS Account
+4. AADS campaign with goal tracking enabled
 
 ## Let’s start!
 
@@ -45,7 +45,7 @@ Fill the form, and click the “Create” button.
 
 Copy and paste the tracking code into your website.
 
-Go to ﻿﻿[a-ads.com](https://a-ads.com/).
+Go to ﻿﻿[aads.com](https://aads.com/).
 
 Create a new campaign, or go to your existing campaign’s dashboard.
 
@@ -67,7 +67,7 @@ Utm_Campaign = MyCampaignName
 
 Utm_term = {{partner}}
 
-After your A-ADS campaign starts running and has generated clicks, go to “Advertising>>All Channels” of your GA dashboard. The data should look something like this:
+After your AADS campaign starts running and has generated clicks, go to “Advertising>>All Channels” of your GA dashboard. The data should look something like this:
 
 ![](https://lh7-us.googleusercontent.com/qcLrhuKCmV5Yp7Gg97hyLS3QjoSGqVGB8OZngcOA87j7CnZKZc3A-abIUCAcKCGoaQXk_7K3FQz50M-lcAKltH64bNVc2VVto15Mwyso9zZO1Mb50Fx-QTwE5WHEc2PbgZX8FBSXHE8U070j52PEj7Q)
 

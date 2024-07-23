@@ -13,13 +13,13 @@ category_second_level:
 author: Micheal George
 thumbnail: /blog/assets/peerclick_featured.png
 big_picture: /blog/assets/peerclick_square.png
-meta_title: Advanced Tracking with PeerClick | A-ADS Blog
+meta_title: Advanced Tracking with PeerClick | AADS Blog
 meta_description: Learn how to integrate PeerClick, a free ad tracking software,
-  with your A-ADS campaign. With our simple step-by-step instructions, you can
+  with your AADS campaign. With our simple step-by-step instructions, you can
   track, analyze, optimize, and scale your advertising campaigns in real-time.
-  Plus, use promo code "A-ADS" and get $50 on your balance!
+  Plus, use promo code "AADS" and get $50 on your balance!
 ---
-![A-ADS logo](../../static/assets/a-ads-logo.png "A-ADS logo")
+![AADS logo](../../static/assets/a-ads-logo.png "AADS logo")
 
 # +
 
@@ -31,7 +31,7 @@ FREE AD  TRACKING SOFTWARE. To track, analyze, optimize, and scale online advert
 
 PeerClick offers an incredible life-time Free Plan which includes 100,000 clicks per month and has no time limits!.
 
-Use Promo code "A-ADS" and get $50 on your balance!
+Use Promo code "AADS" and get $50 on your balance!
 
 [GET BONUS ](https://trk.peerclick.com/15GjdS?manager=vp&source=A-ADS&promo=A-ADS&language=en)
 
@@ -40,8 +40,8 @@ Use Promo code "A-ADS" and get $50 on your balance!
 **Prerequisites:**
 
 * PeerClick account
-* A-ADS account
-* A-ADS campaign with goal tracking enabled
+* AADS account
+* AADS campaign with goal tracking enabled
 
 **Let's start!**
 
@@ -51,14 +51,14 @@ Click “create source” as seen in the image below:
 
 ![PeerClick create traffic source](../../static/assets/peerclick1.png "PeerClick create traffic source")
 
-Search for the A-ADS template, then click add, as seen in the image below:
+Search for the AADS template, then click add, as seen in the image below:
 
-![PeerClick: A-ADS traffic source template](../../static/assets/peerclick2.png "PeerClick: A-ADS traffic source template")
+![PeerClick: AADS traffic source template](../../static/assets/peerclick2.png "PeerClick: AADS traffic source template")
 
 A setup form with all the details filled in will appear, just click “Create Traffic Source”, as seen in the image below.\
 Note: There is no reason to change anything, except if you have different configurations in mind.
 
-![PeerClick: A-ADS traffic source template parameters](../../static/assets/peerclick3.png "PeerClick: A-ADS traffic source template parameters")
+![PeerClick: AADS traffic source template parameters](../../static/assets/peerclick3.png "PeerClick: AADS traffic source template parameters")
 
 - - -
 
@@ -96,12 +96,12 @@ Visit your newly created campaign “Tracking” tab then click “copy”, as s
 
 - - -
 
-**5. Configure your A-ADS campaign.**\
-Set your A-ADS campaign link to your PeerClick campaign URL without the “?” and everything after it.
+**5. Configure your AADS campaign.**\
+Set your AADS campaign link to your PeerClick campaign URL without the “?” and everything after it.
 
 For example: http://1355671696.gopeerclick.com/15Gptd
 
-Then set your A-ADS campaign’s goal tracking suffix to the “?” and everything after.
+Then set your AADS campaign’s goal tracking suffix to the “?” and everything after.
 
 For example:
 
@@ -111,7 +111,7 @@ For example:
 
 As seen in the image below:
 
-![A-ADS: Goal tracking suffix](../../static/assets/peerclick9.png "A-ADS: Goal tracking suffix")
+![AADS: Goal tracking suffix](../../static/assets/peerclick9.png "AADS: Goal tracking suffix")
 
 **6. Checking Reports.**\
 In PeerClick’s campaign tab, click preferred campaign, then click “Report”, as seen in the image below.

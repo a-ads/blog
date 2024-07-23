@@ -14,7 +14,7 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/illustration-4-2x.png
 meta_title: How are we different from other cryptocurrency advertising
-  platforms? | A-ADS Blog
+  platforms? | AADS Blog
 meta_description: Discover how our cryptocurrency advertising platform sets
   itself apart from the competition. With a focus on privacy, we allow
   publishers and advertisers to remain anonymous and in control of their
@@ -27,6 +27,6 @@ meta_description: Discover how our cryptocurrency advertising platform sets
 
 **Pay-for-result** advertising also an option, as soon as you are able to do a bit of programming on your side, please contact our support team for more information.
 
-**Unique impressions**. If you are a publisher this will be an important factor of your successful earnings with us. Please see [this article](https://a-ads.com/blog/2018-10-04-counting-unique-impressions/) to understand what we mean by this.
+**Unique impressions**. If you are a publisher this will be an important factor of your successful earnings with us. Please see [this article](https://aads.com/blog/2018-10-04-counting-unique-impressions/) to understand what we mean by this.
 
 **Lightweight non-intrusive ads**. We don’t go for pop-ups and pop-unders. Our text ads follow a simple protocol and are easy to download.

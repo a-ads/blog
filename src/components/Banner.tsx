@@ -137,7 +137,7 @@ const variants = {
   promote: {
     title: (
       <>
-        Promote A-ADS <br className='up-phone:hidden' /> and earn crypto
+        Promote AADS <br className='up-phone:hidden' /> and earn crypto
       </>
     ),
     subtitle: 'Get up to 10% of referred advertisers’ spedings',

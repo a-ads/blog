@@ -14,7 +14,7 @@ thumbnail: /blog/assets/a-ads-customer-support.png
 big_picture: ../../static/assets/short-2-.png
 popularity: ""
 meta_title: "Latest news: Tether Thrives, Telegram Transfers USDT, Nasdaq Offers
-  Custody | A-ADS Blog"
+  Custody | AADS Blog"
 meta_description: Stay informed with the latest news in the cryptocurrency
   world. Nasdaq to launch Bitcoin and Ethereum custody service, Telegram enables
   USDT transfers in its messaging platform, and Tether stays strong despite

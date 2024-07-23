@@ -12,7 +12,7 @@ author: Yulia Savushkina
 thumbnail: ../../static/assets/full-24-.png
 big_picture: ../../static/assets/short-19-.png
 popularity: "0"
-meta_title: Cryptocurrency Latest News | A-ADS Blog
+meta_title: Cryptocurrency Latest News | AADS Blog
 meta_description: Stay updated with the latest cryptocurrency news. Siemens
   issues a Eurobond on the Polygon blockchain, showcasing the potential of
   blockchain technology for bond issuance. Binance explores the use of ChatGPT

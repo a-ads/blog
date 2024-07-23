@@ -16,32 +16,32 @@ json_ld: >-
 
   "description": "Takes over the marketing management, data analytics, tracking, and integration",
 
-  "url": "https://a-ads.com/blog/authors/micheal-george/",
+  "url": "https://aads.com/blog/authors/micheal-george/",
 
-  "@id": "https://a-ads.com/blog/authors/micheal-george/#ProfilePage",
+  "@id": "https://aads.com/blog/authors/micheal-george/#ProfilePage",
 
   "inLanguage":"en-US",
       "isPartOf": {
         "@type":"WebSite",
-        "name":"Crypto & Bitcoin advertising Network | A-ADS",
-        "url":"https://a-ads.com/",
-        "@id":"https://a-ads.com/#WebSite",
+        "name":"Crypto & Bitcoin advertising Network | AADS",
+        "url":"https://aads.com/",
+        "@id":"https://aads.com/#WebSite",
         "publisher": {
           "@type":"Organization",
-          "name":"A-ADS",
-          "url":"https://a-ads.com/",
-          "@id":"https://a-ads.com/#Organization",   
+          "name":"AADS",
+          "url":"https://aads.com/",
+          "@id":"https://aads.com/#Organization",
           "logo": {
           "@type": "ImageObject",
-          "url": "https://a-ads.com/assets/A-ads-logo-9f20c608e2a6cab649175cec3c3976253264542bc7b570a5de64eb3e206b5935.svg",
+          "url": "https://aads.com/assets/A-ads-logo-9f20c608e2a6cab649175cec3c3976253264542bc7b570a5de64eb3e206b5935.svg",
           "width": 708,
           "height": 188
       },
   	    "image": [
-          "https://a-ads.com/assets/A-ads-logo-9f20c608e2a6cab649175cec3c3976253264542bc7b570a5de64eb3e206b5935.svg",
-          "https://a-ads.com/assets/white-logo-7d7ddcdf6524fe36de88a5de9e76e6c6a6401b5e78910c27c1f0e7213cdc97bb.svg"
+          "https://aads.com/assets/A-ads-logo-9f20c608e2a6cab649175cec3c3976253264542bc7b570a5de64eb3e206b5935.svg",
+          "https://aads.com/assets/white-logo-7d7ddcdf6524fe36de88a5de9e76e6c6a6401b5e78910c27c1f0e7213cdc97bb.svg"
           ],
-  	  "publishingPrinciples": "https://a-ads.com/about-us"
+  	  "publishingPrinciples": "https://aads.com/about-us"
       }
   },
 
@@ -49,17 +49,17 @@ json_ld: >-
 
   "@type": "Person",
 
-  "mainEntityOfPage": "https://a-ads.com/blog/authors/micheal-george/",
+  "mainEntityOfPage": "https://aads.com/blog/authors/micheal-george/",
 
   "name": "Micheal George",
 
-  "url": "https://a-ads.com/blog/authors/micheal-george/",
+  "url": "https://aads.com/blog/authors/micheal-george/",
 
-  "@id": "https://a-ads.com/blog/authors/micheal-george/#Person",
+  "@id": "https://aads.com/blog/authors/micheal-george/#Person",
 
-  "description": "Michael, as the Analytics & Marketing Manager at A-ADS, takes charge of marketing management, data analytics, tracking, and integration to propel the company's growth. In his capacity as an Analytics & Marketing Manager, Michael utilizes his strong analytical skills to extract meaningful insights from data. By leveraging advanced analytics tools and techniques, he uncovers key trends, identifies opportunities, and provides actionable recommendations to enhance marketing performance. Data tracking and integration are essential aspects of Michael's role. He accurately measures campaign effectiveness, user behavior, and conversion metrics, enabling data-driven decision-making. As a strategic thinker, Michael translates data insights into actionable strategies. He collaborates closely with cross-functional teams to develop and execute marketing campaigns aligned with the company's goals. By monitoring campaign performance, conducting A/B testing, and analyzing customer behavior, Michael drives continuous optimization and growth. He stays updated on the latest industry trends and emerging technologies and ensures that A-ADS remains at the forefront of innovation.",
+  "description": "Michael, as the Analytics & Marketing Manager at AADS, takes charge of marketing management, data analytics, tracking, and integration to propel the company's growth. In his capacity as an Analytics & Marketing Manager, Michael utilizes his strong analytical skills to extract meaningful insights from data. By leveraging advanced analytics tools and techniques, he uncovers key trends, identifies opportunities, and provides actionable recommendations to enhance marketing performance. Data tracking and integration are essential aspects of Michael's role. He accurately measures campaign effectiveness, user behavior, and conversion metrics, enabling data-driven decision-making. As a strategic thinker, Michael translates data insights into actionable strategies. He collaborates closely with cross-functional teams to develop and execute marketing campaigns aligned with the company's goals. By monitoring campaign performance, conducting A/B testing, and analyzing customer behavior, Michael drives continuous optimization and growth. He stays updated on the latest industry trends and emerging technologies and ensures that AADS remains at the forefront of innovation.",
 
-  "worksFor": {"@id":"https://a-ads.com/#Organization"},
+  "worksFor": {"@id":"https://aads.com/#Organization"},
 
   "jobTitle": "Analytics & Marketing Manager",
 
@@ -142,6 +142,6 @@ International Relations
 
 ## Experience: 
 
-Michael, as the Analytics & Marketing Manager at A-ADS, takes charge of marketing management, data analytics, tracking, and integration to propel the company's growth. In his capacity as an Analytics & Marketing Manager, Michael utilizes his strong analytical skills to extract meaningful insights from data. By leveraging advanced analytics tools and techniques, he uncovers key trends, identifies opportunities, and provides actionable recommendations to enhance marketing performance. 
+Michael, as the Analytics & Marketing Manager at AADS, takes charge of marketing management, data analytics, tracking, and integration to propel the company's growth. In his capacity as an Analytics & Marketing Manager, Michael utilizes his strong analytical skills to extract meaningful insights from data. By leveraging advanced analytics tools and techniques, he uncovers key trends, identifies opportunities, and provides actionable recommendations to enhance marketing performance.
 
-Data tracking and integration are essential aspects of Michael's role. He accurately measures campaign effectiveness, user behavior, and conversion metrics, enabling data-driven decision-making. As a strategic thinker, Michael translates data insights into actionable strategies. He collaborates closely with cross-functional teams to develop and execute marketing campaigns aligned with the company's goals. By monitoring campaign performance, conducting A/B testing, and analyzing customer behavior, Michael drives continuous optimization and growth. He stays updated on the latest industry trends and emerging technologies and ensures that A-ADS remains at the forefront of innovation.
+Data tracking and integration are essential aspects of Michael's role. He accurately measures campaign effectiveness, user behavior, and conversion metrics, enabling data-driven decision-making. As a strategic thinker, Michael translates data insights into actionable strategies. He collaborates closely with cross-functional teams to develop and execute marketing campaigns aligned with the company's goals. By monitoring campaign performance, conducting A/B testing, and analyzing customer behavior, Michael drives continuous optimization and growth. He stays updated on the latest industry trends and emerging technologies and ensures that AADS remains at the forefront of innovation.

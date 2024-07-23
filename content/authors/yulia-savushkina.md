@@ -16,9 +16,9 @@ json_ld: >-
 
   "description": "Explores effective crypto advertising strategies and blockchain technology opportunities for different products and projects",
 
-  "url": "https://a-ads.com/blog/authors/yulia-savushkina/",
+  "url": "https://aads.com/blog/authors/yulia-savushkina/",
 
-  "@id": "https://a-ads.com/blog/authors/yulia-savushkina/#ProfilePage",
+  "@id": "https://aads.com/blog/authors/yulia-savushkina/#ProfilePage",
 
   "inLanguage":"en-US",
 
@@ -26,27 +26,27 @@ json_ld: >-
 
   "@type":"WebSite",
 
-  "name":"Crypto & Bitcoin advertising Network | A-ADS",
+  "name":"Crypto & Bitcoin advertising Network | AADS",
 
-  "url":"https://a-ads.com/",
+  "url":"https://aads.com/",
 
-  "@id":"https://a-ads.com/#WebSite",
+  "@id":"https://aads.com/#WebSite",
 
   "publisher": {
 
   "@type":"Organization",
 
-  "name":"A-ADS",
+  "name":"AADS",
 
-  "url":"https://a-ads.com/",
+  "url":"https://aads.com/",
 
-  "@id":"https://a-ads.com/#Organization",
+  "@id":"https://aads.com/#Organization",
 
   "logo": {
 
   "@type": "ImageObject",
 
-  "url": "https://a-ads.com/assets/A-ads-logo-9f20c608e2a6cab649175cec3c3976253264542bc7b570a5de64eb3e206b5935.svg",
+  "url": "https://aads.com/assets/A-ads-logo-9f20c608e2a6cab649175cec3c3976253264542bc7b570a5de64eb3e206b5935.svg",
 
   "width": 708,
 
@@ -56,13 +56,13 @@ json_ld: >-
 
   "image": [
 
-  "https://a-ads.com/assets/A-ads-logo-9f20c608e2a6cab649175cec3c3976253264542bc7b570a5de64eb3e206b5935.svg",
+  "https://aads.com/assets/A-ads-logo-9f20c608e2a6cab649175cec3c3976253264542bc7b570a5de64eb3e206b5935.svg",
 
-  "https://a-ads.com/assets/white-logo-7d7ddcdf6524fe36de88a5de9e76e6c6a6401b5e78910c27c1f0e7213cdc97bb.svg"
+  "https://aads.com/assets/white-logo-7d7ddcdf6524fe36de88a5de9e76e6c6a6401b5e78910c27c1f0e7213cdc97bb.svg"
 
   ],
 
-  "publishingPrinciples": "https://a-ads.com/about-us"
+  "publishingPrinciples": "https://aads.com/about-us"
 
   }
 
@@ -72,13 +72,13 @@ json_ld: >-
 
   "@type": "Person",
 
-  "mainEntityOfPage": "https://a-ads.com/blog/authors/yulia-savushkina/",
+  "mainEntityOfPage": "https://aads.com/blog/authors/yulia-savushkina/",
 
   "name": "Yulia Savushkina",
 
-  "url": "https://a-ads.com/blog/authors/yulia-savushkina/",
+  "url": "https://aads.com/blog/authors/yulia-savushkina/",
 
-  "@id": "https://a-ads.com/blog/authors/yulia-savushkina/#Person",
+  "@id": "https://aads.com/blog/authors/yulia-savushkina/#Person",
 
   "description": "Yulia is a Marketing Specialist and Content Creator who understands effective advertising strategies and technology opportunities for various products and projects. Her expertise lies in exploring innovative advertising techniques and staying up to date with the latest trends and advancements in marketing technology. She has a proven track record of successfully leveraging various digital platforms, social media channels, and online advertising tools to drive brand awareness and achieve marketing objectives. Yulia is also a content creator with strong writing skills that enable her to convey brand messages effectively and tailor content to various platforms and channels. She works with cross-functional teams, collaborating closely with designers, developers, and product managers to ensure cohesive brand messaging and seamless execution of marketing initiatives.",
 
@@ -88,7 +88,7 @@ json_ld: >-
 
   ],
 
-  "worksFor": {"@id":"https://a-ads.com/#Organization"},
+  "worksFor": {"@id":"https://aads.com/#Organization"},
 
   "jobTitle": "Digital Marketing Specialist",
 

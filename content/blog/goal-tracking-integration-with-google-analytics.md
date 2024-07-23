@@ -13,9 +13,9 @@ category_second_level:
 author: Micheal George
 thumbnail: /blog/assets/goal-tracking-integration-with-google-analytic-logo-main.png
 big_picture: /blog/assets/goal-tracking-integration-plus-google-analytic-logo-square.png
-meta_title: Goal tracking integration with Google Analytics | A-ADS Blog
+meta_title: Goal tracking integration with Google Analytics | AADS Blog
 meta_description: Learn how to integrate goal tracking with Google Analytics and
-  your A-ADS campaign. With just a hosted website, GA account, and an A-ADS
+  your AADS campaign. With just a hosted website, GA account, and an AADS
   account with goal tracking enabled, you can easily measure your advertising
   ROI and track your website traffic. Follow these simple steps to complete the
   integration.
@@ -30,8 +30,8 @@ meta_description: Learn how to integrate goal tracking with Google Analytics and
 
 1. A hosted website
 2. GA account
-3. A-ADS Account
-4. A-ADS campaign with goal tracking enabled.
+3. AADS Account
+4. AADS campaign with goal tracking enabled.
 
 **Let’s start!**
 
@@ -47,7 +47,7 @@ Please note, step one to step four is to be ignored if you already use GA.
 ![google analytics create property](../../static/assets/google-analytics-create-propery.png "google analytics create property")
 
 4. Copy and paste the tracking code into your website.
-5. Go to [a-ads.com](https://a-ads.com) .
+5. Go to [aads.com](https://aads.com) .
 6. Create a new campaign, or go to your existing campaign’s dashboard.
 7. Enable goal tracking, as seen in the image below.
 
@@ -68,7 +68,7 @@ Utm_Campaign = MyCampaignName
 Utm_term = {{partner}}
 ```
 
-9. After your A-ADS campaign starts running and has generated clicks, go to "Acquisition>>Campaigns>>All Campaigns" of your  GA dashboard.
+9. After your AADS campaign starts running and has generated clicks, go to "Acquisition>>Campaigns>>All Campaigns" of your  GA dashboard.
 
 ![Google Analytics campaigns](../../static/assets/campaign-mycompaign.png "Google Analytics campaigns")
 

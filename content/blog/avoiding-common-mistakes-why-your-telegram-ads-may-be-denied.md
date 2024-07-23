@@ -12,7 +12,7 @@ author: Yulia Savushkina
 thumbnail: blog/assets/avoiding-common-mistakes_-why-your-telegram-ads-may-be-denied.png
 big_picture: blog/assets/short-11-.png
 popularity: ""
-meta_title: "Avoiding Common Mistakes: Why Your Telegram Ads May Be Denied | A-ADS Blog"
+meta_title: "Avoiding Common Mistakes: Why Your Telegram Ads May Be Denied | AADS Blog"
 meta_description: Learn how to avoid common mistakes that lead to ad rejection
   on Telegram. Understand the obvious reasons like profanity and explicit
   content, as well as the lesser-known factors such as incorrect text formatting

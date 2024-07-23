@@ -32,7 +32,7 @@ const IndexPage = (props: any) => {
     <>
       <section aria-label='Crypto Marketing & Trends' className='relative'>
         <h1 className='container large mb-10 mt-12 tablet:mt-8 phone:my-5'>
-          A-ADS Crypto Blog
+          AADS Crypto Blog
         </h1>
          {/* @ts-ignore */}
         <BlogPostGrid posts={top} amount={5} isPagination={false}/>

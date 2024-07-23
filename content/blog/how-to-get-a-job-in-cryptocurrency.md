@@ -11,7 +11,7 @@ author: Emmanuel Olatunji
 thumbnail: ../../static/assets/full-50-.png
 big_picture: ../../static/assets/short-27-.png
 popularity: "0"
-meta_title: Careers in cryptocurrency | How to Get a Job in Crypto | A-ADS Blog
+meta_title: Careers in cryptocurrency | How to Get a Job in Crypto | AADS Blog
 meta_description: As cryptocurrency becomes mainstream, employers look for
   candidates experienced with the emerging technology. If you are aspiring to
   build a career in cryptocurrency, let's go through this article and learn how

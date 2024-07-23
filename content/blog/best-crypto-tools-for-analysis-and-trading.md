@@ -103,7 +103,7 @@ Best Crypto Wallets include: 
 
 3. [Trust Wallet](https://trustwallet.com/)
 
-Read more about "5 crypto wallets that earn interest in 2024" in our article [here](https://a-ads.com/blog/5-crypto-wallets-that-earn-interest-in-2023).
+Read more about "5 crypto wallets that earn interest in 2024" in our article [here](https://aads.com/blog/5-crypto-wallets-that-earn-interest-in-2023).
 
 ## 5. Market Analysis Tools 
 

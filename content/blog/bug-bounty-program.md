@@ -9,7 +9,7 @@ category_top_level:
   - Guides
 author: Yulia Savushkina
 thumbnail: ../../static/assets/illustration-3.png
-meta_title: Bug bounty program | A-ADS Blog
+meta_title: Bug bounty program | AADS Blog
 meta_description: Want to enhance our security? Join our Bug Bounty Program. We
   welcome reports from all researchers, whether experienced or beginners. Please
   provide details on the vulnerability, including its potential impact and

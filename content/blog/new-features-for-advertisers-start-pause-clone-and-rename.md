@@ -12,7 +12,7 @@ category_top_level:
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/undraw_decide_3iwxобложка.png
 big_picture: ../../static/assets/undraw_decide_3iwxквадрат.png
-meta_title: "New features for advertisers: Start / Pause / Clone and Rename! | A-ADS Blog"
+meta_title: "New features for advertisers: Start / Pause / Clone and Rename! | AADS Blog"
 meta_description: Exciting news for our advertisers! We have added new features
   to make managing your campaigns easier. You can now rename your campaigns and
   clone them with the click of a button. Starting and pausing campaigns is also

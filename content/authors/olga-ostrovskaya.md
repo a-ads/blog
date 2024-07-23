@@ -16,32 +16,32 @@ json_ld: >-
 
   "description": "Works with data to make data-driven decisions",
 
-  "url": "https://a-ads.com/blog/authors/olga-ostrovskaya/",
+  "url": "https://aads.com/blog/authors/olga-ostrovskaya/",
 
-  "@id": "https://a-ads.com/blog/authors/olga-ostrovskaya/#ProfilePage",
+  "@id": "https://aads.com/blog/authors/olga-ostrovskaya/#ProfilePage",
 
   "inLanguage":"en-US",
       "isPartOf": {
         "@type":"WebSite",
-        "name":"Crypto & Bitcoin advertising Network | A-ADS",
-        "url":"https://a-ads.com/",
-        "@id":"https://a-ads.com/#WebSite",
+        "name":"Crypto & Bitcoin advertising Network | AADS",
+        "url":"https://aads.com/",
+        "@id":"https://aads.com/#WebSite",
         "publisher": {
           "@type":"Organization",
-          "name":"A-ADS",
-          "url":"https://a-ads.com/",
-          "@id":"https://a-ads.com/#Organization",   
+          "name":"AADS",
+          "url":"https://aads.com/",
+          "@id":"https://aads.com/#Organization",
           "logo": {
           "@type": "ImageObject",
-          "url": "https://a-ads.com/assets/A-ads-logo-9f20c608e2a6cab649175cec3c3976253264542bc7b570a5de64eb3e206b5935.svg",
+          "url": "https://aads.com/assets/A-ads-logo-9f20c608e2a6cab649175cec3c3976253264542bc7b570a5de64eb3e206b5935.svg",
           "width": 708,
           "height": 188
       },
   	    "image": [
-          "https://a-ads.com/assets/A-ads-logo-9f20c608e2a6cab649175cec3c3976253264542bc7b570a5de64eb3e206b5935.svg",
-          "https://a-ads.com/assets/white-logo-7d7ddcdf6524fe36de88a5de9e76e6c6a6401b5e78910c27c1f0e7213cdc97bb.svg"
+          "https://aads.com/assets/A-ads-logo-9f20c608e2a6cab649175cec3c3976253264542bc7b570a5de64eb3e206b5935.svg",
+          "https://aads.com/assets/white-logo-7d7ddcdf6524fe36de88a5de9e76e6c6a6401b5e78910c27c1f0e7213cdc97bb.svg"
           ],
-  	  "publishingPrinciples": "https://a-ads.com/about-us"
+  	  "publishingPrinciples": "https://aads.com/about-us"
       }
   },
 
@@ -49,17 +49,17 @@ json_ld: >-
 
   "@type": "Person",
 
-  "mainEntityOfPage": "https://a-ads.com/blog/authors/olga-ostrovskaya/",
+  "mainEntityOfPage": "https://aads.com/blog/authors/olga-ostrovskaya/",
 
   "name": "Olga Ostrovskaya",
 
-  "url": "https://a-ads.com/blog/authors/olga-ostrovskaya/",
+  "url": "https://aads.com/blog/authors/olga-ostrovskaya/",
 
-  "@id": "https://a-ads.com/blog/authors/olga-ostrovskaya/#Person",
+  "@id": "https://aads.com/blog/authors/olga-ostrovskaya/#Person",
 
-  "description": "Olga is a skilled Data Analyst with a strong background in handling complex datasets and extracting valuable insights. She has a proven track record of applying statistical techniques and data visualization tools to analyze data and drive data-driven decision-making. With SQL and database management expertise, Olga efficiently collects, cleans, and manipulates data from various sources to make A-ADS business strategies more effective. Olga's experience includes performing exploratory data analysis to identify patterns, trends, and correlations. She excels at developing clear and concise reports, dashboards, and presentations to communicate data findings to stakeholders effectively. Olga is adept at interpreting data in the context of business objectives and industry trends, providing actionable insights that support strategic decision-making. As a data-driven professional, Olga deeply understands statistical modeling, data mining techniques, and machine learning algorithms.",
+  "description": "Olga is a skilled Data Analyst with a strong background in handling complex datasets and extracting valuable insights. She has a proven track record of applying statistical techniques and data visualization tools to analyze data and drive data-driven decision-making. With SQL and database management expertise, Olga efficiently collects, cleans, and manipulates data from various sources to make AADS business strategies more effective. Olga's experience includes performing exploratory data analysis to identify patterns, trends, and correlations. She excels at developing clear and concise reports, dashboards, and presentations to communicate data findings to stakeholders effectively. Olga is adept at interpreting data in the context of business objectives and industry trends, providing actionable insights that support strategic decision-making. As a data-driven professional, Olga deeply understands statistical modeling, data mining techniques, and machine learning algorithms.",
 
-  "worksFor": {"@id":"https://a-ads.com/#Organization"},
+  "worksFor": {"@id":"https://aads.com/#Organization"},
 
   "jobTitle": "Data Analyst",
 
@@ -118,7 +118,7 @@ json_ld: >-
 ---
 ## Experience: 
 
-Olga is a skilled Data Analyst with a strong background in handling complex datasets and extracting valuable insights. She has a proven track record of applying statistical techniques and data visualization tools to analyze data and drive data-driven decision-making. With SQL and database management expertise, Olga efficiently collects, cleans, and manipulates data from various sources to make A-ADS business strategies more effective. 
+Olga is a skilled Data Analyst with a strong background in handling complex datasets and extracting valuable insights. She has a proven track record of applying statistical techniques and data visualization tools to analyze data and drive data-driven decision-making. With SQL and database management expertise, Olga efficiently collects, cleans, and manipulates data from various sources to make AADS business strategies more effective.
 
 Olga's experience includes performing exploratory data analysis to identify patterns, trends, and correlations. She excels at developing clear and concise reports, dashboards, and presentations to communicate data findings to stakeholders effectively. Olga is adept at interpreting data in the context of business objectives and industry trends, providing actionable insights that support strategic decision-making. 
 

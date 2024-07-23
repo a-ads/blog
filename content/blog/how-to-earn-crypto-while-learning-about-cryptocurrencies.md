@@ -12,7 +12,7 @@ thumbnail: ../../static/assets/full-13-.png
 big_picture: ../../static/assets/short-10-.png
 popularity: "0"
 meta_title: How to earn crypto while learning about cryptocurrencies | Beginners
-  Guide | A-ADS Blog
+  Guide | AADS Blog
 meta_description: You may not need to buy or mine crypto to acquire some coins,
   but you do still have to give something in return. Let’s browse how to earn
   crypto while learning about cryptocurrencies and as well as what programs
@@ -84,7 +84,7 @@ Consider some tips to get started: 
 
 1. **Participate in cryptocurrency communities:** Many cryptocurrency communities offer rewards for participation. For example, you can earn tokens for contributing to forums, creating content, or referring friends. 
 2. **Take online courses:** Many online courses now offer crypto rewards for completing them. 
-3. **Participate in airdrops:** [Airdrops are a great way to earn free crypto](https://a-ads.com/blog/what-is-a-crypto-airdrop-meaning-types-and-how-does-it-work/). They're typically used to promote new cryptocurrencies, and in exchange for signing up, you can receive some of the new tokens. 
+3. **Participate in airdrops:** [Airdrops are a great way to earn free crypto](https://aads.com/blog/what-is-a-crypto-airdrop-meaning-types-and-how-does-it-work/). They're typically used to promote new cryptocurrencies, and in exchange for signing up, you can receive some of the new tokens.
 4. **Complete micro-tasks:** You can also earn crypto by completing micro-tasks online. Platforms like Earn.com and Bounty0x offer small crypto rewards for completing simple tasks like filling out surveys or testing new products. 
 
 ## What Are The Best Learn-And-Earn Crypto Programs In 2023?

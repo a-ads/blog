@@ -16,7 +16,7 @@ meta_description: ""
 meta_keywords: ""
 json_ld: ""
 ---
-The code for embedding the A-ADS ad unit consists of simple and short HTML code, which is easy to embed in any website and does not compromise the security of the site and its users. 
+The code for embedding the AADS ad unit consists of simple and short HTML code, which is easy to embed in any website and does not compromise the security of the site and its users.
 
 Here's what the HTML code for embedding the ad unit looks like:![](https://lh7-us.googleusercontent.com/JkWc-3D8Fo096D0bhJLIwJePzgYZGsprGSfCiAnxzp4cLYvsLefmaHf5HBKhgsyr8GiGlzJKLhrL4U8UJkgSWVf9skiAy4fBVTivSEN4kW58hCX2hBmW9c9yF5quhkDxIkrR-FnmOk1nSRqBkehuXNY)
 
@@ -50,4 +50,4 @@ JavaScript's flexibility and control over the Document Object Model (DOM) make i
 
 JavaScript often relies on numerous third-party libraries and frameworks, which can introduce hidden vulnerabilities if these dependencies are not properly managed or audited. The more complex the code and the more extensive the dependencies, the higher the risk of security vulnerabilities.
 
-For the reasons listed — ease of use, ease of control, and high security — you can be assured that you are using the best solution for embedding an ad unit on your website. When using programming languages outside of the A-ADS advertising network, be cautious and consider the risks in relation to your website and its users.
+For the reasons listed — ease of use, ease of control, and high security — you can be assured that you are using the best solution for embedding an ad unit on your website. When using programming languages outside of the AADS advertising network, be cautious and consider the risks in relation to your website and its users.

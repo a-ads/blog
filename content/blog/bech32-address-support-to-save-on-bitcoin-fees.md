@@ -11,8 +11,8 @@ category_top_level:
   - Guides
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/illustration-8.png
-meta_title: Bech32 address support to save on bitcoin fees | A-ADS Blog
-meta_description: Learn how A-ADS now supports Bech32 addresses for bitcoin
+meta_title: Bech32 address support to save on bitcoin fees | AADS Blog
+meta_description: Learn how AADS now supports Bech32 addresses for bitcoin
   withdrawals, and how using this address format can reduce transaction fees by
   38%. Discover the benefits of SegWit transactions and how they can improve
   Bitcoin throughput. Read this article to get valuable insights on how to

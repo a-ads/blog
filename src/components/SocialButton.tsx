@@ -30,9 +30,9 @@ export const socials = {
       text: 'Facebook Messenger',
     },
     support: {
-      to: 'mailto:support@a-ads.com',
+      to: 'mailto:support@aads.com',
       icon: <Envelope />,
-      text: 'support@a-ads.com',
+      text: 'support@aads.com',
     },
     whatsapp: {
       to: 'https://web.dev/i18n/ru/link-name/',

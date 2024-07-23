@@ -11,9 +11,9 @@ category_top_level:
   - Guides
 author: Olga Ostrovskaya
 thumbnail: ../../static/assets/illustration-2.png
-meta_title: Become our affiliate partner and take 50% of our fees! | A-ADS Blog
+meta_title: Become our affiliate partner and take 50% of our fees! | AADS Blog
 meta_description: Join our affiliate program and earn 50% of our fees! With
-  A-ADS, you can invite others to advertise with us and receive 10% of their
+  AADS, you can invite others to advertise with us and receive 10% of their
   spending. By using a referral link and tracking cookies, you can earn
   commissions on your referrals for 6 months after they create a campaign or
   user account. Our payouts are transparent and can be viewed on our website.
@@ -22,9 +22,9 @@ meta_description: Join our affiliate program and earn 50% of our fees! With
   site works as an affiliate link by default. Don't miss out on this opportunity
   to earn money - become our affiliate partner today!
 ---
-If you invite others to advertise with A-ADS, you can count on 10% of money spent by them. When somebody follows your partner link, we use a cookie to track his activity. An advertiser is considered your referral for 6 months after he creates a campaign or a user account via your link. Our payouts are transparent and you can see them here: <https://a-ads.com/campaigns/1/goals>
+If you invite others to advertise with AADS, you can count on 10% of money spent by them. When somebody follows your partner link, we use a cookie to track his activity. An advertiser is considered your referral for 6 months after he creates a campaign or a user account via your link. Our payouts are transparent and you can see them here: <https://aads.com/campaigns/1/goals>
 
-You can create an affiliate ad unit here: <https://a-ads.com/ad_units/new>
+You can create an affiliate ad unit here: <https://aads.com/ad_units/new>
 
 Actually ad units of "site" and "app" types can work as affiliate ones too. An affiliate link is generated automatically for any ad unit, it can be found in the bottom right corner of an ad unit page. 
 
