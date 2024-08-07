@@ -1,9 +1,0 @@
-.icon {
-  @apply flex justify-center items-center relative;
-  transition: 0.5s ease;
-
-  *:not(rect) {
-    height: inherit;
-    width: inherit;
-  }
-}
