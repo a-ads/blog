@@ -22,9 +22,7 @@ meta_description: Get answers to all your questions about advertising on AADS
 
 We offer non-intrusive advertising, which'sthat is why we support only text and graphic banners embedded on sites, mobile apps, browser extensions, etc. We do not serve popunders or popups. Moreover, our ads don't contain JavaScript and don't leave cookies (until visitors click the ads).
 
-
 We support graphic files in PNG, JPEG, and GIF formats. Each file must be less than 700 kB. Accepted banner sizes are: 120x60, 120x600, 125x125, 160x600, 200x200, 240x400, 250x250, 300x250, 300x600, 320x50, 320x100, 336x280, 468x60, 728x90, 970x90, 970x250.
-
 
 The more banners you have, the better. The most popular sizes are 300x250, 468x60, and 728x90, so you need them first.
 
@@ -38,7 +36,7 @@ If you want to advertise a crypto-related business, you might be interested in t
 
 ### What are the Available Payment Models?
 
-Our main payment model is a daily budget. [CPM bids](https://aads.com/blog/how-to-use-cpm-bids-with-a-ads/) are also available, but the daily budget is preferable.
+Our primary model is CPD (cost per day). We also work with CPA (cost per action) and Revenue Sharing models.
 
 ### Is there a Minimum Daily Budget?
 
