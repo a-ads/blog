@@ -32,7 +32,7 @@ We will mainly cover the following platforms:
 
 Let's start with the Dexcreener one. 
 
-1. ## Dexscreener
+## 1. Dexscreener
 
 Dexscreener is a decentralized exchange (DEX) aggregator known for its real-time data analytics and tracking features. It offers comprehensive tracking of liquidity pools and trading volumes, making it a valuable tool for crypto investors who require up-to-the-minute data to make informed decisions. The platform has a user-friendly interface, which allowsquick navigation and is pretty accessible even to those who may not be tech-savvy. 
 
