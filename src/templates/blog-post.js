@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import Img from 'gatsby-image'
 import cn from 'classnames'
 
 import MainLayout from '/src/layouts/MainLayout'
@@ -10,6 +11,7 @@ const BlogPost = ({
   pageContext
 }) => {
   const { html } = data.markdownRemark
+  const { author } = data
 
   return <MainLayout>
     <div className={css.blogPost}>
@@ -28,7 +30,12 @@ const BlogPost = ({
 
         <div className={css.sidebar}>
           <div className={css.author}>
-            <div></div>
+            <div>
+              <Img
+                fixed={author.frontmatter.thumbnail.childImageSharp.fixed}
+              />
+            </div>
+            <p>{author.frontmatter.name}</p>
           </div>
         </div>
       </div>
@@ -37,11 +44,24 @@ const BlogPost = ({
 }
 
 export const pageQuery = graphql`
-  query($slug: String!) {
+  query($slug: String!, $authorName: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
         title
+      }
+    }
+    author: markdownRemark(frontmatter: { name: { eq: $authorName } }) {
+      frontmatter {
+        name
+        position
+        thumbnail {
+          childImageSharp {
+            fixed {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
       }
     }
   }

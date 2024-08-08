@@ -70,7 +70,15 @@ module.exports = {
         "path": "./src/images/"
       },
       __key: "images"
-    }, 
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        "name": "images",
+        "path": "./static/assets/"
+      },
+      __key: "assets"
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {

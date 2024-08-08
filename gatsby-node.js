@@ -54,6 +54,9 @@ exports.createPages = async ({ graphql, actions }) => {
             fields {
               slug
             }
+            frontmatter {
+              author
+            }
           }
         }
       }
@@ -80,13 +83,13 @@ exports.createPages = async ({ graphql, actions }) => {
     })
   })
 
-  
   posts.forEach((post) => {
     createPage({
       path: post.node.fields.slug,
       component: path.resolve('./src/templates/blog-post.js'),
       context: {
         slug: post.node.fields.slug,
+        authorName: post.node.frontmatter.author
       },
     })
   })
