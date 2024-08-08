@@ -83,7 +83,7 @@ However, blue can also have negative associations. It's not a standard color for
 
 By understanding the different aspects of blue and its effects, brands can use it effectively to inspire trust and reliability while being mindful of potential negative associations.
 
-## Orange (здесь можно сделать примеры иллюстраций по цветам для наглядности) 
+## Orange
 
 Orange is a bright color that conveys confidence, creativity, and courage. It works well for noncorporate brands because of its fun nature. Additionally, orange creates a warm feeling associated with the sun.
 
@@ -132,19 +132,12 @@ But pink can also evoke a sense of childlike innocence or rebelliousness. Initia
 To make color psychology work for your marketing goals, here's a simple recap of tactics you can use:
 
 1. Learn the basics of color psychology.
-
 2. Start by considering the emotions you want to evoke.
-
 3. Look for inspiration from other successful brands.
-
 4. Create a color palette that represents your brand.
-
 5. Keep cultural context in mind when choosing colors.
-
 6. Consider incorporating blue, as it has a calming effect.
-
 7. Maintain consistency in your branding.
-
 8. Test different colors with your audience to see what resonates.
 
 Remember, color psychology is a powerful tool for connecting with your audience and achieving your marketing objectives.
