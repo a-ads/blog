@@ -11,7 +11,7 @@ import Pagination from '/src/components/Pagination/Pagination'
 import AdvertiserBanner from '/src/components/AdvertiserBanner/AdvertiserBanner'
 import PublisherBanner from '/src/components/PublisherBanner/PublisherBanner'
 import ContactChannels from '/src/components/ContactChannels/ContactChannels'
-import * as css from '/src/styles/pages/index.module.scss'
+import * as css from '/src/styles/templates/index.module.scss'
 
 const mapIndexed = R.addIndex(R.map)
 
@@ -46,7 +46,7 @@ const IndexPage = ({
               return <ArticleCard
                 large={index === 0}
                 slug={node.fields.slug}
-                picSrc={node.frontmatter.thumbnail}
+                picSrc={node.frontmatter.thumbnail?.childImageSharp.fixed}
                 title={node.frontmatter.title}
                 category={R.take(1, node.frontmatter.category_top_level)}
               />

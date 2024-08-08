@@ -13,6 +13,11 @@
     height: 180px;
     background-position: center center;
     background-size: cover;
+    
+    > div {
+      width: 100%!important;
+      height: 100%!important;
+    }
   }
 
   .text {

@@ -28,7 +28,12 @@ const ArticleCard = props => {
     to={slug}
   >
     <div className={css.picture}>
-     <Img fixed={picSrc} />
+      <Img
+        fixed={picSrc}
+        objectFit="cover"
+        objectPosition="50% 50%"
+        alt={title}
+      />
     </div>
     <div className={css.text}>
       <p className={css.category}>{category}</p>
