@@ -8,15 +8,15 @@ const POSTS_PER_PAGE = 8
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
 
-  if (node.internal.type === 'MarkdownRemark') {
-    if (R.startsWith(node.frontmatter.thumbnail, 'blog/assets/')) {
+  if (node.internal.type === 'MarkdownRemark') {    
+    if (R.startsWith('blog/assets/', node.frontmatter.thumbnail)) {
       node.frontmatter.thumbnail = node.frontmatter.thumbnail.replace(
         'blog/assets/',
         '../../static/assets/'
       )
     }
 
-    if (R.startsWith(node.frontmatter.thumbnail, '/blog/assets/')) {
+    if (R.startsWith('/blog/assets/', node.frontmatter.thumbnail)) {
       node.frontmatter.thumbnail = node.frontmatter.thumbnail.replace(
         '/blog/assets/',
         '../../static/assets/'
