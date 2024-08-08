@@ -18,6 +18,8 @@ json_ld: ""
 ---
 The rebranding features a simple company name inscription with an 'A' in a circle instead of the well-known mustache icon. Also, the company's name no longer contains a hyphen and has become one character shorter - AADS.
 
+![](/blog/assets/screenshot-3-.png)
+
 The original AADS logo debuted in 2011 alongside the network's launch, emphasizing anonymity as the primary value proposition. Hence, the logo depicted "Mr. Anonymity," aligning with the company's full name, Anonymous Ads. 
 
 Over the years, the logo underwent minor changes in color and font. Below, you can compare the two AADS logos.
