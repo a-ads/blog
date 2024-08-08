@@ -20,7 +20,7 @@ json_ld: ""
 ---
 Red makes you hungry, blue calms you, and yellow gives you a “pick-me-up” mood. Color psychology—leveraging colors to produce an effect—can influence 85% of customers' purchasing decisions. For example, merchandisers use different colors to trigger emotions needed to get customers to buy. In this article we will have a look at what colors can attract more attention to your ad campaign.
 
-# How Entrepreneurs Can Use Color Psychology for Their Needs? 
+## How Entrepreneurs Can Use Color Psychology for Their Needs? 
 
 Color psychology plays a significant role in how consumers make decisions and evaluate brands. Let’s check some figures:
 
