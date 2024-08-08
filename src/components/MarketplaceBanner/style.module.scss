@@ -3,6 +3,10 @@
   background: rgba(5, 131, 248, 1);
   padding: 42px 90px;
   border-radius: 24px;
+  background-image: url('/images/promo.svg');
+  background-size: auto 100%;
+  background-position: top right;
+  background-repeat: no-repeat;
 
   .title {
     margin-bottom: 8px;
@@ -10,5 +14,11 @@
 
   .description {
     margin-bottom: 18px;
+  }
+
+  .button {
+    min-width: 300px;
+    box-sizing: border-box;
+    text-align: center;
   }
 }

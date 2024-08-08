@@ -1,5 +1,6 @@
 import React from 'react'
 import cn from 'classnames'
+import { Link } from 'gatsby'
 
 import * as css from './style.module.scss'
 import '/src/styles/main.scss'
@@ -10,9 +11,9 @@ const MainLayout = props => {
   return (<>
     <header className={css.header}>
       <div className={cn(css.container, 'container')}>
-        <a className={css.logo}>
+        <Link to="/" className={css.logo}>
           <img src='/images/logo.svg' alt='aads logo' width={132} height={45} />
-        </a>
+        </Link>
 
         <div className={css.navigation}>
           <a href='#'>Advertisers</a>

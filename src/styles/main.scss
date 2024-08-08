@@ -98,6 +98,12 @@ ul.checklist {
   display: inline-block;
 }
 
+.button.--large {
+  line-height: 28px;
+  font-size: 16px;
+  border-radius: 56px;
+}
+
 .button.--white {
   background-color: white;
   color: $primary-blue-color;

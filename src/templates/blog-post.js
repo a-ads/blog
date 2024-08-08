@@ -10,7 +10,7 @@ const BlogPost = ({
   data,
   pageContext
 }) => {
-  const { html } = data.markdownRemark
+  const post = data.markdownRemark
   const { author } = data
 
   return <MainLayout>
@@ -22,20 +22,27 @@ const BlogPost = ({
             <span className={css.dot} />
             <a>Publishers</a>
           </div>
-
+          <div className={css.articlePicture}>
+            <Img
+              fluid={post.frontmatter.thumbnail?.childImageSharp.fluid}
+            />
+          </div>
           <article className={css.article} 
-            dangerouslySetInnerHTML={{__html: html}}
+            dangerouslySetInnerHTML={{__html: post.html}}
           />
         </div>
 
         <div className={css.sidebar}>
-          <div className={css.author}>
-            <div>
-              <Img
-                fixed={author.frontmatter.thumbnail.childImageSharp.fixed}
-              />
+          <div className={css.stickyWrap}>
+            <div className={css.author}>
+              <div className={css.pic}>
+                <Img
+                  fixed={author.frontmatter.thumbnail?.childImageSharp.fixed}
+                />
+              </div>
+              <p className={css.name}>{author.frontmatter.name}</p>
+              <p className={css.position}>{author.frontmatter.position}</p>
             </div>
-            <p>{author.frontmatter.name}</p>
           </div>
         </div>
       </div>
@@ -49,6 +56,13 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        thumbnail {
+          childImageSharp {
+            fluid(maxWidth: 1100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
     author: markdownRemark(frontmatter: { name: { eq: $authorName } }) {
