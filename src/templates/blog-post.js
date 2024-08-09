@@ -22,6 +22,8 @@ const BlogPost = ({
             <span className={css.dot} />
             <a>Publishers</a>
           </div>
+          <h1 className={css.title}>{post.frontmatter.title}</h1>
+          <p className={css.date}>Updated: {post.frontmatter.date}</p>
           <div className={css.articlePicture}>
             <Img
               fluid={post.frontmatter.thumbnail?.childImageSharp.fluid}
@@ -56,6 +58,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        date
         thumbnail {
           childImageSharp {
             fluid(maxWidth: 1100) {

@@ -25,18 +25,45 @@
     }
   }
 
+  .title {
+    margin-bottom: 12px;
+  }
+
+  .date {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--Text-Secondary, rgba(149, 154, 157, 1));
+    margin-bottom: 40px;
+  }
+
   .categories {
+    margin-bottom: 12px;
+
     a {
       font-size: 16px;
       font-family: 'Poppins', sans-serif;
       line-height: 28px;
       font-weight: 600;
     }
+
+    .dot {
+      margin: 0 2px;
+    }
+
+    .dot::before {
+      content: '∙';
+      display: inline-block;
+      font-size: 16px;
+      color: rgba(149, 154, 157, 1);
+      font-weight: 400;
+    }
   }
 
   .article-picture {
     overflow: hidden;
     border-radius: 24px;
+    margin-bottom: 40px;
   }
 
   .article {

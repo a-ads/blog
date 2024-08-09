@@ -43,4 +43,6 @@ const ArticleCard = props => {
   </Link>
 }
 
+ArticleCard.propTypes = propTypes
+
 export default ArticleCard

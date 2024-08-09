@@ -145,4 +145,16 @@ ul.checklist {
     line-height: 28px;
     font-weight: 600;
   }
+
+  .dot {
+    margin: 0 2px;
+  }
+
+  .dot::before {
+    content: '∙';
+    display: inline-block;
+    font-size: 16px;
+    color: rgba(149, 154, 157, 1);
+    font-weight: 400;
+  }
 }

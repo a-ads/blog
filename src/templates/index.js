@@ -15,6 +15,10 @@ import * as css from '/src/styles/templates/index.module.scss'
 
 const mapIndexed = R.addIndex(R.map)
 
+export const Head = () => <title>
+  AADS Crypto Blog - marketing guides, tips and news to cryptocurrencies market
+</title>
+
 const IndexPage = ({
   data,
   pageContext
@@ -110,5 +114,3 @@ export const pageQuery = graphql`
 `
 
 export default IndexPage
-
-export const Head = () => <title>Home Page</title>
