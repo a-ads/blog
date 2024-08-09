@@ -1,7 +1,8 @@
 const { createFilePath } = require('gatsby-source-filesystem')
-const fs = require('fs')
 const path = require(`path`)
 const R = require('ramda')
+
+const toKebabCase = require('./src/utils/to-kebab-case')
 
 const POSTS_PER_PAGE = 8
 
@@ -56,6 +57,7 @@ exports.createPages = async ({ graphql, actions }) => {
             }
             frontmatter {
               author
+              category_top_level
             }
           }
         }
@@ -72,7 +74,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
-      path: i === 0 ? `/` : `/page/${i + 1}`,
+      path: i === 0 ? `/` : `/page/${i + 1}/`,
       component: path.resolve('./src/templates/index.js'),
       context: {
         limit: POSTS_PER_PAGE,
@@ -90,6 +92,24 @@ exports.createPages = async ({ graphql, actions }) => {
       context: {
         slug: post.node.fields.slug,
         authorName: post.node.frontmatter.author
+      },
+    })
+  })
+
+  const topLevelCategories = R.pipe(
+    R.reduce((acc, item) => {
+      acc.push(item.node.frontmatter.category_top_level[0])      
+      return acc
+    }, []),
+    R.uniq
+  )(posts)
+
+  topLevelCategories.forEach(category => {
+    createPage({
+      path: `/${toKebabCase(category)}/`,
+      component: path.resolve('./src/templates/categories.js'),
+      context: {
+        categoryTopLevel: category
       },
     })
   })
