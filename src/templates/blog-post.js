@@ -49,6 +49,59 @@ const BlogPost = ({
               <p className={css.name}>{author.frontmatter.name}</p>
               <p className={css.position}>{author.frontmatter.position}</p>
             </div>
+
+            <div className={css.tableOfContents}>
+              <div className={css.tocContainer}>
+                <p className={css.tocTitle}>
+                  Read in this article
+                </p>
+              </div>
+
+              <div
+                className={css.tocContainer}
+                dangerouslySetInnerHTML={{__html: post.tableOfContents}}
+              />
+
+              <div className={css.share}>
+                <div className={css.tocContainer}>
+                  <p>Share this article</p>
+                  <div>
+                    <a>
+                      <img 
+                        src="/images/link-share.svg"
+                        width={25}
+                        height={25}
+                        alt="link-share"
+                      />
+                    </a>
+                    <a>
+                      <img 
+                        src="/images/twitter-share.svg"
+                        width={25}
+                        height={25}
+                        alt="twitter-share"
+                      />
+                    </a>
+                    <a>
+                      <img 
+                        src="/images/linkedin-share.svg"
+                        width={25}
+                        height={25}
+                        alt="linkedin-share"
+                      />
+                    </a>
+                    <a>
+                      <img 
+                        src="/images/fb-share.svg"
+                        width={25}
+                        height={25}
+                        alt="fb-share"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -59,7 +112,6 @@ const BlogPost = ({
 export const pageQuery = graphql`
   query($slug: String!, $authorName: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
       frontmatter {
         title
         date
@@ -72,6 +124,8 @@ export const pageQuery = graphql`
           }
         }
       }
+      html
+      tableOfContents
     }
     author: markdownRemark(frontmatter: { name: { eq: $authorName } }) {
       frontmatter {

@@ -146,4 +146,49 @@
       color: var(--Text-Secondary, rgba(149, 154, 157, 1));
     }
   }
+
+  .table-of-contents {
+    border-radius: 24px;
+    border: 1px solid var(--Neutral-Gray-920, rgba(233, 233, 236, 1));
+    padding-top: 20px;
+    margin-top: 20px;
+
+    ul p {
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 400;
+      margin-bottom: 8px;
+    }
+
+    .toc-title {
+      font-family: 'Poppins' sans-serif;
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .toc-container {
+      padding: 0 20px;
+    }
+
+    .share {
+      padding-top: 15px;
+      margin-top: 10px;
+      border-top: 1px solid var(--Neutral-Gray-920, rgba(233, 233, 236, 1));
+      padding-bottom: 20px;
+
+      p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: var(--Text-Secondary, rgba(149, 154, 157, 1));
+        margin-bottom: 12px;
+      }
+
+      a + a {
+        margin-left: 12px;
+      }
+    }
+  }
 }
