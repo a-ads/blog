@@ -7,9 +7,9 @@
 
     .articles {
       display: flex;
-      justify-content: space-between;
       flex-wrap: wrap;
       row-gap: 32px;
+      column-gap: 20px;
     }
 
     .banner-wrap {

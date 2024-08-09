@@ -1,10 +1,12 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
+import { Link } from 'gatsby'
 import cn from 'classnames'
 
 import MainLayout from '/src/layouts/MainLayout'
 import * as css from '/src/styles/templates/blog-post.module.scss'
+import toKebabCase from '../utils/to-kebab-case'
 
 const BlogPost = ({
   data,
@@ -18,9 +20,11 @@ const BlogPost = ({
       <div className={cn(css.container, 'container')}>
         <div className={css.main}>
           <div className={cn(css.categories, 'breadcrumbs')}>
-            <a>Blog</a>
+            <Link to="/">Blog</Link>
             <span className={css.dot} />
-            <a>Publishers</a>
+            <Link to={`/${toKebabCase(post.frontmatter.category_top_level[0])}`}>
+              {post.frontmatter.category_top_level[0]}
+            </Link>
           </div>
           <h1 className={css.title}>{post.frontmatter.title}</h1>
           <p className={css.date}>Updated: {post.frontmatter.date}</p>
@@ -59,6 +63,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date
+        category_top_level
         thumbnail {
           childImageSharp {
             fluid(maxWidth: 1100) {

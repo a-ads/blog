@@ -5,6 +5,10 @@ import cn from 'classnames'
 
 import MainLayout from '/src/layouts/MainLayout'
 import ArticleCard from '/src/components/ArticleCard/ArticleCard'
+import MarketplaceBanner from '/src/components/MarketplaceBanner/MarketplaceBanner'
+import AdvertiserBanner from '/src/components/AdvertiserBanner/AdvertiserBanner'
+import PublisherBanner from '/src/components/PublisherBanner/PublisherBanner'
+import ContactChannels from '/src/components/ContactChannels/ContactChannels'
 import * as css from '/src/styles/templates/categories.module.scss'
 
 const Categories = ({
@@ -32,6 +36,19 @@ const Categories = ({
               />
             })}
           </div>
+        </div>
+
+        <div className={css.marketplaceBannerWrap}>
+          <MarketplaceBanner />
+        </div>
+
+        <div className={css.bannersWrap}>
+          <AdvertiserBanner/>
+          <PublisherBanner/>
+        </div>
+
+        <div className={css.contactsWrap}>
+          <ContactChannels />
         </div>
       </div>
     </div>
