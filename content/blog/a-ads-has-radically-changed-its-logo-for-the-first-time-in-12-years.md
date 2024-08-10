@@ -24,7 +24,7 @@ The company's first logo appeared in 2011 and looked quite different from what m
 
 ![](/blog/assets/screenshot-6-.png)
 
-Later, in 2013, the logo was updated to the version that represented the company up until this year. This logo also emphasized anonymity as an important product value, but now in the form of “Mr. Anonymity” with a mustache.
+Later, in 2013, the logo was updated to the version that represented the company up until this year. This logo also emphasized anonymity as an important product value, but now in the form of “Mr. Anonymity” with a mustache. 
 
 ![](/blog/assets/logos.png)
 
