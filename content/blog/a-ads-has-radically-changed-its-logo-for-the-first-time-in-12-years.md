@@ -1,5 +1,5 @@
 ---
-date: 2024-03-25T14:33:01.072Z
+date: 2024-08-08T14:33:01.072Z
 title: A-ADS evolves into AADS with its first-ever radical rebranding
 slug: a-ads-evolves-into-aads-with-its-first-ever-radical-rebranding
 tags:
