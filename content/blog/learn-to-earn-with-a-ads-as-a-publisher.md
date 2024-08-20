@@ -9,13 +9,13 @@ category_top_level:
   - Guides
   - Publishers
 author: Anastasia Zavershinskaya
-thumbnail: /blog/assets/learn-to-earn.jpg
+thumbnail: /blog/assets/learn-to-earn-with-aads-as-a-publisher.png
+big_picture: /blog/assets/learn-to-earn-with-aads-as-a-publisher-short.png
 meta_title: Learn to earn with AADS as a publisher | AADS Blog
-meta_description: Join AADS today and get a share of our advertising budget
-  pie! We're looking for genuine human traffic, so if you have a website, blog
-  or app with real visitors, we're happy to connect you with our numerous
-  advertising campaigns. The more quality traffic you have, the more you can
-  earn!
+meta_description: Join AADS today and get a share of our advertising budget pie!
+  We're looking for genuine human traffic, so if you have a website, blog or app
+  with real visitors, we're happy to connect you with our numerous advertising
+  campaigns. The more quality traffic you have, the more you can earn!
 ---
 Come on board and have a share of our sweet advertising budget pie! 
 
