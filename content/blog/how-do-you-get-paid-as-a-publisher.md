@@ -9,7 +9,8 @@ category_top_level:
   - Publishers
   - Guides
 author: Olga Ostrovskaya
-thumbnail: ../../static/assets/illustration-7.png
+thumbnail: /blog/assets/how-do-you-get-paid-as-a-publisher_.png
+big_picture: /blog/assets/how-do-you-get-paid-as-a-publisher_-short.png
 meta_title: How do you get paid as a publisher? | AADS Blog
 meta_description: Learn how publishers get paid and the factors that affect
   their revenue in this comprehensive overview from AADS. Discover how ad unit
