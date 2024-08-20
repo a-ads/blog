@@ -10,8 +10,8 @@ category_top_level:
   - Publishers
   - Guides
 author: Olga Ostrovskaya
-thumbnail: /blog/assets/full-2-.png
-big_picture: /blog/assets/short.png
+thumbnail: /blog/assets/counting-globally-unique-impressions.png
+big_picture: /blog/assets/counting-globally-unique-impressions-short.png
 meta_title: Counting unique impressions | AADS Blog
 meta_description: Learn what we mean by "globally unique impressions" if you're
   interested in becoming our publisher. Discover how our stats differ from
