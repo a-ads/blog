@@ -8,8 +8,8 @@ category: How to
 category_top_level:
   - News & Trends
 author: Yulia Savushkina
-thumbnail: ../../static/assets/full-3-.png
-big_picture: ../../static/assets/short-2-.png
+thumbnail: /blog/assets/legit-ways-to-earn-crypto-watching-videos-in-2024.png
+big_picture: /blog/assets/legit-ways-to-earn-crypto-watching-videos-in-2024-short.png
 popularity: "0"
 meta_title: Legit Ways to Earn Crypto Watching Videos in 2023 | AADS Blog
 meta_description: We all know how valuable cryptocurrenciesare, but it becomes a
