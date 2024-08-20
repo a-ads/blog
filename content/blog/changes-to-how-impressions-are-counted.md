@@ -10,8 +10,8 @@ category_top_level:
   - Advertisers
   - Guides
 author: Danil Persky
-thumbnail: /blog/assets/full-1-.png
-big_picture: /blog/assets/short-1-.png
+thumbnail: /blog/assets/changes-to-how-impressions-are-counted-in-the-aads-advertising-network.png
+big_picture: /blog/assets/changes-to-how-impressions-are-counted-in-the-aads-advertising-networkshort.png
 popularity: "0"
 meta_title: Changes to how impressions are counted in the AADS advertising
   network | AADS Blog
