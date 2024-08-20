@@ -10,8 +10,8 @@ category_top_level:
 category_second_level:
   - How To
 author: Micheal George
-thumbnail: /blog/assets/wordpress-full.png
-big_picture: /blog/assets/wordpress-short.png
+thumbnail: /blog/assets/aads-wordpress-plugin.png
+big_picture: /blog/assets/aads-wordpress-plugin-short.png
 meta_title: AADS Wordpress Plugin | AADS Blog
 meta_description: Learn how to use the AADS WordPress plugin with our
   informative article. Our step-by-step guide covers the installation and
