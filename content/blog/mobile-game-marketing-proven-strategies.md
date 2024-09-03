@@ -194,7 +194,7 @@ In 2024, the AADS ad network has emerged as a valuable tool for mobile game mone
 
 ⚡ Low minimum payout: Benefit from a low minimum payout threshold, making it accessible for games of all sizes.
 
-By incorporating [AADS into your monetization strategy](https://a-ads.com/ad-solutions/mobile-app-advertising), you can diversify your revenue streams and potentially tap into new audiences interested in cryptocurrency and privacy-focused solutions.
+By incorporating AADS into your monetization strategy, you can diversify your revenue streams and potentially tap into new audiences interested in cryptocurrency and privacy-focused solutions.
 
 ## Emerging Trends in Mobile Game Marketing for 2024
 
@@ -346,7 +346,7 @@ The revenue from mobile game ads can vary widely, but on average, developers can
 
 References:
 
-1. [Proven Mobile Game Marketing Strategies to Attract Players](https://www.blog.udonis.co/mobile-marketing/mobile-games/mobile-game-marketing) - udonis
+1. [Proven Mobile Game Marketing Strategies to Attract Players](https://www.blog.udonis.co/mobile-marketing/mobile-games/mobile-game-marketing) - Udonis
 2. [Brands’ guide to effective mobile game advertising](https://searchengineland.com/brands-guide-to-effective-mobile-game-advertising-392386) - Search Engine Land
 3. [Mobile game marketing: a step-by-step guide](https://www.pickfu.com/blog/mobile-game-marketing/) - PickFu
 4. [How To Advertise a Mobile Game: Proven Strategies](https://superscale.com/mobile-game-advertising/) - Superscale
