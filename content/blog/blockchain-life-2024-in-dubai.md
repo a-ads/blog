@@ -12,8 +12,11 @@ author: Anna Trifonova
 thumbnail: /blog/assets/what-is-solana_-a-simple-guide-to-understanding-how-it-works-4-.png
 big_picture: /blog/assets/what-is-solana_-a-simple-guide-to-understanding-how-it-works-5-.png
 popularity: "0"
-meta_title: ""
-meta_description: ""
+meta_title: Blockchain Life 2024 in Dubai Unveils First Speakers, Featuring
+  Industry Leaders from Tether, Ledger, TON, Animoca Brands and More | AADS Blog
+meta_description: Blockchain Life 2024 in Dubai unveils its first speakers,
+  featuring industry leaders from Tether, Ledger, TON, Animoca Brands, and more.
+  Join over 10,000 attendees for insights on the current Bull Run.
 meta_keywords: ""
 json_ld: ""
 ---
