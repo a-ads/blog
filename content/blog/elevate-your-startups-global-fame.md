@@ -12,8 +12,12 @@ author: Yulia Savushkina
 thumbnail: /blog/assets/marketplace-2-.png
 big_picture: /blog/assets/short-2-.png
 popularity: "0"
-meta_title: ""
-meta_description: ""
+meta_title: Elevate Your Startup's Global Fame. We Know How to Promote Your
+  Crypto Project | AADS Blog
+meta_description: Elevate your startup's global fame with AADS. Discover
+  tailored advertising solutions for crypto projects, access a crypto-interested
+  audience, and benefit from global targeting, transparent metrics, and 24/7
+  support. Promote your blockchain project with AADS today!
 meta_keywords: ""
 json_ld: ""
 ---
