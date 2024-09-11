@@ -12,7 +12,7 @@ author: Anna Trifonova
 thumbnail: /blog/assets/what-is-solana_-a-simple-guide-to-understanding-how-it-works.png
 big_picture: /blog/assets/what-is-solana_-a-simple-guide-to-understanding-how-it-works-1-.png
 popularity: "0"
-meta_title: What is Solana? A Simple Guide to Understanding How It Works
+meta_title: What is Solana? A Simple Guide to Understanding How It Works | AADS Blog
 meta_description: Solana (SOL) is a cryptocurrency that aims to enhance and
   build upon the functionality of Ethereum. It shares similarities with Ethereum
   but offers improvements in several areas. Named after a serene coastal city in
@@ -91,25 +91,25 @@ SOL tokens serve several purposes and have diverse use cases. They can be utiliz
 * Solana boasts significantly higher transaction processing capabilities and lower transaction fees than rival blockchains like Ethereum.
 * Solana combines proof-of-stake (PoS) with an innovative mechanism called proof-of-history (PoH). PoH utilizes hashed timestamps to provide efficient and secure verification of transaction timestamps.
 
-### FAQ 
+## FAQ 
 
-1. What is Solana? How does it work?
+1. ### What is Solana? How does it work?
 
 Solana is a fast-growing blockchain and cryptocurrency network that aims to provide a scalable and secure infrastructure for decentralized applications. It utilizes a combination of innovative technologies and cryptographic strategies to address the limitations of earlier blockchain solutions. Solana's SOL tokens are staked and used as collateral to process transactions on the network, including validating smart contracts and participating in the non-fungible token (NFT) marketplace.
 
-2. How does Solana ensure security?
+2. ### How does Solana ensure security?
 
 Solana employs a proof-of-history algorithm that timestamps each block, enhancing the blockchain's security. Additionally, SOL tokens are staked and used as collateral, providing further security measures. The combination of efficient transaction processing and additional security measures contributes to the overall security of the Solana network.
 
-3. What are the use cases for SOL tokens?
+3. ### What are the use cases for SOL tokens?
 
 SOL tokens have multiple use cases, including peer-to-peer payments and trading. They serve as an incentive for securing the Solana network as a validator and can also be used in various decentralized applications (DApps) and NFT marketplaces.
 
-4. Is investing in Solana risky?
+4. ### Is investing in Solana risky?
 
 Like all cryptocurrencies, investing in Solana carries risks. Cryptocurrencies are highly volatile and speculative investment vehicles. Investors should carefully consider their financial situation and consult a financial advisor before investing in Solana or any other cryptocurrency.
 
-#### Resources
+**Resources**
 
 * Solana "[A Solana Cluster](https://docs.solana.com/cluster/overview)"
 * Etherscan "[The Ethereum Blockchain Explorer](https://etherscan.io/)"
