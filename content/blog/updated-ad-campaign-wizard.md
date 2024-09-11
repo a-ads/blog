@@ -12,8 +12,10 @@ author: Anna Trifonova
 thumbnail: /blog/assets/marketplace-1-.png
 big_picture: /blog/assets/short-1-.png
 popularity: "0"
-meta_title: ""
-meta_description: ""
+meta_title: Updated Ad Campaign Wizard. What's New? | AADS Blog
+meta_description: Discover the new features of our updated ad campaign wizard.
+  Enjoy easier website targeting, budget selection in BTC and USD, advanced
+  traffic metrics, and a preview of updated text ads.
 meta_keywords: ""
 json_ld: ""
 ---
