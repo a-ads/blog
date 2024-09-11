@@ -11,8 +11,11 @@ author: Anna Trifonova
 thumbnail: /blog/assets/the-new-look- of-a-ads_blog-1-.png
 big_picture: /blog/assets/the-new-look- of-a-ads_short.png
 popularity: "0"
-meta_title: ""
-meta_description: ""
+meta_title: A-ADS evolves into AADS with its first-ever radical rebranding | AADS Blog
+meta_description: Discover AADS' radical rebranding from A-ADS, featuring a new
+  logo and simplified name. Learn how AADS continues to innovate in the
+  advertising network space, offering enhanced services and opportunities for
+  advertisers and publishers.
 meta_keywords: ""
 json_ld: ""
 ---
