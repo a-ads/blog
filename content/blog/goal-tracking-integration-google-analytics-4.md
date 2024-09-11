@@ -11,8 +11,10 @@ author: Micheal George
 thumbnail: /blog/assets/google-analytics-4-tracking-integration.png
 big_picture: /blog/assets/short-1-.png
 popularity: "0"
-meta_title: ""
-meta_description: ""
+meta_title: Goal Tracking Integration with Google Analytics 4 | AADS Blog
+meta_description: Learn how to integrate goal tracking with Google Analytics 4
+  for your AADS campaigns. Follow our step-by-step guide to set up tracking,
+  analyze data, and optimize your advertising ROI.
 meta_keywords: ""
 json_ld: ""
 ---
