@@ -20,7 +20,7 @@ json_ld: ""
 ---
 The code for embedding the AADS ad unit consists of simple and short HTML code, which is easy to embed in any website and does not compromise the security of the site and its users.
 
-Here's what the HTML code for embedding the ad unit looks like:![](https://lh7-us.googleusercontent.com/JkWc-3D8Fo096D0bhJLIwJePzgYZGsprGSfCiAnxzp4cLYvsLefmaHf5HBKhgsyr8GiGlzJKLhrL4U8UJkgSWVf9skiAy4fBVTivSEN4kW58hCX2hBmW9c9yF5quhkDxIkrR-FnmOk1nSRqBkehuXNY)
+Here's what the HTML code for embedding the ad unit looks like:![HTML code for embedding the ad unit](https://lh7-us.googleusercontent.com/JkWc-3D8Fo096D0bhJLIwJePzgYZGsprGSfCiAnxzp4cLYvsLefmaHf5HBKhgsyr8GiGlzJKLhrL4U8UJkgSWVf9skiAy4fBVTivSEN4kW58hCX2hBmW9c9yF5quhkDxIkrR-FnmOk1nSRqBkehuXNY)
 
 ## Ease of Implementation and Control
 
