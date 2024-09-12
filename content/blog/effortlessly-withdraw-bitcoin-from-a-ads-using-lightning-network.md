@@ -108,21 +108,21 @@ If you start a wallet in CoinCorner, you can order an NFC card from them to purc
 
 Here, you can find a map with markings of places where they accept Lightning as payment: <https://btcmap.org/>.
 
-### Takeaways
+## Takeaways
 
 1. The Lightning Network is a cutting-edge technological solution designed to address the challenge of slow transaction speed on the Bitcoin blockchain. By implementing off-chain transactions, the Lightning Network aims to significantly improve the speed and efficiency of Bitcoin transactions.
 2. By bypassing the reliance on a centralized intermediary, the Lightning Network streamlines transaction routing and reduces the associated delays and costs. 
 
-### FAQ
+## FAQ
 
-**What is the Lightning Network?**
+### **What is the Lightning Network?**
 
 The Lightning Network is a payment protocol for utxo-based cryptocurrencies like Bitcoin or Litecoin. It is a second-layer solution that enables instant off-chain transfers of cryptocurrency ownership without the need for a trusted third party. The Lightning Network helps achieve efficient payments without compromising the security model of the underlying blockchain.
 
-**Does the Lightning Network have its token?**
+### **Does the Lightning Network have its token?**
 
 No, the Lightning Network does not have its own token. Instead, it uses the token of the underlying network/blockchain. For example, the Bitcoin Lightning Network uses Bitcoin and its smaller denomination, satoshis. There can also be Lightning Networks for other cryptocurrencies like Litecoin.
 
-**What are some possible problems or challenges related to the Lightning Network?**
+### **What are some possible problems or challenges related to the Lightning Network?**
 
 Some possible problems or challenges related to the Lightning Network include the need for larger payment channels (which has been addressed with the introduction of "Wumbo" channels), integration with cryptocurrency exchanges and financial services platforms, and the role of watchtowers in preventing fraud within the Lightning Network.
