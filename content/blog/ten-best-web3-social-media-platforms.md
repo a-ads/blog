@@ -12,7 +12,7 @@ author: Yulia Savushkina
 thumbnail: /blog/assets/web3-social-media-platforms.png
 big_picture: /blog/assets/short.png
 popularity: "0"
-meta_title: 10 Best Web3 Social Media Platforms in 2024
+meta_title: 10 Best Web3 Social Media Platforms in 2024 | AADS Blog
 meta_description: Read article 10 Best Web3 Social Media Platforms in 2024 about
   Lenster, Mirror, Diamond App, Showtime, Minds, Orb, RARA, DSCVR, AKasha,
   Phaver
