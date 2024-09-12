@@ -84,7 +84,7 @@ How do crypto wallets assist users? 
 
 These tools help users securely manage all their digital assets, facilitating the seamless sending and receiving of cryptocurrency at any time and location. Using crypto wallets relieves users of remembering lengthy, hexadecimal "public keys" for trading. Instead, they can employ unique usernames, enhancing user convenience and accessibility.
 
-Best Crypto Wallets include: 
+[Best Crypto Wallets](https://aads.com/blog/5-best-crypto-wallets/) include: 
 
 1. [Exodus](https://www.exodus.com/)
 2. [Atomic Wallet](https://atomicwallet.io/)
