@@ -219,7 +219,7 @@ They determine whether your video will keep the viewer's attention. In our satur
 
  Continuing viewing opens the possibility for further in-depth interaction with the brand. In other words, viewers can subconsciously transfer their impressions from your video to the whole company. Social media algorithms work on the same principle. Suppose viewers continue viewing and do not scroll through the video after the first few seconds. In that case, the platforms will help distribute it.
 
-### How do I make your video cling to the user and keep him browsing? 
+## How do I make your video cling to the user and keep him browsing? 
 
 There are several ways:
 
@@ -253,25 +253,25 @@ There are several ways:
 * Make trend videos. Use the most popular music, actual jokes, and thematic sketches. To get popular ideas for your videos, analyze your TikTok feed and adapt those with the maximum number of views.
 * Ask for audience opinion. Questions to the audience have a great effect—they allow you to delay looking at your product, thinking about it, and associating with yourself. And this, as you know, is half done before the decision to buy. Ask subscribers what color of the product is more successful, what new taste is worth trying, and what to improve in the product or service. This way, you not only get new customers but also hear the target audience's opinions.
 
-### FAQ 
+## FAQ 
 
-**1. What are the different types of videos that can be used in video marketing?**
+### **1. What are the different types of videos that can be used in video marketing?**
 
 Various types of videos can be used in video marketing, including brand videos, FAQs, and instructional videos. These videos can be tailored to different marketing funnel stages and serve various purposes.
 
-**2. How effective is video marketing in influencing consumer behavior?**
+### **2. How effective is video marketing in influencing consumer behavior?**
 
 Video marketing is highly effective in influencing consumer behavior. Studies have shown that viewers retain 95% of a message when obtained via video, and 84% of people say they have been convinced to buy a product or service by watching a brand's video. Additionally, 87% of people feel they can decide to purchase or not purchase faster when shopping or browsing on YouTube.
 
-**3. How can FAQ videos be used in video marketing?**
+### **3. How can FAQ videos be used in video marketing?**
 
 FAQ videos can be a valuable tool in video marketing. They can answer common questions asked by prospective customers and provide information about products or services. FAQ videos can be placed on FAQ pages, the homepage, features pages, or pricing pages, or even used at the top of the marketing funnel to attract an audience by answering broader questions.
 
-**4. How can video marketing help reduce support calls?**
+### **4. How can video marketing help reduce support calls?**
 
 Video marketing has been found to reduce the number of support calls businesses receive. According to a survey, 43% of video marketers reported that video has reduced the number of support calls they've received. By providing informative and engaging videos that address common questions and concerns, businesses can proactively address customer queries and reduce the need for direct support.
 
-**5. What are some tips for creating engaging video content for social media?**
+### **5. What are some tips for creating engaging video content for social media?**
 
 Creating engaging video content for social media requires careful planning and execution. Some tips for creating engaging video content include:
 
