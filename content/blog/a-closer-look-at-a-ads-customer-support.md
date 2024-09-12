@@ -32,17 +32,17 @@ What's more is that the entire AADS team operates remotely, which illustrates ou
 
 "Every new person in the team undergoes a mandatory one-week training, as it is important that clients receive only reliable and accurate information."
 
-### What numbers say
+## What numbers say
 
 At AADS, we know that making our customers happy is an ongoing process, not just a one-time goal. That's why we carefully track how well our support team performs weekly. It helps us see how effective our work is and where we can improve. We take pride in sharing that our average user rating stands at an impressive 4.9, a testament to our team's unwavering dedication and expertise.
 
 Feedback is crucial for our growth, and we truly value the insights our customers share on trusted platforms like Trustpilot and MyWOT. It's heartwarming to see our team members' names being mentioned with words of appreciation. This recognition from our customers is the ultimate reward, as it shows our positive impact on their lives.
 
-### AI Chatbots for your assistance
+## AI Chatbots for your assistance
 
 We often get questions about how AI and chatbots fit into our customer support system. While we embrace technology, we've taken a careful approach to finding the right balance. Our Live chat includes a customized bot that efficiently directs users to the right specialist. However, we strongly believe in the importance of human interaction. Our dedicated team members step in to provide personalized assistance beyond what the bot can do. As AI keeps advancing, we're open to exploring its potential integration in the future. But for now, we prioritize live communication with our clients. Building a genuine connection beyond transactions is crucial in today's virtual world.
 
-### How to Contact the AADS Support Team
+## How to Contact the AADS Support Team
 
 At AADS, we strive to make it easy for you to contact us for assistance or guidance. We know you may have questions about things like setting up an advertising campaign. That's why we've created multiple ways for you to connect with us so you can choose the communication method that works best for you.
 
