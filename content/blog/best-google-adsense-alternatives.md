@@ -219,7 +219,7 @@ AdSense operates on an auction-based system, where advertisers bid for ad space 
 
 Some website owners find interstitial and vignette ads obnoxious or disruptive to the user experience. These types of ads may negatively impact the overall user satisfaction of the website.
 
-![](/blog/assets/разработка-стратегии-продвижения-бренда.png)
+![adsense alternative](/blog/assets/разработка-стратегии-продвижения-бренда.png)
 
 Taking into consideration all the pros and cons of AdSense, publishers should explore other options beyond AdSense, not only as a replacement but as a complement to optimize ad revenue. 
 
@@ -312,7 +312,7 @@ Why is Mediavine a better alternative than AdSense? 
 
 Finally, unlike some other platforms out there today – setting up an account with Medaivne is a free & simple process: no need to wait long periods of time before getting approved either.
 
-![](/blog/assets/как-оценить-успешность-маркетинговой-кампании.jpg)
+![alternative to google adsense](/blog/assets/как-оценить-успешность-маркетинговой-кампании.jpg)
 
 ### 4. Media.net
 
