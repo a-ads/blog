@@ -21,7 +21,7 @@ json_ld: ""
 ---
 The rebranding features a simple company name inscription with an 'A' in a circle instead of the well-known mustache icon. Also, the company's name no longer contains a hyphen and has become one character shorter - AADS.
 
-![AADS new logo](/blog/assets/the-new-look-%E2%80%A8of-a-ads_blog.png "AADS new logo")
+![AADS new logo](/blog/assets/the-new-look- of-a-ads_blog.png "AADS new logo")
 
 The company's first logo appeared in 2011 and looked quite different from what most clients are used to seeing. The company's previous full name was Anonymous Ads, and it helped two anonymous parties — advertisers and publishers — find each other. The logo depicted two characters wearing masks. And if you look closely, you can see the letters "A" in the characters, representing the first letters of the company's name.
 
