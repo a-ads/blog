@@ -69,8 +69,6 @@ Top 10 web 3 social media platforms include: 
 9. AKasha
 10. Phaver
 
-
-
 ### 1. Lenster
 
 Lenster is an innovative social media web application that operates on composability, decentralization, and permission lessness. Powered by Lens Protocol, it has gained significant recognition as the pioneering Web3 social platform. Lenster offers a comprehensive and immersive experience for users to engage with their social network. Its user interface and functionality resemble Twitter's while providing extensive support for various non-fungible tokens (NFTs). The platform focuses on nurturing micro-communities and fostering meaningful connections, offering decentralized group interactions and empowering individuals in new and exciting ways. Lenster is a notable addition to the Web3 social media landscape, exemplifying the growing movement towards decentralized, user-centric experiences.
@@ -131,6 +129,6 @@ The platform's open-source framework enables the building and distribution of co
 4. Fair Rewards: The platform implements gamified and farming-resistant reward mechanisms to ensure that the right people earn Phaver Points and future token rewards for their contributions.
 5. Decentralized and User-Centric Experience: Phaver provides a decentralized and user-centric social media experience, empowering users to directly benefit from their participation through token rewards and other incentives.
 
-### Some conclusion
+## Some conclusion
 
 A Web3 social network offers a refreshing alternative to traditional social channels. By engaging with Web3 platforms, users can enjoy the advantages of community governance and enhanced transparency. Consider exploring one of the platforms above to personally experience the unique offerings of a Web3 social network.
