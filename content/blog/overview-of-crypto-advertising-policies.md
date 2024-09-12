@@ -48,8 +48,6 @@ To ensure compliance, Facebook has implemented a crypto advertising policy, whic
 
 To learn more about the updated policy, you can find detailed information on Facebook's official website [here](https://www.facebook.com/business/help/438252513416690?id=595195347635322). 
 
-
-
 ## Google Ads Crypto Policy
 
 As well as Facebook in 2018, Google prohibited all ads related to cryptocurrency content on its ad platforms, including wallets, initial coin offerings (ICOs), and trading advice. This ban was implemented due to concerns regarding the "questionable" nature of the advertised products.
@@ -64,7 +62,7 @@ But in August 2021, Google [revised its policies](https://support.google.com/ads
 
 **3. Compliance with Google Ads policies:** Advertisers must ensure that their ads and landing pages comply with all Google Ads policies.
 
-If you are a crypto advertiser and meet these requirements, you can advertise crypto exchanges and wallets. However, Google still prohibits ads for initial coin offerings, decentralized finance (DeFi) trading protocols, or the promotion of purchasing, selling, or trading cryptocurrencies or related products.
+If you are a crypto advertiser and meet these requirements, you can advertise crypto exchanges and wallets. However, by [Google ads crypto](/blog/how-to-advertise-crypto-with-google-ads-campaign/) policy Google still prohibits ads for initial coin offerings, decentralized finance (DeFi) trading protocols, or the promotion of purchasing, selling, or trading cryptocurrencies or related products.
 
 To sum up, Google now permits advertising the following:
 
