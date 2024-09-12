@@ -12,7 +12,7 @@ author: Yulia Savushkina
 thumbnail: /blog/assets/web3-social-media-platforms.png
 big_picture: /blog/assets/short.png
 popularity: "0"
-meta_title: 10 Best Web3 Social Media Platforms in 2024
+meta_title: 10 Best Web3 Social Media Platforms in 2024 | AADS Blog
 meta_description: Read article 10 Best Web3 Social Media Platforms in 2024 about
   Lenster, Mirror, Diamond App, Showtime, Minds, Orb, RARA, DSCVR, AKasha,
   Phaver
@@ -68,8 +68,6 @@ Top 10 web 3 social media platforms include: 
 8. DSCVR
 9. AKasha
 10. Phaver
-
-
 
 ### 1. Lenster
 
@@ -131,6 +129,6 @@ The platform's open-source framework enables the building and distribution of co
 4. Fair Rewards: The platform implements gamified and farming-resistant reward mechanisms to ensure that the right people earn Phaver Points and future token rewards for their contributions.
 5. Decentralized and User-Centric Experience: Phaver provides a decentralized and user-centric social media experience, empowering users to directly benefit from their participation through token rewards and other incentives.
 
-### Some conclusion
+## Some conclusion
 
 A Web3 social network offers a refreshing alternative to traditional social channels. By engaging with Web3 platforms, users can enjoy the advantages of community governance and enhanced transparency. Consider exploring one of the platforms above to personally experience the unique offerings of a Web3 social network.
