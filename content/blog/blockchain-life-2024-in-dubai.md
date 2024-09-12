@@ -45,7 +45,7 @@ Among the first lineup of speakers are:
 
 "We are thrilled to announce this exceptional lineup of speakers for Blockchain Life 2024" said Sergei Khitrov, Founder of the event. "These are just the first speakers and most are still kept secret. For now I can only say that the entire lineup is titans in the field. Their exclusive  insights and expertise will be invaluable to our attendees to benefit from the current bull market."
 
-![Blockchain Life 2024 October 23-24](/blog/assets/16x9-banner-bl-october-2024-eng.png "Blockchain Life 2024 October 23-24")
+![Blockchain Life 2024 October 23-24](/blog/assets/blockchain-life-2024-in-dubai.jpg "Blockchain Life 2024 October 23-24")
 
 **\
 Blockchain Life 2024 is set to take place on October 22-23 in UAE, Dubai, Festival Arena. The forum will feature a diverse range of panel discussions, keynote presentations, as well as networking opportunities and the largest crypto expo with over 200 booths.**
