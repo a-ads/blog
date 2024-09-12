@@ -181,7 +181,7 @@ However, despite it being relatively easy to obtain permission to display ads, n
 
 AdSense has become one of the most popular ways for webmasters and bloggers to make money from their content, but it’s not without its drawbacks. Let’s discuss the advantages and disadvantages of AdSense so you can decide if it’s right for you. 
 
-AdSense advantages: 
+### AdSense advantages: 
 
 1. Easy to Set Up
 
@@ -195,7 +195,7 @@ With AdSense, there are several payment options available, such as a direct depo
 
 The cost per thousand impressions (CPM) rate offered by AdSense tends to be higher than other ad networks, which means more money is earned per pageview generated from visitors clicking through advertisements displayed across different sites around the internet space. 
 
-#### AdSense Disadvantages
+### AdSense disadvantages
 
 While AdSense offers several advantages for website owners and their ad campaign, there are also some disadvantages. Here are a few of AdSense disadvantages:
 
