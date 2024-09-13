@@ -271,7 +271,7 @@ Overall, designing effective yet aesthetically pleasing blogs is a critical succ
 
 A common question before starting any writing is how much money you can make from a blog. Making money blogging is a great way to monetize your website and create an additional source of income. Whether you’re a marketing specialist, crypto business, blogger, publisher, or advertiser, there are several ways to make money from blogging. 
 
-![How To Make Money Blogging](/blog/assets/1.png)
+![How To Make Money Blogging](/blog/assets/how-to-make-money-blogging.webp)
 
 ### Advertising revenue
 
@@ -371,9 +371,9 @@ Some successful bloggers have reported starting to earn around $500-$2,000 per m
 
 Remember that the time it takes to start earning money from a blog can vary greatly depending on blog niche selection, content quality, marketing strategies, audience size, and monetization methods employed.
 
-![how do beginner bloggers make money](/blog/assets/2.png)
+![how do beginner bloggers make money](/blog/assets/blogging-monetization.webp)
 
-## Bogging is not for You? Common Misconceptions about Blogging and Blogs
+## Blogging is not for You? Common Misconceptions about Blogging and Blogs
 
 Blogging has become an increasingly popular way to communicate with readers and build a following. But, despite its growing popularity, there are still many misconceptions about blogging that can lead people astray. In this blog post, we’ll explore some of the most common misconceptions about blogging and blogs. 
 
