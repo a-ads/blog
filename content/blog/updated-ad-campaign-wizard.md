@@ -27,26 +27,26 @@ What's new?
 
 * Convenient addition of websites to targeting directly in the campaign wizard
 
-![Convenient addition of websites to targeting directly in the campaign wizard](https://lh7-us.googleusercontent.com/lAgsIZD8gGJkLfZjzJLeaZQGbsT3qSL4YU8tyL3aPv3fuqNdhugq20ET7R5PR93G5tmqR91yjbD4bfe1mZTv9xMIBT795tVtpsJXhYnhs3C5DQR2UefKMuwcfrdSi51A6AUD77iyssEqtOHHIqr3ObI)
+![Convenient addition of websites to targeting directly in the campaign wizard](/blog/assets/convenient-addition-of-websites.webp)
 
 * Ability to target only specific ad units or all ad units of the selected website
 
-![Ability to target only specific ad units or all ad units of the selected website](https://lh7-us.googleusercontent.com/71otuBVDHQilLqzW4rUSxLiswX5PTPfY9_SCeXRV0zGBPlyw0LWylEaRyvKlgsUYxRTNp8RhehiG8yYFHs-EHQUpdXe6WSEhmeFsyqnsL15gM5Of0vPLywxtEvR3pPqgGozH46IErEMDHvTD24rF0ck)
+![Ability to target only specific ad units or all ad units of the selected website](/blog/assets/ability-to-target-only-specific-ad-units.webp)
 
 * Easy selection of daily advertising budget in BTC and USD
 
-![Easy selection of daily advertising budget in BTC and USD](https://lh7-us.googleusercontent.com/vu6hJIkA1TlP2H4RNFDKJG1BAlOUdg44lZdol61D3LEnXuZmife_HNPNyKJDAaq9myzlLwefdF2hj9VO1kWyOMsUQUt6B8ifLquLD3giTrL9VC-G4TvH0UYB59AEDd5RKV7uYzha05H5Wg7MU3Y8wLw)
+![Easy selection of daily advertising budget in BTC and USD](/blog/assets/easy-selection-of-daily-advertising-budget.webp)
 
 * Option to add the "Show banners only" feature when creating a campaign
 
-![Option to add the Show banners only feature when creating a campaign](/blog/assets/pasted-image-0.png)
+![Option to add the Show banners only feature when creating a campaign](/blog/assets/option-to-add-the-show-banners-only.webp)
 
 * Advanced calculator for expected traffic metrics, including your share of spending on the site/ad unit compared to other advertisers' spending
 
-![Advanced calculator for expected traffic metrics](https://lh7-us.googleusercontent.com/BE7fCEgNENOm673zWVjvUCeSChjPWYFiHV21H7WhkjMF2iBfalRgQexCuPfIDwtcx4O8Oq7wRhx3bqJrA4WIlxjaYORzrrhtU3o19YjMyUcWXcEjpKHnhQX_cMgZn0m3qISasp4s4hPrbInrhIDdlyc)
+![Advanced calculator for expected traffic metrics](/blog/assets/advanced-calculator-for-expected-traffic-metrics.webp)
 
 * In the new wizard, you also see a preview of the updated design of text ads
 
-![preview of the updated design of text ads](https://lh7-us.googleusercontent.com/NPGA-1Zkl_5SQWnyn6jf5Y9mymYXwYBbjEhM-ralpWoEZrDuiBzLoEW0D6xB1ReiRVGiSJC3nao-MSJ-GNYcak2Ew8LFZxDcl-NiPaAvIwK-c4Ki5QumM3KlbqOxz2yb91OQ1daDOpvtjJsE2JvmiQk)
+![preview of the updated design of text ads](/blog/assets/preview-of-the-updated-design.webp)
 
 We hope that campaign creation will now be even more convenient and visually appealing! [Create campaign in new wizard!](https://aads.com/beta/campaigns/new/)
