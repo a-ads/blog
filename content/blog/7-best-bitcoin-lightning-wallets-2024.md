@@ -71,7 +71,6 @@ Strike Wallet is a digital finance application that seamlessly integrates with t
 6. Security: Security is a critical component of any financial application, and Strike implements robust security measures to protect users' funds and personal information. This includes the use of pin codes, biometric security features, and secure encryption protocols.
 
 Strike Wallet is well-suited for users looking for a simple, cost-effective way to utilize the Lightning Network for quick and cheap Bitcoin transactions. Its combination of ease of use, low fees, and robust security measures makes it a competitive choice for Lightning Network withdrawals.
-<p class="category-image"><picture> <source srcset="https://cdn.shopify.com/s/files/1/0561/1365/9947/files/fort-knox-brands-002_mobile.jpg?v=1644586909" media="(max-width: 640px)"> <source srcset="https://cdn.shopify.com/s/files/1/0561/1365/9947/files/fort-knox-brands-002.jpg?v=1644586909" media="(min-width:650px)"> <img src="https://cdn.shopify.com/s/files/1/0561/1365/9947/files/fort-knox-brands-002.jpg?v=1644586909" alt="Fort Knox Safes" title="Fort Knox Gun Safes"></source></picture></p>
 
 5. ## [Breez Wallet ](https://breez.technology/mobile/)
 
