@@ -37,13 +37,13 @@ Please note, steps one to four are to be ignored if you already use GA.
 
 Go to  [](https://analytics.google.com/)[analytics.google.com](https://analytics.google.com/) ﻿
 
-![Google Analytics service](https://lh7-us.googleusercontent.com/tVcQ2iYKQeoCKf-z4QPgQHyA1Y1eHYdH8_fhqhkcWLTjNNT2-jcCYFxNaX6MsFBcHQ_G7STfeOEHWf5Vi_xlH50K1I4-G5SmJ78OSL-8mVR14wl0lIoTk8NwoBWagMAEbwGULkPMB0moESv6vgoCmd4)
+![Google Analytics service](/blog/assets/welcome-to-google-analytics.webp)
 
 Click “Set up for free”.
 
 Fill the form, and click the “Create” button.
 
-![GA Tracking Code](https://lh7-us.googleusercontent.com/z3awPjHrqjmwEtVuSwR0rXRwSML7t02dRMMhJ43lAzTjYJYp8vgDUTGebruVdyN0bsaHDkmbK2g0EI4Wkfdoet5M2yN2X8Kc0wbanTgZL_VOLoMUA3yw8UFiFjlVG3ljCmBxWvbZMpNfizStPw7M02I)
+![GA Tracking Code](/blog/assets/ga-tracking-code.webp)
 
 Copy and paste the tracking code into your website.
 
@@ -53,11 +53,11 @@ Create a new campaign, or go to your existing campaign’s dashboard.
 
 Enable goal tracking, as seen in the image below.
 
-![Enable goal tracking](https://lh7-us.googleusercontent.com/Sf4-RKa4F5XBDJpXU9yOygRhOvF6JdLYbLse6M1rMMY3KTN8BFAI36z1nsiz2Mhd0uoJakyfLredXEdArMAc56lH1M6Cd401jY2F5RyF3II7AZJU9OTEPX8OhzQin8IYdIdp0Ne5DLGuvvEEOROH7Ao)
+![Enable goal tracking](/blog/assets/enable-goal-tracking.webp)
 
 Change the default suffix to “?utm_source=A-ADS&utm_medium=Banner&utm_campaign=MyCampaignName&utm_term={{partner}}”,  as seen in the image below.
 
-![Change the default suffix](https://lh7-us.googleusercontent.com/gavcwM67l4mom14uOCrefu6_OmvxNAJqiAA_ahQhsP9JEtiHKyF_MdXrFXoTXQsuVNeyuxCsg6FYFN-ot-alsWThV-2kBFfnYf2i97GFmoole3JF83jwem3Jg5UC3wk7xNjf6hYr8ZprkR_gG1dU_8Y)
+![Change the default suffix](/blog/assets/changing-default-suffix.webp)
 
 The breakdown of the Suffix:
 
@@ -71,7 +71,7 @@ Utm_term = {{partner}}
 
 After your AADS campaign starts running and has generated clicks, go to “Advertising>>All Channels” of your GA dashboard. The data should look something like this:
 
-![GA dashboard](https://lh7-us.googleusercontent.com/qcLrhuKCmV5Yp7Gg97hyLS3QjoSGqVGB8OZngcOA87j7CnZKZc3A-abIUCAcKCGoaQXk_7K3FQz50M-lcAKltH64bNVc2VVto15Mwyso9zZO1Mb50Fx-QTwE5WHEc2PbgZX8FBSXHE8U070j52PEj7Q)
+![GA dashboard](/blog/assets/ga-dashboard.webp)
 
 Note: The dimensions available in this report apart from the “Default channel group” are limited to
 
