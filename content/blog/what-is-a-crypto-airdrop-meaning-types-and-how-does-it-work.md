@@ -206,7 +206,7 @@ This article will tell how airdrops work, how to get some free crypto tokens, an
 
 ## How Do Сrypto Airdrops Work?
 
-![How Do Сrypto Airdrops Work?](/blog/assets/how-do-сrypto-airdrops-work_.png "How Do Сrypto Airdrops Work?")
+![How Do Сrypto Airdrops Work?](/blog/assets/how-do-crypto-airdrops-work.webp "How Do Сrypto Airdrops Work?")
 
 Crypto airdrops work by distributing free cryptocurrency tokens or coins to a specific group of recipients. The primary goal of a crypto airdrop can vary, from promoting a project to rewarding early supporters or increasing community engagement. 
 
@@ -296,11 +296,9 @@ Characteristics: DeFi platforms often use liquidity airdrops to incentivize user
 
 These are some common crypto-airdrop types, but we can meet new variations and creative approaches as the cryptocurrency space evolves. 
 
-
-
 ## How to Get Free Tokens? 
 
-![How to Get Free Tokens?](/blog/assets/how-to-get-free-tokens_.png "How to Get Free Tokens?")
+![How to Get Free Tokens?](/blog/assets/how-to-get-free-tokens.webp "How to Get Free Tokens?")
 
 There are several ways to participate in crypto airdrops and get free tokens, although it's important to note that nothing in life is truly "free," and these methods may still require some form of effort or investment. 
 
@@ -330,7 +328,7 @@ You can't receive or claim an airdrop if you don't have a wallet address. Using 
 
 ## What are the Best Crypto Airdrops? 
 
-![What are the Best Crypto Airdrops?](/blog/assets/what-are-the-best-crypto-airdrops_.png "What are the Best Crypto Airdrops?")
+![What are the Best Crypto Airdrops?](/blog/assets/what-are-the-best-crypto-airdrops.webp "What are the Best Crypto Airdrops?")
 
 Determining the "best" crypto airdrops can be subjective and depends on individual preferences, goals, and risk tolerance. What may be considered the best airdrop for one person might not be the same for another. 
 
@@ -355,8 +353,6 @@ There are many free airdrops, but I will mention several worth considering.
 • DeFiChain 
 
 • Binance    
-
-    
 
 📍**Tamadoge** 
 
@@ -396,8 +392,6 @@ This world-known crypto exchange often provides instant airdrops. Binance often 
 
 Before choosing any free airdrop, conduct thorough research and due diligence. Be cautious of scams, phishing attempts, and offers that seem too good to be true. Additionally, diversify your cryptocurrency holdings and don't rely solely on airdrops as an investment strategy.
 
-
-
 ### What are Upcoming Airdrops?
 
 Let's explore some potential upcoming crypto airdrops and how you can become eligible for them:
@@ -418,7 +412,7 @@ Keep an eye on official announcements and developments for these projects to sta
 
 ## Are Crypto Airdrops Safe?
 
-![Are Crypto Airdrops Safe?](/blog/assets/ are-crypto-airdrops-safe_.png "Are Crypto Airdrops Safe?")
+![Are Crypto Airdrops Safe?](/blog/assets/are-crypto-airdrops-safe.webp "Are Crypto Airdrops Safe?")
 
 Crypto airdrops can be both safe and risky, depending on various factors. There are many cases when fraudulent airdrops stole users' wallet funds while claiming or transferring the free tokens. To avoid such nasty things, do some research and confirm the project's legitimacy before claiming an airdrop. Be careful when someone asks you to connect your wallet to an airdrop website.
 
@@ -461,8 +455,6 @@ Risky - Relying on unofficial sources or unverified information can lead to part
 Often, fraud happens when some projects do the distribution without asking for anything. Others may ask you to perform specific tasks before even claiming. These tasks often include following social media accounts, subscribing to a newsletter, or holding a minimum amount of coins in your wallet. But there is no guarantee that you will get the airdropped tokens, especially when the promised amounts are too good to be true. 
 
 Remember that connecting your crypto wallet to an untrustworthy party or giving up your private key is not wise.
-
-
 
 ### Crypto Airdrops Scam: What to Look Out for & How to Avoid Them
 
@@ -510,8 +502,6 @@ Enable 2FA on your cryptocurrency exchange accounts and wallets to add an extra 
 
 While legitimate airdrops can provide free tokens as a promotional strategy, they are relatively rare, and caution is essential. If something sounds too good to be true, it's often best to err on the side of caution and avoid it. Always prioritize the security of your cryptocurrency assets.
 
-
-
 ## Are Crypto Airdrop and ICO the Same Thing?
 
 No, crypto airdrops and Initial Coin Offerings (ICOs) are different. They are distinct concepts in the world of cryptocurrencies, although they both involve the distribution of new tokens or coins. The main distinguishing thing is that airdrops don't require any participant investment, while ICO is a crowdfunding method. However, they both involve new cryptocurrency projects. 
@@ -526,11 +516,9 @@ To sum up, the key difference is that crypto airdrops involve the free distribut
 
 ## What are NFT Airdrops?
 
-![What are NFT Airdrops?](/blog/assets/what-are-nft-airdrops_.png "What are NFT Airdrops?")
+![What are NFT Airdrops?](/blog/assets/what-are-nft-airdrops.webp "What are NFT Airdrops?")
 
 NFT (Non-Fungible Token) airdrops are a specific type where creators or projects distribute unique digital assets in the form of NFTs to a particular group of recipients. Unlike traditional airdrops, which distribute fungible tokens (like cryptocurrencies), NFT airdrops involve the distribution of non-fungible tokens, which represent ownership or proof of authenticity of a unique digital item.
-
-
 
 ###    How to Participate in an NFT Airdrop?
 
