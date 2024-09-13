@@ -114,7 +114,7 @@ Blue Wallet is particularly well-regarded for its support of Lightning Network t
 6. Privacy Features: The wallet includes options to enhance privacy, such as using Tor to connect to the Bitcoin network and the Lightning Network, which helps obscure the user's IP address from other nodes in the network.
 7. Open Source: Blue Wallet is open source, which not only allows for community-driven development and transparency but also enables users to verify the security and integrity of the wallet software themselves.
 
-![Blue Wallet](/blog/assets/blue-wallet-bitcoin-wallet.webp "Blue Wallet")
+![Blue Wallet](/blog/assets/blue-bitcoin-wallet.avif "Blue Wallet")
 
 Blue Wallet's comprehensive features make it an excellent choice for those looking to explore or expand their use of the Lightning Network, providing a secure, efficient, and user-friendly experience for managing Bitcoin transactions.
 
