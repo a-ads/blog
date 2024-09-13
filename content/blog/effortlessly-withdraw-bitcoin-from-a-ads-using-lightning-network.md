@@ -66,13 +66,15 @@ Now that you have your Lightning wallet ready let's move on to the next steps fo
 
 Click on the Finance section in the top menu of the site. 
 
-![Finance section in the top menu](https://lh7-us.googleusercontent.com/oPns0Oce8lb_Ap8V_DIhdsZjFViau7vq6X_xlKGeujFGv2PImiKsxwcQb3vE7I41HY9g-xYcr2a2kzbaImX4ZQ94k_67MgvGWw-0tXXCECVJmOIzDKNaptlyWfdiyvxwRMnk7Y-CqDGbAy1CEpu1Ov8 "Finance section in the top menu")Then click on the Withdrawal Settings button
+![Finance section in the top menu](/blog/assets/click-on-finance-section.webp)
 
-![Withdrawal Settings button](https://lh7-us.googleusercontent.com/XwVc1H-fGvkP8l6n18f32DwwcL4FvtLmapakGaDbj8cm1QJZAQmfQvSPnTGZN3j0_f03nVpgvY5FQXoRPAvGRVXQNWV1ywwzNZZyojQ18xbvlVzJnPD_kvLy8iw0ri_o8ZBuJYgdymTNXgrR_dxgxJk)
+Then click on the Withdrawal Settings button
+
+![Withdrawal Settings button](/blog/assets/click-on-the-withdrawal-settings.webp)
 
 In the window that opens, select the To lightning network option and fill in the required fields in the form.
 
-![ To lightning network option](https://lh7-us.googleusercontent.com/QYiej_mlP8XNNKLAVRHzR9jWv67ojrjeX5dgr2fVMobj20nh0PX8wqEsoANbdauxKOXj3syM3c1PEpcKeql83eqsbr76D0otmE0SFLadVCtBGLPdgJ62RrD1gy7ONn8z8IGYV1SX8kJa883rG5r0VYw)
+![ To lightning network option](/blog/assets/select-the-to-lightning-network.webp)
 
 Follow the link that was sent to your email.
 
