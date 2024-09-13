@@ -39,7 +39,7 @@ With PeerClick you can connect all traffic sources (including Google Ads, Facebo
 
 Get custom solutions tailored to your needs and a dedicated team who will support you along the way. Use our superior optimization and automation features to maximize both your ad budget and double your conversions.
 
-![Get custom solutions](/blog/assets/operators-affiliates.png "Get custom solutions")
+![Operator or Affiliate?](/blog/assets/operators-affiliates.webp "Operator or Affiliate?")
 
 \
 **Get access** to our traffic connections & insider recommendations on where to buy the best iGaming traffic for various geos.
