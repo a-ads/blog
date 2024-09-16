@@ -151,7 +151,7 @@ It's always great to have a choice. Even if now using a cryptocurrency payment g
 
 [What is a crypto Press Release and how to write it?](https://aads.com/blog/what-is-a-crypto-press-pelease-and-how-to-write-it/)
 
-[SEO Strategies For Your Crypto Business](https://aads.com/blog/SEO-Strategies-for-Your-Crypto-Business%20/)
+[SEO Strategies For Your Crypto Business](https://aads.com/blog/seo-strategies-for-your-crypto-business/)
 
 #### **FQA**
 

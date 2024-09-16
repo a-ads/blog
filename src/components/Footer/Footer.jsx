@@ -42,7 +42,7 @@ const sections = [
             <a href='https://status.a-ads.com/en/' target='_blank' rel='noreferrer'>
                 System Status
             </a>,
-            <a href='https://help.a-ads.com/en/'>
+            <a href='https://help.aads.com/en/'>
                 Help Center
             </a>
         ],

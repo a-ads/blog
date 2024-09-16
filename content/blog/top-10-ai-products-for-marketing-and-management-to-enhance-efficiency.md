@@ -51,7 +51,7 @@ If you need to create multiple short videos from a longer one and distribute the
 
 For companies engaged in systematic social media marketing (SMM), Conte.ai is a valuable tool. It specialises in text posts and features a built-in analytics system that helps maximise audience engagement. With Conte.ai, you can make the most of your SMM budget.
 
-**Read more about marketing strategies in our[ Complete Crypto Marketing Guide. ](https://a-ads.com/blog/a-complete-crypto-marketing-guide/)**
+**Read more about marketing strategies in our[ Complete Crypto Marketing Guide. ](https://aads.com/blog/a-complete-crypto-marketing-guide/)**
 
 ### 5. Synthesia.io
 
@@ -107,6 +107,6 @@ These AI tools can help you streamline some operations, boost productivity, and 
 
 [What is a crypto Press Release and how to write it?](https://aads.com/blog/what-is-a-crypto-press-pelease-and-how-to-write-it/)
 
-[SEO Strategies For Your Crypto Business.](https://aads.com/blog/SEO-Strategies-for-Your-Crypto-Business%20/)
+[SEO Strategies For Your Crypto Business.](https://aads.com/blog/seo-strategies-for-your-crypto-business/)
 
 [Neural Networks in Marketing: A Comprehensive Guide to the Latest Tools and Techniques](https://aads.com/blog/neural-networks-in-marketing-a-comprehensive-guide-to-the-latest-tools-and-techniques/)

@@ -28,7 +28,7 @@ Before we proceed with the steps, I'd like to explain the meaning of being a Pub
 
 **A Publisher is an individual who owns digital content or audience, including apps or websites.** When the owner offers up space within the property for external ads, also known as ad inventory, it becomes an Ad Publisher.
 
-The main reason why Publishers offer space on websites or apps is for monetization. Publishers will then receive income when advertisements are shown on their websites. If you want to earn with [AADS](http://a.ads.com) as a Publisher, you must follow the steps and meet the criteria.
+The main reason why Publishers offer space on websites or apps is for monetization. Publishers will then receive income when advertisements are shown on their websites. If you want to earn with [AADS](http://aads.com) as a Publisher, you must follow the steps and meet the criteria.
 
 Here is the two-criteria checklist to pass before you can be a Publisher on AADS:
 

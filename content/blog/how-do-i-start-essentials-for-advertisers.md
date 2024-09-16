@@ -24,7 +24,7 @@ To start, please, [create a campaign](https://aads.com/campaigns/new).
 
 **Choose your advertising payment model**
 
-Our main payment model is [Daily budget](https://aads.com/blog/2019-08-11-how-does-daily-budget-work/): you spend a fixed amount of money per day and get a share of our publishers’ traffic.  [CPM bids](https://aads.com/blog/how-to-use-cpm-bids-with-a-ads/) are also available, but Daily budget is preferable because when you pay per day, you are not being charged for fake impressions.
+Our main payment model is [Daily budget](https://aads.com/blog/2019-08-11-how-does-daily-budget-work/): you spend a fixed amount of money per day and get a share of our publishers’ traffic.
 
 You can set any daily budget, that seems reasonable to you. Please, mind checking the traffic estimations at "Campaign -> Payment model" page and note that they are volatile and might not be accurate, especially if you have a narrow targeting and low budget.
 
