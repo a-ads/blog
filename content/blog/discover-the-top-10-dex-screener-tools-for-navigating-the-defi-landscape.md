@@ -7,6 +7,8 @@ tags:
 category: How to
 category_top_level:
   - Advertisers
+category_second_level:
+  - DeFi
 author: Anastasia Zavershinskaya
 thumbnail: /blog/assets/1-discover-the-top-10-dex-screener-tools.png
 big_picture: /blog/assets/discover-the-top-10-dex-screener-tools.png
