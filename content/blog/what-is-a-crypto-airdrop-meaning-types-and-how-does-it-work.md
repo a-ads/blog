@@ -658,4 +658,4 @@ In many countries, airdrops of cryptocurrency tokens are considered taxable even
 
 [Crypto ICO Marketing: Strategies for Success in the Crypto World](https://aads.com/blog/crypto-ico-marketing/)
 
-[SEO Strategies For Your Crypto Business.](https://aads.com/blog/SEO-Strategies-for-Your-Crypto-Business%20/)
+[SEO Strategies For Your Crypto Business.](https://aads.com/blog/seo-strategies-for-your-crypto-business/)

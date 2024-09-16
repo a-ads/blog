@@ -66,15 +66,15 @@ Step 5. You can change or adjust (if necessary) any option in the New traffic so
 
 ![Goal tracking parameters](../../static/assets/screenshot_from_2020-09-23_16-58-55.png "Goal tracking parameters")
 
-Please note, each parameter/token in the "A-ADS Suffix" represents "Voluum's TS parameter/token", e.g.:
+Please note, each parameter/token in the "AADS Suffix" represents "Voluum's TS parameter/token", e.g.:
 
 ```
-A-ADS's goal tracking (GT)          Voluum's traffic source (TS)
+AADS's goal tracking (GT)           Voluum's traffic source (TS)
 
 partner={{partner}}                 TS parameter = partner, TS token = {{partner}}
 ```
 
-Suffix parameters/token in A-ADS and TS parameters/token in Voluum are correlated.
+Suffix parameters/token in AADS and TS parameters/token in Voluum are correlated.
 
 7. If you use redirect tracking, please, set your campaign URL as your Voluum campaign URL, remove the "?", and everything after.
 

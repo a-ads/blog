@@ -51,7 +51,7 @@ Here are the basic steps every marketing team should take first:
 
 ## Homepage 
 
-![AADS LinkedIn homepage](/blog/assets/снимок-экрана-2023-08-03-в-16.19.35.png "A-ADS LinkedIn homepage")
+![AADS LinkedIn homepage](/blog/assets/снимок-экрана-2023-08-03-в-16.19.35.png "AADS LinkedIn homepage")
 
 *Example of [AADS LinkedIn ](https://www.linkedin.com/company/aads-network/)Homepage*
 
@@ -222,7 +222,7 @@ Quality content and insightful reviews are important if you want to build a prod
 
    [What is a crypto Press Release and how to write it?](https://aads.com/blog/what-is-a-crypto-press-pelease-and-how-to-write-it/)
 
-   [SEO Strategies For Your Crypto Business.](https://aads.com/blog/SEO-Strategies-for-Your-Crypto-Business%20/)
+   [SEO Strategies For Your Crypto Business.](https://aads.com/blog/seo-strategies-for-your-crypto-business/)
 
    [Neural Networks in Marketing: A Comprehensive Guide to the Latest Tools and Techniques](https://aads.com/blog/neural-networks-in-marketing-a-comprehensive-guide-to-the-latest-tools-and-techniques/)
 

@@ -55,13 +55,13 @@ Enable goal tracking, as seen in the image below.
 
 ![Enable goal tracking](/blog/assets/enable-goal-tracking.webp)
 
-Change the default suffix to “?utm_source=A-ADS&utm_medium=Banner&utm_campaign=MyCampaignName&utm_term={{partner}}”,  as seen in the image below.
+Change the default suffix to “?utm_source=AADS&utm_medium=Banner&utm_campaign=MyCampaignName&utm_term={{partner}}”,  as seen in the image below.
 
 ![Change the default suffix](/blog/assets/changing-default-suffix.webp)
 
 The breakdown of the Suffix:
 
-Utm_source = A-ADS
+Utm_source = AADS
 
 Utm_medium = Banner
 

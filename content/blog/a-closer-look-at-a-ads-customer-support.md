@@ -54,6 +54,6 @@ For those who prefer the convenience of messaging platforms, we offer the option
 
 In addition to our responsive support channels, we have developed an extensive knowledge base that caters to the diverse needs of our users. Continuously updated based on user requests, our HelpDesk is a comprehensive resource where you can find answers to a wide range of questions. 
 
-Visit [HelpDesk](https://help.a-ads.com/en/) to explore a wealth of information at your fingertips.
+Visit [HelpDesk](https://help.aads.com/en/) to explore a wealth of information at your fingertips.
 
 At AADS, we are dedicated to giving our clients the information and help they need, easily accessible with just a few clicks. Join us and enjoy the convenience of smooth communication and a reliable knowledge base that can answer all your questions.

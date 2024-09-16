@@ -28,7 +28,7 @@ You can use this guide if you have two ad units of different sizes and want to s
 💡 Note that the range for desktop screens is 1920-429, and for mobile screens is 428-0. Let's say that we want to implement two ad units: one for desktop devices (size 728x90) and another for mobile devices (size 300x250).
 
 1. Firstly, you need to create ad units. If you haven't done it yet, you may follow the steps in our  [\
-   Helpdesk article](https://help.a-ads.com/en/article/how-to-start-earning-as-a-publisher-kongfq/).
+   Helpdesk article](https://help.aads.com/en/article/how-to-start-earning-as-a-publisher-kongfq/).
 
 ❗ If you show only one of the ad units on mobile devices, you need to change the Screen type to "Mobile" in ad unit settings. To do so, go to the ad unit page ⇒ click "Edit," ⇒ change the Screen type.
 

@@ -165,4 +165,4 @@ Good luck with earning free crypto!
 
 [Successful Email Marketing For Crypto Projects.](https://aads.com/blog/successful-email-marketing-for-crypto-projects/)
 
-[SEO Strategies For Your Crypto Business.](https://aads.com/blog/SEO-Strategies-for-Your-Crypto-Business%20/)
+[SEO Strategies For Your Crypto Business.](https://aads.com/blog/seo-strategies-for-your-crypto-business/)

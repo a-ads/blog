@@ -40,7 +40,7 @@ Among all marketing strategies to promote a crypto business, we have chosen the 
 8. PR Campaigns 
 9. [Affiliate Marketing ](https://aads.com/blog/affiliate-marketing-for-crypto-business-strategies-advantages-and-implementation/)
 10. Online or Print Publications 
-11. [SEO Strategies ](https://aads.com/blog/SEO-Strategies-for-Your-Crypto-Business%20/)
+11. [SEO Strategies ](https://aads.com/blog/seo-strategies-for-your-crypto-business/)
 12. [Content Marketing ](https://aads.com/blog/content-marketing-for-crypto-projects/)
 13. Create Educational Materials 
 14. [Use LinkedIn](https://aads.com/blog/how-to-create-a-perfect-linkedin-page-for-your-business/)
