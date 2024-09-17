@@ -53,7 +53,7 @@ Leveraging a data-driven approach, startups can gauge the performance of their c
 
 ## The Power of Partnership: Top Industry Publishers
 
-AADS collaborates with esteemed industry publishers, including [Poocoin](/blog/how-effectively-advertise-on-dexscreener-poocoin-apespace-and-dexview-platforms/#2-poocoin), [Dexscreener](/blog/how-effectively-advertise-on-dexscreener-poocoin-apespace-and-dexview-platforms/#1-dexscreener), [Dexview](/blog/how-effectively-advertise-on-dexscreener-poocoin-apespace-and-dexview-platforms/#4-dexview), and others. The platform's extensive network encompasses various crypto categories and presents various advertising opportunities. The complete list of publishers within the network can be found in the AADS catalog.
+AADS collaborates with esteemed industry publishers, including [Poocoin](/how-effectively-advertise-on-dexscreener-poocoin-apespace-and-dexview-platforms/#2-poocoin), [Dexscreener](/how-effectively-advertise-on-dexscreener-poocoin-apespace-and-dexview-platforms/#1-dexscreener), [Dexview](/how-effectively-advertise-on-dexscreener-poocoin-apespace-and-dexview-platforms/#4-dexview), and others. The platform's extensive network encompasses various crypto categories and presents various advertising opportunities. The complete list of publishers within the network can be found in the AADS catalog.
 
 ## More Platform's Advantages
 
