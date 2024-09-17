@@ -24,7 +24,7 @@ If you advertise your product with AADS, you probably want to know more about th
 
 With the "Goal tracking" option enabled, you can use your web analytics system to learn about the traffic sources and optimize your campaign.
 
-**Nota bene:** to access the information you'll need some outer tracking engine, e.g. Google Analytics, Voluum, AdsBridge, Peerclick, or any other.  AADS goal tracking only provides the info, but you won't see it on our site.
+**Nota bene:** to access the information you'll need some outer tracking engine, e.g. Google Analytics, Voluum, [AdsBridge](/advanced-tracking-with-adsbridge/), Peerclick, or any other.  AADS goal tracking only provides the info, but you won't see it on our site.
 
 ## How to configure goal tracking?
 
