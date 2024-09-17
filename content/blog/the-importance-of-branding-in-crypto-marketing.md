@@ -72,8 +72,6 @@ To do this the right way, you need a clear plan. This plan helps you know when a
 Creating this plan is the seventh step in building your crypto brand. But before you start planning, you need to do these things:
 
 1. **Research and Analysis.** Study the market, know who your customers are, and check out your competition. This helps you understand your brand better.
-
-
 2. **Positioning.** Figure out where your brand fits in people's minds compared to other similar things.
 3. **Brand Message.** Make a strong and clear message that tells people why your brand is special.
 4. **Brand Platform.** Create a plan that includes everything about your brand, from what it stands for to what it offers.
@@ -203,7 +201,7 @@ Coinbase, a big cryptocurrency player, teamed up with Shopify, a popular online 
 
 **Solana and Serum**
 
-Solana is a super-fast kind of blockchain, and Serum is a special trading place built on Solana. They came together to make trading better and quicker. This partnership lets people trade faster and cheaper using Solana's speed and Serum's special features.
+[Solana](/what-is-solana/) is a super-fast kind of blockchain, and Serum is a special trading place built on Solana. They came together to make trading better and quicker. This partnership lets people trade faster and cheaper using Solana's speed and Serum's special features.
 
 **Binance and TravelbyBit**
 
