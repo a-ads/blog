@@ -142,7 +142,7 @@ Cardano's ADA token has had relatively modest growth compared to other major cry
 
 9. Solana (SOL) Market cap: Over £25 billion
 
-Solana was founded in 2017 as an open-source project currently run by Solana Foundation based in Geneva, while the blockchain was built by San Francisco-based Solana Labs. The main feature of Solana is that it works much faster in terms of the number of transactions it can process and has significantly lower transaction fees compared to rival blockchains like Ethereum. It achieves this via its Proof of History technology. Solana claims to be able to process around 50,000 transactions per second, making it one of the fastest in the industry.
+[Solana](/what-is-solana/) was founded in 2017 as an open-source project currently run by Solana Foundation based in Geneva, while the blockchain was built by San Francisco-based Solana Labs. The main feature of Solana is that it works much faster in terms of the number of transactions it can process and has significantly lower transaction fees compared to rival blockchains like Ethereum. It achieves this via its Proof of History technology. Solana claims to be able to process around 50,000 transactions per second, making it one of the fastest in the industry.
 
 Solana's native token SOL primarily uses staking and transaction fees and has an unlimited supply. However, the blockchain burns 50% of the SOL used in each transaction fee to maintain a set level of year-on-year inflation. Anyone holding enough SOL can become a network validator and support the consensus process needed to run the blockchain. This mechanism generates rewards for users who stake in support of the blockchain. 
 
