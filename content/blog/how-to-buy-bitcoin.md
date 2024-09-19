@@ -143,7 +143,7 @@ Most crypto ATMs charge a fee of five to ten percent of the transaction amount. 
 
 The following is an algorithm for buying bitcoin in the corresponding crypto ATM. Note that this process may vary slightly for different ATMs, but the general steps are as follows:
 
-1. Before buying, create a Bitcoin wallet. For maximum security, we recommend purchasing a hardware wallet such as Ledger or Trezor.
+1. Before buying, create a [Bitcoin wallet](/7-best-bitcoin-lightning-wallets-2024/). For maximum security, we recommend purchasing a hardware wallet such as Ledger or Trezor.
 2. Find a crypto ATM nearby. To find the nearest ATM, use websites such as [Bitcoin ATM Map](https://coinatmradar.com) or other.
 3. Enter the purchase details on the device. The instruction must be indicated on the device. The ATM will ask you to provide a bitcoin address to send cryptocurrency, so take it with you.
 4. Scan the wallet QR code. Then deposit cash into the ATM to pay for the order.
