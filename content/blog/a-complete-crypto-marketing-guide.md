@@ -691,7 +691,7 @@ Not so often, but still, several projects give away NFTs instead of regular cryp
 
 Sometimes, the airdrops can be sent only to wallets collaborating with the project before a specific date. For example, 1INCH and Uniswap provide the most popular airdrops of this kind. 
 
-There are several types of airdrops, which you can choose from: 
+There are several types of [airdrops](/what-is-a-crypto-airdrop-meaning-types-and-how-does-it-work/), which you can choose from: 
 
 ### Standard Airdrop
 
@@ -1022,15 +1022,9 @@ If you want to get additional marketing insights and techniques, we invite you t
 
 *Above all, transparency, authenticity, and strong brand identity are essential for building credibility in the competitive crypto market. By utilizing a comprehensive marketing strategy, crypto projects can maximize their potential for success and growth.*
 
-
-
 *R﻿eviewed by*
 
 [Olowoporoku Adeniyi](https://aads.com/blog/authors/olowoporoku-adeniyi/)
-
-
-
-
 
 **More About Crypto Marketing:** 
 
