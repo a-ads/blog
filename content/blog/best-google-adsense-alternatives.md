@@ -179,7 +179,7 @@ However, despite it being relatively easy to obtain permission to display ads, n
 
 ## AdSense Advantages and Disadvantages 
 
-AdSense has become one of the most popular ways for webmasters and bloggers to make money from their content, but it’s not without its drawbacks. Let’s discuss the advantages and disadvantages of AdSense so you can decide if it’s right for you. 
+AdSense has become one of the most popular ways for webmasters and bloggers to [make money from their content](/how-to-make-money-blogging/), but it’s not without its drawbacks. Let’s discuss the advantages and disadvantages of AdSense so you can decide if it’s right for you. 
 
 ### AdSense advantages: 
 
