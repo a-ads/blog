@@ -51,7 +51,7 @@ Now, let's look at them a bit closer.
 
 ## 1. DEX Screener 
 
-DEX Screener is definitely one of the best tools for analyzing decentralized exchanges. It is a DeFi analytics platform that helps users track activity on decentralized cryptocurrency exchanges across many blockchain networks. It also sports a clean user interface that makes it easy to use even if you're not a DeFi wizard. A DEX Screener app allows you to access the platform's full functionality on your mobile device.
+DEX Screener is definitely one of the [best crypto tools](/best-crypto-tools-for-analysis-and-trading/) for analyzing decentralized exchanges. It is a DeFi analytics platform that helps users track activity on decentralized cryptocurrency exchanges across many blockchain networks. It also sports a clean user interface that makes it easy to use even if you're not a DeFi wizard. A DEX Screener app allows you to access the platform's full functionality on your mobile device.
 
 On DEX Screener, you can see the latest pairs added to decentralized exchanges, the biggest gainers and losers in the DeFi ecosystem, and interesting trends that could lead you to your next big DeFi opportunity.
 
