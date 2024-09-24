@@ -9,16 +9,14 @@ category_top_level:
   - Advertisers
   - Publishers
 author: Yulia Savushkina
-thumbnail: ""
-big_picture: ""
+thumbnail: /blog/assets/make-deposits-and-withdraw-funds-in-aads-via-lightning.png
+big_picture: /blog/assets/make-deposits-and-withdraw-funds-in-aads-via-lightning-short.png
 popularity: "0"
 meta_title: ""
 meta_description: ""
 meta_keywords: ""
 json_ld: ""
 ---
-Lightning Network transactions without limit
-
 Imagine an expressway seamlessly built on top of the standard Bitcoin blockchain. This innovation is the Lightning Network, a second-layer payment protocol designed to expedite and economize your Bitcoin transactions. It addresses two major challenges of blockchain technology: transaction speed and cost. In this article, we'll explore how the Lightning Network works, its advantages, and how you can leverage it to make instant deposits and withdrawals with minimal fees.
 
 # What is the Lightning Network?
@@ -51,22 +49,14 @@ Many services and platforms now support the Lightning Network. For instance, you
 
 The Lightning Network employs smart contracts to ensure secure transactions. These contracts prevent double spending and allow for quick refunds in disputes, boosting user trust. The security mechanisms inherent in smart contracts make the Lightning Network a reliable option for transferring Bitcoin.
 
-7. Running a Lightning Node
-
-Running a personal Lightning node is an option for those seeking even greater privacy and security. This not only enhances transaction privacy but also contributes to the decentralization and robustness of the network. Users can maintain more control over their transactions by running a node and reducing reliance on third-party services.
-
 ## How to Deposit via Lightning
 
 Depositing funds via the Lightning Network is a straightforward process. Here's a step-by-step guide to help you get started:
 
 1. Access the Balance Top-Up Popup: Navigate to the balance top-up section in your AADS user dashboard.
-
 2. Select the Deposit Type: Choose whether you want to top up your account balance, campaign balance, or pay for a publication order.
-
 3. Specify the Amount: Enter the amount you wish to top up.
-
 4. Choose the Cryptocurrency: Select the cryptocurrency you want to use for the deposit and choose Lightning as the payment method.
-
 5. Transfer Funds: Transfer the funds to the provided Lightning Network address. The balance will be topped up instantly and appear in your account within a few minutes.
 
 This seamless process ensures that your funds are available almost immediately, without the delays typically associated with traditional Bitcoin transactions.
@@ -121,4 +111,4 @@ The Lightning Network represents a significant advancement in Bitcoin and blockc
 
 ## Have Any Questions?
 
-Feel free to ask if you have any questions about using the Lightning Network for deposits, withdrawals, or any other transactions! Our support team is here to help you easily navigate the crypto world.
+Feel free to ask if you have any questions about using the Lightning Network for deposits, withdrawals, or any other transactions via Live Chat on our website! Our support team is here to help you easily navigate the crypto world.
