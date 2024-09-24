@@ -61,27 +61,20 @@ Depositing funds via the Lightning Network is a straightforward process. Here's 
 
 This seamless process ensures that your funds are available almost immediately, without the delays typically associated with traditional Bitcoin transactions.
 
+M﻿ore detailed instruction can be found in the [HelpDesk article](https://help.aads.com/en/article/how-to-make-a-deposit-via-lightning-2hw9qy/).
+
 ## How to Withdraw via Lightning
 
 Withdrawing funds via the Lightning Network is just as simple. Follow these steps to withdraw your funds quickly and securely:
 
-1. Go to the Finance Section
-
-Navigate to the finance section in your AADS user dashboard.
-
-2. Access Withdrawal Settings
-
-Click on the withdrawal settings button.
-
-3. Select the Lightning Network Option
-
-In the open window, choose the "To Lightning Network" option and fill in the required fields in the form.
-
-4. Follow the Confirmation Link
-
-A confirmation link will be sent to your email. Click on the link to complete the withdrawal process.
+1. Go to the Finance Section. Navigate to the finance section in your AADS user dashboard.
+2. Access Withdrawal Settings. Click on the withdrawal settings button.
+3. Select the Lightning Network Option. In the open window, choose the "To Lightning Network" option and fill in the required fields in the form.
+4. Follow the Confirmation Link. A confirmation link will be sent to your email. Click on the link to complete the withdrawal process.
 
 By using the Lightning Network for withdrawals, you can transfer your funds at lightning speed, enjoying reduced fees and enhanced privacy.
+
+M﻿ore detailed instruction can be found in the [HelpDesk article](https://help.aads.com/en/article/how-to-withdraw-funds-using-the-lightning-network-1g8cz2o/).
 
 ## Wallets that Support Lightning
 
@@ -103,7 +96,7 @@ Known for its simplicity and powerful features, BlueWallet supports both on-chai
 
  A versatile wallet that provides a seamless experience for Lightning Network users.
 
-Visit (https://lightningaddress.com/#providers) for a comprehensive list of wallets that support the Lightning Network.
+[Follow the link](https://lightningaddress.com/#providers) for a comprehensive list of wallets that support the Lightning Network.
 
 Conclusion
 
