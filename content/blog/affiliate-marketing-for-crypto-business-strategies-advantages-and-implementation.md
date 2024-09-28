@@ -53,7 +53,7 @@ This marketing trick also has tools to see how well things are going. And guess 
 
 ## Advantages and Disadvantages of Affiliate Marketing 
 
-![Advantages and Disadvantages of Affiliate Marketing](/blog/assets/pro-cons.png "Advantages and Disadvantages of Affiliate Marketing")
+![Advantages and Disadvantages of Affiliate Marketing](/blog/assets/advantages-and-disadvantages-of-affiliate-marketing.webp "Advantages and Disadvantages of Affiliate Marketing")
 
 Affiliate marketing comes with clear benefits:
 
@@ -145,7 +145,7 @@ These techniques only scratch the surface of what affiliate marketing can achiev
 
 ### Case Study of **Crypto Wallet Affiliate Programs**
 
-![Ledger Affiliate Program](/blog/assets/снимок-экрана-2023-08-28-в-16.11.40.png "Ledger Affiliate Program")
+![Ledger Affiliate Program](/blog/assets/case-study-of-crypto-wallet-affiliate-programs-ledger.webp "Ledger Affiliate Program")
 
 *Example: [Affiliate.ledger.com](https://affiliate.ledger.com/)*
 
