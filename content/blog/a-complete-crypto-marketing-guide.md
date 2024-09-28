@@ -222,7 +222,7 @@ Here are some key aspects you should consider: 
 
 ### 3. Work with Influencers 
 
-![Work with crypto  Influencers](/blog/assets/work-with-influencers.png "Work with crypto  Influencers")
+![Work with crypto  Influencers](/blog/assets/work-with-crypto-influencers.webp "Work with crypto  Influencers")
 
 *“Influencer marketing is the culmination of the promise social media initially gave us.” – Joe SinkWitz* 
 
@@ -258,7 +258,7 @@ To learn more about influencers' marketing for your business, read our article *
 
 ## Crypto Startup Marketing
 
-![Crypto Startup Marketing](/blog/assets/crypto-startup-marketing.png "Crypto Startup Marketing")
+![Crypto Startup Marketing](/blog/assets/crypto-startup-marketing.webp "Crypto Startup Marketing")
 
 “After a tumultuous year, 2023 will be an opportunity to create a better and safer blockchain ecosystem. Crypto is a cross-border, instantaneous, and cheap way to exchange value, and I believe the demand for that is only going to increase.” -  Michael Gronager, Co-founder and CEO, Chainalysis 
 
@@ -313,7 +313,7 @@ Plus, many startup-focused websites offer advertising options. For example, plat
 
 ## ICO Marketing 
 
-![ICO Marketing](/blog/assets/ico-marketing.png "ICO Marketing")
+![ICO Marketing](/blog/assets/ico-marketing.webp "ICO Marketing")
 
 ### The ICO Marketing Process Starts with 3 Steps:
 
@@ -355,7 +355,7 @@ A whitepaper is a well-written document that explains how your project works and
 
 ## NFT Crypto Marketing: How Successfully Promote Your Project
 
-![NFT Crypto Marketing](/blog/assets/nft-crypto-marketing_-how-successfully-promote-your-project.png "NFT Crypto Marketing")
+![NFT Crypto Marketing](/blog/assets/nft-crypto-marketing-how-successfully-promote-your-project.webp "NFT Crypto Marketing")
 
 *"The projects like DeGods and Yoots have triggered renewed interest in NFTs. Moreover, multiple brands, celebrities, and sportspersons are joining the NFT space. The recent downturn is just a hiccup in the journey to a larger acceptance of NFTs at the global level.' - Sumit Ghosh, co-founder, and chief executive officer (CEO) of Chingari, the world's leading on-chain social app.*
 
@@ -395,7 +395,7 @@ While NFTs are unique, businesses can apply the same digital marketing principle
 
 ## Content Marketing 
 
-![Content Marketing for Crypto Business ](/blog/assets/content-marketing.png "Content Marketing for Crypto Business ")
+![Content Marketing for Crypto Business ](/blog/assets/content-marketing-for-promoting-crypto-project.webp "Content Marketing for Crypto Business ")
 
 Content marketing is another viral marketing strategy that we mentioned earlier. So, a crypto project can apply this effective strategy to raise brand awareness and attract new customers.
 
@@ -454,7 +454,7 @@ A full guide with examples on content marketing you can find in our article [“
 
 ## Direct Messaging
 
-![Direct Messaging](/blog/assets/direct-messaging.png "Direct Messaging")
+![Direct Messaging](/blog/assets/direct-messaging.webp "Direct Messaging")
 
 Direct Messaging in marketing is sending targeted and personalized messages directly to individuals or a specific group of people through various communication channels. These messages are excellent for tailored needs and preferences of the clients. 
 
@@ -462,7 +462,7 @@ Direct messaging aims to get a more personalized and direct connection with pote
 
 Let’s check the advantages and disadvantages of direct marketing strategy:
 
-![advantages and disadvantages of direct marketing strategy](/blog/assets/pillar-page_2.png "advantages and disadvantages of direct marketing strategy")
+![advantages and disadvantages of direct marketing strategy](/blog/assets/advantages-and-disadvantages-of-direct-marketing-strategy.webp "advantages and disadvantages of direct marketing strategy")
 
 ### Next Steps:
 
@@ -484,7 +484,7 @@ To learn more about direct messaging strategies and examples, read our article [
 
 ## Crypto Conferences and Networking
 
-![Crypto Conferences and Networking](/blog/assets/crypto-conferences-and-networking.png "Crypto Conferences and Networking")
+![Crypto Conferences and Networking](/blog/assets/crypto-conferences-and-networking.webp "Crypto Conferences and Networking")
 
 Crypto conferences and networking are vital for a crypto brand because they provide exposure, build credibility, offer networking opportunities, and keep the brand informed about industry trends. They also facilitate announcements, feedback gathering, and community building, leading to potential partnerships and growth.
 
@@ -504,7 +504,7 @@ There are many notable conferences that you may consider attending. Here are a f
 
 ## Affiliate Marketing
 
-![Affiliate marketing for crypto businesses ](/blog/assets/affiliate-marketing.png "Affiliate marketing for crypto businesses ")
+![Affiliate marketing for crypto businesses ](/blog/assets/affiliate-marketing-in-crypto.webp "Affiliate marketing for crypto businesses ")
 
 Affiliate marketing is crucial for brand growth because it's cost-effective, reaches a broader audience, builds credibility, and drives sales. It offers performance tracking and global reach and fosters partnerships, making it a valuable addition to a marketing strategy.
 
@@ -548,7 +548,7 @@ Regularly analyze data and make data-driven decisions to optimize your affiliate
 
 ## Power of Social Media in Crypto Marketing
 
-![Social Media in Crypto Marketing](/blog/assets/power-of-social-media-in-crypto-marketing.png "Social Media in Crypto Marketing")
+![Social Media in Crypto Marketing](/blog/assets/power-of-social-media-in-crypto-marketing.webp "Social Media in Crypto Marketing")
 
 *“The power of social media marketing comes from the unparalleled capacity of social media in three core marketing areas: connection, interaction, and customer data” - Investopedia* 
 
@@ -607,7 +607,7 @@ To reach brand awareness, study different types of brand promotion, which serve 
 
 ## Marketing Tools
 
-![Marketing Tools for crypto businesses](/blog/assets/marketing-tools.png "Marketing Tools for crypto businesses")
+![Marketing Tools for crypto businesses](/blog/assets/marketing-tools.webp "Marketing Tools for crypto businesses")
 
 Now let’s talk about tools. Every marketing team must deliberate on the tools that align most effectively with their project requirements. Presented here are the top choices we've gathered:
 
@@ -655,7 +655,7 @@ Regarding AI tools that can elevate your project promotion, we've delved into nu
 
 ## Educational Materials
 
-![Educational Materials for marketing](/blog/assets/educational-materials.png "Educational Materials for marketing")
+![Educational Materials for marketing](/blog/assets/educational-materials.webp "Educational Materials for marketing")
 
 Using educational materials is a powerful way to develop your crypto brand.
 
@@ -683,7 +683,7 @@ Let’s check some examples of good educational materials for developing your cr
 
 ## Airdrops
 
-![Airdrops](/blog/assets/airdrops.png "Airdrops")
+![Airdrops](/blog/assets/crypto-airdrops.webp "Airdrops")
 
 Investopedia [defines](https://www.investopedia.com/terms/a/airdrop-cryptocurrency.asp) airdrops as "a marketing strategy that involves sending coins or tokens to wallet addresses. Small amounts of the new virtual currency are sent to the wallets of active blockchain community members for free or in return for a small service, such as retweeting a post sent by the company issuing the currency."  
 
@@ -729,7 +729,7 @@ Find more about airdrops and how to get free tokens [here](https://aads.com/blog
 
 ## Linkedin
 
-![LinkedIn for crypto business ](/blog/assets/linkedin.png "LinkedIn for crypto business ")
+![LinkedIn for crypto business ](/blog/assets/linkedin-crypto-brands.webp "LinkedIn for crypto business ")
 
 LinkedIn is important for crypto brands because it provides a professional platform to connect with a targeted audience, build industry credibility, showcase expertise, network with potential investors and partners, and promote crypto-related products and services in a business-focused environment.
 
@@ -759,7 +759,7 @@ First, you should create a company business page to describe your product, optim
 
 ## Email Marketing
 
-![Email Marketing  for crypto projects](/blog/assets/email-marketing.png "Email Marketing  for crypto projects")
+![Email Marketing  for crypto projects](/blog/assets/email-marketing.webp "Email Marketing  for crypto projects")
 
 According to Statista, email remains the most popular communication channel, with more than 306 billion emails being sent and received every day (Statista, 2021). Interestingly, email marketing is still widely used by 64% of small businesses and startups to acquire new customers, as reported by Campaign Monitor.
 
@@ -809,11 +809,11 @@ You need to develop exciting ways to get prospective customers to part with thei
 
 It is important not to overuse email marketing. Receiving marketing emails can irritate people if it is irrelevant, too frequent or unwanted.
 
-![advantages and disadvantages of email marketing](/blog/assets/pillar-page_3.png "advantages and disadvantages of email marketing")
+![advantages and disadvantages of email marketing](/blog/assets/advantages-and-disadvantages-of-email-marketing.webp "advantages and disadvantages of email marketing")
 
 ## Building and Grow Crypto Community
 
-![ Building and Grow Crypto Community](/blog/assets/building-and-grow-crypto-community.png " Building and Grow Crypto Community")
+![ Building and Grow Crypto Community](/blog/assets/building-and-grow-crypto-community.webp " Building and Grow Crypto Community")
 
 Building and growing a crypto community is vital for marketing because it fosters engagement, loyalty, and word-of-mouth promotion. It provides valuable feedback, educates users, attracts partners, and acts as a support forum. A strong community enhances brand reputation and drives market research for better offerings.
 
@@ -838,7 +838,7 @@ Building and growing a crypto community on Telegram and Discord requires strateg
 
 ## Issuing Press Release
 
-![Issuing Press Release](/blog/assets/issuing-press-release.png "Issuing Press Release")
+![Issuing Press Release](/blog/assets/issuing-press-release.webp "Issuing Press Release")
 
 A press release can be a highly effective marketing strategy for a crypto project due to its numerous benefits and impact. A well-crafted press release allows the project to communicate its key developments, milestones, and unique value proposition to a broader audience, including potential investors and users. This clear and concise communication is crucial in cryptocurrencies' fast-paced and often complex world.
 
@@ -858,7 +858,7 @@ Navigate the process of crafting an impeccable press release with our comprehens
 
 ## Host a Podcast For Your Business
 
-![Podcast For Your Business](/blog/assets/host-a-podcast-for-your-business.png "Podcast For Your Business")
+![Podcast For Your Business](/blog/assets/host-a-podcast-for-your-business.webp "Podcast For Your Business")
 
 If you're considering using podcasts as a communication channel, there are a few factors to consider.
 
@@ -880,11 +880,11 @@ Podcasting is a great additional marketing tool that can:
 
 Let’s also check the advantages and disadvantages of podcast format:
 
-![advantages and disadvantages of podcast format](/blog/assets/podcasts.png "advantages and disadvantages of podcast format")
+![advantages and disadvantages of podcast format](/blog/assets/advantages-and-disadvantages-of-podcast-format.webp "advantages and disadvantages of podcast format")
 
 ## SEO Strategies for Your Crypto Business 
 
-![SEO Strategies for Your Crypto Business](/blog/assets/seo-strategies-for-your-crypto-business.png "SEO Strategies for Your Crypto Business")
+![SEO Strategies for Your Crypto Business](/blog/assets/seo-strategies-for-your-crypto-business.webp "SEO Strategies for Your Crypto Business")
 
 Small businesses have their own difficulties in getting queries to the top of Google searches and usually have a limited budget. Quite often, it can be almost impossible to compete with large companies, especially when all of the top search results are occupied by trading holdings and aggregators.
 
@@ -928,7 +928,7 @@ Find more about AI tools for crypto projects in our article: "[Neural Networks i
 
 ## Crypto Marketing Tips
 
-![Crypto Marketing Tips](/blog/assets/crypto-marketing-tips.png "Crypto Marketing Tips")
+![Crypto Marketing Tips](/blog/assets/crypto-marketing-tips.webp "Crypto Marketing Tips")
 
 Here are some non-obvious crypto marketing tips that can give you an edge in promoting your brand:
 
