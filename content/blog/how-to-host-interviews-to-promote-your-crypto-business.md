@@ -65,7 +65,7 @@ Suppose you're investigating something big in the crypto world. This interview r
 
 ## How to Make your Interview Work 
 
-![How to Make your Interview Work](/blog/assets/как-интервью-помогает-развивать-бизнес-и-привлекает-внимание-к-проекту.png "How to Make your Interview Work")
+![How to Make your Interview Work](/blog/assets/how-to-make-your-interview-work.webp "How to Make your Interview Work")
 
 Let's break down the key elements that make for a great interview:
 
@@ -91,7 +91,7 @@ Every interview has a purpose. It could be to inform, entertain, or inspire. Kee
 
 ### How to Approach Influencers for Your Interview
 
-![Write Influencers For Your Interview](/blog/assets/письмо.png "Write Influencers For Your Interview")
+![Write Influencers For Your Interview](/blog/assets/how-to-approach-influencers-for-your-interview.webp "Write Influencers For Your Interview")
 
 So, now let's discuss how to reach out to the influencer you want to interview. This can feel a bit tricky, like trying to crack a secret code. You're emailing someone you might not know well, asking them to team up with you.
 
@@ -130,7 +130,7 @@ And here's a cool tip: check out a bit about their **personal background**, if t
 
 *"All I've tried to do is ask the best questions I could think of, listen to the answers and then follow up. I've never not followed up. I don't attack anybody—that's not my style—but I follow up," - Larry King.*
 
-![How to ask great questions ](/blog/assets/подготовка-к-успешному-интервью.png "How to ask great questions ")
+![How to ask great questions ](/blog/assets/hosting-an-interview.webp "How to ask great questions ")
 
 Hosting an interview is like being a tour guide through a fascinating conversation. Let's explore how to make your questions truly shine.
 
@@ -146,7 +146,7 @@ Having a list of questions is great, but don't be afraid to let the conversation
 
 ### Question Examples for Crypto Influencers
 
-![Write Questions For Influencers ](/blog/assets/письмо1.png "Write Questions For Influencers ")
+![Write Questions For Influencers ](/blog/assets/question-examples-for-crypto-influencers.webp "Write Questions For Influencers ")
 
 Here is a simple plan and question ideas that you can use when preparing for an interview:
 
@@ -256,7 +256,7 @@ However, organizing an interview can be challenging and take your time and effor
 
 ### Come Prepared For The Interview Checklist
 
-![Interview Checklist](/blog/assets/pr-campaigns.png "Interview Checklist")
+![Interview Checklist](/blog/assets/interview-checklist.webp "Interview Checklist")
 
 Here's a short checklist to help you prepare for an interview:
 
@@ -277,8 +277,6 @@ Here's a short checklist to help you prepare for an interview:
 15. Consider how the interview can be used across platforms.
 
 In summary, the art of interviewing influencers in the crypto space involves thoughtful outreach, meticulous preparation, engaging question crafting, and creative repurposing of content. By mastering these aspects, you can use the potential of interviews to enhance your brand's authority, educate your audience, and create lasting connections within the crypto community.
-
-
 
 #### More About Crypto Marketing: 
 
