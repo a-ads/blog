@@ -45,7 +45,7 @@ This big goal has many smaller goals inside it. Think about it like a bunch of s
 
 ## Varieties of Brand Promotion
 
-![Varieties of Brand Promotion](/blog/assets/виды-крипто-брендов-v2.png "Varieties of Brand Promotion")
+![Varieties of Brand Promotion](/blog/assets/varieties-of-brand-promotion.webp "Varieties of Brand Promotion")
 
 *"Positioning is finding the right parking space inside the consumer's mind and going for it before someone else takes it." - Laura Busche.*
 
@@ -63,7 +63,7 @@ Crypto brands can promote themselves in various ways, and they have different pu
 
 ## Getting Ready for Successful Brand Promotion
 
-![Successful Brand Promotion](/blog/assets/разработка-стратегии-продвижения-бренда.png "Successful Brand Promotion")
+![Successful Brand Promotion](/blog/assets/successful-brand-promotion.webp "Successful Brand Promotion")
 
 The promotion process is like a changing and growing thing. It works in two ways: one, when you're introducing a new brand and need to make it known, and two, when your brand is already known, and you want to support it more.
 
@@ -80,7 +80,7 @@ Creating this plan is the seventh step in building your crypto brand. But before
 
 ### Creating a Great Brand Strategy
 
-![Great Brand Strategy](/blog/assets/как-разработать-сторителлинг-лого-и-девиз .png "Great Brand Strategy")
+![Great Brand Strategy](/blog/assets/great-brand-strategy.webp "Great Brand Strategy")
 
 When it comes to making a brand strategy, companies can take different paths. But most strategies are built on these eight main steps:
 
@@ -118,7 +118,7 @@ Ultimately, they set up a way to measure the performance of the promotion. They 
 
 ### Discovering Different Ways to Promote Brands
 
-![Tools For Crypto Brand Promotion ](/blog/assets/методы-и-инструменты-продвижения -pr-sponsorship-co-branding-etc- .png "Tools For Crypto Brand Promotion ")
+![Tools For Crypto Brand Promotion ](/blog/assets/tools-for-crypto-brand-promotion.webp "Tools For Crypto Brand Promotion ")
 
 Promotion tools and methods are like a bunch of special marketing tricks that help show off a brand's image, values, and why people should buy it. Even where a brand's products are sold can give clues about the brand. For example, if a fancy brand like Armani has a store in a regular neighborhood, it might not seem so fancy anymore.
 
@@ -209,7 +209,7 @@ Binance is a major player in trading cryptocurrencies, and TravelbyBit is a well
 
 ## How to Evaluate the Effectiveness of Brand Promotion
 
-![Evaluation of the Effectiveness of Brand Promotion](/blog/assets/как-оценить-успешность-маркетинговой-кампании.jpg "Evaluation of the Effectiveness of Brand Promotion")
+![Evaluation of the Effectiveness of Brand Promotion](/blog/assets/evaluation-of-the-effectiveness-of-brand-promotion.webp "Evaluation of the Effectiveness of Brand Promotion")
 
 You can use **2 types of metrics.** The first is general metrics, usually used to analyze overall promotion. The second is metrics for each promotion tool. They are used to evaluate the effectiveness of individual campaigns.
 
