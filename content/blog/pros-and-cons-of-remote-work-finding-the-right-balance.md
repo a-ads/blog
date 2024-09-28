@@ -27,7 +27,7 @@ Let's explore them in more detail.
 
 ## The Advantages of Remote Work
 
-![The Advantages of Remote Work](/blog/assets/remote-work-advantages.png "The Advantages of Remote Work")
+![The Advantages of Remote Work](/blog/assets/remote-work-advantages.webp "The Advantages of Remote Work")
 
 **1. Time Savings**
 
@@ -43,7 +43,7 @@ While many large corporations are headquartered in major cities, not everyone ha
 
 In general, remote work goes beyond mere financial savings. It gives employees the potential for better time management, the freedom to craft a comfortable work environment, and the chance to work for reputable companies regardless of their geographical location.
 
-![Pros and cons of remote work ](/blog/assets/222.png "Pros and cons of remote work ")
+![Pros and cons of remote work ](/blog/assets/what-aads-employees-say.webp "Pros and cons of remote work ")
 
 *What AADS employees say*
 
@@ -79,7 +79,7 @@ Hiring remote employees presents challenges for HR specialists, as they lack the
 
 ## How to Effectively Implement Remote Work and Conquer Challenges
 
-![Disadvantages of Remote Work ](/blog/assets/remote-work-disadvantages.png "Disadvantages of Remote Work ")
+![Disadvantages of Remote Work ](/blog/assets/remote-work-disadvantages.webp "Disadvantages of Remote Work ")
 
 Remote work means doing the same complex tasks, having meetings, and talking to colleagues. We've researched how to smoothly switch to remote work and keep being productive. 
 
@@ -117,7 +117,7 @@ Going to and from the office is a way to transition from home to work mode and b
 
 **Talk to Others:** Don't feel alone while working from home. Try to meet up with friends or coworkers every now and then. This will help you feel connected and less emotionally tired.
 
-![Remote work solutions](/blog/assets/remote-work-advantages_2.png "Remote work solutions")
+![Remote work solutions](/blog/assets/what-aads-employees-say-2.webp "Remote work solutions")
 
 *What AADS employees say*
 
