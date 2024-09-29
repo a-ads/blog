@@ -1,1 +1,0 @@
-export { toCategoryLink } from './toCategoryLink'
