@@ -1,0 +1,249 @@
+@import './params.scss';
+@import './breakpoint.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  color: var(--Text-Primary, rgba(38, 50, 56, 1));
+}
+
+div {
+  font-size: 0;
+  line-height: 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-blue-color;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  @include breakpoint('tablet') {
+    max-width: 768px;
+  }
+  @include breakpoint('phone') {
+    max-width: 440px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+  font-family: 'Poppins', sans-serif;
+  @include breakpoint('phone') {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+h2, h3 {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  @include breakpoint('phone') {
+    font-size: 24px;
+  }
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+ul.checklist {
+  li {
+    color: rgba(122, 129, 133, 1);
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    padding-left: 26px;
+  }
+
+  li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    background-image: url('/images/check.svg');
+  }
+
+  li + li {
+    margin-top: 8px;
+  }
+}
+
+.text-secondary-color {
+  color: $text-secondary-color;
+}
+
+.button {
+  background-color: $primary-blue-color;
+  border: 2px solid $primary-blue-color;
+  cursor: pointer;
+  font-family: 'Poppins', 'sans-serif';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  color: white;
+  padding: 12px 38px;
+  border-radius: 24px;
+  display: inline-block;
+  @include breakpoint('phone') {
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+}
+
+.button.--large {
+  line-height: 28px;
+  font-size: 16px;
+  border-radius: 56px;
+}
+
+.button.--white {
+  background-color: white;
+  color: $primary-blue-color;
+  border-color: white;
+}
+
+.button.--ghost {
+  background-color: transparent;
+  color: $primary-blue-color;
+}
+
+.button.--social {
+  background-color: transparent;
+  color: inherit;
+  border-color: inherit;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 16px 30px -16px rgba(26, 25, 34, 0.16);
+  border-radius: 50px;
+  border: 1px solid rgba(170, 170, 170, 1);
+  padding: {
+    top: 14px;
+    bottom: 14px;
+    left: 20px;
+    right: 20px;
+  }
+  font-size: 16px;
+  line-height: 24px;
+
+  span {
+    margin-left: 12px;
+  }
+}
+
+.breadcrumbs {
+  a {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    font-weight: 600;
+    @include breakpoint('phone') {
+      font-size: 14px;
+      line-height: 10px;
+      font-weight: 500;
+    }
+  }
+
+  .breadcrumbs__dot {
+    margin: 0 2px;
+  }
+
+  .breadcrumbs__dot::before {
+    content: '∙';
+    display: inline-block;
+    font-size: 16px;
+    color: rgba(149, 154, 157, 1);
+    font-weight: 400;
+  }
+}
+
+.desktop-visible {
+  display: none!important;
+  @include breakpoint('desktop') {
+    display: block!important;
+  }
+}
+
+.desktop-visible.--flex {
+  display: none!important;
+  @include breakpoint('desktop') {
+    display: flex!important;
+  }
+}
+
+.phone-visible {
+  display: none!important;
+  @include breakpoint('phone') {
+    display: block!important;
+  }
+}
+
+.phone-visible.--flex {
+  display: none!important;
+  @include breakpoint('phone') {
+    display: flex!important;
+  }
+}
+
+.mobile-visible {
+  display: none!important;
+  @include breakpoint('tablet') {
+    display: block!important;
+  }
+}
+
+.phone-hidden {
+  @include breakpoint('phone') {
+    display: none!important;
+  }
+}
+
+.article-list-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 16px;
+  row-gap: 32px;
+  @include breakpoint('tablet') {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+  }
+}
+
+.gatsby-highlight {
+  max-width: 100%;
+  overflow: hidden;
+}
