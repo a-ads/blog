@@ -1,0 +1,444 @@
+@import '/src/styles/params.scss';
+@import '/src/styles/breakpoint.scss';
+
+.layout-footer {
+  @include breakpoint('tablet') {
+    padding-bottom: 56px;
+  } 
+}
+
+.blog-post {
+  padding-top: 40px;
+  padding-bottom: 130px;
+  @include breakpoint('tablet') {
+    padding-bottom: 0;
+  }
+
+  .container {
+    column-gap: 30px;
+    display: flex;
+    @include breakpoint('tablet') {
+      flex-wrap: wrap;
+    }
+
+    .main {
+      flex-basis: 826px;
+      flex-grow: 0;
+      @include breakpoint('tablet') {
+        flex-basis: 100%;
+        order: 2;
+        max-width: 100%;
+      }
+    }
+
+    .sidebar {
+      flex-basis: 254px;
+      flex-shrink: 0;
+      flex-grow: 0;
+      @include breakpoint('tablet') {
+        display: none;
+      }
+    }
+
+    .sticky-wrap {
+      position: sticky;
+      top: 40px;
+    }
+  }
+
+  .title {
+    margin-bottom: 12px;
+  }
+
+  .date {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--Text-Secondary, rgba(149, 154, 157, 1));
+    margin-bottom: 40px;
+    @include breakpoint('tablet') {
+      margin-bottom: 24px;
+    }
+  }
+
+  .breadcrumbs {
+    margin-bottom: 12px;
+  }
+
+  .article-picture {
+    overflow: hidden;
+    border-radius: 24px;
+    margin-bottom: 40px;
+    @include breakpoint('phone') {
+      margin-bottom: 30px;
+    }
+  }
+
+  .article {
+    font-size: 18px;
+    line-height: 28px;
+
+    img {
+      max-width: 100%;
+      display: block;
+      margin: 16px 0;
+    }
+
+    img + br {
+      display: none;
+    }
+
+    > *:last-child {
+      margin-bottom: 0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 40px;
+      margin-bottom: 16px;
+      @include breakpoint('phone') {
+        margin-top: 30px;
+        margin-bottom: 12px;
+      }
+    }
+
+    h1, h2 {
+      font-size: 28px;
+      line-height: 1.5;
+      @include breakpoint('phone') {
+        font-size: 20px;
+      }
+    }
+
+    h3 {
+      font-size: 24px;
+      line-height: 32px;
+      @include breakpoint('phone') {
+        font-size: 18px;
+      }
+    }
+
+    h4 {
+      font-size: 20px;
+      line-height: 1.5;
+      @include breakpoint('phone') {
+        font-size: 16px;
+      }
+    }
+
+    h5, h6 {
+      font-size: 18px;
+      @include breakpoint('phone') {
+        font-size: 14px;
+      }
+    }
+
+    h1 + h2,
+    h2 + h3,
+    h3 + h4,
+    h4 + h5,
+    h5 + h6 {
+      margin-top: 30px;
+      @include breakpoint('phone') {
+        margin-top: 20px;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 28px;
+      margin-top: 16px;
+      margin-bottom: 16px;
+      @include breakpoint('phone') {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 12px;
+        margin-top: 12px;
+      }
+    }
+
+    pre {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-top: 16px;
+      margin-bottom: 16px;
+      max-width: 100%;
+      overflow: scroll;
+    }
+
+    li {
+      font-size: 18px;
+      line-height: 24px;
+      position: relative;
+      @include breakpoint('phone') {
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+
+    ol li {
+      list-style: none;
+    }
+
+    ul li:not(:only-child) {
+      margin-top: 16px;
+      padding-left: 28px;
+      @include breakpoint('phone') {
+        margin-top: 12px;
+      }
+    }
+
+    ul li:not(:only-child)::before {
+      color: #03a9f4;
+      content: "•";
+      display: block;
+      font-size: 18px;
+      font-weight: 700;
+      margin-right: 12px;
+      width: 18px;
+      text-align: center;
+      position: absolute;
+      left: 0;
+      top: -1px;
+    }
+
+    ol li:not(:only-child) {
+      counter-increment: item;
+      margin-top: 16px;
+      @include breakpoint('phone') {
+        margin-top: 10px;
+      }
+
+      &::before {
+        content: counter(item) '.';
+        font-weight: bold;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .author {
+    @include breakpoint('tablet') {
+      margin-bottom: 30px;
+    }
+
+    a {
+      @include breakpoint('tablet') {
+        display: inline-flex;
+        align-items: center;
+      }
+    }
+
+    .pic {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 14px;
+      @include breakpoint('tablet') {
+        margin-right: 14px;
+        margin-bottom: 0;
+      }
+
+      > div {
+        width: 100%!important;
+        height: 100%!important;
+        border-radius: 100%;
+      }
+    }
+
+    .name {
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 28px;
+      margin-bottom: 2px;
+      color: rgba(38, 50, 56, 1);
+      @include breakpoint('phone') {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+
+    .position {
+      font-family: 'Inter' sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      color: var(--Text-Secondary, rgba(149, 154, 157, 1));
+    }
+  }
+
+  .table-of-contents {
+    border-radius: 24px;
+    border: 1px solid var(--Neutral-Gray-920, rgba(233, 233, 236, 1));
+    padding-top: 20px;
+    margin-top: 20px;
+
+    p {
+      font-size: 14px;
+    }
+
+    ul li {
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 400;
+      margin-top: 8px;
+    }
+
+    .toc-title {
+      font-family: 'Poppins' sans-serif;
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .toc-container {
+      padding: 0 20px;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .toc-main {
+      border-bottom: 1px solid var(--Neutral-Gray-920, rgba(233, 233, 236, 1));
+      padding-bottom: 19px;
+    }
+
+    .toc-main + .share {
+      margin-top: 10px;
+    }
+
+    .share {
+      padding-bottom: 20px;
+
+      button {
+        background: none;
+        border: none;
+        cursor: pointer;
+      }
+
+      p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: var(--Text-Secondary, rgba(149, 154, 157, 1));
+        margin-bottom: 12px;
+      }
+
+      button + button {
+        margin-left: 12px;
+      }
+    }
+  }
+
+  .table-of-contents-mobile {
+    margin-bottom: 24px;
+
+    .accordion-item {
+      background-color: white;
+      border-radius: 24px;
+      box-shadow: 0px 16px 30px -16px rgba(26, 25, 34, 0.16);
+      
+    }
+
+    .button {
+      display: flex;
+      justify-content: center;
+      font-size: 16px;
+      line-height: 1.5;
+      padding: 12px;
+      color: rgba(3, 169, 244, 1);
+      font-weight: bold;
+      align-items: center;
+
+      span {
+        display: none;
+      }
+      span:nth-child(1) {
+        display: inline;
+      }
+
+      &::before {
+        content: '';
+        display: block;
+        width: 24px;
+        height: 24px;
+        background-image: url('/images/leaky-burger.svg');
+        margin-right: 12px;
+      }
+    }
+
+    div[aria-expanded="true"] .button {
+      span {
+        display: none;
+      }
+      span:nth-child(2) {
+        display: inline;
+      }
+
+      &::before {
+        background-image: url('/images/arrow-down.svg');
+      }
+    }
+
+    .items-wrap {
+      padding: 16px 24px;
+      border-top: 1px solid rgba(216, 223, 227, 1);
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    ul li {
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 400;
+      margin-top: 8px;
+    }
+
+  }
+
+  .share-mobile {
+    display: none;
+    order: 3;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    z-index: 10;
+    box-shadow: 0px 5px 30px -21px rgba(0, 0, 0, 0.1);
+    margin-top: 26px;
+    position: sticky;
+    @include breakpoint('tablet') {
+      display: block;
+    }
+
+
+    .share-container {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      padding: 12px 0;
+
+      button + button {
+        margin-left: 14px;
+      }
+      
+      > div {
+        order: 1;
+      }
+
+      > p {
+        order: 2;
+        font-size: 12px;
+        line-height: 16px;
+        margin-left: 12px;
+        color: rgba(52, 50, 64, 1);
+        opacity: 0.65;
+        font-weight: 500;
+      }
+    }
+
+    
+  }
+}
