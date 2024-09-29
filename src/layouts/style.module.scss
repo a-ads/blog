@@ -1,0 +1,326 @@
+@import '/src/styles/params.scss';
+@import '/src/styles/breakpoint.scss';
+
+.header {
+  padding: 21px 0;
+  box-shadow: 0px 8px 40px -20px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  position: relative;
+  @include breakpoint('phone') {
+    padding: 14px 0;
+  }
+
+  .logo {
+    @include breakpoint('phone') {
+      height: 34px;
+  
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    @include breakpoint('tablet') {
+      display: none;
+    }
+
+    a {
+      font-family: Noto Sans;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      text-align: left;
+      color: $text-primary-color;
+    }
+
+    a + a {
+      margin-left: 34px;
+    }
+
+    .search {
+      margin-left: 64px;
+    }
+  }
+
+  .button-wrap {
+    flex-grow: 0;
+    @include breakpoint('tablet') {
+      display: none;
+    }
+  }
+
+  .burger-menu {
+    display: none;
+    cursor: pointer;
+    @include breakpoint('tablet') {
+      display: block;
+    }
+  }
+
+  .burger-menu-container {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 40px -20px rgba(0, 0, 0, 0.1);
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding-bottom: 40px;
+
+    .links {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: bold;
+      margin-top: 18px;
+
+      p + p {
+        border-top: 1px solid rgba(233, 233, 236, 1);
+      }
+
+      a {
+        display: block;
+        padding: 12px 0;
+        color: rgba(38, 50, 56, 1);
+      }
+    }
+
+    .button-wrap {
+      display: block;
+      margin-top: 18px;
+      @include breakpoint('tablet') {
+        max-width: 300px;
+      }
+      @include breakpoint('phone') {
+        max-width: none;
+      }
+
+      > a {
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+
+  .search {
+
+    &.open .input-wrap {
+      display: block;
+    }
+
+    .input-wrap {
+      display: none;
+      border: 1px solid var(--Neutral-Gray-870, rgba(216, 223, 227, 1));
+      border-radius: 24px;
+      overflow: hidden;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: -6px;
+      z-index: 1;
+      background-color: white;
+      @include breakpoint('tablet') {
+        position: relative;
+        top: 0;
+      }
+
+      input {
+        border: none;
+        height: 42px;
+        box-sizing: border-box;
+        font-size: 14px;
+        font-family: $font-1;
+        padding: 9px 48px 9px 48px;
+        width: 100%;
+      }
+
+      .search-btn {
+        background-image: url('/images/search-2.svg');
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 10px;
+        left: 16px;
+        cursor: pointer;
+      }
+
+      .close-btn {
+        background-image: url('/images/search-close.svg');
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 10px;
+        right: 16px;
+        cursor: pointer;
+      }
+    }
+
+    button {
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+    }
+  }
+}
+
+.main {
+  background: var(--Neutral-Grey-970, rgba(248, 248, 249, 1));
+}
+
+.footer {
+  background: var(--Neutral-Gray-950, rgba(242, 244, 246, 1));
+
+  .caption-wrap {
+    padding: 40px 0;
+    border-bottom: 1px solid rgb(216, 223, 227);
+    @include breakpoint('phone') {
+      border-bottom: none;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+
+  .navigation-wrap {
+    padding: 32px 0;
+    border-bottom: 1px solid rgb(216, 223, 227);
+    @include breakpoint('phone') {
+      border: none;
+      padding-top: 0;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .accordion {
+      width: 100%;
+    }
+
+    .accordion-item {
+      border-bottom: 1px solid rgba(230, 230, 230, 1);
+    }
+
+    .accordion-item:first-child {
+      border-top: 1px solid rgba(230, 230, 230, 1);
+    }
+
+    .accordion-panel {
+      padding-bottom: 19px;
+    }
+
+    .accordion-heading {
+      padding: 10px 0;
+      
+      p {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      p::after {
+        content: '';
+        display: inline-block;
+        background-image: url('/images/accordion-arrow.svg');
+        width: 19px;
+        height: 11px;
+      }
+    }
+
+    ul li {
+      font-size: 0;
+      line-height: 0;
+
+      strong {
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      a {
+        color: $text-primary-color;
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+
+    ul li + li {
+      margin-top: 12px;
+      @include breakpoint('phone') {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .bottom-wrap {
+    padding: 24px 0;
+    @include breakpoint('tablet') {
+      padding: 30px 0 42px;
+    }
+    @include breakpoint('phone') {
+      padding-top: 0;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      @include breakpoint('tablet') {
+        flex-wrap: wrap;
+      }
+      @include breakpoint('phone') {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+
+    .copyright-and-links {
+      display: flex;
+      column-gap: 28px;
+      @include breakpoint('tablet') {
+        flex-basis: 100%;
+        order: 2;
+        justify-content: center;
+      }
+
+      p, a {
+        color: $text-secondary-color;
+        @include breakpoint('phone') {
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+
+      p:nth-child(2), p:nth-child(3) {
+        @include breakpoint('tablet') {
+          display: none;
+        }
+      }
+    }
+
+    .soc-buttons {
+      display: flex;
+      column-gap: 9px;
+      @include breakpoint('tablet') {
+        justify-content: center;
+        flex-basis: 100%;
+        column-gap: 12px;
+        order: 0;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
