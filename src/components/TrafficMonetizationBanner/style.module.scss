@@ -1,0 +1,48 @@
+@import '/src/styles/breakpoint.scss';
+
+.banner {
+  color: white;
+  background: rgba(5, 131, 248, 1);
+  padding: 42px 90px;
+  border-radius: 24px;
+  background-image: url('/images/promo-1.svg');
+  background-size: auto 100%;
+  background-position: top right;
+  background-repeat: no-repeat;
+  @include breakpoint('tablet') {
+    background-image: url('/images/promo-1-mobile.png');
+  }
+  @include breakpoint('phone') {
+    border-radius: 0;
+    padding: 28px 0;
+  }
+
+  .title {
+    margin-bottom: 8px;
+    @include breakpoint('phone') {
+      font-size: 16px;
+      line-height: 21px;
+    }
+  }
+
+  .description {
+    margin-bottom: 18px;
+    @include breakpoint('phone') {
+      font-size: 12px;
+      line-height: 1.5;
+      margin-bottom: 12px;
+    }
+  }
+
+  .button {
+    min-width: 300px;
+    text-align: center;
+    box-sizing: border-box;
+    @include breakpoint('phone') {
+      min-width: 180px;
+      font-size: 14px;
+      line-height: 1.5;
+      font-weight: 600;
+    }
+  }
+}

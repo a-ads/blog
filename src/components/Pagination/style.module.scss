@@ -1,0 +1,48 @@
+@import '/src/styles/params.scss';
+@import '/src/styles/breakpoint.scss';
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.page-number, .prev, .next {
+  margin: 0 5px;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+  color: $primary-blue-color;
+  background-color: white;
+  box-shadow: 0px 16px 30px -16px rgba(26, 25, 34, 0.16);
+  font-family: 'Poppins' sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  border: 2px solid white;
+  height: 56px;
+  min-width: 56px;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  @include breakpoint('phone') {
+    height: 48px;
+    min-width: 48px;
+  }
+}
+
+.page-number.active {
+  border: 2px solid rgba(3, 169, 244, 1);
+}
+
+.page-number:hover, .prev:hover, .next:hover {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.page-number:disabled, .prev:disabled, .next:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
