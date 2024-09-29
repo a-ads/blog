@@ -1,43 +1,44 @@
-const resolve = require('path').resolve
 const { createFilePath } = require('gatsby-source-filesystem')
-const _ = require('lodash')
+const path = require(`path`)
+const R = require('ramda')
+const getCategoryPath = require('./src/utils/get-category-path')
 const fs = require('fs')
-const path = require('path')
 
-exports.onCreatePage = async ({ page, actions }) => {
-  const { createPage } = actions
-
-  if (page.path.match(/^\/$/)) {
-    page.matchPath = '/*'
-    createPage(page)
-  }
-}
-
-exports.onCreateWebpackConfig = ({ stage, actions }) => {
-  actions.setWebpackConfig({
-    resolve: {
-      modules: [resolve(__dirname, 'src'), 'node_modules'],
-      extensions: ['.js', '.jsx', '.ts', '.tsx', '.json', '.svg', '.png'],
-    },
-  })
-}
+const POSTS_PER_PAGE = 8
+const CATEGORIES_POSTS_PER_PAGE = 10
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === 'MarkdownRemark') {
-    if (_.startsWith(node.frontmatter.thumbnail, 'blog/assets/')) {
+    if (R.startsWith('blog/assets/', node.frontmatter.thumbnail)) {
       node.frontmatter.thumbnail = node.frontmatter.thumbnail.replace(
         'blog/assets/',
         '../../static/assets/'
       )
     }
 
-    if (_.startsWith(node.frontmatter.thumbnail, '/blog/assets/')) {
+    if (R.startsWith('/blog/assets/', node.frontmatter.thumbnail)) {
       node.frontmatter.thumbnail = node.frontmatter.thumbnail.replace(
         '/blog/assets/',
         '../../static/assets/'
       )
+    }
+
+    if (!node.frontmatter.popularity) {
+      node.frontmatter.popularity = 0
+    } else {
+      node.frontmatter.popularity = parseInt(node.frontmatter.popularity)
+    }
+
+    const firstCategoryTopLevel = R.pathOr(null, ['frontmatter', 'category_top_level', 0], node)
+    if (firstCategoryTopLevel) {
+      node.frontmatter.first_category_top_level = firstCategoryTopLevel
+    }
+
+    const firstCategorySecondLevel = R.pathOr(null, ['frontmatter', 'category_second_level', 0], node)
+    if (firstCategorySecondLevel) {
+      node.frontmatter.first_category_second_level = firstCategorySecondLevel
     }
 
     const slug = createFilePath({ node, getNode, basePath: 'blog' })
@@ -49,30 +50,23 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 }
 
-// We only need the full post data for the blog post page. For the blog post card we only need a subset of the data
-const toBlogPostCardProps = ({
-  html,
-  tableOfContents,
-  date,
-  excerpt,
-  author,
-  related_posts,
-  category,
-  tags,
-  popularity,
-  ...blogPostCardProps
-}) => blogPostCardProps
+exports.onCreatePage = async ({ page, actions }) => {
+  const { createPage } = actions
+
+  if (page.path.match(/^\/$/)) {
+    page.matchPath = '/*'
+    createPage(page)
+  }
+}
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
-
   const { data, errors } = await graphql(`
     {
       allBlogPosts: allMarkdownRemark(
         sort: { frontmatter: { date: DESC } }
         filter: { fileAbsolutePath: { regex: "/^.*/content/blog/.*.md$/" } }
       ) {
-        totalCount
         edges {
           node {
             fields {
@@ -80,37 +74,19 @@ exports.createPages = async ({ graphql, actions }) => {
             }
             frontmatter {
               author
-              category
-              category_top_level
-              category_second_level
-              date(formatString: "DD MMMM YYYY")
-              popularity
-              tags
-              reading_time
-              thumbnail {
-                childImageSharp {
-                  gatsbyImageData(
-                    placeholder: BLURRED
-                    quality: 100
-                    layout: FULL_WIDTH
-                    transformOptions: { cropFocus: CENTER }
-                  )
-                }
-              }
-              meta_title
-              meta_description
               title
+              category_top_level
+              thumbnail {
+                publicURL
+              }
               slug
-              json_ld
             }
-            html
-            tableOfContents
           }
         }
       }
 
       allAuthors: allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/^.*/content/authors/.*.md$/" } }
+        filter: {fileAbsolutePath: {regex: "/^.*/content/authors/.*.md$/"}}
       ) {
         totalCount
         edges {
@@ -120,245 +96,134 @@ exports.createPages = async ({ graphql, actions }) => {
             }
             frontmatter {
               name
-              thumbnail {
-                childImageSharp {
-                  gatsbyImageData(
-                    blurredOptions: { width: 100 }
-                    placeholder: BLURRED
-                    quality: 100
-                    transformOptions: { cropFocus: CENTER }
-                    height: 266
-                    width: 266
-                  )
-                }
-              }
-              position
-              description
-              facebook_link
-              twitter_link
-              linkedin_link
-              json_ld
             }
-            html
           }
         }
       }
 
-      allBlogCategoriesTopLevelYaml {
-        edges {
-          node {
-            title
-            h1
-            html_title
-            breadcrumb
-            meta_description
-            order
+      postsByCategoryTopLevel: allMarkdownRemark {
+        group(field: {frontmatter: {first_category_top_level: SELECT}}) {
+          fieldValue
+          totalCount
+          edges {
+            node {
+              fields {
+                slug
+              }
+            }
           }
         }
       }
 
-      allBlogCategoriesSecondLevelYaml {
-        edges {
-          node {
-            title
-            h1
-            html_title
-            breadcrumb
-            meta_description
-            order
-            parent_category
+      postsByCategorySecondLevel: allMarkdownRemark {
+        group(field: {frontmatter: {category_second_level: SELECT}}) {
+          fieldValue
+          totalCount
+          edges {
+            node {
+              fields {
+                slug
+              }
+            }
           }
         }
       }
     }
   `)
 
-  if (errors) console.log(`Gatsby-node threw: ${errors}`)
+  if (errors) {
+    console.log(`Gatsby-node threw: ${errors}`)
+  }
 
-  // Grab raw fetch results and flatten their key value pairs
-  const rawPosts = data.allBlogPosts.edges.map(({ node }) => node)
-  const posts = rawPosts.map(({ fields, frontmatter, ...rest }) => {
-    return {
-      ...fields,
-      ...frontmatter,
-      ...rest,
-    }
-  })
-  const rawAuthors = data.allAuthors.edges.map(({ node }) => node)
-  const authors = rawAuthors.map(({ fields, frontmatter, ...rest }) => {
-    return {
-      ...fields,
-      ...frontmatter,
-      ...rest,
-    }
-  })
-
-  // Blog Post Pages
+  const posts = data.allBlogPosts.edges
   posts.forEach((post) => {
     createPage({
-      path: post.slug,
-      component: resolve(`${__dirname}/src/templates/BlogPostTemplate.tsx`),
+      path: post.node.fields.slug,
+      component: path.resolve('./src/templates/blog-post.js'),
       context: {
-        post: post,
-        author: authors.find((author) => author.name === post.author),
-        slug: post.slug,
-        html: post.html,
-        table_of_contents: post.tableOfContents,
-        related_posts: posts
-          .filter(
-            ({ category_top_level }) =>
-              category_top_level[0] === post.category_top_level[0]
-          )
-          .map((relatedPost, index) => index < 7 && relatedPost)
-          .filter(Boolean)
-          .map(toBlogPostCardProps), // Grab only 7 related posts
+        slug: post.node.fields.slug,
+        authorName: post.node.frontmatter.author
       },
     })
   })
 
-  // Search pages
-  createPage({
-    path: '/search/',
-    component: resolve(`${__dirname}/src/templates/SearchTemplate.tsx`),
-    context: {
-      posts: posts.map(toBlogPostCardProps),
-    },
-  })
-
-  // Individual author pages
-  const authorBlogPostCount = posts.reduce((acc, post) => {
-    if (acc[post.author]) {
-      acc[post.author] += 1
-    } else {
-      acc[post.author] = 1
-    }
-    return acc
-  }, {})
-
-  authors.forEach((author) => {
+  const numPages = Math.ceil(posts.length / POSTS_PER_PAGE)
+  Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
-      path: author.slug,
-      component: resolve(`${__dirname}/src/templates/AuthorTemplate.tsx`),
+      path: i === 0 ? `/` : `/page/${i + 1}/`,
+      component: path.resolve('./src/templates/index.js'),
       context: {
-        name: author.name,
-        thumbnail: author.thumbnail,
-        position: author.position,
-        description: author.description,
-        // education: author.education,
-        facebook_link: author.facebook_link || '',
-        twitter_link: author.twitter_link || '',
-        linkedin_link: author?.linkedin_link || '',
-        html: author.html,
-        json_ld: author.json_ld,
-        postCount: authorBlogPostCount[author.name],
-        posts: posts
-          .filter(({ author: postAuthor }) => postAuthor === author.name)
-          .map(toBlogPostCardProps),
+        limit: POSTS_PER_PAGE,
+        skip: i * POSTS_PER_PAGE,
+        numPages,
+        currentPage: i + 1,
       },
     })
   })
 
-  // Shouldnt be here, but due to how md files are structured, we need to create a page for all authors as a template
-  // All authors page (pass each author's article count)
-  createPage({
-    path: '/authors',
-    component: resolve(`${__dirname}/src/templates/AuthorsPage.tsx`),
-    context: {
-      authors: authors.map((author) => ({
-        ...author,
-        postCount: authorBlogPostCount[author.name],
-      })),
-    },
+  data.postsByCategoryTopLevel.group.forEach(group => {
+    const numPages = Math.ceil(group.edges.length / CATEGORIES_POSTS_PER_PAGE)
+
+    Array.from({ length: numPages }).forEach((_, i) => {
+      createPage({
+        path: i <= 0
+          ? getCategoryPath(group.fieldValue)
+          : `${getCategoryPath(group.fieldValue)}page/${i + 1}`,
+        component: path.resolve('./src/templates/category-top.js'),
+        context: {
+          categoryTopLevel: group.fieldValue,
+          numPages,
+          limit: CATEGORIES_POSTS_PER_PAGE,
+          skip: i * CATEGORIES_POSTS_PER_PAGE,
+          currentPage: i + 1
+        },
+      })
+    })
   })
 
-  // Category pages
-  const categories = data.allBlogCategoriesTopLevelYaml.edges.map(
-    ({ node }) => ({
-      title: node.title,
-      meta_description: node.meta_description,
-      ...node,
-    })
-  )
-  const subcategories = data.allBlogCategoriesSecondLevelYaml.edges
-  const subcategoriesWithPosts = subcategories
-    .filter(({ node }) => {
-      const subcategoryPosts = posts.filter(
-        ({ category_second_level }) =>
-          category_second_level && category_second_level.includes(node.title)
-      )
-      return subcategoryPosts.length > 0
-    })
-    .map(({ node }) => {
-      const subcategoryPosts = posts.filter(
-        ({ category_second_level }) =>
-          category_second_level && category_second_level.includes(node.title)
-      )
-      return {
-        subcategoryName: node.title,
-        posts: subcategoryPosts.map(toBlogPostCardProps),
-        ...node,
-      }
-    })
+  data.postsByCategorySecondLevel.group.forEach(group => {
+    const numPages = Math.ceil(group.edges.length / CATEGORIES_POSTS_PER_PAGE)
 
-  // Create Category Pages with their unique urls and subcategory posts
-  const categoryPages = []
-  categories.forEach((category) => {
-    const allPostsForOneCategory = posts.filter(
-      ({ category_top_level }) => category_top_level[0] === category.title
-    )
-    const allAsSubcategory = {
-      subcategoryName: 'All',
-      posts: allPostsForOneCategory,
-    }
-    const subcats = [allAsSubcategory, ...subcategoriesWithPosts]
+    Array.from({ length: numPages }).forEach((_, i) => {
+      createPage({
+        path: i <= 0
+          ? getCategoryPath(group.fieldValue)
+          : `${getCategoryPath(group.fieldValue)}page/${i + 1}`,
+        component: path.resolve('./src/templates/category-second.js'),
+        context: {
+          categorySecondLevel: group.fieldValue,
+          numPages,
+          limit: CATEGORIES_POSTS_PER_PAGE,
+          skip: i * CATEGORIES_POSTS_PER_PAGE,
+          currentPage: i + 1
+        },
+      })
+    })
+  })
 
-    subcats.forEach((subcat) => {
-      if (subcat.subcategoryName === 'All') {
-        categoryPages.push({
-          path: `/categories/${category.title}/`,
-          posts: subcat.posts,
-          categoryObj: category,
-          category: category.title,
-        })
-      } else if (category.title === 'Guides') {
-        categoryPages.push({
-          path: `/categories/${subcat.subcategoryName}/`,
-          posts: subcat.posts,
-          category: category.title,
-          categoryObj: subcat,
-        })
+  const authors = data.allAuthors.edges
+  authors.forEach(author => {
+    createPage({
+      path: author.node.fields.slug,
+      component: path.resolve('./src/templates/author.js'),
+      context: {
+        slug: author.node.fields.slug,
+        authorName: author.node.frontmatter.name
       }
     })
   })
 
-  const subcategoryNames = subcategoriesWithPosts.map(
-    ({ subcategoryName }) => subcategoryName
-  )
-  subcategoryNames.unshift('All')
-
-  categoryPages.forEach((page) =>
-    createPage({
-      path: page.path
-        .toLowerCase()
-        .replace('news & trends', 'news-trends')
-        .replace(' ', '-'),
-      component: resolve(`${__dirname}/src/templates/CategoryTemplate.tsx`),
-      context: {
-        category: page.category,
-        subcategories: subcategoryNames,
-        meta_description: page.meta_description,
-        categoryObj: page.categoryObj,
-        posts: page.posts.map(toBlogPostCardProps),
-      },
-    })
-  )
+  createPage({
+    path: '/authors/',
+    component: path.resolve('./src/templates/authors.js')
+  })
 
   const blogPostsForAadsMainPage = JSON.parse(
-    JSON.stringify(_.take(data.allBlogPosts.edges, 9))
+    JSON.stringify(R.take(9, data.allBlogPosts.edges))
   ).map(function (post) {
     if (post.node.frontmatter.thumbnail) {
       post.node.frontmatter.thumbnail =
-        post.node.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src
+        post.node.frontmatter.thumbnail.publicURL
     }
     if (post.node.fields.slug) {
       post.node.frontmatter.slug = '/blog/' + post.node.frontmatter.slug + '/'
@@ -379,9 +244,9 @@ exports.createPages = async ({ graphql, actions }) => {
     JSON.stringify(data.allBlogPosts.edges)
   ).map(function (post) {
     if (post.node.frontmatter.thumbnail) {
-      post.node.frontmatter.thumbnail =
-        post.node.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src
+      post.node.frontmatter.thumbnail = post.node.frontmatter.thumbnail.publicURL
     }
+
     if (post.node.fields.slug) {
       post.node.frontmatter.slug = '/blog/' + post.node.frontmatter.slug + '/'
       post.node.fields.slug = post.node.frontmatter.slug
@@ -400,10 +265,12 @@ exports.createPages = async ({ graphql, actions }) => {
     return specificBlogPostsUrls.includes(post.node.frontmatter.slug)
   })
 
-  const specificBlogPostsProcessed = _.take(_.uniqWith(
-    _.take(specificBlogPosts.concat(blogPosts2), 12),
-    _.isEqual
-  ), 9)
+  const specificBlogPostsProcessed = R.compose(
+    R.take(9),
+    R.uniqWith(R.equals),
+    R.take(12),
+    R.concat(specificBlogPosts)
+  )(blogPosts2);
 
   fs.writeFile(
     path.resolve('./public/extra_blogposts_preview.json'),
