@@ -43,7 +43,7 @@ This type of direct marketing is based on sending promotional materials to mobil
 
 **3. Push Notifications**
 
-![Push Notifications](/blog/assets/634f8f641fa3ea23c5f3f912_jamie-street-33oxtomk6ac-unsplash-1.jpeg "Push Notifications")
+![Push Notifications](/blog/assets/direct-messaging-in-crypto-marketing-push-notifications.webp "Push Notifications")
 
 *Source: Bilue.com*
 
@@ -77,7 +77,7 @@ To improve your SMS campaigns, here are some direct marketing strategies you can
 
 **6. Telemarketing** 
 
-![Telemarketing](/blog/assets/what-is-telemarketin-feature.jpg "Telemarketing")
+![Telemarketing](/blog/assets/direct-messaging-in-crypto-marketing-telemarketing.webp "Telemarketing")
 
 *Source: United Wolrd Telecome*
 
@@ -113,7 +113,7 @@ Several advantages underpin the realm of direct personal selling:
 
 Let's examine the pros and cons of the direct marketing strategy:
 
-![Advantages and Disadvantages of Direct Marketing](/blog/assets/pillar-page.png "Advantages and Disadvantages of Direct Marketing")
+![Advantages and Disadvantages of Direct Marketing](/blog/assets/advantages-and-disadvantages-of-direct-marketing.webp "Advantages and Disadvantages of Direct Marketing")
 
 ## Direct Marketing Strategies
 
