@@ -56,7 +56,7 @@ For example, CoinSwitch, a well-known cryptocurrency wallet, publishes blogs abo
 
 ### 2. Build a Strong Brand Presence
 
-![brand building strategies ](/blog/assets/pexels-eva-bronzini-7661590-1-.jpg "Brand Building Strategies ")
+![brand building strategies ](/blog/assets/what-is-crypto-marketing-build-a-strong-brand-presence.webp "Brand Building Strategies ")
 
 *Source: Pexels.com*
 
@@ -121,7 +121,7 @@ This strategy encourages loyal customers to offer the product they use to their 
 
 ## What Else To Do To Promote Crypto Brand? 
 
-![Consider Segmentation In Your Ads And Emails](/blog/assets/pexels-lukas-669615.jpg "Consider Segmentation In Your Ads And Emails")
+![Consider Segmentation In Your Ads And Emails](/blog/assets/what-else-to-do-to-promote-crypto-brand.webp "Consider Segmentation In Your Ads And Emails")
 
 * #### Consider Segmentation In Your Ads And Emails
 
