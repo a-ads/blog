@@ -51,7 +51,7 @@ Here are the basic steps every marketing team should take first:
 
 ## Homepage 
 
-![AADS LinkedIn homepage](/blog/assets/снимок-экрана-2023-08-03-в-16.19.35.png "AADS LinkedIn homepage")
+![AADS LinkedIn homepage](/blog/assets/aads-lenkedin-homepage.webp "AADS LinkedIn homepage")
 
 *Example of [AADS LinkedIn ](https://www.linkedin.com/company/aads-network/)Homepage*
 
@@ -61,7 +61,7 @@ When launching your page, pay attention to the impact you want to provide for vi
 
 ### Complete Specified Information
 
-![AADS LinkedIn Overview Page](/blog/assets/снимок-экрана-2023-08-03-в-16.19.48.png "AADS LinkedIn Overview Page")
+![AADS LinkedIn Overview Page](/blog/assets/aads-lenkedin-overview-page.webp "AADS LinkedIn Overview Page")
 
 *Example of [AADS LinkedIn page](https://www.linkedin.com/company/aads-network/)*
 
@@ -99,7 +99,7 @@ When crafting your profile, highlighting accomplishments is crucial to capturing
 
 ## Add Product Page
 
-![Example Of Product Page](/blog/assets/снимок-экрана-2023-08-03-в-20.26.04.png "Example Of Product Page")
+![Example Of Product Page](/blog/assets/example-of-product-page.webp "Example Of Product Page")
 
 Every product page on your company website presents a unique opportunity to showcase specific offerings. Highlight the variety of cases you provide, emphasizing their differences and benefits. Leverage this platform to its fullest potential by incorporating various elements to attract and engage potential customers.
 
@@ -130,7 +130,7 @@ Invite your connections to follow you and grow that audience. There are several 
 
 ## Content Matters 
 
-![AADS LinkedIn Posts](/blog/assets/снимок-экрана-2023-08-03-в-16.20.54.png "AADS LinkedIn Posts")
+![AADS LinkedIn Posts](/blog/assets/aads-lenkedin-posts.webp "AADS LinkedIn Posts")
 
 *Example of [AADS LinkedIn page](https://www.linkedin.com/company/aads-network/)*
 
