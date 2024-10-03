@@ -48,7 +48,7 @@ To determine the type of content to create, consider what would be useful to you
 
 ### Put Your Company on Maps
 
-![Put Your Company on Maps](/blog/assets/pexels-pixabay-38271.jpg "Put Your Company on Maps")
+![Put Your Company on Maps](/blog/assets/seo-strategies-for-your-crypto-business-put-your-company-on-map.webp "Put Your Company on Maps")
 
 *Source: Pexels.com*
 
@@ -66,7 +66,7 @@ Another emerging trend influenced by current search realities is the use of revi
 
 ### Add Reviews
 
-![Customers feedback ](/blog/assets/positive-reviews.png "Customers feedback ")
+![Customers feedback ](/blog/assets/seo-strategies-for-your-crypto-business-positive-reviews.webp "Customers feedback ")
 
 *Source: Outcry.io*
 
