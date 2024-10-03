@@ -54,7 +54,7 @@ Implement a range of marketing initiatives, including placement in ICO listings,
 
 ### Find Your Investors 
 
-![Private And Institutional Investors For Crypto StartUps](/blog/assets/pexels-rdne-stock-project-7414003.jpg "Private And Institutional Investors For Crypto StartUps")
+![Private And Institutional Investors For Crypto StartUps](/blog/assets/crypto-ico-marketing-find-your-investors.webp "Private And Institutional Investors For Crypto StartUps")
 
 *Source: Pexel.com*
 
@@ -90,7 +90,7 @@ The main sections of the White Paper can include the following:
 
 ## Further Strategies Of ICO Marketing 
 
-![Strategies Of ICO Marketing](/blog/assets/pexels-fauxels-3183150.jpg "Strategies Of ICO Marketing")
+![Strategies Of ICO Marketing](/blog/assets/strategies-of-ico-marketing.webp "Strategies Of ICO Marketing")
 
 *Source: Pexel.com*
 
@@ -124,7 +124,7 @@ To learn more about bounty programs, read our article ["How Bounty Campaigns Can
 
 ### What Marketing Channel To Choose For ICO?
 
-![ICO Advertising Tactics](/blog/assets/ico-advertising-tactics.png "ICO Advertising Tactics")
+![ICO Advertising Tactics](/blog/assets/ico-advertising-tactics.webp "ICO Advertising Tactics")
 
 When it comes to ICO marketing, cryptocurrency platforms play a crucial role. BitcoinTalk, for instance, serves as a central hub within the cryptocurrency community. Maximising the potential of these platforms is essential for an effective marketing campaign.
 
