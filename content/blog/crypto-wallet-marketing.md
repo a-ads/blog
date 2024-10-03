@@ -48,7 +48,7 @@ By adding these points and incorporating the relevant information into the tabul
 
 ### Segmenting The Target Audience
 
-![Segmenting The Target Audience](/blog/assets/pexels-pixabay-262438.jpg "Segmenting The Target Audience")
+![Segmenting The Target Audience](/blog/assets/crypto-wallet-marketing-segmenting-the-target-audience.webp "Segmenting The Target Audience")
 
 *Source: Pexels.com*
 
@@ -85,11 +85,9 @@ In addition, you should find out where your target audience seeks information. D
 * YouTube
 * Personal contacts and/or business chats
 
-
-
 ### Developing an Effective Marketing Strategy and Product Positioning Based on Target Audience Research
 
-![Developing an Effective Marketing Strategy](/blog/assets/pexels-lukas-669621.jpg "Developing an Effective Marketing Strategy")
+![Developing an Effective Marketing Strategy](/blog/assets/crypto-wallet-marketing-developing-an-effective-marketing-strategy.webp "Developing an Effective Marketing Strategy")
 
 *Source: Pexels.com*
 
