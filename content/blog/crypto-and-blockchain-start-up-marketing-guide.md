@@ -34,7 +34,7 @@ Here are a few words about the crypto industry and practical terms before we mov
 
 ## What are ICO, IEO, and IDO? 
 
-![Start Up Marketing Strategies ](/blog/assets/pexels-canva-studio-3194521.jpg "Start Up Marketing Strategies ")
+![Start Up Marketing Strategies ](/blog/assets/what-are-ico-ieo-and-ido.webp "Start Up Marketing Strategies ")
 
 *Source: Pexels.com*
 
@@ -88,7 +88,7 @@ And only after that your start-up is ready to be promoted.
 
 ## How To Start Promoting Your Crypto Start-Up
 
-![Social Networks Strategies ](/blog/assets/pexels-pixabay-147413.jpg "Social Networks Strategies ")
+![Social Networks Strategies ](/blog/assets/how-to-start-promoting-your-crypto-start-up.webp "Social Networks Strategies ")
 
 ### 1. Use Social Networks and Forums
 
