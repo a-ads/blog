@@ -32,7 +32,7 @@ In this article, we will learn more about untapped possibilities of crypto adver
 
 ## Facebook and Instagram Ads Crypto Policy
 
-![Facebook and Instagram Ads Crypto Policy](/blog/assets/pexels-pixabay-147413-1-.jpg "Facebook and Instagram Ads Crypto Policy")
+![Facebook and Instagram Ads Crypto Policy](/blog/assets/facebook-and-instagram-ads-crypto-policy.webp "Facebook and Instagram Ads Crypto Policy")
 
 *Source: Pexels.com*
 
