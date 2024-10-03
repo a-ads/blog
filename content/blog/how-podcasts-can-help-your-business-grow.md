@@ -30,7 +30,7 @@ Podcasting is pretty much similar to radio but much more convenient because the 
 
 The term "podcasting" emerged from journalist Ben Hammersley's 2004 article for The Guardian, blending "iPod" and "broadcasting." Although Apple did not invent podcasts, the iPod was one of the MP3 players for audio file consumption.However, the actual podcasting explosion occurs in the 2020s and gives benefits not only for listeners but also for businesses.
 
-![Ben Hammersley](/blog/assets/440px-ben_hammersley_-4891995445-.jpg "Ben Hammersley")
+![Ben Hammersley](/blog/assets/ben-hammersley.webp "Ben Hammersley")
 
 *Ben Hammersley*
 
@@ -60,7 +60,7 @@ Lastly, consider the networking aspect. A podcast can be a powerful tool for bui
 
 Now, let’s also check the advantages and disadvantages of podcast format:
 
-![Advantages and disadvantages of podcast format](/blog/assets/podcasts_table.png "Advantages and disadvantages of podcast forma")
+![Advantages and disadvantages of podcast format](/blog/assets/advantages-and-disadvantages-of-podcast-format.webp "Advantages and disadvantages of podcast forma")
 
 ## How Marketers Can Use Podcasts
 
@@ -88,7 +88,7 @@ Here, the company funds the creation of a podcast project, and, in return, the h
 
 ## How To Create A Podcast
 
-![Podcast Creation](/blog/assets/pexels-george-milton-6953672.jpg "Podcast Creation")
+![Podcast Creation](/blog/assets/how-to-create-a-podcast.webp "Podcast Creation")
 
 *Source: Pexels.com*
 
@@ -144,7 +144,7 @@ The **"People Tell Stories"** format encompasses two subtypes:
 
 ### Some Examples of Popular Crypto Podcasts
 
-![Examples of Popular Crypto Podcasts](/blog/assets/podcasts.png "Examples of Popular Crypto Podcasts")
+![Examples of Popular Crypto Podcasts](/blog/assets/advantages-and-disadvantages-of-crypto-podcast.webp "Examples of Popular Crypto Podcasts")
 
 There are thousands of excellent podcasts available on the internet, and while the selection is more limited when it comes to crypto topics, there are still some fantastic options to discover: 
 
