@@ -27,7 +27,7 @@ NFTs (Non-Fungible Tokens) have taken the digital world by storm, revolutionizin
 
 The skyrocketing popularity of NFTs is evident in the record-breaking sales. For instance, Beeple's artwork titled "Every day: the First 5,000 Days" sold for an astonishing $69,000,000, securing its place as the most expensive NFT. 
 
-![Every Day The First 5000 Days NFT](/blog/assets/_117560138_beeplecollage64457741-5_976x549.jpg "Every Day The First 5000 Days NFT")
+![Every Day The First 5000 Days NFT](/blog/assets/every-day-the-first-5000-days.webp "Every Day The First 5000 Days NFT")
 
 *Source: Wikipedia* 
 
@@ -39,7 +39,7 @@ There are several vital reasons why brands use NFTs in today's digital landscape
 
 ### 1. Brands Can Enter A New Market And Build A Community
 
-![NBA Top Shot NFT](/blog/assets/nba-top-shot_press-collectibles_.jpg "NBA Top Shot NFT")
+![NBA Top Shot NFT](/blog/assets/nba-top-shot-press-collectibles.webp "NBA Top Shot NFT")
 
 *Source: nbatopshot.com*
 
@@ -49,7 +49,7 @@ NFTs allow brands to tap into a new market and create a community of passionate 
 
 ### 2. Foster A Sense Of Community
 
-![ Bored Ape Yacht Club NFT](/blog/assets/rs-boardape_lead_5.jpg.webp " Bored Ape Yacht Club NFT")
+![ Bored Ape Yacht Club NFT](/blog/assets/rs-boardape-lead-5.webp " Bored Ape Yacht Club NFT")
 
 *Source: Wikipedia* 
 
@@ -122,8 +122,6 @@ Overall, NFTs have opened up exciting opportunities for brands and businesses to
 9. [10 Tips for Better Mobile Optimization in Crypto Advertising](https://aads.com/blog/ten-tips-for-better-mobile-optimization-in-crypto-advertising/)
 10. [The Benefits of Native Advertising for Crypto Brands](https://aads.com/blog/the-benefits-of-native-advertising-for-crypto-brands/)
 
-
-
 **FQA** 
 
 ***What is NFT marketing?***
@@ -162,8 +160,6 @@ Overall, NFTs have opened up exciting opportunities for brands and businesses to
 ***What is the future of NFT marketing?***
 
 *We think that the future of NFT marketing holds continued growth, with increased mainstream adoption, innovative use cases beyond art, and further integration into entertainment, gaming, and virtual experiences.*
-
-
 
 **References:** 
 
