@@ -32,68 +32,37 @@ Welcome to the Crypto to Fiat Guide, designed for advertisers who prefer making 
 **1. Initiating the Deposit**
 
 To begin, log in to your AADS account and select "Deposit funds."\
-💡Let’s say we’d like to deposit BTC
+💡Choose **United States Dollar** in **Select currency** section.
 
-![Initiating the Deposit](/blog/assets/1-deposit-funds.webp "Initiating the Deposit")
+![Initiating the Deposit](/blog/assets/000.png "Initiating the Deposit")
 
 **2. Copying the Address**
 
-After selecting the currency, you'll be presented with a wallet address. Click on "Copy" to copy this address.
+After selecting the currency, you'll be presented with a wallet address. Click on "Copy" to copy this address. Select fiat amount in the widget below and click "Deposit BTC" button.
 
-![Copying the Address](/blog/assets/2-copy-address.webp "Copying the Address")
+![Copying the Address](/blog/assets/111.png "Copying the Address")
 
-**3. Navigating to Changelly**
+**3. Paste wallet address**
 
-Open your web browser and visit [Changelly](https://changelly.com/). On the Changelly platform, click on the "Buy" option.
+P﻿aste BTC address and click "Continue"
 
-![Navigating to Changelly](/blog/assets/3-navigating-to-changelly.webp "Navigating to Changelly")
+![](/blog/assets/222.png)
 
-**4. Choosing Fiat and Crypto**
+**4. Navigating to Changelly**
 
-At this point, you need to select the fiat currency you wish to use for payment and the cryptocurrency you're depositing (the same one chosen in the AADS deposit window).
+I﻿n the opened window, choose  "Visa/Mastercard" as a payment method and click "Place order". 
 
-\
-💡 For instance, if you're depositing BTC and have copied the BTC address, choose BTC. In this example, we'll be buying BTC in USD.
+![Navigating to Changelly](/blog/assets/333.png "Navigating to Changelly")
 
-![Choosing Fiat and Crypto](/blog/assets/4-choosing-fiat-and-crypto.webp "Choosing Fiat and Crypto")
+**5. Verification and payment**
 
-**5. Selecting Payment Provider**
+V﻿erify your email and identity. For new customers, some identification documents may be required. The process should only take a couple of minutes. After that, you can proceed with the payment using a bank card.
 
-\
-💡 Now, you'll be prompted to choose a payment provider. Although the following steps are demonstrated for the Simplex platform, feel free to select your preferred provider. Pay attention to the transaction details, including the displayed fee.
+![Choosing Fiat and Crypto](/blog/assets/444.png "Choosing Fiat and Crypto")
 
-![Selecting Payment Provider](/blog/assets/5-selecting-payment-provider.webp "Selecting Payment Provider")
+**6. Processing and Waiting**
 
-\
-**6. Entering Address and Payment Information**
-
-Paste the address copied from the AADS deposit funds window into the designated field and click "Buy."
-
-![Entering Address and Payment Information](/blog/assets/6-entering-address-and-payment-information.webp "Entering Address and Payment Information")
-
-**7. Email Verification**
-
-Proceed by entering your payment information, including card details and personal information. Click "Pay" to proceed.
-
-![Email Verification](/blog/assets/7-email-verification.webp "Email Verification")
-
-![Email Verification Two](/blog/assets/7-email-verification_2.webp "Email Verification Two")
-
-**8. Complete Email Verification**
-
-Complete the email verification process as required. 
-
-![Complete Email Verification](/blog/assets/8-complete-email-verification.webp "Complete Email Verification")
-
- **9. Payment Approval**
-
-Your payment request should now be under review for approval.
-
-![Payment Approval](/blog/assets/9-payment-approval.webp "Payment Approval")
-
-**10. Processing and Waiting**
-
-Wait till the fund are processed in your account
+Wait till the fund are processed in your account.
 
 💡 Usually, deposits sent to AADS are processed within an hour.
 
