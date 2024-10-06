@@ -66,10 +66,8 @@ Wait till the fund are processed in your account.
 
 💡 Usually, deposits sent to AADS are processed within an hour.
 
-![Processing and Waiting](/blog/assets/10-processing-and-waiting.webp "Processing and Waiting")
+Congratulations! You've successfully completed the process of depositing fiat into your AADS account. You may check the status of your deposit on **Finances => Deposits** page.
 
-Congratulations! You've successfully completed the process of depositing fiat into your AADS account. You may check the status of your deposit on Finances => Deposits page.
-
-![ The Process of Depositing Fiat is Completed ](/blog/assets/deposit-page-status.webp " The Process of Depositing Fiat is Completed ")
+![ The Process of Depositing Fiat is Completed ](/blog/assets/999.png " The Process of Depositing Fiat is Completed ")
 
 If you encounter any issues during the process, please don't hesitate to contact our support team for assistance. We're here to help ensure a smooth experience for you.
