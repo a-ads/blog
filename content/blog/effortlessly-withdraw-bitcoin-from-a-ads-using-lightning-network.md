@@ -64,17 +64,13 @@ The simplest and quickest way to set up a wallet that supports Lightning is the 
 
 Now that you have your Lightning wallet ready let's move on to the next steps for withdrawing funds from AADS:
 
-Click on the Finance section in the top menu of the site. 
+Click on "Withdrawal options" in the Finances section in the user dashboard.  
 
-![Finance section in the top menu](/blog/assets/click-on-finance-section.webp)
+![Finance section in the top menu](/blog/assets/555.png)
 
-Then click on the Withdrawal Settings button
+In the window that opens, select the "To lightning network" option and fill in the required fields in the form.
 
-![Withdrawal Settings button](/blog/assets/click-on-the-withdrawal-settings.webp)
-
-In the window that opens, select the To lightning network option and fill in the required fields in the form.
-
-![ To lightning network option](/blog/assets/select-the-to-lightning-network.webp)
+![ To lightning network option](/blog/assets/666.png)
 
 Follow the link that was sent to your email.
 
@@ -94,7 +90,7 @@ They will help you throughout the process and resolve the issue promptly.
 
 After three days, your new withdrawal method will become active, and you can go to the **Finance** => **My Finance** page and click **Withdraw all funds**.
 
-![withdrawal method will become active]()
+![withdrawal method will become active](/blog/assets/777.png)
 
 In a couple of seconds, the funds will be in your wallet.
 
