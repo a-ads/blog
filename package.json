@@ -9,10 +9,11 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build --prefix-paths",
+    "build": "gatsby build --prefix-paths && npm run move",
     "serve": "gatsby serve --prefix-paths",
     "clean": "gatsby clean",
-    "prebuild": "chmod +x ./prebuild.sh && ./prebuild.sh"
+    "prebuild": "chmod +x ./prebuild.sh && ./prebuild.sh",
+    "move": "cd public && mkdir -p blog && rsync -ah --remove-source-files --exclude 'blog' . blog/"
   },
   "dependencies": {
     "@mdx-js/react": "^3.0.1",
