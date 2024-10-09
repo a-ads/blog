@@ -117,11 +117,18 @@
       }
     }
 
-    h4, h5 {
-      font-size: 18px;
+    h4 {
+      font-size: 20px;
       line-height: 1.5;
       @include breakpoint('phone') {
         font-size: 16px;
+      }
+    }
+
+    h5, h6 {
+      font-size: 18px;
+      @include breakpoint('phone') {
+        font-size: 14px;
       }
     }
 
@@ -130,7 +137,10 @@
     h3 + h4,
     h4 + h5,
     h5 + h6 {
-      margin-top: 16px;
+      margin-top: 30px;
+      @include breakpoint('phone') {
+        margin-top: 20px;
+      }
     }
 
     p {
