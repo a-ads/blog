@@ -1,12 +1,6 @@
 @import '/src/styles/params.scss';
 @import '/src/styles/breakpoint.scss';
 
-.layout-footer {
-  @include breakpoint('tablet') {
-    padding-bottom: 56px;
-  } 
-}
-
 .blog-post {
   padding-top: 40px;
   padding-bottom: 130px;
