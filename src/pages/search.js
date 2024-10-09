@@ -23,7 +23,7 @@ const SearchPage = ({ data }) => {
     const params = new URLSearchParams(window.location.search)
     const query = params.get('query') || ''
     setSearchQuery(query)
-  }, [])
+  }, [setSearchQuery])
 
   useEffect(() => {
     setSearchResult(fuse.search(searchQuery))
