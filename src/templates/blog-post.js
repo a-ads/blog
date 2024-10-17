@@ -44,12 +44,12 @@ export function Head({ data: { post, author } }) {
     <Seo
       title={post.frontmatter.meta_title || post.frontmatter.title}
       description={post.frontmatter.meta_description}
-      img={'https://aads.com/blog/images/logo.png'}
+      img={'https://aads.com/blog/images/logo.svg'}
     >
       <meta property='og:title' content={post.frontmatter.meta_title} />
       <meta
         property='og:image'
-        content={'https://aads.com/blog/images/logo.png'}
+        content={'https://aads.com/blog/images/logo.svg'}
       />
       <meta
         property='og:url'
