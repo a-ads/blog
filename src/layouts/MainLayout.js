@@ -117,7 +117,7 @@ const MainLayout = props => {
       <div className={css.captionWrap}>
         <div className='container'>
           <p className={cn('text-secondary-color')}>
-            A-ADS crypto ad network has been working with crypto and non-crypto websites since 2011,
+            AADS crypto ad network has been working with crypto and non-crypto websites since 2011,
             providing banner ad solutions. As a trusted Bitcoin advertising network, we prioritize
             delivering high-quality crypto ads to amplify your campaign's impact
           </p>
@@ -241,7 +241,7 @@ const MainLayout = props => {
       <div className={css.bottomWrap}>
         <div className={cn(css.container, 'container')}>
           <div className={css.copyrightAndLinks}>
-            <p>© A-ADS 2011-2024</p>
+            <p>© AADS 2011-2024</p>
             <p><a href="/terms_of_service/">Terms of Service</a></p>
             <p><a href="/privacy_policy/">Privacy Policy</a></p>
           </div>
