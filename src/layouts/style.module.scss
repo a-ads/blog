@@ -44,6 +44,10 @@
       color: $text-primary-color;
     }
 
+    a:hover {
+      color: rgba(0, 170, 255, 1);
+    }
+
     a + a {
       margin-left: 34px;
     }
@@ -255,6 +259,10 @@
         font-size: 14px;
         line-height: 18px;
       }
+
+      a:hover {
+        color:rgb(122, 129, 133);
+      }
     }
 
     ul li + li {
@@ -302,6 +310,10 @@
           font-size: 14px;
           line-height: 20px;
         }
+      }
+
+      a:hover {
+        color: #373d47;
       }
 
       p:nth-child(2), p:nth-child(3) {

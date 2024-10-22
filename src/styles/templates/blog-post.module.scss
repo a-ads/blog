@@ -57,6 +57,10 @@
 
   .breadcrumbs {
     margin-bottom: 12px;
+
+    a:hover {
+      color: $primary-blue-accent-color;
+    }
   }
 
   .article-picture {
@@ -71,6 +75,10 @@
   .article {
     font-size: 18px;
     line-height: 28px;
+
+    a:hover {
+      color: $primary-blue-accent-color;
+    }
 
     img {
       max-width: 100%;
@@ -266,6 +274,10 @@
     padding-top: 20px;
     margin-top: 20px;
 
+    a:hover {
+      color: $primary-blue-accent-color;
+    }
+
     p {
       font-size: 14px;
     }
@@ -320,7 +332,7 @@
       button + button {
         margin-left: 12px;
       }
-    }
+    }    
   }
 
   .table-of-contents-mobile {
