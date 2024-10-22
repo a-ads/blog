@@ -134,7 +134,7 @@ Why choose [Exodus](https://www.exodus.com) 
 * Also, there is no multi-signature support
 * Software isn't open-source
 
- ![](https://lh3.googleusercontent.com/Msd_vitCQrdlCFW8MdH4t19tNzUVhDtFlqQhy1Qa9V0cUz72nAwXhVjblg1yMBoKCsfUryt4IR9cmy2ESNnXCCks1-A__7bPZGwrSpNq7v-tpQerXh-KCjLmbSa4Lza8K7VodT0ewEd2Tr7WhTY7Sj-ww-V8qnE5ye4kQCti29YxotXs1mEj8zdPHgvMrQ)
+ ![Exodus wallet](https://lh3.googleusercontent.com/Msd_vitCQrdlCFW8MdH4t19tNzUVhDtFlqQhy1Qa9V0cUz72nAwXhVjblg1yMBoKCsfUryt4IR9cmy2ESNnXCCks1-A__7bPZGwrSpNq7v-tpQerXh-KCjLmbSa4Lza8K7VodT0ewEd2Tr7WhTY7Sj-ww-V8qnE5ye4kQCti29YxotXs1mEj8zdPHgvMrQ)
 
 *Source: Exodus.com* 
 
