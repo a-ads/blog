@@ -41,17 +41,13 @@ Let’s look at some data first:
 
 ### How is Growth Marketing Different from Traditional Marketing?
 
-![How Growth Marketing Different from Traditional Marketing table](https://aads.com/blog/assets/growth-marketing-illustrations.png "How Growth Marketing Different from Traditional Marketing table")
+![How Growth Marketing Different from Traditional Marketing table](/blog/assets/growth-marketing-vs-traditional-marketing.webp "How Growth Marketing Different from Traditional Marketing table")
 
 Traditional marketing methods rely on mass communication to reach a broad audience. They often involve a one-way flow of information, with little opportunity for feedback or personalization. On the other hand, growth marketing focuses on targeted communication with specific customer segments, using data to identify the most effective channels and messaging. It involves a continuous process of experimentation and optimization, with a focus on driving customer acquisition and retention.
 
-
-
 ### **Advantages of Growth Marketing**
 
-![Advantages of Growth Marketing Illustration ](https://aads.com/blog/assets/growth-marketing-illustrations_2.png "Advantages of Growth Marketing Illustration ")
-
-
+![Advantages of Growth Marketing Illustration ](/blog/assets/growth-marketing-avantages.webp "Advantages of Growth Marketing Illustration ")
 
 Growth marketing offers several advantages over traditional marketing, including the following:
 
@@ -86,7 +82,7 @@ To illustrate the strategies above, let's study some examples of successful grow
 
 ### **Best Practices for Growth Marketing**
 
-![The AARRR framework pirate metrics ](https://aads.com/blog/assets/aarrr-pirate-metrics_.png "The AARRR framework pirate metrics ")
+![The AARRR framework pirate metrics ](/blog/assets/aarrr-pirate-metrics.webp "The AARRR framework pirate metrics ")
 
 So, how can you implement growth marketing strategies in your business? The AARRR framework, which is one of the most popular frameworks for growth marketing, can help you with it. This framework divides your marketing growth strategies into five stages and assigns metrics to map this journey:
 
@@ -97,8 +93,6 @@ So, how can you implement growth marketing strategies in your business? The AARR
 * **Revenue:** Enhance customer lifetime value
 
 In addition, it's important to continuously test and optimize marketing strategies, invest in customer experience and retention, and collaborate with other businesses and influencers to expand your reach.
-
-
 
 ### **Challenges and Limitations of Growth Marketing**
 
