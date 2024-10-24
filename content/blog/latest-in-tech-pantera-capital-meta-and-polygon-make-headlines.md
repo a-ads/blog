@@ -11,8 +11,7 @@ author: Micheal George
 thumbnail: blog/assets/12.png
 big_picture: blog/assets/latest-in-tech_-pantera-capital-meta-and-polygon-make-headlines.png
 popularity: "0"
-meta_title: "Latest in Tech: Pantera Capital, Meta, and Polygon Make Headlines |
-  AADS Blog"
+meta_title: "Latest in Tech: Pantera Capital, Meta, and Polygon Make Headlines | AADS Blog"
 meta_description: Pantera Capital invests $22.5M in M^ZERO Labs, revolutionizing
   institutional asset allocation. Meta launches an advanced AI model for object
   recognition and masking. Polygon emerges as the second-largest gaming
@@ -27,7 +26,7 @@ Pantera Capital, a well-known cryptocurrency investment fund, [has invested](htt
 
 ## **Meta Launches Advanced AI Model for Object Recognition and Masking in Images and Videos** 
 
-![ Advanced AI Model for Object Recognition](/blog/assets/2023-05-16-100243.jpg " Advanced AI Model for Object Recognition")
+![ Advanced AI Model for Object Recognition](/blog/assets/meta-advanced-ai-model-for-object-recognition.webp " Advanced AI Model for Object Recognition")
 
 *Source: ai.facebook.com*
 
