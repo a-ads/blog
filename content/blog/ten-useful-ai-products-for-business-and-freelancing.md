@@ -32,7 +32,7 @@ In this article, we will have a closer look at ten great AI tools that can be he
 
 ### 2. TMetric
 
-![TMetric allows you to prioritize and schedule tasks in advance](/blog/assets/img-advantages.svg "TMetric is a user-friendly and free time-tracking system")
+![TMetric allows you to prioritize and schedule tasks in advance](/blog/assets/tmetric-time-tracking-system.webp "TMetric is a user-friendly and free time-tracking system")
 
 *Resource: TMetric.com*
 
@@ -44,7 +44,7 @@ Need help keeping focus? This tool is for you! Stayfocusd is a web extension for
 
 ### 4. Redbooth
 
-![Redbooth is a powerful tool for day-to-day work and team project management](/blog/assets/x4-timeline2x.png.pagespeed.ic.idrhoepexw.png "Redbooth is a powerful tool for day-to-day work and team project management")
+![Redbooth is a powerful tool for day-to-day work and team project management](/blog/assets/redbooth-team-project-management.webp "Redbooth is a powerful tool for day-to-day work and team project management")
 
 *Resource: Redbooth.com*
 
@@ -80,4 +80,4 @@ When you need to sign documents quickly but can not physically be at the office,
 
 This tool helps to automate bookkeeping and accounting tasks, such as fixing uncategorized transactions and auto-categorizing them. It includes an AI assistant that provides expert reconciliation suggestions and improves client communication. Booke AI also features an invoice and receipt OCR to extract data in real time and a book chrome extension for reconciling and categorizing transactions in bulk, which can be pretty helpful for all business owners. 
 
-To learn more about helpful AI tools, read our articles ["Top 10 AI Products for Marketing and Management to Enhance Efficiency"](https://aads.com/blog/top-ten-ai-products-for-marketing-and-management-to-enhance-efficiency/) and "[Neural Networks in Marketing: A Comprehensive Guide to the Latest Tools and Techniques".](https://aads.com/blog/neural-networks-in-marketing-a-comprehensive-guide-to-the-latest-tools-and-techniques/)
+To learn more about helpful AI tools, read our articles ["Top 10 AI Products for Marketing and Management to Enhance Efficiency"](/top-ten-ai-products-for-marketing-and-management-to-enhance-efficiency/) and "[Neural Networks in Marketing: A Comprehensive Guide to the Latest Tools and Techniques".](/neural-networks-in-marketing-a-comprehensive-guide-to-the-latest-tools-and-techniques/)
