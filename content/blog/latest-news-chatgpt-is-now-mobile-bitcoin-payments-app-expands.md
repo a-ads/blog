@@ -29,7 +29,7 @@ Among the updates is the rollout of several new features for Bing, such as video
 
 ### ChatGPT Is Going Mobile
 
-![ChatGPT Is Now On Mobile ](/blog/assets/im-726654.jpeg "ChatGPT Is Now On Mobile ")
+![ChatGPT Is Now On Mobile ](/blog/assets/chatgpt-is-now-on-mobile.webp "ChatGPT Is Now On Mobile ")
 
 *Source: Openaimaster.com*
 
