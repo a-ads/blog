@@ -30,7 +30,7 @@ Previous week we wrote about growth marketing and how it can help your business 
 
 It is one of the most effective growth marketing strategies. You can inform, educate, and interest your audience by creating a lead-generating content marketing strategy. You can do this through blog posts, eBooks, online courses, videos, and more. The goal is to demonstrate your expertise, authenticate your business, build trust with your audience, and drive traffic to your website, where you can convert them into leads and customers. 
 
-![Airbnb Magazine](/blog/assets/2023-05-15-163351.jpg "Airbnb Magazine")
+![Airbnb Magazine](/blog/assets/airbnb-magazine.webp "Airbnb Magazine")
 
 Source: tinyhouseblog.com
 
@@ -42,7 +42,7 @@ Building a free tool that addresses your audience's pain points can effectively 
 
 ### 3. Build an Automated LinkedIn Lead Generation Machine
 
-![LinkedIn Lead Generation Machine](/blog/assets/снимок-экрана-2023-05-15-в-16.34.06.png "LinkedIn Lead Generation Machine")
+![LinkedIn Lead Generation Machine](/blog/assets/linkedin-lead-generation-machine.webp "LinkedIn Lead Generation Machine")
 
 You can turn LinkedIn into a lead-generation machine by optimizing your company page, building a hyper-engaged network, creating value-packed content, and using targeted outreach. You can even build a sales pipeline through video nurture campaigns. An example of a brand that has done this effectively is Hootsuite.  
 
